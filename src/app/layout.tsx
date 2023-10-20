@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel='icon' href='/PROMMA.svg' />
-        <meta name="google-adsense-account" content="ca-pub-9270621638584149" />
+        <meta name="google-adsense-account" content="ca-pub-9270621638584149"></meta>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
