@@ -19,7 +19,7 @@ export default function RootLayout({
       <head>
         <link rel='icon' href='/PROMMA.svg' />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9270621638584149"
-     crossOrigin="anonymous"></script>
+     crossorigin="anonymous"></script>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
