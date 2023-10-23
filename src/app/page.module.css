@@ -1,15 +1,3 @@
-.navbar {
-  background-color: #00000099;
-  position: absolute;
-  width: 995px;
-  height: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 15px;
-  margin-left: calc(50% - (995px / 2));
-}
-
 .hero {
   height: 70vh;
   overflow: hidden;

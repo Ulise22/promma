@@ -16,7 +16,7 @@ export default function Home () {
           <h2 className={styles.article__title}>¿Que son las MMA?</h2>
           <p className={styles.article__p}>Las MMA (por sus iniciales en inglés, Mixed Martial Arts), es un deporte de combate que combina diferentes disciplinas y artes marciales como el boxeo, el jiu-jitsu, el kickboxing o el muay thai.</p>
           <p className={styles.article__p}>Es un deporte relativamente nuevo, dado que comenzó a popularizarse y a conocerse como tal en los años 90, cuando se organizaron en Estados Unidos y Japón los primeros torneos de esta disciplina.</p>
-          <Image className={styles.article__img} src={mmadescription} alt='2 peladores luchando' />
+          <Image className={styles.article__img} src={mmadescription} alt='2 peladores luchando, en una escuela de mma, durante un sparring, donde uno de ellos da una patada en el aire' />
           <p className={styles.article__p}>Su creciente popularidad en los últimos años, dió lugar a la creación de diferentes empresas y organizaciones de renombre como lo son la UFC (Ultimate Fighting Championship), o Bellator MMA, entre otras. Estas organizaciones organizan eventos donde los luchadores compiten en un octágono o un ring, y las peleas son transmitidas por televisión, con una cada vez mayor audiencia.</p>
         </article>
         <article>
@@ -36,7 +36,7 @@ export default function Home () {
         <article className={styles.article}>
           <h2 className={styles.article__title}>Mma argentina</h2>
           <p className={styles.article__p}>Las MMA en Argentina vienen creciendo como en todo el mundo, llegando a tener un peleador campeón de la Professional Fighthers League(PFL) como <b>Emiliano Sordi</b> o al capeón de peso welter en la compañía ARES como <b>Laureano Staropoli</b>. Además claro, de nuestros representantes en la UFC, como lo son <b>Santiago Ponzibbio, Guido Cannetti y Marcelo Rojo</b> en la rama masculina, junto a <b>Silvana Gómez y Ailín Pérez</b> en la rama femenina.</p>
-          <Image className={styles.article__img} src={emisordi} alt='Emiliano Sordi campeon argentino de mma' width={500} />
+          <Image className={styles.article__img} src={emisordi} alt='Emiliano Sordi, campeon argentino de mma en la companía Professional Fighters League' width={500} />
         </article>
       </section>
     </main>

@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #00000099;
+    position: absolute;
+    width: 995px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.navbar__link {
+    color: #fff;
+    margin: 0 25px;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+.navbar__link:hover {
+    color: #ccc;
+    transition: color .3s ease;
+}
+  
+@media screen and (max-width: 1015px) {
+    .navbar {
+      width: 100%;
+      margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .navbar {
+      margin-top: 0;
+    }
+}  
