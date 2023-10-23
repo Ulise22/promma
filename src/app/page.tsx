@@ -1,4 +1,3 @@
-import Navbar from './Navbar'
 import styles from './page.module.css'
 import mmadescription from '../assets/mma-description.jpg'
 import emisordi from '../assets/Emiliano_Sordi.jpg'
@@ -7,9 +6,8 @@ import Image from 'next/image'
 export default function Home () {
   return(
     <main>
-      <Navbar />
       <section className={styles.hero}>
-        <h1 className={styles.hero__title}>MMA</h1>
+        <h1 className={styles.hero__title}>PROMMA, toda la información de las artes marciales mixtas</h1>
       </section>
       <section className={styles.articles__container}>
         <article className={styles.article}>

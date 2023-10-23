@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Navbar from './Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,7 +21,10 @@ export default function RootLayout({
         <link rel='icon' href='/PROMMA.svg' />
         <meta name="google-adsense-account" content="ca-pub-9270621638584149"></meta>
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   )
 }
