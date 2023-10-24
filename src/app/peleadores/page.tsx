@@ -10,7 +10,7 @@ export default function Peleadores () {
             <section className={styles.peleadores__container}>
                 <h2 className={styles.peleadores__subtitle}>Luchadores de UFC</h2>
                 <Link href='/peleadores/illia-topuria' className={`${styles.peleadores__card} ${styles.peleadores__card_illia}`}>
-                    <h3 className={styles.peleadores__card__name}>Illia Topuria</h3>
+                    <h3 className={styles.peleadores__card__name}>Ilia Topuria</h3>
                 </Link>
             </section>
             <section className={styles.peleadores__container}>

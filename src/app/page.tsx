@@ -2,6 +2,7 @@ import styles from './page.module.css'
 import mmadescription from '../assets/mma-description.jpg'
 import emisordi from '../assets/Emiliano_Sordi.jpg'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home () {
   return(
@@ -21,7 +22,7 @@ export default function Home () {
           <h2 className={styles.article__title}>Tipos de Artes Marciales</h2>
           <p className={styles.article__p}>Existen diferentes tipos de artes marciales que se utilizan en las mma, aunque los más utilizados son los siguientes: </p>
           <ul>
-            <li>Boxeo</li>
+            <li>Boxeo (<Link href='./estilos'>Ver info</Link>) </li>
             <li>Jiu-jitsu</li>
             <li>Karate</li>
             <li>Kickboxing</li>
