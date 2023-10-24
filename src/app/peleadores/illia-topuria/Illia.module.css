@@ -1,0 +1,54 @@
+.ilia__hero{
+    height: 60vh;
+    background-color: #F8F8F8;
+    overflow: hidden;
+    color: #000;
+    display: grid;
+    gap: 30px;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.ilia__hero__info {
+    margin-top: 100px;
+}
+
+.ilia__hero__p {
+    line-height: 0;
+}
+
+.ilia__hero__name {
+    font-size: 48px;
+    line-height: 0;
+}
+
+.ilia__hero__nickname {
+    font-weight: 700;
+    line-height: 0;
+}
+
+.ilia__record {
+    grid-column: 1/2;
+    display: flex;
+    text-align: center;
+    height: 200px;
+}
+
+.ilia__record__container {
+    border-right: 1px solid #000;
+    padding: 10px;
+}
+
+.ilia__record__container3 {
+    padding: 10px;
+}
+
+.ilia__record__number {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.ilia__image {
+    margin-top: -100px;
+}

@@ -6,26 +6,26 @@ export default function Illia () {
     return(
         <main>
             <section className={styles.ilia__hero}>
-                <article>
-                    <p>Peso pluma (featherweight)</p>
-                    <h1>Ilia Topuria</h1>
-                    <h4>"EL MATADOR"</h4>
+                <article className={styles.ilia__hero__info}>
+                    <p className={styles.ilia__hero__p}>Peso pluma (featherweight)</p>
+                    <h1 className={styles.ilia__hero__name}>Ilia Topuria</h1>
+                    <h4 className={styles.ilia__hero__nickname}>"EL MATADOR"</h4>
                 </article>    
-                <article>
-                    <div>
-                        <p>14</p>
-                        <p>Victorias</p>
+                <article className={styles.ilia__record}>
+                    <div className={styles.ilia__record__container}>
+                        <p className={styles.ilia__record__number}>14</p>
+                        <b>Victorias</b>
                     </div>
-                    <div>
-                        <p>0</p>
-                        <p>Derrotas</p>
+                    <div className={styles.ilia__record__container}>
+                        <p className={styles.ilia__record__number}>0</p>
+                        <b>Derrotas</b>
                     </div>
-                    <div>
-                        <p>0</p>
-                        <p>Empates</p>
+                    <div className={styles.ilia__record__container3}>
+                        <p className={styles.ilia__record__number}>0</p>
+                        <b>Empates</b>
                     </div>
                 </article>
-                <Image src={topuria} alt="" />
+                <Image className={styles.ilia__image} src={topuria} alt="" />
             </section>
         </main>
     )
