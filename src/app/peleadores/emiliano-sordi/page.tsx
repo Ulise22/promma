@@ -27,6 +27,21 @@ export default function Emiliano () {
                 </article>
                 <Image className={styles.emiliano__image} src={emiliano} alt="" />
             </section>
+            <section>
+                <article>
+                    <h2>Emiliano Sordi mma</h2>
+                    <p>Emiliano Sordi es un peleador de mma argentino</p>
+                </article>
+                <article>
+                    <h2>Emiliano Sordi ufc</h2>
+                    <p>Emiliano en una entrevista reconoció que recibió una propuesta para pelear en la ufc, </p>
+                </article>
+                <article>
+                    <h2>Última pelea de Emiliano Sordi</h2>
+                    <p>En su último enfrentamiento</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Fgf6eQT6X8k?si=JRzSXaklxbY3IYnt" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                </article>
+            </section>
         </main>
     )
 }

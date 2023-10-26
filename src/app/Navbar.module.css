@@ -32,5 +32,11 @@
 @media screen and (max-width: 659px) {
     .navbar {
       top: 0;
+      font-size: 15px;
+    }
+
+    .navbar__logo {
+        height: 15px;
+        width: fit-content;
     }
 }  

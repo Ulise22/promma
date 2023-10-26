@@ -16,8 +16,46 @@
 .estilos__container {
     width: 50%;
     margin: 70px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .estilos__title {
     font-size: 32px;
 }
+
+.estilos__image {
+    width: 100%;
+    height: fit-content;
+}
+
+@media screen and (max-width: 1015px) {
+    .estilos__container {
+        width: 80%;
+        margin: 70px auto;
+    }
+
+    .estilos__hero__title {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .estilos__title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .estilos__container {
+        width: 90%;
+    }
+
+    .estilos__title {
+        font-size: 28px;
+    }
+
+    .estilos__text {
+        font-size: 15px;
+    }
+}  
