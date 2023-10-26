@@ -9,7 +9,7 @@ export default function Illia () {
                 <article className={styles.ilia__hero__info}>
                     <p className={styles.ilia__hero__p}>Peso pluma (featherweight)</p>
                     <h1 className={styles.ilia__hero__name}>Ilia Topuria</h1>
-                    <h4 className={styles.ilia__hero__nickname}>"EL MATADOR"</h4>
+                    <h4 className={styles.ilia__hero__nickname}>&quot;EL MATADOR&quot;</h4>
                 </article>    
                 <article className={styles.ilia__record}>
                     <div className={styles.ilia__record__container}>
@@ -26,6 +26,12 @@ export default function Illia () {
                     </div>
                 </article>
                 <Image className={styles.ilia__image} src={topuria} alt="" />
+            </section>
+            <section>
+                <article>
+                    <h2>Ilia Topuria ufc</h2>
+                    <p>Ilia Topuria es un luchador de nacionalidad georgiana y española de ufc</p>
+                </article>
             </section>
         </main>
     )

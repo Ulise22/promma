@@ -26,12 +26,11 @@
 @media screen and (max-width: 1015px) {
     .navbar {
       width: 100%;
-      margin-left: 0;
     }
 }
 
 @media screen and (max-width: 659px) {
     .navbar {
-      margin-top: 0;
+      top: 0;
     }
 }  

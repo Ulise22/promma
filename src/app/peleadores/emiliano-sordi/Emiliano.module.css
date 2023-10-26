@@ -1,4 +1,4 @@
-.ilia__hero{
+.emiliano__hero{
     height: 60vh;
     background-color: #F8F8F8;
     overflow: hidden;
@@ -10,46 +10,46 @@
     grid-template-rows: 1fr 1fr;
 }
 
-.ilia__hero__info {
+.emiliano__hero__info {
     margin-top: 100px;
 }
 
-.ilia__hero__p {
+.emiliano__hero__p {
     line-height: 0;
 }
 
-.ilia__hero__name {
+.emiliano__hero__name {
     font-size: 48px;
     line-height: 0;
 }
 
-.ilia__hero__nickname {
+.emiliano__hero__nickname {
     font-weight: 700;
     line-height: 0;
 }
 
-.ilia__record {
+.emiliano__record {
     grid-column: 1/2;
     display: flex;
     text-align: center;
     height: 200px;
 }
 
-.ilia__record__container {
+.emiliano__record__container {
     border-right: 1px solid #000;
     padding: 10px;
 }
 
-.ilia__record__container3 {
+.emiliano__record__container3 {
     padding: 10px;
 }
 
-.ilia__record__number {
+.emiliano__record__number {
     font-size: 32px;
     font-weight: 700;
 }
 
-.ilia__image {
+.emiliano__image {
     margin-top: -100px;
 }
 
@@ -61,7 +61,7 @@
 }
 
 @media screen and (max-width: 659px) {
-    .ilia__hero{
+    .emiliano__hero{
         height: 80vh;
         justify-items: center;
         grid-template-columns: 1fr;
@@ -69,34 +69,34 @@
         text-align: center;
     }
 
-    .ilia__hero__p {
+    .emiliano__hero__p {
         font-size: 15px;
     }
 
-    .ilia__hero__name {
+    .emiliano__hero__name {
         font-size: 32px;
         line-height: 0;
     }
 
-    .ilia__hero__nickname {
+    .emiliano__hero__nickname {
         font-size: 15px;
         font-weight: 600;
     }
 
-    .ilia__record {
+    .emiliano__record {
         height: 100px;
     }
 
-    .ilia__record__number {
+    .emiliano__record__number {
         font-size: 24px;
         font-weight: 600;
     }
 
-    .ilia__record {
+    .emiliano__record {
         line-height: 10px;
     }
 
-    .ilia__image {
+    .emiliano__image {
         margin-top: 10px;
     }
     
