@@ -10,6 +10,10 @@
   align-items: flex-end;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .hero__title {
   margin-bottom: 70px;
   font-size: 48px;
