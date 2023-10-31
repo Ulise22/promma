@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './Navbar.module.css'
-import logo from '../assets/PROMMA.svg'
+import logo from '../../assets/PROMMA.svg'
 import Link from 'next/link'
 
 export default function Navbar () {
