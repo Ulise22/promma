@@ -1,0 +1,14 @@
+.about {
+    width: 50%;
+    margin: 150px auto;
+}
+
+.about__title {
+    text-align: center;
+}
+
+@media screen and (max-width: 660px) {
+    .about {
+        width: 90%;
+    }
+}

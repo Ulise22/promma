@@ -14,6 +14,15 @@
     padding: 10px 0;
 }
 
+.foter__list__item {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.foter__list__item:hover {
+    color: #fff;
+}
+
 .footer__line {
     height: 1px;
     background-color: #aaa;
