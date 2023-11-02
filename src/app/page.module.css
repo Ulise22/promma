@@ -18,6 +18,7 @@
   margin-bottom: 70px;
   font-size: 48px;
   font-weight: 900;
+  text-align: center;
 }
 
 .articles__container {
@@ -57,13 +58,19 @@
   }
 }
 
-@media screen and (max-width: 659px) {
+@media screen and (max-width: 660px) {
   .navbar {
     margin-top: 0;
   }
 
   .articles__container {
     width: 90%;
+  }
+
+  .hero__title {
+    font-size: 36px;
+    font-weight: 700;
+    padding: 0 10px;
   }
 
   .article__title {

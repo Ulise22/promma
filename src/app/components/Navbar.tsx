@@ -20,15 +20,15 @@ export default function Navbar () {
             </div>
             <section className={isOpen ? `${styles.navbar__container} ${styles.active}` : `${styles.navbar__container}`}>
                 <div>
-                    <Link className={styles.navbar__link} href='/'>Inicio</Link>
-                    <Link className={styles.navbar__link} href='/peleadores'>Peleadores</Link>
+                    <Link onClick={() => setIsOpen(false)} className={styles.navbar__link} href='/'>Inicio</Link>
+                    <Link onClick={() => setIsOpen(false)} className={styles.navbar__link} href='/peleadores'>Peleadores</Link>
                 </div>
                 <Link href='/'>
                     <Image className={styles.navbar__logo} src={logo} alt='promma mma' />
                 </Link>
                 <div>
-                    <Link className={styles.navbar__link} href='/estilos'>Estilos</Link>
-                    <Link className={styles.navbar__link} href='/contacto'>Contacto</Link>
+                    <Link onClick={() => setIsOpen(false)} className={styles.navbar__link} href='/estilos'>Estilos</Link>
+                    <Link onClick={() => setIsOpen(false)} className={styles.navbar__link} href='/contacto'>Contacto</Link>
                 </div>
             </section>
         </nav>
