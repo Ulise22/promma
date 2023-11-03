@@ -26,15 +26,15 @@ export default function Contacto () {
                 <h1 className={styles.form__title}>Contactanos</h1>
                 <div className={styles.form__container}>
                     <label className={styles.form__label}>Nombre:</label>
-                    <input className={styles.form__input} name='nombre' type='text' placeholder='Ej: John Doe' />
+                    <input className={styles.form__input} required name='nombre' type='text' placeholder='Ej: John Doe' />
                 </div>
                 <div className={styles.form__container}>
                     <label className={styles.form__label}>Email:</label>
-                    <input className={styles.form__input} name='email' type='email' placeholder='Ej: johndoe@gmail.com' />
+                    <input className={styles.form__input} required name='email' type='email' placeholder='Ej: johndoe@gmail.com' />
                 </div>
                 <div className={styles.form__container}>
                     <label className={styles.form__label}>Mensaje:</label>
-                    <textarea className={styles.form__textarea} name='mensaje' placeholder='Escriba aquí su mensaje' />
+                    <textarea className={styles.form__textarea} required name='mensaje' placeholder='Escriba aquí su mensaje' />
                 </div>
                 <button className={styles.form__btn}>Enviar</button>
             </form>

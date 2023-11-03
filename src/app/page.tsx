@@ -22,12 +22,12 @@ export default function Home () {
           <h2 className={styles.article__title}>Tipos de Artes Marciales</h2>
           <p className={styles.article__p}>Existen diferentes tipos de artes marciales que se utilizan en las mma, aunque los más utilizados son los siguientes: </p>
           <ul>
-            <li>Boxeo (<Link href='./estilos'>Ver info</Link>) </li>
-            <li>Jiu-jitsu(<Link href='./estilos'>Ver info</Link>)</li>
+            <li>Boxeo (<Link href='./estilos/boxeo'>Ver info</Link>) </li>
+            <li>Jiu-jitsu(<Link href='./estilos/jiujitsu'>Ver info</Link>)</li>
             <li>Karate</li>
             <li>Kickboxing</li>
             <li>Taekwondo</li>
-            <li>Muay Thai</li>
+            <li>Muay Thai(<Link href='./estilos/muay-thai'>Ver info</Link>)</li>
             <li>Lucha Libre</li>
             <li>Judo</li>
           </ul>
