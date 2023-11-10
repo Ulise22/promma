@@ -34,7 +34,7 @@ export default function Home () {
         </article>
         <article className={styles.article}>
           <h2 className={styles.article__title}>Mma argentina</h2>
-          <p className={styles.article__p}>Las MMA en Argentina vienen creciendo como en todo el mundo, llegando a tener un peleador campeón de la Professional Fighthers League(PFL) como <Link className={styles.link} href='/peleadores/emiliano-sordi'><b>Emiliano Sordi</b></Link> o al capeón de peso welter en la compañía ARES como <b>Laureano Staropoli</b>. Además claro, de nuestros representantes en la UFC, como lo son <b>Santiago Ponzibbio, Guido Cannetti y Marcelo Rojo</b> en la rama masculina, junto a <b>Silvana Gómez y Ailín Pérez</b> en la rama femenina.</p>
+          <p className={styles.article__p}>Las MMA en Argentina vienen creciendo como en todo el mundo, llegando a tener un peleador campeón de la Professional Fighthers League(PFL) como <Link className={styles.link} href='/peleadores/emiliano-sordi'><b>Emiliano Sordi</b></Link> o al capeón de peso welter en la compañía ARES como <b>Laureano Staropoli</b>. Además claro, de nuestros representantes en la UFC, como lo son <b><Link className={styles.link} href='peleadores/santiago-ponzinibbio'> Santiago Ponzibbio</Link>, Guido Cannetti y Marcelo Rojo</b> en la rama masculina, junto a <b>Silvana Gómez y Ailín Pérez</b> en la rama femenina.</p>
           <Image className={styles.article__img} src={emisordi} alt='Emiliano Sordi, campeon argentino de mma en la companía Professional Fighters League' width={500} />
         </article>
       </section>

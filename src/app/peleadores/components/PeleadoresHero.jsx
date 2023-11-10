@@ -7,7 +7,7 @@ export default function PeleadoresHero ({peleadoresImage, w, l, d, nombre, categ
             <article className={styles.hero__info}>
                     <p className={styles.hero__p}> {categoria} </p>
                     <h1 className={styles.hero__name}> {nombre} </h1>
-                    <h4 className={styles.hero__nickname}>&quot;{apodo}&quot;</h4>
+                    { apodo && <h4 className={styles.hero__nickname}>&quot;{apodo}&quot;</h4>}
             </article>    
             <article className={styles.record}>
                 <div className={styles.record__container}>
