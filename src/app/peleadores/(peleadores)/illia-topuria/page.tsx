@@ -1,6 +1,6 @@
 import Image from "next/image";
-import topuria from '../../../../assets/peleadores__images/topuria.png'
-import ilia from '../../../../assets/peleadores__images/ilia-topuria.jpg'
+import topuria from '../../../../assets/peleadores__images/ilia-topuria/topuria.png'
+import ilia from '../../../../assets/peleadores__images/ilia-topuria/ilia-topuria.jpg'
 import styles from './Illia.module.css'
 import PeleadoresHero from "../../components/PeleadoresHero";
 
