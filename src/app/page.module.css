@@ -23,8 +23,7 @@
 
 .articles__container {
   width: 50%;
-  margin-top: 40px;
-  margin-left: 50px;
+  margin: 40px auto;
 }
 
 .article {

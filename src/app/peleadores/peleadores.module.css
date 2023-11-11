@@ -15,7 +15,7 @@
 }
 
 .peleadores {
-    width: 60%;
+    width: 65%;
     margin: 75px 30px;
 }
 
@@ -90,14 +90,23 @@
     background-position: center;
 }
 
-
-@media screen and (max-width: 660px) {
-    .peleadores__container {
+@media screen and (max-width: 1015px) {
+    .peleadores {
         width: 90%;
         margin: 30px auto;
+    }
+
+    .peleadores__subtitle {
         text-align: center;
     }
 
+    .peleadores__container {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 660px) {
     .peleadores__hero__title {
         font-size: 36px;
         text-align: center;
