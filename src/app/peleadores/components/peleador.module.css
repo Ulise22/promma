@@ -1,44 +1,46 @@
-.strickland__articles__container {
+.peleador__articles__container {
     width: 50%;
     margin: 40px auto;
 }
 
-.strickland__article {
+.peleador__article {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.strickland__title {
+.peleador__article__title {
     font-size: 32px;
     text-align: center;
 }
 
-.strickland__image {
+.peleador__article__image {
     width: 450px;
     height: fit-content;
 }
 
 @media screen and (max-width: 1015px) {
-    .strickland__articles__container {
+    .peleador__articles__container {
         width: 90%;
-        margin: 40px auto;
+    }
+
+    .peleador__article__title {
+        font-size: 28px;
     }
 }
 
 @media screen and (max-width: 660px) {
-    .strickland__text {
-        font-size: 15px;
-    }
-
-    .strickland__image {
-        max-width: 450px;
+    .peleador__article__video {
         width: 100%;
         height: fit-content;
     }
 
-    .strickland__video {
+    .peleador__article__image {
+        max-width: 450px;
         width: 100%;
-        height: 100%;
+    }
+
+    .peleador__article__text {
+        font-size: 15px;
     }
 }
