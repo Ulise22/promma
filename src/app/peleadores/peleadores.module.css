@@ -78,6 +78,11 @@
     background-position: center;
 }
 
+.peleadores__card_volkanovski {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/alexander-volkanovski/volkanovski.jpg');
+    background-position: right;
+}
+
 /* Argentinos MMA */
 
 .peleadores__card_emiliano {

@@ -10,7 +10,7 @@ export default function MuayThai () {
                 <h1 className={styles.estilos__title}>Muay Thai</h1>
             </section>
             <section className={styles.estilos__container}>
-            <article>
+                <article>
                     <h2>El arte marcial del Muay Thai</h2>
                     <p className={styles.estilos__text}>El Muay Thai, es un arte marcial y deporte nacional de Tailandia, que se desarrolló hace cientos de años pensando en utilizar todo el cuerpo como un arma para el combate de cuerpo a cuerpo. También es conocido como el &quot;El arte de las Ocho Extremidades&quot;, dado que se utilizan 8 puntos del cuerpo como armas: los puños, los codos, los pies y las rodillas. Actualmente goza de gran popularidad al ser una de las artes marciales más utilizadas en las MMA.</p>
                     <p className={styles.estilos__text}>Debido a su dureza, este deporte esta prohibido en muchos países del mundo, incluidos algunos estados de los Estados Unidos.</p>

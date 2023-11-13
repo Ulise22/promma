@@ -7,7 +7,19 @@ export default function Omalley () {
         <main>
             <PeleadoresHero peleadoresImage={omalley} w={17} l={1} d={0} nombre={`Sean O'Malley`} apodo='SUGAR' categoria='Peso Gallo' />
             <section className={styles.peleador__articles__container}>
-                <h2>Sean O&apos;malley</h2>
+                <article className={styles.peleador__article}>
+                    <h2 className={styles.peleador__article__title}>Sean O&apos;malley UFC</h2>
+                </article>
+                <article className={styles.peleador__article}>
+                    <h2 className={styles.peleador__article__title}>Sean O&apos;malley Record</h2>
+                </article>
+                <article className={styles.peleador__article}>
+                    <h2 className={styles.peleador__article__title}>Sean O&apos;malley Historia</h2>
+                </article>
+                <article className={styles.peleador__article}>
+                    <h2 className={styles.peleador__article__title}>Sean O&apos;malley Última Pelea</h2>
+                </article>
+                
             </section>
         </main>
     )

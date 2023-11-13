@@ -7,7 +7,24 @@ export default function Makhachev () {
         <main>
             <PeleadoresHero peleadoresImage={makhachev} w={25} l={1} d={0} nombre='Islam Makhachev' apodo={null} categoria='Peso Ligero' />
             <section className={styles.peleador__articles__container}>
-                <h1>Islam Makhachev</h1>
+                <article className={styles.peleador__article}>
+                    <h2 className={styles.peleador__article__title}>UFC Makhachev</h2>
+                </article>
+                <article className={styles.peleador__article}>
+                    <h2 className={styles.peleador__article__title}>Makhachev MMA</h2>
+                </article>
+                <article className={styles.peleador__article}>
+                    <h2 className={styles.peleador__article__title}>Makhachev Record</h2>
+                </article>
+                <article className={styles.peleador__article}>
+                    <h2 className={styles.peleador__article__title}>Islam Makhachev & Khabib Nurmagomédov</h2>
+                </article>
+                <article className={styles.peleador__article}>
+                    <h2 className={styles.peleador__article__title}>Makhachev Última pelea</h2>
+                </article>
+                <article className={styles.peleador__article}>
+                    <h2 className={styles.peleador__article__title}>Makhachev Próxima Pelea</h2>
+                </article>
             </section>
         </main>
     )
