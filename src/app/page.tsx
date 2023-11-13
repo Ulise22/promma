@@ -19,8 +19,22 @@ export default function Home () {
           <p className={styles.article__p}>Su creciente popularidad en los últimos años, dió lugar a la creación de diferentes empresas y organizaciones de renombre como lo son la UFC (Ultimate Fighting Championship), o Bellator MMA, entre otras. Estas organizaciones organizan eventos donde los luchadores compiten en un octágono o un ring, y las peleas son transmitidas por televisión, con una cada vez mayor audiencia.</p>
         </article>
         <article>
+          <h2 className={styles.article__title}>Peleadores Destacados</h2>
+          <div className={styles.peleadores__container}>
+            <Link href='/peleadores/conor-mcgregor' className={`${styles.peleadores__card} ${styles.peleadores__card_mcgregor}`}>
+              <h3 className={styles.peleadores__card__name}>Conor Mcgregor</h3>
+            </Link>
+            <Link href='/peleadores/illia-topuria' className={`${styles.peleadores__card} ${styles.peleadores__card_illia}`}>
+              <h3 className={styles.peleadores__card__name}>Ilia Topuria</h3>
+            </Link>
+            <Link href='/peleadores/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
+              <h3 className={styles.peleadores__card__name}>Sean Strickland</h3>
+            </Link>
+          </div>
+        </article>
+        <article>
           <h2 className={styles.article__title}>Tipos de Artes Marciales</h2>
-          <p className={styles.article__p}>Existen diferentes tipos de artes marciales que se utilizan en las mma, aunque los más utilizados son los siguientes: </p>
+          <p className={styles.article__p}>En las MMA cada luchador es libre de elegir qué estilo de pelea utilizar, además de que pueden ir evolucionando y adoptando diferentes artes marciales a su repertorio, buscando así ser más completos. Entre las diferentes artes marciales que están permitidas en las competiciones de MMA, algunas de las que más destacan son:</p>
           <ul>
             <li>Boxeo (<Link href='./estilos/boxeo'>Ver info</Link>) </li>
             <li>Jiu-jitsu(<Link href='./estilos/jiujitsu'>Ver info</Link>)</li>
