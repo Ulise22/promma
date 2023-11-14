@@ -79,17 +79,6 @@
     justify-content: center;
 }
 
-.estilosKarate__hero {
-    background-image: linear-gradient(180deg, #00000050 0%, #00000050 100%), url('../../assets/estilos/karate_hero.jpg');
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    height: 60vh;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
 .estilos__title {
     font-size: 48px;
 }

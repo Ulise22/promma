@@ -1,8 +1,8 @@
 import Image from "next/image";
-import emiliano from '../../../../assets/peleadores__images/emiliano-sordi/emiliano.png'
-import sordi from '../../../../assets/peleadores__images/emiliano-sordi/emiliano-sordi.jpg'
-import styles from '../../components/peleador.module.css'
-import PeleadoresHero from "../../components/PeleadoresHero";
+import emiliano from '../../../../../assets/peleadores__images/emiliano-sordi/emiliano.png'
+import sordi from '../../../../../assets/peleadores__images/emiliano-sordi/emiliano-sordi.jpg'
+import styles from '../../../components/peleador.module.css'
+import PeleadoresHero from "../../../components/PeleadoresHero";
 
 export default function Emiliano () {
     return(

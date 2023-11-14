@@ -49,23 +49,9 @@
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/ilia-topuria/illia__topuria.jpg');
 }
 
-.peleadores__card_strickland {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/sean-strickland/sean__strickland.jpg');
-    background-position: center;
-}
-
 .peleadores__card_ngannou {
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/francis-ngannou/ngannou_card.jpg');
     background-position: center;
-}
-
-.peleadores__card_omalley {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/sean-omalley/sean__omalley.jpg');
-    background-position: center;
-}
-
-.peleadores__card_makhachev {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/islam-makhachev/islam__makhachev.jpg');
 }
 
 .peleadores__card_ferguson {
@@ -78,9 +64,40 @@
     background-position: center;
 }
 
+/* Campeones */
+
+.peleadores__card_omalley {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/sean-omalley/sean__omalley.jpg');
+    background-position: center;
+}
+
+.peleadores__card_makhachev {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/islam-makhachev/islam__makhachev.jpg');
+}
+
 .peleadores__card_volkanovski {
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/alexander-volkanovski/volkanovski.jpg');
     background-position: right;
+}
+
+.peleadores__card_strickland {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/sean-strickland/sean__strickland.jpg');
+    background-position: center;
+}
+
+.peleadores__card_pereira {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/alex-pereira/pereira_card.jpg');
+    background-position: center;
+}
+
+.peleadores__card_jones {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/jon-jones/jon_jones_card.jpg');
+    background-position: center;
+}
+
+.peleadores__card_pantoja {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/alexandre-pantoja/alexandre_pantoja.jpg');
+    background-position: top;
 }
 
 /* Argentinos MMA */
@@ -92,6 +109,11 @@
 
 .peleadores__card_ponzinibbio {
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/santiago-ponzinibbio/ponzinibbio_card.jpg');
+    background-position: center;
+}
+
+.peleadores__card_staropoli {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/laureano-staropoli/staropoli_card.jpg');
     background-position: center;
 }
 

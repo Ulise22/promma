@@ -4,7 +4,6 @@ import styles from './Estilos.module.css'
 import boxeo from '../../assets/estilos/boxeo__section.jpg'
 import bjj from '../../assets/estilos/jiu-jitsu.jpg'
 import historiaMuayThai from '../../assets/estilos/muaythai_history.jpg'
-import karate from '../../assets/estilos/karate_pelea.jpg'
 import Link from 'next/link'
 
 export default function Estilos () {
@@ -28,11 +27,6 @@ export default function Estilos () {
                     <Image className={styles.estilos__image} src={historiaMuayThai} alt="2 peleadores de muay thai luchando en un ring" />
                     <h2 className={styles.card__title}>Muay Thai</h2>
                     <p className={styles.card__text}>El Muay Thai, es un arte marcial y deporte nacional de Tailandia, que se desarrolló hace cientos de años pensando en utilizar todo el cuerpo como un arma para el combate de cuerpo a cuerpo. </p>
-                </Link>
-                <Link href='/estilos/karate' className={styles.card}>
-                    <Image className={styles.estilos__image} src={karate} alt="2 peleadores de muay thai luchando en un ring" />
-                    <h2 className={styles.card__title}>Karate</h2>
-                    <p className={styles.card__text}>El Karate es un arte Marcial tradicional, basada en algunos estilos de artes marciales chinas Y Su objetivo es el dominio de las técnicas de autodefensa.</p>
                 </Link>
             </section>
         </main>

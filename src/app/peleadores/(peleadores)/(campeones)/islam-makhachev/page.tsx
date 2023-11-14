@@ -1,6 +1,6 @@
-import makhachev from '../../../../assets/peleadores__images/islam-makhachev/makhachev.png'
-import PeleadoresHero from '../../components/PeleadoresHero'
-import styles from '../../components/peleador.module.css'
+import PeleadoresHero from '../../../components/PeleadoresHero'
+import makhachev from '../../../../../assets/peleadores__images/islam-makhachev/makhachev.png'
+import styles from '../../../components/peleador.module.css'
 
 export default function Makhachev () {
     return(

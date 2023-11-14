@@ -1,6 +1,6 @@
-import PeleadoresHero from '../../components/PeleadoresHero'
-import omalley from '../../../../assets/peleadores__images/sean-omalley/omalley.png'
-import styles from '../../components/peleador.module.css'
+import PeleadoresHero from '../../../components/PeleadoresHero'
+import omalley from '../../../../../assets/peleadores__images/sean-omalley/omalley.png'
+import styles from '../../../components/peleador.module.css'
 
 export default function Omalley () {
     return(

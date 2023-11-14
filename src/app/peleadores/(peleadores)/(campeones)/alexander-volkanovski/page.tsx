@@ -1,6 +1,6 @@
-import PeleadoresHero from '../../components/PeleadoresHero'
-import volkanovski from '../../../../assets/peleadores__images/alexander-volkanovski/volkanovski.png'
-import styles from '../../components/peleador.module.css'
+import PeleadoresHero from '../../../components/PeleadoresHero'
+import volkanovski from '../../../../../assets/peleadores__images/alexander-volkanovski/volkanovski.png'
+import styles from '../../../components/peleador.module.css'
 
 export default function Volkanovski () {
     return(

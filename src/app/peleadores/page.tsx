@@ -39,6 +39,15 @@ export default function Peleadores () {
                     <Link href='/peleadores/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
                         <h3 className={styles.peleadores__card__name}>Sean Strickland</h3>
                     </Link>
+                    <Link href='/peleadores/alex-pereira' className={`${styles.peleadores__card} ${styles.peleadores__card_pereira}`}>
+                        <h3 className={styles.peleadores__card__name}>Alex Pereira</h3>
+                    </Link>
+                    <Link href='/peleadores/jon-jones' className={`${styles.peleadores__card} ${styles.peleadores__card_jones}`}>
+                        <h3 className={styles.peleadores__card__name}>Jon Jones</h3>
+                    </Link>
+                    <Link href='/peleadores/alexandre-pantoja' className={`${styles.peleadores__card} ${styles.peleadores__card_pantoja}`}>
+                        <h3 className={styles.peleadores__card__name}>Alexandre Pantoja</h3>
+                    </Link>
                 </article>
             </section>
             <section className={styles.peleadores}>
@@ -49,6 +58,9 @@ export default function Peleadores () {
                     </Link>
                     <Link href='/peleadores/santiago-ponzinibbio' className={`${styles.peleadores__card} ${styles.peleadores__card_ponzinibbio}`}>
                         <h3 className={styles.peleadores__card__name}>Santiago Ponzinibbio</h3>
+                    </Link>
+                    <Link href='/peleadores/laureano-staropoli' className={`${styles.peleadores__card} ${styles.peleadores__card_staropoli}`}>
+                        <h3 className={styles.peleadores__card__name}>Laureano Staropoli</h3>
                     </Link>
                 </article>
             </section>
