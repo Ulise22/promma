@@ -22,6 +22,9 @@ export default function Peleadores () {
                     <Link href='/peleadores/conor-mcgregor' className={`${styles.peleadores__card} ${styles.peleadores__card_mcgregor}`}>
                         <h3 className={styles.peleadores__card__name}>Conor Mcgregor</h3>
                     </Link>
+                    <Link href='/peleadores/jon-jones' className={`${styles.peleadores__card} ${styles.peleadores__card_jones}`}>
+                        <h3 className={styles.peleadores__card__name}>Jon Jones</h3>
+                    </Link>
                 </article>
             </section>
             <section className={styles.peleadores}>
@@ -41,9 +44,6 @@ export default function Peleadores () {
                     </Link>
                     <Link href='/peleadores/alex-pereira' className={`${styles.peleadores__card} ${styles.peleadores__card_pereira}`}>
                         <h3 className={styles.peleadores__card__name}>Alex Pereira</h3>
-                    </Link>
-                    <Link href='/peleadores/jon-jones' className={`${styles.peleadores__card} ${styles.peleadores__card_jones}`}>
-                        <h3 className={styles.peleadores__card__name}>Jon Jones</h3>
                     </Link>
                     <Link href='/peleadores/alexandre-pantoja' className={`${styles.peleadores__card} ${styles.peleadores__card_pantoja}`}>
                         <h3 className={styles.peleadores__card__name}>Alexandre Pantoja</h3>

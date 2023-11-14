@@ -24,7 +24,7 @@ export default function Pantoja () {
                 </article>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Brandon Moreno vs Alexandre Pantoja</h2>
-                    <p className={styles.peleador__article__text}>Alexandre Pantoja y Brandom Moreno, se han enfrentado un total de 3 veces, una por TUF y 2 por UFC, y quién sabe si no terminarán haciéndolo una cuarta. Los 3 combates terminaron con una victoria por decisión, ya sea unánime o dividida, a favor del brasileño, quien en su última victoria además le sirvió para coronarse campeón de Peso Mosca. Actualmente puede encontrarse por Youtube sus 2 primeros combates.</p>
+                    <p className={styles.peleador__article__text}>Alexandre Pantoja y Brandom Moreno, se han enfrentado un total de 3 veces, una por TUF y 2 por UFC, y quién sabe si no terminarán haciéndolo una cuarta. Los 3 combates terminaron con una victoria por decisión a favor del brasileño, la primera por sumisión, la segunda por decisión unánime y la tercera por decisión dividida, quien en su última victoria además le sirvió para coronarse campeón de Peso Mosca. Actualmente puede encontrarse por Youtube sus 2 primeros combates.</p>
                     <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/KNV_A9_9dLg?si=XTU5wXa4PA0qLjoV" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </article>
                 <article className={styles.peleador__article}>
