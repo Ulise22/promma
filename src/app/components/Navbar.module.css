@@ -46,6 +46,10 @@
     .navbar {
       width: 100%;
     }
+
+    .navbar__link {
+        margin: 0 15px;
+    }
 }
 
 @media screen and (max-width: 660px) {

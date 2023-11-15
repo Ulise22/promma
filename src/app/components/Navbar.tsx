@@ -28,7 +28,7 @@ export default function Navbar () {
                 </Link>
                 <div>
                     <Link onClick={() => setIsOpen(false)} className={styles.navbar__link} href='/estilos'>Estilos</Link>
-                    <Link onClick={() => setIsOpen(false)} className={styles.navbar__link} href='/contacto'>Contacto</Link>
+                    <Link onClick={() => setIsOpen(false)} className={styles.navbar__link} href='/promotoras'>Promotoras</Link>
                 </div>
             </section>
         </nav>
