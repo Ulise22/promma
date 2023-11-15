@@ -10,7 +10,7 @@ export default function Peleadores () {
             <section className={styles.peleadores}>
                 <h2 className={styles.peleadores__subtitle}>Luchadores de UFC</h2>
                 <article className={styles.peleadores__container}>
-                    <Link href='/peleadores/illia-topuria' className={`${styles.peleadores__card} ${styles.peleadores__card_illia}`}>
+                    <Link href='/peleadores/ilia-topuria' className={`${styles.peleadores__card} ${styles.peleadores__card_illia}`}>
                         <h3 className={styles.peleadores__card__name}>Ilia Topuria</h3>
                     </Link>
                     <Link href='/peleadores/francis-ngannou' className={`${styles.peleadores__card} ${styles.peleadores__card_ngannou}`}>
@@ -47,6 +47,15 @@ export default function Peleadores () {
                     </Link>
                     <Link href='/peleadores/alexandre-pantoja' className={`${styles.peleadores__card} ${styles.peleadores__card_pantoja}`}>
                         <h3 className={styles.peleadores__card__name}>Alexandre Pantoja</h3>
+                    </Link>
+                    <Link href='/peleadores/julianna-pena' className={`${styles.peleadores__card} ${styles.peleadores__card_julianna}`}>
+                        <h3 className={styles.peleadores__card__name}>Julianna Peña</h3>
+                    </Link>
+                    <Link href='/peleadores/leon-edwards' className={`${styles.peleadores__card} ${styles.peleadores__card_edwards}`}>
+                        <h3 className={styles.peleadores__card__name}>Leon Edwards</h3>
+                    </Link>
+                    <Link href='/peleadores/zhang-weili' className={`${styles.peleadores__card} ${styles.peleadores__card_weili}`}>
+                        <h3 className={styles.peleadores__card__name}>Zhang Weili</h3>
                     </Link>
                 </article>
             </section>
