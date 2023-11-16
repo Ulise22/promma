@@ -3,13 +3,12 @@ import ufc from '@/assets/promotoras/UFC.png'
 import pfl from '@/assets/promotoras/pfl.webp'
 import styles from './Promotoras.module.css'
 import Link from 'next/link'
+import PromotorasHero from './PromotorasHero'
 
 export default function Promotoras () {
     return(
         <main>
-            <section className={styles.promotoras__hero}>
-                <h1 className={styles.promotoras__hero__title}>Promotoras de MMA</h1>
-            </section>
+            <PromotorasHero title='Promotoras de MMA' />
             <section className={styles.promotoras__list}>
                 <article className={styles.promotoras__list__container}>
                     <div className={styles.promotoras__list__info}>
