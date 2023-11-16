@@ -64,6 +64,21 @@
     background-position: center;
 }
 
+.peleadores__card_chimaev {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/khamzat-chimaev/khamzat_card.jpg');
+    background-position: center;
+}
+
+.peleadores__card_oliveira {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/charles-oliveira/oliveira_card.jpg');
+    background-position: right;
+}
+
+.peleadores__card_gaethje {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/justin-gaethje/gaethje_card.jpg');
+    background-position: center;
+}
+
 /* Campeones */
 
 .peleadores__card_omalley {
