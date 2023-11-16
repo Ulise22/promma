@@ -23,6 +23,12 @@ export default function UFC () {
                 <article className={styles.promotoras__article}>
                     <h2 className={styles.promotoras__article__title}>UFC Mujeres</h2>
                 </article>
+                <article className={styles.promotoras__article}>
+                    <h2 className={styles.promotoras__article__title}>The Ultimate Fighter</h2>
+                </article>
+                <article className={styles.promotoras__article}>
+                    <h2 className={styles.promotoras__article__title}>Dana White</h2>
+                </article>
             </section>
         </main>
     )
