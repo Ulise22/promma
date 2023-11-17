@@ -1,0 +1,34 @@
+.promotoras__container {
+    width: 50%;
+    margin: 0 20px;
+}
+
+.promotoras__article__title {
+    font-size: 32px;
+}
+
+.promotoras__article__image {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1015px) {
+    .promotoras__container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .promotoras__article__title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .promotoras__container {
+        width: 95%;
+    }
+
+    .promotoras__article__text {
+        font-size: 15px;
+    }
+}
