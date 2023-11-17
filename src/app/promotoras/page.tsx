@@ -19,7 +19,7 @@ export default function Promotoras () {
                 </article>
                 <article className={styles.promotoras__list__container}>
                     <div className={styles.promotoras__list__info}>
-                        <h2 className={styles.promotoras__list__info__title}>PFL</h2>
+                        <Link className={styles.promotoras__list__info__link} href='/promotoras/pfl'><h2 className={styles.promotoras__list__info__title}>PFL</h2></Link>
                         <p className={styles.promotoras__list__info__text}>Professional Fighters League es una empresa de MMA con sede en Las Vegas y es la primera en la que los peleadores compiten en un formato de temporada regular.</p>
                     </div>
                     <Image className={styles.promotoras__list__image} src={pfl} alt='pfl' />
