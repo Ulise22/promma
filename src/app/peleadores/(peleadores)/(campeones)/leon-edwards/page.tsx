@@ -42,7 +42,7 @@ export default function LeonEdwards () {
                     <Image className={styles.peleador__article__image} src={sparring2}  alt='Leon Edwards haciendo un sparring con un compañero'/>
                 </article>
                 <article className={styles.peleador__article}>
-                    <h2 className={styles.peleador__article__title}>Leon Edwards vs Kamary Usman</h2>
+                    <h2 className={styles.peleador__article__title}>Leon Edwards vs Kamaru Usman</h2>
                     <p className={styles.peleador__article__text}>Tres enfrentamientos, dos aciertos de parte de Edwards y un acierto de parte de Usman. </p>
                     <Image className={styles.peleador__article__image} src={careo} alt='Leon Edwards y Kamaru Usman en el careo previo a su pelea por el título de UFC' />
                     <p className={styles.peleador__article__text}>En el año 2015 enfrento a Kamaru en UFC on Fox 17, donde perdió por decisión unánime (29-28, 30-27, 29-28), aunque esto no desanimó a Edwards para continuar, logrando un invicto de 9 peleas sin perder antes de tener su revancha. En el año 2022 pelearon por el título mundial de peso welter, UFC 278.</p>

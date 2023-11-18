@@ -40,6 +40,9 @@ export default function Peleadores () {
                     <Link href='/peleadores/max-holloway' className={`${styles.peleadores__card} ${styles.peleadores__card_holloway}`}>
                         <h3 className={styles.peleadores__card__name}>Max Holloway</h3>
                     </Link>
+                    <Link href='/peleadores/kamaru-usman' className={`${styles.peleadores__card} ${styles.peleadores__card_usman}`}>
+                        <h3 className={styles.peleadores__card__name}>Kamaru Usman</h3>
+                    </Link>
                 </article>
             </section>
             <section className={styles.peleadores}>
