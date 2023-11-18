@@ -24,7 +24,7 @@ export default function Home () {
             <Link href='/peleadores/conor-mcgregor' className={`${styles.peleadores__card} ${styles.peleadores__card_mcgregor}`}>
               <h3 className={styles.peleadores__card__name}>Conor Mcgregor</h3>
             </Link>
-            <Link href='/peleadores/illia-topuria' className={`${styles.peleadores__card} ${styles.peleadores__card_illia}`}>
+            <Link href='/peleadores/ilia-topuria' className={`${styles.peleadores__card} ${styles.peleadores__card_illia}`}>
               <h3 className={styles.peleadores__card__name}>Ilia Topuria</h3>
             </Link>
             <Link href='/peleadores/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
