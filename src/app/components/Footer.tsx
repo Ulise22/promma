@@ -9,6 +9,12 @@ export default function Footer () {
                     <Link className={styles.foter__list__item} href='/contacto'>Contactanos</Link>
                 </li>
                 <li>
+                    <Link className={styles.foter__list__item} href='/cookies'>Política de Cookies</Link>
+                </li>
+                <li>
+                    <Link className={styles.foter__list__item} href='/politica-privacidad'>Política de Privacidad</Link>
+                </li>
+                <li>
                     <Link className={styles.foter__list__item} href='/sobre-nosotros'> Sobre nosotros </Link>
                 </li>
             </ul>
