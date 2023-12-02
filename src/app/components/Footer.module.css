@@ -39,6 +39,7 @@
 @media screen and (max-width: 1015px) {
     .footer__list {
         width: 80%;
+        text-align: center;
     }
 
     .footer__line {
@@ -53,6 +54,8 @@
 
     .footer__list {
         width: 100%;
+        flex-direction: column;
+        gap: 20px;
         font-size: 14px;
     }
 
