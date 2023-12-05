@@ -81,3 +81,52 @@
 .menu__list__item:hover > ul {
     display: initial;
 }
+
+@media screen and (max-width: 1015px) {
+    .menu__icon {
+        display: initial;
+        cursor: pointer;
+        margin-right: 30px;
+    }
+
+    .menu__list {
+        position: absolute;
+        top: 44px;
+        padding: 0;
+        left: -100%;
+        width: 100%;
+        background-color: #00000099;
+        transition: all .3s ease;
+    }
+
+    .menu__list.active {
+        left: 0;
+        transition: all .3s ease;
+    }
+
+    .menu__list__item {
+        width: 100%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu__list__item__link {
+        width: 100%;
+    }
+
+    .menu__list__dropdown {
+        position: relative;
+        width: 100%;
+        margin-bottom: 60px;
+        margin-top: -60px;
+    }
+
+    .menu__list__dropdown li {
+        text-align: center;
+    }
+
+    .menu__list__item:focus-within > ul {
+        display: initial;
+    }
+}
