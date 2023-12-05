@@ -1,0 +1,89 @@
+.peleadores__hero {
+    height: 60vh;
+    overflow: hidden;
+    background-image: linear-gradient(180deg, #00000080 0%, #00000080 100%), url('../../assets/peleadores__images/peleadores__hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.peleadores__hero__title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.peleadores {
+    width: 65%;
+    margin: 75px 30px;
+}
+
+.peleadores__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.peleadores__card {
+    height: 440px;
+    width: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-size: cover;
+    text-decoration: none;
+}
+
+.peleadores__card:hover {
+    box-shadow: 0px 0px 18px 0px rgba(82, 82, 82, 0.25);
+}
+
+.peleadores__card__name {
+    color: #fff;
+}
+
+/* Cards */
+
+.peleadores__card_julianna {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/juliana-pena/julianna_card.jpg');
+    background-position: top;
+}
+
+.peleadores__card_weili {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/zhang-weili/weili_card.jpg');
+    background-position: center;
+}
+
+.peleadores__card_grasso {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/alexa-grasso/grasso_card.jpg');
+    background-position: center;
+}
+
+@media screen and (max-width: 1015px) {
+    .peleadores {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .peleadores__subtitle {
+        text-align: center;
+    }
+
+    .peleadores__container {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .peleadores__hero__title {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .peleadores__card {
+        width: 95%;
+        max-width: 300px;
+    }
+}
