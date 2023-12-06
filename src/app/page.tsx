@@ -28,7 +28,7 @@ export default function Home () {
             <Link href='/peleadores/ilia-topuria' className={`${styles.peleadores__card} ${styles.peleadores__card_illia}`}>
               <h3 className={styles.peleadores__card__name}>Ilia Topuria</h3>
             </Link>
-            <Link href='/peleadores/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
+            <Link href='/campeones/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
               <h3 className={styles.peleadores__card__name}>Sean Strickland</h3>
             </Link>
           </div>
@@ -58,7 +58,9 @@ export default function Home () {
         </article>
         <article className={styles.article}>
           <h2 className={styles.article__title}>Historia de las Artes Marciales</h2>
-          <p className={styles.article__p}>La palabra &quot;Marcial&quot; o &quot;Marcialidad&quot; viene del Dios Guerrero de los romanos, Marte,</p>
+          <p className={styles.article__p}>La palabra &quot;Marcial&quot; o &quot;Marcialidad&quot; viene del Dios Guerrero de los romanos, Marte. Es por esto que la marcialidad hace referencia a todo lo que englobe la disciplina militar. Mientras que la palabra &quot;Arte&quot; hace referencia a las formas en que el hombre pueda expresar una emoción o sentimiento de forma bella. Por tanto, las &quot;Artes Marciales&quot; son los sistemas creados por los humanos para expresar y enseñar las mejores técnicas de defensa persona y de disciplina militar.</p>
+          <p>Se cree que el origen de las Artes Marciales data de hace más de 4000 años, que según algunos historiadores, se expandieron por todo Oriente gracias a las enseñanzas de los monjes Budistas, quienes idearon un sistema de defensa personal para protejerse de los forajidos y de los animales salvajes durante sus viajes. Con el paso del tiempo cada país oriental fue creando y desarrollando sus propias artes marciales, de acuerdo a sus costumbres culturales y religiosas, entre las que destacan el <b>Karate</b> en Japón, el <b>Kung Fu</b> en China, o el <b>Taekwondo</b> en Corea.</p>
+          <p>En sí, las Artes Marciales son un conjunto de técnicas y prácticas con el objetivo de someter, dañar o defenderse del rival, que se diferencian de un simple enfrentamiento físico en que con las artes marciales los golpes y ataques se hacen de forma coherente y buscando los métodos más efectivos. Hoy en día, las artes marciales se practican y son vistas como un deporte, para mantenerse en forma, para mejorar la salud, para saber cómo defenderse o para buscar alguna forma de desarrollo personal con la cual crecer y forjar el caracter y la confianza en uno mismo.</p>
         </article>
         <article>
           <h2 className={styles.article__title}>Mujeres en MMA</h2>
