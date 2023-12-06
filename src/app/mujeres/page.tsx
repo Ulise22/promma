@@ -5,7 +5,7 @@ export default function Mujeres () {
     return(
         <main>
             <section className={styles.peleadores__hero}>
-                <h1 className={styles.peleadores__hero__title}>Luchadores de MMA</h1>
+                <h1 className={styles.peleadores__hero__title}>Mujeres de MMA</h1>
             </section>
             <section className={styles.peleadores}>
                 <h2 className={styles.peleadores__subtitle}>Mujeres MMA</h2>
