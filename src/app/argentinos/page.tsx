@@ -19,6 +19,9 @@ export default function Argentinos () {
                     <Link href='/argentinos/laureano-staropoli' className={`${styles.peleadores__card} ${styles.peleadores__card_staropoli}`}>
                         <h3 className={styles.peleadores__card__name}>Laureano Staropoli</h3>
                     </Link>
+                    <Link href='/argentinos/ailin-perez' className={`${styles.peleadores__card} ${styles.peleadores__card_ailin}`}>
+                        <h3 className={styles.peleadores__card__name}>Ailín Pérez</h3>
+                    </Link>
                 </article>
             </section>
         </main>

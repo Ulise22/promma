@@ -64,6 +64,7 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/alexa-grasso'>Alexa Grasso</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/zhang-weili'>Zhang Weili</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/julianna-pena'>Julianna Peña</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/ailin-perez'>Ailín Pérez</Link></li>
                     </ul>
                 </li>
                 <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/argentinos'>Argentinos</Link>
@@ -71,6 +72,7 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/emiliano-sordi'>Emiliano Sordi</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/santiago-ponzinibbio'>Santiago Ponzinibbio</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/laureano-staropoli'>Laureano Staropoli</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/ailin-perez'>Ailín Pérez</Link></li>
                     </ul>
                 </li>
             </ul>
