@@ -12,6 +12,20 @@ export default function Home () {
         <h1 className={styles.hero__title}>PROMMA, toda la información de las artes marciales mixtas</h1>
       </section>
       <section className={styles.articles__container}>
+        <article>
+          <h2 className={styles.article__title}>Peleadores Campeones de UFC</h2>
+          <div className={styles.peleadores__container}>
+            <Link href='/campeones/alexander-volkanovski' className={`${styles.peleadores__card} ${styles.peleadores__card_volkanovski}`}>
+              <h3 className={styles.peleadores__card__name}>Alexander Volkanovski</h3>
+            </Link>
+            <Link href='/campeones/islam-makhachev' className={`${styles.peleadores__card} ${styles.peleadores__card_makhachev}`}>
+              <h3 className={styles.peleadores__card__name}>Islam Makhachev</h3>
+            </Link>
+            <Link href='/campeones/jon-jones' className={`${styles.peleadores__card} ${styles.peleadores__card_jones}`}>
+              <h3 className={styles.peleadores__card__name}>Jon Jones</h3>
+            </Link>
+          </div>
+        </article>
         <article className={styles.article}>
           <h2 className={styles.article__title}>¿Que son las MMA?</h2>
           <p className={styles.article__p}>Las MMA (por sus iniciales en inglés, Mixed Martial Arts), es un deporte de combate que combina diferentes disciplinas y artes marciales como el boxeo, el jiu-jitsu, el kickboxing o el muay thai.</p>

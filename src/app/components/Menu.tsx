@@ -66,6 +66,7 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/zhang-weili'>Zhang Weili</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/julianna-pena'>Julianna Peña</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/ailin-perez'>Ailín Pérez</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/valentina-shevchenko'>Valentina Shevchenko</Link></li>
                     </ul>
                 </li>
                 <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/argentinos'>Argentinos</Link>

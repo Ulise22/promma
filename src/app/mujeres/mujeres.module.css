@@ -60,6 +60,16 @@
     background-position: center;
 }
 
+.peleadores__card_ailin {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/ailin-perez/ailin-perez.jpg');
+    background-position: center;
+}
+
+.peleadores__card_shevchenko {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/valentina-shevchenko/shevchenko_card.jpg');
+    background-position: left;
+}
+
 @media screen and (max-width: 1015px) {
     .peleadores {
         width: 90%;

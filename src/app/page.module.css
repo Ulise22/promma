@@ -64,6 +64,25 @@
 .peleadores__card:hover {
   box-shadow: 0px 0px 18px 0px rgba(82, 82, 82, 0.25);
 }
+
+/* Peleadores */
+
+.peleadores__card_volkanovski {
+  background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../assets/peleadores__images/alexander-volkanovski/volkanovski.jpg');
+  background-position: center;
+  text-align: center;
+}
+
+.peleadores__card_makhachev {
+  background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../assets/peleadores__images/islam-makhachev/islam__makhachev.jpg');
+  background-position: left;
+}
+
+.peleadores__card_jones {
+  background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../assets/peleadores__images/jon-jones/jon_jones_card.jpg');
+  background-position: center;
+}
+
 /* Peleadores */
 
 .peleadores__card_illia {
