@@ -45,6 +45,7 @@ export default function Menu () {
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/promotoras/ufc'>UFC</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/promotoras/pfl'>PFL</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/promotoras/bellator'>BELLATOR</Link></li>
                     </ul>
                 </li>
                 <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/campeones'>Campeones</Link>
