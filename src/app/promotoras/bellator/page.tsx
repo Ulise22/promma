@@ -14,7 +14,7 @@ export default function Bellator () {
                 <article className={styles.promotoras__article}>
                     <h2 className={styles.promotoras__article__title}>Bellator MMA</h2>
                     <p><b>Bellator MMA</b> (anteriormente llamada Bellator Fighting Championships) es una empresa de Artes Marciales Mixtas de Estados Unidos, con sede en Newport Beach, California. Esta compañía fue fundada en 2008 por el empresario estadounidense Bjorn Rebney, con la idea de crear una competencia sólida en el mundo de las MMA. El nombre &quot;Bellator&quot; es una palabra latina que significa &quot;guerrero&quot; o &quot;luchador&quot;.</p>
-                    <Image src={bellator2} alt='' />
+                    <Image className={styles.promotoras__article__image} src={bellator2} alt='' />
                     <p>La primera temporada empezó en el año 2009 prensentando un formato de torneo único en el que los luchadores competían en rondas eliminatorias hasta llegar a la final. En las primeras ediciones donde este era el formato, al ganador del torneo se lo premiaba con un cheque por valor de $100.000, el título del campeonato y la posibilidad de defender el título en la próxima temporada.</p>
                     <p>A lo largo de los años fueron evolucionando y adoptando un enfoque más tradicional en las promoción de las peleas, aunque aún a día de hoy sigue organizando torneos ocacionalmente. </p>
                     <p>En 2011, Bjorn Rebney dejó la presidencia de Bellator, y desde entonces la empresa pasó por varios cambios de propiedad, lo que la llevó a transitar varios cambios en cuanto a la dirección de la empresa y estrategia de la compañía. Actualmente la empresa es presidida por el coreano <b>Scott Coker</b> y se encuentra en propiedad del conglomerado multinacional estadounidense de medios de comunicación <b>Paramount Global</b>, conocido simplemente como <b>Paramount</b>, y producto de esto es que hoy en día los eventos son transmitidos por el canal de televisión <b>Showtime</b>.</p>
@@ -31,7 +31,7 @@ export default function Bellator () {
                         <li>Peso Gallo (265lbs)</li>
                     </ul>
                     <p>Durante los combates del <b>torneo Bellator</b>, las reglas son algo diferentes a las peleas que se hacen fuera del torneo. Los golpes con los codos son ilegales en cuartos y semifinales porque tienen una alta probabilidad de generar cortes, aunque estos golpes estan permitidos en la final.</p>
-                    <Image src={bellator3} alt='' />
+                    <Image className={styles.promotoras__article__image} src={bellator3} alt='' />
                     <p>Las reglas que suelen acompañar los combates de Bellator son las establecidas por la <b>Junta de Control Atlético de Nueva Jersey</b>. Los combates suelen constar de 3 asaltos de 5 minutos cada uno con un minuto de descanso entre asaltos, salvo en las peleas donde se pelea por el título, en cuyo caso se hacen 5 asaltos en lugar de 3.</p>
                     <p>En estos torneos, ateniendose a <b>La Comisión Atlética del Estado de Nevada</b> los siguientes elementos califican como falta y por ende se penalizan con la quita de un punto, con la suspensión del combate, o con la descalificasión dependiendo de la gravedad de la misma:</p>
                     <ul>
@@ -66,7 +66,7 @@ export default function Bellator () {
                         <li>Intimidación, evadir contacto con el oponente, caerse intencionalmente o fingir estar lesionado</li>
                         <li>Interferir con la esquina</li>
                     </ul>
-                    <Image src={bellator4} alt='' />
+                    <Image className={styles.promotoras__article__image} src={bellator4} alt='' />
                 </article>
             </section>
         </main>
