@@ -62,8 +62,8 @@ export default function Menu () {
                 </li>
                 <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/mujeres'>Mujeres</Link>
                     <ul className={styles.menu__list__dropdown}>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/alexa-grasso'>Alexa Grasso</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/zhang-weili'>Zhang Weili</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/campeones/alexa-grasso'>Alexa Grasso</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/campeones/zhang-weili'>Zhang Weili</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/julianna-pena'>Julianna Peña</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/ailin-perez'>Ailín Pérez</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/valentina-shevchenko'>Valentina Shevchenko</Link></li>
