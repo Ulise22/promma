@@ -6,6 +6,7 @@ import pelea from '../../../../assets/peleadores__images/conor-mcgregor/mcgregor
 import pelea2 from '../../../../assets/peleadores__images/conor-mcgregor/mcgregor-peleando.jpg'
 import PeleadoresHero from '../../components/PeleadoresHero'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Mcgregor () {
     return(
@@ -14,12 +15,12 @@ export default function Mcgregor () {
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Conor Mcgregor Biografía</h2>
-                    <p>Conor Anthony Mcgregor nació en Dublín, Irlanda, el 14 de julio e 1988. A los 12 años comenzó a entrenar boxeo y en su adolescencia conoció al futuro peleador dde ufc Tom Egan, con quien comenzó a entrenar artes marciales mixtas.</p>
+                    <p>Conor Anthony Mcgregor nació en Dublín, Irlanda, el 14 de julio e 1988. A los 12 años comenzó a entrenar boxeo y en su adolescencia conoció al futuro peleador de ufc Tom Egan, con quien comenzó a entrenar artes marciales mixtas.</p>
                     <Image className={styles.peleador__article__image} src={mcgregor} alt='Conor Mcgregor haciendo su caminata después de haber ganado un combate de ufc' />
                     <p>El 7 de febrero e 2007, Conor hizo su debut amateur en las mma contra Kieran Campbell en una promotora irlandesa, en aquel combate ganó por nocaut en el primer asalto. Ese mismo día logró convertirse en profesional al firmar con la promotora Irish Cage of Truth.</p>
                     <p>El 9 de marzo de 2008, Mcgregor hizo su debut profesional, en peso ligero, donde derrotó a Gary Moorris por nocaut en el segundo asalto. Conor tuvo varias peleas en la compañía irlandesa, donde logró convertirse en doble campeón de Peso Pluma y Peso Ligero, hasta que en febrero de 2013, <b>Dana White</b> le ofreció un contrato con la UFC, donde haría su debut el 6 de abril del mismo año, derrotano por nocaut en el primer asalto a Marcus Brimage.</p>
                     <p>Desde su debut en ufc logró mucho reconocimiento por sus victorias por nocaut, y por tener una gran facilidad para vender peleas y volverse mediático, cosa que seguro lo ayudó a él y a la ufc a ganar notoriedad. Estuvo en ufc peleando varios años, donde consiguió otra vez ser doble campeón, en 2 categorías de peso distintas, siendo el primer peleador de ufc en lograr esto.</p>
-                    <p>Actualmente debido a una lesión en pelea con <b>Dustin Poirier</b>, se lo ha visto menos activo a la hora presentarse en combates, tanto de mma como de boxeo, donde también ha incursionado.</p>
+                    <p>Actualmente debido a una lesión en pelea con <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link>, se lo ha visto menos activo a la hora presentarse en combates, tanto de mma como de boxeo, donde también ha incursionado.</p>
                 </article>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Conor Mcgregor Peleas</h2>
@@ -54,7 +55,7 @@ export default function Mcgregor () {
                     <h2 className={styles.peleador__article__title}>Khabib vs Mcgregor</h2>
                     <p>La pelea entre Conor Mcgregor y Khabib Nurmagomedov, debe ser una de las que más polémica acarreó en la historia de las mma. Luego de un pequeño retiro de Mcgregor que uso para centrarse en su pelea de boxeo contra Floyd Mayweather jr.Conor estaba listo para volver a competir en la categoría de Peso Ligero de ufc.</p>
                     <p>Parte del &quot;beef&quot; que había entre estos 2 peleadores, comenzó con un altercado entre Khabib y Artem Lobov, quien es conocido por ser un amigo cercano de Mcgregor. Después de dicho incidente, Conor junto a 20 personas con credenciales de su equipo, intentaron increpar a Khabib, quien estaba en un bus junto a otros peleadores luego de competir en el UFC 223. Mcgregor le lanzó una carretilla de carga al autobús donde estaba Khabib, lo que resulto en la rotura de uno de los cristales de dicho autobús, posterior a esto continuó arrojando objetos al vehículo. Por dicho comportamiento. Mcgregor fue a juicio y fue condenado a 5 días de servicio comunitario y le obligaron a asistir a clases de manejo de la ira.</p>
-                    <p>Finalmente el combate entre estos 2 se realizó el 6 de octubre dde 2018 en Las Vegas, combate que terminó en una victoria para el peleador ruso por sumisión en el 4to asalto. Sin embargo, la polémica no terminó ahí: después del combate, Khabib saltó del octagono para atacar a Dillon Danis, miembro de la esquina de Conor. En respuesta, Mcgregor salió del octagono para intercambiar golpes con Abubakar Nurmagomedov, primo de Khabib.</p>
+                    <p>Finalmente el combate entre estos 2 se realizó el 6 de octubre de 2018 en Las Vegas, combate que terminó en una victoria para el peleador ruso por sumisión en el 4to asalto. Sin embargo, la polémica no terminó ahí: después del combate, Khabib saltó del octagono para atacar a Dillon Danis, miembro de la esquina de Conor. En respuesta, Mcgregor salió del octagono para intercambiar golpes con Abubakar Nurmagomedov, primo de Khabib.</p>
                     <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/JuBBIJ7adjM?si=7lVnebgXta2u0_fQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </article>
             </section>

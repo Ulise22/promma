@@ -5,6 +5,7 @@ import cinturon from '@/assets/peleadores__images/tony-ferguson/ferguson_cinturo
 import win from '@/assets/peleadores__images/tony-ferguson/ferguson_ganando.webp'
 import styles from '../../components/peleador.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Ferguson () {
     return(
@@ -16,7 +17,7 @@ export default function Ferguson () {
                     <p className={styles.peleador__article__text}>Anthony Ferguson ha peleado en UFC durante poco más de 10 años. Tiempo en el que consiguió ser campeón de The Ultimate Fighter 13 y UFC 216. Firmó con la UFC en 2011 para competir en The Ultimate Fighter de parte del equipo Lesnar. Actualmente se encuentra en el equipo Snap Down City Academy.</p>
                     <Image className={styles.peleador__article__image} src={pelea} alt='El peleador de mma Tony Ferguson golpeando en el rostro a otro peleador de mma en un combate de UFC' />
                     <p className={styles.peleador__article__text}>Ferguson, hizo oficial su debut en el UFC en The Ultimate Fighter 13 contra Ramsey Nijem (04/06/2011) para definir al ganador de The Ultimate Fighter 13. Ferguson ganó por KO en la primera ronda, así como también el KO de la noche por su victoria contra Nijem. </p>
-                    <p className={styles.peleador__article__text}>(07/11/2017) Ferguson se enfrentó contra Kevin Lee en UFC 216 por el Campeonato Interino de Peso Ligero de UFC donde ganó por sumisión en el tercer asalto. No dudó, luego de su victoria, retar a McGregor (ganador del cinturón absoluto) sin embargo, no hubo más que especulaciones al respecto, puesto que McGregor prefirió enfrentarse a Khabib Nurmagomedov.</p>
+                    <p className={styles.peleador__article__text}>(07/11/2017) Ferguson se enfrentó contra Kevin Lee en UFC 216 por el Campeonato Interino de Peso Ligero de UFC donde ganó por sumisión en el tercer asalto. No dudó, luego de su victoria, retar a <Link href='/peleadores/conor-mcgregor'>McGregor</Link> (ganador del cinturón absoluto) sin embargo, no hubo más que especulaciones al respecto, puesto que McGregor prefirió enfrentarse a Khabib Nurmagomedov.</p>
                     <p className={styles.peleador__article__text}>Tony Ferguson habló sobre su disgusto en los salarios en UFC: “Creo que estamos siendo mal pagados. Mi valor está aquí y creo que deberían pagarme por eso. También pienso que deberíamos tener un seguro. Pienso muchas cosas… somos malditos atletas, de los mejores del mundo. Cuando leí a Dana decir el otro día que a los boxeadores se les paga en exceso yo dije: ¡Claro que no!” (04/05/2022)</p>
                 </article>
                 <article className={styles.peleador__article}>

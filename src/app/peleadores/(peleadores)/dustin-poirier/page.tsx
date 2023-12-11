@@ -40,7 +40,7 @@ export default function Poirier () {
                 </article>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Dustin Poirier Última Pelea</h2>
-                    <p className={styles.peleador__article__text}>La última pelea de Dustin Poirier fue contra <Link href='/peleadores/justin-gaethje'>Justin Gaethje</Link>, en UFC 291 por el título BMF (Baddest Mother Fucker). Ambos peleadores ya se habían enfrentado en el pasado, en abril de 2018, en aquella ocación, Dustin Poirier se llevó la pelea al derrotar por TKO a Gaethje en el cuarto asalto, lo que valió el premio a la Pelea de la noche y la pelea del año.</p>
+                    <p className={styles.peleador__article__text}>La última pelea de Dustin Poirier fue contra <Link href='/peleadores/justin-gaethje'>Justin Gaethje</Link>, en UFC 291 por el título BMF (Badest Mother Fucker). Ambos peleadores ya se habían enfrentado en el pasado, en abril de 2018, en aquella ocación, Dustin Poirier se llevó la pelea al derrotar por TKO a Gaethje en el cuarto asalto, lo que valió el premio a la Pelea de la noche y la pelea del año.</p>
                     <p className={styles.peleador__article__text}>En esta ocasión, sin embargo, las cosas terminaron diferente, ya que Justin Gaethje fue capaz de imponerse y de acabar con Poirier con una patada en la cabeza al minuto del segundo asalto, que dejó KO a Dustin Poirier.</p>
                     <Image className={styles.peleador__article__image} src={pelea2} alt='El peleador estadounidense de MMA Dustin Poirier golopeando en el rostro a su contrincante en un combate de UFC' />
                 </article>

@@ -27,7 +27,7 @@ export default function Ngannou () {
                 </article>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Francis Ngannou PFL</h2>
-                    <p className={styles.peleador__article__text}>Después de marcharse de la UFC, y de una negociación con <b>ONE</b> que no terminó llegando a buen puerto, Francis Ngannou aceptó unirse a <b>PFL</b>. Habría aceptado cobrar un contrato de 7 cifras, además de aceptar convertirse en el presidente de PFL África.</p>
+                    <p className={styles.peleador__article__text}>Después de marcharse de la UFC, y de una negociación con <b>ONE</b> que no terminó llegando a buen puerto, Francis Ngannou aceptó unirse a <Link href='/promotoras/pfl'>PFL</Link>. Habría aceptado cobrar un contrato de 7 cifras, además de aceptar convertirse en el presidente de PFL África.</p>
                 </article>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Francis Ngannou Historia</h2>
