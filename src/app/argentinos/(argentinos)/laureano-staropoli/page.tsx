@@ -14,7 +14,7 @@ export default function Staropoli () {
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Laureano Staropoli UFC</h2>
-                    <p className={styles.peleador__article__text}>Laureano Staropoli luchó poco más de 3 años en UFC, haciendo su debut con una victoria por decisión unánime contra el mexicano Hector Aldana en nuestro país Argentina, en el evento encabezado por <Link href='/peleadores/santiago-ponzinibbio'>Santiago Ponzinibbio</Link>, donde además se convirtiría en la pelea de la noche.</p>
+                    <p className={styles.peleador__article__text}>Laureano Staropoli luchó poco más de 3 años en UFC, haciendo su debut con una victoria por decisión unánime contra el mexicano Hector Aldana en nuestro país Argentina, en el evento encabezado por <Link href='/argentinos/santiago-ponzinibbio'>Santiago Ponzinibbio</Link>, donde además se convirtiría en la pelea de la noche.</p>
                     <Image className={styles.peleador__article__image} src={cage} alt='El peleador de mma argentino Laureano Staropoli caminando al rededor de la jaula con una bandera de argentina previo a un combate de ufc' />
                     <p className={styles.peleador__article__text}>Luchó un total de 6 combates en ufc, de donde lamentablemente, pese a ganar sus 2 primeros combates, se tuvo que ir, luego de acumular 4 derrotas consecutivas, todas ellas por decisión unánime.</p>
                 </article>

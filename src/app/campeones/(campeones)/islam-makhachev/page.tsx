@@ -35,7 +35,7 @@ export default function Makhachev () {
                 </article>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Makhachev Última pelea</h2>
-                    <p className={styles.peleador__article__text}>Su última pelea fue una revancha contra <Link href='/peleadores/alexandder-volkanovski'>Alexander Volkanovski</Link> donde consiguió defender su título, ganando por nocaut en el primer round. Se tenía previsto que peleará contra Charles Oliveira, pero Oliveira fue obligado a retirarse del evento por lesión.</p>
+                    <p className={styles.peleador__article__text}>Su última pelea fue una revancha contra <Link href='/campeones/alexandder-volkanovski'>Alexander Volkanovski</Link> donde consiguió defender su título, ganando por nocaut en el primer round. Se tenía previsto que peleará contra Charles Oliveira, pero Oliveira fue obligado a retirarse del evento por lesión.</p>
                     <Image className={styles.peleador__article__image} src={pelea} alt='Islam Makhachev golpeando en el rsotro a su rival ded UFC Alexander Volkanovski' />
                 </article>
                 <article className={styles.peleador__article}>

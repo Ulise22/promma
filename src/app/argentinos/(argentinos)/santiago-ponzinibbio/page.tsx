@@ -26,7 +26,7 @@ export default function Ponzinibbio () {
                 </article>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Ponzinibbio record</h2>
-                    <p className={styles.peleador__article__text}>Actualmente Santiago Ponzinibbio mantiene un record de 29-7-0 (29 victorias, 7 derrotas y 0 empates). Siendo 16 dde sus victorias por nocaut, 6 por sumisión y 7 por decisión. Y sus derrotas siendo 4 por nocaut y 3 por decisión.</p>
+                    <p className={styles.peleador__article__text}>Actualmente Santiago Ponzinibbio mantiene un record de 29-7-0 (29 victorias, 7 derrotas y 0 empates). Siendo 16 de sus victorias por nocaut, 6 por sumisión y 7 por decisión. Y sus derrotas siendo 4 por nocaut y 3 por decisión.</p>
                 </article>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Santiago Ponzinibbio enfermedad</h2>

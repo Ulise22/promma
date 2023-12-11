@@ -7,6 +7,7 @@ import sparring2 from '@/assets/peleadores__images/leon-edwards/edwards_sparring
 import card from '@/assets/peleadores__images/leon-edwards/edwards_card.jpg'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function LeonEdwards () {
     return(
@@ -16,7 +17,7 @@ export default function LeonEdwards () {
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Edwards UFC</h2>
                     <p className={styles.peleador__article__text}>Actual campeón de UFC 278 y UFC 286, habiendo ganado en ambas ocasiones contra Kamaru Usman. Lleva peleando profesionalmente en la UFC 9 años. Actualmente está en el equipo UTC Birmingham, con solo dos derrotas oficiales de la UFC.</p>
-                    <p className={styles.peleador__article__text}>El 8 de noviembre de 2014, Edwards, hizo su debut contra Claudio Silva en UFC Fight Night: Shogun vs. Saint Preux. Donde fue vencido por decisión dividida (29-28, 29-28, 28-29). El 20 de agosto de 2022 ganó el título mundial de peso welter, UFC 278, donde ganó por KO con una patada. El 18 de marzo de 2023 defendió el título contra el mismo contrincante, Kamaru Usman, donde ganó por decisión mayoritaria.</p>
+                    <p className={styles.peleador__article__text}>El 8 de noviembre de 2014, Edwards, hizo su debut contra Claudio Silva en UFC Fight Night: Shogun vs. Saint Preux. Donde fue vencido por decisión dividida (29-28, 29-28, 28-29). El 20 de agosto de 2022 ganó el título mundial de peso welter, UFC 278, donde ganó por KO con una patada. El 18 de marzo de 2023 defendió el título contra el mismo contrincante, <Link href='/peleadores/kamaru-usman'>Kamaru Usman</Link>, donde ganó por decisión mayoritaria.</p>
                     <p className={styles.peleador__article__text}>El 21 de enero de 2020 se confirma que Leon Edwards renueva su contrato, su próximo combate se hubiese dado el 21 de marzo contra el ex campeón de aquel entonces (Tyron Woodley), pero a causa del COVID-19 forzaron al luchador para que retirarse. Luego de algunos retrasos en la pelea, se terminó cancelando. Edwards no volvió a luchar hasta el 13 de marzo de 2021. Esto generó que la UFC removiera a Edwards de los rankings por inactividad.</p>
                     <Image className={styles.peleador__article__image} src={pelea} alt='El peleador de MMA Leon Edwards conectando un golpe en el rostro de su rival en medio de un combate de UFC' />
                     <p className={styles.peleador__article__text}>Actualmente, en palabras de Leon Edwards: “Siento que voy a salir, convertirme en doble campeón, el primero del Reino Unido en hacerlo, ese es definitivamente uno de mis objetivos. Eso está en las tarjetas, seguro.” Buscando volverse campeón en dos divisiones, peso welter y peso medio.</p>

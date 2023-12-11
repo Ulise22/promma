@@ -5,6 +5,7 @@ import alexa from '@/assets/peleadores__images/alexa-grasso/alexa__grasso.jpg'
 import alexaGrasso from '@/assets/peleadores__images/alexa-grasso/alexa_grasso.jpg'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Grasso () {
     return(
@@ -13,10 +14,10 @@ export default function Grasso () {
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Alexa UFC</h2>
-                    <p className={styles.peleador__article__text}>Alexa Grasso es una peleadora mexicana de mma y es la actual número #1 libra por libra femenino de UFC y es la actual campeona de Peso Mosca Femenino de la UFC desde que derrotó a la histórica <b>Valentina Shevchenvo</b> en marzo de 2023 con una sumisión en el cuarto asalto en el UFC 285 de Las Vegas.</p>
+                    <p className={styles.peleador__article__text}>Alexa Grasso es una peleadora mexicana de mma y es la actual número #1 libra por libra femenino de UFC y es la actual campeona de Peso Mosca Femenino de la UFC desde que derrotó a la histórica <Link href='/mujeres/valentina-shevchenko'>Valentina Shevchenvo</Link> en marzo de 2023 con una sumisión en el cuarto asalto en el UFC 285 de Las Vegas.</p>
                     <p className={styles.peleador__article__text}>Sin embargo su llegada a la UFC comenzó de forma un tanto irregular. Alexa venía de competir en diversas promotoras mexicanas y en la compañía <b>Invicta FC</b> de Estados Unidos, además de participar en el reality organizado por UFC de <b>The Ultimate Fighter</b>, todo su recorrido profesional en las MMA la había llevado a acumular un récord de 9-0. Sin embargo el 4 de febrero de 2017 cuando debutó en UFC contra la estadounidense Felice Herrig, perdió su invicto por decisión unánime. Contando aquella pelea, Alexa cosechó 3 derrotas de forma intermitente en UFC.</p>
                     <Image className={styles.peleador__article__image} src={alexa} alt='' />
-                    <p className={styles.peleador__article__text}>Luego de esta racha irregular, Alexa tenía programadda una pelea contra Claudia Gadelha, sin embargo el día en que se hizo el pesaje, Grasso no cumplió con el peso pactado. Esto llevó a que se suspendiera la pelea. Alexa Grasso se disculpó y decidió mudarse de división, al Peso Mosca.</p>
+                    <p className={styles.peleador__article__text}>Luego de esta racha irregular, Alexa tenía programada una pelea contra Claudia Gadelha, sin embargo el día en que se hizo el pesaje, Grasso no cumplió con el peso pactado. Esto llevó a que se suspendiera la pelea. Alexa Grasso se disculpó y decidió mudarse de división, al Peso Mosca.</p>
                     <p className={styles.peleador__article__text}>Su debut en peso mosca lo hizo contra la surcoreana Ji Yeon Kim, a quien derrotó por decisión unánime, y, desde entonces, no ha perdido un sólo combate.</p>
                 </article>
                 <article className={styles.peleador__article}>
@@ -35,7 +36,7 @@ export default function Grasso () {
                 </article>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Alexa Grasso Récord</h2>
-                    <p className={styles.peleador__article__text}>Alexa Grasso tiene un record de 16-3-1. Siendo 4 de sus victorias por nocaut, 2 por sumisión y 10 por decisión. Mientras que sus 3 derrotas se componen de 1 por sumisión y de 2 por decisión. Su único empate fue diciembre de 2023 contra <b>Valentina Shevchenko</b>.</p>
+                    <p className={styles.peleador__article__text}>Alexa Grasso tiene un record de 16-3-1. Siendo 4 de sus victorias por nocaut, 2 por sumisión y 10 por decisión. Mientras que sus 3 derrotas se componen de 1 por sumisión y de 2 por decisión. Su único empate fue diciembre de 2023 contra <Link href='/mujeres/valentina-shevchenko'>Valentina Shevchenko</Link>.</p>
                 </article>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Alexa Grasso Última Pelea</h2>
