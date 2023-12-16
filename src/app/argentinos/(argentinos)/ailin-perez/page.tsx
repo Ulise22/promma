@@ -12,7 +12,7 @@ import Image from 'next/image'
 export default function AilinPerez () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={ailin} w={9} d={2} l={0} nombre='Ailín Pérez' apodo='FIONA' categoria='Peso Gallo Femenino' />
+            <PeleadoresHero peleadoresImage={ailin} w={9} l={2} d={0} nombre='Ailín Pérez' apodo='FIONA' categoria='Peso Gallo Femenino' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Ailín Pérez UFC</h2>
