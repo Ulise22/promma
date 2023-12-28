@@ -24,6 +24,7 @@ export default function RootLayout({
       <head>
         <link rel='icon' href='/PROMMA.svg' />
         <meta name="google-adsense-account" content="ca-pub-9270621638584149"></meta>
+        <meta name="google-site-verification" content="Fs-50JXbPvOocYuzXqdnQc0FbAFiuihlb27E5ZzEqvo" />
       </head>
       <body className={inter.className}>
         <Menu />
