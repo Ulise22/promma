@@ -21,7 +21,7 @@ export default function Ponzinibbio () {
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Ponzinibbio MMA</h2>
                     <p className={styles.peleador__article__text}>Santiago Ponzinbbio tiene una extensa carrera anterior a su debut en UFC, peleó 18 combates en competiciones sudamericanas en las cuales sólo perdió una vez contra el brasileño Leonardo Mafra, y donde obtuvo todas sus 6 victorias por sumisión, además de sus muchos ko.</p>
-                    <p className={styles.peleador__article__text}>Ponzinibbio tiene un estilo principalmente de boxeo en sus peleas, aunque también es cinturón negro en <Link href='/estilos/jiujitsu'>Jiu Jitsu brasileño</Link></p>
+                    <p className={styles.peleador__article__text}>Ponzinibbio tiene un estilo principalmente de boxeo en sus peleas, aunque también es cinturón negro en Jiu Jitsu brasileño</p>
                     <Image className={styles.peleador__article__image} src={pelea} alt='El peleador argentino de mma Santiago Ponzinibbio dejando contra las rejas a otro peleador en un combate de ufc'/>
                 </article>
                 <article className={styles.peleador__article}>

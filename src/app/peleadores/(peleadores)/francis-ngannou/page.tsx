@@ -36,7 +36,7 @@ export default function Ngannou () {
                     <p className={styles.peleador__article__text}>En 2013 comenzaría a pelear de forma profesional y rondaría por varias compañías hasta 2015, cuando es contratado por UFC.</p>
                     <Image className={styles.peleador__article__image} src={francisNgannou} alt='' />
                     <p className={styles.peleador__article__text}>Francis Ngannou pelearía en la UFC, donde en marzo ded 2021 se consagraría campeon de Peso Pesados en el UFC 260, al vencer por KO al entonces campeón Stipe Miocic en el segundo round. Tendría una única defensa por el título contra Ciryl Gane, a quien ganaría por decisión unánime. Posterior a su defensa abandonaría la UFC, al no llegar a un acuerdo con <b>Dana White</b> para renovar su contrato. Francis Ngannou había manifestado en diversas ocaciones que no se encontraba contento con la paga que recibía en la compañía, y este fue un tema recurrente a la hora de negociar su continuidad en la compañía.</p>
-                    <p className={styles.peleador__article__text}>Actualmente se encuentra con contrato en <b>PFL</b>, donde entre otros, pelea el argentino <Link href='/peleadores/emiliano-sordi'>Emiliano Sordi</Link>. Pero todavía no ha peleado de manera oficial.</p>
+                    <p className={styles.peleador__article__text}>Actualmente se encuentra con contrato en <b>PFL</b>, donde entre otros, pelea el argentino <Link href='/argentinos/emiliano-sordi'>Emiliano Sordi</Link>. Pero todavía no ha peleado de manera oficial.</p>
                 </article>
                 <article className={styles.peleador__article}>
                     <h2>Francis Ngannou Boxeo</h2>

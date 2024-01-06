@@ -16,7 +16,7 @@ export default function Chandler () {
                     <h2 className={styles.peleador__article__title}>Chandler UFC</h2>
                     <p>Michael Chandler es actualmente el número #5 de la división de Peso Ligero de <Link href='/promotoras/ufc'>UFC</Link>, debido a la extensa carrera que llevaba Chandler en <b>Bellator</b>, siendo campeón de su división, al momento de entrar en la UFC, apareció muy alto en los rankings.</p>
                     <Image className={styles.peleador__article__image} src={michael} alt='El peleador de MMA Michael Chandler en el reality de televisión de UFC, The Ultimate Fighter' />
-                    <p>Dado al prestigio que cosecho en su carrera antes de llegar a UFC, la primera pelea que tuvo fue contra un top10 como lo es <b>Dan Hooker</b>, a quien derrotó por nocaut a los 2 minutos del primer asalto. Victoria, que en su segundo combate apenas, lo llevó a pelear por el Campeonato de Peso Ligero que había quedado vacante luego de la retirada de <b>Khabib</b>, contra el brasileño <b>Charles Oliveira</b>. Finalmente la pelea terminó con una victoria para el brasileño en el segundo asalto por TKO.</p>
+                    <p>Dado al prestigio que cosecho en su carrera antes de llegar a UFC, la primera pelea que tuvo fue contra un top10 como lo es <b>Dan Hooker</b>, a quien derrotó por nocaut a los 2 minutos del primer asalto. Victoria, que en su segundo combate apenas, lo llevó a pelear por el Campeonato de Peso Ligero que había quedado vacante luego de la retirada de <b>Khabib</b>, contra el brasileño <Link href='/peleadores/charles-oliveira'><b>Charles Oliveira</b></Link>. Finalmente la pelea terminó con una victoria para el brasileño en el segundo asalto por TKO.</p>
                 </article>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Michael Chandler Récord</h2>
@@ -36,6 +36,7 @@ export default function Chandler () {
                     <h2 className={styles.peleador__article__title}>Michael Chandler Última Pelea</h2>
                     <p>Su última pelea fue contra el también estadounidense <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link> el 12 noviembre de 2022 en UFC 281 en Nueva York. Para dicho combate, Michael Chandler venía de dejar KO con una patada a los 17 segundos del segundo asalto contra el histórico <Link href='/peleadores/tony-ferguson'>Tony Ferguson</Link>. Mientras que Dustin Poirier venía de perder por sumisión en el tercer asalto en una pelea por el título contra <Link href='/peleadores/charles-oliveira'>Charles Oliveira</Link>.</p>
                     <p>El combate terminó con una victoria para Dustin Poirier, quien sometió a Michael Chandler a los 2 minutos del tercer asalto. Lo que le hizo merecedor del premio a la Pelea de Noche.</p>
+                    <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/zhC7KhFk49M?si=5KS2kDwsmwlam2QW" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </article>
             </section>
         </main>
