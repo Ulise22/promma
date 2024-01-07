@@ -1,6 +1,6 @@
-import PeleadoresHero from '../../components/PeleadoresHero'
+import PeleadoresHero from '../../../components/PeleadoresHero'
 import colby from '@/assets/peleadores__images/colby-covington/colby_covington.png'
-import styles from '../../components/peleador.module.css'
+import styles from '../../../components/peleador.module.css'
 
 export default function Covington () {
     return(
