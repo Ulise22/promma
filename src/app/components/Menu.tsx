@@ -46,6 +46,9 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/promotoras/ufc'>UFC</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/promotoras/pfl'>PFL</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/promotoras/bellator'>BELLATOR</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/promotoras/one-championship'>ONE</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/promotoras/dogfight-wild-tournament'>Dogfight</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/promotoras/king-of-the-streets'>KOTS</Link></li>
                     </ul>
                 </li>
                 <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/campeones'>Campeones</Link>
