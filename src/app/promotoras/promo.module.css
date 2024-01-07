@@ -18,7 +18,7 @@
         margin: 0 auto;
     }
 
-    .promotoras__article__title {
+    .promotoras__article__title, .promotoras__article__subtitle {
         text-align: center;
     }
 }
