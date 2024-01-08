@@ -12,9 +12,6 @@
     height: auto;
 }
 
-.promotoras__article__video {
-    margin: auto;
-}
 
 @media screen and (max-width: 1015px) {
     .promotoras__container {
@@ -34,5 +31,10 @@
 
     .promotoras__article__text {
         font-size: 15px;
+    }
+
+    
+    .promotoras__article__video {
+        width: 100%;
     }
 }
