@@ -40,6 +40,9 @@ export default function Campeones () {
                     <Link href='/campeones/alexa-grasso' className={`${styles.peleadores__card} ${styles.peleadores__card_grasso}`}>
                         <h3 className={styles.peleadores__card__name}>Alexa Grasso</h3>
                     </Link>
+                    <Link href='/campeones/tom-aspinall' className={`${styles.peleadores__card} ${styles.peleadores__card_aspinall}`}>
+                        <h3 className={styles.peleadores__card__name}>Tom Aspinall</h3>
+                    </Link>
                 </article>
             </section>
         </main>
