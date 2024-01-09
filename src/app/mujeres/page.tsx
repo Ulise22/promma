@@ -25,6 +25,12 @@ export default function Mujeres () {
                     <Link href='/argentinos/ailin-perez' className={`${styles.peleadores__card} ${styles.peleadores__card_ailin}`}>
                         <h3 className={styles.peleadores__card__name}>Ailín Pérez</h3>
                     </Link>
+                    <Link href='/mujeres/raquel-pennington' className={`${styles.peleadores__card} ${styles.peleadores__card_pennington}`}>
+                        <h3 className={styles.peleadores__card__name}>Raquel Pennington</h3>
+                    </Link>
+                    <Link href='/mujeres/mayra-bueno-silva' className={`${styles.peleadores__card} ${styles.peleadores__card_mayra}`}>
+                        <h3 className={styles.peleadores__card__name}>Mayra Bueno Silva</h3>
+                    </Link>
                 </article>
             </section>
         </main>

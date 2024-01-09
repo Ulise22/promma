@@ -4,7 +4,6 @@ import fight from '@/assets/peleadores__images/franco-tenaglia/fight.jpg'
 import franco from '@/assets/peleadores__images/franco-tenaglia/franco-tenaglia.jpg'
 import FTenaglia from '@/assets/peleadores__images/franco-tenaglia/franco_tenaglia.jpg'
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
-import Link from 'next/link'
 import Image from 'next/image'
 
 export default function Tenaglia () {

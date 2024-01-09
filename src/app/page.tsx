@@ -9,7 +9,7 @@ export default function Home () {
   return(
     <main>
       <section className={styles.hero}>
-        <h1 className={styles.hero__title}>PROMMA, toda la información de las artes marciales mixtas</h1>
+        <h1 className={styles.hero__title}>FULLMMA, toda la información de las artes marciales mixtas</h1>
       </section>
       <section className={styles.articles__container}>
         <article>

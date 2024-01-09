@@ -70,6 +70,16 @@
     background-position: left;
 }
 
+.peleadores__card_pennington {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/mujeres/raquel-pennington/raquel_card.jpg');
+    background-position: center;
+}
+
+.peleadores__card_mayra {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/mujeres/mayra-bueno-silva/mayra_card.jpg');
+    background-position: left;
+}
+
 @media screen and (max-width: 1015px) {
     .peleadores {
         width: 90%;

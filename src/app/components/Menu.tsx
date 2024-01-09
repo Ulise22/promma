@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import styles from './Menu.module.css'
 import Image from 'next/image'
-import logo from '../../assets/PROMMA.png'
+import logo from '../../assets/FULLMMA.png'
 import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
