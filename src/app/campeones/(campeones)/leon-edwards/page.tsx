@@ -12,7 +12,7 @@ import Link from 'next/link'
 export default function LeonEdwards () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={edwards} w={21} l={3} d={0} nombre='Leon Edwarsd' apodo='ROCKY' categoria='Peso Welter' />
+            <PeleadoresHero peleadoresImage={edwards} w={22} l={3} d={0} nombre='Leon Edwards' apodo='ROCKY' categoria='Peso Welter' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Edwards UFC</h2>
@@ -24,7 +24,7 @@ export default function LeonEdwards () {
                 </article>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Leon Edwards Récord</h2>
-                    <p className={styles.peleador__article__text}>Un total de 16 peleas oficiales de UFC: 2 derrotas por decisión unánime y decisión dividida. 13 victorias: 3 por nocaut, 1 sumisión y 8 por decisión unánime y decisión dividida. 1 pelea que terminó sin decisión por un piquete a los ojos de parte Edwards a Muhammad.</p>
+                    <p className={styles.peleador__article__text}>Un total de 17 peleas oficiales de UFC: 2 derrotas por decisión unánime y decisión dividida. 13 victorias: 3 por nocaut, 1 sumisión y 9 por decisión unánime y decisión dividida. 1 pelea que terminó sin decisión por un piquete a los ojos de parte Edwards a Muhammad.</p>
                     <p className={styles.peleador__article__text}>25 combates totales, 21 victorias: 7 por nocaut, 3 por sumisión y 11 por decisión unánime y decisión dividida. 3 derrotas: 2 decisión unánime y decisión dividida, 1 por descalificación.Obteniendo una última pelea que fue cancelada por piquete de ojos.</p>
                 </article>
                 <article className={styles.peleador__article}>

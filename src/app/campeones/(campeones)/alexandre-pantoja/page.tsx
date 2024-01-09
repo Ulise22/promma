@@ -9,7 +9,7 @@ import Image from 'next/image'
 export default function Pantoja () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={pantoja} w={26} l={5} d={0} nombre='Alexandre Pantoja' apodo='THE CANNIBAL' categoria='Peso Mosca' />
+            <PeleadoresHero peleadoresImage={pantoja} w={27} l={5} d={0} nombre='Alexandre Pantoja' apodo='THE CANNIBAL' categoria='Peso Mosca' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Pantoja ufc</h2>
@@ -35,7 +35,7 @@ export default function Pantoja () {
                 </article>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Alexandre Pantoja record</h2>
-                    <p className={styles.peleador__article__text}>Alexandre Pantoja tiene un record de 26-5-0, siendo 8 de sus 26 victorias por nocaut, y 10 por sumisión. 10 de sus victorias fueron en UFC, y el resto están repartidas en diferentes promotoras de de Brasil y Estados Unidos.</p>
+                    <p className={styles.peleador__article__text}>Alexandre Pantoja tiene un record de 27-5-0, siendo 8 de sus 27 victorias por nocaut, y 10 por sumisión. 10 de sus victorias fueron en UFC, y el resto están repartidas en diferentes promotoras de de Brasil y Estados Unidos.</p>
                 </article>
             </section>
         </main>

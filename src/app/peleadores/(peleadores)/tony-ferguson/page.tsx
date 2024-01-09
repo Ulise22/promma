@@ -10,7 +10,7 @@ import Link from 'next/link'
 export default function Ferguson () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={ferguson} w={26} l={9} d={0} nombre='Tony Ferguson' categoria='Peso Ligero' apodo='EL CUCUY' />
+            <PeleadoresHero peleadoresImage={ferguson} w={26} l={10} d={0} nombre='Tony Ferguson' categoria='Peso Ligero' apodo='EL CUCUY' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Ferguson UFC</h2>
@@ -29,7 +29,7 @@ export default function Ferguson () {
                 </article>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Tony Ferguson Récord</h2>
-                    <p className={styles.peleador__article__text}>Tiene un récord de 15 victorias, 12 victorias continúas, 5 nocaut, 6 sumisión y 4 por decisión. 7 derrotas, 2 nocaut, 2 sumisión y 3 por decisión. (UFC)</p>
+                    <p className={styles.peleador__article__text}>Tiene un récord de 15 victorias, 12 victorias continúas, 5 nocaut, 6 sumisión y 4 por decisión. 10 derrotas, 2 nocaut, 3 sumisión y 5 por decisión. (UFC)</p>
                     <Image className={styles.peleador__article__image} src={win} alt='Tony Ferguson festejando luego de dejar KO a su rival en un combate de ufc' />
                 </article>
                 <article className={styles.peleador__article}>
