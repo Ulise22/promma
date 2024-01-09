@@ -25,6 +25,9 @@ export default function Argentinos () {
                     <Link href='/argentinos/franco-tenaglia' className={`${styles.peleadores__card} ${styles.peleadores__card_tenaglia}`}>
                         <h3 className={styles.peleadores__card__name}>Franco Tenaglia</h3>
                     </Link>
+                    <Link href='/argentinos/guido-cannetti' className={`${styles.peleadores__card} ${styles.peleadores__card_canetti}`}>
+                        <h3 className={styles.peleadores__card__name}>Guido Cannetti</h3>
+                    </Link>
                 </article>
             </section>
         </main>
