@@ -1,11 +1,11 @@
 import PeleadoresHero from '../../../components/PeleadoresHero'
 import styles from '../../../components/peleador.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
 import duPlessis from '@/assets/peleadores__images/0-10/dricus-du-plessis/du-plessis.png'
 import usman from '@/assets/peleadores__images/0-10/dricus-du-plessis/dricus-usman.jpg'
 import ufc from '@/assets/peleadores__images/0-10/dricus-du-plessis/du-plessis_ufc.jpg'
 import dricus from '@/assets/peleadores__images/0-10/dricus-du-plessis/dricus_du-plessis.jpg'
-import Image from 'next/image'
 
 export default function DuPlessis () {
     return(
