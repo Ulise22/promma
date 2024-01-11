@@ -1,0 +1,8 @@
+.leyendas__hero {
+    height: 60vh; 
+    overflow: hidden;
+    background-image: url('https://live.staticflickr.com/1256/958123642_e80dec3626_b.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
