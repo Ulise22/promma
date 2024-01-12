@@ -1,8 +1,79 @@
 .leyendas__hero {
     height: 60vh; 
     overflow: hidden;
-    background-image: url('https://live.staticflickr.com/1256/958123642_e80dec3626_b.jpg');
+    background-image: linear-gradient(180deg, #00000080 0%, #00000080 100%), url('../../assets/leyendas/leyendas_hero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.leyendas__hero__title {
+    font-size: 42px;
+}
+
+.leyendas__content__container {
+    width: 65%;
+    margin-left: 20px;
+}
+
+.leyendas__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.leyendas__card {
+    height: 440px;
+    width: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-size: cover;
+    text-decoration: none;
+}
+
+.leyendas__card:hover {
+    box-shadow: 0px 0px 18px 0px rgba(82, 82, 82, 0.25);
+}
+
+.leyendas__card__title {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+/* Leyendas Imagenes */
+
+.leyendas__card__khabib {
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/khabib-nurmagomedov/khabib_card.jpg');
+    background-position: right;
+}
+
+.leyendas__card__gsp {
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/george-st-pierre/gsp_card.jpg');
+    background-position: center;
+}
+
+.leyendas__card__anderson {
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/anderson-silva/anderson-silva_card.jpg');
+    background-repeat: no-repeat;
+    background-position: center, -120px;
+}
+
+.leyendas__card__lesnar {
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/brock-lesnar/brock-lesnar_card.jpg');
+    background-position: center;
+}
+
+.leyendas__card__dc {
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/daniel-cormier/dc_card.jpg');
+    background-position: right;
+}
+
+.leyendas__card__aldo {
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/jose-aldo/jose-aldo_card.jpg');
+    background-position: center;
 }
