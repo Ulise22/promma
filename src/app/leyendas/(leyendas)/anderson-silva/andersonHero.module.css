@@ -1,0 +1,22 @@
+.leyenda__hero {
+    height: 50vh;
+    overflow: hidden;
+    background-image: linear-gradient(180deg, #00000093 0%, #00000093 100%), url('https://live.staticflickr.com/7327/16253859518_4139ba4ca4_z.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.leyenda__hero__title {
+    font-size: 42px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1015px) {
+    .leyenda__hero {
+        background-position: left;
+    }
+}

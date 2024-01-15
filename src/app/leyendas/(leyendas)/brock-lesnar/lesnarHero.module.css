@@ -1,0 +1,22 @@
+.leyenda__hero {
+    height: 50vh;
+    overflow: hidden;
+    background-image: linear-gradient(180deg, #00000093 0%, #00000093 100%), url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/291d4640-8c52-4ff4-925a-a3566f061877/deajkh7-8a689973-6dd2-4445-ac40-222325a24477.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI5MWQ0NjQwLThjNTItNGZmNC05MjVhLWEzNTY2ZjA2MTg3N1wvZGVhamtoNy04YTY4OTk3My02ZGQyLTQ0NDUtYWM0MC0yMjIzMjVhMjQ0NzcuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9rSUl6dTSTQpVtyLurbFffw6nxYz5ZzlbUTJZboLNbs');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.leyenda__hero__title {
+    font-size: 42px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1015px) {
+    .leyenda__hero {
+        background-position: left;
+    }
+}
