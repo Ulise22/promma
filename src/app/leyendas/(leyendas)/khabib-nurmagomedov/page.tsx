@@ -2,14 +2,13 @@ import styles from '@/app/leyendas/leyenda.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '../../components/AsideChamps'
+import KhabibHero from './KhabibHero'
 
 
 export default function Khabib () {
     return(
         <main>
-            <section className={styles.leyenda__hero}>
-                <h1 className={styles.leyenda__hero__title}>Khabib Nurmagomedov</h1>
-            </section>
+            <KhabibHero />
             <section className={styles.leyenda__articles__container}>
                 <article className={styles.leyenda__article}>
                     <h2 className={styles.leyenda__article__title}>Khabib Nurmagomedov UFC</h2>
