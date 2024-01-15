@@ -1,0 +1,20 @@
+
+.campeones__container {
+    margin-top: 40px;
+}
+
+.campeones {
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+    color: #fff;
+}
+
+.campeones__image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}

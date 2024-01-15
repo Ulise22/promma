@@ -1,18 +1,21 @@
-import styles from '@/app/peleadores/components/peleador.module.css'
+import styles from '@/app/leyendas/leyenda.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
+import AsideChamps from '../../components/AsideChamps'
+
 
 export default function Khabib () {
     return(
         <main>
-            <section>
-                <h1>Khabib Nurmagomedov</h1>
+            <section className={styles.leyenda__hero}>
+                <h1 className={styles.leyenda__hero__title}>Khabib Nurmagomedov</h1>
             </section>
-            <section className={styles.peleador__articles__container}>
-                <article className={styles.peleador__article}>
-                    <h2 className={styles.peleador__article__title}>Pereira UFC</h2>
-                    <p className={styles.peleador__article__text}></p>
+            <section className={styles.leyenda__articles__container}>
+                <article className={styles.leyenda__article}>
+                    <h2 className={styles.leyenda__article__title}>Khabib Nurmagomedov UFC</h2>
+                    <p className={styles.leyenda__article__text}>Khabib es un luchador ruso de MMA, que se ganó su posición en el salón de la fama en la UFC</p>
                 </article>
+                <AsideChamps />
             </section>
         </main>
     )
