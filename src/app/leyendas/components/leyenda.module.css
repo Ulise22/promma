@@ -23,6 +23,7 @@
 @media screen and (max-width: 1015px) {
     .leyenda__articles__container {
         width: 90%;
+        margin: 0 auto;
     }
 
     .leyenda__article__title {
