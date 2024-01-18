@@ -34,7 +34,16 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/max-holloway'>Max Holloway</Link></li>
                     </ul>
                 </li>
-                <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/leyendas'>Leyendas</Link></li>
+                <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/leyendas'>Leyendas</Link>
+                    <ul className={styles.menu__list__dropdown}>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/leyendas/khabib-nurmagomedov'>Khabib Nurmagomedov</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/leyendas/george-st-pierre'>George St-Pierre</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/leyendas/anderson-silva'>Anderson Silva</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/leyendas/brock-lesnar'>Brock Lesnar</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/leyendas/daniel-cormier'>Daniel Cormier</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/leyendas/jose-aldo'>José Aldo</Link></li>
+                    </ul>
+                </li>
                 {/* <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/estilos'>Estilos</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/estilos/boxeo'>Boxeo</Link></li>
