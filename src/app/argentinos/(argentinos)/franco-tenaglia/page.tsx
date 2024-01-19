@@ -5,6 +5,7 @@ import franco from '@/assets/peleadores__images/franco-tenaglia/franco-tenaglia.
 import FTenaglia from '@/assets/peleadores__images/franco-tenaglia/franco_tenaglia.jpg'
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import Image from 'next/image'
+import AsideChamps from '@/app/components/asides/AsideChamps'
 
 export default function Tenaglia () {
     return(
@@ -21,22 +22,17 @@ export default function Tenaglia () {
                     <p className={styles.peleador__article__text}>En este deporte Franco destacó rápidamente, ganando sus 3 primeras peleas por nocaut, todas hechas de manera muy seguida. Aunque esto penaliza mucho el cuerpo, primero por poco tiempo de recuperación que tenía entre peleas, y segundo que al las peleas ser sin guantes lastiman mucho más el cuerpo. Esto lo llevó a practicar MMA, que es un deporte menos destructivo para el cuerpo y porque además le dijeron que ahí tenía una proyección más profesional.</p>
                     <p className={styles.peleador__article__text}>Después de una larga Odisea en la que tuvo que trabajar para mafias, donde tuvo que buscar formas poco legales de ganarse la vida y donde tuvo un largo registro de peleas amateur o ilegales, empezó a hacerse un nombre en los combates profesionales, que comienzan a llevarlo por el buen camino y a alejarlo de lo anterior. Donde ya comenzó a pelear para <b>BKFC</b> que es una promotora legal de peleas sin guantes, donde ganó los 2 enfrentamientos que tuvo, también en la promotora española <b>King Fight League</b>, en la también española <b>WOW</b>, y tiene programada una pelea para la promotora inglesa <b>Cage Warriors</b>.</p>
                     <Image className={styles.peleador__article__image} src={FTenaglia} alt='El peleador argentino de MMA Franco Tenaglia' />
-                </article>
-                <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Franco Tenaglia Récord</h2>
                     <p className={styles.peleador__article__text}>Me fue un poco complicado encontrar el récord de Franco Tenaglia en MMA. Pero según una nota de <b>Infobae</b> del 28 dde junio de 2023, en cuanto a peleas legales de MMA, Franco tenía un récord de 3-0. Pero luego perder en la promotora española <b>WOW</b> en octubre de 2023, donde el arbitro paró la pelea a 3 segundos de que termine por los golpes que estaba recibiendo, su récord de MMA quedó en 3-1.</p>
-                </article>
-                <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Franco Tenaglia Jordi Wild</h2>
                     <p className={styles.peleador__article__text}>Franco Tenaglia tuvo una participación en el evento de MMA español organizado por el reconocido youtuber Jordi Wild. Este combate, como el argentino está acostumbrado fue sin guantes, fue un combate &quot;Bare Knuckle&quot;, que terminó con la victoria de su rival Edye Ruiz por decisión dividida.</p>
                     <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/XUbENj1d2s8?si=NUD6JpQLS9naGoL8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                </article>
-                <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Franco Tenaglia King of the Streets</h2>
                     <p className={styles.peleador__article__text}>Franco Tenaglia peleó en el polémico evento de <b>King Of The Streets</b>, quienes en su canal de Youtube tienen más de un millón de seguidores, y que en el video de su pelea acumula también más de un millón de reproducciones. &quot;Son eventos cerrados, de poco público. Va gente de mucho dinero que se emborracha, toma merca y empieza a apostar. Se pelean como perros de batalla. Hice un par de peleas y los chechenos se enamoraron de mí&quot;, contó.</p>
                     <p className={styles.peleador__article__text}>Aquellos combates suelen hacerse en la marginalidad, a los peleadores se los suele llevar al lugar del combate con los ojos vendados y entre otros países se suelen organizar en Polonia, Suecia y Hungría. Franco contó: &quot;Uno de los lugares al que fui era un garaje en el medio de las montañas y había hasta nieve. Los tipos están armados con AK-47, no es ninguna joda. Están todos con máscaras y no es por show. Si se pelean hooligans o barrabravas de la mafia de Polonia contra los de Serbia, si se arma un quilombo en el evento se pueden disparar y apuñalar. Son todos tipos re locos. Entonces, tenés que tener gente que organiza que sea potente. Hay gente que terminaba muy mal. Yo peleé en piso de concreto. Las rejas del octágono son de metal. Podés morder al tipo, meterle los dedos en los ojos: es lo más violento de lo más violento&quot;</p>
                     <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/vRIiHYKgZQY?si=4DrQq-D0TlnnJpYW" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </article>
+                <AsideChamps />
             </section>
         </main>
     )

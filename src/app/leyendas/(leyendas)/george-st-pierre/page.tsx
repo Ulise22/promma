@@ -1,7 +1,7 @@
 import styles from '@/app/leyendas/components/leyenda.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import AsideChamps from '@/app/leyendas/components/AsideChamps'
+import AsideChamps from '@/app/components/asides/AsideChamps'
 import GspHero from './GspHero'
 
 

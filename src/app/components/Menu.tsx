@@ -91,6 +91,7 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/laureano-staropoli'>Laureano Staropoli</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/ailin-perez'>Ailín Pérez</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/franco-tenaglia'>Franco Tenaglia</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/guido-cannetti'>Guido Cannetti</Link></li>
                     </ul>
                 </li>
             </ul>

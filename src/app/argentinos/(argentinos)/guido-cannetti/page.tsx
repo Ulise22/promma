@@ -6,6 +6,7 @@ import arg from '@/assets/peleadores__images/0-10/guido-cannetti/guido_postfight
 import sparring from '@/assets/peleadores__images/0-10/guido-cannetti/guido_sparring.jpg'
 import guido from '@/assets/peleadores__images/0-10/guido-cannetti/guido_cannetti.jpg'
 import Image from 'next/image'
+import AsideChamps from '@/app/components/asides/AsideChamps'
 
 export default function Staropoli () {
     return(
@@ -17,12 +18,8 @@ export default function Staropoli () {
                     <p className={styles.peleador__article__text}>Guido Cannetti es un peleador argentino de MMA que compite en la división de Peso Gallo de la <Link href='/promotoras/ufc'>UFC</Link> desde hace casi 10 años, desde que debutara en UFC 180 contra el mexicano <b>Henry Briones</b> con quien caería derrotado por una sumisión en el segundo asalto, sin embargo aquella sería elegida la pelea de la noche.</p>
                     <Image className={styles.peleador__article__image} src={arg} alt='El peleador de MMA argentino Guido Cannetti festejando luego de una victoria en su combate por UFC' />
                     <p className={styles.peleador__article__text}>Entre sus combates en la compañía, destaca su victoria contra el estadounidense <b>Randy Costa</b>, a quien sometió poco tiempo después de comenzar el primer asalto, ganandose de esta forma el premio a la Actuación de la Noche.</p>
-                </article>
-                <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Guido Cannetti Récord</h2>
                     <p className={styles.peleador__article__text}>Actualmente, Guido Cannetti posee un récord de 10-7, siendo 4 de sus 10 victorias por la vía del nocaut, 4 por sumisión y 2 por decisión. Mientras que de sus 7 derrotas, 1 fue por nocaut, 5 por sumisión y 1 por decisión.</p>
-                </article>
-                <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Guido Cannetti Historia</h2>
                     <p className={styles.peleador__article__text}>Guido Martín Cannetti Álvarez, nació el 19 de diciembre de 1979 en la ciudad de Mar del Plata, ubicada en la provincia de Buenos Aires, Argentina. Comenzó practicando kickboxing y Muay Thai junto a su hermano Bruno, quien también es un peleador profesional de artes marciales mixtas, y con quien es copropietario de un gimnasio llamado <b>Our Town MMA</b> en la ciudad Argentina de Lanús, en la cual enseñan artes marciales mixtas.</p>
                     <Image className={styles.peleador__article__image} src={sparring} alt='El peleador de UFC argentino Guido Cannetti dando un rodillazo en medio de un sparring' />
@@ -33,6 +30,7 @@ export default function Staropoli () {
                     <Image className={styles.peleador__article__image} src={guido} alt='El peleador de UFC argentino Guido Canneti' />
                     <p className={styles.peleador__article__text}>En cuanto a su vida personal, Guido Cannetti está casado con su esposa Carolina, con quien tiene 2 hijos, Francesco y Filippo.</p>
                 </article>
+                <AsideChamps />
             </section>
         </main>
     )

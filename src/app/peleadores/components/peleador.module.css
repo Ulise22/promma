@@ -1,12 +1,15 @@
 .peleador__articles__container {
-    width: 50%;
+    width: 95%;
     margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 .peleador__article {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 700px;
 }
 
 .peleador__article__title {

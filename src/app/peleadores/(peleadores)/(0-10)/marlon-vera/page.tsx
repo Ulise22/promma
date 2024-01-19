@@ -6,6 +6,7 @@ import vera from '@/assets/peleadores__images/0-10/chito-vera/chito_vera.png'
 import fight from '@/assets/peleadores__images/0-10/chito-vera/vera_fight.jpg'
 import chito from '@/assets/peleadores__images/0-10/chito-vera/chito-vera.jpg'
 import marlon from '@/assets/peleadores__images/0-10/chito-vera/chito_vera.jpg'
+import AsideChamps from '@/app/components/asides/AsideChamps'
 
 export default function Chito () {
     return(
@@ -19,12 +20,8 @@ export default function Chito () {
                     <p className={styles.peleador__article__text}>Hoy en día luego de 22 combates en la compañía, en la cual lleva 15 victorias y 7 derrotas, se ha ganado la oportunidad de pelear por el título de la división contra el recientemente proclamado campeón <Link href='/campeones/sean-omalley'>Sean O&apos;Malley</Link>, a quien ya había enfrentado en una ocasión. Aquel combate que tuvieron se dió en el UFC 252 en Las Vegas, donde Chito Vera logró ganar por nocaut en el primer asalto, convirtiéndose, hasta el momento, en el único peleador en ganarle a O&apos;Malley, porque recordemos que Sean actualmente tiene un record de 17-1, y ese 1 es el que consiguió poner Marlon Vera.</p>
                     <p className={styles.peleador__article__text}>Para cuanto tuvo lugar aquel primer enfrentamiento que tuvieron, Sean O&apos;Malley llegaba con un récord de 12-0, luego de ganar por KO contra el estadounidense <b>Eddie Wineland</b>. En medio de la pelea O&apos;Malley se lesionó el pie, y tiempo después Vera aprovechó esto para terminar llevandose el combate al tirarlo al suelo e iniciar el ground and pound, golpeandolo en el suelo que llevó al arbitro a dar por terminado al combate en favor del ecuatoriano.</p>
                     <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/vgCrVNa3MQQ?si=bFeuKY1ckgHIwra4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                </article>
-                <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Marlon Vera Récord</h2>
                     <p className={styles.peleador__article__text}>Marlon Vera cuenta con un récord de 21-8-1. Siendo 8 de sus victorias por nocaut, 8 por sumisión y 6 por decisión. Mientras que todas sus derrotas fueron por decisión. También tiene un empate llegó en su enfrentamiento contra el brasileño <b>Fábio Bispo</b> con quien peleó en Lima, Perú.</p>
-                </article>
-                <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Marlon Vera Historia</h2>
                     <p className={styles.peleador__article__text}>Marlon vera nació ek 2 de diciembre de 1992 en la ciudad ecuatoriana de Chone, ubicada en la provincia de Manabí. Cinebzpi a entrenar artes marciales mixtas a los 16 años de la mano de su maestro <b>Frank Vidal</b> en Guayaquil, con quien aprendió tecnicas de Jiu-Jitsu, Muay Thai y boxeo. Chito acabaría ganandose el cinturón negro de jiu-jitsu brasileño en 2015.</p>
                     <Image className={styles.peleador__article__image} src={chito} alt='El peleador de MMA Chito Vera presenciando una pelea de UFC' />
@@ -34,6 +31,7 @@ export default function Chito () {
                     <Image className={styles.peleador__article__image} src={marlon} alt='El peleador ecuatoriano de UFC Marlon Vera' />
                     <p className={styles.peleador__article__text}>En cuanto a su vida personal, Vera está casado con su esposa María, con quien tiene 2 hijas nacidas en 2011 y 2018, y un hijo nacido en 2015. </p>
                 </article>
+                <AsideChamps />
             </section>
         </main>
     )
