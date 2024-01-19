@@ -47,7 +47,7 @@ export default function Home () {
             </Link>
           </div>
         </article>
-        <article>
+        {/* <article>
           <h2 className={styles.article__title}>Tipos de Artes Marciales</h2>
           <p className={styles.article__p}>En las MMA cada luchador es libre de elegir qué estilo de pelea utilizar, además de que pueden ir evolucionando y adoptando diferentes artes marciales a su repertorio, buscando así ser más completos. Entre las diferentes artes marciales que están permitidas en las competiciones de MMA, algunas de las que más destacan son:</p>
           <ul>
@@ -60,11 +60,25 @@ export default function Home () {
             <li>Lucha Libre</li>
             <li>Judo</li>
           </ul>
-        </article>
+        </article> */}
         <article className={styles.article}>
           <h2 className={styles.article__title}>Mma argentina</h2>
           <p className={styles.article__p}>Las MMA en Argentina vienen creciendo como en todo el mundo, llegando a tener un peleador campeón de la Professional Fighthers League(PFL) como <Link className={styles.link} href='/argentinos/emiliano-sordi'><b>Emiliano Sordi</b></Link> o al capeón de peso welter en la compañía ARES como <b><Link className={styles.link} href='/argentinos/laureano-staropoli'>Laureano Staropoli</Link></b>. Además claro, de nuestros representantes en la UFC, como lo son <b><Link className={styles.link} href='/argentinos/santiago-ponzinibbio'> Santiago Ponzibbio</Link>, <Link className={styles.link} href='/argentinos/guido-cannetti'>Guido Cannetti</Link> y Marcelo Rojo</b> en la rama masculina, junto a <b>Silvana Gómez y <Link className={styles.link} href='/argentinos/ailin-perez'>Ailín Pérez</Link></b> en la rama femenina.</p>
           <Image className={styles.article__img} src={ponzinibbio} alt='Emiliano Sordi, campeon argentino de mma en la companía Professional Fighters League' width={500} />
+        </article>
+        <article>
+          <h2 className={styles.article__title}>Leyendas de las MMA</h2>
+          <div className={styles.peleadores__container}>
+            <Link href='/peleadores/alexa-grasso' className={`${styles.peleadores__card} ${styles.peleadores__card_khabib}`}>
+                <h3 className={styles.peleadores__card__name}>Khabib Nurmagomedov</h3>
+            </Link>
+            <Link href='/peleadores/zhang-weili' className={`${styles.peleadores__card} ${styles.peleadores__card_gsp}`}>
+                <h3 className={styles.peleadores__card__name}>George St-Pierre</h3>
+            </Link>
+            <Link href='/mujeres/julianna-pena' className={`${styles.peleadores__card} ${styles.peleadores__card_anderson}`}>
+                <h3 className={styles.peleadores__card__name}>Anderson Silva</h3>
+            </Link>
+          </div>
         </article>
         <article className={styles.article__promotoras}>
           <h2 className={styles.article__title}>Promotoras de MMA</h2>

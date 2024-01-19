@@ -65,6 +65,10 @@
   box-shadow: 0px 0px 18px 0px rgba(82, 82, 82, 0.25);
 }
 
+.peleadores__card {
+  text-align: center;
+}
+
 /* Peleadores */
 
 .peleadores__card_volkanovski {
@@ -98,6 +102,24 @@
 .peleadores__card_strickland {
   background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../assets/peleadores__images/sean-strickland/sean__strickland.jpg');
   background-position: center;
+}
+
+/* Leyendas */
+
+.peleadores__card_khabib {
+  background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../assets/leyendas/(peleadores)/khabib-nurmagomedov/khabib_card.jpg');
+  background-position: right;
+}
+
+.peleadores__card_gsp {
+  background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../assets/leyendas/(peleadores)/george-st-pierre/gsp_card.jpg');
+  background-position: center;
+}
+
+.peleadores__card_anderson {
+  background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../assets/leyendas/(peleadores)/anderson-silva/anderson-silva_card.jpg');
+  background-repeat: no-repeat;
+  background-position: center, -120px;
 }
 
 /* Mujeres */
