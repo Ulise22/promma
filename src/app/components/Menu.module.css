@@ -6,11 +6,11 @@
     height: 60px;
     justify-content: space-between;
     align-items: center;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .menu__logo {
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 .menu__logo__img {
@@ -24,7 +24,6 @@
 
 .menu__list {
     list-style: none;
-    margin-right: 30px;
 }
 
 .menu__list__item {

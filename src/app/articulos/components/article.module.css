@@ -1,0 +1,15 @@
+.article__container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.article {
+    width: 700px;
+}
+
+.article__image {
+    width: 100%;
+    height: auto;
+}

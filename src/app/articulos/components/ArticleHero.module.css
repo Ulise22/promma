@@ -1,0 +1,18 @@
+.articleHero {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.articleHero__title {
+    font-size: 48px;
+}
+
+.articleHero__subtitle {
+    font-size: 24px;
+}
+
+.articleHero__image {
+    width: 100%;
+    height: auto;
+}
