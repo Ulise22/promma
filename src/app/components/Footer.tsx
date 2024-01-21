@@ -19,7 +19,7 @@ export default function Footer () {
                 </li>
             </ul>
             <div className={styles.footer__line}></div>
-            <p className={styles.footer__p}>Web diseñada y desarrollada por Ulises Montenegro</p>
+            <p className={styles.footer__p}>Web diseñada y desarrollada por MakDev</p>
         </footer>
     )
 }
