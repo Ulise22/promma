@@ -3,6 +3,19 @@
     margin: 0 auto;
 }
 
+.articles__container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 20px;
+}
+
+@media screen and (max-width: 1015px) {
+    .articles__container {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media screen and (max-width: 660px) {
     .articulos {
         width: 95%;

@@ -16,3 +16,17 @@
     width: 100%;
     height: auto;
 }
+
+@media screen and (max-width: 660px) {
+    .articleHero {
+        width: 95%;
+    }
+
+    .articleHero__title {
+        font-size: 32px;
+    }
+    
+    .articleHero__subtitle {
+        font-size: 18px;
+    }
+}
