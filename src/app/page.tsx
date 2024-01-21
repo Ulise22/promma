@@ -4,14 +4,13 @@ import ponzinibbio from '../assets/santiago-ponsinibbio_argentina.jpg'
 import Image from 'next/image'
 import Link from 'next/link'
 import PromotorasList from './promotoras/PromotorasList'
+import PageHero from './articulos/components/PageHero'
 
 export default function Home () {
   return(
-    <main>
-      <section className={styles.hero}>
-        <h1 className={styles.hero__title}>FULLMMA, toda la información de las artes marciales mixtas</h1>
-      </section>
-      <section className={styles.articles__container}>
+    <main className={styles.articles__container}>
+      <PageHero />
+      <section>
         <article>
           <h2 className={styles.article__title}>Peleadores Campeones de UFC</h2>
           <div className={styles.peleadores__container}>
