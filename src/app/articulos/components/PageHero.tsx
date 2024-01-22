@@ -12,7 +12,7 @@ export default function PageHero () {
             <Link className={styles.pagehero__bigArticle} href='/articulos/ufc297'>
                 <Image className={styles.pagehero__bigArticle__img} src={ufc297} alt='' />
                 <h2 className={styles.page__title}>UFC 297: ¡Dricus Du Plessis y Raquel Pennington Nuevos Campeones de UFC!</h2>
-                <p className={styles.pagehero__bigArticle__text}>En la noche en que se celebró el UFC 297 en Canadá después de mucho tiempo, nos sorprendió cómo...</p>
+                <p className={styles.pagehero__bigArticle__text}>En la noche en que se celebró el UFC 297 en Canadá después de mucho tiempo, tanto la pelea estelar como la coestelar se definieron por decisión...</p>
             </Link>
             <Link className={styles.pagehero__article} href='/articulos/ufc300'>
                 <Image className={styles.pagehero__article__img} src={ufc300} alt='' />
