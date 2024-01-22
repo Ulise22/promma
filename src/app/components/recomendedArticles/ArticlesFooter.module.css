@@ -1,0 +1,46 @@
+.articlesFooter {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.articlesFooter__title {
+    font-size: 32px;
+    text-align: center;
+}
+
+.articlesPreview__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.articlePreview {
+    width: 300px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.articlePreview__image {
+    width: inherit;
+    height: 170px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.articlePreview__title {
+    text-align: center;
+}
+
+@media screen and (max-width: 660px) {
+    .articlesFooter {
+        width: 95%;
+    }
+
+    .articlePreview {
+        width: 100%;
+        max-width: 300px;
+        text-decoration: none;
+        color: #fff;
+    }
+}
