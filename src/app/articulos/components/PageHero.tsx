@@ -18,9 +18,9 @@ export default function PageHero () {
                 <Image className={styles.pagehero__article__img} src={ufc300} alt='' />
                 <h2 className={styles.page__title}>UFC 300: Todo lo que sabemos hasta ahora del mayor evento de MMA en la historia según Dana White</h2>
             </Link>
-            <Link className={styles.pagehero__article} href='/articulos/top10-mejores-peleadores'>
+            <Link className={styles.pagehero__article} href='/articulos/top5-mejores-peleadores'>
                 <Image className={styles.pagehero__article__img} src={goats} alt='' />
-                <h2 className={styles.page__title}>Los 10 mejores peleadores de la historia</h2>
+                <h2 className={styles.page__title}>Los 5 mejores peleadores de la historia</h2>
             </Link>
         </section>
     )
