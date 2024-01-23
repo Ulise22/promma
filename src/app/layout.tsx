@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel='icon' href='/logo.png' />
-        <meta name="google-adsense-account" content="ca-pub-9270621638584149"></meta>
+        <meta name="google-adsense-account" content="ca-pub-9270621638584149" />
       </head>
       <body className={inter.className}>
         <Menu />
