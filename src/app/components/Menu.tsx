@@ -21,7 +21,15 @@ export default function Menu () {
             
             <ul className={isOpen ? `${styles.menu__list} ${styles.active}` : `${styles.menu__list}`}>
                 <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/'>Inicio</Link></li>
-                <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/articulos'>Artículos</Link></li>
+                <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/articulos'>Artículos</Link>
+                    <ul className={styles.menu__list__dropdown}>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/articulos/ufc297'>UFC 297</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/articulos/khabib-ferguson'>Khabib v Ferguson</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/articulos/ufc300'>UFC 300</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/articulos/top5-mejores-peleadores'>Mejores Peleadores</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/articulos/conor-vs-khabib'>McGregor v Khabib</Link></li>
+                    </ul>
+                </li>
                 <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/peleadores'>Peleadores</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/ilia-topuria'>Ilia Topuria</Link></li>
