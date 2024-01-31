@@ -5,6 +5,7 @@ import ArticlePreview from '@/app/articulos/components/ArticlePreview'
 import conorVkhabib from '@/assets/peleadores__images/peleadores__hero.jpg'
 import mostppv from '@/assets/articulos/previews/mostppv.jpg'
 import khabibVferguson from '@/assets/articulos/previews/khabibVferguson.jpg'
+import cortePeso from '@/assets/articulos/previews/corte-peso.jpg'
 
 export default function Articulos () {
     return(
@@ -14,6 +15,7 @@ export default function Articulos () {
                 <ArticlePreview img={conorVkhabib} url='/articulos/conor-vs-khabib' title='Conor McGregor vs Khabib Nurmagomedov: ¿Qué pasó realmente?' />
                 <ArticlePreview img={mostppv} url='/articulos/most-ppv' title='Top 5: Las peleas de MMA que más PPV vendieron' />
                 <ArticlePreview img={khabibVferguson} url='/articulos/khabib-ferguson' title='Khabib vs Tony Ferguson: La pelea maldita que nunca pudo darse' />
+                <ArticlePreview img={cortePeso} url='/articulos/cortes-de-peso' title='Los durísimos cortes de peso a los que se someten los peleadores de UFC' />
             </section>
         </main>
     )

@@ -1,24 +1,12 @@
-.hero {
-  height: 70vh;
-  overflow: hidden;
-  background-image: linear-gradient(180deg, #00000050 0%, #00000050 100%), url('../assets/hero-homepage.jpg');
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+.articlesPreview__container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+  gap: 20px;
 }
 
 .link {
   text-decoration: none;
-}
-
-.hero__title {
-  margin-bottom: 70px;
-  font-size: 48px;
-  font-weight: 900;
-  text-align: center;
 }
 
 .articles__container {
@@ -146,6 +134,10 @@
 }
 
 @media screen and (max-width: 1015px) {
+  .articlesPreview__container {
+    grid-template-columns: 1fr;
+  }
+
   .navbar {
     width: 100%;
     margin-left: 0;
@@ -167,7 +159,7 @@
   }
 
   .articles__container {
-    width: 90%;
+    width: 95%;
   }
 
   .hero__title {

@@ -5,11 +5,21 @@ import Image from 'next/image'
 import Link from 'next/link'
 import PromotorasList from './promotoras/PromotorasList'
 import PageHero from './articulos/components/PageHero'
+import ArticlePreview from './articulos/components/ArticlePreview'
+/*Articles PREVIEW */
+import conorVkhabib from '@/assets/peleadores__images/peleadores__hero.jpg'
+import mostppv from '@/assets/articulos/previews/mostppv.jpg'
+import khabibVferguson from '@/assets/articulos/previews/khabibVferguson.jpg'
 
 export default function Home () {
   return(
     <main className={styles.articles__container}>
       <PageHero />
+      <section className={styles.articlesPreview__container}>
+        <ArticlePreview img={conorVkhabib} url='/articulos/conor-vs-khabib' title='Conor McGregor vs Khabib Nurmagomedov: ¿Qué pasó realmente?' />
+        <ArticlePreview img={mostppv} url='/articulos/most-ppv' title='Top 5: Las peleas de MMA que más PPV vendieron' />
+        <ArticlePreview img={khabibVferguson} url='/articulos/khabib-ferguson' title='Khabib vs Tony Ferguson: La pelea maldita que nunca pudo darse' />
+      </section>
       <section>
         <article>
           <h2 className={styles.article__title}>Peleadores Campeones de UFC</h2>
