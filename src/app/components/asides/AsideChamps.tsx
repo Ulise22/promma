@@ -4,7 +4,7 @@ import styles from './asideChamps.module.css'
 /* IMAGES */
 import makhachev from '@/assets/peleadores__images/islam-makhachev/islam__makhachev.jpg'
 import volkanovski from '@/assets/peleadores__images/alexander-volkanovski/volkanovski.jpg'
-import strickland from '@/assets/peleadores__images/sean-strickland/strickland_peleando.jpg'
+import duPlessis from '@/assets/peleadores__images/0-10/dricus-du-plessis/du-plessis_card.jpg'
 import omalley from '@/assets/peleadores__images/sean-omalley/sean__omalley.jpg'
 import pereira from '@/assets/peleadores__images/alex-pereira/pereira_sparring2.jpg'
 import edwards from '@/assets/peleadores__images/leon-edwards/edwards_card.jpg'
@@ -21,9 +21,9 @@ export default function AsideChamps () {
                 <Image className={styles.campeones__image} src={volkanovski} alt='Alexander Volkanovski' />
                 <h4>Alexander Volkanovski</h4>
             </Link>
-            <Link href='/campeones/sean-strickland' className={styles.campeones}>
-                <Image className={styles.campeones__image} src={strickland} alt='Sean Strickland' />
-                <h4>Sean Strickland</h4>
+            <Link href='/peleadores/du-plessis' className={styles.campeones}>
+                <Image className={styles.campeones__image} src={duPlessis} alt='Dricus Du Plessis' />
+                <h4>Dricus Du Plessis</h4>
             </Link>
             <Link href='/campeones/sean-omalley' className={styles.campeones}>
                 <Image className={styles.campeones__image} src={omalley} alt='Sean O&apos;Malley' />
