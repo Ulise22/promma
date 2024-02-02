@@ -13,6 +13,9 @@ export default function Peleadores () {
                     <Link href='/peleadores/ilia-topuria' className={`${styles.peleadores__card} ${styles.peleadores__card_illia}`}>
                         <h3 className={styles.peleadores__card__name}>Ilia Topuria</h3>
                     </Link>
+                    <Link href='/campeones/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
+                        <h3 className={styles.peleadores__card__name}>Sean Strickland</h3>
+                    </Link>
                     <Link href='/peleadores/francis-ngannou' className={`${styles.peleadores__card} ${styles.peleadores__card_ngannou}`}>
                         <h3 className={styles.peleadores__card__name}>Francis Ngannou</h3>
                     </Link>
@@ -48,9 +51,6 @@ export default function Peleadores () {
                     </Link>
                     <Link href='/peleadores/marlon-vera' className={`${styles.peleadores__card} ${styles.peleadores__card_vera}`}>
                         <h3 className={styles.peleadores__card__name}>Marlon Vera</h3>
-                    </Link>
-                    <Link href='/peleadores/du-plessis' className={`${styles.peleadores__card} ${styles.peleadores__card_duPlessis}`}>
-                        <h3 className={styles.peleadores__card__name}>Dricus Du Plessis</h3>
                     </Link>
                 </article>
             </section>

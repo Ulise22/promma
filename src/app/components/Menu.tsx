@@ -36,7 +36,7 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/conor-mcgregor'>Conor Mcgregor</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/khamzat-chimaev'>Khamzat Chimaev</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/francis-ngannou'>Francis Ngannou</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/tony-ferguson'>Tony Ferguson</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/campeones/sean-strickland'>Sean Stickland</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/dustin-poirier'>Dustin Poirier</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/justin-gaethje'>Justin Gaethje</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/charles-oliveira'>Charles Oliveira</Link></li>
@@ -64,7 +64,7 @@ export default function Menu () {
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/campeones/alexander-volkanovski'>Alexander Volkanovski</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/campeones/islam-makhachev'>Islam Makhachev</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/campeones/sean-strickland'>Sean Strickland</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/du-plessis'>Dricus Du Plessis</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/campeones/jon-jones'>Jon Jones</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/campeones/alex-pereira'>Alex Pereira</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/campeones/sean-omalley'>Sean O&apos;Malley</Link></li>

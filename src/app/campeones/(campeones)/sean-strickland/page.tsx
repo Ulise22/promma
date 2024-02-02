@@ -11,7 +11,7 @@ import AsideFighter from '@/app/components/asides/AsideFighter'
 export default function Strickland () {
     return(
         <main> 
-            <PeleadoresHero peleadoresImage={strickland} w={28} l={5} d={0} nombre='Sean Strickland' categoria='Peso Medio' apodo={null} />
+            <PeleadoresHero peleadoresImage={strickland} w={28} l={6} d={0} nombre='Sean Strickland' categoria='Peso Medio' apodo={null} />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Sean Strickland UFC</h2>
@@ -34,7 +34,7 @@ export default function Strickland () {
                     <p className={styles.peleador__article__text}>En 2008 tuvo su primer combate profesional en KOTC. En 2014 fue contratado por UFC, donde sigue peleando hasta la actualidad.</p>
                     <Image className={styles.peleador__article__image} src={pelea} alt='' />
                     <p className={styles.peleador__article__text}>Reciente hizo historia al consagrarse campeón de Peso Medio en la UFC, al vencer a Israel Adensanya en una impresionante victoria que pocos vieron venir. Puesto que lo venció de manera contundente, ante un peleador como Adensanya que apuntaba a ser un histórico de la división.</p>
-                    <h2 className={styles.peleador__article__title}>Última pelea de Sean Strickland</h2>
+                    <h2 className={styles.peleador__article__title}>Sean Strickland vs Israel Adensanya</h2>
                     <p className={styles.peleador__article__text}>En Agosto de 2023, Sean Strickland recibió un llamado en corto aviso, en el que le pidieron que reemplazara a Du Plessis, en el combate contra el campeón del Peso Medio de la UFC, Israel Adensanya.</p>
                     <p className={styles.peleador__article__text}>Esta pelea tenía un condimento especial. Puesto que en el pasado hubo un intercambio de insultos entre ambos peleadores. Sean Strickland se había burlado de la actitud y apariencia excentrica de Adensanya, diciendo que &ldquo;ningún hombre que se pinte las uñas me va a vencer&ldquo;, o que ningúna persona que se de amor a sí misma con dibujitos cartoon le iba a ganar. Por su parte, Israel respondió diciendo: &ldquo;Te voy a noquear con mis uñas pintadas&ldquo; y que después &ldquo;bailaría un baile de tiktok cuano le ganara&ldquo;.</p>
                     <p className={styles.peleador__article__text}>El combate estaba organizado para septiembre de ese mismo año y el claro favorito para la pelea era el campeón Israel Adensanya. Sin embargo un Sean Stricklan por el cual pocos apostaban, dió el sorpresón al vencer vencer por decisión unánime al entonces campeón, en un combate donde hubo un solo dominador, que dentro de la jaula demostró ser un digno campeón.</p>

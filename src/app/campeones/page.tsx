@@ -19,9 +19,6 @@ export default function Campeones () {
                     <Link href='/campeones/sean-omalley' className={`${styles.peleadores__card} ${styles.peleadores__card_omalley}`}>
                         <h3 className={styles.peleadores__card__name}>Sean O&apos;malley</h3>
                     </Link>
-                    <Link href='/campeones/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
-                        <h3 className={styles.peleadores__card__name}>Sean Strickland</h3>
-                    </Link>
                     <Link href='/campeones/alex-pereira' className={`${styles.peleadores__card} ${styles.peleadores__card_pereira}`}>
                         <h3 className={styles.peleadores__card__name}>Alex Pereira</h3>
                     </Link>
@@ -42,6 +39,9 @@ export default function Campeones () {
                     </Link>
                     <Link href='/campeones/tom-aspinall' className={`${styles.peleadores__card} ${styles.peleadores__card_aspinall}`}>
                         <h3 className={styles.peleadores__card__name}>Tom Aspinall</h3>
+                    </Link>
+                    <Link href='/peleadores/du-plessis' className={`${styles.peleadores__card} ${styles.peleadores__card_duPlessis}`}>
+                        <h3 className={styles.peleadores__card__name}>Dricus Du Plessis</h3>
                     </Link>
                 </article>
             </section>

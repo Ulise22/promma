@@ -10,11 +10,11 @@ import AsideFighter from '@/app/components/asides/AsideFighter'
 export default function Raquel () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={raquel} w={15} l={9} d={0} nombre='Raquel Pennington' apodo='ROCKY' categoria='Peso Gallo Femenino' />
+            <PeleadoresHero peleadoresImage={raquel} w={16} l={9} d={0} nombre='Raquel Pennington' apodo='ROCKY' categoria='Peso Gallo Femenino' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Raquel Pennington UFC</h2>  
-                    <p className={styles.peleador__article__text}>Raquel Pennington es una luchadora de UFC que compite en la categoría de Peso Gallo femenino desde que hiciera su debut oficial en la compañía el 15 de marzo contra la brasileña <b>Jessica Andrade</b> con quien caería derrotada por decisión dividida, actualmente está ranqueada en la #2 posición de su división, y se encuentra ranqueada #12 del libra por libra femenino. </p>
+                    <p className={styles.peleador__article__text}>Raquel Pennington es una luchadora de UFC que compite en la categoría de Peso Gallo femenino desde que hiciera su debut oficial en la compañía el 15 de marzo contra la brasileña <b>Jessica Andrade</b> con quien caería derrotada por decisión dividida, actualmente es la campeona indiscutida de su divsión, y se encuentra ranqueada #7 del libra por libra femenino. </p>
                     <Image className={styles.peleador__article__image} src={fight} alt='La luchadora de MMA Raquel Pennington golpeando a su rival de UFC en medio de una pelea' />
                     <p className={styles.peleador__article__text}>A lo largo de su carrera en la compañía supo destacar de sobremanera, dado que a pesar de no ganarlo, fue capaz de pelear por el título contra la legendaria <b>Amanda Nunes</b> por nocaut técnico. Aunque después de acumular una racha de 5 victorias consecutivas, Raquel se ha ganado nuevamente la chance de pelear por el título que quedó vacante luego de la retirada de Amanda Nunes, en esta ocasión lo hará el 20 de enero de 2024 contra la brasileña <Link href='/mujeres/mayra-bueno-silva'>Mayra Bueno Silva</Link>, protagonizando la pelea coestelar del UFC 297.</p>
                     <h2 className={styles.peleador__article__title}>Raquel Pennington Récord</h2>  

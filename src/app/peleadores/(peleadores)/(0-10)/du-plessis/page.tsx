@@ -11,11 +11,11 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 export default function DuPlessis () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={duPlessis} w={20} l={2} d={0} nombre='Dricus Du Plessis' apodo='STILLKNOCKS' categoria='Peso Medio' />
+            <PeleadoresHero peleadoresImage={duPlessis} w={21} l={2} d={0} nombre='Dricus Du Plessis' apodo='STILLKNOCKS' categoria='Peso Medio' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Du Plessis</h2>
-                    <p className={styles.peleador__article__text}>Dricus Du Plessis es un luchador de MMA sudafricano que actualmente se encuentra ranqueado en la posición #2 de la división de Peso Medio de la UFC, donde pelea desde octubre de 2020, cuando debutaría con una victoria por KO en el primer asalto en el <b>UFC Fight Night: Moraes vs. Sandhagen</b> contra el brasileño <b>Markus Pérez</b></p>
+                    <p className={styles.peleador__article__text}>Dricus Du Plessis es un luchador de MMA sudafricano que actualmente es el campeón de la división de Peso Medio de la UFC, donde pelea desde octubre de 2020, cuando debutaría con una victoria por KO en el primer asalto en el <b>UFC Fight Night: Moraes vs. Sandhagen</b> contra el brasileño <b>Markus Pérez</b></p>
                     <Image className={styles.peleador__article__image} src={usman} alt='El peleador de UFC Dricus Du Plessis abrazado al otro peleador de UFC Kamaru Usman' />
                     <p className={styles.peleador__article__text}>Hasta el momento ha ganado todos sus 6 combates en la UFC, siendo 4 de esas victorias por la vía del nocaut, siendo la última una impresionante victoria contra <b>Robert Whittaker</b> por UFC 290, a quien venció por nocaut técnico en el segundo asalto, ganándose además el premio a la actuación de la noche. Esta racha de victorias es la que le ha hecho merecedor de una pelea por el título, que se jugará contra el estadounidense <Link href='/campeones/sean-strickland'>Sean Stricklan</Link>, quien es el actual campeón de la división de peso medio de <Link href='/promotoras/ufc'>UFC</Link>, el 20 de enero de 2024.</p>
                     <h2 className={styles.peleador__article__title}>Du Plessis Récord</h2>
