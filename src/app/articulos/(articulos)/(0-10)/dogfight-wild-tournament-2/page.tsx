@@ -7,6 +7,7 @@ import Link from 'next/link'
 import hero from '@/assets/articulos/previews/dogfight2.jpg'
 import aitorvszdravko from '@/assets/articulos/insideArticle/dwf2/aitor-vs-zdravko.jpeg'
 import twovtwo from '@/assets/articulos/insideArticle/dwf2/2v2.jpeg'
+import firstSemifinal from '@/assets/articulos/insideArticle/dwf2/sergio-hidalgo.jpeg'
 
 export default function DWT2 () {
     return(
@@ -22,6 +23,12 @@ export default function DWT2 () {
                     <p>La pelea que enfrentaba al equipo rojo, provenientes de Barcelona, Alberto Rondán y Nicolás Martínez contra el quipo azul, provenientes de Madrid, Chiky Arroyo y Pau Peñalba, terminó con una contundente victoria para el quipo azul en los primeros minutos del encuentro, en especial por el gran aporte que hizo Chiky en la pelea.</p>
                     <p>Chiky Arroyo, que era el más alto de los 4, fue capaz de someter a uno de los 2 mientras su compañero luchaba en el piso con el otro, y también fue capaz de someter al otro luchador que estaba ocuapado luchando con su compañero. De esta manera tanto Chiky como Pau fueron capaces de proclamarse ganadores del encuentro.</p>
                     <Image className={styles.article__image} src={twovtwo} alt='' />
+                    <h2>Primera Semifinal Torneo Contacto Sangriento: Sergio Hidalgo vs Emilio Motescarlos</h2>
+                    <p>La primera semifinal del Torneo al estilo Contacto Sangriento, terminó con una victoria para Sergio, que con un rodillazo dejó KO a su rival, Emilio Motescarlos. Resultado que lleva a Hidalgo a disputar la final del torneo que se disputará en unas horas.</p>
+                    <p>Es para destacar la actitud de Sergio, que pese a ganar de una manera tan impresionante, mostró deportividad y su lado más humano al preocuparse por el estado de salud de su rival.</p>
+                    <Image className={styles.article__image} src={firstSemifinal} alt='' />
+                    <h2>Segunda Semifinal Torneo Contacto Sangriento: Otman Ben Zahra vs Dorian Segovia</h2>
+                    <p></p>
                 </article>
                 <AsideChamps />
             </section>
