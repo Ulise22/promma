@@ -10,6 +10,7 @@ import twovtwo from '@/assets/articulos/insideArticle/dwf2/2v2.jpeg'
 import firstSemifinal from '@/assets/articulos/insideArticle/dwf2/sergio-hidalgo.jpeg'
 import secondSemifinal from '@/assets/articulos/insideArticle/dwf2/segunda_semifinal.jpeg'
 import bareknuckleFem from '@/assets/articulos/insideArticle/dwf2/boxeo-femenino.jpeg'
+import norules from '@/assets/articulos/insideArticle/dwf2/no-rules.jpeg'
 
 export default function DWT2 () {
     return(
@@ -36,6 +37,11 @@ export default function DWT2 () {
                     <h2>3era Pelea: Bare Knuckle Femenino, Victoria Albons vs Yamila Sánchez</h2>
                     <p>En lo que es quizás el mejor combate hasta ahora, fuimos testigos de una autentica guerra entre las 2 peleadoras que dieron un espectaculo. El combate terminó en un triunfo para &quot;La Furia&quot; Victoria Albons, que luego de 5 asaltos se llevó la pelea por decisión unánime, logrando incluso un knockdown en el tercer asalto de la pelea.</p>
                     <Image className={styles.article__image} src={bareknuckleFem} alt='' />
+                    <h2>4ta Pelea: No Rules, Franco Tenaglia vs Hatim Taiebi</h2>
+                    <p>El combate que traía a un peleador que ya había participado del evento pasado, como es el caso de <Link href='/argentinos/franco-tenaglia'>Franco Tenaglia</Link>, a enfrentarse a un nuevo luchador en este evento, como era el caso de Hatim Taiebi, nos traía una pelea donde más allá de que estuvieran prohibidos los golpes bajos y los piquetes de ojo, no había reglas establecidas. </p>
+                    <p>La pelea terminó con una victoria por nocaut técnico para Franco Tenaglia, que dominó el combate desde el principio ante rival que recibía golpes en el suelo sin presentar resistencia practicamente.</p>
+                    <p>La pelea dejó con un sabor de boca amargo para algunos aficionados, que esperaban más de un encuentro en el que se presumía no habría reglas y donde ninguno de los 2 llevaba guantes. En medio del tumulto que se formó en medio del octagono, se le ofreció hacer una revancha ahí mismo a Franco Tenaglia, que luego de derrotar a su rival de una manera tan dominante no le vió sentido a pelear otra vez.</p>
+                    <Image className={styles.article__image} src={norules} alt='' />
                 </article>
                 <AsideChamps />
             </section>
