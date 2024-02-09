@@ -11,6 +11,7 @@ import firstSemifinal from '@/assets/articulos/insideArticle/dwf2/sergio-hidalgo
 import secondSemifinal from '@/assets/articulos/insideArticle/dwf2/segunda_semifinal.jpeg'
 import bareknuckleFem from '@/assets/articulos/insideArticle/dwf2/boxeo-femenino.jpeg'
 import norules from '@/assets/articulos/insideArticle/dwf2/no-rules.jpeg'
+import cesarAlonso from '@/assets/articulos/insideArticle/dwf2/cesar_alonso.jpeg'
 
 export default function DWT2 () {
     return(
@@ -42,6 +43,10 @@ export default function DWT2 () {
                     <p>La pelea terminó con una victoria por nocaut técnico para Franco Tenaglia, que dominó el combate desde el principio ante rival que recibía golpes en el suelo sin presentar resistencia practicamente.</p>
                     <p>La pelea dejó con un sabor de boca amargo para algunos aficionados, que esperaban más de un encuentro en el que se presumía no habría reglas y donde ninguno de los 2 llevaba guantes. En medio del tumulto que se formó en medio del octagono, se le ofreció hacer una revancha ahí mismo a Franco Tenaglia, que luego de derrotar a su rival de una manera tan dominante no le vió sentido a pelear otra vez.</p>
                     <Image className={styles.article__image} src={norules} alt='' />
+                    <h2>5ta pelea: 5 vs 1, </h2>
+                    <p>En uno de los combates más locos que nos ha traído Jordi para esta noche, tuvimos a Cesar Alonso, que luego de haber vencido a 2 peleadores simultánemente en el evento anterior, ahora volvió para lograr otra hazaña, al enfrentarse a 5 peleadores, que venían uno tras otro luego de ser vencidos.</p>
+                    <p>Uno tras otro fue derrotando Cesar Alonso a sus rivales, hasta llegar al último a quien derrotó por nocaut técnico. A lo largo de los 5 combates, Cesar demostró una dominación total contra cada uno de sus rivales, demostrando la diferencia que hay entre un un peleador de MMA y un peleador que practica cualquier otra cosa. La conclusión es que Cesar Alonso no decepciona, y que la hora de dar espectalo, ni él, ni los 5 luchadores, ni Jordi Wild nos han dejado con nada por desear.</p>
+                    <Image className={styles.article__image} src={cesarAlonso} alt='' />
                 </article>
                 <AsideChamps />
             </section>
