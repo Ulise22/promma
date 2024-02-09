@@ -8,6 +8,8 @@ import hero from '@/assets/articulos/previews/dogfight2.jpg'
 import aitorvszdravko from '@/assets/articulos/insideArticle/dwf2/aitor-vs-zdravko.jpeg'
 import twovtwo from '@/assets/articulos/insideArticle/dwf2/2v2.jpeg'
 import firstSemifinal from '@/assets/articulos/insideArticle/dwf2/sergio-hidalgo.jpeg'
+import secondSemifinal from '@/assets/articulos/insideArticle/dwf2/segunda_semifinal.jpeg'
+import bareknuckleFem from '@/assets/articulos/insideArticle/dwf2/boxeo-femenino.jpeg'
 
 export default function DWT2 () {
     return(
@@ -28,7 +30,12 @@ export default function DWT2 () {
                     <p>Es para destacar la actitud de Sergio, que pese a ganar de una manera tan impresionante, mostró deportividad y su lado más humano al preocuparse por el estado de salud de su rival.</p>
                     <Image className={styles.article__image} src={firstSemifinal} alt='' />
                     <h2>Segunda Semifinal Torneo Contacto Sangriento: Otman Ben Zahra vs Dorian Segovia</h2>
-                    <p></p>
+                    <p>La segunda semifinal entre &quot;El Lobo&quot; Otman Ben Zahra contra &quot;El Malandro&quot; Dorian Segovia, terminó llevándosela El Lobo, luego de que después de alrededor de 5 minutos muy intensos, fuera capaz de sacar del octagono a su rival ecuatoriano. De esta manera ha avanzado a la final que lo verá enfrentarse en un rato a Sergio Hidalgo.</p>
+                    <p>Sin embargo, a priori parece que tendrá un combate más difícil en la final, dado que su rival al haber finalizado rápido a su contrincante, ha tenido más tiempo para descansar, cosa que veremos como influye en la pelea.</p>
+                    <Image className={styles.article__image} src={secondSemifinal} alt='' />
+                    <h2>3era Pelea: Bare Knuckle Femenino, Victoria Albons vs Yamila Sánchez</h2>
+                    <p>En lo que es quizás el mejor combate hasta ahora, fuimos testigos de una autentica guerra entre las 2 peleadoras que dieron un espectaculo. El combate terminó en un triunfo para &quot;La Furia&quot; Victoria Albons, que luego de 5 asaltos se llevó la pelea por decisión unánime, logrando incluso un knockdown en el tercer asalto de la pelea.</p>
+                    <Image className={styles.article__image} src={bareknuckleFem} alt='' />
                 </article>
                 <AsideChamps />
             </section>
