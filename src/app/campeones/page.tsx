@@ -43,6 +43,9 @@ export default function Campeones () {
                     <Link href='/peleadores/du-plessis' className={`${styles.peleadores__card} ${styles.peleadores__card_duPlessis}`}>
                         <h3 className={styles.peleadores__card__name}>Dricus Du Plessis</h3>
                     </Link>
+                    <Link href='/mujeres/raquel-pennington' className={`${styles.peleadores__card} ${styles.peleadores__card_pennington}`}>
+                        <h3 className={styles.peleadores__card__name}>Raquel Pennington</h3>
+                    </Link>
                 </article>
             </section>
         </main>
