@@ -4,7 +4,7 @@ import Image from 'next/image'
 /* IMAGES */
 import ufc297 from '@/assets/articulos/previews/ufc297.jpg'
 import ufc300 from '@/assets/articulos/previews/ufc300.jpg'
-import goats from '@/assets/articulos/previews/ufc-goats.webp'
+import dwt2 from '@/assets/articulos/previews/dogfight2.jpg'
 
 export default function PageHero () {
     return(
@@ -18,9 +18,9 @@ export default function PageHero () {
                 <Image className={styles.pagehero__article__img} src={ufc300} alt='' />
                 <h2 className={styles.page__title}>UFC 300: Todo lo que sabemos hasta ahora del mayor evento de MMA en la historia según Dana White</h2>
             </Link>
-            <Link className={styles.pagehero__article} href='/articulos/top5-mejores-peleadores'>
-                <Image className={styles.pagehero__article__img} src={goats} alt='' />
-                <h2 className={styles.page__title}>Los 5 mejores peleadores de la historia</h2>
+            <Link className={styles.pagehero__article} href='/articulos/dogfight-wild-tournament-2'>
+                <Image className={styles.pagehero__article__img} src={dwt2} alt='' />
+                <h2 className={styles.page__title}>Lo Mejor de Dogfight Wild Tournament</h2>
             </Link>
         </section>
     )
