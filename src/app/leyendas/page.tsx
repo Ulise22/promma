@@ -31,6 +31,9 @@ export default function Leyendas () {
                     <Link href='/leyendas/ronda-rousey' className={`${styles.leyendas__card} ${styles.leyendas__card__rousey}`}>
                         <h3 className={styles.leyendas__card__title}>Ronda Rousey</h3>
                     </Link>
+                    <Link href='/leyendas/demetrious-johnson' className={`${styles.leyendas__card} ${styles.leyendas__card__demetrious}`}>
+                        <h3 className={styles.leyendas__card__title}>Demetrious Johnson</h3>
+                    </Link>
                 </article>
             </section>
         </main>

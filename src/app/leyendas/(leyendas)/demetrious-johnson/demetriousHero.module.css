@@ -1,0 +1,29 @@
+.leyenda__hero {
+    height: 50vh;
+    overflow: hidden;
+    background-image: linear-gradient(180deg, #00000093 0%, #00000093 100%), url('../../../../assets/leyendas/(peleadores)/demetrious-johnson/demetrious_hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.leyenda__hero__title {
+    font-size: 42px;
+    text-align: center;
+}
+
+.leyenda__record__container {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leyenda__record {
+    font-size: 64px;
+    text-align: center;
+}
