@@ -4,7 +4,7 @@ import Image from 'next/image'
 /* IMAGES */
 import ufc297 from '@/assets/articulos/previews/ufc297.jpg'
 import ufc300 from '@/assets/articulos/previews/ufc300.jpg'
-import dwt2 from '@/assets/articulos/previews/dogfight2.jpg'
+import dwt2 from '@/assets/promotoras/dogfight.jpg'
 
 export default function PageHero () {
     return(
@@ -20,7 +20,7 @@ export default function PageHero () {
             </Link>
             <Link className={styles.pagehero__article} href='/articulos/dogfight-wild-tournament-2'>
                 <Image className={styles.pagehero__article__img} src={dwt2} alt='' />
-                <h2 className={styles.page__title}>Lo Mejor de Dogfight Wild Tournament</h2>
+                <h2 className={styles.page__title}>Lo Mejor de Dogfight Wild Tournament 2</h2>
             </Link>
         </section>
     )
