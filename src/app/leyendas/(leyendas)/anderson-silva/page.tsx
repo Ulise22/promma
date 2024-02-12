@@ -5,7 +5,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import AndersonHero from './AndersonHero'
 
 
-export default function Cormier () {
+export default function Anderson () {
     return(
         <main>
             <AndersonHero />

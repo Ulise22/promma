@@ -51,6 +51,8 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/leyendas/brock-lesnar'>Brock Lesnar</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/leyendas/daniel-cormier'>Daniel Cormier</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/leyendas/jose-aldo'>José Aldo</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/leyendas/ronda-rousey'>Ronda Rousey</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/leyendas/demetrious-johnson'>Demetrious Johnson</Link></li>
                     </ul>
                 </li>
                 {/* <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/estilos'>Estilos</Link>
