@@ -9,7 +9,7 @@ import AsideChamps from "@/app/components/asides/AsideChamps";
 export default function Illia () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={topuria} w={14} l={0} d={0} nombre='Ilia Topuria' categoria='Peso pluma (featherweight)' apodo='El Matador' />
+            <PeleadoresHero peleadoresImage={topuria} w={15} l={0} d={0} nombre='Ilia Topuria' categoria='Peso pluma (featherweight)' apodo='El Matador' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Ilia Topuria ufc</h2>

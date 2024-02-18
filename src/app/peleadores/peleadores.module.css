@@ -45,8 +45,9 @@
 
 /* Luchadores MMA */
 
-.peleadores__card_illia {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/ilia-topuria/illia__topuria.jpg');
+.peleadores__card_volkanovski {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/alexander-volkanovski/volkanovski.jpg');
+    background-position: right;
 }
 
 .peleadores__card_ngannou {

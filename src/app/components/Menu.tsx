@@ -24,6 +24,7 @@ export default function Menu () {
                 <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/articulos'>Artículos</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/articulos/ufc297'>UFC 297</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/articulos/ufc298'>UFC 298</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/articulos/khabib-ferguson'>Khabib v Ferguson</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/articulos/ufc300'>UFC 300</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/articulos/top5-mejores-peleadores'>Mejores Peleadores</Link></li>
@@ -32,7 +33,7 @@ export default function Menu () {
                 </li>
                 <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/peleadores'>Peleadores</Link>
                     <ul className={styles.menu__list__dropdown}>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/ilia-topuria'>Ilia Topuria</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/campeones/alexander-volkanovski'>Alexander Volkanovski</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/conor-mcgregor'>Conor Mcgregor</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/khamzat-chimaev'>Khamzat Chimaev</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/francis-ngannou'>Francis Ngannou</Link></li>
@@ -64,7 +65,7 @@ export default function Menu () {
                 </li> */}
                 <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/campeones'>Campeones</Link>
                     <ul className={styles.menu__list__dropdown}>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/campeones/alexander-volkanovski'>Alexander Volkanovski</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/ilia-topuria'>Ilia Topuria</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/campeones/islam-makhachev'>Islam Makhachev</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/du-plessis'>Dricus Du Plessis</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/campeones/jon-jones'>Jon Jones</Link></li>

@@ -3,23 +3,23 @@ import Link from "next/link";
 import styles from './asideChamps.module.css'
 /* IMAGES */
 import makhachev from '@/assets/peleadores__images/islam-makhachev/islam__makhachev.jpg'
-import volkanovski from '@/assets/peleadores__images/alexander-volkanovski/volkanovski.jpg'
 import duPlessis from '@/assets/peleadores__images/0-10/dricus-du-plessis/du-plessis_card.jpg'
 import omalley from '@/assets/peleadores__images/sean-omalley/sean__omalley.jpg'
 import pereira from '@/assets/peleadores__images/alex-pereira/pereira_sparring2.jpg'
 import edwards from '@/assets/peleadores__images/leon-edwards/edwards_card.jpg'
+import topuria from '@/assets/peleadores__images/ilia-topuria/ilia-topuria.jpg'
 
 export default function AsideChamps () {
     return(
         <aside className={styles.campeones__container}>
             <h3>Campeones de la UFC</h3>
+            <Link href='/peleadores/ilia-topuria' className={styles.campeones}>
+                <Image className={styles.campeones__image} src={topuria} alt='Ilia Topuria' />
+                <h4>Ilia Topuria</h4>
+            </Link>
             <Link href='/campeones/islam-makhachev' className={styles.campeones}>
                 <Image className={styles.campeones__image} src={makhachev} alt='Islam Makhachev' />
                 <h4>Islam Makhachev</h4>
-            </Link>
-            <Link href='/campeones/alexander-volkanovski' className={styles.campeones}>
-                <Image className={styles.campeones__image} src={volkanovski} alt='Alexander Volkanovski' />
-                <h4>Alexander Volkanovski</h4>
             </Link>
             <Link href='/peleadores/du-plessis' className={styles.campeones}>
                 <Image className={styles.campeones__image} src={duPlessis} alt='Dricus Du Plessis' />

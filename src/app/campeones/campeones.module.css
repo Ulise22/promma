@@ -45,6 +45,10 @@
 
 /* Campeones */
 
+.peleadores__card_illia {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/ilia-topuria/illia__topuria.jpg');
+}
+
 .peleadores__card_omalley {
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/sean-omalley/sean__omalley.jpg');
     background-position: center;
@@ -52,11 +56,6 @@
 
 .peleadores__card_makhachev {
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/islam-makhachev/islam__makhachev.jpg');
-}
-
-.peleadores__card_volkanovski {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/alexander-volkanovski/volkanovski.jpg');
-    background-position: right;
 }
 
 .peleadores__card_pereira {
