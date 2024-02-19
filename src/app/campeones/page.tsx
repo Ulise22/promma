@@ -28,13 +28,13 @@ export default function Campeones () {
                     <Link href='/campeones/leon-edwards' className={`${styles.peleadores__card} ${styles.peleadores__card_edwards}`}>
                         <h3 className={styles.peleadores__card__name}>Leon Edwards</h3>
                     </Link>
-                    <Link href='/campeones/zhang-weili' className={`${styles.peleadores__card} ${styles.peleadores__card_weili}`}>
+                    <Link href='/mujeres/zhang-weili' className={`${styles.peleadores__card} ${styles.peleadores__card_weili}`}>
                         <h3 className={styles.peleadores__card__name}>Zhang Weili</h3>
                     </Link>
                     <Link href='/campeones/jon-jones' className={`${styles.peleadores__card} ${styles.peleadores__card_jones}`}>
                         <h3 className={styles.peleadores__card__name}>Jon Jones</h3>
                     </Link>
-                    <Link href='/campeones/alexa-grasso' className={`${styles.peleadores__card} ${styles.peleadores__card_grasso}`}>
+                    <Link href='/mujeres/alexa-grasso' className={`${styles.peleadores__card} ${styles.peleadores__card_grasso}`}>
                         <h3 className={styles.peleadores__card__name}>Alexa Grasso</h3>
                     </Link>
                     <Link href='/campeones/tom-aspinall' className={`${styles.peleadores__card} ${styles.peleadores__card_aspinall}`}>

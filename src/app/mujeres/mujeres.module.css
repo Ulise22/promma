@@ -46,17 +46,17 @@
 /* Cards */
 
 .peleadores__card_julianna {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/juliana-pena/julianna_card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/mujeres/juliana-pena/julianna_card.jpg');
     background-position: top;
 }
 
 .peleadores__card_weili {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/zhang-weili/weili_card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/mujeres/zhang-weili/weili_card.jpg');
     background-position: center;
 }
 
 .peleadores__card_grasso {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/alexa-grasso/grasso_card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/mujeres/alexa-grasso/grasso_card.jpg');
     background-position: center;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .peleadores__card_shevchenko {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/valentina-shevchenko/shevchenko_card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/mujeres/valentina-shevchenko/shevchenko_card.jpg');
     background-position: left;
 }
 
