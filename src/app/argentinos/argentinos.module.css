@@ -46,32 +46,32 @@
 /* Argentinos MMA */
 
 .peleadores__card_emiliano {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/emiliano-sordi/Emiliano_Sordi.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/argentinos/emiliano-sordi/Emiliano_Sordi.jpg');
     background-position: center;
 }
 
 .peleadores__card_ponzinibbio {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/santiago-ponzinibbio/ponzinibbio_card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/argentinos/santiago-ponzinibbio/ponzinibbio_card.jpg');
     background-position: center;
 }
 
 .peleadores__card_staropoli {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/laureano-staropoli/staropoli_card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/argentinos/laureano-staropoli/staropoli_card.jpg');
     background-position: center;
 }
 
 .peleadores__card_ailin {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/ailin-perez/ailin-perez.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/argentinos/ailin-perez/ailin-perez.jpg');
     background-position: center;
 }
 
 .peleadores__card_tenaglia {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/franco-tenaglia/tenaglia_card.webp');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/argentinos/franco-tenaglia/tenaglia_card.webp');
     background-position: center;
 }
 
 .peleadores__card_canetti {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-10/guido-cannetti/cannetti_card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/argentinos/guido-cannetti/cannetti_card.jpg');
     background-position: center;
 }
 
