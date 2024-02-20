@@ -1,6 +1,5 @@
 import styles from '@/app/leyendas/components/leyenda.module.css'
 import Link from 'next/link'
-import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import AndersonHero from './AndersonHero'
 

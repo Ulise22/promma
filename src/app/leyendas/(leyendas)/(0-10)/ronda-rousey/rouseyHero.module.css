@@ -1,7 +1,7 @@
 .leyenda__hero {
     height: 50vh;
     overflow: hidden;
-    background-image: linear-gradient(180deg, #00000093 0%, #00000093 100%), url('../../../../assets/leyendas/(peleadores)/ronda-rousey/rousey_hero.jpg');
+    background-image: linear-gradient(180deg, #00000093 0%, #00000093 100%), url('../../../../../assets/leyendas/(peleadores)/0-10/ronda-rousey/rousey_hero.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -1,9 +1,9 @@
 .leyenda__hero {
     height: 50vh;
     overflow: hidden;
-    background-image: linear-gradient(180deg, #00000093 0%, #00000093 100%), url('../../../../assets//leyendas/(peleadores)/amanda-nunes/amanda_hero.jpg');
+    background-image: linear-gradient(180deg, hsla(0, 0%, 0%, 0.576) 0%, #00000093 100%), url('../../../../../assets/leyendas/(peleadores)/0-10/royce-gracie/Royce_Gracie_hero.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -26,10 +26,4 @@
 .leyenda__record {
     font-size: 64px;
     text-align: center;
-}
-
-@media screen and (max-width: 1015px) {
-    .leyenda__hero {
-        background-position: left;
-    }
 }
