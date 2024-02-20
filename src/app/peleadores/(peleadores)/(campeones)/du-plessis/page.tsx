@@ -6,7 +6,7 @@ import duPlessis from '@/assets/peleadores__images/0-10/dricus-du-plessis/du-ple
 import usman from '@/assets/peleadores__images/0-10/dricus-du-plessis/dricus-usman.jpg'
 import ufc from '@/assets/peleadores__images/0-10/dricus-du-plessis/du-plessis_ufc.jpg'
 import dricus from '@/assets/peleadores__images/0-10/dricus-du-plessis/dricus_du-plessis.jpg'
-import AsideChamps from '@/app/components/asides/AsideChamps'
+import AsideFighter from '@/app/components/asides/AsideFighter'
 
 export default function DuPlessis () {
     return(
@@ -31,7 +31,7 @@ export default function DuPlessis () {
                     <Image className={styles.peleador__article__image} src={ufc} alt='El peleador de MMA Dricus Du Plessis firmando su contrato con la compañía UFC' />
                     <p className={styles.peleador__article__text}>Desde aquel debut hecho el 11 de octubre de 2020, es que Du Plessis compite de forma activa en la división de Peso Medio en UFC.</p>
                 </article>
-                <AsideChamps />
+                <AsideFighter />
             </section>
         </main>
     )

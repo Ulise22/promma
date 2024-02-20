@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import PromotorasHero from '../PromotorasHero'
-import ngannou from '@/assets/peleadores__images/francis-ngannou/francis_ngannou.jpg'
-import emiSordi from '@/assets/peleadores__images/emiliano-sordi/Emiliano_Sordi.jpg'
+import ngannou from '@/assets/peleadores__images/10-20/francis-ngannou/francis_ngannou.jpg'
+import emiSordi from '@/assets/peleadores__images/argentinos/emiliano-sordi/Emiliano_Sordi.jpg'
 import styles from '../promo.module.css'
 import Image from 'next/image'
 

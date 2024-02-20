@@ -4,7 +4,7 @@ import ilia from '@/assets/peleadores__images/10-20/ilia-topuria/ilia-topuria.jp
 import styles from '@/app/peleadores/components/peleador.module.css'
 import PeleadoresHero from "@/app/peleadores/components/PeleadoresHero";
 import Link from "next/link";
-import AsideChamps from "@/app/components/asides/AsideChamps";
+import AsideFighter from "@/app/components/asides/AsideFighter";
 
 export default function Illia () {
     return(
@@ -26,7 +26,7 @@ export default function Illia () {
                     <p className={styles.peleador__article__text}>Había una gran expectativa sobre este combate, ya que Ilia Topuria tendría la oportunidad de mostrarse y ganarse una oportunidad por el título ante un top5 de la división, además de que por primera vez protagonizaría la cartelera estelar de UFC.</p>
                     <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/MswUiwOftB4?si=HujlFHYjgG8fR2kq" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </article>
-                <AsideChamps />
+                <AsideFighter />
             </section>
         </main>
     )

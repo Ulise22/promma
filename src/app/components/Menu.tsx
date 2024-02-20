@@ -20,7 +20,7 @@ export default function Menu () {
             </div>
             
             <ul className={isOpen ? `${styles.menu__list} ${styles.active}` : `${styles.menu__list}`}>
-                <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/'>Inicio</Link></li>
+                <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/'>Inicio</Link></li>
                 <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/articulos'>Artículos</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/articulos/ufc297'>UFC 297</Link></li>
@@ -31,7 +31,7 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/articulos/conor-vs-khabib'>McGregor v Khabib</Link></li>
                     </ul>
                 </li>
-                <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/peleadores'>Peleadores</Link>
+                <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/peleadores'>Peleadores</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/conor-mcgregor'>Conor Mcgregor</Link></li>
@@ -44,7 +44,7 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/max-holloway'>Max Holloway</Link></li>
                     </ul>
                 </li>
-                <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/leyendas'>Leyendas</Link>
+                <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/leyendas'>Leyendas</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/leyendas/khabib-nurmagomedov'>Khabib Nurmagomedov</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/leyendas/george-st-pierre'>George St-Pierre</Link></li>
@@ -63,7 +63,7 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/estilos/muay-thai'>Muay Thai</Link></li>
                     </ul>
                 </li> */}
-                <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/campeones'>Campeones</Link>
+                <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/campeones'>Campeones</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/ilia-topuria'>Ilia Topuria</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/islam-makhachev'>Islam Makhachev</Link></li>
@@ -75,7 +75,7 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/alexandre-pantoja'>Alexandre Pantoja</Link></li>
                     </ul>
                 </li>
-                <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/mujeres'>Mujeres</Link>
+                <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/mujeres'>Mujeres</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/alexa-grasso'>Alexa Grasso</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/zhang-weili'>Zhang Weili</Link></li>
@@ -86,7 +86,7 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/mayra-bueno-silva'>Mayra Bueno Silva</Link></li>
                     </ul>
                 </li>
-                <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/argentinos'>Argentinos</Link>
+                <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/argentinos'>Argentinos</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/emiliano-sordi'>Emiliano Sordi</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/santiago-ponzinibbio'>Santiago Ponzinibbio</Link></li>
@@ -96,7 +96,7 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/guido-cannetti'>Guido Cannetti</Link></li>
                     </ul>
                 </li>
-                <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/promotoras'>Promotoras</Link>
+                <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/promotoras'>Promotoras</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/promotoras/ufc'>UFC</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/promotoras/pfl'>PFL</Link></li>

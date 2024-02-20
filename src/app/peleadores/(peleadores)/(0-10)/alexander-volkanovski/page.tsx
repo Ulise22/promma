@@ -5,7 +5,7 @@ import volk from '@/assets/peleadores__images/0-10/alexander-volkanovski/volk.jp
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import AsideFighter from '@/app/components/asides/AsideFighter'
+import AsideChamps from '@/app/components/asides/AsideChamps'
 
 export default function Volkanovski () {
     return(
@@ -35,7 +35,7 @@ export default function Volkanovski () {
                     <p className={styles.peleador__article__text}>Recientemente <b>Dana White</b> confirmó que Alexander Volkanovski se enfrentará a Ilia Topuria en febrero de 2024 por UFC 294, todavía sin una ubicación para la pelea confirmada.</p>
                     <p className={styles.peleador__article__text}>Esta pelea se venía promocionando bastante en los últimos meses, y tanto Volkanovski como Topuria venían pidiendo dicho combate, por lo que en febrero veremos si tenemos nuevo campeón o si por el contrario, Volkanovski le quitará el invicto a Ilia Topuria, agrandando aún más la dinastía que ha impusto en la división.</p>
                 </article>
-                <AsideFighter />
+                <AsideChamps />
             </section>
         </main>
     )

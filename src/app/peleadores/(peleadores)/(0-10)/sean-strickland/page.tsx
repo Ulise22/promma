@@ -6,7 +6,7 @@ import pelea from '@/assets/peleadores__images/20-30/sean-strickland/strickland_
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import AsideFighter from '@/app/components/asides/AsideFighter'
+import AsideChamps from '@/app/components/asides/AsideChamps'
 
 export default function Strickland () {
     return(
@@ -40,7 +40,7 @@ export default function Strickland () {
                     <p className={styles.peleador__article__text}>El combate estaba organizado para septiembre de ese mismo año y el claro favorito para la pelea era el campeón Israel Adensanya. Sin embargo un Sean Stricklan por el cual pocos apostaban, dió el sorpresón al vencer vencer por decisión unánime al entonces campeón, en un combate donde hubo un solo dominador, que dentro de la jaula demostró ser un digno campeón.</p>
                     <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/f94-i-k0tq0?si=1qDoMsA_ac4U33hh" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </article>
-                <AsideFighter />
+                <AsideChamps />
             </section>
         </main>
     )
