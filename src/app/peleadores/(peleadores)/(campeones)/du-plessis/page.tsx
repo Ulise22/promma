@@ -1,5 +1,5 @@
-import PeleadoresHero from '../../../components/PeleadoresHero'
-import styles from '../../../components/peleador.module.css'
+import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
+import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import duPlessis from '@/assets/peleadores__images/0-10/dricus-du-plessis/du-plessis.png'
