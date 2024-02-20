@@ -48,52 +48,52 @@
 /* Leyendas Imagenes */
 
 .leyendas__card__khabib {
-    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/khabib-nurmagomedov/khabib_card.jpg');
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/0-10/khabib-nurmagomedov/khabib_card.jpg');
     background-position: right;
 }
 
 .leyendas__card__gsp {
-    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/george-st-pierre/gsp_card.jpg');
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/0-10/george-st-pierre/gsp_card.jpg');
     background-position: center;
 }
 
 .leyendas__card__anderson {
-    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/anderson-silva/anderson-silva_card.jpg');
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/0-10/anderson-silva/anderson-silva_card.jpg');
     background-repeat: no-repeat;
     background-position: center, -120px;
 }
 
 .leyendas__card__lesnar {
-    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/brock-lesnar/brock-lesnar_card.jpg');
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/0-10/brock-lesnar/brock-lesnar_card.jpg');
     background-position: center;
 }
 
 .leyendas__card__dc {
-    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/daniel-cormier/dc_card.jpg');
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/0-10/daniel-cormier/dc_card.jpg');
     background-position: right;
 }
 
 .leyendas__card__aldo {
-    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/jose-aldo/jose-aldo_card.jpg');
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/0-10/jose-aldo/jose-aldo_card.jpg');
     background-position: center;
 }
 
 .leyendas__card__rousey {
-    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/ronda-rousey/rousey_card.jpg');
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/0-10/ronda-rousey/rousey_card.jpg');
     background-position: center;
 }
 
 .leyendas__card__demetrious {
-    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/demetrious-johnson/demetrious_card.jpg');
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/0-10/demetrious-johnson/demetrious_card.jpg');
     background-position: center;
 }
 
 .leyendas__card__amanda {
-    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/amanda-nunes/amanda_card.jpg');
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_card.jpg');
     background-position: center;
 }
 
 .leyendas__card__gracie {
-    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/royce-gracie/Royce_Gracie_card.jpg');
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/0-10/royce-gracie/Royce_Gracie_card.jpg');
     background-position: center;
 }
