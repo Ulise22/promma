@@ -60,35 +60,35 @@
 /* Peleadores */
 
 .peleadores__card_volkanovski {
-  background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../assets/peleadores__images/alexander-volkanovski/volkanovski.jpg');
+  background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../assets/peleadores__images/0-10/alexander-volkanovski/volkanovski.jpg');
   background-position: center;
   text-align: center;
 }
 
 .peleadores__card_makhachev {
-  background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../assets/peleadores__images/islam-makhachev/islam__makhachev.jpg');
+  background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../assets/peleadores__images/10-20/islam-makhachev/islam__makhachev.jpg');
   background-position: left;
 }
 
 .peleadores__card_jones {
-  background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../assets/peleadores__images/jon-jones/jon_jones_card.jpg');
+  background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../assets/peleadores__images/10-20/jon-jones/jon_jones_card.jpg');
   background-position: center;
 }
 
 /* Peleadores */
 
 .peleadores__card_illia {
-  background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../assets/peleadores__images/ilia-topuria/illia__topuria.jpg');
+  background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../assets/peleadores__images/10-20/ilia-topuria/illia__topuria.jpg');
   background-position: center;
 }
 
 .peleadores__card_mcgregor {
-  background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../assets/peleadores__images/conor-mcgregor/mcgregor-card.jpg');
+  background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../assets/peleadores__images/0-10/conor-mcgregor/mcgregor-card.jpg');
   background-position: center;
 }
 
 .peleadores__card_strickland {
-  background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../assets/peleadores__images/sean-strickland/sean__strickland.jpg');
+  background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../assets/peleadores__images/20-30/sean-strickland/sean__strickland.jpg');
   background-position: center;
 }
 

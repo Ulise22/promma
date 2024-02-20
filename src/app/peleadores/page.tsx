@@ -10,10 +10,10 @@ export default function Peleadores () {
             <section className={styles.peleadores}>
                 <h2 className={styles.peleadores__subtitle}>Luchadores de UFC</h2>
                 <article className={styles.peleadores__container}>
-                    <Link href='/campeones/alexander-volkanovski' className={`${styles.peleadores__card} ${styles.peleadores__card_volkanovski}`}>
+                    <Link href='/peleadores/alexander-volkanovski' className={`${styles.peleadores__card} ${styles.peleadores__card_volkanovski}`}>
                         <h3 className={styles.peleadores__card__name}>Alexander Volkanovski</h3>
                     </Link>
-                    <Link href='/campeones/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
+                    <Link href='/peleadores/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
                         <h3 className={styles.peleadores__card__name}>Sean Strickland</h3>
                     </Link>
                     <Link href='/peleadores/francis-ngannou' className={`${styles.peleadores__card} ${styles.peleadores__card_ngannou}`}>

@@ -33,11 +33,11 @@ export default function Menu () {
                 </li>
                 <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/peleadores'>Peleadores</Link>
                     <ul className={styles.menu__list__dropdown}>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/campeones/alexander-volkanovski'>Alexander Volkanovski</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/conor-mcgregor'>Conor Mcgregor</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/khamzat-chimaev'>Khamzat Chimaev</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/francis-ngannou'>Francis Ngannou</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/campeones/sean-strickland'>Sean Stickland</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/sean-strickland'>Sean Stickland</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/dustin-poirier'>Dustin Poirier</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/justin-gaethje'>Justin Gaethje</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/charles-oliveira'>Charles Oliveira</Link></li>
@@ -66,19 +66,19 @@ export default function Menu () {
                 <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/campeones'>Campeones</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/ilia-topuria'>Ilia Topuria</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/campeones/islam-makhachev'>Islam Makhachev</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/islam-makhachev'>Islam Makhachev</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/du-plessis'>Dricus Du Plessis</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/campeones/jon-jones'>Jon Jones</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/campeones/alex-pereira'>Alex Pereira</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/campeones/sean-omalley'>Sean O&apos;Malley</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/campeones/leon-edwards'>Leon Edwards</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/campeones/alexandre-pantoja'>Alexandre Pantoja</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/jon-jones'>Jon Jones</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/alex-pereira'>Alex Pereira</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/sean-omalley'>Sean O&apos;Malley</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/leon-edwards'>Leon Edwards</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/alexandre-pantoja'>Alexandre Pantoja</Link></li>
                     </ul>
                 </li>
                 <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/mujeres'>Mujeres</Link>
                     <ul className={styles.menu__list__dropdown}>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/campeones/alexa-grasso'>Alexa Grasso</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/campeones/zhang-weili'>Zhang Weili</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/alexa-grasso'>Alexa Grasso</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/zhang-weili'>Zhang Weili</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/julianna-pena'>Julianna Peña</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/ailin-perez'>Ailín Pérez</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/valentina-shevchenko'>Valentina Shevchenko</Link></li>

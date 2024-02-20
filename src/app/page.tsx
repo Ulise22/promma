@@ -27,10 +27,10 @@ export default function Home () {
             <Link href='/peleadores/ilia-topuria' className={`${styles.peleadores__card} ${styles.peleadores__card_illia}`}>
               <h3 className={styles.peleadores__card__name}>Ilia Topuria</h3>
             </Link>
-            <Link href='/campeones/islam-makhachev' className={`${styles.peleadores__card} ${styles.peleadores__card_makhachev}`}>
+            <Link href='/peleadores/islam-makhachev' className={`${styles.peleadores__card} ${styles.peleadores__card_makhachev}`}>
               <h3 className={styles.peleadores__card__name}>Islam Makhachev</h3>
             </Link>
-            <Link href='/campeones/jon-jones' className={`${styles.peleadores__card} ${styles.peleadores__card_jones}`}>
+            <Link href='/peleadores/jon-jones' className={`${styles.peleadores__card} ${styles.peleadores__card_jones}`}>
               <h3 className={styles.peleadores__card__name}>Jon Jones</h3>
             </Link>
           </div>
@@ -48,10 +48,10 @@ export default function Home () {
             <Link href='/peleadores/conor-mcgregor' className={`${styles.peleadores__card} ${styles.peleadores__card_mcgregor}`}>
               <h3 className={styles.peleadores__card__name}>Conor Mcgregor</h3>
             </Link>
-            <Link href='/campeones/alexander-volkanovski' className={`${styles.peleadores__card} ${styles.peleadores__card_volkanovski}`}>
+            <Link href='/peleadores/alexander-volkanovski' className={`${styles.peleadores__card} ${styles.peleadores__card_volkanovski}`}>
               <h3 className={styles.peleadores__card__name}>Alexander Volkanovski</h3>
             </Link>
-            <Link href='/campeones/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
+            <Link href='/peleadores/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
               <h3 className={styles.peleadores__card__name}>Sean Strickland</h3>
             </Link>
           </div>

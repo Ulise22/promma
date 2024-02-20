@@ -46,57 +46,57 @@
 /* Luchadores MMA */
 
 .peleadores__card_volkanovski {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/alexander-volkanovski/volkanovski.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-10/alexander-volkanovski/volkanovski.jpg');
     background-position: right;
 }
 
 .peleadores__card_ngannou {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/francis-ngannou/ngannou_card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/10-20/francis-ngannou/ngannou_card.jpg');
     background-position: center;
 }
 
 .peleadores__card_ferguson {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/tony-ferguson/ferguson_card2.webp');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/20-30/tony-ferguson/ferguson_card2.webp');
     background-position: center;
 }
 
 .peleadores__card_mcgregor {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/conor-mcgregor/mcgregor-card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-10/conor-mcgregor/mcgregor-card.jpg');
     background-position: center;
 }
 
 .peleadores__card_chimaev {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/khamzat-chimaev/khamzat_card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/10-20/khamzat-chimaev/khamzat_card.jpg');
     background-position: center;
 }
 
 .peleadores__card_oliveira {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/charles-oliveira/oliveira_card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-10/charles-oliveira/oliveira_card.jpg');
     background-position: right;
 }
 
 .peleadores__card_gaethje {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/justin-gaethje/gaethje_card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/10-20/justin-gaethje/gaethje_card.jpg');
     background-position: center;
 }
 
 .peleadores__card_poirier {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/dustin-poirier/poirier__card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-10/dustin-poirier/poirier__card.jpg');
     background-position: center;
 }
 
 .peleadores__card_chandler {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/michael-chandler/chandler_card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/10-20/michael-chandler/chandler_card.jpg');
     background-position: center;
 }
 
 .peleadores__card_holloway {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/max-holloway/holloway_card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/10-20/max-holloway/holloway_card.jpg');
     background-position: right;
 }
 
 .peleadores__card_usman {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/kamaru-usman/usman_card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/10-20/kamaru-usman/usman_card.jpg');
     background-position: center;
 }
 
@@ -111,7 +111,7 @@
 }
 
 .peleadores__card_strickland {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/sean-strickland/sean__strickland.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/20-30/sean-strickland/sean__strickland.jpg');
     background-position: center;
 }
 

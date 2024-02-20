@@ -2,12 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from './asideChamps.module.css'
 /* IMAGES */
-import mcgregor from '@/assets/peleadores__images/conor-mcgregor/conor.jpg'
-import chimaev from '@/assets/peleadores__images/khamzat-chimaev/khamzat_post2.jpg'
-import gaethje from '@/assets/peleadores__images/justin-gaethje/gaethje_card.jpg'
-import poirier from '@/assets/peleadores__images/dustin-poirier/poirier__card.jpg'
+import mcgregor from '@/assets/peleadores__images/0-10/conor-mcgregor/conor.jpg'
+import chimaev from '@/assets/peleadores__images/10-20/khamzat-chimaev/khamzat_post2.jpg'
+import gaethje from '@/assets/peleadores__images/10-20/justin-gaethje/gaethje_card.jpg'
+import poirier from '@/assets/peleadores__images/0-10/dustin-poirier/poirier__card.jpg'
 import colby from '@/assets/peleadores__images/0-10/colby-covington/colby.jpg'
-import volkanovski from '@/assets/peleadores__images/alexander-volkanovski/volkanovski.jpg'
+import volkanovski from '@/assets/peleadores__images/0-10/alexander-volkanovski/volkanovski.jpg'
 
 export default function AsideFighter () {
     return(
@@ -33,7 +33,7 @@ export default function AsideFighter () {
                 <Image className={styles.campeones__image} src={colby} alt='Colby Covington' />
                 <h4>Colby Covington</h4>
             </Link>
-            <Link href='/campeones/alexander-volkanovski' className={styles.campeones}>
+            <Link href='/peleadores/alexander-volkanovski' className={styles.campeones}>
                 <Image className={styles.campeones__image} src={volkanovski} alt='Alexander Volkanovski' />
                 <h4>Alexander Volkanovski</h4>
             </Link>
