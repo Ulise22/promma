@@ -27,12 +27,7 @@ export default function Makhachev () {
                     <Image className={styles.peleador__article__image} src={khabib} alt='Islam Makhachev junto a Khabib Numagomédov y el padre de Khabib'/>
                     <p className={styles.peleador__article__text}>Nacido el 27 de octubre de 1991, Majachkala, Duguestán (Rusia). A los 11 años de edad, en la escuela, conoce a Abubakar, sobrino de Abdulmanap Nurmagomedov, exmilitar y exjudoca ruso. Abubakar entrenaba con Khabib, hijo de Abdulmanap, de esta forma comienza la amistad entre Khabib e Islam (menor por dos años)</p>
                     <p className={styles.peleador__article__text}>De esta manera, Makhachev, se volvió parte de la familia Nurmagomedov. En reiterarás ocasiones, ambos han declarado que se sienten como hermanos. Abdumanap se encargó de entrenar a ambos peleadores. Y aunque actualmente Khabib no está en el equipo de Makhachev, su relación sigue siendo igual.</p>
-                    <h2 className={styles.peleador__article__title}>Makhachev Última pelea</h2>
-                    <p className={styles.peleador__article__text}>Su última pelea fue una revancha contra <Link href='/peleadores/alexandder-volkanovski'>Alexander Volkanovski</Link> donde consiguió defender su título, ganando por nocaut en el primer round. Se tenía previsto que peleará contra Charles Oliveira, pero Oliveira fue obligado a retirarse del evento por lesión.</p>
                     <Image className={styles.peleador__article__image} src={pelea} alt='Islam Makhachev golpeando en el rsotro a su rival ded UFC Alexander Volkanovski' />
-                    <h2 className={styles.peleador__article__title}>Makhachev Próxima Pelea</h2>
-                    <p className={styles.peleador__article__text}>El entrenador Javier Méndez comenta: “Porque vencer a Conor no creará el tipo de legado que el Islam quiere, ¿verdad? Ir tras el título de peso welter sí lo es. Ese es un momento de tipo legado.” Esto genera que Edwards o Covington sean potenciales rivales a enfrentar en peso welter el próximo 16 de diciembre.</p>
-                    <p className={styles.peleador__article__text}>Sin embargo, esto parece poco probable. Uno de los nombres más sonados sigue siendo el de Charles Oliveira por la revancha. </p>
                 </article>
                 <AsideFighter />
             </section>

@@ -21,10 +21,6 @@ export default function Omalley () {
                     <h2 className={styles.peleador__article__title}>Sean O&apos;malley Historia</h2>
                     <p className={styles.peleador__article__text}>Nacido un 24 de octubre de 1994, Helena, Montana. Fue criado por su padre, oficial de narcóticos retirado. No se sabe mucho sobre su madre. Actualmente en relación con Danya Gonzalez y una hija, Elena. El luchador tiene un podcast propio llamado “Timbo Sugar Show” donde habla sobre las artes marciales, conversando con especialistas y amigos. </p>
                     <p className={styles.peleador__article__text}>“Uso al cannabis para relajarme por la noche. Es como si mi cuerpo lo supiera bien: nos estamos relajando.” Afirma Sean O&apos;Malley. Suele publicar fotos y vídeos fumando marihuana con variados tipos de pipas, con porros, en su hogar o fuera de este. “Uso el cannabis para relajarme por las noches. A eso le sumo un chapuzón en el jacuzzi, lo hago religiosamente.”</p>
-                    <h2 className={styles.peleador__article__title}>Sean O&apos;malley Última Pelea</h2>
-                    <p className={styles.peleador__article__text}>Su última pelea fue contra Aljamain Sterling por el título UFC 292, en la cual venció por nocaut en el segundo round, minuto 0:51. Tras su victoria, comentó: “Siempre digo que conmigo sólo hace falta un error (para vencerte). Ni siquiera sé si eso es un error. Soy así de bueno.”</p>
-                    <p className={styles.peleador__article__text}>Pidió la revancha contra Marlon Vera, comentando: “Éste es sólo el principio de la era ‘Suga’. Llevaré esta mier** hasta 2035. Le patearé el c*** a ‘Chito’ en diciembre en Las Vegas en el T-Mobile.” </p>
-                    <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/m0C_6mzXyxY?si=vuDCdqGJnpadpB-_" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </article>
                 <AsideFighter />
             </section>

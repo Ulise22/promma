@@ -28,9 +28,6 @@ export default function Grasso () {
                     <p className={styles.peleador__article__text}>Después de más de 6 años peleando en UFC, Alexa Grasso es hoy en día la número #1 libra por libra femenino de la UFC y continúa compitiendo por esta compañía donde ya lleva una defensa del título exitosa.</p>
                     <h2 className={styles.peleador__article__title}>Alexa Grasso Récord</h2>
                     <p className={styles.peleador__article__text}>Alexa Grasso tiene un record de 16-3-1. Siendo 4 de sus victorias por nocaut, 2 por sumisión y 10 por decisión. Mientras que sus 3 derrotas se componen de 1 por sumisión y de 2 por decisión. Su único empate fue diciembre de 2023 contra <Link href='/mujeres/valentina-shevchenko'>Valentina Shevchenko</Link>.</p>
-                    <h2 className={styles.peleador__article__title}>Alexa Grasso Última Pelea</h2>
-                    <p className={styles.peleador__article__text}>La última pelea de la mexicana fue bastante especial, puesto que se celebró el Día de la Independencia de México, en Las Vegas, lugar que en estas fechas suele estar reservado para el <b>Canelo Álvarez</b>, sin embargo este retrasó su pelea y esto dió lugar a que Alexa Grasso pudiera representar a su país y de la mejor manera, puesto que pese a empatar contra Shevchenko por decisión de los jueces, pudo retener el título de Campeona de Peso Mosca Femenino.</p>
-                    <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/cqUHq7zyiQE?si=bLzrwFJWHkRQJ2Bv" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </article>
                 <AsideFighter />
             </section>

@@ -26,8 +26,6 @@ export default function Staropoli () {
                     <p className={styles.peleador__article__text}>El 7 de abril de 2023 Laureano Staropoli se consagró campeón de Peso Welter en ARES Fighting Championship luego de derrotar por TKO al francés Mickael Lebout en el segundo round. El argentino logró esto en apenas 3 combates en su compañía.</p>
                     <p className={styles.peleador__article__text}>El contexto en que Laureano fue campeón, impulsó aún más su reconocimiento, ya que al ser de un país tan futbolero, y al ganarle a un francés 4 meses después de la final del mundial de Argentina contra Francia, llevaron a hacer muchos chistes y bromas al respecto. Además de que luego de su consagración, Laureano Staropoli tuvo el lujo de conocer y sacarse una foto con <b>Lionel Messi</b>, otro especialista en vencer franceses.</p>
                     <Image className={styles.peleador__article__image} src={messi} alt='El peleador argentino de mma Laureano Staropoli y Lionel Messi sacandose una foto con el cinturón de campeón del peleador argentino' />
-                    <h2 className={styles.peleador__article__title}>Laureano Staropoli Próxima pelea</h2>
-                    <p className={styles.peleador__article__text}>Aún no hay confirmación oficial sobre la próxima pelea de Laureano</p>
                 </article>
                 <AsideChamps />
             </section>

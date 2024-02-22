@@ -21,10 +21,6 @@ export default function Illia () {
                     <h2 className={styles.peleador__article__title}>Ilia Topuria ranking</h2>
                     <p className={styles.peleador__article__text}>Actualmente se encuentra ranqueado 5to en la división de Peso Pluma. Ilia mantiene un record de 14 victorias sin ninguna derrota y ningún empate. De las cuales 4 fueron por la vía del nocaut, 8 por la sumisión y 2 por decisión.</p>
                     <p className={styles.peleador__article__text}>Ilia venía de estar ranqueado en la 9na posición después de someter a Bryce Mitchell, y logró ganarse ese 5to puesto después de ganar por desición unánime contra Josh Emmet.</p>
-                    <h2 className={styles.peleador__article__title}>Última pelea de Topuria</h2>
-                    <p className={styles.peleador__article__text}>Su última pelea fue contra Josh Emmet, que en el momento de la pelea estaba ranqueado 5to en la división y que venía de una derrota contra Yair Rodriguez. Por su lado, Ilia venía de vencer a Bryce Mitchell por sumisión en el 2do round.</p>
-                    <p className={styles.peleador__article__text}>Había una gran expectativa sobre este combate, ya que Ilia Topuria tendría la oportunidad de mostrarse y ganarse una oportunidad por el título ante un top5 de la división, además de que por primera vez protagonizaría la cartelera estelar de UFC.</p>
-                    <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/MswUiwOftB4?si=HujlFHYjgG8fR2kq" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </article>
                 <AsideFighter />
             </section>

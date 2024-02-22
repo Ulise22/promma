@@ -32,11 +32,6 @@ export default function Usman () {
                     <p className={styles.peleador__article__text}>Kamaru Usman nació el 11 de mayo de 1987 en la ciudad de Benín, Nigeria. Tanto él como su familia se mudaron a los Estados Unidos, cuando Usman tenía tan sólo 5 años. En su adolescencia, Kamaru comenzó a practicar Wrestling en la escuela secundaria a la que asistía, llegando a acumular un récord de 56-0, tanto en su escuela secundaria como posteriormente en su universidad, Usman obtendría una carrera exitosa en el wrestling. </p>
                     <Image className={styles.peleador__article__image} src={kamaru} alt='Kamaru Usman en frente de una multitud de personas en blanco y negro' />
                     <p className={styles.peleador__article__text}>Esto en el futuro le terminaría abriendo las puertas a cometir en MMA, donde debutó de manera profesional el 30 de noviembre de 2012, con 25 años, contra el estadounidense David Glover, a quien derrotaía por TKO en el segundo asalto.Tan sólo 6 peleas necesitó para ser tenido en cuenta por la UFC, a la que llegó con un récord de 5-1, con todas sus victorias siendo por nocaut.</p>
-                    <h2 className={styles.peleador__article__title}>Kamaru Usman Última Pelea</h2>
-                    <p className={styles.peleador__article__text}>La última pelea de Kamaru Usman fue contra el ruso <Link href='/peleadores/khamzat-chimaev'>Khamzat Chimaev</Link>, a quien enfrentó en reemplazo del brasileño <b>Paulo Costa</b>, quien era quien se debía enfrentarse al ruso. Usman aceptó la pelea en corto aviso, donde además aceptó pelear en una división superior a la que él está acostumbrado, peleando en Peso Medio.</p>
-                    <Image className={styles.peleador__article__image} src={abrazo} alt='Kamaru Usman y Khamzat Chimaev dandose un abrazo luego de su combate de UFC' />
-                    <h2 className={styles.peleador__article__title}>Kamaru Usman Próxima pelea</h2>
-                    <p className={styles.peleador__article__text}>Aún no hay confimación oficial sobre cuál va a ser el próximo rival de Kamaru Usman luego de su pelea con Khamzat Chimaev</p>
                 </article>
                 <AsideChamps />
             </section>

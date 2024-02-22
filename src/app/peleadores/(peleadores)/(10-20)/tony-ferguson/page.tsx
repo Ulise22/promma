@@ -28,11 +28,6 @@ export default function Ferguson () {
                     <h2 className={styles.peleador__article__title}>Tony Ferguson Récord</h2>
                     <p className={styles.peleador__article__text}>Tiene un récord de 15 victorias, 12 victorias continúas, 5 nocaut, 6 sumisión y 4 por decisión. 10 derrotas, 2 nocaut, 3 sumisión y 5 por decisión. (UFC)</p>
                     <Image className={styles.peleador__article__image} src={win} alt='Tony Ferguson festejando luego de dejar KO a su rival en un combate de ufc' />
-                    <h2 className={styles.peleador__article__title}>Tony Ferguson Última Pelea</h2>
-                    <p className={styles.peleador__article__text}>Tony Ferguson se enfrentó a Bobby Green y perdió por sumisión. El primer asalto se vio afectado tras un piquete de ojos a Ferguson, obligando a los médicos ingresar al octágono. Momentos después, la pelea continuó.</p>
-                    <p className={styles.peleador__article__text}>En el segundo round, Green mantuvo a ralla a Ferguson un par de ocasiones, sin embargo, no fueron suficientes para ganarle, generando un último minuto con buenos intercambios de golpes donde Green parecía mejor parado.</p>
-                    <p className={styles.peleador__article__text}>Durante un total de tres rounds, Green consiguió someter a Ferguson tras un descuido, a tan solo seis segundos de terminar la pelea.</p>
-                    <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/aYZgNn1aaaY?si=nmHsHT2Nk0EKIqlA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </article>
                 <AsideChamps />
             </section>
