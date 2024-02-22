@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import PromotorasHero from '../PromotorasHero'
-import styles from '../promo.module.css'
+import PromotorasHero from '../../PromotorasHero'
+import styles from '../../promo.module.css'
 
 export default function Dogfight () {
     return(

@@ -1,9 +1,9 @@
 import Link from 'next/link'
-import PromotorasHero from '../PromotorasHero'
+import PromotorasHero from '../../PromotorasHero'
 import dana from '@/assets/promotoras/ufc/dana_white.jpg'
 import pelea from '@/assets/promotoras/ufc/fight.jpg'
 import cage from '@/assets/promotoras/ufc/arena.jpg'
-import styles from '../promo.module.css'
+import styles from '../../promo.module.css'
 import Image from 'next/image'
 
 export default function UFC () {

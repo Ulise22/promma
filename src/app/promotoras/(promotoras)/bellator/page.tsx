@@ -1,9 +1,9 @@
-import PromotorasHero from '../PromotorasHero'
+import PromotorasHero from '../../PromotorasHero'
 import bellator1 from '@/assets/promotoras/bellator/bellator1.jpg'
 import bellator2 from '@/assets/promotoras/bellator/bellator2.jpg'
 import bellator3 from '@/assets/promotoras/bellator/bellator3.jpg'
 import bellator4 from '@/assets/promotoras/bellator/bellator4.jpg'
-import styles from '../promo.module.css'
+import styles from '../../promo.module.css'
 import Image from 'next/image'
 
 export default function Bellator () {

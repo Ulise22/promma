@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import PromotorasHero from '../PromotorasHero'
+import PromotorasHero from '../../PromotorasHero'
 import fight from '@/assets/promotoras/kots/kots_fight.jpg'
 import franco from '@/assets/peleadores__images/argentinos/franco-tenaglia/fight.jpg'
-import styles from '../promo.module.css'
+import styles from '../../promo.module.css'
 import Image from 'next/image'
 
 export default function KOTS () {
