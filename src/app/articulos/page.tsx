@@ -10,6 +10,7 @@ import texeira from '@/assets/articulos/previews/glover_teixeira.webp'
 import goats from '@/assets/articulos/previews/ufc-goats.webp'
 import bestStyles from '@/assets/articulos/previews/mejores-estilos_preview.jpg'
 import ufc297 from '@/assets/articulos/previews/ufc297.jpg'
+import rivalsIlia from '@/assets/articulos/insideArticle/ilia-topuria_hero.jpg'
 
 export default function Articulos () {
     return(
@@ -17,6 +18,7 @@ export default function Articulos () {
             <PageHero />
             <section className={styles.articles__container}>
                 <ArticlePreview img={ufc297} url='/articulos/ufc297' title='UFC 297: ¡Dricus Du Plessis y Raquel Pennington Nuevos Campeones de UFC!' />
+                <ArticlePreview img={rivalsIlia} url='/articulos/proximos-rivales-topuria' title='Ahora que es campeón, ¿Cuál Será el Próximo Rival de Ilia Topuria?' />
                 <ArticlePreview img={conorVkhabib} url='/articulos/conor-vs-khabib' title='Conor McGregor vs Khabib Nurmagomedov: ¿Qué pasó realmente?' />
                 <ArticlePreview img={mostppv} url='/articulos/most-ppv' title='Top 5: Las peleas de MMA que más PPV vendieron' />
                 <ArticlePreview img={khabibVferguson} url='/articulos/khabib-ferguson' title='Khabib vs Tony Ferguson: La pelea maldita que nunca pudo darse' />
