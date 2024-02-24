@@ -11,6 +11,7 @@ import goats from '@/assets/articulos/previews/ufc-goats.webp'
 import bestStyles from '@/assets/articulos/previews/mejores-estilos_preview.jpg'
 import ufc297 from '@/assets/articulos/previews/ufc297.jpg'
 import rivalsIlia from '@/assets/articulos/insideArticle/ilia-topuria_hero.jpg'
+import queSonMma from '@/assets/articulos/previews/que-son-mma_preview.jpg'
 
 export default function Articulos () {
     return(
@@ -26,6 +27,7 @@ export default function Articulos () {
                 <ArticlePreview img={texeira} url='/articulos/campeon-viejo-ufc' title='El campeón más viejo de la historia moderna de la UFC' />
                 <ArticlePreview img={goats} url='/articulos/top5-mejores-peleadores' title='Los 5 Mejores Peleadores de la Historia de UFC' />
                 <ArticlePreview img={bestStyles} url='/articulos/mejores-estilos-mma' title='Los Mejores Estilos de Pelea para las MMA' />
+                <ArticlePreview img={queSonMma} url='/articulos/que-son-mma' title='¿Qué son las MMA?' />
             </section>
         </main>
     )
