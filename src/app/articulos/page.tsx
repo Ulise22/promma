@@ -14,6 +14,7 @@ import rivalsIlia from '@/assets/articulos/insideArticle/ilia-topuria_hero.jpg'
 import queSonMma from '@/assets/articulos/previews/que-son-mma_preview.jpg'
 import GoatFemUfc from '@/assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_card.jpg'
 import mostLoss from '@/assets/articulos/previews/most-loss_preview.jpg'
+import origenAM from '@/assets/articulos/previews/origen-am_preview.jpg'
 
 export default function Articulos () {
     return(
@@ -32,6 +33,7 @@ export default function Articulos () {
                 <ArticlePreview img={GoatFemUfc} url='/articulos/mejores-peleadoras-ufc' title='Las Mejores Peleadoras de la Historia de la UFC' />
                 <ArticlePreview img={bestStyles} url='/articulos/mejores-estilos-mma' title='Los Mejores Estilos de Pelea para las MMA' />
                 <ArticlePreview img={queSonMma} url='/articulos/que-son-mma' title='¿Qué son las MMA?' />
+                <ArticlePreview img={origenAM} url='/articulos/origen-artes-marciales' title='Origen de las Artes Marciales' />
             </section>
         </main>
     )
