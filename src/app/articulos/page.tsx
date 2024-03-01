@@ -16,6 +16,7 @@ import GoatFemUfc from '@/assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_
 import mostLoss from '@/assets/articulos/previews/most-loss_preview.jpg'
 import origenAM from '@/assets/articulos/previews/origen-am_preview.jpg'
 import jonesYoungChamp from '@/assets/articulos/previews/campeon-mas-joven.jpg'
+import masvidalVsAskren from '@/assets/articulos/previews/masvidal-vs-askren_preview.jpeg'
 
 export default function Articulos () {
     return(
@@ -25,6 +26,7 @@ export default function Articulos () {
                 <ArticlePreview img={ufc297} url='/articulos/ufc297' title='UFC 297: ¡Dricus Du Plessis y Raquel Pennington Nuevos Campeones de UFC!' />
                 <ArticlePreview img={rivalsIlia} url='/articulos/proximos-rivales-topuria' title='Ahora que es campeón, ¿Cuál Será el Próximo Rival de Ilia Topuria?' />
                 <ArticlePreview img={conorVkhabib} url='/articulos/conor-vs-khabib' title='Conor McGregor vs Khabib Nurmagomedov: ¿Qué pasó realmente?' />
+                <ArticlePreview img={masvidalVsAskren} url='/articulos/ko-mas-rapido-ufc' title='El KO Más Rápido en la Historia de la UFC' />
                 <ArticlePreview img={mostppv} url='/articulos/most-ppv' title='Top 5: Las peleas de MMA que más PPV vendieron' />
                 <ArticlePreview img={khabibVferguson} url='/articulos/khabib-ferguson' title='Khabib vs Tony Ferguson: La pelea maldita que nunca pudo darse' />
                 <ArticlePreview img={cortePeso} url='/articulos/cortes-de-peso' title='Los durísimos cortes de peso a los que se someten los peleadores de UFC' />
