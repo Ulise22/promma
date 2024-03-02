@@ -3,7 +3,7 @@ import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/articulos/heros/mostppv_hero.jpg'
+import hero from '@/assets/articulos/heros/0-10/mostppv_hero.jpg'
 
 export default function MostPPV () {
     return(

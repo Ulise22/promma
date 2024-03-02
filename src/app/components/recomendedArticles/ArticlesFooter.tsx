@@ -2,14 +2,14 @@ import Link from 'next/link'
 import styles from './ArticlesFooter.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc300 from '@/assets/articulos/previews/ufc300.jpg'
-import ufc298 from '@/assets/articulos/heros/ufc298_hero.webp'
-import ufc297 from '@/assets/articulos/heros/ufc297_hero.jpg'
-import mostPPV from '@/assets/articulos/previews/mostppv.jpg'
-import top5 from '@/assets/articulos/previews/ufc-goats.webp'
-import khabibVferguson from '@/assets/articulos/previews/khabibVferguson.jpg'
-import dwt2 from '@/assets/articulos/previews/dogfight2.jpg'
-import bestStyle from '@/assets/articulos/previews/mejores-estilos_preview.jpg'
+import ufc300 from '@/assets/articulos/previews/0-10/ufc300.jpg'
+import ufc298 from '@/assets/articulos/heros/10-20/ufc298_hero.webp'
+import ufc297 from '@/assets/articulos/heros/0-10/ufc297_hero.jpg'
+import mostPPV from '@/assets/articulos/previews/0-10/mostppv.jpg'
+import top5 from '@/assets/articulos/previews/0-10/ufc-goats.webp'
+import khabibVferguson from '@/assets/articulos/previews/0-10/khabibVferguson.jpg'
+import dwt2 from '@/assets/articulos/heros/0-10/dogfight2.jpg'
+import bestStyle from '@/assets/articulos/previews/0-10/mejores-estilos_preview.jpg'
 
 export default function ArticlesFooter () {
     return(

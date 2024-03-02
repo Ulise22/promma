@@ -2,7 +2,7 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 /* Images */
-import hero from '@/assets/articulos/previews/ufc-goats.webp'
+import hero from '@/assets/articulos/previews/0-10/ufc-goats.webp'
 import Link from 'next/link'
 
 export default function Top5 () {

@@ -2,7 +2,7 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 /* Images */
-import hero from '@/assets/articulos/previews/corte-peso.jpg'
+import hero from '@/assets/articulos/previews/0-10/corte-peso.jpg'
 import Link from 'next/link'
 
 export default function CortesPeso () {

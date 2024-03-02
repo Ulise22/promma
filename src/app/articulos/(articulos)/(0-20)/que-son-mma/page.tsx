@@ -3,7 +3,7 @@ import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/articulos/heros/que-son-mma_hero.jpg'
+import hero from '@/assets/articulos/heros/10-20/que-son-mma_hero.jpg'
 import Image from 'next/image'
 
 export default function QueSonLasMMA () {

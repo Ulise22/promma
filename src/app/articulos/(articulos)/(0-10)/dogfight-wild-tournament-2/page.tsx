@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import Image from 'next/image'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/articulos/previews/dogfight2.jpg'
+import hero from '@/assets/articulos/heros/0-10/dogfight2.jpg'
 import aitorvszdravko from '@/assets/articulos/insideArticle/dwf2/aitor-vs-zdravko.jpeg'
 import twovtwo from '@/assets/articulos/insideArticle/dwf2/2v2.jpeg'
 import firstSemifinal from '@/assets/articulos/insideArticle/dwf2/sergio-hidalgo.jpeg'

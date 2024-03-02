@@ -2,8 +2,8 @@ import Link from 'next/link'
 import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc298 from '@/assets/articulos/previews/ufc298_preview.jpg'
-import ufc300 from '@/assets/articulos/previews/ufc300.jpg'
+import ufc298 from '@/assets/articulos/previews/10-20/ufc298_preview.jpg'
+import ufc300 from '@/assets/articulos/previews/0-10/ufc300.jpg'
 import dwt2 from '@/assets/promotoras/dogfight.jpg'
 
 export default function PageHero () {

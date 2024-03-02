@@ -3,7 +3,7 @@ import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/articulos/heros/most-loss_hero.jpg'
+import hero from '@/assets/articulos/heros/10-20/most-loss_hero.jpg'
 import bjPenn from '@/assets/articulos/insideArticle/mas-derrotas-consecutivas/bj-penn_nate-diaz.jpg'
 import Image from 'next/image'
 
