@@ -17,6 +17,7 @@ import mostLoss from '@/assets/articulos/previews/most-loss_preview.jpg'
 import origenAM from '@/assets/articulos/previews/origen-am_preview.jpg'
 import jonesYoungChamp from '@/assets/articulos/previews/campeon-mas-joven.jpg'
 import masvidalVsAskren from '@/assets/articulos/previews/masvidal-vs-askren_preview.jpeg'
+import IzziVsPereira from '@/assets/articulos/previews/izzy-vs-pereira_preview.jpg'
 
 export default function Articulos () {
     return(
@@ -31,6 +32,7 @@ export default function Articulos () {
                 <ArticlePreview img={khabibVferguson} url='/articulos/khabib-ferguson' title='Khabib vs Tony Ferguson: La pelea maldita que nunca pudo darse' />
                 <ArticlePreview img={cortePeso} url='/articulos/cortes-de-peso' title='Los durísimos cortes de peso a los que se someten los peleadores de UFC' />
                 <ArticlePreview img={jonesYoungChamp} url='/articulos/campeon-mas-joven-ufc' title='El Campeón Más Joven en la Historia de la UFC' />
+                <ArticlePreview img={IzziVsPereira} url='/articulos/adesanya-vs-pereira' title='La Rivalidad entre Israel Adensanya y Alex Pereira' />
                 <ArticlePreview img={texeira} url='/articulos/campeon-viejo-ufc' title='El campeón más viejo de la historia moderna de la UFC' />
                 <ArticlePreview img={mostLoss} url='/articulos/mas-peleas-perdidas-ufc' title='¿Quién es el Peleador Que Más Peleas Perdió de Forma Consecutiva?' />
                 <ArticlePreview img={goats} url='/articulos/top5-mejores-peleadores' title='Los 5 Mejores Peleadores de la Historia de UFC' />
