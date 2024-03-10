@@ -2,6 +2,7 @@ import styles from './articulos.module.css'
 import PageHero from './components/PageHero'
 import ArticlePreview from '@/app/articulos/components/ArticlePreview'
 /* IMAGES */
+import ufc298 from '@/assets/articulos/previews/10-20/ufc298_preview.jpg'
 import conorVkhabib from '@/assets/peleadores__images/peleadores__hero.jpg'
 import mostppv from '@/assets/articulos/previews/0-10/mostppv.jpg'
 import khabibVferguson from '@/assets/articulos/previews/0-10/khabibVferguson.jpg'
@@ -24,6 +25,7 @@ export default function Articulos () {
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
+                <ArticlePreview img={ufc298} url='/articulos/ufc298' title='UFC 298: ¡Ilia Topuria Noquea a Volkanovski y es el Nuevo Campeón de UFC!' />
                 <ArticlePreview img={ufc297} url='/articulos/ufc297' title='UFC 297: ¡Dricus Du Plessis y Raquel Pennington Nuevos Campeones de UFC!' />
                 <ArticlePreview img={rivalsIlia} url='/articulos/proximos-rivales-topuria' title='Ahora que es campeón, ¿Cuál Será el Próximo Rival de Ilia Topuria?' />
                 <ArticlePreview img={conorVkhabib} url='/articulos/conor-vs-khabib' title='Conor McGregor vs Khabib Nurmagomedov: ¿Qué pasó realmente?' />
