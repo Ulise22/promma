@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Footer from './components/Footer'
 import { config } from '@fortawesome/fontawesome-svg-core'
+import { Analytics } from "@vercel/analytics/react"
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import Menu from './components/Menu'
 config.autoAddCss = false
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Menu />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
