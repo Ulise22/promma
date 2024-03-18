@@ -19,6 +19,7 @@ import origenAM from '@/assets/articulos/previews/10-20/origen-am_preview.jpg'
 import jonesYoungChamp from '@/assets/articulos/previews/10-20/campeon-mas-joven.jpg'
 import masvidalVsAskren from '@/assets/articulos/previews/10-20/masvidal-vs-askren_preview.jpeg'
 import IzziVsPereira from '@/assets/articulos/previews/10-20/izzy-vs-pereira_preview.jpg'
+import karateDefensaPersonal from '@/assets/articulos/previews/20-30/karate-defensa-personal_preview.jpg'
 
 export default function Articulos () {
     return(
@@ -42,6 +43,7 @@ export default function Articulos () {
                 <ArticlePreview img={bestStyles} url='/articulos/mejores-estilos-mma' title='Los Mejores Estilos de Pelea para las MMA' />
                 <ArticlePreview img={queSonMma} url='/articulos/que-son-mma' title='¿Qué son las MMA?' />
                 <ArticlePreview img={origenAM} url='/articulos/origen-artes-marciales' title='Origen de las Artes Marciales' />
+                <ArticlePreview img={karateDefensaPersonal} url='/articulos/karate-y-defensa-personal' title='Karate y Defensa Personal' />
             </section>
         </main>
     )
