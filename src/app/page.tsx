@@ -12,7 +12,7 @@ import texeira from '@/assets/articulos/previews/0-10/glover_teixeira.webp'
 import goats from '@/assets/articulos/previews/0-10/ufc-goats.webp'
 import bestStyles from '@/assets/articulos/previews/0-10/mejores-estilos_preview.jpg'
 import ufc297 from '@/assets/articulos/previews/0-10/ufc297.jpg'
-import rivalsIlia from '@/assets/articulos/insideArticle/ilia-topuria_hero.jpg'
+import ufc300 from '@/assets/articulos/previews/0-10/ufc300.jpg'
 import queSonMma from '@/assets/articulos/previews/10-20/que-son-mma_preview.jpg'
 import GoatFemUfc from '@/assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_card.jpg'
 import mostLoss from '@/assets/articulos/previews/10-20/most-loss_preview.jpg'
@@ -26,7 +26,7 @@ export default function Home () {
       <PageHero />
       <section className={styles.articlesPreview__container}>
         <ArticlePreview img={ufc297} url='/articulos/ufc297' title='UFC 297: ¡Dricus Du Plessis y Raquel Pennington Nuevos Campeones de UFC!' />
-        <ArticlePreview img={rivalsIlia} url='/articulos/proximos-rivales-topuria' title='Ahora que es campeón, ¿Cuál Será el Próximo Rival de Ilia Topuria?' />
+        <ArticlePreview img={ufc300} url='/articulos/ufc300' title='UFC 300: Todo lo que sabemos hasta ahora del mayor evento de MMA en la historia según Dana White' />
         <ArticlePreview img={conorVkhabib} url='/articulos/conor-vs-khabib' title='Conor McGregor vs Khabib Nurmagomedov: ¿Qué pasó realmente?' />
         <ArticlePreview img={masvidalVsAskren} url='/articulos/ko-mas-rapido-ufc' title='El KO Más Rápido en la Historia de la UFC' />
         <ArticlePreview img={mostppv} url='/articulos/most-ppv' title='Top 5: Las peleas de MMA que más PPV vendieron' />

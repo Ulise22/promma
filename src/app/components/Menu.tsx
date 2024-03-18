@@ -86,7 +86,7 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/mayra-bueno-silva'>Mayra Bueno Silva</Link></li>
                     </ul>
                 </li>
-                <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/argentinos'>Argentinos</Link>
+                {/* <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/argentinos'>Argentinos</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/emiliano-sordi'>Emiliano Sordi</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/santiago-ponzinibbio'>Santiago Ponzinibbio</Link></li>
@@ -95,8 +95,8 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/franco-tenaglia'>Franco Tenaglia</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/argentinos/guido-cannetti'>Guido Cannetti</Link></li>
                     </ul>
-                </li>
-                <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/promotoras'>Promotoras</Link>
+                </li> */}
+                {/* <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/promotoras'>Promotoras</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/promotoras/ufc'>UFC</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/promotoras/pfl'>PFL</Link></li>
@@ -105,7 +105,7 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/promotoras/dogfight-wild-tournament'>Dogfight</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/promotoras/king-of-the-streets'>KOTS</Link></li>
                     </ul>
-                </li>
+                </li> */}
             </ul>
         </nav>
     )

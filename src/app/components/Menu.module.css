@@ -24,6 +24,7 @@
 
 .menu__list {
     list-style: none;
+    margin-right: 70px;
 }
 
 .menu__list__item {
