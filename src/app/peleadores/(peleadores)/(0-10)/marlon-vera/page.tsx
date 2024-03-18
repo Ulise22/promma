@@ -11,7 +11,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 export default function Chito () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={vera} w={28} l={8} d={1} nombre='Marlon Vera' apodo='CHITO' categoria='Peso Gallo' />
+            <PeleadoresHero peleadoresImage={vera} w={28} l={9} d={1} nombre='Marlon Vera' apodo='CHITO' categoria='Peso Gallo' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Chito Vera UFC</h2>
