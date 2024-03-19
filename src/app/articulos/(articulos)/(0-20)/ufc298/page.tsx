@@ -9,7 +9,7 @@ import Image from 'next/image'
 export default function UFC298 () {
     return(
         <main>
-            <ArticleHero title='UFC 298: ¡Ilia Topuria noquea a Volkanovski y Tenemos Nuevo Campeón Español!' subtitle='En una noche inolvidable para el pueblo español y georgiano, Ilia Topuria hace historia acabando con el reinado de años que llevaba implatando Alexander Volkanovski' image={hero} />
+            <ArticleHero title='UFC 298: ¡Ilia Topuria noquea a Volkanovski y Tenemos Nuevo Campeón Español!' subtitle='En una noche inolvidable para el pueblo español y georgiano, Ilia Topuria hace historia acabando con el reinado de años que llevaba implatando Alexander Volkanovski' image={hero} date={null} author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Ilia Topuria Noquea a Volkanovski y es el Nuevo Campeón de Peso Pluma de UFC</h2>

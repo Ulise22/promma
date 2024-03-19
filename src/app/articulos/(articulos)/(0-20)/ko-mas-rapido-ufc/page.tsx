@@ -9,7 +9,7 @@ import Image from 'next/image'
 export default function KOMasRapido () {
     return(
         <main>
-            <ArticleHero title='El KO Más Rápido en la Historia de la UFC' subtitle='Cuál es la historia y el trasfondo detrás de la pelea entre Jorge Masvidal y Ben Askren, que terminó en el KO más rápido en la historia de la UFC.' image={hero} />
+            <ArticleHero title='El KO Más Rápido en la Historia de la UFC' subtitle='Cuál es la historia y el trasfondo detrás de la pelea entre Jorge Masvidal y Ben Askren, que terminó en el KO más rápido en la historia de la UFC.' image={hero} date={null} author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>El 6 de julio de 2019 en la ciudad estadounidense de Paradise, ubicada en el Estado de Nevada, fuimos testigos de lo que hasta a día de hoy, continúa siendo el KO más rápido en la historia de la UFC, cuando en el combate entre Ben Askren y Jorge Masvidal, vimos como este último le dió un rodillazo en la cabeza que puso a dormir a su rival, a tan sólo 5 segundos de comenzada la pelea. </p>

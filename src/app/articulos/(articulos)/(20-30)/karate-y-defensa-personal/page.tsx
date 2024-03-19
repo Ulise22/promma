@@ -1,10 +1,8 @@
 import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
-import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/heros/20-30/karate-defensa-personal_hero.jpg'
-import Image from 'next/image'
 
 export default function UFC299 () {
     return(

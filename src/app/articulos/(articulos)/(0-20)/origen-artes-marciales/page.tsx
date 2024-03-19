@@ -9,7 +9,7 @@ import Image from 'next/image'
 export default function OrigenArtesMarciales () {
     return(
         <main>
-            <ArticleHero title='Origen de las Artes Marciales' subtitle='En este artículo repasaremos de forma breve cuál es el Origen de las Artes Marciales, y cuál es considerada la primera en ser inventada.' image={hero} />
+            <ArticleHero title='Origen de las Artes Marciales' subtitle='En este artículo repasaremos de forma breve cuál es el Origen de las Artes Marciales, y cuál es considerada la primera en ser inventada.' image={hero} date={null} author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>La palabra &quot;Marcial&quot; o &quot;Marcialidad&quot; viene del Dios Guerrero de los romanos, Marte. Es por esto que la marcialidad hace referencia a todo lo que englobe la disciplina militar. Mientras que la palabra &quot;Arte&quot; hace referencia a las formas en que el hombre pueda expresar una emoción o sentimiento de forma bella. Por tanto, las &quot;Artes Marciales&quot; son los sistemas creados por los humanos para expresar y enseñar las mejores técnicas de defensa persona y de disciplina militar.</p>

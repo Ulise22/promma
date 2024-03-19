@@ -9,7 +9,7 @@ import Image from 'next/image'
 export default function PeleadorMasJoven () {
     return(
         <main>
-            <ArticleHero title='Jon Jones: El Peleador Más Joven de la Historia de la UFC' subtitle='La historia de cómo quien hoy en día es considerado uno de los mejores de la historia, se convirtió en el campeón más joven que tuvo la UFC con tan sólo 23 años' image={hero} />
+            <ArticleHero title='Jon Jones: El Peleador Más Joven de la Historia de la UFC' subtitle='La historia de cómo quien hoy en día es considerado uno de los mejores de la historia, se convirtió en el campeón más joven que tuvo la UFC con tan sólo 23 años' image={hero} date={null} author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>El peleador más joven en ser campeón de la UFC en toda la historia es <Link href='/peleadores/jon-jones'>Jon Jones</Link>, que lo consiguió el 19 de marzo de 2011 en el UFC 128, al vencer por TKO en el tercer asalto al brasileño <b>Maurício Rua</b>. Sin embargo el camino para conseguir tremenda hazaña no fue nada sencillo para el joven Jon Jones.</p>

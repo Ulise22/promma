@@ -8,7 +8,7 @@ import hero from '@/assets/articulos/heros/0-10/mostppv_hero.jpg'
 export default function MostPPV () {
     return(
         <main>
-            <ArticleHero title='Los 5 Combates que más PPV Vendieron en la Historia' subtitle='Estas son las 5 peleas que más vendieron en la historia de las MMA, una lista completamente dominada por Conor McGregror.' image={hero} />
+            <ArticleHero title='Los 5 Combates que más PPV Vendieron en la Historia' subtitle='Estas son las 5 peleas que más vendieron en la historia de las MMA, una lista completamente dominada por Conor McGregror.' image={hero} date={null} author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Las 5 Peleas que más Vendieron en la UFC</h2>

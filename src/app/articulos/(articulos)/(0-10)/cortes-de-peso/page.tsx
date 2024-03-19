@@ -8,7 +8,7 @@ import Link from 'next/link'
 export default function CortesPeso () {
     return(
         <main>
-            <ArticleHero title='Ilia Topuria: Los Durísimos Cortes de Peso a los que se Someten los Peleadores de UFC' subtitle='Ilia Topuria en una entrevista en The Wild Project cuenta el durísimo proceso por el que tienen que pasar los peleadores para dar el peso antes de cada pelea.' image={hero} />
+            <ArticleHero title='Ilia Topuria: Los Durísimos Cortes de Peso a los que se Someten los Peleadores de UFC' subtitle='Ilia Topuria en una entrevista en The Wild Project cuenta el durísimo proceso por el que tienen que pasar los peleadores para dar el peso antes de cada pelea.' image={hero} date={null} author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>En la entrevista a la que acudió en el podcast de Jordi Wild, The Wild Project, <Link href='/peleadores/ilia-topuria'>Ilia</Link> detalló cómo es el proceso para hacer un corte de peso antes de cada pelea. Primero hablando de como al tener tantos peleadores que naturalmente son más pesados, pero que sin embargo terminan peleando en categorías de peso más livianas, obliga al resto de competidores a hacer lo mismo, ya que para cuando llega el día de la pelea, los peleadores rebotan de peso y terminan luchando con más kilos de los que originalmente dieron el día del pesaje. Esto genera una desventaja para quienes quieran pelear en su peso natural, ya que se estarían enfrentando a peleadores más grandes, más pesados y más fuertes, por eso se ven obligados a cortar tantos kilos antes de las peleas.</p>

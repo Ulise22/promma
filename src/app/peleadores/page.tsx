@@ -52,6 +52,9 @@ export default function Peleadores () {
                     <Link href='/peleadores/marlon-vera' className={`${styles.peleadores__card} ${styles.peleadores__card_vera}`}>
                         <h3 className={styles.peleadores__card__name}>Marlon Vera</h3>
                     </Link>
+                    <Link href='/peleadores/arman-tsarukyan' className={`${styles.peleadores__card} ${styles.peleadores__card_tsarukyan}`}>
+                        <h3 className={styles.peleadores__card__name}>Arman Tsarukyan</h3>
+                    </Link>
                 </article>
                 <h2 className={styles.peleadores__subtitle}>Peleadores argentinos de MMA</h2>
                 <article className={styles.peleadores__container}>

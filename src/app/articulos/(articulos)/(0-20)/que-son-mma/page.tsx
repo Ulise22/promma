@@ -9,7 +9,7 @@ import Image from 'next/image'
 export default function QueSonLasMMA () {
     return(
         <main>
-            <ArticleHero title='¿Qué son las MMA?' subtitle='En este artículo nos dedicaremos a describir y explicar que significan realmente las Artes Marciales Mixtas.' image={hero} />
+            <ArticleHero title='¿Qué son las MMA?' subtitle='En este artículo nos dedicaremos a describir y explicar que significan realmente las Artes Marciales Mixtas.' image={hero} date={null} author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Las Artes Marciales Mixtas (MMA), conocidas comúnmente por sus siglas en inglés, son mucho más que un deporte; representan una fusión impresionante de habilidades y técnicas provenientes de diversas disciplinas marciales y deportes de combate. Esta combinación única se utiliza tanto en competiciones deportivas como en situaciones de defensa personal, ofreciendo un panorama de entrenamiento y competición sin igual en el mundo del deporte de contacto.</p>

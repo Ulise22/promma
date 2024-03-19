@@ -8,7 +8,7 @@ import Link from 'next/link'
 export default function Top5 () {
     return(
         <main>
-            <ArticleHero title='Los 5 Mejores Peleadores de la Historia de las MMA' subtitle='¿Quiénes son los mejores peleadores en la historia de las MMA? ¿Jon Jones? ¿Khabib? ¿George St-Pierre? ¿Anderson Silva?' image={hero} />
+            <ArticleHero title='Los 5 Mejores Peleadores de la Historia de las MMA' subtitle='¿Quiénes son los mejores peleadores en la historia de las MMA? ¿Jon Jones? ¿Khabib? ¿George St-Pierre? ¿Anderson Silva?' image={hero} date={null} author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Los 5 Mejores Peleadores de la UFC de la Historia</h2>

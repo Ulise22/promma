@@ -9,7 +9,7 @@ import Image from 'next/image'
 export default function IzzyVsPereira () {
     return(
         <main>
-            <ArticleHero title='La Rivalidad Entre Israel Adesanya y Alex Pereira' subtitle='¿De dónde viene la rivalidad entre estos 2 peleadores? La historia y trasfondo de una de la mayores rivalidades modernas de las MMA, entre estos peleadores que se han enfrentado hasta en 4 ocasiones.' image={hero} />
+            <ArticleHero title='La Rivalidad Entre Israel Adesanya y Alex Pereira' subtitle='¿De dónde viene la rivalidad entre estos 2 peleadores? La historia y trasfondo de una de la mayores rivalidades modernas de las MMA, entre estos peleadores que se han enfrentado hasta en 4 ocasiones.' image={hero} date={null} author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Israel Adesanya y Alex Pereira han peleado hasta en 4 ocasiones diferentes, 2 de esos combates fueron en Kickboxing, 2 fueron en MMA, y no debería de extrañar a nadie que estos peleadores se volvieran a enfrentar otra vez más.</p>

@@ -8,7 +8,7 @@ import Link from 'next/link'
 export default function KhabibVsConor () {
     return(
         <main>
-            <ArticleHero title='Conor McGregor vs Khabib Nurmagomedov: ¿Qué pasó Realmente Antes y Después de la Pelea?' subtitle='Vamos a hablar de la razón de tanta rivalidad entre estos 2 peleadores, por qué Khabib luego del combate fue a pelear con alguien de la esquina de Conor, el incidente del bus...' image={hero} />
+            <ArticleHero title='Conor McGregor vs Khabib Nurmagomedov: ¿Qué pasó Realmente Antes y Después de la Pelea?' subtitle='Vamos a hablar de la razón de tanta rivalidad entre estos 2 peleadores, por qué Khabib luego del combate fue a pelear con alguien de la esquina de Conor, el incidente del bus...' image={hero} date={null} author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Dillon Danis y Khabib</h2>

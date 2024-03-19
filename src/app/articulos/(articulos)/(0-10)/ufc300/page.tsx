@@ -8,7 +8,7 @@ import Link from 'next/link'
 export default function UFC300 () {
     return(
         <main>
-            <ArticleHero title='UFC 300: Todas las Peleas Confirmadas Hasta Ahora' subtitle='Dana White ha prometido que este será el mayor evento de MMA en la historia, estos son los combates que confirmados hasta ahora!' image={hero} />
+            <ArticleHero title='UFC 300: Todas las Peleas Confirmadas Hasta Ahora' subtitle='Dana White ha prometido que este será el mayor evento de MMA en la historia, estos son los combates que confirmados hasta ahora!' image={hero} date={null} author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Dana White ha prometido mucho para este evento que apunta a ser histórico. Más allá de los rumores que hay para el día 13 de abril de 2024 que es para cuando está apuntado el UFC 300, que van desde el regreso de viejas glorias como <Link href='/leyendas/brock-lesnar'>Brock Lesnar</Link> o la vuelta de <Link href='/leyendas/khabib-nurmagomedov'>Khabib</Link>, estos son los combates confirmados hasta ahora: </p>

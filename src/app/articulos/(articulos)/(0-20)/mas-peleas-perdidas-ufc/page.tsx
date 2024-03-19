@@ -10,7 +10,7 @@ import Image from 'next/image'
 export default function MasPeleasPerdidasUFC () {
     return(
         <main>
-            <ArticleHero title='Las Mejores Peleadoras de UFC de la Historia' subtitle='En este artículo repasaremos la lista de algunas de las mujeres que consideramos como las mejores de la historia de la UFC.' image={hero} />
+            <ArticleHero title='Las Mejores Peleadoras de UFC de la Historia' subtitle='En este artículo repasaremos la lista de algunas de las mujeres que consideramos como las mejores de la historia de la UFC.' image={hero} date={null} author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Probablemente el récord que nadie quiera tener, ser el peleador con la mayor cantidad de derrotas en la UFC. Sin embargo, aunque parezca contraituitivo, es algo muy dificil de conseguir, dado que no son muchos los peleadores que cosechan un par de derrotas consecutivas y de alguna manera consigue mantenerse en la compañía. En el caso de la mayoría de los peleadores, con hilar 3 derrotas seguidas estás fuera de la UFC.</p>
