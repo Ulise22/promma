@@ -27,7 +27,7 @@ export default function PromotorasList () {
                 </article>
                 <article className={styles.promotoras__list__container}>
                     <div className={styles.promotoras__list__info}>
-                        <Link className={styles.promotoras__list__info__link} href='/promotoras/bellator'><h2 className={styles.promotoras__list__info__title}>BELLATOR</h2></Link>
+                        <Link className={styles.promotoras__list__info__link} href='/promotoras/bellator'><h2 className={styles.promotoras__list__info__title}>Bellator</h2></Link>
                         <p className={styles.promotoras__list__info__text}>Bellator MMA es una empresa de MMA en Estados Unidos fundada por Bjom Rebne en 2008.</p>
                     </div>
                     <Image className={styles.promotoras__list__image} src={bellator} alt='bellator' />

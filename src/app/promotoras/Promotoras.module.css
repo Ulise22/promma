@@ -71,6 +71,10 @@
         padding: 10px;
     }
 
+    .promotoras__list__info__link {
+        font-size: 10px;
+    }
+
     .promotoras__list__info__text {
         font-size: 15px;
     }
