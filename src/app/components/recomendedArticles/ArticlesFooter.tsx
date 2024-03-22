@@ -15,6 +15,8 @@ export default function ArticlesFooter () {
     return(
         <section className={styles.articlesFooter}>
             <h2 className={styles.articlesFooter__title}>Artículos Recomendados</h2>
+            <script async={true} data-cfasync="false" src="//pl22862278.profitablegatecpm.com/70ec841ee8128328e9c2cb38fdadccc3/invoke.js"></script>
+<div id="container-70ec841ee8128328e9c2cb38fdadccc3"></div>
             <article className={styles.articlesPreview__container}>
                 <Link className={styles.articlePreview} href='/articulos/ufc300'>
                     <Image className={styles.articlePreview__image} src={ufc300} alt='UFC 300' />
