@@ -38,7 +38,6 @@ export default function AsideChamps () {
                 <Image className={styles.campeones__image} src={edwards} alt='Leon Edwards' />
                 <h4>Leon Edwards</h4>
             </Link>
-            <iframe src="//www.topcreativeformat.com/6fdd96cfe0de8f381662c92b9e2ff052/invoke.js" width={160} height={600} frameBorder='0' scrolling="no"></iframe>
         </aside>
     )
 }
