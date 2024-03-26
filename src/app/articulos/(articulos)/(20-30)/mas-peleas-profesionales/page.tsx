@@ -1,9 +1,9 @@
 import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/previews/20-30/most-pro-fights.jpg'
-import Link from 'next/link'
 
 export default function MasPeleasProfesionales () {
     return(
