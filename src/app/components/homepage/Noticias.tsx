@@ -9,6 +9,7 @@ import ufc298 from '@/assets/articulos/previews/10-20/ufc298_preview.jpg'
 import dwt2 from '@/assets/promotoras/dogfight.jpg'
 import ufc297 from '@/assets/articulos/previews/0-10/ufc297.jpg'
 import ufc300 from '@/assets/articulos/previews/0-10/ufc300.jpg'
+import comebackMcGregor from '@/assets/articulos/previews/20-30/conor-mcgregor_volverapelear.jpg'
 
 export default function Noticias () {
     return(
@@ -44,6 +45,7 @@ export default function Noticias () {
                 </Link>
             </article>
             <article className={styles.noticias__container}>
+                <ArticlePreview img={comebackMcGregor} url='/articulos/volver-a-pelear-mcgregor' title='¿Cuándo Vuelve a Pelear Conor McGregor?' author={null} text='Recientemente, en una entrevista promosionando su nueva película, Road House, ha declarado sus intenciones de volver a pelear este año, pero ¿lo hará realmente?' date='26/03/2024' />
                 <ArticlePreview img={dwt2} url='/articulos/dogfight-wild-tournament-2' title='Lo Mejor de Dogfight Wild Tournament 2' author={null} text='Repasa lo mejor que nos dejó el evento de Jordi Wild, el 3vs1, el 5vs1, bareknuckle femenino, Franco Tenaglia...' date='09/02/2024' />
                 <ArticlePreview img={ufc297} url='/articulos/ufc297' title='UFC 297: ¡Dricus Du Plessis y Raquel Pennington Nuevos Campeones de UFC!' author={null} date='21/01/2024' text='En una pelea que se terminó con polémica por la decisión de los jueces, Du Plessis se consagra como nuevo campeón de peso mediano en UFC.' />
                 <ArticlePreview img={ufc300} url='/articulos/ufc300' title='UFC 300: Todo lo que sabemos hasta ahora' author={null} date={null} text='Todas las peleas confirmadas hasta el momento para el UFC 300, que Dana White promete ser uno de los mayores eventos de la historia del deporte.' />

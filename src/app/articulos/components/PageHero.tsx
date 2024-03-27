@@ -3,8 +3,9 @@ import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import ufc299 from '@/assets/articulos/previews/10-20/ufc299_preview.jpg'
-import rivalsIlia from '@/assets/articulos/insideArticle/ilia-topuria_hero.jpg'
 import comebackMcGregor from '@/assets/articulos/previews/20-30/conor-mcgregor_volverapelear.jpg'
+import poirierVsMakhachev from '@/assets/articulos/previews/20-30/poirier-vs-makhachev.jpg'
+
 export default function PageHero () {
     return(
         <section className={styles.pagehero}>
@@ -24,14 +25,14 @@ export default function PageHero () {
                     </div>
                 </article>
             </Link>
-            <Link className={`${styles.pagehero__article} ${styles.normal2}`} href='/articulos/proximos-rivales-topuria'>
-                <Image className={styles.pagehero__article__img} src={rivalsIlia} alt='' />
+            <Link className={`${styles.pagehero__article} ${styles.normal2}`} href='/articulos/pelea-poirier-vs-makhachev'>
+                <Image className={styles.pagehero__article__img} src={poirierVsMakhachev} alt='' />
                 <article className={styles.pagehero__article__container}>
-                <h2 className={styles.pagehero__title}>Ahora que es campeón, ¿Cuál Será el Próximo Rival de Ilia Topuria?</h2>
-                    <p>Luego de haber noqueado en el segundo asalto a Alexander Volkanovski, ¿quién será el primer retador al título del nuevo campeón, Ilia Topuria?</p>
+                <h2 className={styles.pagehero__title}>¿Dustin Poirier vs Islam Makhachev por el Título de Peso Ligero?</h2>
+                    <p>Luego las declaraciones cruzadas entre ambos peleadores y de la reciente victoria de Poirier contra Saint Denis, ¿se dará una pelea entre estos 2 por el título?</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>23/02/2024</p>
+                        <p>26/03/2024</p>
                     </div>
                 </article>
             </Link>
