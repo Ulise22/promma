@@ -32,7 +32,7 @@ export default function PageHero () {
                     <p>Luego las declaraciones cruzadas entre ambos peleadores y de la reciente victoria de Poirier contra Saint Denis, ¿se dará una pelea entre estos 2 por el título?</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>26/03/2024</p>
+                        <p>27/03/2024</p>
                     </div>
                 </article>
             </Link>
