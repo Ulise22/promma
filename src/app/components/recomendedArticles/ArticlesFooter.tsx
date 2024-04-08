@@ -49,8 +49,6 @@ export default function ArticlesFooter () {
                     <h4 className={styles.articlePreview__title}>Las Artes Marciales Más Efectivas para las MMA</h4>
                 </Link>
             </article>
-            <script async={true} data-cfasync="false" src="//pl22862278.profitablegatecpm.com/70ec841ee8128328e9c2cb38fdadccc3/invoke.js"></script>
-<div id="container-70ec841ee8128328e9c2cb38fdadccc3"></div>
         </section>
     )
 }
