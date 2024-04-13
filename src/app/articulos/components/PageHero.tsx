@@ -2,26 +2,26 @@ import Link from 'next/link'
 import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc299 from '@/assets/articulos/previews/10-20/ufc299_preview.jpg'
-import comebackMcGregor from '@/assets/articulos/previews/20-30/conor-mcgregor_volverapelear.jpg'
+import ufc300MainEvent from '@/assets/articulos/previews/20-30/ufc300.jpeg'
+import ufc300Prelims from '@/assets/articulos/previews/20-30/ufc300_prelims.jpg'
 import poirierVsMakhachev from '@/assets/articulos/previews/20-30/poirier-vs-makhachev.jpg'
 
 export default function PageHero () {
     return(
         <section className={styles.pagehero}>
-            <Link className={styles.pagehero__bigArticle} href='/articulos/ufc299'>
-                <Image className={styles.pagehero__bigArticle__img} src={ufc299} alt='' />
-                <h2 className={styles.page__title}>UFC 299: ¡Sean Omalley vence a Chito y Sigue Siendo Campeón!¡Dustin Poirier Gana por Nocaut en el Segundo Asalto!</h2>
-                <p>En una noche que nos regalos peleas espectaculares, Sean O&apos;malley defendió su título luego de dominar la pelea durante 5 asaltos y Dustin Poirier fue capaz de noquear a Saint Denis en el segundo asalto.</p>
+            <Link className={styles.pagehero__bigArticle} href='/articulos/ufc300-main-event'>
+                <Image className={styles.pagehero__bigArticle__img} src={ufc300MainEvent} alt='' />
+                <h2 className={styles.page__title}>UFC 300: ¡Alex Pereira hace algoxd!</h2>
+                <p>En un evento con increíbles peleas asd asd as gf qf q wd qwd qw sa s qwd s </p>
             </Link>
-            <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/articulos/volvera-a-pelear-mcgregor'>
-                <Image className={styles.pagehero__article__img} src={comebackMcGregor} alt='' />
+            <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/articulos/ufc300-prelims'>
+                <Image className={styles.pagehero__article__img} src={ufc300Prelims} alt='' />
                 <article className={styles.pagehero__article__container}>
-                    <h2 className={styles.pagehero__title}>¿Cuándo Vuelve a Pelear Conor McGregor?</h2>
-                    <p>Recientemente, en una entrevista promosionando su nueva película, Road House, ha declarado sus intenciones de volver a pelear este año, pero ¿lo hará realmente?</p>
+                    <h2 className={styles.pagehero__title}>Preliminares UFC 300: ¡!</h2>
+                    <p>En su debut asd as da afnai coas ncasi naoisn caoins cnia</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>26/03/2024</p>
+                        <p>13/04/2024</p>
                     </div>
                 </article>
             </Link>
