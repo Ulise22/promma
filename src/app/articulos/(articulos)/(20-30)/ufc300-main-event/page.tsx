@@ -12,7 +12,7 @@ export default function UFC300MainEvent () {
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Bo Nickal vs Cody Brundage</h2>
-                    <p></p>
+                    <p>¡Bo Nickal somete a Cody Brundage en el segundo asalto! En la pelea que abrió la cartelera estelar del UFC 300, vimos como el claro favorito de la pelea dió a conocer sus habilidades al ser capaz de someter con un mataleón en el segundo asalto de la pelea.Manteniendo su invicto y elevando su récord a 6-0 con este resultado.</p>
                     <h2>Charles Oliveira vs Arman Tsarukyan</h2>
                     <p></p>
                     <h2>Justin Gaethje vs Max Holloway</h2>
