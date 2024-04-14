@@ -17,8 +17,8 @@ export default function PageHero () {
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/articulos/ufc300-prelims'>
                 <Image className={styles.pagehero__article__img} src={ufc300Prelims} alt='' />
                 <article className={styles.pagehero__article__container}>
-                    <h2 className={styles.pagehero__title}>Preliminares UFC 300: ¡!</h2>
-                    <p>En su debut asd as da afnai coas ncasi naoisn caoins cnia</p>
+                    <h2 className={styles.pagehero__title}>Preliminares UFC 300: !Kayla Harrinson Somete a Holly Holm en el Segundo Asalto en su Debut en la UFC¡</h2>
+                    <p>Por el UFC 300 Kayla somete a Holly Holm en el segundo asalto en lo que es su debut en la compañía y Diego Lopes Noquea su rival en el primer asalto</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
                         <p>13/04/2024</p>
