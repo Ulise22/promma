@@ -10,7 +10,7 @@ import AsideFighter from '@/app/components/asides/AsideFighter'
 export default function AlexPereira () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={pereira} w={9} l={2} d={0} nombre='Alex Pereira' apodo='POATAN' categoria='Peso Semipesado' />
+            <PeleadoresHero peleadoresImage={pereira} w={10} l={2} d={0} nombre='Alex Pereira' apodo='POATAN' categoria='Peso Semipesado' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Pereira UFC</h2>
@@ -27,7 +27,7 @@ export default function AlexPereira () {
                     <h2 className={styles.peleador__article__title}>Pereira MMA</h2>
                     <p className={styles.peleador__article__text}>Alex Pereira compite por MMA desde octubre de 2015. Y dado sus inicios y su historial como peleador de Kickboxing, no es de extrañar que este sea su estilo de pelea principal. Sus actuales entrenadores son Vinicius Reviravolta y el ex luchador también de los Semipesados <b>Glover Teixeira</b> que se retiró recientemente en enero de 2023</p>
                     <h2 className={styles.peleador__article__title}>Alex Pereira Récord</h2>
-                    <p className={styles.peleador__article__text}>En MMA, Alex Pereira tiene un record de 9-2 que le valió para ser campeón de 2 divisiones diferentes. 7 de sus 9 victotias por fueron la vía del nocaut, y las otras 2 fueron por decisión. Mientras que sus 2 derrotas fueron 1 por nocaut y la otra por sumisión.</p>
+                    <p className={styles.peleador__article__text}>En MMA, Alex Pereira tiene un record de 10-2 que le valió para ser campeón de 2 divisiones diferentes. 8 de sus 10 victotias por fueron la vía del nocaut, y las otras 2 fueron por decisión. Mientras que sus 2 derrotas fueron 1 por nocaut y la otra por sumisión.</p>
                     <p className={styles.peleador__article__text}>Mientras que su record en <b>Kickboxing</b> es de 33-7. Siendo 21 de sus 33 victorias por nocauts y las otras 12 por decisión. Mientras que de sus 7 derrotas, 2 fueron por nocauts y las otras 5 por decisión.</p>
                     <h2 className={styles.peleador__article__title}>UFC 4 Alex Pereira</h2>
                     <p className={styles.peleador__article__text}>Alex Pereira fue agregado al más reciente videojuego de UFC, en noviembre de 2022, y poco después se enfrentó a quien era la portada del videojuego entonces, <b>Israel Adensanya</b>. Su vicotoria contra el campeón de origen nigeriano, significó para Alex ser también la nueva portada de UFC4, como comunicó la misma EASPORTS en su twitter oficial(<a href='https://twitter.com/EASPORTSUFC/status/1591672362092695555?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1591672362092695555%7Ctwgr%5Eb6555564b9e4bb31acec92ece72d8a76bb672ff3%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Frealsport101.com%2Fufc%2Falex-pereira-ufc-4-cover%2F' target='_Blank'>ver</a>).</p>

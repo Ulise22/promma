@@ -13,7 +13,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 export default function Holloway () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={holloway} w={25} l={7} d={0} nombre='Max Holloway' apodo='BLESSED' categoria='Peso Pluma' />
+            <PeleadoresHero peleadoresImage={holloway} w={26} l={7} d={0} nombre='Max Holloway' apodo='BLESSED' categoria='Peso Pluma' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Max Holloway UFC</h2>
@@ -22,7 +22,7 @@ export default function Holloway () {
                     <Image className={styles.peleador__article__image} src={pelea} alt='Max Holloway golpeando a su contrincante en un combate de UFC' />
                     <p className={styles.peleador__article__text}>Desde su llegada a la UFC hace 11 años, Holloway ha roto todo tipo de records, desde cantidad de golpes conectados en toda la UFC, hasta cantidad de bonos ganados por pelea de la noche o por actuación de la noche.</p>
                     <h2 className={styles.peleador__article__title}>Max Holloway Récord</h2>
-                    <p className={styles.peleador__article__text}>Max Holloway tiene un récord de 25-7. Siendo 11 de sus 25 victorias por nocaut, 2 por sumisión y 12 por decisión. Mientras que de sus 7 derrotas, 1 ha sido por sumisión y 6 por decisión. En 13 años de carrera y en 32 combates, no ha perdido ninguna pelea por nocaut.</p>
+                    <p className={styles.peleador__article__text}>Max Holloway tiene un récord de 26-7. Siendo 12 de sus 25 victorias por nocaut, 2 por sumisión y 12 por decisión. Mientras que de sus 7 derrotas, 1 ha sido por sumisión y 6 por decisión. En 13 años de carrera y en 32 combates, no ha perdido ninguna pelea por nocaut.</p>
                     <h2 className={styles.peleador__article__title}>Max Holloway Récord Strikes</h2>
                     <p className={styles.peleador__article__text}>Max Holloway cuenta actualmente con el récord de mayor cantidad de strikes conectados en la historia de la UFC, con un total de 3,217 golpes conectados en total, contabilizados luego de su pelea con <b>Arnold Allen</b>, es decir, sin contar su última pelea contra The Korean Zombie. Todos estos golpes logró conectarlos en un total de 27 peleas.</p>
                     <Image className={styles.peleador__article__image} src={traje} alt='Max Holloway con un traje de Karate' />

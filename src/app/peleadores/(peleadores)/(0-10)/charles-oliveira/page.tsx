@@ -12,7 +12,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 export default function Oliveira () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={oliveira} w={34} l={9} d={0} nombre='Charles Oliveira' apodo='DO BRONXS' categoria='Peso Ligero' />
+            <PeleadoresHero peleadoresImage={oliveira} w={34} l={10} d={0} nombre='Charles Oliveira' apodo='DO BRONXS' categoria='Peso Ligero' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Charles Oliveira UFC</h2>
@@ -42,7 +42,7 @@ export default function Oliveira () {
                     <p className={styles.peleador__article__text}>Comenzó a pelear en MMA de manera profesional en 2008, cuando compitió en promotoras regionales de Brasil, hasta que en agosto de 2010 hizó su debut en UFC, ganando por sumisión en el primer asalto contra el estadounidense Darren Elkins. Desde entonces compite en dicha compañía hasta el día de hoy, llegando incluso a ser campeón en mayo de 2019. </p>
                     <Image className={styles.peleador__article__image} src={interview} alt='Charles Oliveria dando una entrevista con una periodista de UFC' />
                     <h2 className={styles.peleador__article__title}>Charles Oliveira Récord</h2>
-                    <p className={styles.peleador__article__text}>Charles Oliveira ostenta un récord de 34-9 con una pelea sin resultado. De sus 34 victorias, 10 fueron por nocaut, 21 por sumisión (que con 20 siendo en la UFC, lo convierte en el peleador con más sumisiones en la historia de toda la compañía), y 3 fueron por decisión. Mientras que de sus 9 derrotas, 4 fueron por nocaut, 4 por sumisión y 1 por decisión. Además tiene una pelea por UFC con NIk Lentz, que originalmente había ganado Charles Oliveira por sumisión, pero dicha victoria fue anulada por un rodillazo ilegal del brasileño, lo que dejó el combate sin un resultado oficial.</p>
+                    <p className={styles.peleador__article__text}>Charles Oliveira ostenta un récord de 34-10 con una pelea sin resultado. De sus 34 victorias, 10 fueron por nocaut, 21 por sumisión (que con 20 siendo en la UFC, lo convierte en el peleador con más sumisiones en la historia de toda la compañía), y 3 fueron por decisión. Mientras que de sus 10 derrotas, 4 fueron por nocaut, 4 por sumisión y 2 por decisión. Además tiene una pelea por UFC con NIk Lentz, que originalmente había ganado Charles Oliveira por sumisión, pero dicha victoria fue anulada por un rodillazo ilegal del brasileño, lo que dejó el combate sin un resultado oficial.</p>
                 </article>
                 <AsideChamps />
             </section>

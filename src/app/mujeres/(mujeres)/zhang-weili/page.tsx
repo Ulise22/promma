@@ -9,7 +9,7 @@ import AsideFighter from '@/app/components/asides/AsideFighter'
 export default function ZhangWeili () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={weili} w={24} l={3} d={0} nombre='Zhang Weili' apodo='MAGNUM' categoria='Peso Paja Femenino' />
+            <PeleadoresHero peleadoresImage={weili} w={25} l={3} d={0} nombre='Zhang Weili' apodo='MAGNUM' categoria='Peso Paja Femenino' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Zhang Weili UFC</h2>
@@ -22,12 +22,12 @@ export default function ZhangWeili () {
                     <p className={styles.peleador__article__text}>El combate terminó en victoria por KO para Zhang Weili, y con unas imagenes bastante impactantes luego de que Jedrzejczyk haya terminado la pelea con la cara completamente desfigurada.</p>
                     <Image className={styles.peleador__article__image} src={postpelea} alt='La luchadora de mma polaca Joanna Jedrzejczyk después de su pelea de ufc contra Zhang Weili con la cara completamente deformada' />
                     <h2 className={styles.peleador__article__title}>Zhang Weili Récord</h2>
-                    <p className={styles.peleador__article__text}>Zhang Weili tiene un récord de 24-3, siendo 11 de sus 24 victorias por la vía del nocaut, 8 por sumisión y 5 por decisión. Mientras que de sus derrotas sólo una fue por nocaut, mientras que las otras 2 fueron por decisión.</p>
+                    <p className={styles.peleador__article__text}>Zhang Weili tiene un récord de 25-3, siendo 11 de sus 25 victorias por la vía del nocaut, 8 por sumisión y 6 por decisión. Mientras que de sus derrotas sólo una fue por nocaut, mientras que las otras 2 fueron por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Zhang Weili wiki</h2>
                     <p className={styles.peleador__article__text}>Zhang Weili nació el 13 de agosto de 1989, en la ciudad de Handan, ubicada en la provincia china de Hebei. Hizo su debut profesional en las artes marciales mixtas en 2013, donde perdió ante la peleadora MEng Bo por decisión unánime.</p>
                     <p className={styles.peleador__article__text}>Pese a debutar con derrota, Zhang fue capaz de roponerse rápido y de hilar 11 victorias consecutivas que la llevaron a pelear por el Campeonato de Peso Femenino Kunlun Fight en mayo de 2017, el cual terminaría ganando en el segundo asalto por TKO. Posterior a su consagración defendería el título un par de veces más hasta que fue contratada por la UFC.</p>
                     <Image className={styles.peleador__article__image} src={zhang} alt='Zhang Weili flexionando los brazos después de un pesaje previo a una pelea de UFC' />
-                    <p className={styles.peleador__article__text}>Actualmente, luego de 9 peleas en la compañía, logró convertirse en campeona en tan solo 4 peleas. Y después de perder su título y recuperarlo, está 3era en el ranking libra por libra femnenino.</p>
+                    <p className={styles.peleador__article__text}>Actualmente, luego de 10 peleas en la compañía, logró convertirse en campeona en tan solo 4 peleas. Y después de perder su título y recuperarlo, está 3era en el ranking libra por libra femnenino.</p>
                     <h2 className={styles.peleador__article__title}>Zhang Weili vs Amanda Lemos</h2>
                     <p className={styles.peleador__article__text}>Su último combate por UFC y en general, fue contra la brasileña Amanda Lemos, que tenía hasta ese momento un record de 13-2-1 luego de derrotar a la también brasileña <b>Marina Rodriguez</b> por TKO.</p>
                     <p className={styles.peleador__article__text}>Este combate era uno que en la previa se veía bastante parejo para las 2 luchadoras, pero que se lo terminó llevando Zhang Weili por decisión unánime luego de una pelea en la que se mostró dominante, llegando incluso a romper el record de golpes asestados en un combate de ufc femenino con un total de 296, un promedio de más de 10 por minuto. Consiguiendo hacer historia en las mma femeninas.</p>

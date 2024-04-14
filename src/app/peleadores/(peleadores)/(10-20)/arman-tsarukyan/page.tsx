@@ -7,14 +7,14 @@ import Link from 'next/link'
 export default function Tsarukyan () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={tsarukyan} w={21} l={3} d={0} nombre='Arman Tsarukyan' apodo='AHALKALAKETS' categoria='Peso Ligero' />
+            <PeleadoresHero peleadoresImage={tsarukyan} w={22} l={3} d={0} nombre='Arman Tsarukyan' apodo='AHALKALAKETS' categoria='Peso Ligero' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Arman Tsarukyan UFC</h2>
                     <p className={styles.peleador__article__text}>Arman Tsarukyan en peleador de nacionalidad armenia y rusa, que compite en la división de peso ligero de la UFC, desde que hiciera su debut contra el ruso <Link href='/peleadores/islam-makhachev'>Islam Makhachev</Link> el 20 de abril de 2019, quien luego de 3 asaltos lo derrotaría por decisión unánime. </p>
-                    <p className={styles.peleador__article__text}>Ha peleado un total de 10 veces en la compañía, teniendo en UFC un récord de 8-2, siendo ambas derrotas por decisión.</p>
+                    <p className={styles.peleador__article__text}>Ha peleado un total de 11 veces en la compañía, teniendo en UFC un récord de 9-2, siendo ambas derrotas por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Arman Tsarukyan Récord</h2>
-                    <p className={styles.peleador__article__text}>Arman Tsarukyan posee un récord de 21-3. Siendo 9 de sus 21 victorias por la vía del nocaut, 5 por la vía de la sumisión y 7 por decisión de los jueces. Mientras que de sus 3 derrotas, 2 han sido por decisión y sólo 1 por nocaut al inicio de su carrera en 2015.</p>
+                    <p className={styles.peleador__article__text}>Arman Tsarukyan posee un récord de 22-3. Siendo 9 de sus 21 victorias por la vía del nocaut, 5 por la vía de la sumisión y 8 por decisión de los jueces. Mientras que de sus 3 derrotas, 2 han sido por decisión y sólo 1 por nocaut al inicio de su carrera en 2015.</p>
                     <h2 className={styles.peleador__article__title}>Arman Tsarukyan Historia</h2>
                     <p className={styles.peleador__article__text}>Arman Tsarukyan nació el 11 de octubre de 1996 en Ajalkalaki, un pequeño pueblo de Georgia cercano a la frontera con Armenia. Es el hermano del medio de 3, teniendo un hermano mayor llamado Artur y una hermana menor llamada Isabella, y es el hijo de un empresario inmobiliario llamado Nairi Tsarukyan, con quienes a la edad de 3 años se mudó a Rusia en busca de mejorar su calidad de vida.</p>
                     <p className={styles.peleador__article__text}>Arman desde muy joven estuvo interesado en los deportes, llegando a interesarse en el hockey sobre hielo, deporte que practicó durante 10 años, y en el freestyle wrestling donde llegó a destacar. Aunque una vez entrando a la adultez, se vió obligado a abandonar estos deportes para colaborar con su padre en trabajos de construcción. </p>

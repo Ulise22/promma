@@ -12,7 +12,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 export default function Gaethje () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={gaethje} w={25} l={4} d={0} nombre='Justin Gaethje' apodo='THE HIGHLIGHT' categoria='Peso Ligero' />
+            <PeleadoresHero peleadoresImage={gaethje} w={25} l={5} d={0} nombre='Justin Gaethje' apodo='THE HIGHLIGHT' categoria='Peso Ligero' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Gaethje UFC</h2>
@@ -23,7 +23,7 @@ export default function Gaethje () {
                     <p className={styles.peleador__article__text}>Pese a esto Justin Gaethje se ha ganado su lugar en la UFC, teniendo actuaciones impresionante y peleas muy divertidas de ver, por eso no sería de extrañar que en un futuro tuviera la oportunidad de volver a pelear por el título contra <Link href='/peleadores/islam-makhachev'>Islam Makhachev</Link> o contra quien sea el campeón en el momento.</p>
                     <Image className={styles.peleador__article__image} src={sparring} alt='El peleador estadounidense de UFC haciendo un sparring en su campamento' />
                     <h2 className={styles.peleador__article__title}>Justin Gaethje Récord</h2>
-                    <p className={styles.peleador__article__text}>Justin Gaethje tiene un record de 25-4. Siendo 20 de estas 25 victorias por nocaut, 4 por decisión y 1 por sumisión. Mientras que 2 de sus derrotas fueron por nocaut y 2 por sumisión.</p>
+                    <p className={styles.peleador__article__text}>Justin Gaethje tiene un record de 25-5. Siendo 20 de estas 25 victorias por nocaut, 4 por decisión y 1 por sumisión. Mientras que 3 de sus derrotas fueron por nocaut y 2 por sumisión.</p>
                     <h2 className={styles.peleador__article__title}>Justin Gaethje Biografía</h2>
                     <p className={styles.peleador__article__text}>Justin Ray Gaethje, nació el 14 de noviembre de 1988 en Estados Unidos, en la ciudad de Safford, Arizona. Su madre es de ascendencia mexicana y su padre de ascendencia alemana (de donde sacó su apellido Gaethje que es de origen aleman). Su abuelo boxeaba mientras servía en el ejército de los Estados Unidos. Justin por su parte, se egresó con una licenciatura en Servicios Humanos en la Universidad del Norte de Colorado.</p>
                     <Image className={styles.peleador__article__image} src={friend} alt='Justin Gaethje con un amigo' />
