@@ -11,8 +11,8 @@ export default function PageHero () {
         <section className={styles.pagehero}>
             <Link className={styles.pagehero__bigArticle} href='/articulos/ufc300-main-event'>
                 <Image className={styles.pagehero__bigArticle__img} src={ufc300MainEvent} alt='' />
-                <h2 className={styles.page__title}>UFC 300: ¡Alex Pereira hace algoxd!</h2>
-                <p>En un evento con increíbles peleas asd asd as gf qf q wd qwd qw sa s qwd s </p>
+                <h2 className={styles.page__title}>UFC 300: ¡Alex Pereira Noquea en el Primer Asalto a Hill! ¡Max Holloway Noquea a Gaethje en el Último Segundo de la Pelea!</h2>
+                <p>Alex Pereira defiende su cinturón ante Jamahal Hill noqueando en el primer asalto. Max Holloway se convierte en el nuevo BMF al noquear a Justin Gaethje en el último asalto. Además Zhang Weili, Bo Nickal y Arman Tsarukyan ganan sus peleas.</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/articulos/ufc300-prelims'>
                 <Image className={styles.pagehero__article__img} src={ufc300Prelims} alt='' />
