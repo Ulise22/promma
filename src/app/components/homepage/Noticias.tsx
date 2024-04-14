@@ -38,8 +38,8 @@ export default function Noticias () {
                 <Link className={`${styles.noticiasHero__article} ${styles.normal2}`} href='/articulos/ufc300-early-prelims'>
                     <Image className={styles.noticiasHero__article__img} src={ufc300EarlyPrelims} alt='' />
                     <article className={styles.noticiasHero__article__container}>
-                        <h2 className={styles.noticiasHero__title}>Primeros Preliminares UFC 300: ¡Miller!</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas autem id quidem illum at asperiores eveniet molestiae veritatis voluptates, quia quod placeat sit, maiores, nulla recusandae nam in magnam dolores!</p>
+                        <h2 className={styles.noticiasHero__title}>Primeros Preliminares UFC 300:!Deivenson Figueiredo Somete a Cody en la Primer Pelea de la Noche¡</h2>
+                        <p>Arranca el UFC 300 con unas increíbles peleas en los primeros preliminares. Donde Figueiredo, Bobby Green, Jessica Andrade y Renato Moicano consiguieron la victoria.</p>
                         <div className={styles.noticiasHero__article__info}>
                             <h4>FULLMMA</h4>
                             <p>13/04/2024</p>
