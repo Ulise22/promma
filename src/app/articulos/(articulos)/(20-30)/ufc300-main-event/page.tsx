@@ -14,7 +14,7 @@ export default function UFC300MainEvent () {
                     <h2>Bo Nickal vs Cody Brundage</h2>
                     <p>¡Bo Nickal somete a Cody Brundage en el segundo asalto! En la pelea que abrió la cartelera estelar del UFC 300, vimos como el claro favorito de la pelea dió a conocer sus habilidades al ser capaz de someter con un mataleón en el segundo asalto de la pelea.Manteniendo su invicto y elevando su récord a 6-0 con este resultado.</p>
                     <h2>Charles Oliveira vs Arman Tsarukyan</h2>
-                    <p></p>
+                    <p>¡Arman Tsarukyan gana por decisión dividida! En lo que fue una de las mejores peleas de la noche, y de las más esperadas por los fans, vimos la razón por la cual ambos peleadores son claros contendientes al título, brindandonos un aunténtico espectaculo, donde ambos peleadores estuvieron cerca de finalizarse mutuamente. Finalmente, la pelea se dejó en la mano de los jueces, que terminaron decantando la pelea a favor de Arman Tsarukyan, en una excelente victoria para el armenio que lo deja como claro candidato al título de peso ligero, en una revancha contra <Link href='/peleadores/islam-makhachev'>Islam Makhachev</Link>.</p>
                     <h2>Justin Gaethje vs Max Holloway</h2>
                     <p></p>
                     <h2>Zhang Weili vs Yan Xiaonan</h2>
