@@ -16,9 +16,9 @@ export default function UFC300Prelims () {
                     <h2>Holly Holm vs Kayla Harrinson</h2>
                     <p>¡Kayla Harrinson somete a Holly Holm en el segundo asalto en su debut! En una muestra de la increíble habilidad con la que cuenta la nueva peleadora de la UFC, Kayla fue capaz de someter a la histórica <b>Holly Holm</b>, luego de dominar durante todo el primer asalto y el segundo. De esta manera ganando en su debut en la compañía y perfilándose como contendiente al título de peso gallo femenino.</p>
                     <h2>Kalvin Kattar vs Aljamain Sterling</h2>
-                    <p></p>
-                    <h2>Jiri Prochazka vs Aleksandar Rakic</h2>
-                    <p></p>
+                    <p>Aljamain Sterling gana la pelea por decisión unánime en lo que fue hasta el momento el combate menos interesante de toda la cartelera. Un Sterling dominante en el suelo y la lucha, fue capaz llevarse la pelea por decisión de los jueces.</p>
+                    {/* <h2>Jiri Prochazka vs Aleksandar Rakic</h2>
+                    <p></p> */}
                 </article>
                 <AsideChamps />
             </section>
