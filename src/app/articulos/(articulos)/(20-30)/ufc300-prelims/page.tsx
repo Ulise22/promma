@@ -12,7 +12,7 @@ export default function UFC300Prelims () {
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Sadiq Yusuff vs Diego Lopes</h2>
-                    <p></p>
+                    <p>¡Diego Lopes noquea en el primer asalto a Yusuff! El brasileño-mexicano logra su 3 finalización consecutiva, además logrando finalizar su decimoquinta pelea en el primer asalto, venciendo al número #12 de la división de peso pluma</p>
                     <h2>Holly Holm vs Kayla Harrinson</h2>
                     <p></p>
                     <h2>Kalvin Kattar vs Aljamain Sterling</h2>
