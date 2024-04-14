@@ -18,7 +18,7 @@ export default function UFC300MainEvent () {
                     <h2>Justin Gaethje vs Max Holloway</h2>
                     <p>¡Faltando tan sólo 2 segundo para terminar la pelea, Holloway es capaz de noquear a Justin Gaethje y se convierte en el nuevo BMF! En lo que fue una locura total, con un Holloway que sorprendió a muchos al dominar completamente a un Justin Gaethje que era el número #2 de la división de Peso Ligero. Pese a que Holloway tenía la pelea practicamente ganada, este invitó a Gaethje a intercambiar golpes durantes los últimos 10 segundos de la pelea, y es en estos momentos cuando es capaz de noquear al ahora ex campeón del BMF.</p>
                     <h2>Zhang Weili vs Yan Xiaonan</h2>
-                    <p></p>
+                    <p>¡Zhang Weili gana por decisión unánime y retiene el cinturón de peso paja femenino! En una pelea que llegó a los 5 asaltos, la actual campeona de la división de peso paja femenino retuvo su título luego de llevarse la pelea por decisión unánime, en un combate que pudo acabar en cualquier momento, con la retadora Yan Xiaonan consiguiendo knockdowns en un par de ocasiones, y con una campeona que en el primer asalto estuvo cerca de finalizar a su compatriota con un mataleón.</p>
                     <h2>Alex Pereira vs Jamahal Hill</h2>
                     <p></p>
                 </article>
