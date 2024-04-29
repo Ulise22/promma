@@ -10,6 +10,11 @@
     gap: 20px;
 }
 
+.articulos__title {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
 @media screen and (max-width: 1015px) {
     .articulos {
         width: 95%;
