@@ -6,8 +6,8 @@ import ArticlePreview from './articulos/components/ArticlePreview'
 /*Articles PREVIEW */
 import masvidalVsAskren from '@/assets/articulos/previews/10-20/masvidal-vs-askren_preview.jpeg'
 import IzziVsPereira from '@/assets/articulos/previews/10-20/izzy-vs-pereira_preview.jpg'
-import goats from '@/assets/articulos/previews/0-10/ufc-goats.webp'
-import texeira from '@/assets/articulos/previews/0-10/glover_teixeira.webp'
+import goats from '@/assets/articulos/previews/0-10/ufc-goats.jpg'
+import texeira from '@/assets/articulos/previews/0-10/glover_teixeira.jpg'
 import Noticias from './components/homepage/Noticias'
 import ArticulosContainer from './components/homepage/ArticulosContainer'
 

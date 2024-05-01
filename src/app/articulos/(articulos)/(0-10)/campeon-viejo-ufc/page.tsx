@@ -2,7 +2,7 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 /* Images */
-import hero from '@/assets/articulos/heros/0-10/glover_texeira_hero.webp'
+import hero from '@/assets/articulos/heros/0-10/glover_texeira_hero.jpg'
 import Link from 'next/link'
 
 export default function CampeonViejoUFC () {

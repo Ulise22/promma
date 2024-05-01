@@ -10,8 +10,8 @@ import conorVkhabib from '@/assets/peleadores__images/peleadores__hero.jpg'
 import mostppv from '@/assets/articulos/previews/0-10/mostppv.jpg'
 import khabibVferguson from '@/assets/articulos/previews/0-10/khabibVferguson.jpg'
 import cortePeso from '@/assets/articulos/previews/0-10/corte-peso.jpg'
-import texeira from '@/assets/articulos/previews/0-10/glover_teixeira.webp'
-import goats from '@/assets/articulos/previews/0-10/ufc-goats.webp'
+import texeira from '@/assets/articulos/previews/0-10/glover_teixeira.jpg'
+import goats from '@/assets/articulos/previews/0-10/ufc-goats.jpg'
 
 export default function ArticulosContainer () {
     return(
