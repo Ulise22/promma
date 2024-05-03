@@ -27,21 +27,23 @@ import kravmaga from '@/assets/articulos/previews/20-30/kravmaga-preview.jpg'
 import mariusz from '@/assets/articulos/previews/20-30/mariusz-pudzianowski-preview.jpg'
 /* 30-40 */
 import nateDiaz from '@/assets/articulos/previews/30-40/nate-diaz-preview.jpg'
+import jimMiller from '@/assets/articulos/previews/30-40/jim-miller-preview.jpg'
 
 export default function Articulos () {
     return(
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
+                <ArticlePreview img={jimMiller} url='/articulos/jim-miller-historia' title='Jim Miller, el Peleador con Más Victorias en la Historia de la UFC y que Participó del UFC100, UFC200 y UCF300' author={null} text='La historia de uno de los peleadores más importantes en la historia de la compañía más grande de MMA, que cuenta con más de 40 peleas en UFC.' date='02/05/2024' />
                 <ArticlePreview img={nateDiaz} url='/articulos/nate-diaz-historia' title='Nate Diaz, el Peleador Más Querido de la UFC' author={null} text='La historia de uno de los peleadores más carismáticos de la UFC, que supo ganarse el cariño de la gente con peleas memorables y con su forma de ser.' date='01/05/2024' />
                 <ArticlePreview img={mariusz} url='/articulos/mariusz-pudzianowski' title='El Polaco Que Fue 5 Veces el Hombre Más Fuerte del Mundo, y que con 45 Años Noquea a sus Rivales, Mariusz Pudzianowski' author={null} text='La historia del hombre nacido en Polonia, Mariusz Pudzianowski, que luego de haber desarrollado su carrera como Strongman, siendo elegido el hombre más fuerte del mundo en 5 oportunidades, se mudó a las MMA, donde sorprendió a todos con su impenente físico y su habilidad para noquear rivales con más experiencia que él.' date='30/04/2024' />
                 <ArticlePreview img={kravmaga} url='/articulos/sirve-el-krav-maga' title='¿Sirve el Krav Maga en un combate real?' author={null} text='La razón por la que muchos peleadores profesionales consideran que el Krav Maga y otro tipo de estilos de defensa personal NO sirven para una pelea callejera y para las MMA.' date='30/04/2024' />
-                <ArticlePreview img={allDoubleChamps} url='/articulos/dobles-campeones-de-ufc' title='Todos los Dobles Campeones de UFC' author={null} text='¿Quiénes componen el selecto grupo de los campeones de 2 categorías de peso diferentes en la ufc?' date='01/04/2024' />
-                <ArticlePreview img={mostProFights} url='/articulos/mas-peleas-profesionales' title='El Peleador de MMA con más Peleas y su Oscuro Final' author={null} date='24/03/2024' text='La historia detrás de Travis Fulton, el luchador con más peleas profesionales en MMA y que se suicidó en la carcel en 2021.' />
                 <Noticias />
             </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={allDoubleChamps} url='/articulos/dobles-campeones-de-ufc' title='Todos los Dobles Campeones de UFC' author={null} text='¿Quiénes componen el selecto grupo de los campeones de 2 categorías de peso diferentes en la ufc?' date='01/04/2024' />
+                <ArticlePreview img={mostProFights} url='/articulos/mas-peleas-profesionales' title='El Peleador de MMA con más Peleas y su Oscuro Final' author={null} date='24/03/2024' text='La historia detrás de Travis Fulton, el luchador con más peleas profesionales en MMA y que se suicidó en la carcel en 2021.' />
                 <ArticlePreview img={GoatFemUfc} url='/articulos/mejores-peleadoras-ufc' title='Las Mejores Peleadoras de la Historia de la UFC' author={null} date={null} text='El listado de las mejores peleadoras de la historia en haber peleado en la comapañía de Dana White.' />
                 <ArticlePreview img={mostLoss} url='/articulos/mas-peleas-perdidas-ufc' title='¿Quién es el Peleador Que Más Peleas Perdió de Forma Consecutiva?' author={null} date={null} text='Los peleadores con el poco honroso récord de ser quienes más peleas consecutivas perdieron en la historia de la UFC.' />
                 <ArticlePreview img={conorVkhabib} url='/articulos/conor-vs-khabib' title='Conor McGregor vs Khabib Nurmagomedov: ¿Qué pasó realmente?' author={null} date={null} text='La historia detrás de todo el beef que hubo alrededor de estos 2 peleadores, y los conflictos que hubo después de su pelea.' />
