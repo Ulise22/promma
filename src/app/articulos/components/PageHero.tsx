@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc300MainEvent from '@/assets/articulos/previews/20-30/ufc300.jpeg'
 import ufc300Prelims from '@/assets/articulos/previews/20-30/ufc300_prelims.jpg'
 import poirierVsMakhachev from '@/assets/articulos/previews/20-30/poirier-vs-makhachev.jpg'
+import ufc301 from '@/assets/articulos/previews/30-40/ufc301-preview.jpg'
 
 export default function PageHero () {
     return(
         <section className={styles.pagehero}>
-            <Link className={styles.pagehero__bigArticle} href='/articulos/ufc300-main-event'>
-                <Image className={styles.pagehero__bigArticle__img} src={ufc300MainEvent} alt='' />
-                <h2 className={styles.page__title}>UFC 300: ¡Alex Pereira Noquea en el Primer Asalto a Hill! ¡Max Holloway Noquea a Gaethje en el Último Segundo de la Pelea!</h2>
-                <p>Alex Pereira defiende su cinturón ante Jamahal Hill noqueando en el primer asalto. Max Holloway se convierte en el nuevo BMF al noquear a Justin Gaethje en el último asalto. Además Zhang Weili, Bo Nickal y Arman Tsarukyan ganan sus peleas.</p>
+            <Link className={styles.pagehero__bigArticle} href='/articulos/ufc301'>
+                <Image className={styles.pagehero__bigArticle__img} src={ufc301} alt='' />
+                <h2 className={styles.page__title}>UFC 301: ¡José Aldo se Retira con una Victoria contra Jonatha Martinez y Alexandre Pantoja Retiene su Título!</h2>
+                <p>José Aldo se retira con victoria de la UFC enfrentando a un peleador ranqueado con sus 37 años de edad, y Pantoja es capaz de retener el cinturón en su primera defensa.</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/articulos/ufc300-prelims'>
                 <Image className={styles.pagehero__article__img} src={ufc300Prelims} alt='' />

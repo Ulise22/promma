@@ -7,7 +7,7 @@ import AsideFighter from '@/app/components/asides/AsideFighter'
 export default function Pantoja () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={pantoja} w={27} l={5} d={0} nombre='Alexandre Pantoja' apodo='THE CANNIBAL' categoria='Peso Mosca' />
+            <PeleadoresHero peleadoresImage={pantoja} w={28} l={5} d={0} nombre='Alexandre Pantoja' apodo='THE CANNIBAL' categoria='Peso Mosca' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Pantoja ufc</h2>
