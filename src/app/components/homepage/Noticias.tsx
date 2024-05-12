@@ -3,10 +3,11 @@ import styles from './noticias.module.css'
 import Image from 'next/image'
 import ArticlePreview from '@/app/articulos/components/ArticlePreview'
 /* IMAGES HERO */
-import ufc300MainEvent from '@/assets/articulos/previews/20-30/ufc300.jpeg'
+import lewisVsNascimento from '@/assets/articulos/previews/30-40/lewis-vs-nascimento-preview.jpg'
 import rivalsIlia from '@/assets/articulos/insideArticle/ilia-topuria_hero.jpg'
 import ufc300EarlyPrelims from '@/assets/articulos/previews/20-30/ufc300_early-prelims.jpg'
 /* IMAGES */
+import ufc300MainEvent from '@/assets/articulos/previews/20-30/ufc300.jpeg'
 import ufc299 from '@/assets/articulos/previews/10-20/ufc299_preview.jpg'
 import ufc298 from '@/assets/articulos/previews/10-20/ufc298_preview.jpg'
 import dwt2 from '@/assets/promotoras/dogfight.jpg'
@@ -19,10 +20,10 @@ export default function Noticias () {
         <section className={styles.noticias}>
             <h2 className={styles.noticias__title}>Noticias</h2>
             <article className={styles.noticiasHero}>
-                <Link className={styles.noticiasHero__bigArticle} href='/articulos/ufc300-main-event'>
-                    <Image className={styles.noticiasHero__bigArticle__img} src={ufc300MainEvent} alt='' />
-                    <h2 className={styles.page__title}>UFC 300: ¡Alex Pereira Noquea en el Primer Asalto a Hill! ¡Max Holloway Noquea a Gaethje en el Último Segundo de la Pelea!</h2>
-                    <p>Alex Pereira defiende su cinturón ante Jamahal Hill noqueando en el primer asalto. Max Holloway se convierte en el nuevo BMF al noquear a Justin Gaethje en el último asalto. Además Zhang Weili, Bo Nickal y Arman Tsarukyan ganan sus peleas.</p>
+                <Link className={styles.noticiasHero__bigArticle} href='/articulos/fight-night-lewis-nascimento'>
+                    <Image className={styles.noticiasHero__bigArticle__img} src={lewisVsNascimento} alt='' />
+                    <h2 className={styles.page__title}>UFC Fight Night: ¡El Argentino Ribovics Noquea a su Rival a los 35 Segundos! ¡Lewis Noquea a Nascimento en el Tercer Asalto!</h2>
+                    <p>En el UFC Fight Night Lewis vs Nascimento fuimos testigos de una espectacular patada de Ribovics a los pocos segundos de empezar el combate, de la victoria por nocaut de Derrick Lewis en el evento principal, de un nocaut a los 12 segundos por parte de Carlos Ulberg, y mucho más.</p>
                 </Link>
                 <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/articulos/proximos-rivales-topuria'>
                     <Image className={styles.noticiasHero__article__img} src={rivalsIlia} alt='' />
@@ -38,7 +39,7 @@ export default function Noticias () {
                 <Link className={`${styles.noticiasHero__article} ${styles.normal2}`} href='/articulos/ufc300-early-prelims'>
                     <Image className={styles.noticiasHero__article__img} src={ufc300EarlyPrelims} alt='' />
                     <article className={styles.noticiasHero__article__container}>
-                        <h2 className={styles.noticiasHero__title}>Primeros Preliminares UFC 300:!Deivenson Figueiredo Somete a Cody en la Primer Pelea de la Noche¡</h2>
+                        <h2 className={styles.noticiasHero__title}>Primeros Preliminares UFC 300:¡Deivenson Figueiredo Somete a Cody en la Primer Pelea de la Noche!</h2>
                         <p>Arranca el UFC 300 con unas increíbles peleas en los primeros preliminares. Donde Figueiredo, Bobby Green, Jessica Andrade y Renato Moicano consiguieron la victoria.</p>
                         <div className={styles.noticiasHero__article__info}>
                             <h4>FULLMMA</h4>
@@ -48,6 +49,7 @@ export default function Noticias () {
                 </Link>
             </article>
             <article className={styles.noticias__container}>
+                <ArticlePreview img={ufc300MainEvent} url='/articulos/ufc300-main-event' title='UFC 300: ¡Alex Pereira Noquea en el Primer Asalto a Hill! ¡Max Holloway Noquea a Gaethje en el Último Segundo de la Pelea!' author={null} text='Alex Pereira defiende su cinturón ante Jamahal Hill noqueando en el primer asalto. Max Holloway se convierte en el nuevo BMF al noquear a Justin Gaethje en el último asalto. Además Zhang Weili, Bo Nickal y Arman Tsarukyan ganan sus peleas.' date='14/04/2024' />
                 <ArticlePreview img={ufc299} url='/articulos/ufc299' title='UFC 299: ¡Sean Omalley vence a Chito y Sigue Siendo Campeón!¡Dustin Poirier Gana por Nocaut en el Segundo Asalto!' author={null} text='En una noche que nos regalos peleas espectaculares, Sean O&apos;malley defendió su título luego de dominar la pelea durante 5 asaltos y Dustin Poirier fue capaz de noquear a Saint Denis en el segundo asalto.' date='10/03/2024' />
                 <ArticlePreview img={comebackMcGregor} url='/articulos/volver-a-pelear-mcgregor' title='¿Cuándo Vuelve a Pelear Conor McGregor?' author={null} text='Recientemente, en una entrevista promosionando su nueva película, Road House, ha declarado sus intenciones de volver a pelear este año, pero ¿lo hará realmente?' date='26/03/2024' />
                 <ArticlePreview img={ufc298} url='/articulos/ufc298' title='UFC 298: ¡Ilia Topuria Noquea a Volkanovski y es el Nuevo Campeón de UFC!' author={null} text='En una noche histórica fuimos testigos de como el peleador español Ilia Topuria, noquea y acaba con el dominio de Volkanovski en la división de Peso Pluma de la UFC.' date='18/02/2024' />

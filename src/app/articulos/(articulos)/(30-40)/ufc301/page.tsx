@@ -6,7 +6,7 @@ import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/heros/30-40/ufc301-hero.jpg'
 
-export default function UFC3001 () {
+export default function UFC301 () {
     return(
         <main>
             <ArticleHero title='¡José Aldo se Retira con una Victoria contra Jonatha Martinez y Alexandre Pantoja Retiene su Título!' subtitle='José Aldo se retira con victoria de la UFC enfrentando a un peleador ranqueado con sus 37 años de edad, y Pantoja es capaz de retener el cinturón en su primera defensa.' image={hero} date='05/05/2024' author={null} />
