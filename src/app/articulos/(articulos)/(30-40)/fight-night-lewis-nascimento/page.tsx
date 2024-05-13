@@ -21,6 +21,7 @@ export default function FightNightLewisNascimento () {
                     <p>En la pelea que tuvo a Carlos Ulberg enfrentando a un peleador ranqueado en la división de semipesados, no sólo estuvo a la altura del desafío, sino que sobrecumplió al noquear al #11 de la división, Alonzo Menifiel, en tan sólo 12 segundos, lo que lo hizo ganador del premio a la actuación de la noche.</p>
                     <h2>Derrick Lewis Noquea a Nascimento en el Tercer Asalto</h2>
                     <p>El evento principal no decepcionó y nos mostró a un dominante Derrick Lewis, quien era favorito a priori, sabiendo ponerse de pie cuando fue derribado y logrando conectar una buena combinación de golpes en el tercer asalto que terminó con la finalización que le daría la victoria al estadounidense por sobre el brasileño.</p>
+                    <p>Con este nuevo nocaut, Derrick Lewis alarga su récord de 15 victorias por nocaut en la UFC, siendo el peleador con más victorias por esta vía en la UFC, lo que lo convierte en un hombre histórico de la compañía.</p>
                 </article>
                 <AsideChamps />
             </section>
