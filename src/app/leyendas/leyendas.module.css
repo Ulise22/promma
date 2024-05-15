@@ -97,3 +97,8 @@
     background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/0-10/royce-gracie/Royce_Gracie_card.jpg');
     background-position: center;
 }
+
+.leyendas__card__couture {
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/10-20/randy-couture/randy-couture-preview.jpg');
+    background-position: center;
+}
