@@ -3,7 +3,6 @@ import conor from '@/assets/peleadores__images/0-10/conor-mcgregor/mcgregor.png'
 import conorIrlanda from '@/assets/peleadores__images/0-10/conor-mcgregor/conor.jpg'
 import mcgregor from '@/assets/peleadores__images/0-10/conor-mcgregor/conor_mcgregor.jpg'
 import pelea from '@/assets/peleadores__images/0-10/conor-mcgregor/mcgregor-peleando2.jpg'
-import pelea2 from '@/assets/peleadores__images/0-10/conor-mcgregor/mcgregor-peleando.jpg'
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -28,7 +27,6 @@ export default function Mcgregor () {
                     <h2 className={styles.peleador__article__title}>Conor Mcgregor Record</h2>
                     <p>Conor Mcgregor tiene un record de 22-6-0 (22 victorias, 6 derrotas y ningún empate), siendo 19 de esas 22 victorias por nocaut, 1 por sumisión y el resto por decisión. Mientras sus 6 derrotas se componen de 4 por sumisión y 2 por TKO.</p>
                     <h2 className={styles.peleador__article__title}>Conor Mcgregor Estadísticas</h2>
-                    <Image className={styles.peleador__article__image} src={pelea2} alt='' />
                     <p>Conor ganó el 86% de sus combates por KO o por TKO, el 9% de sus peleas las ganó por decisión, y el 5% las ganó por sumisión a lo largo de toda su carrera.</p>
                     <p>Mcgregor tiene una efectividad del 50% en sus golpeos, de un 56% en sus intentos de derribo. Conecta 5.32 golpes por minuto y recibe 4.66 por minuto. Tiene un promedio 0.67 knockdowns cada 15 minutos y de 0.13 sumisiones.</p>
                     <p>Tiene una efectividad en la defensa contra golpes del 54%, una efectividad en la defensa de derribo del 67% y sus peleas duran un promedio de 08:02.</p>

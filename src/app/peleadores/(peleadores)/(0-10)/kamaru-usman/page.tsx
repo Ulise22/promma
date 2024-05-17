@@ -1,7 +1,5 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import usman from '@/assets/peleadores__images/10-20/kamaru-usman/usman.png'
-import pelea from '@/assets/peleadores__images/10-20/kamaru-usman/usman_pelea.jpg'
-import abrazo from '@/assets/peleadores__images/10-20/kamaru-usman/usman_abrazo.jpg'
 import kamaru from '@/assets/peleadores__images/10-20/kamaru-usman/usman.jpg'
 import card from '@/assets/peleadores__images/10-20/kamaru-usman/usman_card.jpg'
 import styles from '@/app/peleadores/components/peleador.module.css'
@@ -22,7 +20,6 @@ export default function Usman () {
                     <p className={styles.peleador__article__text}>Desde entonces ha peleado varios años en la UFC, maneteniendo un invicto en la compañía que sólo sería roto en agosto de 2022, luego de un poco menos de 7 años en la compañía.</p>
                     <h2 className={styles.peleador__article__title}>Kamaru Usman Récord</h2>
                     <p className={styles.peleador__article__text}>Kamaru Usman tiene un record de 20-4. Siendo 9 de sus 20 victorias por nocaut, 1 por sumisión y 10 por decisión. Mientras que de sus 4 derrotas, 1 fue por sumisión, 1 por nocaut y 2 por decisión. Siendo además, 3 de sus 4 derrotas en sus últimos 3 combates.</p>
-                    <Image className={styles.peleador__article__image} src={pelea} alt='Kamaru Usman golpeando en el rostro a Khamzat Chimaev en su combate de UFC' />
                     <h2 className={styles.peleador__article__title}>Kamaru Usman vs Leon Edwards</h2>
                     <p className={styles.peleador__article__text}>Kamaru Usman y <Link href='/peleadores/leon-edwards'>Leon Edwards</Link> se enfrentaron un total de 3 veces. La primera de estas siendo en el debut profesional de Usman en la UFC, contra un Leon Edwards que ya tenía un par peleas en la UFC. Dicho combate terminó con una victoria por decisión unánime a favor del nigeriano.</p>
                     <p className={styles.peleador__article__text}>Desde entonces, Kamaru Usman acumuló una racha de 13 victorias consecutivas, entre las que destacan su victoria contra <b>Tyron Woodley</b>, que le daría su cinturón como Camepeón del Peso Welter. Mientras que por su lado, Leon Edwards acumularía una racha de 9 victorias consecutivas que lo harían merecedor de una chance por el título contra el ahora campeón, Kamaru Usman. Aquel combate se realizaría el 20 de agosto de 2022 en UFC 278 y se lo terminaría llevando el jamaicano con un increíble KO, producto de una patada en la cabeza en el quinto asalto, que además lo haría ganador del premio a la Actuacióon de la noche.</p>

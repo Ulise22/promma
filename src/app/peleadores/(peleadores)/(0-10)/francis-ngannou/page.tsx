@@ -1,8 +1,6 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import ngannou from '@/assets/peleadores__images/10-20/francis-ngannou/ngannou.png'
 import francisNgannou from '@/assets/peleadores__images/10-20/francis-ngannou/francis_ngannou.jpg'
-import pelea from '@/assets/peleadores__images/10-20/francis-ngannou/ngannou_peleando.jpg'
-import ganando from '@/assets/peleadores__images/10-20/francis-ngannou/ngannou_ganando.jpg'
 import ngannoutyoson from '@/assets/peleadores__images/10-20/francis-ngannou/ngannou&tyson2.jpg'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
@@ -18,11 +16,9 @@ export default function Ngannou () {
                     <h2 className={styles.peleador__article__title}>Francis Ngannou UFC</h2>
                     <p className={styles.peleador__article__text}>Francis Ngannou ha peleado en UFC durante poco más de 5 años. Tiempo en el que supo ser campeón de los Pesos Pesados,derrotando por KO a Stipe Miocic.</p>
                     <p className={styles.peleador__article__text}>Francis, hizo su debut en UFC en diciembre de 2019 contra Luis Henrique, a quien derrotó por la vía del nocaut. Durante su estancia en UFC, peleó un total de 14 combates, teniendo un record de 12-2 en la compañía. Siendo una de sus derrotas por el título contra el mismo Stipe Miocic, a quien tiempo después derrotaría para consagrarse campeón de los Pesos Pesados. Supo destacar rápido y mostrar de lo que estaba hecho, al ganar muchos de sus combates por nocaut, concretamente 10 de sus 12 victorias fueron por nocaut.</p>
-                    <Image className={styles.peleador__article__image} src={pelea} alt='' />
                     <p className={styles.peleador__article__text}>En diversas ocaciones Francis Ngannou dijo no estar contento con lo que cobraba por pelea en la UFC, tal era su disconformidad que fue difícil convencerlo de que peleara en su último combate defendiendo el título. Una vez vencido su contrato, se sentó a negociar con <b>Dana White</b> para seguir en UFC, aunque lamentablemente no hubo acuerdo. Es por eso que después de su defensa al título Ciryl Gane en enero de 2022, Ngannou abandonó la compañía.</p>
                     <h2 className={styles.peleador__article__title}>Francis Ngannou MMA</h2>
                     <p className={styles.peleador__article__text}>En muchas ocaciones Francis Ngannou ha declarado que su sueño desde pequeño era ser boxeador, por lo que no es de extrañar que este sea su estilo principal para pelear en MMA. Pese a esto, Ngannou ha sabido pelear en el piso, ganando incluso 4 de sus peleas por sumisión.</p>
-                    <Image className={styles.peleador__article__image} src={ganando} alt='' />
                     <h2 className={styles.peleador__article__title}>Francis Ngannou PFL</h2>
                     <p className={styles.peleador__article__text}>Después de marcharse de la UFC, y de una negociación con <b>ONE</b> que no terminó llegando a buen puerto, Francis Ngannou aceptó unirse a <Link href='/promotoras/pfl'>PFL</Link>. Habría aceptado cobrar un contrato de 7 cifras, además de aceptar convertirse en el presidente de PFL África.</p>
                     <h2 className={styles.peleador__article__title}>Francis Ngannou Historia</h2>
