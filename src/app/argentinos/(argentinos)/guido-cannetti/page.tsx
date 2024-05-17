@@ -2,7 +2,6 @@ import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import cannetti from '@/assets/peleadores__images/argentinos/guido-cannetti/guido_cannetti.png'
-import arg from '@/assets/peleadores__images/argentinos/guido-cannetti/guido_postfight.jpg'
 import sparring from '@/assets/peleadores__images/argentinos/guido-cannetti/guido_sparring.jpg'
 import guido from '@/assets/peleadores__images/argentinos/guido-cannetti/guido_cannetti.jpg'
 import Image from 'next/image'
@@ -16,7 +15,6 @@ export default function Staropoli () {
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Guido Cannetti UFC</h2>
                     <p className={styles.peleador__article__text}>Guido Cannetti es un peleador argentino de MMA que compite en la división de Peso Gallo de la <Link href='/promotoras/ufc'>UFC</Link> desde hace casi 10 años, desde que debutara en UFC 180 contra el mexicano <b>Henry Briones</b> con quien caería derrotado por una sumisión en el segundo asalto, sin embargo aquella sería elegida la pelea de la noche.</p>
-                    <Image className={styles.peleador__article__image} src={arg} alt='El peleador de MMA argentino Guido Cannetti festejando luego de una victoria en su combate por UFC' />
                     <p className={styles.peleador__article__text}>Entre sus combates en la compañía, destaca su victoria contra el estadounidense <b>Randy Costa</b>, a quien sometió poco tiempo después de comenzar el primer asalto, ganandose de esta forma el premio a la Actuación de la Noche.</p>
                     <h2 className={styles.peleador__article__title}>Guido Cannetti Récord</h2>
                     <p className={styles.peleador__article__text}>Actualmente, Guido Cannetti posee un récord de 10-7, siendo 4 de sus 10 victorias por la vía del nocaut, 4 por sumisión y 2 por decisión. Mientras que de sus 7 derrotas, 1 fue por nocaut, 5 por sumisión y 1 por decisión.</p>

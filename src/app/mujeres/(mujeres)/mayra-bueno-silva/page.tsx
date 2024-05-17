@@ -4,7 +4,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import mayra from '@/assets/peleadores__images/mujeres/mayra-bueno-silva/mayra_silva.png'
 import careo from '@/assets/peleadores__images/mujeres/mayra-bueno-silva/mayra_careo.jpg'
-import silva from '@/assets/peleadores__images/mujeres/mayra-bueno-silva/mayra_bueno_silva.jpg'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 
 export default function Mayra () {
@@ -21,7 +20,6 @@ export default function Mayra () {
                     <p className={styles.peleador__article__text}>Actualmente Mayra cuenta con un récord de 10-2-1-(1), siendo 1 de sus victorias por nocaut, 7 por sumisión y 2 por decisión. Mientras que ambas de sus derrotas fueron por decisión. Su único empate fue contra la estadounidense <b>Montana De La Rosa</b>, combate en el que a Mayra se le descontó un punto en el primer asalto por agarrarse a la valla.</p>
                     <h3>Mayra Bueno Silva da positivo en doping</h3>
                     <p className={styles.peleador__article__text}>Finalmente, su combate contra la americana <b>Holly Holm</b> en julio de 2023, había terminado originalmente en una victoria por sumisión en el segundo asalto para Mayra Bueno Silva, pero el resultado se vió anulado luego de que La Comisión Atlética de Nevada (NAC) decidiera sancionar a la peleadora por dar positivo de ácido ritalínico en las pruebas presentadas antes de la pelea.</p>
-                    <Image className={styles.peleador__article__image} src={silva} alt='Mayra Bueno Silva en medio de su pelea de UFC' />
                     <p className={styles.peleador__article__text}>Sin embargo Mayra explica que esta sustancia se encuentra presente en los medicamentos para tratar el trastorno por déficit de atención e hiperactividad (TDAH), medicamentos que Mayra venía tomando desde hace 3 años, según ella explica: &quot;Dejé de tomar el medicamento el lunes de la semana de la pelea. He hecho esto muchas veces y esta vez no sé qué ha pasado. Paré el lunes. Esta medicación no es dopaje, pero puedo tomarla fuera de competición y siempre la dejo el lunes. No sé qué ha pasado&quot;.</p>
                     <p className={styles.peleador__article__text}>Por esto, además de anular el resultado de su combate, se la suspendió hasta noviembre de 2023, y se le obligó a pagar una multa equivalente al 15% de lo generado por la pelea, además, para su siguiente pelea se debería someter a pruebas de drogas 30, 15 y 3 días antes del combate.</p>
                     <h2 className={styles.peleador__article__title}>Mayra Bueno Silva Historia</h2>

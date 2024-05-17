@@ -1,6 +1,5 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import valentina from '@/assets/peleadores__images/mujeres/valentina-shevchenko/shevchenko.png'
-import shevchenko from '@/assets/peleadores__images/mujeres/valentina-shevchenko/valentina-shevchenko.jpg'
 import sparring from '@/assets/peleadores__images/mujeres/valentina-shevchenko/sparring.jpg'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
@@ -15,7 +14,6 @@ export default function Valentina () {
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Valentina Shevchenko UFC</h2>
                     <p className={styles.peleador__article__text}>Valentina es una peleadora de <Link href='/promotoras/ufc'>UFC</Link>, donde pelea desde diciembre de 2015, nacionalizada peruana que se encuentra rankeada #1 en su división y #3 en el libra por libra femenino.</p>
-                    <Image className={styles.peleador__article__image} src={shevchenko} alt='La peleadora peruana Valentina Shevchenko sonriendo en el cuadrilatero de UFC' />
                     <p className={styles.peleador__article__text}>Hizo su debut en la compañía el 19 de diciembre de 2019, en la categoría de Peso Gallo Femenino, contra la canadiense <b>Sarah Kaufman</b>, encuentro al que llegó con un record de 11-1 en sus anteriores peleas en otras compañías. Este combate, luego de los 3 asaltos terminó con una victoria para Valentina por decisión dividida. Desde entonces, peleó 16 veces por UFC  logrando un récord de 12-3-1 en la compañía. Además, habiendo ganado el título de la división de Peso Mosca Femenino y habiéndolo defendido 7 veces de forma exitosa, convirtiendola en una histórica de la división femenina de la UFC.</p>
                     <h2 className={styles.peleador__article__title}>Valentina Shevchenko Récord</h2>
                     <p className={styles.peleador__article__text}>Valentina Shevchenko tiene un récord de 23-4-1. Siendo 8 de sus 23 victorias por nocaut, 7 por sumisión, y 8 por decisión. Mientras que de sus 4 derrotas 1 fue por nocaut, 2 por decisión y 1 una por sumisión. Y su único empate, fue en la pelea contra <Link href='/campeones/alexa-grasso'>Alexa Grasso</Link> en la revancha por el título el 16 de septiembre de 2023.</p>

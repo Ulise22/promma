@@ -2,7 +2,6 @@ import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import staropoli from '@/assets/peleadores__images/argentinos/laureano-staropoli/staropoli.png'
 import messi from '@/assets/peleadores__images/argentinos/laureano-staropoli/messi-staropoli.webp'
 import postfight from '@/assets/peleadores__images/argentinos/laureano-staropoli/staropoli_postpelea.jpg'
-import cage from '@/assets/peleadores__images/argentinos/laureano-staropoli/staropoli__cage.jpg'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -16,7 +15,6 @@ export default function Staropoli () {
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Laureano Staropoli UFC</h2>
                     <p className={styles.peleador__article__text}>Laureano Staropoli luchó poco más de 3 años en UFC, haciendo su debut con una victoria por decisión unánime contra el mexicano Hector Aldana en nuestro país Argentina, en el evento encabezado por <Link href='/argentinos/santiago-ponzinibbio'>Santiago Ponzinibbio</Link>, donde además se convirtiría en la pelea de la noche.</p>
-                    <Image className={styles.peleador__article__image} src={cage} alt='El peleador de mma argentino Laureano Staropoli caminando al rededor de la jaula con una bandera de argentina previo a un combate de ufc' />
                     <p className={styles.peleador__article__text}>Luchó un total de 6 combates en ufc, de donde lamentablemente, pese a ganar sus 2 primeros combates, se tuvo que ir, luego de acumular 4 derrotas consecutivas, todas ellas por decisión unánime.</p>
                     <h2 className={styles.peleador__article__title}>Laureano Staropoli ARES</h2>
                     <p className={styles.peleador__article__text}>Luego de su salida de UFC, Laureano Staropoli en febrero de 2022 confirma su llegada a la compañía francesa ARES Fighting Championship, promotora bastante nueva, puesto que fue fundada en 2018. Debutaría 2 meses después contra el inglés Carl Booth, a quien derrotaría por decisión unánime.</p>
