@@ -43,6 +43,51 @@
     color: #fff;
 }
 
+/* Campeones */
+
+.peleadores__card_illia {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/10-20/ilia-topuria/illia__topuria.jpg');
+}
+
+.peleadores__card_omalley {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/20-30/sean-omalley/sean__omalley.jpg');
+    background-position: center;
+}
+
+.peleadores__card_makhachev {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/10-20/islam-makhachev/islam__makhachev.jpg');
+}
+
+.peleadores__card_pereira {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-10/alex-pereira/pereira_card.jpg');
+    background-position: center;
+}
+
+.peleadores__card_jones {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/10-20/jon-jones/jon_jones_card.jpg');
+    background-position: center;
+}
+
+.peleadores__card_pantoja {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-10/alexandre-pantoja/alexandre_pantoja.jpg');
+    background-position: top;
+}
+
+.peleadores__card_edwards {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/10-20/leon-edwards/edwards_card.jpg');
+    background-position: center;
+}
+
+.peleadores__card_aspinall {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-10//tom-aspinall/aspinall_card.jpg');
+    background-position: center;
+}
+
+.peleadores__card_duPlessis {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-10/dricus-du-plessis/du-plessis_card.jpg');
+    background-position: center;
+}
+
 /* Argentinos MMA */
 
 .peleadores__card_emiliano {
