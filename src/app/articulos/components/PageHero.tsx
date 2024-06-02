@@ -3,16 +3,16 @@ import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import ufc300Prelims from '@/assets/articulos/previews/20-30/ufc300_prelims.jpg'
-import poirierVsMakhachev from '@/assets/articulos/previews/20-30/poirier-vs-makhachev.jpg'
-import ufc301 from '@/assets/articulos/previews/30-40/ufc301-preview.jpg'
+import ufc302 from '@/assets/articulos/previews/30-40/ufc302-preview.jpg'
+import ailin from '@/assets/peleadores__images/argentinos/ailin-perez/ailin-perez.jpg'
 
 export default function PageHero () {
     return(
         <section className={styles.pagehero}>
-            <Link className={styles.pagehero__bigArticle} href='/articulos/ufc301'>
-                <Image className={styles.pagehero__bigArticle__img} src={ufc301} alt='' />
-                <h2 className={styles.page__title}>UFC 301: ¡José Aldo se Retira con una Victoria contra Jonatha Martinez y Alexandre Pantoja Retiene su Título!</h2>
-                <p>José Aldo se retira con victoria de la UFC enfrentando a un peleador ranqueado con sus 37 años de edad, y Pantoja es capaz de retener el cinturón en su primera defensa.</p>
+            <Link className={styles.pagehero__bigArticle} href='/articulos/ufc302'>
+                <Image className={styles.pagehero__bigArticle__img} src={ufc302} alt='' />
+                <h2 className={styles.page__title}>UFC 302: ¡Dustin Poirier vs Islam Makhachev!</h2>
+                <p>Esta noche veremos enfretarse a Islam Makhachev contra Dustin Poireir y a Sean Strickland vs Paulo Costa.</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/articulos/ufc300-prelims'>
                 <Image className={styles.pagehero__article__img} src={ufc300Prelims} alt='' />
@@ -25,14 +25,14 @@ export default function PageHero () {
                     </div>
                 </article>
             </Link>
-            <Link className={`${styles.pagehero__article} ${styles.normal2}`} href='/articulos/pelea-poirier-vs-makhachev'>
-                <Image className={styles.pagehero__article__img} src={poirierVsMakhachev} alt='' />
+            <Link className={`${styles.pagehero__article} ${styles.normal2}`} href='/articulos/ailin-vs-joselyne'>
+                <Image className={styles.pagehero__article__img} src={ailin} alt='' />
                 <article className={styles.pagehero__article__container}>
-                <h2 className={styles.pagehero__title}>¿Dustin Poirier vs Islam Makhachev por el Título de Peso Ligero?</h2>
-                    <p>Luego las declaraciones cruzadas entre ambos peleadores y de la reciente victoria de Poirier contra Saint Denis, ¿se dará una pelea entre estos 2 por el título?</p>
+                <h2 className={styles.pagehero__title}>La Argentina Ailín Pérez Gana su Pelea por Decisión Unánime en UFC 302</h2>
+                    <p>En un combate contra la panameña Joselyne Edwards, Ailín demostró ser la clara ganadora de un combate en el que incluso estuvo cerca de noquear a su rival.</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>27/03/2024</p>
+                        <p>01/06/2024</p>
                     </div>
                 </article>
             </Link>
