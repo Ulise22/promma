@@ -9,7 +9,7 @@ import hero from '@/assets/articulos/heros/30-40/ufc302-hero.jpg'
 export default function UFC302 () {
     return(
         <main>
-            <ArticleHero title='UFC 302: ¡Dustin Poirier vs Islam Makhachev!' subtitle='' image={hero} date='01/06/2024' author={null} />
+            <ArticleHero title='UFC 302: ¡Islam Makhachev Somete a Poirier en el Último Asalto de la Pelea!' subtitle='Islam Makhachev somete a Dustin Poirier en lo que hasta ahora parecería ser la última pelea de su carrera. Además Sean Strickland se lleva una esperable victoria contra Paulo Costa por decisión unánime' image={hero} date='02/06/2024' author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>En una noche que nos trae al campeón indiscutido <Link href='/peleadores/islam-makhachev'>Islam Makhachev</Link> defender su título contra el número #4 de la división de Peso Ligero, <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link> quien supo ser campeón interino de la división, y que cayó derrotado en las 2 ocasiones que tuvo de disputar el título. Poirier se encuentra en la que seguramente sea su última oportunidad de campeonar en un combate que promete mucho. Además, en un combate de 5 asaltos tenemos como pelea coestelar la del excampeón y contendiente número #1 de la división de peso mediano, <Link href='/peleadores/sean-strickland'>Sean Strickland</Link>, quien luego de perder su título con <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link> en el <Link href='/articulos/ufc297'>UFC 297</Link> enfrentará al brasileño <b>Paulo Costa</b>, que viene de una derrota por decisión contra <b>Robert Whittaker</b>. </p>
@@ -22,7 +22,7 @@ export default function UFC302 () {
                     <h2>Sean Strickland Derrota a Paulo Costa en el evento coestelar</h2>
                     <p>En una pelea donde el claro dominador fue Sean Strickland, se terminó llevando la pelea por decisión dividida por parte de los jueces, de quienes sólo 1 vio ganar a Paulo Costa. El combate se dió siempre de pie, con ambos peleadores intercambiando golpes, con un Costa que buscaba hacer daño con las low-kicks pero que se encontró con un Strickland que siempre estuvo atento para defenderse bien. Sean controló el centro del octagono y fue quien más golpes significativos conectó, por lo que terminó siendo el justo ganador de la pelea.</p>
                     <h2>Islam Makhachev vs Dustin Poirier</h2>
-                    <p>Pendiente...</p>
+                    <p>En lo que fue la pelea estelar y la más esperada de la noche, finalmente el ruso fue capaz de defender una vez más su título de forma exitosa, siendo capaz de someter al retador <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link> en el último asalto de la pelea. Con un Poirier al que se lo vió dar lo mejor de sí, siendo capaz de defender muchos de los intentos de derribo con los que molestaba Makhachev y conectando muchos golpes gracias a su excelente boxeo. También lo vimos más emotivo que de costumbre al finalizar el combate, posiblemente porque esta haya sido su última pelea en las MMA. Finalmente la pelea estelar se la terminó llevando Makhachev gracias al excelente trabajo que tiene de piso, que lo hizo ser capaz de someter a un cinturón negro en jiu-jitsu como Poirier.</p>
                 </article>
                 <AsideChamps />
             </section>

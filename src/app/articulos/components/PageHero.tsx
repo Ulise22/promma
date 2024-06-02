@@ -11,8 +11,8 @@ export default function PageHero () {
         <section className={styles.pagehero}>
             <Link className={styles.pagehero__bigArticle} href='/articulos/ufc302'>
                 <Image className={styles.pagehero__bigArticle__img} src={ufc302} alt='' />
-                <h2 className={styles.page__title}>UFC 302: ¡Dustin Poirier vs Islam Makhachev!</h2>
-                <p>Esta noche veremos enfretarse a Islam Makhachev contra Dustin Poireir y a Sean Strickland vs Paulo Costa.</p>
+                <h2 className={styles.page__title}>UFC 302: ¡Islam Makhachev Somete a Poirier en el Último Asalto de la Pelea!</h2>
+                <p>Islam Makhachev somete a Dustin Poirier en lo que hasta ahora parecería ser la última pelea de su carrera. Además Sean Strickland se lleva una esperable victoria contra Paulo Costa por decisión unánime.</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/articulos/ufc300-prelims'>
                 <Image className={styles.pagehero__article__img} src={ufc300Prelims} alt='' />
