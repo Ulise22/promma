@@ -10,7 +10,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 export default function Strickland () {
     return(
         <main> 
-            <PeleadoresHero peleadoresImage={strickland} w={28} l={6} d={0} nombre='Sean Strickland' categoria='Peso Medio' apodo={null} />
+            <PeleadoresHero peleadoresImage={strickland} w={29} l={6} d={0} nombre='Sean Strickland' categoria='Peso Medio' apodo={null} />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Sean Strickland UFC</h2>
@@ -19,7 +19,7 @@ export default function Strickland () {
                     <p className={styles.peleador__article__text}>Luego de un par de combates, terminaría perdiendo su racha invicta de 15 victorias seguidas contra el argentino <Link href='/argentinos/santiago-ponzinibbio'>Santiago Ponzinibbio</Link>, que en febrero de 2015 lo derrotó por decisión unánime, en lo que había sido el debut del norteamericano en Peso Welter.</p>
                     <p className={styles.peleador__article__text}>A lo largo de su carrera en UFC, Sean Strickland peleó un total de 20 veces, cosechando un record de 15-5, siendo 1 de sus victorias por sumisión, 4 por nocout y  10 por decisión. Destacando de entre todos sus combates, la sorpresiva victoria contra el campeón Israel Adensanya en septiembre de 2023, al que venció de manera contundente por decisión unánime, pelea que tomó con un mes de anticipación como reemplazo del sudafricano rankeado número 1 Dricus Du Plessis, que se bajó por lesión.</p>
                     <h2 className={styles.peleador__article__title}>Sean Strickland record</h2>
-                    <p className={styles.peleador__article__text}>Actualmente, Sean Strickland ostenta un record de 28-5-0. Ganando 11 combates por nocaut, 4 sumisión y el resto por decisión. Además de ostentar 9 victorias en el primer round. Anterior a su ingreso a la UFC, no había perdido ningún combate, y ostentaba un record invicto de 13 victorias.</p>
+                    <p className={styles.peleador__article__text}>Actualmente, Sean Strickland ostenta un record de 29-5-0. Ganando 11 combates por nocaut, 4 sumisión y el resto por decisión. Además de ostentar 9 victorias en el primer round. Anterior a su ingreso a la UFC, no había perdido ningún combate, y ostentaba un record invicto de 13 victorias.</p>
                     <h2 className={styles.peleador__article__title}>Sean Strickland MMA</h2>
                     <p className={styles.peleador__article__text}>Sean Strickland comenzó a entrenar mma a los 14 años, y se convirtió en profesional a los 16 años al debutar en King Of The Cafe (KOTC), compañía en la que peló hasta que de 2008 a 2014 hasta que fue contratado por UFC.</p>
                     <p className={styles.peleador__article__text}>Es cinturón negro de Jiu-Jitsu. Y tenía un estilo de pelea muy versátil, con buena lucha en el piso. Hasta que por un accidente con su moto, donde los médicos le recomendaron retirarse de las mma, decidió cambiar su estilo de pelea a uno más cercano al boxeo, en el cual usa menos las piernas y corre menos riesgos a la hora de pelear.</p>

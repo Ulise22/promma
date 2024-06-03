@@ -12,7 +12,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 export default function Poirier () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={poirier} w={30} l={8} d={0} nombre='Dustin Poirier' apodo='THE DIAMOND' categoria='Peso Ligero' />
+            <PeleadoresHero peleadoresImage={poirier} w={30} l={9} d={0} nombre='Dustin Poirier' apodo='THE DIAMOND' categoria='Peso Ligero' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Dustin Poirier UFC</h2>
@@ -20,7 +20,7 @@ export default function Poirier () {
                     <Image className={styles.peleador__article__image} src={pelea} alt='El peleador estadounidense de MMA Dustin Poirier golopeando en el rostro a su contrincante en un combate de UFC' />
                     <p className={styles.peleador__article__text}>Dustin Poirier pelea en la UFC hace más de 10 años, desde el 1 de enero de 2011, en donde debutaría en UFC 125 con una victoria sobre Josh Grispi por decisión unánime. En estos más de 10 años, Dustin Poirier peleó un total de 29 peleas, con 21 victorias, 7 derrotas y una pelea sin resultado. Ademásde haber ganado el premio a la Actuación de la Noche 4 veces, y de haber protagonizado la pelea de la noche 8 veces, lo que lo deja empatado con peleadores como <b>Nate Diaz</b>, <b>Edson Barboza</b> y <b>Frankie Edgar</b> como los peleadores con más bonos de Pelea de la Noche.</p>
                     <h2 className={styles.peleador__article__title}>Dustin Poirier Récord</h2>
-                    <p className={styles.peleador__article__text}>Dustin Poirier en 39 peleas, ostenta un récord de 30-8. Siendo 15 de sus 29 victorias por nocaut, 8 por sumisión y 7 por decisión. Mientras que 3 de sus 8 derrotas son por nocaut, 3 por sumisión y 2 por decisión. Además tiene un combate sin resultado contra <b>Eddie Alvarez</b>, que se paró productos porque Alvarez aplicó 2 rodillazos ilegales.</p>
+                    <p className={styles.peleador__article__text}>Dustin Poirier en 40 peleas, ostenta un récord de 30-9 (1). Siendo 15 de sus 29 victorias por nocaut, 8 por sumisión y 7 por decisión. Mientras que 3 de sus 9 derrotas son por nocaut, 4 por sumisión y 2 por decisión. Además tiene un combate sin resultado contra <b>Eddie Alvarez</b>, que se paró productos porque Alvarez aplicó 2 rodillazos ilegales.</p>
                     <h2 className={styles.peleador__article__title}>Dustin Poirier vs Conor Mcgregor</h2>
                     <p className={styles.peleador__article__text}>Poirier y <Link href='/peleadores/conor-mcgregor'>Mcgregor</Link> se han enfrentado un total de 3 veces, siendo sus últimos 2 combates algunos de los más vistos en la historia de la UFC.</p>
                     <Image className={styles.peleador__article__image} src={dustin} alt='Dustin Poirier con sangre en el rostro durante una pelea de UFC' />

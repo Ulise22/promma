@@ -11,7 +11,7 @@ import AsideFighter from '@/app/components/asides/AsideFighter'
 export default function Makhachev () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={makhachev} w={25} l={1} d={0} nombre='Islam Makhachev' apodo={null} categoria='Peso Ligero' />
+            <PeleadoresHero peleadoresImage={makhachev} w={26} l={1} d={0} nombre='Islam Makhachev' apodo={null} categoria='Peso Ligero' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>UFC Makhachev</h2>
@@ -22,7 +22,7 @@ export default function Makhachev () {
                     <p className={styles.peleador__article__text}>Hizo su debut en M-1 Global contra Tengiz Kuchua en 2011, saliendo victorioso en el primer round por nocaut. En 2014 hizo su última pelea contra Ivica Truscek, ganando en el tercer round por sumisión. Luego de esto firmó su contrato para UFC.</p>
                     <p className={styles.peleador__article__text}>No ha perdido ninguna pelea en M-1, teniendo un total de 5 enfrentamientos victoriosos.</p>
                     <h2 className={styles.peleador__article__title}>Makhachev Record</h2>
-                    <p className={styles.peleador__article__text}>25-1-0: Lleva un recorrido total de 26 peleas: 1 sola derrota por nocaut contra Adriano Martins. 25 victorias, 11 por sumisión, 5 por nocaut y 9 por decisión unánime y decisión dividida. Tiene 15 peleas oficiales de UFC, de las cuales solo ha perdido 1 por nocaut y ha ganado 14: 6 por sumisión, 3 por nocaut y 5 por decisión unánime. </p>
+                    <p className={styles.peleador__article__text}>26-1-0: Lleva un recorrido total de 26 peleas: 1 sola derrota por nocaut contra Adriano Martins. 25 victorias, 12 por sumisión, 5 por nocaut y 9 por decisión unánime y decisión dividida. Tiene 15 peleas oficiales de UFC, de las cuales solo ha perdido 1 por nocaut y ha ganado 14: 6 por sumisión, 3 por nocaut y 5 por decisión unánime. </p>
                     <h2 className={styles.peleador__article__title}>Islam Makhachev & Khabib Nurmagomédov</h2>
                     <Image className={styles.peleador__article__image} src={khabib} alt='Islam Makhachev junto a Khabib Numagomédov y el padre de Khabib'/>
                     <p className={styles.peleador__article__text}>Nacido el 27 de octubre de 1991, Majachkala, Duguestán (Rusia). A los 11 años de edad, en la escuela, conoce a Abubakar, sobrino de Abdulmanap Nurmagomedov, exmilitar y exjudoca ruso. Abubakar entrenaba con Khabib, hijo de Abdulmanap, de esta forma comienza la amistad entre Khabib e Islam (menor por dos años)</p>
