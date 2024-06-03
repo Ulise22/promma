@@ -3,7 +3,7 @@ import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/articulos/previews/20-30/ufc300.jpeg'
+import hero from '@/assets/noticias/previews/0-10/ufc300.jpeg'
 
 export default function UFC300MainEvent () {
     return(

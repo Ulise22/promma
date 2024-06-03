@@ -2,7 +2,7 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 /* Images */
-import hero from '@/assets/articulos/previews/0-10/ufc300.jpg'
+import hero from '@/assets/noticias/previews/0-10/ufc300.jpg'
 import Link from 'next/link'
 
 export default function UFC300 () {

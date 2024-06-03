@@ -2,8 +2,8 @@ import Link from 'next/link'
 import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc300Prelims from '@/assets/articulos/previews/20-30/ufc300_prelims.jpg'
-import ufc302 from '@/assets/articulos/previews/30-40/ufc302-preview.jpg'
+import ufc300Prelims from '@/assets/noticias/previews/0-10/ufc300_prelims.jpg'
+import ufc302 from '@/assets/noticias/previews/10-20/ufc302-preview.jpg'
 import ailin from '@/assets/peleadores__images/argentinos/ailin-perez/ailin-perez.jpg'
 
 export default function PageHero () {

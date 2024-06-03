@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/heros/30-40/ufc301-hero.jpg'
+import hero from '@/assets/noticias/heros/10-20/ufc301-hero.jpg'
 
 export default function UFC301 () {
     return(

@@ -3,7 +3,7 @@ import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/articulos/previews/20-30/poirier-vs-makhachev.jpg'
+import hero from '@/assets/noticias/previews/0-10/poirier-vs-makhachev.jpg'
 
 export default function PoirierVsMakhachev () {
     return(
