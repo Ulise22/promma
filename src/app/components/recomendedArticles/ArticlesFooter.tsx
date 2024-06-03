@@ -8,7 +8,7 @@ import ufc297 from '@/assets/articulos/heros/0-10/ufc297_hero.jpg'
 import mostPPV from '@/assets/articulos/previews/0-10/mostppv.jpg'
 import top5 from '@/assets/articulos/previews/0-10/ufc-goats.jpg'
 import khabibVferguson from '@/assets/articulos/previews/0-10/khabibVferguson.jpg'
-import dwt2 from '@/assets/articulos/heros/0-10/dogfight2.jpg'
+import dwt2 from '@/assets/noticias/heros/0-10/dogfight2.jpg'
 import bestStyle from '@/assets/articulos/previews/0-10/mejores-estilos_preview.jpg'
 
 export default function ArticlesFooter () {
