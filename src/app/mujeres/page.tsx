@@ -16,7 +16,7 @@ export default function Mujeres () {
                     <Link href='/mujeres/valentina-shevchenko' className={`${styles.peleadores__card} ${styles.peleadores__card_shevchenko}`}>
                         <h3 className={styles.peleadores__card__name}>Valentina Shevchenko</h3>
                     </Link>
-                    <Link href='/argentinos/ailin-perez' className={`${styles.peleadores__card} ${styles.peleadores__card_ailin}`}>
+                    <Link href='/mujeres/ailin-perez' className={`${styles.peleadores__card} ${styles.peleadores__card_ailin}`}>
                         <h3 className={styles.peleadores__card__name}>Ailín Pérez</h3>
                     </Link>
                     <Link href='/mujeres/mackenzie-dern' className={`${styles.peleadores__card} ${styles.peleadores__card_dern}`}>
