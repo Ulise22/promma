@@ -3,7 +3,7 @@ import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/noticias/heros/10-20/ufc299_hero.jpg'
+import hero from '@/assets/noticias/heros/0-10/ufc299_hero.jpg'
 import Image from 'next/image'
 
 export default function UFC299 () {

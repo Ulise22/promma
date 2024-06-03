@@ -2,7 +2,7 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 /* Images */
-import hero from '@/assets/articulos/heros/20-30/mariusz-pudzianowski-hero.jpg'
+import hero from '@/assets/articulos/heros/10-20/mariusz-pudzianowski-hero.jpg'
 import Link from 'next/link'
 
 export default function MariuszPudzianowski () {

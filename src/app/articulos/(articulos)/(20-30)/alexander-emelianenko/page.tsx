@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/heros/30-40/alexander-emelianenko-hero.jpg'
+import hero from '@/assets/articulos/heros/20-30/alexander-emelianenko-hero.jpg'
 import tatoos from '@/assets/articulos/insideArticle/alexander-tatuajes.jpg'
 
 export default function AlexanderEmelianenko () {

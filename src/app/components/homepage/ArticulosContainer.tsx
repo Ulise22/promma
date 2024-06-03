@@ -1,9 +1,9 @@
 import ArticlePreview from '@/app/articulos/components/ArticlePreview'
 import styles from './articulosContainer.module.css'
 /* IMAGES */
-import jonesYoungChamp from '@/assets/articulos/previews/10-20/campeon-mas-joven.jpg'
-import masvidalVsAskren from '@/assets/articulos/previews/10-20/masvidal-vs-askren_preview.jpeg'
-import IzziVsPereira from '@/assets/articulos/previews/10-20/izzy-vs-pereira_preview.jpg'
+import jonesYoungChamp from '@/assets/articulos/previews/0-10/campeon-mas-joven.jpg'
+import masvidalVsAskren from '@/assets/articulos/previews/0-10/masvidal-vs-askren_preview.jpeg'
+import IzziVsPereira from '@/assets/articulos/previews/0-10/izzy-vs-pereira_preview.jpg'
 import GoatFemUfc from '@/assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_card.jpg'
 import mostLoss from '@/assets/articulos/previews/10-20/most-loss_preview.jpg'
 import conorVkhabib from '@/assets/peleadores__images/peleadores__hero.jpg'

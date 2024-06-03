@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/noticias/previews/0-10/lewis-vs-nascimento-preview.jpg'
+import hero from '@/assets/noticias/previews/10-20/lewis-vs-nascimento-preview.jpg'
 
 export default function FightNightLewisNascimento () {
     return(

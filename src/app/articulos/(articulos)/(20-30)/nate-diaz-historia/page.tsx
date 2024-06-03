@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/heros/30-40/nate-diaz-hero.jpg'
+import hero from '@/assets/articulos/heros/20-30/nate-diaz-hero.jpg'
 import edwards from '@/assets/articulos/insideArticle/nate-vs-edwards.jpg'
 
 export default function NateDiaz () {
