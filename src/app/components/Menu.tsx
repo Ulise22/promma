@@ -23,12 +23,24 @@ export default function Menu () {
                 <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/'>Inicio</Link></li>
                 <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/articulos'>Artículos</Link>
                     <ul className={styles.menu__list__dropdown}>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/articulos/ufc297'>UFC 297</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/articulos/ufc298'>UFC 298</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/articulos/khabib-ferguson'>Khabib v Ferguson</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/articulos/ufc300'>UFC 300</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/articulos/top5-mejores-peleadores'>Mejores Peleadores</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/articulos/conor-vs-khabib'>McGregor v Khabib</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/articulos/most-ppv'>Top5 PPV</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/articulos/ko-mas-rapido-ufc'>KO Más Rápido</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/articulos/jim-miller-historia'>Nate Diaz</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/articulos/nate-diaz-historia'>Jim Miller</Link></li>
+                    </ul>
+                </li>
+                <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/noticias'>Noticias</Link>
+                    <ul className={styles.menu__list__dropdown}>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/noticias/dogfight-wild-tournament-2'>DWT 2</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/noticias/ufc297'>UFC 297</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/noticias/ufc298'>UFC 298</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/noticias/ufc299'>UFC 299</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/noticias/ufc300-main-event'>UFC 300</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/noticias/ufc301'>UFC 301</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/noticias/ufc302'>UFC 302</Link></li>
                     </ul>
                 </li>
                 <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/peleadores'>Peleadores</Link>
