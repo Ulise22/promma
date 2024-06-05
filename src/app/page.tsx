@@ -1,15 +1,14 @@
 import styles from './page.module.css'
 import Link from 'next/link'
-import PromotorasList from './promotoras/PromotorasList'
 import PageHero from './articulos/components/PageHero'
 import ArticlePreview from './articulos/components/ArticlePreview'
+import Noticias from './components/homepage/Noticias'
+import ArticulosContainer from './components/homepage/ArticulosContainer'
 /*Articles PREVIEW */
 import masvidalVsAskren from '@/assets/articulos/previews/0-10/masvidal-vs-askren_preview.jpeg'
 import IzziVsPereira from '@/assets/articulos/previews/0-10/izzy-vs-pereira_preview.jpg'
 import goats from '@/assets/articulos/previews/0-10/ufc-goats.jpg'
 import texeira from '@/assets/articulos/previews/0-10/glover_teixeira.jpg'
-import Noticias from './components/homepage/Noticias'
-import ArticulosContainer from './components/homepage/ArticulosContainer'
 
 export default function Home () {
   return(
@@ -50,10 +49,6 @@ export default function Home () {
           </Link>
         </div>
       </section>
-      <article className={styles.article__promotoras}>
-        <h2 className={styles.home__peleadores__title}>Promotoras de MMA</h2>
-        <PromotorasList />
-      </article>
       <ArticulosContainer />
       <section className={styles.home__peleadores}>
         <h2 className={styles.home__peleadores__title}>Peleadores Destacados</h2>

@@ -10,7 +10,7 @@ import ufc300EarlyPrelims from '@/assets/noticias/previews/0-10/ufc300_early-pre
 import ufc300MainEvent from '@/assets/noticias/previews/0-10/ufc300.jpeg'
 import ufc299 from '@/assets/noticias/previews/0-10/ufc299_preview.jpg'
 import ufc298 from '@/assets/noticias/previews/0-10/ufc298_preview.jpg'
-import dwt2 from '@/assets/promotoras/dogfight.jpg'
+import dwt2 from '@/assets/noticias/previews/0-10/dogfight.jpg'
 import ufc297 from '@/assets/noticias/previews/0-10/ufc297.jpg'
 import comebackMcGregor from '@/assets/noticias/previews/0-10/conor-mcgregor_volverapelear.jpg'
 import poirierVsMakhachev from '@/assets/noticias/previews/0-10/poirier-vs-makhachev.jpg'
