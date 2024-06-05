@@ -16,18 +16,15 @@ export default function ArticlesFooter () {
         <section className={styles.articlesFooter}>
             <h2 className={styles.articlesFooter__title}>Artículos Recomendados</h2>
             <article className={styles.articlesPreview__container}>
-                <Link className={styles.articlePreview} href='/noticias
-                /ufc300'>
+                <Link className={styles.articlePreview} href='/noticias/ufc300'>
                     <Image className={styles.articlePreview__image} src={ufc300} alt='UFC 300' />
                     <h4 className={styles.articlePreview__title}>UFC 300: Todo los combates confirmados hasta ahora</h4>
                 </Link>
-                <Link className={styles.articlePreview} href='/noticias
-                /ufc298'>
+                <Link className={styles.articlePreview} href='/noticias/ufc298'>
                     <Image className={styles.articlePreview__image} src={ufc298} alt='' />
                     <h4 className={styles.articlePreview__title}>UFC 298: Ilia Topuria Noquea a Volkanovski y es Nuevo Campeón de UFC</h4>
                 </Link>
-                <Link className={styles.articlePreview} href='/noticias
-                /ufc297'>
+                <Link className={styles.articlePreview} href='/noticias/ufc297'>
                     <Image className={styles.articlePreview__image} src={ufc297} alt='' />
                     <h4 className={styles.articlePreview__title}>UFC 297: Dricus Du Plessis y Raquel Pennington Nuevos campeones de UFC</h4>
                 </Link>
@@ -43,8 +40,7 @@ export default function ArticlesFooter () {
                     <Image className={styles.articlePreview__image} src={khabibVferguson} alt='Khabib vs ferguson' />
                     <h4 className={styles.articlePreview__title}>Khabib vs Ferguson: La pelea maldita que nunca se pudo hacer</h4>
                 </Link>
-                <Link className={styles.articlePreview} href='/noticias
-                /dogfight-wild-tournament-2'>
+                <Link className={styles.articlePreview} href='/noticias/dogfight-wild-tournament-2'>
                     <Image className={styles.articlePreview__image} src={dwt2} alt='Dogfight Wild Tournament' />
                     <h4 className={styles.articlePreview__title}>Lo Mejor de Dogfight Wild Tournament, el Evento de Combate Más Loco Organizado por Jordi Wild</h4>
                 </Link>
