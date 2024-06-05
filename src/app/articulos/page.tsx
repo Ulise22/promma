@@ -29,6 +29,7 @@ import nateDiaz from '@/assets/articulos/previews/20-30/nate-diaz-preview.jpg'
 import jimMiller from '@/assets/articulos/previews/20-30/jim-miller-preview.jpg'
 import alexanderEmelianenko from '@/assets/articulos/previews/20-30/alexander-emelianenko-preview.jpg'
 import one from '@/assets/articulos/previews/20-30/one_championship-preview.png'
+import kots from '@/assets/articulos/previews/20-30/kots-preview.jpg'
 /* 30-40 */
 
 export default function Articulos () {
@@ -43,6 +44,7 @@ export default function Articulos () {
             </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={kots} url='/articulos/king-of-the-streets' title='King Of The Streets' author={null} text='La organización de peleas clandestinas más grande del mundo y popular en Youtube' date='05/06/2024' />
                 <ArticlePreview img={one} url='/articulos/one-championship' title='ONE Championship: La Competencia de UFC' author={null} text='La historia e información de ONE Championship, el competidor asiático de UFC' date='04/06/2024' />
                 <ArticlePreview img={kravmaga} url='/articulos/sirve-el-krav-maga' title='¿Sirve el Krav Maga en un combate real?' author={null} text='La razón por la que muchos peleadores profesionales consideran que el Krav Maga y otro tipo de estilos de defensa personal NO sirven para una pelea callejera y para las MMA.' date='30/04/2024' />
                 <ArticlePreview img={allDoubleChamps} url='/articulos/dobles-campeones-de-ufc' title='Todos los Dobles Campeones de UFC' author={null} text='¿Quiénes componen el selecto grupo de los campeones de 2 categorías de peso diferentes en la ufc?' date='01/04/2024' />
