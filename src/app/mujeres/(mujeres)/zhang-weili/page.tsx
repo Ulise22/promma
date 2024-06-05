@@ -5,6 +5,7 @@ import zhang from '@/assets/peleadores__images/mujeres/zhang-weili/zhang-weili.j
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
 import AsideFighter from '@/app/components/asides/AsideFighter'
+import Link from 'next/link'
 
 export default function ZhangWeili () {
     return(
@@ -13,7 +14,7 @@ export default function ZhangWeili () {
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Zhang Weili UFC</h2>
-                    <p className={styles.peleador__article__text}>Zhang Weili pelea en la UFC desde agosto de de 2018 y es la vigente campeona de Peso Paja Femenino luego de que recupera su cinturon contra la estadounidense <b>Carla Esparza</b> venciéndola por sumisión en el segundo asalto.</p>
+                    <p className={styles.peleador__article__text}>Zhang Weili pelea en la <Link href='/articulos/ufc'>UFC</Link> desde agosto de de 2018 y es la vigente campeona de Peso Paja Femenino luego de que recupera su cinturon contra la estadounidense <b>Carla Esparza</b> venciéndola por sumisión en el segundo asalto.</p>
                     <p className={styles.peleador__article__text}>Como dije anteriormente está en UFC desde 2018 y fue campeona 2 veces en su división. La primera vez cuando noqueo a la brasileña <b>Jéssica Andrade</b> a los 42 segundos del primer asalto, en agosto de 2019, apenas un año después de su debut, en el UFC Fight Night: Andrade vs Zhang que se organizó en China. </p>
                     <p className={styles.peleador__article__text}>Luego de obtener el cinturón, lo defendió una vez de manera exitosa contra Joanna Jedrzejczyk, a quien derrotó por decisión divida. Pero terminaría perdiendo su cinturón contra la estadounidense <b>Rose Namajunas</b>, quien la noqueó de una patada en la cabeza en el primer asalto en abril de 2021 en UFC 261. Se volverían a enfrentar en una revancha, en noviembre del mismo año por UFC 268, combate que la peleadora asiática volvería a perder, pero esta vez por decisión dividida. Estas 2 derrotas contra <b>Rose Namajunas</b> son las únicas que Zhang tiene en UFC.</p>
                     <p className={styles.peleador__article__text}>Después de gamar una revancha contra la peleadora polaca Jedrzejczyk, la luchadora china tendría la oportunidad dde volver a pelear por el título contra la nueva campeona estadounidense <b>Carla Esparza</b> a quien derrotaría por sumisión en el segundo asalto.</p>

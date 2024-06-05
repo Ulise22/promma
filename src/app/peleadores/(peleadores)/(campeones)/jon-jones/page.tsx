@@ -2,6 +2,7 @@ import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import jones from '@/assets/peleadores__images/10-20/jon-jones/jon_jones.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideFighter from '@/app/components/asides/AsideFighter'
+import Link from 'next/link'
 
 export default function JonJones () {
     return(
@@ -11,7 +12,7 @@ export default function JonJones () {
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Jon Jones UFC</h2>
                     <p className={styles.peleador__article__text}>El 9 de agosto de 2008 hizo su debut en la UFC 87 contra André Gusmão. Dos semanas antes, Tomasz Drwal se lesionó, esto generó que Jones se volviese su reemplazo. Jon Jones venía de ganar seis combates consecutivos y consiguió vencer contra Gusmão en una actuación impresionante, donde se llevó la victoria por decisión unánime. </p>
-                    <p className={styles.peleador__article__text}>Desde UFC 128: Shogun vs. Jones, el peleador no ha perdido su título del campeonato mundial de peso semipesado de UFC, teniendo un total de 11 defensas exitosas. Hace más de 10 años es invicto, sin perder su título como el mejor peleador en su categoría (anteriormente peso semipesado, actualmente peso pesado/completo)</p>
+                    <p className={styles.peleador__article__text}>Desde UFC 128: Shogun vs. Jones, el peleador no ha perdido su título del campeonato mundial de peso semipesado de <Link href='/articulos/ufc'>UFC</Link>, teniendo un total de 11 defensas exitosas. Hace más de 10 años es invicto, sin perder su título como el mejor peleador en su categoría (anteriormente peso semipesado, actualmente peso pesado/completo)</p>
                     <p className={styles.peleador__article__text}>En el año 2011, Jones venció al campeón Mauricio Rua por nocaut técnico en el tercer round, volviéndose el campeón mundial de peso semipesado de UFC. Desde entonces ha peleado con luchadores como: Quinton Jackson, Lyoto Machida, Rashad Evans, Vitor Belfort, Chael Sonnen, Alexander Gustafsson, Glover Teixeira, Daniel Cormier, Ovince Saint Preux, Antonhy Smith, Thiago Santos, Dominick Reyes y Ciryl Gane, para defender su título de campeón. En todas las ocasiones fue victorioso, logrando así el reinado más largo de la historia de UFC como campeón de peso semipesado. Más de 1500 días sin que nadie le quite el invicto.</p>
                     <p className={styles.peleador__article__text}>Semanas antes de UFC 187 (2015), Jones fue despojado de su título a causa de una suspensión, puesto que Jones habría generado un accidente de tránsito que desembocó una persona herida. En 2016 ganó el campeonato interino de peso semipesado en UFC 197 regresando a ser campeón. Pero en julio del mismo año, volvió a sufrir una suspensión a causa de dar positivo por dopaje. </p>
                     <p className={styles.peleador__article__text}>2017 Jones gana el campeonato de peso semipesado de UFC contra Daniel Cormier, recuperando su título una vez más. Pero en agosto del mismo año, volvió a dar positivo en la prueba de drogas, lo que resultaría en una nueva suspensión. 2018 gana el campeonato de peso semipesado de UFC contra Alexander Gustafsson, recuperando una vez más su título. </p>
