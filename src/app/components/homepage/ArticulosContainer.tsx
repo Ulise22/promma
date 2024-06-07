@@ -2,7 +2,6 @@ import ArticlePreview from '@/app/articulos/components/ArticlePreview'
 import styles from './articulosContainer.module.css'
 /* IMAGES */
 import jonesYoungChamp from '@/assets/articulos/previews/0-10/campeon-mas-joven.jpg'
-import masvidalVsAskren from '@/assets/articulos/previews/0-10/masvidal-vs-askren_preview.jpeg'
 import IzziVsPereira from '@/assets/articulos/previews/0-10/izzy-vs-pereira_preview.jpg'
 import GoatFemUfc from '@/assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_card.jpg'
 import mostLoss from '@/assets/articulos/previews/10-20/most-loss_preview.jpg'
@@ -12,14 +11,17 @@ import khabibVferguson from '@/assets/articulos/previews/0-10/khabibVferguson.jp
 import cortePeso from '@/assets/articulos/previews/0-10/corte-peso.jpg'
 import texeira from '@/assets/articulos/previews/0-10/glover_teixeira.jpg'
 import goats from '@/assets/articulos/previews/0-10/ufc-goats.jpg'
+import mariusz from '@/assets/articulos/previews/10-20/mariusz-pudzianowski-preview.jpg'
+import kots from '@/assets/articulos/previews/20-30/kots-preview.jpg'
 
 export default function ArticulosContainer () {
     return(
         <section className={styles.articulos}>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <article className={styles.articulos__container}>
+                <ArticlePreview img={kots} url='/articulos/king-of-the-streets' title='King Of The Streets' author={null} text='La organización de peleas clandestinas más grande del mundo y popular en Youtube' date='05/06/2024' />
+                <ArticlePreview img={mariusz} url='/articulos/mariusz-pudzianowski' title='El Polaco Que Fue 5 Veces el Hombre Más Fuerte del Mundo, y que con 45 Años Noquea a sus Rivales, Mariusz Pudzianowski' author={null} text='La historia del hombre nacido en Polonia, Mariusz Pudzianowski, que luego de haber desarrollado su carrera como Strongman, siendo elegido el hombre más fuerte del mundo en 5 oportunidades, se mudó a las MMA, donde sorprendió a todos con su impenente físico y su habilidad para noquear rivales con más experiencia que él.' date='30/04/2024' />
                 <ArticlePreview img={conorVkhabib} url='/articulos/conor-vs-khabib' title='Conor McGregor vs Khabib Nurmagomedov: ¿Qué pasó realmente?' author={null} date={null} text='La historia detrás de todo el beef que hubo alrededor de estos 2 peleadores, y los conflictos que hubo después de su pelea.' />
-                <ArticlePreview img={masvidalVsAskren} url='/articulos/ko-mas-rapido-ufc' title='El KO Más Rápido en la Historia de la UFC' author={null} date={null} text='La historia detrás de Jorge Masvidal, Ben Askren y como el enfrentamiento entre estos 2 terminó con el KO más rápido en la historia de la UFC.' />
                 <ArticlePreview img={mostppv} url='/articulos/most-ppv' title='Top 5: Las peleas de MMA que más PPV vendieron' author={null} date={null} text='El listado de las peleas que más vendieron en la historia de la UFC, dominada principalmente por Conor McGregor.' />
                 <ArticlePreview img={khabibVferguson} url='/articulos/khabib-ferguson' title='Khabib vs Tony Ferguson: La pelea maldita que nunca pudo darse' author={null} date={null} text='La historia de la pelea que los fans querían ver y nunca pudo darse, pese a que se programó hasta 5 veces.' />
                 <ArticlePreview img={cortePeso} url='/articulos/cortes-de-peso' title='Los durísimos cortes de peso a los que se someten los peleadores de UFC' author={null} date={null} text='El proceso para dar el peso antes de la pelea contado por el peleador español de UFC, Ilia Topuria.' />

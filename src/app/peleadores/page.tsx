@@ -99,9 +99,6 @@ export default function Peleadores () {
                     <Link href='/peleadores/laureano-staropoli' className={`${styles.peleadores__card} ${styles.peleadores__card_staropoli}`}>
                         <h3 className={styles.peleadores__card__name}>Laureano Staropoli</h3>
                     </Link>
-                    <Link href='/mujeres/ailin-perez' className={`${styles.peleadores__card} ${styles.peleadores__card_ailin}`}>
-                        <h3 className={styles.peleadores__card__name}>Ailín Pérez</h3>
-                    </Link>
                     <Link href='/peleadores/franco-tenaglia' className={`${styles.peleadores__card} ${styles.peleadores__card_tenaglia}`}>
                         <h3 className={styles.peleadores__card__name}>Franco Tenaglia</h3>
                     </Link>
