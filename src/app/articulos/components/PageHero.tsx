@@ -2,7 +2,7 @@ import Link from 'next/link'
 import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc300Prelims from '@/assets/noticias/previews/0-10/ufc300_prelims.jpg'
+import conor from '@/assets/peleadores__images/0-10/conor-mcgregor/conor_mcgregor.jpg'
 import ufc302 from '@/assets/noticias/previews/10-20/ufc302-preview.jpg'
 import ailin from '@/assets/peleadores__images/argentinos/ailin-perez/ailin-perez.jpg'
 
@@ -14,14 +14,14 @@ export default function PageHero () {
                 <h2 className={styles.page__title}>UFC 302: ¡Islam Makhachev Somete a Poirier en el Último Asalto de la Pelea!</h2>
                 <p>Islam Makhachev somete a Dustin Poirier en lo que hasta ahora parecería ser la última pelea de su carrera. Además Sean Strickland se lleva una esperable victoria contra Paulo Costa por decisión unánime.</p>
             </Link>
-            <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/noticias/ufc300-prelims'>
-                <Image className={styles.pagehero__article__img} src={ufc300Prelims} alt='' />
+            <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/noticias/mcgregor-cancela-pelea'>
+                <Image className={styles.pagehero__article__img} src={conor} alt='' />
                 <article className={styles.pagehero__article__container}>
-                    <h2 className={styles.pagehero__title}>Preliminares UFC 300: ¡Kayla Harrinson Somete a Holly Holm en el Segundo Asalto en su Debut en la UFC!</h2>
-                    <p>Por el UFC 300 Kayla somete a Holly Holm en el segundo asalto en lo que es su debut en la compañía y Diego Lopes Noquea su rival en el primer asalto.</p>
+                    <h2 className={styles.pagehero__title}>Conor McGregor vs Chandler: ¿McGregor Cancela la Pelea?</h2>
+                    <p>A poco tiempo de que se celebre el UFC 303, McGregor canceló la rueda de prensa que estaba prevista para promocionar el evento, muchas cosas extrañas han sucedido desde entonces que desperteron todo tipo de rumores, ¿pero qué está pasando realmente?</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>13/04/2024</p>
+                        <p>07/06/2024</p>
                     </div>
                 </article>
             </Link>
