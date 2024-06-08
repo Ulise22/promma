@@ -32,7 +32,8 @@ export default function Gaethje () {
                     <p className={styles.peleador__article__text}>El 29 de julio de 2023, Justin Gaethje se enfrentaría a <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link> por el título BMF (Badest Mother Fucker), que según a dicho la UFC <b>Premia a los que tienen las agallas de para producir un momento estelar tras otro</b> cada vez que pelean. Por lo que desde que lo ganara <b>Jorge Masvidal</b> contra <b>Nate Días</b>, Dana White ha decidido poner otra vez en juego este cinturón, enfrentando a 2 de los favoritos de la división.</p>
                     <p className={styles.peleador__article__text}>El título terminó siendo para Justin Gaethje que luego de darle una patada en la cabeza a <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link> que lo dejaría KO, ganaría la pelea y su quinto premio a la actuación de la noche en UFC.</p>
                     <Image className={styles.peleador__article__image} src={sparring2} alt='Justin Gaethje entrenando junto a su compañero con equipamiento de boxeo' />
-                </article>
+                    <p>Además, Justin Gaethje sería el primer peleador en defender este cinturón, ya que Masvidal no lo había hecho, enfrentando en el <Link href='/noticias/ufc300-main-event'>UFC 300</Link> al luchador de una división inferior pero siempre peligroso <Link href='/peleadores/max-holloway'>Max Holloway</Link>, contra quien lamentablemente caería derrotado en el último segundo del quinto y último asalto, en lo que sin dudas será un momento histórico y recordado por todos los fans de las MMA.</p>
+                    </article>
                 <AsideChamps />
             </section>
         </main>
