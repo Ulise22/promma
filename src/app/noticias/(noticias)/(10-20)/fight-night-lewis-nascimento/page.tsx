@@ -9,7 +9,7 @@ import hero from '@/assets/noticias/previews/10-20/lewis-vs-nascimento-preview.j
 export default function FightNightLewisNascimento () {
     return(
         <main>
-            <ArticleHero title='UFC Fight Night: ¡El Argentino Ribovics Noquea a su Rival a los 35 Segundos! ¡Lewis Noquea a Nascimento en el Tercer Asalto!' subtitle='En el UFC Fight Night Lewis vs Nascimento fuimos testigos de una espectacular patada de Ribovics a los pocos segundos de empezar el combate, de la victoria por nocaut de Derrick Lewis en el evento principal, de un nocaut a los 12 segundos por parte de Carlos Ulberg, y mucho más.' image={hero} date='12/05/2024' author={null} />
+            <ArticleHero title='UFC Fight Night: ¡El Argentino Ribovics Noquea a su Rival a los 35 Segundos! ¡Lewis Noquea a Nascimento en el Tercer Asalto!' subtitle='En el UFC Fight Night Lewis vs Nascimento fuimos testigos de una espectacular patada de Ribovics a los pocos segundos de empezar el combate, de la victoria por nocaut de Derrick Lewis en el evento principal, de un nocaut a los 12 segundos por parte de Carlos Ulberg, y mucho más.' image={hero} date='2024-05-12' author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>En uno de los Fight Night más entretenidos en mucho tiempo, pudimos ver pelear de vuelta a uno de los peleadores más queridos por lo fans y uno de los más graciosos como lo es Derrick Lewis, que no decepcionó en su combate al lograr finalizar a su rival en el tercer asalto. Además </p>

@@ -9,7 +9,7 @@ export default function ArticleHero ({title, subtitle, image, date, author}) {
             <h1 className={styles.articleHero__title}> {title} </h1>
             <h2 className={styles.articleHero__subtitle}> {subtitle} </h2>
             <Image className={styles.articleHero__image} src={image}  alt='title'/>
-            {date && <p> <b>{author || defaultAuthor }</b>, {date} </p>}
+            {date && <p> <b>{author || defaultAuthor }</b>, <time datatime={date}>{date}</time> </p>}
         </section>
     )
 }

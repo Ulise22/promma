@@ -21,7 +21,7 @@ export default function Menu () {
             
             <ul className={isOpen ? `${styles.menu__list} ${styles.active}` : `${styles.menu__list}`}>
                 <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/'>Inicio</Link></li>
-                <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/articulos'>Artículos</Link>
+                <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/articulos'>Artículos</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/articulos/khabib-ferguson'>Khabib v Ferguson</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/articulos/top5-mejores-peleadores'>Mejores Peleadores</Link></li>
@@ -32,7 +32,7 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/articulos/nate-diaz-historia'>Jim Miller</Link></li>
                     </ul>
                 </li>
-                <li className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/noticias'>Noticias</Link>
+                <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/noticias'>Noticias</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/noticias/dogfight-wild-tournament-2'>DWT 2</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/noticias/ufc297'>UFC 297</Link></li>
