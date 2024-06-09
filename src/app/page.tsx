@@ -9,6 +9,8 @@ import masvidalVsAskren from '@/assets/articulos/previews/0-10/masvidal-vs-askre
 import jimMiller from '@/assets/articulos/previews/20-30/jim-miller-preview.jpg'
 import nateDiaz from '@/assets/articulos/previews/20-30/nate-diaz-preview.jpg'
 import alexanderEmelianenko from '@/assets/articulos/previews/20-30/alexander-emelianenko-preview.jpg'
+import Image from 'next/image'
+import plus from '@/assets/plus.png'
 
 export default function Home () {
   return(
@@ -32,6 +34,9 @@ export default function Home () {
           <Link href='/peleadores/jon-jones' className={`${styles.peleadores__card} ${styles.peleadores__card_jones}`}>
             <h3 className={styles.peleadores__card__name}>Jon Jones</h3>
           </Link>
+          <Link href='/peleadores' className={`${styles.peleadores__card__plus}`}>
+            <Image src={plus} alt=''/>
+          </Link>
         </div>
       </section>
       <Noticias />
@@ -46,6 +51,9 @@ export default function Home () {
           </Link>
           <Link href='/leyendas/anderson-silva' className={`${styles.peleadores__card} ${styles.peleadores__card_anderson}`}>
               <h3 className={styles.peleadores__card__name}>Anderson Silva</h3>
+          </Link>
+          <Link href='/leyendas' className={`${styles.peleadores__card__plus__gray}`}>
+            <Image src={plus} alt=''/>
           </Link>
         </div>
       </section>
@@ -62,6 +70,9 @@ export default function Home () {
           <Link href='/peleadores/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
             <h3 className={styles.peleadores__card__name}>Sean Strickland</h3>
           </Link>
+          <Link href='/peleadores' className={`${styles.peleadores__card__plus}`}>
+            <Image src={plus} alt=''/>
+          </Link>
         </div>
       </section>
       <section className={styles.home__peleadores}>
@@ -75,6 +86,9 @@ export default function Home () {
           </Link>
           <Link href='/mujeres/julianna-pena' className={`${styles.peleadores__card} ${styles.peleadores__card_julianna}`}>
               <h3 className={styles.peleadores__card__name}>Julianna Peña</h3>
+          </Link>
+          <Link href='/mujeres' className={`${styles.peleadores__card__plus}`}>
+            <Image src={plus} alt=''/>
           </Link>
         </div>
       </section>
