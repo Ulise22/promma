@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/noticias/heros/0-10/ufc297_hero.jpg'
-import raquelVsilva from '@/assets/peleadores__images/mujeres/mayra-bueno-silva/mayra_careo.jpg'
+import raquelVsilva from '@/assets/peleadores__images/mujeres/0-10/mayra-bueno-silva/mayra_careo.jpg'
 import Image from 'next/image'
 
 export default function UFC297 () {
