@@ -1,7 +1,7 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
-import weili from '@/assets/peleadores__images/mujeres/zhang-weili/weili.png'
-import postpelea from '@/assets/peleadores__images/mujeres/zhang-weili/afterfight.jpeg'
-import zhang from '@/assets/peleadores__images/mujeres/zhang-weili/zhang-weili.jpg'
+import weili from '@/assets/peleadores__images/mujeres/0-10/zhang-weili/weili.png'
+import postpelea from '@/assets/peleadores__images/mujeres/0-10/zhang-weili/afterfight.jpeg'
+import zhang from '@/assets/peleadores__images/mujeres/0-10/zhang-weili/zhang-weili.jpg'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
 import AsideFighter from '@/app/components/asides/AsideFighter'
@@ -30,7 +30,7 @@ export default function ZhangWeili () {
                     <Image className={styles.peleador__article__image} src={zhang} alt='Zhang Weili flexionando los brazos después de un pesaje previo a una pelea de UFC' />
                     <p className={styles.peleador__article__text}>Actualmente, luego de 10 peleas en la compañía, logró convertirse en campeona en tan solo 4 peleas. Y después de perder su título y recuperarlo, está 3era en el ranking libra por libra femnenino.</p>
                     <h2 className={styles.peleador__article__title}>Zhang Weili vs Amanda Lemos</h2>
-                    <p className={styles.peleador__article__text}>Su último combate por UFC y en general, fue contra la brasileña Amanda Lemos, que tenía hasta ese momento un record de 13-2-1 luego de derrotar a la también brasileña <b>Marina Rodriguez</b> por TKO.</p>
+                    <p className={styles.peleador__article__text}>Uno de sus últimos combate por UFC, fue contra la brasileña Amanda Lemos, que tenía hasta ese momento un record de 13-2-1 luego de derrotar a la también brasileña <b>Marina Rodriguez</b> por TKO.</p>
                     <p className={styles.peleador__article__text}>Este combate era uno que en la previa se veía bastante parejo para las 2 luchadoras, pero que se lo terminó llevando Zhang Weili por decisión unánime luego de una pelea en la que se mostró dominante, llegando incluso a romper el record de golpes asestados en un combate de ufc femenino con un total de 296, un promedio de más de 10 por minuto. Consiguiendo hacer historia en las mma femeninas.</p>
                 </article>
                 <AsideFighter />

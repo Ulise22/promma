@@ -2,7 +2,7 @@ import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import harrison from '@/assets/peleadores__images/mujeres/kayla-harrison/kayla_harrison.png'
+import harrison from '@/assets/peleadores__images/mujeres/0-10/kayla-harrison/kayla_harrison.png'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 
 export default function Harrison () {

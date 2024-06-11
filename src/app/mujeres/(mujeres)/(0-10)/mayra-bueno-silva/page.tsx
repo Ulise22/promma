@@ -2,8 +2,8 @@ import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import mayra from '@/assets/peleadores__images/mujeres/mayra-bueno-silva/mayra_silva.png'
-import careo from '@/assets/peleadores__images/mujeres/mayra-bueno-silva/mayra_careo.jpg'
+import mayra from '@/assets/peleadores__images/mujeres/0-10/mayra-bueno-silva/mayra_silva.png'
+import careo from '@/assets/peleadores__images/mujeres/0-10/mayra-bueno-silva/mayra_careo.jpg'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 
 export default function Mayra () {

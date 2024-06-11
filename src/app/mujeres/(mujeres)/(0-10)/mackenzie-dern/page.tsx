@@ -2,8 +2,8 @@ import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import mackenzie from '@/assets/peleadores__images/mujeres/mackenzie-dern/mackenzie-dern.png'
-import dern from '@/assets/peleadores__images/mujeres/mackenzie-dern/mackenzie_sparring.jpg'
+import mackenzie from '@/assets/peleadores__images/mujeres/0-10/mackenzie-dern/mackenzie-dern.png'
+import dern from '@/assets/peleadores__images/mujeres/0-10/mackenzie-dern/mackenzie_sparring.jpg'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 
 export default function Mackenzie () {

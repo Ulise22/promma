@@ -68,7 +68,7 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/leyendas/demetrious-johnson'>Demetrious Johnson</Link></li>
                     </ul>
                 </li>
-                <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/peleadores'>Campeones</Link>
+                {/* <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/peleadores'>Campeones</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/ilia-topuria'>Ilia Topuria</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/islam-makhachev'>Islam Makhachev</Link></li>
@@ -79,7 +79,7 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/leon-edwards'>Leon Edwards</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/alexandre-pantoja'>Alexandre Pantoja</Link></li>
                     </ul>
-                </li>
+                </li> */}
                 <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/mujeres'>Mujeres</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/alexa-grasso'>Alexa Grasso</Link></li>

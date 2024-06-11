@@ -1,6 +1,6 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
-import julianna from '@/assets/peleadores__images/mujeres/juliana-pena/julianna.png'
-import pelea from '@/assets/peleadores__images/mujeres/juliana-pena/julianna_pelea.jpg'
+import julianna from '@/assets/peleadores__images/mujeres/0-10/juliana-pena/julianna.png'
+import pelea from '@/assets/peleadores__images/mujeres/0-10/juliana-pena/julianna_pelea.jpg'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
 import AsideFighter from '@/app/components/asides/AsideFighter'
@@ -15,7 +15,7 @@ export default function JuliannaPena () {
                     <h2 className={styles.peleador__article__title}>Julianna Peña UFC</h2>
                     <p className={styles.peleador__article__text}>Julianna Peña es una peleadora de Artes Marciales Mixtas venezolana que supo ser campeona de la división de peso gallo femenino en la <Link href='/articulos/ufc'>UFC</Link>, al vencer por sumisión a la brasileña <Link href='/leyendas/amanda-nunes'>Amanda Nunes</Link> en el segundo asalto, en diciembre de 2021.</p>
                     <h2 className={styles.peleador__article__title}>Julianna Peña vs Amanda Nunes</h2>
-                    <p className={styles.peleador__article__text}>Amanda Nunes y Julianna Peña se enfrentaron 2 veces, siendo estas 2 también, las 2 últimas peleas de Julianna. En su primer combate, que se realizó el 11 de diciembre de 2021 en Las Vegas, por UFC 269, Julianna derrotó a una histórica <b>Amanda Nunes</b> que venía de defender su título exitosamente 7 veces, con una sumisión en el segundo asalto.</p>
+                    <p className={styles.peleador__article__text}><Link href='/leyendas/amanda-nunes'>Amanda Nunes</Link> y Julianna Peña se enfrentaron 2 veces, siendo estas 2 también, las 2 últimas peleas de Julianna. En su primer combate, que se realizó el 11 de diciembre de 2021 en Las Vegas, por UFC 269, Julianna derrotó a una histórica <b>Amanda Nunes</b> que venía de defender su título exitosamente 7 veces, con una sumisión en el segundo asalto.</p>
                     <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/tZgH72SQfNA?si=7mnL71QhzQNuvZ1o" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Algunos meses después se enfrentarían otra vez por UFC 277, cartelera que encabezarían estas 2 en Dallas, Texas. La pelea terminó dando como ganadora esta vez a Amanda Nunes, que luego de 5 asaltos se llevaría la pelea por decisión de los jueces.</p>
                     <p className={styles.peleador__article__text}>Luego de defender el título una vez más en junio de 2023, Amanda Nunes anunciaría su retiro dejando a la división con el título vacante.</p>

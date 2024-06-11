@@ -1,5 +1,5 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
-import xiaonan from '@/assets/peleadores__images/mujeres/yan-xiaonan/yan_xiaonan.png'
+import xiaonan from '@/assets/peleadores__images/mujeres/0-10/yan-xiaonan/yan_xiaonan.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import Link from 'next/link'

@@ -2,9 +2,9 @@ import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import raquel from '@/assets/peleadores__images/mujeres/raquel-pennington/raquel.png'
-import fight from '@/assets/peleadores__images/mujeres/raquel-pennington/raquel_fight.jpg'
-import pennington from '@/assets/peleadores__images/mujeres/raquel-pennington/raquel_penington.jpg'
+import raquel from '@/assets/peleadores__images/mujeres/0-10/raquel-pennington/raquel.png'
+import fight from '@/assets/peleadores__images/mujeres/0-10/raquel-pennington/raquel_fight.jpg'
+import pennington from '@/assets/peleadores__images/mujeres/0-10/raquel-pennington/raquel_penington.jpg'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 
 export default function Raquel () {
