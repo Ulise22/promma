@@ -1,6 +1,6 @@
 import styles from './page.module.css'
 import Link from 'next/link'
-import PageHero from './articulos/components/PageHero'
+import HomeHero from './components/homepage/HomeHero'
 import ArticlePreview from './articulos/components/ArticlePreview'
 import Noticias from './components/homepage/Noticias'
 import ArticulosContainer from './components/homepage/ArticulosContainer'
@@ -15,7 +15,7 @@ import plus from '@/assets/plus.png'
 export default function Home () {
   return(
     <main className={styles.home}>
-      <PageHero />
+      <HomeHero />
       <section className={styles.home__articlesHero}>
         <ArticlePreview img={masvidalVsAskren} url='/articulos/ko-mas-rapido-ufc' title='El KO Más Rápido en la Historia de la UFC' author={null} date={null} text='La historia detrás de Jorge Masvidal, Ben Askren y como el enfrentamiento entre estos 2 terminó con el KO más rápido en la historia de la UFC.' />
         <ArticlePreview img={nateDiaz} url='/articulos/nate-diaz-historia' title='Nate Diaz, el Peleador Más Querido de la UFC' author={null} text='La historia de uno de los peleadores más carismáticos de la UFC, que supo ganarse el cariño de la gente con peleas memorables y con su forma de ser.' date='01/05/2024' />
