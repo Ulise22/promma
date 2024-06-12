@@ -3,16 +3,16 @@ import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import alexanderEmelianenko from '@/assets/articulos/previews/20-30/alexander-emelianenko-preview.jpg'
-import masvidalVsAskren from '@/assets/articulos/previews/0-10/masvidal-vs-askren_preview.jpeg'
 import nateDiaz from '@/assets/articulos/previews/20-30/nate-diaz-preview.jpg'
+import yoelgenetica from '@/assets/articulos/previews/20-30/yoel_romero_genetica-preview.jpg'
 
 export default function PageHero () {
     return(
         <section className={styles.pagehero}>
-            <Link className={styles.pagehero__bigArticle} href='/articulos/ko-mas-rapido-ufc'>
-                <Image className={styles.pagehero__bigArticle__img} src={masvidalVsAskren} alt='' />
-                <h2 className={styles.page__title}>El KO Más Rápido en la Historia de la UFC</h2>
-                <p>La historia detrás de Jorge Masvidal, Ben Askren y como el enfrentamiento entre estos 2 terminó con el KO más rápido en la historia de la UFC.</p>
+            <Link className={styles.pagehero__bigArticle} href='/articulos/yoel-romero-genetica'>
+                <Image className={styles.pagehero__bigArticle__img} src={yoelgenetica} alt='' />
+                <h2 className={styles.page__title}>La Genética de Yoel Romero</h2>
+                <p>Yoel Romero es un superhumano, el admirable prodigio genético que ha demostrado ser el luchador cubano para seguir activo con 47 años y para sorprender a los médicos con lo rápido de su recuperación.</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/articulos/alexander-emelianenko'>
                 <Image className={styles.pagehero__article__img} src={alexanderEmelianenko} alt='' />
