@@ -30,6 +30,7 @@ import one from '@/assets/articulos/previews/20-30/one_championship-preview.png'
 import kots from '@/assets/articulos/previews/20-30/kots-preview.jpg'
 import dwt from '@/assets/articulos/previews/20-30/dogfight.jpg'
 import ufc from '@/assets/articulos/previews/20-30/ufc-preview.jpg'
+import nateDiaz from '@/assets/articulos/previews/20-30/nate-diaz-preview.jpg'
 /* 30-40 */
 
 export default function Articulos () {
@@ -37,6 +38,7 @@ export default function Articulos () {
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
+                <ArticlePreview img={nateDiaz} url='/articulos/nate-diaz-historia' title='Nate Diaz, el Peleador Más Querido de la UFC' author={null} text='La historia de uno de los peleadores más carismáticos de la UFC, que supo ganarse el cariño de la gente con peleas memorables y con su forma de ser.' date='01/05/2024' />
                 <ArticlePreview img={masvidalVsAskren} url='/articulos/ko-mas-rapido-ufc' title='El KO Más Rápido en la Historia de la UFC' author={null} text='La historia detrás de Jorge Masvidal, Ben Askren y como el enfrentamiento entre estos 2 terminó con el KO más rápido en la historia de la UFC.' date='05/06/2024' />
                 <ArticlePreview img={ufc} url='/articulos/ufc' title='UFC: Historia e Información de la Compañía de MMA Más Grande del Mundo' author={null} text='Todo lo relacionado al origen, crecimiento y actualidad de la compañía UFC.' date={null} />
                 <ArticlePreview img={jimMiller} url='/articulos/jim-miller-historia' title='Jim Miller, el Peleador con Más Victorias en la Historia de la UFC y que Participó del UFC100, UFC200 y UCF300' author={null} text='La historia de uno de los peleadores más importantes en la historia de la compañía más grande de MMA, que cuenta con más de 40 peleas en UFC.' date='02/05/2024' />

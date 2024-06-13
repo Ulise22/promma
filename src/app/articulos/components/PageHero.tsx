@@ -3,7 +3,7 @@ import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import alexanderEmelianenko from '@/assets/articulos/previews/20-30/alexander-emelianenko-preview.jpg'
-import nateDiaz from '@/assets/articulos/previews/20-30/nate-diaz-preview.jpg'
+import bispingOjo from '@/assets/articulos/previews/20-30/michael_bisping_ojo-preview.jpg'
 import yoelgenetica from '@/assets/articulos/previews/20-30/yoel_romero_genetica-preview.jpg'
 
 export default function PageHero () {
@@ -25,14 +25,14 @@ export default function PageHero () {
                     </div>
                 </article>
             </Link>
-            <Link className={`${styles.pagehero__article} ${styles.normal2}`} href='/articulos/nate-diaz-historia'>
-                <Image className={styles.pagehero__article__img} src={nateDiaz} alt='' />
+            <Link className={`${styles.pagehero__article} ${styles.normal2}`} href='/articulos/michael-bisping-ojo'>
+                <Image className={styles.pagehero__article__img} src={bispingOjo} alt='' />
                 <article className={styles.pagehero__article__container}>
-                <h2 className={styles.pagehero__title}>Nate Diaz, el Peleador Más Querido de la UFC</h2>
-                    <p>La historia de uno de los peleadores más carismáticos de la UFC, que supo ganarse el cariño de la gente con peleas memorables y con su forma de ser.</p>
+                    <h2 className={styles.pagehero__title}>Michael Bisping: El Luchador Inglés de UFC Que Perdió un Ojo Peleando</h2>
+                    <p>La historia de cómo el peleador de Reino Unido perdió su ojo durante una pelea de UFC, y cómo a pesar de eso logró ser campeón.</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>01/05/2024</p>
+                        <p>13/06/2024</p>
                     </div>
                 </article>
             </Link>
