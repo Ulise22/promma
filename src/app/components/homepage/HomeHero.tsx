@@ -4,7 +4,7 @@ import Image from 'next/image'
 /* IMAGES */
 import conor from '@/assets/peleadores__images/0-10/conor-mcgregor/conor_mcgregor.jpg'
 import ufc302 from '@/assets/noticias/previews/10-20/ufc302-preview.jpg'
-import ailin from '@/assets/peleadores__images/argentinos/ailin-perez/ailin-perez.jpg'
+import chimaevCancel from '@/assets/noticias/previews/10-20/chimaev_whittaker-preview.jpg'
 
 export default function HomeHero () {
     return(
@@ -25,14 +25,14 @@ export default function HomeHero () {
                     </div>
                 </article>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/ailin-vs-joselyne'>
-                <Image className={styles.homehero__article__img} src={ailin} alt='' />
+            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/khamzat-whittaker-cancelada'>
+                <Image className={styles.homehero__article__img} src={chimaevCancel} alt='' />
                 <article className={styles.homehero__article__container}>
-                <h2 className={styles.homehero__title}>La Argentina Ailín Pérez Gana su Pelea por Decisión Unánime en UFC 302</h2>
-                    <p>En un combate contra la panameña Joselyne Edwards, Ailín demostró ser la clara ganadora de un combate en el que incluso estuvo cerca de noquear a su rival.</p>
+                <h2 className={styles.homehero__title}>Whittaker vs Chimaev ¿Cancelada?</h2>
+                    <p>A un par de semanas para el enfrentamiento en Arabia Sáudita entre 2 de los mayores contendientes al título de Peso Medio de UFC, pareciera que se cae la pelea.</p>
                     <div className={styles.homehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>01/06/2024</p>
+                        <p>13/06/2024</p>
                     </div>
                 </article>
             </Link>

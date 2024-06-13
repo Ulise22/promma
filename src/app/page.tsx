@@ -9,6 +9,7 @@ import masvidalVsAskren from '@/assets/articulos/previews/0-10/masvidal-vs-askre
 import jimMiller from '@/assets/articulos/previews/20-30/jim-miller-preview.jpg'
 import nateDiaz from '@/assets/articulos/previews/20-30/nate-diaz-preview.jpg'
 import alexanderEmelianenko from '@/assets/articulos/previews/20-30/alexander-emelianenko-preview.jpg'
+import yoelgenetica from '@/assets/articulos/previews/20-30/yoel_romero_genetica-preview.jpg'
 import Image from 'next/image'
 import plus from '@/assets/plus.png'
 
@@ -17,9 +18,9 @@ export default function Home () {
     <main className={styles.home}>
       <HomeHero />
       <section className={styles.home__articlesHero}>
+        <ArticlePreview img={yoelgenetica} url='/articulos/yoel-romero-genetica' title='La Genética de Yoel Romero' author={null} text='Yoel Romero es un superhumano, el admirable prodigio genético que ha demostrado ser el luchador cubano para seguir activo con 47 años y para sorprender a los médicos con lo rápido de su recuperación.' date='12/06/2024' />
         <ArticlePreview img={masvidalVsAskren} url='/articulos/ko-mas-rapido-ufc' title='El KO Más Rápido en la Historia de la UFC' author={null} date={null} text='La historia detrás de Jorge Masvidal, Ben Askren y como el enfrentamiento entre estos 2 terminó con el KO más rápido en la historia de la UFC.' />
         <ArticlePreview img={nateDiaz} url='/articulos/nate-diaz-historia' title='Nate Diaz, el Peleador Más Querido de la UFC' author={null} text='La historia de uno de los peleadores más carismáticos de la UFC, que supo ganarse el cariño de la gente con peleas memorables y con su forma de ser.' date='01/05/2024' />
-        <ArticlePreview img={jimMiller} url='/articulos/jim-miller-historia' title='Jim Miller, el Peleador con Más Victorias en la Historia de la UFC y que Participó del UFC100, UFC200 y UCF300' author={null} text='La historia de uno de los peleadores más importantes en la historia de la compañía más grande de MMA, que cuenta con más de 40 peleas en UFC.' date='02/05/2024' />
         <ArticlePreview img={alexanderEmelianenko} url='/articulos/alexander-emelianenko' title='Alexander Emelianenko: El Hermano de Fedor Emelianenko y su Relación con la Mafia Rusa' author={null} text='Los tatuajes de Alexander Emelianenko y el significado que tienen, ¿De verdad formó parte de la mafia rusa?' date='27/05/2024' />
         </section>
       <section className={styles.home__peleadores}>
