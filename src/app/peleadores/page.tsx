@@ -16,8 +16,8 @@ export default function Peleadores () {
                     <Link href='/peleadores/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
                         <h3 className={styles.peleadores__card__name}>Sean Strickland</h3>
                     </Link>
-                    <Link href='/peleadores/francis-ngannou' className={`${styles.peleadores__card} ${styles.peleadores__card_ngannou}`}>
-                        <h3 className={styles.peleadores__card__name}>Francis Ngannou</h3>
+                    <Link href='/peleadores/jiri-prochazka' className={`${styles.peleadores__card} ${styles.peleadores__card_prochazka}`}>
+                        <h3 className={styles.peleadores__card__name}>Jiri Prochazka</h3>
                     </Link>
                     <Link href='/peleadores/tony-ferguson' className={`${styles.peleadores__card} ${styles.peleadores__card_ferguson}`}>
                         <h3 className={styles.peleadores__card__name}>Tony Ferguson</h3>
@@ -54,6 +54,9 @@ export default function Peleadores () {
                     </Link>
                     <Link href='/peleadores/arman-tsarukyan' className={`${styles.peleadores__card} ${styles.peleadores__card_tsarukyan}`}>
                         <h3 className={styles.peleadores__card__name}>Arman Tsarukyan</h3>
+                    </Link>
+                    <Link href='/peleadores/francis-ngannou' className={`${styles.peleadores__card} ${styles.peleadores__card_ngannou}`}>
+                        <h3 className={styles.peleadores__card__name}>Francis Ngannou</h3>
                     </Link>
                 </article>
                 <h2 className={styles.peleadores__subtitle}>Campeones de UFC</h2>
