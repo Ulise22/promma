@@ -25,6 +25,9 @@ export default function Peleadores () {
                     <Link href='/peleadores/conor-mcgregor' className={`${styles.peleadores__card} ${styles.peleadores__card_mcgregor}`}>
                         <h3 className={styles.peleadores__card__name}>Conor Mcgregor</h3>
                     </Link>
+                    <Link href='/peleadores/israel-adesanya' className={`${styles.peleadores__card} ${styles.peleadores__card_adesanya}`}>
+                        <h3 className={styles.peleadores__card__name}>Israel Adesanya</h3>
+                    </Link>
                     <Link href='/peleadores/khamzat-chimaev' className={`${styles.peleadores__card} ${styles.peleadores__card_chimaev}`}>
                         <h3 className={styles.peleadores__card__name}>Khamzat Chimaev</h3>
                     </Link>
