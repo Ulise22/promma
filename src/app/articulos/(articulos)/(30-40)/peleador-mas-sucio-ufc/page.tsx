@@ -41,7 +41,7 @@ export default function PeleadorMasSucioUFC () {
                     <iframe className={styles.article__video} width="560" height="315" src="https://www.youtube.com/embed/viV__KtjJrs?si=dxG2SGR8yNV4lYPC" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>Para peor, unos meses después tendría otro combate que perdería por KO contra el polaco <b>Michał Materla</b>. Desde su salida de WSOF, sólo ganaría una pelea, conseguiría empatar 1, y perdería 6 combates, siendo todas sus derrotas desde entonces por nocaut.</p>
                     <p>Pese a su muy sucio estilo de pelea, que podría haber acabado con la carrera de varios de sus compañeros de MMA, de milagro sin ocasionar lesiones de gravedad a sus rivales, lo cierto es que Palhares, siendo un niño que creció en la extrema pobreza en sudamérica, creció para salir de esta y forjarse una carrera en un deporte tan complicado como lo son las MMA, y eso es de respetar y admirar.</p>
-                    </article>
+                </article>
                 <AsideChamps />
             </section>
         </main>
