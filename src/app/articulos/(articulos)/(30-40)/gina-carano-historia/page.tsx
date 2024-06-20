@@ -9,7 +9,7 @@ import hero from '@/assets/articulos/heros/30-40/gina_carano-hero.jpg'
 export default function PeleadorMasSucioUFC () {
     return(
         <main>
-            <ArticleHero title='Gina Carano: La Primera Estrella Femenina de las MMA' subtitle='La historia de una de las mujeres más importantes en la historia de las MMA, que se pasó de ser una procursoras de las MMA femeninas a una estrella de cine.' image={hero} date='2024-06-18' author={null} />
+            <ArticleHero title='Gina Carano: La Primera Estrella Femenina de las MMA' subtitle='La historia de una de las mujeres más importantes en la historia de las MMA, que se pasó de ser una procursoras de las MMA femeninas a una estrella de cine.' image={hero} date='2024-06-20' author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Gina Carano UFC</h2>
