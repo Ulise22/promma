@@ -5,7 +5,7 @@ import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/heros/10-20/james_toney-hero.jpg'
 
-export default function BoxeadorVsMMA () {
+export default function BoxeadorEnMMA () {
     return(
         <main>
             <ArticleHero title='Boxeo Vs MMA: ¿Qué pasa cuando un boxeador pelea en MMA?' subtitle='En este artículo relatamos la ocasión en que un excampeón de boxeo se metió a competir en la UFC, y cómo terminó su enfrentamiento en el octagono.' image={hero} date='2024-06-14' author={null} />
