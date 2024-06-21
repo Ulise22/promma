@@ -17,12 +17,20 @@ import dwt from '@/assets/articulos/previews/20-30/dogfight.jpg'
 import masvidalVsAskren from '@/assets/articulos/previews/0-10/masvidal-vs-askren_preview.jpeg'
 import ufc from '@/assets/articulos/previews/20-30/ufc-preview.jpg'
 import jimMiller from '@/assets/articulos/previews/20-30/jim-miller-preview.jpg'
+import nateDiaz from '@/assets/articulos/previews/20-30/nate-diaz-preview.jpg'
+import jamesToney from '@/assets/articulos/previews/10-20/james_toney-preview.jpg'
+import mejoresPeleasUFC from '@/assets/articulos/previews/20-30/mejores_peleas_ufc-preview.jpg'
+import palhares from '@/assets/articulos/previews/30-40/rousimar_palhares-preview.jpg'
 
 export default function ArticulosContainer () {
     return(
         <section className={styles.articulos}>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <article className={styles.articulos__container}>
+                <ArticlePreview img={palhares} url='/articulos/peleador-mas-sucio-ufc' title='El Peleador Más Sucio de la Historia Espulsado de la UFC' author={null} text='Rousimar Palhares, el luchador más sucio de la historia de las MMA que por su comportamiento dentro del octagono fue expulsado de la UFC.' date='19/06/2024' />
+                <ArticlePreview img={mejoresPeleasUFC} url='/articulos/mejores-peleas-ufc' title='Las Mejores Peleas de UFC de la Historia' author={null} text='El listado de las mejores peleas de la historia, basado en los World MMA Awards que premian a la mejor pelea del año desde 2008.' date='18/06/2024' />
+                <ArticlePreview img={jamesToney} url='/articulos/boxeador-en-mma' title='Boxeo Vs MMA: ¿Qué pasa cuando un boxeador pelea en MMA?' author={null} text='En este artículo relatamos la ocasión en que un excampeón de boxeo se metió a competir en la UFC, y cómo terminó su enfrentamiento en el octagono.' date='14/06/2024' />
+                <ArticlePreview img={nateDiaz} url='/articulos/nate-diaz-historia' title='Nate Diaz, el Peleador Más Querido de la UFC' author={null} text='La historia de uno de los peleadores más carismáticos de la UFC, que supo ganarse el cariño de la gente con peleas memorables y con su forma de ser.' date='01/05/2024' />
                 <ArticlePreview img={dwt} url='/articulos/dogfight-wild-tournament' title='Dogfight Wild Tournament' author={null} text='El evento de pelea más loco que se puede ver gratis en youtube y que es organizado en España por Jordi Wild.' date='05/06/2024' />
                 <ArticlePreview img={masvidalVsAskren} url='/articulos/ko-mas-rapido-ufc' title='El KO Más Rápido en la Historia de la UFC' author={null} text='La historia detrás de Jorge Masvidal, Ben Askren y como el enfrentamiento entre estos 2 terminó con el KO más rápido en la historia de la UFC.' date={null} />
                 <ArticlePreview img={ufc} url='/articulos/ufc' title='UFC: Historia e Información de la Compañía de MMA Más Grande del Mundo' author={null} text='Todo lo relacionado al origen, crecimiento y actualidad de la compañía UFC.' date='05/06/2024' />
