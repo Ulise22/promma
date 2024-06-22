@@ -17,8 +17,8 @@ export default function FightNightWhittakerAliskerov () {
                     <p>En Proceso...</p>
                     <h2>Sergei Pavlovich vs Alexander Volkov</h2>
                     <p>En Proceso...</p>
-                    <h2>Kelvin Gastelum vs Daniel Rodriguez</h2>
-                    <p>En Proceso...</p>
+                    <h2>Kelvin Gastelum Gana por Decisión Unánime a Daniel Rodriguez</h2>
+                    <p>En una muy entretenida pelea, el peleador estadounidense <b>Kelvin Gastelum</b> se llevó una muy merecida victoria por decisión unánime luego de dominar en el striking cuando la pelea se jugó de pie, y luego de asegurarse la victoria consiguiendo varios derrivos, dominando en el suelo también ante un Daniel Rodríguez, que a pesar de conectar algunos golpes con mucho poder, se vió superado por Gastelum.</p>
                     <h2>Shara Magomedov Noquea a Antonio Trocoli</h2>
                     <p><Link href='/articulos/shara-magomedov-ojo'>Shara &quot;bullet&quot;</Link> noquea en el tercer asalto al debutante brasileño <b>Antonio Trocoli</b>, consiguiendo de esta manera su segunda victoria en la <Link href='/articulos/ufc'>UFC</Link> y la primera por nocaut en la compañía. Con esta victoria, Shara mantiene su invicto de ahora 13-0, siendo 11 de sus victorias por la vía del nocaut.</p>
                     <p>En una pelea donde tuvieron que buscar un reemplazo para enfrentar al ruso 2 veces, un Trocoli que tomó la pelea en cortísimo aviso, fue capaz de hacer un digno papel en un primer asalto que desde este espacio creemos que ganó, pero que en el tercero ya estando bastante cansado, no pudo hacer nada ante las patadas y la combinación de golpes de la nueva estrella de Daguestán.</p>
