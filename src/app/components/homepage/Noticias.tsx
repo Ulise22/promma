@@ -23,7 +23,7 @@ export default function Noticias () {
             <article className={styles.noticiasHero}>
                 <Link className={styles.noticiasHero__bigArticle} href='/noticias/fight-night-whittaker-aliskerov'>
                     <Image className={styles.noticiasHero__bigArticle__img} src={whittakerVSaliskerov} alt='' />
-                    <h2 className={styles.page__title}>UFC Fight Night: ¡Whittaker vs Aliskerov!</h2>
+                    <h2 className={styles.page__title}>UFC Fight Night: ¡Whittaker vs Aliskerov! ¡Shara Bullet Noquea a su Rival en el Tercer Asalto!</h2>
                     <p>Un evento donde contamos con emocionantes combates como el que tendran Johnny Walker y Volkan Oezdemir abriendo la cartelera principal, la pelea coestelar entre Sergei Pavlovich y Alexander Volkov, y el evento principal protagonizado por Robert Whittaker y Ikram Aliskerov.</p>
                 </Link>
                 <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/ailin-vs-joselyne'>
