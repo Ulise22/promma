@@ -19,10 +19,11 @@ export default function FightNightWhittakerAliskerov () {
                     <p>En Proceso...</p>
                     <h2>Kelvin Gastelum vs Daniel Rodriguez</h2>
                     <p>En Proceso...</p>
-                    <h2>Shara Magomedov vs Antonio Trocoli</h2>
-                    <p>En Proceso...</p>
+                    <h2>Shara Magomedov Noquea a Antonio Trocoli</h2>
+                    <p><Link href='/articulos/shara-magomedov-ojo'>Shara &quot;bullet&quot;</Link> noquea en el tercer asalto al debutante brasileño <b>Antonio Trocoli</b>, consiguiendo de esta manera su segunda victoria en la <Link href='/articulos/ufc'>UFC</Link> y la primera por nocaut en la compañía. Con esta victoria, Shara mantiene su invicto de ahora 13-0, siendo 11 de sus victorias por la vía del nocaut.</p>
+                    <p>En una pelea donde tuvieron que buscar un reemplazo para enfrentar al ruso 2 veces, un Trocoli que tomó la pelea en cortísimo aviso, fue capaz de hacer un digno papel en un primer asalto que desde este espacio creemos que ganó, pero que en el tercero ya estando bastante cansado, no pudo hacer nada ante las patadas y la combinación de golpes de la nueva estrella de Daguestán.</p>
                     <h2>Johnny Walker Cae KO Ante Volkan Oezdemir</h2>
-                    <p>La primera pelea de la cartelera estelar también nos trajó el primer KO de la noche, que en este caso benefició al suizo que le conectó un tremenedo nocaut al brasileño <b>Johny Walker</b>, que con este recibió el segundo consecutivo luego de haber caído derrotado ante <b>Ankalaev</b>, y que luego de recibir un zurdazo no tuvo que hacer. De esta manera Oezdemir seguramente escale en la división, dado que al momento de hacer la pelea estaba ranqueado #9, enfrentándose ante un peleador ranqueado #7.</p>
+                    <p>La primera pelea de la cartelera estelar también nos trajó el primer KO de la noche, que en este caso benefició al suizo que le conectó un tremenedo nocaut al brasileño <b>Johny Walker</b>, que con este recibió el segundo consecutivo luego de haber caído derrotado ante <b>Ankalaev</b>, y que luego de recibir un derechazo no tuvo que hacer. De esta manera Oezdemir seguramente escale en la división, dado que al momento de hacer la pelea estaba ranqueado #9, enfrentándose ante un peleador ranqueado #7.</p>
                 </article>
                 <AsideChamps />
             </section>
