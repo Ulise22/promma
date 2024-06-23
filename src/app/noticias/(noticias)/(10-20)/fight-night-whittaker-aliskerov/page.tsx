@@ -26,6 +26,7 @@ export default function FightNightWhittakerAliskerov () {
                     <p>En una pelea donde tuvieron que buscar un reemplazo para enfrentar al ruso 2 veces, un Trocoli que tomó la pelea en cortísimo aviso, fue capaz de hacer un digno papel en un primer asalto que desde este espacio creemos que ganó, pero que en el tercero ya estando bastante cansado, no pudo hacer nada ante las patadas y la combinación de golpes de la nueva estrella de Daguestán.</p>
                     <h2>Johnny Walker Cae KO Ante Volkan Oezdemir</h2>
                     <p>La primera pelea de la cartelera estelar también nos trajó el primer KO de la noche, que en este caso benefició al suizo que le conectó un tremenedo nocaut al brasileño <b>Johny Walker</b>, que con este recibió el segundo consecutivo luego de haber caído derrotado ante <b>Ankalaev</b>, y que luego de recibir un derechazo no tuvo que hacer. De esta manera Oezdemir seguramente escale en la división, dado que al momento de hacer la pelea estaba ranqueado #9, enfrentándose ante un peleador ranqueado #7.</p>
+                    <iframe className={styles.article__video} width="560" height="315" src="https://www.youtube.com/embed/1dnL3xNbXKU?si=Oz7iVEO-OF9WmCxU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </article>
                 <AsideChamps />
             </section>
