@@ -4,7 +4,7 @@ import Image from 'next/image'
 import ArticlePreview from '@/app/articulos/components/ArticlePreview'
 /* IMAGES HERO */
 import ailin from '@/assets/peleadores__images/argentinos/ailin-perez/ailin-perez.jpg'
-import ufc300EarlyPrelims from '@/assets/noticias/previews/0-10/ufc300_early-prelims.jpg'
+import ortegaLopes from '@/assets/noticias/previews/10-20/ortega-vs-lopes-preview.jpg'
 import whittakerVSaliskerov from '@/assets/noticias/previews/10-20/whittaker-vs-aliskerov.jpg'
 /* IMAGES */
 import cannonierVSimano from '@/assets/noticias/previews/10-20/fightnight-cannonier-imanov-preview.jpg'
@@ -37,14 +37,14 @@ export default function Noticias () {
                         </div>
                     </article>
                 </Link>
-                <Link className={`${styles.noticiasHero__article} ${styles.normal2}`} href='/noticias/ufc300-early-prelims'>
-                    <Image className={styles.noticiasHero__article__img} src={ufc300EarlyPrelims} alt='' />
+                <Link className={`${styles.noticiasHero__article} ${styles.normal2}`} href='/noticias/ortega-vs-lopes-previa'>
+                    <Image className={styles.noticiasHero__article__img} src={ortegaLopes} alt='' />
                     <article className={styles.noticiasHero__article__container}>
-                        <h2 className={styles.noticiasHero__title}>Primeros Preliminares UFC 300:¡Deivenson Figueiredo Somete a Cody en la Primer Pelea de la Noche!</h2>
-                        <p>Arranca el UFC 300 con unas increíbles peleas en los primeros preliminares. Donde Figueiredo, Bobby Green, Jessica Andrade y Renato Moicano consiguieron la victoria.</p>
+                        <h2 className={styles.noticiasHero__title}>Diego Lopes vs Brian Ortega: Una Pelea Que Puede Revolucionar la División</h2>
+                        <p>El próximo sábado 29 de junio se enfrentarán en la pelea coestelar el brasileño Diego Lopes y el estadounidense Brian Ortega en el UFC 303 es una que puede llegar a verse incluso como una eliminatoria por el título.</p>
                         <div className={styles.noticiasHero__article__info}>
                             <h4>FULLMMA</h4>
-                            <p>13/04/2024</p>
+                            <p>24/06/2024</p>
                         </div>
                     </article>
                 </Link>

@@ -8,6 +8,7 @@ import ufc297 from '@/assets/noticias/previews/0-10/ufc297.jpg'
 import dwt2 from '@/assets/noticias/previews/0-10/dogfight.jpg'
 import ufc298 from '@/assets/noticias/previews/0-10/ufc298_preview.jpg'
 import comebackMcGregor from '@/assets/noticias/previews/0-10/conor-mcgregor_volverapelear.jpg'
+import ufc300EarlyPrelims from '@/assets/noticias/previews/0-10/ufc300_early-prelims.jpg'
 import ailin from '@/assets/peleadores__images/argentinos/ailin-perez/ailin-perez.jpg'
 
 export default function NoticiasPage () {
@@ -16,6 +17,7 @@ export default function NoticiasPage () {
             <Noticias />
             <h2 className={styles.noticiasPage__subtitle}>Todas Las Noticias</h2>
             <article className={styles.noticias}>
+                <ArticlePreview img={ufc300EarlyPrelims} url='/noticias/ufc300-early-prelims' title='Primeros Preliminares UFC 300:¡Deivenson Figueiredo Somete a Cody en la Primer Pelea de la Noche!' author={null} text='Arranca el UFC 300 con unas increíbles peleas en los primeros preliminares. Donde Figueiredo, Bobby Green, Jessica Andrade y Renato Moicano consiguieron la victoria.' date='13/04/2024' />
                 <ArticlePreview img={comebackMcGregor} url='/noticias/volvera-a-pelear-mcgregor' title='¿Cuándo Vuelve a Pelear Conor McGregor?' author={null} text='Recientemente, en una entrevista promosionando su nueva película, Road House, ha declarado sus intenciones de volver a pelear este año, pero ¿lo hará realmente?' date='26/03/2024' />
                 <ArticlePreview img={ufc300} url='/noticias/ufc300' title='UFC 300: Todo lo que sabemos hasta ahora' author={null} date={null} text='Todas las peleas confirmadas hasta el momento para el UFC 300, que Dana White promete ser uno de los mayores eventos de la historia del deporte.' />
                 <ArticlePreview img={ufc300Prelims} url='/noticias/ufc300-prelims' title='Preliminares UFC 300: ¡Kayla Harrinson Somete a Holly Holm en el Segundo Asalto en su Debut en la UFC!' author={null} date='13/04/2024' text='Por el UFC 300 Kayla somete a Holly Holm en el segundo asalto en lo que es su debut en la compañía y Diego Lopes Noquea su rival en el primer asalto.' />
