@@ -3,9 +3,9 @@ import styles from './noticias.module.css'
 import Image from 'next/image'
 import ArticlePreview from '@/app/articulos/components/ArticlePreview'
 /* IMAGES HERO */
-import ailin from '@/assets/peleadores__images/argentinos/ailin-perez/ailin-perez.jpg'
 import ortegaLopes from '@/assets/noticias/previews/10-20/ortega-vs-lopes-preview.jpg'
 import whittakerVSaliskerov from '@/assets/noticias/previews/10-20/whittaker-vs-aliskerov.jpg'
+import amandaVuelve from '@/assets/noticias/previews/20-30/amanda_nunes_vuelve-preview.jpg'
 /* IMAGES */
 import chimaevCancel from '@/assets/noticias/previews/10-20/chimaev_whittaker-preview.jpg'
 import cannonierVSimano from '@/assets/noticias/previews/10-20/fightnight-cannonier-imanov-preview.jpg'
@@ -26,14 +26,14 @@ export default function Noticias () {
                     <h2 className={styles.page__title}>UFC Fight Night: ¡Whittaker Noquea en el Primer Asalto a Aliskerov! ¡Shara Bullet Noquea a su Rival en el Tercer Asalto!</h2>
                     <p>Un evento donde contamos con emocionantes combates como el que tendran Johnny Walker y Volkan Oezdemir abriendo la cartelera principal, la pelea coestelar entre Sergei Pavlovich y Alexander Volkov, y el evento principal protagonizado por Robert Whittaker y Ikram Aliskerov.</p>
                 </Link>
-                <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/ailin-vs-joselyne'>
-                    <Image className={styles.noticiasHero__article__img} src={ailin} alt='' />
+                <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/vuelve-amanda-nunes'>
+                    <Image className={styles.noticiasHero__article__img} src={amandaVuelve} alt='' />
                     <article className={styles.noticiasHero__article__container}>
-                        <h2 className={styles.noticiasHero__title}>La Argentina Ailín Pérez Gana su Pelea por Decisión Unánime en UFC 302</h2>
-                        <p>En un combate contra la panameña Joselyne Edwards, Ailín demostró ser la clara ganadora de un combate en el que incluso estuvo cerca de noquear a su rival.</p>
+                        <h2 className={styles.noticiasHero__title}>¿Amanda Nunes Vuelve a Pelear?</h2>
+                        <p>La mejor peleadora de la historia de las MMA está retirada, pero ¿Volverá Amanda Nunes al Octagono?</p>
                         <div className={styles.noticiasHero__article__info}>
                             <h4>FULLMMA</h4>
-                            <p>01/06/2024</p>
+                            <p>25/06/2024</p>
                         </div>
                     </article>
                 </Link>
