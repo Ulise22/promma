@@ -4,7 +4,7 @@ import Image from 'next/image'
 /* IMAGES */
 import magomedovOjo from '@/assets/articulos/previews/30-40/shara_magomedov_ojo-preview.jpg'
 import ufc302 from '@/assets/noticias/previews/10-20/ufc302-preview.jpg'
-import chimaevCancel from '@/assets/noticias/previews/10-20/chimaev_whittaker-preview.jpg'
+import chandlerEspera from '@/assets/noticias/previews/20-30/michael_chandler_espera-preview.jpg'
 
 export default function HomeHero () {
     return(
@@ -25,14 +25,14 @@ export default function HomeHero () {
                     </div>
                 </article>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/khamzat-whittaker-cancelada'>
-                <Image className={styles.homehero__article__img} src={chimaevCancel} alt='' />
+            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/michael-chandler-espera-mcgregor'>
+                <Image className={styles.homehero__article__img} src={chandlerEspera} alt='' />
                 <article className={styles.homehero__article__container}>
-                <h2 className={styles.homehero__title}>Whittaker vs Chimaev ¿Cancelada?</h2>
-                    <p>A un par de semanas para el enfrentamiento en Arabia Sáudita entre 2 de los mayores contendientes al título de Peso Medio de UFC, pareciera que se cae la pelea.</p>
+                <h2 className={styles.homehero__title}>¿Tiene Sentido Para Michael Chandler Esperar a McGregor?</h2>
+                    <p>Michael Chandler lleva sin pelear desde noviembre de 2022, a la espera de una pelea con Conor McGregor, pero ¿Por qué lo espera tanto?</p>
                     <div className={styles.homehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>13/06/2024</p>
+                        <p>25/06/2024</p>
                     </div>
                 </article>
             </Link>
