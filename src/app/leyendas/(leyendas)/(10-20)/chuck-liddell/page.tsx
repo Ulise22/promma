@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import LiddellHero from './LiddellHero'
 
 
-export default function FedorEmelianenko () {
+export default function ChuckLiddell () {
     return(
         <main>
             <LiddellHero />
