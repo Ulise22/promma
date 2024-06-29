@@ -33,6 +33,7 @@ import dwt from '@/assets/articulos/previews/20-30/dogfight.jpg'
 import ufc from '@/assets/articulos/previews/20-30/ufc-preview.jpg'
 import nateDiaz from '@/assets/articulos/previews/20-30/nate-diaz-preview.jpg'
 import mejoresPeleasUFC from '@/assets/articulos/previews/20-30/mejores_peleas_ufc-preview.jpg'
+import bispingOjo from '@/assets/articulos/previews/20-30/michael_bisping_ojo-preview.jpg'
 /* 30-40 */
 import palhares from '@/assets/articulos/previews/30-40/rousimar_palhares-preview.jpg'
 import pridefc from '@/assets/articulos/previews/30-40/pridefc-preview.jpg'
@@ -55,6 +56,7 @@ export default function Articulos () {
                 </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={bispingOjo} url='/articulos/michael-bisping-ojo' title='Michael Bisping: El Luchador Inglés de UFC Que Perdió un Ojo Peleando' author={null} date='13/06/2024' text='La historia de cómo el peleador de Reino Unido perdió su ojo durante una pelea de UFC, y cómo a pesar de eso logró ser campeón.' />
                 <ArticlePreview img={pridefc} url='/articulos/que-paso-con-pride-fc' title='¿Qué Pasó con Pride FC?' author={null} text='Cómo el control de la mafia japonea Yakuza acabó con el reinado de la mayor compañía de MMA de la historia.' date='19/06/2024' />
                 <ArticlePreview img={palhares} url='/articulos/peleador-mas-sucio-ufc' title='El Peleador Más Sucio de la Historia Espulsado de la UFC' author={null} text='Rousimar Palhares, el luchador más sucio de la historia de las MMA que por su comportamiento dentro del octagono fue expulsado de la UFC.' date='19/06/2024' />
                 <ArticlePreview img={mejoresPeleasUFC} url='/articulos/mejores-peleas-ufc' title='Las Mejores Peleas de UFC de la Historia' author={null} text='El listado de las mejores peleas de la historia, basado en los World MMA Awards que premian a la mejor pelea del año desde 2008.' date='18/06/2024' />

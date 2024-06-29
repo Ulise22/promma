@@ -6,7 +6,7 @@ import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/heros/30-40/dave_bautista-hero.jpg'
 
-export default function PeleadorMasSucioUFC () {
+export default function DaveBautistaMMA () {
     return(
         <main>
             <ArticleHero title='El Debut en MMA de Dave Bautista' subtitle='El día en que se dió la pelea en MMA de Dave Bautista ante Vince Lucero.' image={hero} date='2024-06-28' author={null} />
