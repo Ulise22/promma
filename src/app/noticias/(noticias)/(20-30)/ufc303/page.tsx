@@ -9,7 +9,7 @@ import hero from '@/assets/noticias/heros/20-30/ufc303-hero.jpg'
 export default function UFC303 () {
     return(
         <main>
-            <ArticleHero title='UFC 303: ¡Alex Pereira vs Jiri Prochazka!¡Diego Lopes vs Dan Ige!' subtitle='En esta noche de MMA tenemos peleas fantásticas, con la pelea por el título de semipesados como evento estelar de esta jornada.' image={hero} date='2024-06-29' author='@long.live.midhat' />
+            <ArticleHero title='UFC 303: ¡Alex Pereira vs Jiri Prochazka!¡Diego Lopes Vence a Dan Ige Que Tomó la Pelea con 4 Horas de Anticipación!' subtitle='En esta noche de MMA tenemos peleas fantásticas, con la pelea por el título de semipesados como evento estelar de esta jornada, y con la pelea inédita de Diego Lopes y de Dan Ige, que aceptó combatir unas pocas horas antes de la pelea.' image={hero} date='2024-06-29' author='@long.live.midhat' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>En esta noche de MMA tenemos tremendas peleas para lo que es el <b>International Fight Week</b>, que culminará con la pelea por el campeonato de peso semipesado entre el actual campeón <Link href='/peleadores/alex-pereira'>Alex Pereira</Link> y el retador <Link href='/peleadores/jiri-prochazka'>Jiri Prochazka</Link>. Pero además tendremos en la pelea coestelar, el enfrentamiento entre el joven <b>Diego Lopes</b> posicionado #14 en los ranking que busca escalar en la división de peso pluma ante un siempre peligroso <b>Brian Ortega</b>, que actualmente se encuentra rankeado #3.</p>
@@ -20,8 +20,9 @@ export default function UFC303 () {
                     <p>La brasileña <Link href='/mujeres/mayra-bueno-silva'>Mayra Bueno Silva</Link>, que había hecho un excelente primer asalto, terminó perdiendo la pelea ante <b>Macy Chiasson</b> por parada médica en el segundo asalto, producto de un codazo que le abrió un corte por encima de la ceja demasiado grande, que aunque en un principió no parecía estorbarle la vista, era tal el tamaño del corte que el médico de la UFC decidió que lo mejor era parar el combate. De esta manera, aunque la brasileña quería seguir peleando, acumula su segunda derrota consecutiva, luego de perder en enero en el <Link href='/noticias/ufc297'>UFC 297</Link> en una pelea por el título ante <Link href='/mujeres/raquel-pennington'>Raquel Pennington</Link>.</p>
                     <h2>Roman Dolidze Derrota a Anthony Smith Por Decisión</h2>
                     <p>El georgiano <b>Roman Dolidze</b> se lleva la victoria por decisión unánime ante un <b>Anthony Smith</b> que tomó la victoria en corto aviso, y que venía de una victoria por sumisión en el primer asalto en el <Link href='/noticias/ufc301'>UFC 301</Link>. En un combate donde Dolidze fue un dominador claro, logra meterse en el top10 de los pesos semipesados. Al finalizar la pelea, el ganador de esta no dudo en retar a <Link href='/peleadores/khamzat-chimaev'>Khamzat Chimaev</Link></p>
-                    <h2>Dan Ige vs Diego Lopes</h2>
-                    <p>En proceso...</p>
+                    <h2>Diego Lopes Derrota a Dan Ige Por Decisión</h2>
+                    <p>De evento coestelar tuvimos una pelea inédita en las MMA, con un Dan Ige que se viste de leyenda, luego de que por una enfermedad <b>Brian Ortega</b> avisara que no podría pelear pocas horas antes de su pelea, Dan Ige aceptó entrar como reemplazo con 4 horas de antelación.</p>
+                    <p>Durante la pelea vimos como Diego Lopes supo dominar los 2 primeros asaltos, siendo lógico por su alto nivel como luchador y por estar enfrentando a un rival que literalmente acababa de aceptar la pelea. Sin embargo, Dan Ige fue capaz de dar un espectáculo con un tercer asalto que claramente ganó él. El mismo Dan confesó que estaba recibiendo un masaje al momento de recibir la llamada para pelear esa misma noche. Honor a ambos luchadores por aceptar combatir con tan poco tiempo de antelación y por darnos un verdadero show.</p>
                     <h2>Alex Pereira vs Jiri Procházka</h2>
                     <p>En proceso...</p>
                 </article>

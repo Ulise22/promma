@@ -11,8 +11,8 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/noticias/ufc303'>
                 <Image className={styles.homehero__bigArticle__img} src={ufc303} alt='' />
-                <h2 className={styles.home__title}>UFC 303: ¡Alex Pereira vs Jiri Prochazka!¡Diego Lopes vs Brian Ortega!</h2>
-                <p>En esta noche de MMA tenemos peleas fantásticas, con la pelea por el título de semipesados como evento estelar de esta jornada</p>
+                <h2 className={styles.home__title}>UFC 303: ¡Alex Pereira vs Jiri Prochazka!¡Diego Lopes Vence a Dan Ige Que Tomó la Pelea con 4 Horas de Anticipación!</h2>
+                <p>En esta noche de MMA tenemos peleas fantásticas, con la pelea por el título de semipesados como evento estelar de esta jornada, y con la pelea inédita de Diego Lopes y de Dan Ige, que aceptó combatir unas pocas horas antes de la pelea.</p>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/shara-magomedov-ojo'>
                 <Image className={styles.homehero__article__img} src={magomedovOjo} alt='' />
