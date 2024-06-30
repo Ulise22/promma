@@ -7,13 +7,13 @@ import Link from 'next/link'
 export default function Prochazka () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={prochazka} w={30} l={4} d={1} nombre='Jiri Prochazka' apodo={null} categoria='Peso Semipesado' />
+            <PeleadoresHero peleadoresImage={prochazka} w={30} l={5} d={1} nombre='Jiri Prochazka' apodo={null} categoria='Peso Semipesado' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Jiri Prochazka UFC</h2>
                     <p className={styles.peleador__article__text}>Jiří Procházka es un peleador checo que compite en <Link href='/articulos/ufc'>UFC</Link> en la división de peso semipesado desde el año 2020. En su carrera en la compañía, necesitó de sólo 3 peleas para convertirse en campeón, luego de que en su tercer combate se enfrentara al veterano campeón <b>Glover Texeira</b> y fuera capaz de finalizarlo con un sumisión en el último asalto en el año 2022.</p>
                     <h2 className={styles.peleador__article__title}>Jiri Prochazka Récord</h2>
-                    <p className={styles.peleador__article__text}>Jiri Prochazka mantiene un récord profesional de 30-4-1. Siendo 26 de sus 30 victorias por la vía del nocaut, 3 por la vía de la sumisión y sólo 1 llegó a la decisión de los jueces. Mientras que de sus 4 derrotas, 3 fueron por nocaut, y sólo 1 por sumisión. Además, tiene un combate realizado el 20 de diciembre de 2014 contra el ruso <b>Mikhail Mokhnatkin</b> que terminó en empate por decisión mayoritaria.</p>
+                    <p className={styles.peleador__article__text}>Jiri Prochazka mantiene un récord profesional de 30-5-1. Siendo 26 de sus 30 victorias por la vía del nocaut, 3 por la vía de la sumisión y sólo 1 llegó a la decisión de los jueces. Mientras que de sus 5 derrotas, 4 fueron por nocaut, y sólo 1 por sumisión. Además, tiene un combate realizado el 20 de diciembre de 2014 contra el ruso <b>Mikhail Mokhnatkin</b> que terminó en empate por decisión mayoritaria.</p>
                     <h2 className={styles.peleador__article__title}>Jiri Prochazka Biografía</h2>
                     <p className={styles.peleador__article__text}>Jiří Procházka nació el 14 de octubre de 1992 en la ciudad de República Checa, Znojmo. Su infancia no fue sencilla, dado que con sólo 6 años tuvo que lidiar con la pérdida de su padre, quien falleció siendo Jiri muy pequeño. Desde su juventud comenzó a entrenar deporte, siendo el fútbol amateur el primero que practicaría.</p>
                     <p className={styles.peleador__article__text}>Jiri comenzaría a meterse en problemas y terminaría en medio de varias peleas callejeras, llegando a verse en vuelto en más de 100. Este comportamiento, eventualmente lo llevó a unirse al club de hooligans del equipo de fútbol local.</p>
