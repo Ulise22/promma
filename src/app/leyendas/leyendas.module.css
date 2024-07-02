@@ -40,6 +40,8 @@
 }
 
 .leyendas__card__title {
+    font-size: 18px;
+    font-weight: 700;
     text-decoration: none;
     color: #fff;
     text-align: center;

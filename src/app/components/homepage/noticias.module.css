@@ -40,6 +40,11 @@
     display: flex;
 }
 
+.noticiasHero__title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .noticiasHero__article__container {
     padding: 20px;
 }
@@ -58,6 +63,8 @@
 }
 
 .page__title {
+    font-size: 24px;
+    font-weight: 700;
     padding: 10px;
     text-align: center;
 }
@@ -69,6 +76,8 @@
 }
 
 .noticias__title {
+    font-size: 24px;
+    font-weight: 700;
     border-bottom: 1px solid #ccc;
     padding: 10px 0;
 }

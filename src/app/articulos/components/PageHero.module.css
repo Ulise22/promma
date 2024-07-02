@@ -39,6 +39,11 @@
     display: flex;
 }
 
+.pagehero__title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .pagehero__article__container {
     padding: 20px;
 }
@@ -57,6 +62,8 @@
 }
 
 .page__title {
+    font-size: 24px;
+    font-weight: 700;
     padding: 10px;
     text-align: center;
 }

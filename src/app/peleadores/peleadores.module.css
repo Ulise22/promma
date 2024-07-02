@@ -40,6 +40,8 @@
 }
 
 .peleadores__card__name {
+    font-size: 19px;
+    font-weight: 700;
     color: #fff;
 }
 

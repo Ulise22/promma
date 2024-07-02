@@ -14,6 +14,7 @@
     min-width: 300px;
 }
 
+
 .normal1 {
     grid-area: normal1;
 }
@@ -27,6 +28,11 @@
     height: 450px;
     object-fit: cover;
     object-position: top;
+}
+
+.homehero__title {
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .homehero__bigArticle__text {
@@ -57,6 +63,8 @@
 }
 
 .home__title {
+    font-size: 24px;
+    font-weight: 700;
     padding: 10px;
     text-align: center;
 }

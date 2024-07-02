@@ -17,7 +17,7 @@
 
 .articlePreview__title {
     font-size: 20px;
-    padding: 0 10px;
+    font-weight: 700;
 }
 
 .articlePreview__info__container {

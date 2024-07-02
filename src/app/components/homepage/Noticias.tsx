@@ -19,18 +19,18 @@ import ufc301 from '@/assets/noticias/previews/10-20/ufc301-preview.jpg'
 export default function Noticias () {
     return(
         <section className={styles.noticias}>
-            <h2 className={styles.noticias__title}>Noticias</h2>
+            <p className={styles.noticias__title}>Noticias</p>
             <article className={styles.noticiasHero}>
                 <Link className={styles.noticiasHero__bigArticle} href='/noticias/fight-night-whittaker-aliskerov'>
                     <Image className={styles.noticiasHero__bigArticle__img} src={whittakerVSaliskerov} alt='' />
-                    <h2 className={styles.page__title}>UFC Fight Night: ¡Whittaker Noquea en el Primer Asalto a Aliskerov! ¡Shara Bullet Noquea a su Rival en el Tercer Asalto!</h2>
-                    <p>Un evento donde contamos con emocionantes combates como el que tendran Johnny Walker y Volkan Oezdemir abriendo la cartelera principal, la pelea coestelar entre Sergei Pavlovich y Alexander Volkov, y el evento principal protagonizado por Robert Whittaker y Ikram Aliskerov.</p>
+                    <p className={styles.page__title}>UFC Fight Night: ¡Whittaker Noquea en el Primer Asalto a Aliskerov! ¡Shara Bullet Noquea a su Rival en el Tercer Asalto!</p>
+                    <span>Un evento donde contamos con emocionantes combates como el que tendran Johnny Walker y Volkan Oezdemir abriendo la cartelera principal, la pelea coestelar entre Sergei Pavlovich y Alexander Volkov, y el evento principal protagonizado por Robert Whittaker y Ikram Aliskerov.</span>
                 </Link>
                 <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/vuelve-amanda-nunes'>
                     <Image className={styles.noticiasHero__article__img} src={amandaVuelve} alt='' />
                     <article className={styles.noticiasHero__article__container}>
-                        <h2 className={styles.noticiasHero__title}>¿Amanda Nunes Vuelve a Pelear?</h2>
-                        <p>La mejor peleadora de la historia de las MMA está retirada, pero ¿Volverá Amanda Nunes al Octagono?</p>
+                        <p className={styles.noticiasHero__title}>¿Amanda Nunes Vuelve a Pelear?</p>
+                        <span>La mejor peleadora de la historia de las MMA está retirada, pero ¿Volverá Amanda Nunes al Octagono?</span>
                         <div className={styles.noticiasHero__article__info}>
                             <h4>FULLMMA</h4>
                             <p>25/06/2024</p>
@@ -40,8 +40,8 @@ export default function Noticias () {
                 <Link className={`${styles.noticiasHero__article} ${styles.normal2}`} href='/noticias/ortega-vs-lopes-previa'>
                     <Image className={styles.noticiasHero__article__img} src={ortegaLopes} alt='' />
                     <article className={styles.noticiasHero__article__container}>
-                        <h2 className={styles.noticiasHero__title}>Diego Lopes vs Brian Ortega: Una Pelea Que Puede Revolucionar la División</h2>
-                        <p>El próximo sábado 29 de junio se enfrentarán en la pelea coestelar el brasileño Diego Lopes y el estadounidense Brian Ortega en el UFC 303 es una que puede llegar a verse incluso como una eliminatoria por el título.</p>
+                        <p className={styles.noticiasHero__title}>Diego Lopes vs Brian Ortega: Una Pelea Que Puede Revolucionar la División</p>
+                        <span>El próximo sábado 29 de junio se enfrentarán en la pelea coestelar el brasileño Diego Lopes y el estadounidense Brian Ortega en el UFC 303 es una que puede llegar a verse incluso como una eliminatoria por el título.</span>
                         <div className={styles.noticiasHero__article__info}>
                             <h4>FULLMMA</h4>
                             <p>24/06/2024</p>

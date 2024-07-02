@@ -11,105 +11,105 @@ export default function Peleadores () {
                 <h2 className={styles.peleadores__subtitle}>Luchadores de UFC</h2>
                 <article className={styles.peleadores__container}>
                     <Link href='/peleadores/alexander-volkanovski' className={`${styles.peleadores__card} ${styles.peleadores__card_volkanovski}`}>
-                        <h3 className={styles.peleadores__card__name}>Alexander Volkanovski</h3>
+                        <p className={styles.peleadores__card__name}>Alexander Volkanovski</p>
                     </Link>
                     <Link href='/peleadores/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
-                        <h3 className={styles.peleadores__card__name}>Sean Strickland</h3>
+                        <p className={styles.peleadores__card__name}>Sean Strickland</p>
                     </Link>
                     <Link href='/peleadores/jiri-prochazka' className={`${styles.peleadores__card} ${styles.peleadores__card_prochazka}`}>
-                        <h3 className={styles.peleadores__card__name}>Jiri Prochazka</h3>
+                        <p className={styles.peleadores__card__name}>Jiri Prochazka</p>
                     </Link>
                     <Link href='/peleadores/tony-ferguson' className={`${styles.peleadores__card} ${styles.peleadores__card_ferguson}`}>
-                        <h3 className={styles.peleadores__card__name}>Tony Ferguson</h3>
+                        <p className={styles.peleadores__card__name}>Tony Ferguson</p>
                     </Link>
                     <Link href='/peleadores/conor-mcgregor' className={`${styles.peleadores__card} ${styles.peleadores__card_mcgregor}`}>
-                        <h3 className={styles.peleadores__card__name}>Conor Mcgregor</h3>
+                        <p className={styles.peleadores__card__name}>Conor Mcgregor</p>
                     </Link>
                     <Link href='/peleadores/israel-adesanya' className={`${styles.peleadores__card} ${styles.peleadores__card_adesanya}`}>
-                        <h3 className={styles.peleadores__card__name}>Israel Adesanya</h3>
+                        <p className={styles.peleadores__card__name}>Israel Adesanya</p>
                     </Link>
                     <Link href='/peleadores/khamzat-chimaev' className={`${styles.peleadores__card} ${styles.peleadores__card_chimaev}`}>
-                        <h3 className={styles.peleadores__card__name}>Khamzat Chimaev</h3>
+                        <p className={styles.peleadores__card__name}>Khamzat Chimaev</p>
                     </Link>
                     <Link href='/peleadores/charles-oliveira' className={`${styles.peleadores__card} ${styles.peleadores__card_oliveira}`}>
-                        <h3 className={styles.peleadores__card__name}>Charles Oliveira</h3>
+                        <p className={styles.peleadores__card__name}>Charles Oliveira</p>
                     </Link>
                     <Link href='/peleadores/justin-gaethje' className={`${styles.peleadores__card} ${styles.peleadores__card_gaethje}`}>
-                        <h3 className={styles.peleadores__card__name}>Justin Gaethje</h3>
+                        <p className={styles.peleadores__card__name}>Justin Gaethje</p>
                     </Link>
                     <Link href='/peleadores/dustin-poirier' className={`${styles.peleadores__card} ${styles.peleadores__card_poirier}`}>
-                        <h3 className={styles.peleadores__card__name}>Dustin Poirier</h3>
+                        <p className={styles.peleadores__card__name}>Dustin Poirier</p>
                     </Link>
                     <Link href='/peleadores/michael-chandler' className={`${styles.peleadores__card} ${styles.peleadores__card_chandler}`}>
-                        <h3 className={styles.peleadores__card__name}>Michael Chandler</h3>
+                        <p className={styles.peleadores__card__name}>Michael Chandler</p>
                     </Link>
                     <Link href='/peleadores/max-holloway' className={`${styles.peleadores__card} ${styles.peleadores__card_holloway}`}>
-                        <h3 className={styles.peleadores__card__name}>Max Holloway</h3>
+                        <p className={styles.peleadores__card__name}>Max Holloway</p>
                     </Link>
                     <Link href='/peleadores/kamaru-usman' className={`${styles.peleadores__card} ${styles.peleadores__card_usman}`}>
-                        <h3 className={styles.peleadores__card__name}>Kamaru Usman</h3>
+                        <p className={styles.peleadores__card__name}>Kamaru Usman</p>
                     </Link>
                     <Link href='/peleadores/colby-covington' className={`${styles.peleadores__card} ${styles.peleadores__card_covington}`}>
-                        <h3 className={styles.peleadores__card__name}>Colby Covington</h3>
+                        <p className={styles.peleadores__card__name}>Colby Covington</p>
                     </Link>
                     <Link href='/peleadores/marlon-vera' className={`${styles.peleadores__card} ${styles.peleadores__card_vera}`}>
-                        <h3 className={styles.peleadores__card__name}>Marlon Vera</h3>
+                        <p className={styles.peleadores__card__name}>Marlon Vera</p>
                     </Link>
                     <Link href='/peleadores/arman-tsarukyan' className={`${styles.peleadores__card} ${styles.peleadores__card_tsarukyan}`}>
-                        <h3 className={styles.peleadores__card__name}>Arman Tsarukyan</h3>
+                        <p className={styles.peleadores__card__name}>Arman Tsarukyan</p>
                     </Link>
                     <Link href='/peleadores/francis-ngannou' className={`${styles.peleadores__card} ${styles.peleadores__card_ngannou}`}>
-                        <h3 className={styles.peleadores__card__name}>Francis Ngannou</h3>
+                        <p className={styles.peleadores__card__name}>Francis Ngannou</p>
                     </Link>
                 </article>
                 <h2 className={styles.peleadores__subtitle}>Campeones de UFC</h2>
                 <article className={styles.peleadores__container}>
                 <Link href='/peleadores/ilia-topuria' className={`${styles.peleadores__card} ${styles.peleadores__card_illia}`}>
-                        <h3 className={styles.peleadores__card__name}>Ilia Topuria</h3>
+                        <p className={styles.peleadores__card__name}>Ilia Topuria</p>
                     </Link>
                     <Link href='/peleadores/islam-makhachev' className={`${styles.peleadores__card} ${styles.peleadores__card_makhachev}`}>
-                        <h3 className={styles.peleadores__card__name}>Islam Makhachev</h3>
+                        <p className={styles.peleadores__card__name}>Islam Makhachev</p>
                     </Link>
                     <Link href='/peleadores/sean-omalley' className={`${styles.peleadores__card} ${styles.peleadores__card_omalley}`}>
-                        <h3 className={styles.peleadores__card__name}>Sean O&apos;malley</h3>
+                        <p className={styles.peleadores__card__name}>Sean O&apos;malley</p>
                     </Link>
                     <Link href='/peleadores/alex-pereira' className={`${styles.peleadores__card} ${styles.peleadores__card_pereira}`}>
-                        <h3 className={styles.peleadores__card__name}>Alex Pereira</h3>
+                        <p className={styles.peleadores__card__name}>Alex Pereira</p>
                     </Link>
                     <Link href='/peleadores/alexandre-pantoja' className={`${styles.peleadores__card} ${styles.peleadores__card_pantoja}`}>
-                        <h3 className={styles.peleadores__card__name}>Alexandre Pantoja</h3>
+                        <p className={styles.peleadores__card__name}>Alexandre Pantoja</p>
                     </Link>
                     <Link href='/peleadores/leon-edwards' className={`${styles.peleadores__card} ${styles.peleadores__card_edwards}`}>
-                        <h3 className={styles.peleadores__card__name}>Leon Edwards</h3>
+                        <p className={styles.peleadores__card__name}>Leon Edwards</p>
                     </Link>
                     
                     <Link href='/peleadores/jon-jones' className={`${styles.peleadores__card} ${styles.peleadores__card_jones}`}>
-                        <h3 className={styles.peleadores__card__name}>Jon Jones</h3>
+                        <p className={styles.peleadores__card__name}>Jon Jones</p>
                     </Link>
                     
                     <Link href='/peleadores/tom-aspinall' className={`${styles.peleadores__card} ${styles.peleadores__card_aspinall}`}>
-                        <h3 className={styles.peleadores__card__name}>Tom Aspinall</h3>
+                        <p className={styles.peleadores__card__name}>Tom Aspinall</p>
                     </Link>
                     <Link href='/peleadores/du-plessis' className={`${styles.peleadores__card} ${styles.peleadores__card_duPlessis}`}>
-                        <h3 className={styles.peleadores__card__name}>Dricus Du Plessis</h3>
+                        <p className={styles.peleadores__card__name}>Dricus Du Plessis</p>
                     </Link>
                 </article>
                 <h2 className={styles.peleadores__subtitle}>Peleadores argentinos de MMA</h2>
                 <article className={styles.peleadores__container}>
                     <Link href='/peleadores/emiliano-sordi' className={`${styles.peleadores__card} ${styles.peleadores__card_emiliano}`}>
-                        <h3 className={styles.peleadores__card__name}>Emiliano Sordi</h3>
+                        <p className={styles.peleadores__card__name}>Emiliano Sordi</p>
                     </Link>
                     <Link href='/peleadores/santiago-ponzinibbio' className={`${styles.peleadores__card} ${styles.peleadores__card_ponzinibbio}`}>
-                        <h3 className={styles.peleadores__card__name}>Santiago Ponzinibbio</h3>
+                        <p className={styles.peleadores__card__name}>Santiago Ponzinibbio</p>
                     </Link>
                     <Link href='/peleadores/laureano-staropoli' className={`${styles.peleadores__card} ${styles.peleadores__card_staropoli}`}>
-                        <h3 className={styles.peleadores__card__name}>Laureano Staropoli</h3>
+                        <p className={styles.peleadores__card__name}>Laureano Staropoli</p>
                     </Link>
                     <Link href='/peleadores/franco-tenaglia' className={`${styles.peleadores__card} ${styles.peleadores__card_tenaglia}`}>
-                        <h3 className={styles.peleadores__card__name}>Franco Tenaglia</h3>
+                        <p className={styles.peleadores__card__name}>Franco Tenaglia</p>
                     </Link>
                     <Link href='/peleadores/guido-cannetti' className={`${styles.peleadores__card} ${styles.peleadores__card_canetti}`}>
-                        <h3 className={styles.peleadores__card__name}>Guido Cannetti</h3>
+                        <p className={styles.peleadores__card__name}>Guido Cannetti</p>
                     </Link>
                 </article>
             </section>

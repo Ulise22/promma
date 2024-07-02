@@ -12,30 +12,30 @@ import volkanovski from '@/assets/peleadores__images/0-10/alexander-volkanovski/
 export default function AsideFighter () {
     return(
         <aside className={styles.campeones__container}>
-            <h3>Peleadores Populares de UFC</h3>
+            <p className={styles.campones__title}>Peleadores Populares de UFC</p>
             <Link href='/peleadores/conor-mcgregor' className={styles.campeones}>
                 <Image className={styles.campeones__image} src={mcgregor} alt='Conor Mcgregor' />
-                <h4>Conor McGregor</h4>
+                <p className={styles.campeones__name}>Conor McGregor</p>
             </Link>
             <Link href='/peleadores/khamzat-chimaev' className={styles.campeones}>
                 <Image className={styles.campeones__image} src={chimaev} alt='Khamzat Chimaev' />
-                <h4>Khamzat Chimaev</h4>
+                <p className={styles.campeones__name}>Khamzat Chimaev</p>
             </Link>
             <Link href='/peleadores/justin-gaethje' className={styles.campeones}>
                 <Image className={styles.campeones__image} src={gaethje} alt='Justin Gaethje' />
-                <h4>Justin Gaethje</h4>
+                <p className={styles.campeones__name}>Justin Gaethje</p>
             </Link>
             <Link href='/peleadores/dustin-poirier' className={styles.campeones}>
                 <Image className={styles.campeones__image} src={poirier} alt='Dustin Poirier' />
-                <h4>Dustin Poirier</h4>
+                <p className={styles.campeones__name}>Dustin Poirier</p>
             </Link>
             <Link href='/peleadores/colby-covington' className={styles.campeones}>
                 <Image className={styles.campeones__image} src={colby} alt='Colby Covington' />
-                <h4>Colby Covington</h4>
+                <p className={styles.campeones__name}>Colby Covington</p>
             </Link>
             <Link href='/peleadores/alexander-volkanovski' className={styles.campeones}>
                 <Image className={styles.campeones__image} src={volkanovski} alt='Alexander Volkanovski' />
-                <h4>Alexander Volkanovski</h4>
+                <p className={styles.campeones__name}>Alexander Volkanovski</p>
             </Link>
         </aside>
     )

@@ -17,7 +17,7 @@ export default function NoticiasPage () {
     return(
         <section className={styles.noticiaspage__container}>
             <Noticias />
-            <h2 className={styles.noticiasPage__subtitle}>Todas Las Noticias</h2>
+            <p className={styles.noticiasPage__subtitle}>Todas Las Noticias</p>
             <article className={styles.noticias}>
                 <ArticlePreview img={ailin} url='/noticias/ailin-vs-joselyne' title='La Argentina Ailín Pérez Gana su Pelea por Decisión Unánime en UFC 302' author={null} text='En un combate contra la panameña Joselyne Edwards, Ailín demostró ser la clara ganadora de un combate en el que incluso estuvo cerca de noquear a su rival.' date='01/06/2024' />
                 <ArticlePreview img={ufc299} url='/noticias/ufc299' title='UFC 299: ¡Sean Omalley vence a Chito y Sigue Siendo Campeón!¡Dustin Poirier Gana por Nocaut en el Segundo Asalto!' author={null} text='En una noche que nos regalos peleas espectaculares, Sean O&apos;malley defendió su título luego de dominar la pelea durante 5 asaltos y Dustin Poirier fue capaz de noquear a Saint Denis en el segundo asalto.' date='10/03/2024' />

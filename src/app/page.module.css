@@ -17,6 +17,8 @@
 }
 
 .home__peleadores__title {
+  font-size: 24px;
+  font-weight: 700;
   border-bottom: 1px solid #ccc;
   padding: 10px 0;
 }
@@ -37,6 +39,11 @@
   background-size: cover;
   text-decoration: none;
   color: #fff;
+}
+
+.peleadores__card__name {
+  font-size: 19px;
+  font-weight: 700;
 }
 
 .peleadores__card:hover {
