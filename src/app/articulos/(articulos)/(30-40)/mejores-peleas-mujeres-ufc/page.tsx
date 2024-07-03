@@ -2,9 +2,20 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/heros/30-40/mejores_peleas_mujeres-hero.jpg'
+
+export const metadata: Metadata = {
+    title: 'Mejores Peleas de Mujeres en UFC',
+    description: 'El listado de las 5 mejores peleas femeninas en la historia de la UFC',
+    openGraph: {
+        title: 'Mejores Peleas de Mujeres en UFC',
+        description: 'El listado de las 5 mejores peleas femeninas en la historia de la UFC',
+        images: '@/assets/articulos/heros/30-40/mejores_peleas_mujeres-hero.jpg'
+    }
+}
 
 export default function MejoresPeleasMujeres () {
     return(
