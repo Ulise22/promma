@@ -2,9 +2,20 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/heros/20-30/amanda_nunes_vuelve-hero.jpg'
+
+export const metadata: Metadata = {
+    title: '¿Vuelve Amanda Nunes a Pelear?',
+    description: 'La mejor peleadora de la historia de las MMA está retirada, pero si se mueve la división de peso gallo femenino ¿Volverá al Octagono?',
+    openGraph: {
+        title: '¿Vuelve Amanda Nunes a Pelear?',
+        description: 'La mejor peleadora de la historia de las MMA está retirada, pero si se mueve la división de peso gallo femenino ¿Volverá al Octagono?',
+        url: 'https://fullmma.org/noticias/vuelve-amanda-nunes'
+    }
+}
 
 export default function VuelveAmandaNunes () {
     return(

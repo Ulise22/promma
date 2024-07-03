@@ -13,7 +13,6 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Todas Las Peleas de Luchadores de MMA en Boxeo',
         description: 'El listado con 5 de los combates donde un luchador de UFC intentó boxear con un boxeador profesional',
-        images: '@/assets/articulos/heros/30-40/boxeador_vs_mma-hero.jpg',
         url: 'https://fullmma.org/articulos/boxeador-vs-mma'
     }
 }

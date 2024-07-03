@@ -2,9 +2,20 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/heros/30-40/shara_magomedov_ojo-hero.png'
+
+export const metadata: Metadata = {
+    title: 'Shara Bullet Ojo',
+    description: 'Una de las mayores promesas de la UFC y cómo es capaz de pelear a pesar de haber perdido la visión en uno de sus ojos.',
+    openGraph: {
+        title: 'Shara Bullet Ojo',
+        description: 'Una de las mayores promesas de la UFC y cómo es capaz de pelear a pesar de haber perdido la visión en uno de sus ojos.',
+        url: 'https://fullmma.org/articulos/shara-magomedov-ojo'
+    }
+}
 
 export default function SharaMagomedovOjo () {
     return(

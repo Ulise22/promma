@@ -2,9 +2,20 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/heros/30-40/gina_carano-hero.jpg'
+
+export const metadata: Metadata = {
+    title: 'Gina Carano: La Primera Estrella Femenina de las MMA',
+    description: 'La historia de una de las precursoras de las MMA femeninas y su posterior inserción en el mundo de Hollywood.',
+    openGraph: {
+        title: 'Gina Carano: La Primera Estrella Femenina de las MMA',
+        description: 'La historia de una de las precursoras de las MMA femeninas y su posterior inserción en el mundo de Hollywood.',
+        url: 'https://fullmma.org/articulos/gina-carano-historia'
+    }
+}
 
 export default function GinaCaranoHistoria () {
     return(

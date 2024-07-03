@@ -2,9 +2,20 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/heros/30-40/division_goats-hero.jpg'
+
+export const metadata: Metadata = {
+    title: 'GOATS de Cada División de la UFC',
+    description: 'La lista con el mejor peleador histórico de cada división de la UFC',
+    openGraph: {
+        title: 'Gina Carano: La Primera Estrella Femenina de las MMA',
+        description: 'La historia de una de las precursoras de las MMA femeninas y su posterior inserción en el mundo de Hollywood.',
+        url: 'https://fullmma.org/articulos/mejores-peleas-por-division-ufc'
+    }
+}
 
 export default function PeleadorMasSucioUFC () {
     return(

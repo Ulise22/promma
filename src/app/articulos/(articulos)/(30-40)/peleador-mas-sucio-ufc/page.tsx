@@ -2,14 +2,25 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/heros/30-40/rousimar_palhares-hero.jpg'
 
+export const metadata: Metadata = {
+    title: 'El Peleador Más Sucio de la UFC',
+    description: 'La historia de Rousimar Palhares y de cómo por su comportamiento completamente antideportivo, terminó siendo expulsado de la UFC.',
+    openGraph: {
+        title: 'El Peleador Más Sucio de la UFC',
+        description: 'La historia de Rousimar Palhares y de cómo por su comportamiento completamente antideportivo, terminó siendo expulsado de la UFC.',
+        url: 'https://fullmma.org/articulos/peleador-mas-sucio-ufc'
+    }
+}
+
 export default function PeleadorMasSucioUFC () {
     return(
         <main>
-            <ArticleHero title='El Peleador Más Sucio de la Historia Espulsado de la UFC' subtitle='Rousimar Palhares, el luchador más sucio de la historia de las MMA que por su comportamiento dentro del octagono fue expulsado de la UFC.' image={hero} date='2024-06-18' author={null} />
+            <ArticleHero title='El Peleador Más Sucio de la Historia Expulsado de la UFC' subtitle='Rousimar Palhares, el luchador más sucio de la historia de las MMA que por su comportamiento dentro del octagono fue expulsado de la UFC.' image={hero} date='2024-06-18' author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>En un deporte de combate, donde está permitido practicamente todo, desde puñetazos, patadas, rodillazos, codazos, estrangulaciones, luxaciones, llaves de todo tipo que dejarían asustados a cualquiera, imagina lo sucio que tenés que ser para ser vetado de un deporte así. Es el caso del luchador brasileño <b>Rousimar Palhares</b>, que luego de ser sancionado 3 veces en la <Link href='/articulos/ufc'>UFC</Link>, terminó por ser expulsado de la compañía por su comportamiento fuera y especialmente dentro del octagono.</p>

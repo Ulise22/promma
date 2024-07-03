@@ -2,9 +2,20 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/heros/30-40/pridefc-hero.jpg'
+
+export const metadata: Metadata = {
+    title: '¿Qué Pasó con Pride FC?',
+    description: 'La historia de cómo el control de la mafia japonea Yakuza acabó con el reinado de la mayor compañía de MMA de la historia, y su posterior compra por parte de la UFC.',
+    openGraph: {
+        title: '¿Qué Pasó con Pride FC?',
+        description: 'La historia de cómo el control de la mafia japonea Yakuza acabó con el reinado de la mayor compañía de MMA de la historia, y su posterior compra por parte de la UFC.',
+        url: 'https://fullmma.org/articulos/que-paso-con-pride-fc'
+    }
+}
 
 export default function PeleadorMasSucioUFC () {
     return(
