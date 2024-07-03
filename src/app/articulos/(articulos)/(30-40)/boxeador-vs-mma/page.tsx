@@ -2,9 +2,21 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/heros/30-40/boxeador_vs_mma-hero.jpg'
+
+export const metadata: Metadata = {
+    title: 'Todas Las Peleas de Luchadores de MMA en Boxeo',
+    description: 'El listado con 5 de los combates donde un luchador de UFC intentó boxear con un boxeador profesional',
+    openGraph: {
+        title: 'Todas Las Peleas de Luchadores de MMA en Boxeo',
+        description: 'El listado con 5 de los combates donde un luchador de UFC intentó boxear con un boxeador profesional',
+        images: '@/assets/articulos/heros/30-40/boxeador_vs_mma-hero.jpg',
+        url: 'https://fullmma.org/articulos/boxeador-vs-mma'
+    }
+}
 
 export default function BoxeoVsMMA () {
     return(

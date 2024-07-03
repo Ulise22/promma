@@ -13,7 +13,8 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Mejores Peleas de Mujeres en UFC',
         description: 'El listado de las 5 mejores peleas femeninas en la historia de la UFC',
-        images: '@/assets/articulos/heros/30-40/mejores_peleas_mujeres-hero.jpg'
+        images: '@/assets/articulos/heros/30-40/mejores_peleas_mujeres-hero.jpg',
+        url: 'https://fullmma.org/articulos/mejores-peleas-mujeres-ufc'
     }
 }
 
