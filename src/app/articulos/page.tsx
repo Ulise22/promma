@@ -42,6 +42,7 @@ import boxeadorVsMMA from '@/assets/articulos/previews/30-40/boxeador_vs_mma-pre
 import magomedovOjo from '@/assets/articulos/previews/30-40/shara_magomedov_ojo-preview.jpg'
 import divisionGoats from '@/assets/articulos/previews/30-40/division_goats-preview.jpg'
 import daveBautista from '@/assets/articulos/previews/30-40/dave_bautista-preview.jpg'
+import jorgeMasvidal from '@/assets/articulos/previews/30-40/jorge_masvidal-preview.jpg'
 
 export default function Articulos () {
     return(
@@ -49,13 +50,14 @@ export default function Articulos () {
             <PageHero />
             <section className={styles.articles__container}>
                 {/* <ArticlePreview img={magomedovOjo} url='/articulos/shara-magomedov-ojo' title='¿Qué le Pasó en el Ojo a Shara Magomedov?' author={null} text='Una de las mayores promesas de la UFC y cómo es capaz de pelear a pesar de haber perdido la visión en uno de sus ojos.' date='22/06/2024' /> */}
+                <ArticlePreview img={jorgeMasvidal} url='/articulos/jorge-masvidal-historia' title='La Biografía de Jorge Masvidal' author={null} text='La historia de uno de los peleadores favoritos de los fans, que llegó a pelear 2 veces por el título y es recordado como el primer BMF de la UFC.' date='04/07/2024' />
                 <ArticlePreview img={daveBautista} url='/articulos/dave-bautista-mma' title='Cuando el Actor de Hollywood Dave Bautista Hizo su Debut en MMA' author={null} text='El día en que se dió la pelea en MMA de Dave Bautista ante Vince Lucero.' date='28/06/2024' />
                 <ArticlePreview img={divisionGoats} url='/articulos/mejores-peleadores-por-division-ufc' title='Los Mejores Peleadores de la Historia de Cada Division de UFC' author={null} text='La lista del mejor peleador histórico de cada división de la UFC' date='27/06/2024' />
                 <ArticlePreview img={boxeadorVsMMA} url='/articulos/boxeador-vs-mma' title='Boxeador vs MMA: Las Peleas Entre Boxeo y MMA' author={null} text='Los enfrentamientos entre luchadores de MMA y boxeadores que se han dado en boxeo.' date='20/06/2024' />
-                <ArticlePreview img={ginaCarano} url='/articulos/gina-carano-historia' title='Gina Carano: La Primera Estrella Femenina de las MMA' author={null} text='La historia de una de las mujeres más importantes en la historia de las MMA, que pasó de ser una de las procursoras de las MMA femeninas a una estrella de cine.' date='20/06/2024' />
                 </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={ginaCarano} url='/articulos/gina-carano-historia' title='Gina Carano: La Primera Estrella Femenina de las MMA' author={null} text='La historia de una de las mujeres más importantes en la historia de las MMA, que pasó de ser una de las procursoras de las MMA femeninas a una estrella de cine.' date='20/06/2024' />
                 <ArticlePreview img={bispingOjo} url='/articulos/michael-bisping-ojo' title='Michael Bisping: El Luchador Inglés de UFC Que Perdió un Ojo Peleando' author={null} date='13/06/2024' text='La historia de cómo el peleador de Reino Unido perdió su ojo durante una pelea de UFC, y cómo a pesar de eso logró ser campeón.' />
                 <ArticlePreview img={pridefc} url='/articulos/que-paso-con-pride-fc' title='¿Qué Pasó con Pride FC?' author={null} text='Cómo el control de la mafia japonea Yakuza acabó con el reinado de la mayor compañía de MMA de la historia.' date='19/06/2024' />
                 <ArticlePreview img={palhares} url='/articulos/peleador-mas-sucio-ufc' title='El Peleador Más Sucio de la Historia Expulsado de la UFC' author={null} text='Rousimar Palhares, el luchador más sucio de la historia de las MMA que por su comportamiento dentro del octagono fue expulsado de la UFC.' date='19/06/2024' />
