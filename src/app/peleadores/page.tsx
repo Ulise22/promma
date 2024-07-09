@@ -61,6 +61,9 @@ export default function Peleadores () {
                     <Link href='/peleadores/francis-ngannou' className={`${styles.peleadores__card} ${styles.peleadores__card_ngannou}`}>
                         <p className={styles.peleadores__card__name}>Francis Ngannou</p>
                     </Link>
+                    <Link href='/peleadores/belal-muhammad' className={`${styles.peleadores__card} ${styles.peleadores__card_belal}`}>
+                        <p className={styles.peleadores__card__name}>Belal Muhammad</p>
+                    </Link>
                 </article>
                 <h2 className={styles.peleadores__subtitle}>Campeones de UFC</h2>
                 <article className={styles.peleadores__container}>
