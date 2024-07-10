@@ -6,6 +6,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Sean Strickland',
+    description: 'Sean Strickland es un peleador estadounidense de MMA que compite en la compañía UFC, y es excapeón de Peso Medio de UFC, luego de que quien en su momento llegó a ocupar el 5to lugar en su división, le arrebatara el título a Israel Adensanya.',
+    openGraph: {
+        title: 'Sean Strickland',
+        description: 'Sean Strickland es un peleador estadounidense de MMA que compite en la compañía UFC, y es excapeón de Peso Medio de UFC, luego de que quien en su momento llegó a ocupar el 5to lugar en su división, le arrebatara el título a Israel Adensanya.',
+        url: 'https://fullmma.org/peleadores/sean-strickland'
+    }
+}
 
 export default function Strickland () {
     return(

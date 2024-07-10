@@ -3,6 +3,17 @@ import adesanya from '@/assets/peleadores__images/20-30/israel-adesanya/israel-a
 import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Israel Adesanya',
+    description: 'Israel Adesanya es un luchador nacido en Nigeria que compite en la UFC y es sin duda uno de los mejores luchadores de la historia de los peso medio de la compañía desde que llegara e hiciera su debut en febrero de 2018, cuando venció por TKO al australiano Rob Wilkinson. El nacionalizado neozelandés supo ser campeón de la compañía en 2 ocasiones y pudo defender su cinturón en varias ocasiones.',
+    openGraph: {
+        title: 'Israel Adesanya',
+        description: 'Israel Adesanya es un luchador nacido en Nigeria que compite en la UFC y es sin duda uno de los mejores luchadores de la historia de los peso medio de la compañía desde que llegara e hiciera su debut en febrero de 2018, cuando venció por TKO al australiano Rob Wilkinson. El nacionalizado neozelandés supo ser campeón de la compañía en 2 ocasiones y pudo defender su cinturón en varias ocasiones.',
+        url: 'https://fullmma.org/peleadores/israel-adesanya'
+    }
+}
 
 export default function Prochazka () {
     return(

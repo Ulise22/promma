@@ -5,6 +5,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: "Sean O'Malley",
+    description: "Sean O'Malley es un peleador estadounindense de UFC, que compite en la comapañía en la división de Peso Gallo desde diciembre de 2017, cuando debutaría contra su compatriota Terrion Ware, a quien vencería por decisión unánime. El 19 de agosto de 2023 se consagraría como una de las estrellas de la compañía, al derrotar al entonces campeón de la división Aljamain Sterling, a quien venció por TKO en el segundo asalto, convirtiéndose en el nuevo campeón de la división.",
+    openGraph: {
+        title: "Sean O'Malley",
+        description: "Sean O'Malley es un peleador estadounindense de UFC, que compite en la comapañía en la división de Peso Gallo desde diciembre de 2017, cuando debutaría contra su compatriota Terrion Ware, a quien vencería por decisión unánime. El 19 de agosto de 2023 se consagraría como una de las estrellas de la compañía, al derrotar al entonces campeón de la división Aljamain Sterling, a quien venció por TKO en el segundo asalto, convirtiéndose en el nuevo campeón de la división.",
+        url: 'https://fullmma.org/peleadores/sean-omalley'
+    }
+}
 
 export default function Omalley () {
     return(

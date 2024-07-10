@@ -3,6 +3,17 @@ import tsarukyan from '@/assets/peleadores__images/20-30/arman-tsarukyan/arman-t
 import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Arman Tsarukyan',
+    description: 'Arman Tsarukyan en peleador de nacionalidad armenia y rusa, que compite en la división de peso ligero de la UFC, desde que hiciera su debut contra el ruso Islam Makhachev el 20 de abril de 2019, quien luego de 3 asaltos lo derrotaría por decisión unánime.',
+    openGraph: {
+        title: 'Arman Tsarukyan',
+        description: 'Arman Tsarukyan en peleador de nacionalidad armenia y rusa, que compite en la división de peso ligero de la UFC, desde que hiciera su debut contra el ruso Islam Makhachev el 20 de abril de 2019, quien luego de 3 asaltos lo derrotaría por decisión unánime.',
+        url: 'https://fullmma.org/peleadores/arman-tsarukyan'
+    }
+}
 
 export default function Tsarukyan () {
     return(

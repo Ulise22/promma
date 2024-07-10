@@ -6,6 +6,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import AsideFighter from '@/app/components/asides/AsideFighter'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Alex Pereira',
+    description: 'Alexandre Pantoja es un peleador de mma brasileño y el actual campeón de Peso Mosca en la UFC, cosa que logró luego de ganarle al peleador mexicano Brandom Moreno, por decisión dividida en el UFC 290, evento que se organizó en las vegas.',
+    openGraph: {
+        title: 'Alex Pereira',
+        description: 'Alexandre Pantoja es un peleador de mma brasileño y el actual campeón de Peso Mosca en la UFC, cosa que logró luego de ganarle al peleador mexicano Brandom Moreno, por decisión dividida en el UFC 290, evento que se organizó en las vegas.',
+        url: 'https://fullmma.org/peleadores/alex-pereira'
+    }
+}
 
 export default function AlexPereira () {
     return(

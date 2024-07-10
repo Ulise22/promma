@@ -7,6 +7,17 @@ import fight from '@/assets/peleadores__images/0-10/chito-vera/vera_fight.jpg'
 import chito from '@/assets/peleadores__images/0-10/chito-vera/chito-vera.jpg'
 import marlon from '@/assets/peleadores__images/0-10/chito-vera/chito_vera.jpg'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Marlon Vera',
+    description: 'Marlon "Chito" Vera, es un peleador ecuatoriano de MMA que compite en la División de Peso Gallo de la UFC en la pelea desde que hiciera su debut en UFC 180 el 15 de noviembre de 2015, cuando se enfrentaría al mexicano Marco Beltrán, con quien caería derrotado por decisión unánime luego de los 3 asaltos. Sin embargo, desde aquel día pasó un tiempo y actualmente se encuentra ranqueado #6 en la división en que compite.',
+    openGraph: {
+        title: 'Marlon Vera',
+        description: 'Marlon "Chito" Vera, es un peleador ecuatoriano de MMA que compite en la División de Peso Gallo de la UFC en la pelea desde que hiciera su debut en UFC 180 el 15 de noviembre de 2015, cuando se enfrentaría al mexicano Marco Beltrán, con quien caería derrotado por decisión unánime luego de los 3 asaltos. Sin embargo, desde aquel día pasó un tiempo y actualmente se encuentra ranqueado #6 en la división en que compite.',
+        url: 'https://fullmma.org/peleadores/marlon-vera'
+    }
+}
 
 export default function Chito () {
     return(

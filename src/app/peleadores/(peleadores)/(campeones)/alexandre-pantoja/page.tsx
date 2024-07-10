@@ -3,6 +3,17 @@ import pantoja from '@/assets/peleadores__images/0-10/alexandre-pantoja/pantoja.
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import AsideFighter from '@/app/components/asides/AsideFighter'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Alexandre Pantoja',
+    description: 'Alex Pereira es el actual campeón de Peso Semipesado de MMA y es el número #5 libra por libra de la UFC, luego de que recientemente derrotará por nocaut a su rival JIŘÍ PROCHÁZKA en el segundo asalto, ganando así el título que había quedado vacante en la división.',
+    openGraph: {
+        title: 'Alexandre Pantoja',
+        description: 'Alex Pereira es el actual campeón de Peso Semipesado de MMA y es el número #5 libra por libra de la UFC, luego de que recientemente derrotará por nocaut a su rival JIŘÍ PROCHÁZKA en el segundo asalto, ganando así el título que había quedado vacante en la división.',
+        url: 'https://fullmma.org/peleadores/alexandre-pantoja'
+    }
+}
 
 export default function Pantoja () {
     return(

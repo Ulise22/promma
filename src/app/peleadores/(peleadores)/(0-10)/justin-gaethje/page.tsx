@@ -8,6 +8,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Justin Gaethje',
+    description: 'Justin Gaethje actualmente se encuentra ranqueado número #2 en la división de Peso Ligero de UFC donde pelea desde 2017, habiendo hecho su debut en The Ultimate Fighter contra Michael Johnson el 7 de julio en Las Vegas, ganando por TKO en el segundo asalto, y habiendo hecho su debut en un evento de UFC el 2 de diciembre en UFC 218 contra Eddie Alvarez, quien lo venció por TKO en el tercer asalto.',
+    openGraph: {
+        title: 'Justin Gaethje',
+        description: 'Justin Gaethje actualmente se encuentra ranqueado número #2 en la división de Peso Ligero de UFC donde pelea desde 2017, habiendo hecho su debut en The Ultimate Fighter contra Michael Johnson el 7 de julio en Las Vegas, ganando por TKO en el segundo asalto, y habiendo hecho su debut en un evento de UFC el 2 de diciembre en UFC 218 contra Eddie Alvarez, quien lo venció por TKO en el tercer asalto.',
+        url: 'https://fullmma.org/peleadores/justin-gaethje'
+    }
+}
 
 export default function Gaethje () {
     return(

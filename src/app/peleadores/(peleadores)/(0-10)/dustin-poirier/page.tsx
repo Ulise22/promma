@@ -8,6 +8,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Dustin Poirier',
+    description: 'Dustin Poirier es un peleador estadounidense de MMA que actualmente se encuentra #3 en los rankings de Peso Ligero de la UFC. Ha llegado a ser campeón interino de su división, luego de ganarle por decisión unánime a Max Holloway en UFC 236. Aunque luego perdería sus 2 oportunidades de ganar el título de Peso ligero, primero con Khabib Nurmagomédov, a quien enfrentó en UFC 242 poco después de vencer a Holloway, la pelea terminaría en una victoria para el ruso en el tercer asalto por una sumisión. Su segunda oportunidad por el título sería cuando este estuviera en manos de Charles Oliveira, quien lo venció también con una sumisión en el tercer asalto.',
+    openGraph: {
+        title: 'Dustin Poirier',
+        description: 'Dustin Poirier es un peleador estadounidense de MMA que actualmente se encuentra #3 en los rankings de Peso Ligero de la UFC. Ha llegado a ser campeón interino de su división, luego de ganarle por decisión unánime a Max Holloway en UFC 236. Aunque luego perdería sus 2 oportunidades de ganar el título de Peso ligero, primero con Khabib Nurmagomédov, a quien enfrentó en UFC 242 poco después de vencer a Holloway, la pelea terminaría en una victoria para el ruso en el tercer asalto por una sumisión. Su segunda oportunidad por el título sería cuando este estuviera en manos de Charles Oliveira, quien lo venció también con una sumisión en el tercer asalto.',
+        url: 'https://fullmma.org/peleadores/dustin-poirier'
+    }
+}
 
 export default function Poirier () {
     return(

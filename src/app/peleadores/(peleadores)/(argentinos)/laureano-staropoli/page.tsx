@@ -6,6 +6,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Laureano Staropoli',
+    description: 'Laureano Staropoli luchó poco más de 3 años en UFC, haciendo su debut con una victoria por decisión unánime contra el mexicano Hector Aldana en nuestro país Argentina, en el evento encabezado por Santiago Ponzinibbio, donde además se convirtiría en la pelea de la noche.',
+    openGraph: {
+        title: 'Laureano Staropoli',
+        description: 'Laureano Staropoli luchó poco más de 3 años en UFC, haciendo su debut con una victoria por decisión unánime contra el mexicano Hector Aldana en nuestro país Argentina, en el evento encabezado por Santiago Ponzinibbio, donde además se convirtiría en la pelea de la noche.',
+        url: 'https://fullmma.org/peleadores/laureano-staropoli'
+    }
+}
 
 export default function Staropoli () {
     return(

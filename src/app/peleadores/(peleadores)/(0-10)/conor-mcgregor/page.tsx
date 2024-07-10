@@ -7,6 +7,17 @@ import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import Image from 'next/image'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Conor Mcgregor',
+    description: 'Conor Anthony Mcgregor nació en Dublín, Irlanda, el 14 de julio e 1988. A los 12 años comenzó a entrenar boxeo y en su adolescencia conoció al futuro peleador de ufc Tom Egan, con quien comenzó a entrenar artes marciales mixtas.',
+    openGraph: {
+        title: 'Conor Mcgregor',
+        description: 'Conor Anthony Mcgregor nació en Dublín, Irlanda, el 14 de julio e 1988. A los 12 años comenzó a entrenar boxeo y en su adolescencia conoció al futuro peleador de ufc Tom Egan, con quien comenzó a entrenar artes marciales mixtas.',
+        url: 'https://fullmma.org/peleadores/conor-mcgregor'
+    }
+}
 
 export default function Mcgregor () {
     return(

@@ -6,6 +6,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Kamaru Usman',
+    description: 'Kamaru Usman es un peleador de origen nigeriano que actualmente está rankeado en el puesto #1 de la división de Peso Welter, en donde llegó a ser campeón en marzo de 2019m cuando le arrebataría el título por decisión unánime al estadounidense Tyron Woodley. Tuvo 5 defensas por el título exitosas hasta que el 20 de agosto perdió el título por KO en el 5to asalto contra el jamaicano Leon Edwards, a quien tuvo la oportunidad de volver a enfrentar poco después sin mucho exito.',
+    openGraph: {
+        title: 'Kamaru Usman',
+        description: 'Kamaru Usman es un peleador de origen nigeriano que actualmente está rankeado en el puesto #1 de la división de Peso Welter, en donde llegó a ser campeón en marzo de 2019m cuando le arrebataría el título por decisión unánime al estadounidense Tyron Woodley. Tuvo 5 defensas por el título exitosas hasta que el 20 de agosto perdió el título por KO en el 5to asalto contra el jamaicano Leon Edwards, a quien tuvo la oportunidad de volver a enfrentar poco después sin mucho exito.',
+        url: 'https://fullmma.org/peleadores/kamaru-usman'
+    }
+}
 
 export default function Usman () {
     return(

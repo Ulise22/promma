@@ -6,6 +6,17 @@ import sparring from '@/assets/peleadores__images/argentinos/guido-cannetti/guid
 import guido from '@/assets/peleadores__images/argentinos/guido-cannetti/guido_cannetti.jpg'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Guido Cannetti',
+    description: 'Guido Cannetti es un peleador argentino de MMA que compite en la división de Peso Gallo de la UFC desde hace casi 10 años, desde que debutara en UFC 180 contra el mexicano Henry Briones con quien caería derrotado por una sumisión en el segundo asalto, sin embargo aquella sería elegida la pelea de la noche.',
+    openGraph: {
+        title: 'Guido Cannetti',
+        description: 'Guido Cannetti es un peleador argentino de MMA que compite en la división de Peso Gallo de la UFC desde hace casi 10 años, desde que debutara en UFC 180 contra el mexicano Henry Briones con quien caería derrotado por una sumisión en el segundo asalto, sin embargo aquella sería elegida la pelea de la noche.',
+        url: 'https://fullmma.org/peleadores/guido-cannetti'
+    }
+}
 
 export default function Staropoli () {
     return(

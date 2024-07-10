@@ -6,6 +6,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Tony Ferguson',
+    description: 'Anthony Ferguson ha peleado en UFC durante poco más de 10 años. Tiempo en el que consiguió ser campeón de The Ultimate Fighter 13 y UFC 216. Firmó con la UFC en 2011 para competir en The Ultimate Fighter de parte del equipo Lesnar. Actualmente se encuentra en el equipo Snap Down City Academy.',
+    openGraph: {
+        title: 'Tony Ferguson',
+        description: 'Anthony Ferguson ha peleado en UFC durante poco más de 10 años. Tiempo en el que consiguió ser campeón de The Ultimate Fighter 13 y UFC 216. Firmó con la UFC en 2011 para competir en The Ultimate Fighter de parte del equipo Lesnar. Actualmente se encuentra en el equipo Snap Down City Academy.',
+        url: 'https://fullmma.org/peleadores/tony-ferguson'
+    }
+}
 
 export default function Ferguson () {
     return(

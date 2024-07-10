@@ -3,6 +3,17 @@ import edwards from '@/assets/peleadores__images/10-20/leon-edwards/edwards.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import AsideFighter from '@/app/components/asides/AsideFighter'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Leon Edwards',
+    description: 'Actual campeón de UFC 278 y UFC 286, habiendo ganado en ambas ocasiones contra Kamaru Usman. Lleva peleando profesionalmente en la UFC 9 años. Actualmente está en el equipo UTC Birmingham, con solo dos derrotas oficiales de la UFC.',
+    openGraph: {
+        title: 'Leon Edwards',
+        description: 'Actual campeón de UFC 278 y UFC 286, habiendo ganado en ambas ocasiones contra Kamaru Usman. Lleva peleando profesionalmente en la UFC 9 años. Actualmente está en el equipo UTC Birmingham, con solo dos derrotas oficiales de la UFC.',
+        url: 'https://fullmma.org/peleadores/leon-edwards'
+    }
+}
 
 export default function LeonEdwards () {
     return(

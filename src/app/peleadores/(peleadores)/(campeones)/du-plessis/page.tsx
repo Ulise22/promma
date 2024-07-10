@@ -7,6 +7,17 @@ import usman from '@/assets/peleadores__images/0-10/dricus-du-plessis/dricus-usm
 import ufc from '@/assets/peleadores__images/0-10/dricus-du-plessis/du-plessis_ufc.jpg'
 import dricus from '@/assets/peleadores__images/0-10/dricus-du-plessis/dricus_du-plessis.jpg'
 import AsideFighter from '@/app/components/asides/AsideFighter'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Dricus Du Plessis',
+    description: 'Dricus Du Plessis es un luchador de MMA sudafricano que actualmente es el campeón de la división de Peso Medio de la UFC, donde pelea desde octubre de 2020, cuando debutaría con una victoria por KO en el primer asalto en el UFC Fight Night: Moraes vs. Sandhagen contra el brasileño Markus Pérez.',
+    openGraph: {
+        title: 'Dricus Du Plessis',
+        description: 'Dricus Du Plessis es un luchador de MMA sudafricano que actualmente es el campeón de la división de Peso Medio de la UFC, donde pelea desde octubre de 2020, cuando debutaría con una victoria por KO en el primer asalto en el UFC Fight Night: Moraes vs. Sandhagen contra el brasileño Markus Pérez.',
+        url: 'https://fullmma.org/peleadores/du-plessis'
+    }
+}
 
 export default function DuPlessis () {
     return(
@@ -15,7 +26,7 @@ export default function DuPlessis () {
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Du Plessis</h2>
-                    <p className={styles.peleador__article__text}>Dricus Du Plessis es un luchador de MMA sudafricano que actualmente es el campeón de la división de Peso Medio de la <Link href='/articulos/ufc'>UFC</Link>, donde pelea desde octubre de 2020, cuando debutaría con una victoria por KO en el primer asalto en el <b>UFC Fight Night: Moraes vs. Sandhagen</b> contra el brasileño <b>Markus Pérez</b></p>
+                    <p className={styles.peleador__article__text}>Dricus Du Plessis es un luchador de MMA sudafricano que actualmente es el campeón de la división de Peso Medio de la <Link href='/articulos/ufc'>UFC</Link>, donde pelea desde octubre de 2020, cuando debutaría con una victoria por KO en el primer asalto en el <b>UFC Fight Night: Moraes vs. Sandhagen</b> contra el brasileño <b>Markus Pérez</b>.</p>
                     <Image className={styles.peleador__article__image} src={usman} alt='El peleador de UFC Dricus Du Plessis abrazado al otro peleador de UFC Kamaru Usman' />
                     <p className={styles.peleador__article__text}>Hasta el momento ha ganado todos sus 6 combates en la UFC, siendo 4 de esas victorias por la vía del nocaut, siendo la última una impresionante victoria contra <b>Robert Whittaker</b> por UFC 290, a quien venció por nocaut técnico en el segundo asalto, ganándose además el premio a la actuación de la noche. Esta racha de victorias es la que le ha hecho merecedor de una pelea por el título, que se jugará contra el estadounidense <Link href='/peleadores/sean-strickland'>Sean Stricklan</Link>, quien es el actual campeón de la división de peso medio de <Link href='/promotoras/ufc'>UFC</Link>, el 20 de enero de 2024.</p>
                     <h2 className={styles.peleador__article__title}>Du Plessis Récord</h2>

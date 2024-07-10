@@ -6,6 +6,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Francis Ngannou',
+    description: 'Francis Ngannou ha peleado en UFC durante poco más de 5 años. Tiempo en el que supo ser campeón de los Pesos Pesados,derrotando por KO a Stipe Miocic.',
+    openGraph: {
+        title: 'Francis Ngannou',
+        description: 'Francis Ngannou ha peleado en UFC durante poco más de 5 años. Tiempo en el que supo ser campeón de los Pesos Pesados,derrotando por KO a Stipe Miocic.',
+        url: 'https://fullmma.org/peleadores/francis-ngannou'
+    }
+}
 
 export default function Ngannou () {
     return(

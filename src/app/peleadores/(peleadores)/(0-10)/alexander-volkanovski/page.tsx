@@ -4,6 +4,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Alexander Volkanovski',
+    description: 'Alexander Volkanovski es un peleador de mma australiano, vigente campeón de Peso Ligero de UFC. Desde su ingreso en la compañía en 2016 disputo 15 combates, ganando 13 de estos, venciendo peleadores históricos como José Aldo, o Max Holloway.',
+    openGraph: {
+        title: 'Alexander Volkanovski',
+        description: 'Alexander Volkanovski es un peleador de mma australiano, vigente campeón de Peso Ligero de UFC. Desde su ingreso en la compañía en 2016 disputo 15 combates, ganando 13 de estos, venciendo peleadores históricos como José Aldo, o Max Holloway.',
+        url: 'https://fullmma.org/peleadores/alexander-volkanovski'
+    }
+}
 
 export default function Volkanovski () {
     return(

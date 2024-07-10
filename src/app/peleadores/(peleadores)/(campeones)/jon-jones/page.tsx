@@ -3,6 +3,17 @@ import jones from '@/assets/peleadores__images/10-20/jon-jones/jon_jones.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Jon Jones',
+    description: 'El 9 de agosto de 2008 hizo su debut en la UFC 87 contra André Gusmão. Dos semanas antes, Tomasz Drwal se lesionó, esto generó que Jones se volviese su reemplazo. Jon Jones venía de ganar seis combates consecutivos y consiguió vencer contra Gusmão en una actuación impresionante, donde se llevó la victoria por decisión unánime.',
+    openGraph: {
+        title: 'Jon Jones',
+        description: 'El 9 de agosto de 2008 hizo su debut en la UFC 87 contra André Gusmão. Dos semanas antes, Tomasz Drwal se lesionó, esto generó que Jones se volviese su reemplazo. Jon Jones venía de ganar seis combates consecutivos y consiguió vencer contra Gusmão en una actuación impresionante, donde se llevó la victoria por decisión unánime.',
+        url: 'https://fullmma.org/peleadores/jon-jones'
+    }
+}
 
 export default function JonJones () {
     return(

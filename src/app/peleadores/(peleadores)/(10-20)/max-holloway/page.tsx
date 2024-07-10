@@ -7,6 +7,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Max Holloway',
+    description: 'Max Holloway es un peleador estadounidense que actualmente compite en la división de peso pluma de la UFC, donde en el pasado llegó a ser campeón interino de Peso Pluma luego derrotar por TKO en el tercer asalto a Anthony Pettis en UFC 206, y luego reafirmó su título al vencer por TKO en el tercer asalto también, contra el histórico José Aldo, luego de eso, Holloway defendió de forma exitosa 3 veces su título hasta que lo perdió contra Alexander Volkanovski.',
+    openGraph: {
+        title: 'Max Holloway',
+        description: 'Max Holloway es un peleador estadounidense que actualmente compite en la división de peso pluma de la UFC, donde en el pasado llegó a ser campeón interino de Peso Pluma luego derrotar por TKO en el tercer asalto a Anthony Pettis en UFC 206, y luego reafirmó su título al vencer por TKO en el tercer asalto también, contra el histórico José Aldo, luego de eso, Holloway defendió de forma exitosa 3 veces su título hasta que lo perdió contra Alexander Volkanovski.',
+        url: 'https://fullmma.org/peleadores/max-holloway'
+    }
+}
 
 export default function Holloway () {
     return(

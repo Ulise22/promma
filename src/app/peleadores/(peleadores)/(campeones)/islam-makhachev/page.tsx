@@ -7,6 +7,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import AsideFighter from '@/app/components/asides/AsideFighter'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Islam Makhachev',
+    description: 'Makhachev es uno de los principales puntuales de la UFC. Uno de los peleadores más completos de la empresa. Desde el 7 de noviembre está en la primera posición del ranking libra por libra de UFC.',
+    openGraph: {
+        title: 'Islam Makhachev',
+        description: 'Makhachev es uno de los principales puntuales de la UFC. Uno de los peleadores más completos de la empresa. Desde el 7 de noviembre está en la primera posición del ranking libra por libra de UFC.',
+        url: 'https://fullmma.org/peleadores/islam-makhachev'
+    }
+}
 
 export default function Makhachev () {
     return(

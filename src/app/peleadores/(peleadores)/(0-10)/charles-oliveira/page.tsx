@@ -8,6 +8,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Charles Oliveira',
+    description: 'Charles Oliveira es actualmente el número #1 de la división de Peso Ligero de la UFC y ha sido campeón en una ocación luego de que venciera por TKO al estadounidense Michael Chandler en el segundo asalto, por el título vacante de Peso Ligero en UFC 262 luego del retiro de Khabib Nurmagomédov. A dicho título lo defendió de forma exitosa 2 veces, contra Dustin Poirier y contra Justin Gaethje.',
+    openGraph: {
+        title: 'Charles Oliveira',
+        description: 'Charles Oliveira es actualmente el número #1 de la división de Peso Ligero de la UFC y ha sido campeón en una ocación luego de que venciera por TKO al estadounidense Michael Chandler en el segundo asalto, por el título vacante de Peso Ligero en UFC 262 luego del retiro de Khabib Nurmagomédov. A dicho título lo defendió de forma exitosa 2 veces, contra Dustin Poirier y contra Justin Gaethje.',
+        url: 'https://fullmma.org/peleadores/charles-oliveira'
+    }
+}
 
 export default function Oliveira () {
     return(

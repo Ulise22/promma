@@ -3,6 +3,17 @@ import prochazka from '@/assets/peleadores__images/20-30/jiri-prochazka/jiri-pro
 import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Jiri Prochazka',
+    description: 'Jiří Procházka es un peleador checo que compite en UFC en la división de peso semipesado desde el año 2020. En su carrera en la compañía, necesitó de sólo 3 peleas para convertirse en campeón, luego de que en su tercer combate se enfrentara al veterano campeón Glover Texeira y fuera capaz de finalizarlo con un sumisión en el último asalto en el año 2022.',
+    openGraph: {
+        title: 'Jiri Prochazka',
+        description: 'Jiří Procházka es un peleador checo que compite en UFC en la división de peso semipesado desde el año 2020. En su carrera en la compañía, necesitó de sólo 3 peleas para convertirse en campeón, luego de que en su tercer combate se enfrentara al veterano campeón Glover Texeira y fuera capaz de finalizarlo con un sumisión en el último asalto en el año 2022.',
+        url: 'https://fullmma.org/peleadores/jiri-prochazka'
+    }
+}
 
 export default function Prochazka () {
     return(

@@ -5,6 +5,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import PeleadoresHero from "@/app/peleadores/components/PeleadoresHero";
 import Link from "next/link";
 import AsideFighter from "@/app/components/asides/AsideFighter";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Ilia Topuria',
+    description: 'Ilia Topuria es un luchador de nacionalidad georgiana y española de UFC que compite en la categoría de Peso Pluma, e hizo historia al convertirse en el primer peleador del país hispano en convertirse en campeón de la UFC, haciéndolo además contra un histórico de la división, Alexander Volkanovski por KO, que junto a José Aldo, seguramente sea el mejor de la historia en la división de Peso Pluma.',
+    openGraph: {
+        title: 'Ilia Topuria',
+        description: 'Ilia Topuria es un luchador de nacionalidad georgiana y española de UFC que compite en la categoría de Peso Pluma, e hizo historia al convertirse en el primer peleador del país hispano en convertirse en campeón de la UFC, haciéndolo además contra un histórico de la división, Alexander Volkanovski por KO, que junto a José Aldo, seguramente sea el mejor de la historia en la división de Peso Pluma.',
+        url: 'https://fullmma.org/peleadores/ilia-topuria'
+    }
+}
 
 export default function Illia () {
     return(

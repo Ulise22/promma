@@ -5,6 +5,17 @@ import colby from '@/assets/peleadores__images/0-10/colby-covington/colby_coving
 import covington from '@/assets/peleadores__images/0-10/colby-covington/colby.jpg'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Colby Covington',
+    description: 'Colby Covington es un peleador de MMA estadounidense que compite en la División de Peso Wélter de la UFC, donde se encuenta ranqueado #2 luego de casi 10 años de competir. Desde que hiciera su debut en el UFC Fight Night: Bisping vs. Le contra el luchador chino Anying Wang, a quien noqueó en el primer asalto, ha luchado un total 16 veces en la compañía, ganando 12 de esos 16 combates.',
+    openGraph: {
+        title: 'Colby Covington',
+        description: 'Colby Covington es un peleador de MMA estadounidense que compite en la División de Peso Wélter de la UFC, donde se encuenta ranqueado #2 luego de casi 10 años de competir. Desde que hiciera su debut en el UFC Fight Night: Bisping vs. Le contra el luchador chino Anying Wang, a quien noqueó en el primer asalto, ha luchado un total 16 veces en la compañía, ganando 12 de esos 16 combates.',
+        url: 'https://fullmma.org/peleadores/colby-covington'
+    }
+}
 
 export default function Covington () {
     return(

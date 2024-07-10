@@ -7,6 +7,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Santiago Ponzinibbio',
+    description: 'Santiago Ponzinibbio pelea en la UFC desde noviembre de 2013. Y es una de las presencias argentinas más destacadas de ufc, trás haber estado muy cerca del top5 de su categoría en el Peso Welter a fines de 2018, y trás haber traído un evento de ufc a nuestro país en Buenos Aires en ese mismo año, el primero que se organizo en Argentina por esta compañía.',
+    openGraph: {
+        title: 'Santiago Ponzinibbio',
+        description: 'Santiago Ponzinibbio pelea en la UFC desde noviembre de 2013. Y es una de las presencias argentinas más destacadas de ufc, trás haber estado muy cerca del top5 de su categoría en el Peso Welter a fines de 2018, y trás haber traído un evento de ufc a nuestro país en Buenos Aires en ese mismo año, el primero que se organizo en Argentina por esta compañía.',
+        url: 'https://fullmma.org/peleadores/santiago-ponzinibbio'
+    }
+}
 
 export default function Ponzinibbio () {
     return(

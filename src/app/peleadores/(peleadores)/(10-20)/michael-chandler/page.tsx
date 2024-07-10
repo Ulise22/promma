@@ -6,6 +6,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Michael Chandler',
+    description: 'Michael Chandler es actualmente el número #7 de la división de Peso Ligero de UFC, debido a la extensa carrera que llevaba Chandler en Bellator, siendo campeón de su división, al momento de entrar en la UFC, apareció muy alto en los rankings.',
+    openGraph: {
+        title: 'Michael Chandler',
+        description: 'Michael Chandler es actualmente el número #7 de la división de Peso Ligero de UFC, debido a la extensa carrera que llevaba Chandler en Bellator, siendo campeón de su división, al momento de entrar en la UFC, apareció muy alto en los rankings.',
+        url: 'https://fullmma.org/peleadores/michael-chandler'
+    }
+}
 
 export default function Chandler () {
     return(
@@ -14,7 +25,7 @@ export default function Chandler () {
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Chandler UFC</h2>
-                    <p>Michael Chandler es actualmente el número #5 de la división de Peso Ligero de <Link href='/articulos/ufc'>UFC</Link>, debido a la extensa carrera que llevaba Chandler en <b>Bellator</b>, siendo campeón de su división, al momento de entrar en la UFC, apareció muy alto en los rankings.</p>
+                    <p>Michael Chandler es actualmente el número #7 de la división de Peso Ligero de <Link href='/articulos/ufc'>UFC</Link>, debido a la extensa carrera que llevaba Chandler en <b>Bellator</b>, siendo campeón de su división, al momento de entrar en la UFC, apareció muy alto en los rankings.</p>
                     <Image className={styles.peleador__article__image} src={michael} alt='El peleador de MMA Michael Chandler en el reality de televisión de UFC, The Ultimate Fighter' />
                     <p>Dado al prestigio que cosecho en su carrera antes de llegar a UFC, la primera pelea que tuvo fue contra un top10 como lo es <b>Dan Hooker</b>, a quien derrotó por nocaut a los 2 minutos del primer asalto. Victoria, que en su segundo combate apenas, lo llevó a pelear por el Campeonato de Peso Ligero que había quedado vacante luego de la retirada de <Link href='/leyendas/khabib-nurmagomedov'>Khabib</Link>, contra el brasileño <Link href='/peleadores/charles-oliveira'><b>Charles Oliveira</b></Link>. Finalmente la pelea terminó con una victoria para el brasileño en el segundo asalto por TKO.</p>
                     <h2 className={styles.peleador__article__title}>Michael Chandler Récord</h2>

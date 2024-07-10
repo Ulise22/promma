@@ -6,6 +6,17 @@ import FTenaglia from '@/assets/peleadores__images/argentinos/franco-tenaglia/fr
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Franco Tenaglia',
+    description: 'Franco Tenaglia, conocido como "El Rey de la Calle" nació el 30 de septiembre de 1996 en Buenos Aires, Argentina. Comenzó a entrenar Boxeo y kickboxing con tan solo 11 años, edad en la que ya comenzó a ver MMA en la tele, que llevó a Franco a desde entonces saber que se quería dedicar a esto de forma profesional...',
+    openGraph: {
+        title: 'Franco Tenaglia',
+        description: 'Franco Tenaglia, conocido como "El Rey de la Calle" nació el 30 de septiembre de 1996 en Buenos Aires, Argentina. Comenzó a entrenar Boxeo y kickboxing con tan solo 11 años, edad en la que ya comenzó a ver MMA en la tele, que llevó a Franco a desde entonces saber que se quería dedicar a esto de forma profesional...',
+        url: 'https://fullmma.org/peleadores/franco-tenaglia'
+    }
+}
 
 export default function Tenaglia () {
     return(

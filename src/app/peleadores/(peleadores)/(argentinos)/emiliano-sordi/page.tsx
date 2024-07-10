@@ -5,6 +5,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import PeleadoresHero from "@/app/peleadores/components/PeleadoresHero";
 import AsideChamps from "@/app/components/asides/AsideChamps";
 import Link from "next/link";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Emiliano Sordi',
+    description: 'Emiliano Sordi es un peleador de mma argentino, que ha llegado a competir en diversas compañías como Bellator y PFL, que destacó en 2019 al consagrarse campeón mundial de los semicompletos en la compañía PFL (Professional Fighters League).',
+    openGraph: {
+        title: 'Emiliano Sordi',
+        description: 'Emiliano Sordi es un peleador de mma argentino, que ha llegado a competir en diversas compañías como Bellator y PFL, que destacó en 2019 al consagrarse campeón mundial de los semicompletos en la compañía PFL (Professional Fighters League).',
+        url: 'https://fullmma.org/peleadores/emiliano-sordi'
+    }
+}
 
 export default function Emiliano () {
     return(

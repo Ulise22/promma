@@ -5,6 +5,17 @@ import aspinall from '@/assets/peleadores__images/0-10/tom-aspinall/tom_aspinall
 import careo from '@/assets/peleadores__images/0-10/tom-aspinall/aspinall_careo.jpg'
 import Image from 'next/image'
 import AsideFighter from '@/app/components/asides/AsideFighter'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Tom Aspinall',
+    description: 'Tom Aspinall es un peleador inglés de MMA que compite en la división de Peso Pesado de la UFC, en donde está ranqueado #1 actualmente, además de ser el campeón interino de dicha división. Además, se encuentra ranqueado #12 en el libra por libra de la UFC.',
+    openGraph: {
+        title: 'Tom Aspinall',
+        description: 'Tom Aspinall es un peleador inglés de MMA que compite en la división de Peso Pesado de la UFC, en donde está ranqueado #1 actualmente, además de ser el campeón interino de dicha división. Además, se encuentra ranqueado #12 en el libra por libra de la UFC.',
+        url: 'https://fullmma.org/peleadores/tom-aspinall'
+    }
+}
 
 export default function Strickland () {
     return(

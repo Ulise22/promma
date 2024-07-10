@@ -6,6 +6,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Ailín Pérez',
+    description: 'Ailín "Fiona" Pérez es una peleadora argentina de MMA con una carreara relativamente nueva en la UFC, en donde lleva apenas 3 peleas y en donde hizó su debut con una derrota contra la suiza Stephanie Egger por sumisión en el segundo asalto. Sin embargo, se recompuso rápido con 2 victorias al hilo, ambas por decisión unánime contra la peleadora estadounidense Ashlee Evans-Smith y contra la luchadora checa Lucie Pudilova a quien venció el 18 de noviembre de 2023.',
+    openGraph: {
+        title: 'Ailín Pérez',
+        description: 'Ailín "Fiona" Pérez es una peleadora argentina de MMA con una carreara relativamente nueva en la UFC, en donde lleva apenas 3 peleas y en donde hizó su debut con una derrota contra la suiza Stephanie Egger por sumisión en el segundo asalto. Sin embargo, se recompuso rápido con 2 victorias al hilo, ambas por decisión unánime contra la peleadora estadounidense Ashlee Evans-Smith y contra la luchadora checa Lucie Pudilova a quien venció el 18 de noviembre de 2023.',
+        url: 'https://fullmma.org/mujeres/ailin-perez'
+    }
+}
 
 export default function AilinPerez () {
     return(

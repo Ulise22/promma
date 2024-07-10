@@ -6,6 +6,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Khamzat Chimaev',
+    description: 'Khamzat Chimaev es un peleador ruso de MMA que actualmente se encuentra ranqueado #8 en la división de Peso medio de la UFC, donde pelea desde 2020.',
+    openGraph: {
+        title: 'Khamzat Chimaev',
+        description: 'Khamzat Chimaev es un peleador ruso de MMA que actualmente se encuentra ranqueado #8 en la división de Peso medio de la UFC, donde pelea desde 2020.',
+        url: 'https://fullmma.org/peleadores/khamzat-chimaev'
+    }
+}
 
 export default function Khamzat () {
     return(
