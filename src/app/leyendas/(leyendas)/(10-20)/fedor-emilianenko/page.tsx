@@ -2,6 +2,17 @@ import styles from '@/app/leyendas/components/leyenda.module.css'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import EmelianenkoHero from './EmelianenkoHero'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Fedor Emelianenko',
+    description: "Fiódor Emelianenko es uno de los mejores peleadores de MMA de la historia, considerado por figuras como GSP, José Aldo o Mike Tyson como el mejor peleador de artes marciales mixtas de la historia. Siendo campeón de PRIDE, de RINGS y de World Alliance of Mixed Martial Arts, supo meterse en los libros de historia de las MMA. Además tuvo una destacada carrera política en Rusia, donde llegó a ser elegido diputado cuando todavía era un peleador activo en 2010 y donde formaría parte del poder ejecutivo al ser nombrado miembro del personal del Consejo de Aptitud Física y Deportes de Rusia en 2012.",
+    openGraph: {
+        title: 'Fedor Emelianenko',
+        description: "Fiódor Emelianenko es uno de los mejores peleadores de MMA de la historia, considerado por figuras como GSP, José Aldo o Mike Tyson como el mejor peleador de artes marciales mixtas de la historia. Siendo campeón de PRIDE, de RINGS y de World Alliance of Mixed Martial Arts, supo meterse en los libros de historia de las MMA. Además tuvo una destacada carrera política en Rusia, donde llegó a ser elegido diputado cuando todavía era un peleador activo en 2010 y donde formaría parte del poder ejecutivo al ser nombrado miembro del personal del Consejo de Aptitud Física y Deportes de Rusia en 2012.",
+        url: 'https://fullmma.org/leyendas/fedor-emelianenko'
+    }
+}
 
 
 export default function FedorEmelianenko () {

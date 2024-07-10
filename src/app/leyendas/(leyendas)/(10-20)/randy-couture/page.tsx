@@ -2,6 +2,17 @@ import styles from '@/app/leyendas/components/leyenda.module.css'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import CoutureHero from './CoutureHero'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Randy Couture',
+    description: "Randy Couture es una leyenda de la UFC, siendo el cuarto de sus peleadres en formar parte del Salón de la Fama de la UFC, siendo el único en ganar un título luego de ser nombrado parte del salón de la fama. Es el campeón más viejo en la historia de la UFC con 43 años, además es el primer peleador en convertirse en doble campeón de la compañía, habiéndo sido 4 veces campeón de la división de peso pesado y 2 veces campeón de la división de peso semipesado.",
+    openGraph: {
+        title: 'Randy Couture',
+        description: "Randy Couture es una leyenda de la UFC, siendo el cuarto de sus peleadres en formar parte del Salón de la Fama de la UFC, siendo el único en ganar un título luego de ser nombrado parte del salón de la fama. Es el campeón más viejo en la historia de la UFC con 43 años, además es el primer peleador en convertirse en doble campeón de la compañía, habiéndo sido 4 veces campeón de la división de peso pesado y 2 veces campeón de la división de peso semipesado.",
+        url: 'https://fullmma.org/leyendas/randy-couture'
+    }
+}
 
 
 export default function RandyCouture () {

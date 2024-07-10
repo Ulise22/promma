@@ -3,6 +3,17 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import CormierHero from './CormierHero'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Daniel Cormier',
+    description: "Daniel Cormier, también conocido como DC, es un peleador de MMA estadounidense que supo ser campeón de Peso Pesado en 4 compañías, lograndolo tanto en XMMA, KOTC, Strikeforce y en UFC, donde además fue campeón en la división de Peso Semipesado, logrando entrar en el selecto grupo de doble campeones simultaneos de la UFC.",
+    openGraph: {
+        title: 'Daniel Cormier',
+        description: "Daniel Cormier, también conocido como DC, es un peleador de MMA estadounidense que supo ser campeón de Peso Pesado en 4 compañías, lograndolo tanto en XMMA, KOTC, Strikeforce y en UFC, donde además fue campeón en la división de Peso Semipesado, logrando entrar en el selecto grupo de doble campeones simultaneos de la UFC.",
+        url: 'https://fullmma.org/leyendas/daniel-cormier'
+    }
+}
 
 
 export default function Cormier () {

@@ -2,6 +2,17 @@ import styles from '@/app/leyendas/components/leyenda.module.css'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import RouseyHero from './RouseyHero'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Ronda Rousey',
+    description: "Ronda Rousey es una luchadora profesional y expeleadora de artes marciales mixtas, siendo la última campeona de la compañia desaperecida Strikeforce, con una destacada carrera en la UFC, donde fue la primera campeona de la compañía, y donde fue la primer mujer en formar parte del salón de la fama de UFC.",
+    openGraph: {
+        title: 'Ronda Rousey',
+        description: "Ronda Rousey es una luchadora profesional y expeleadora de artes marciales mixtas, siendo la última campeona de la compañia desaperecida Strikeforce, con una destacada carrera en la UFC, donde fue la primera campeona de la compañía, y donde fue la primer mujer en formar parte del salón de la fama de UFC.",
+        url: 'https://fullmma.org/leyendas/ronda-rousey'
+    }
+}
 
 
 export default function RondaRousey () {

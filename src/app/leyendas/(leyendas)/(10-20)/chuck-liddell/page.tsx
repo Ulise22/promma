@@ -2,6 +2,17 @@ import styles from '@/app/leyendas/components/leyenda.module.css'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import LiddellHero from './LiddellHero'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Chuck Lidell',
+    description: "Una de las primeras estrellas de la UFC, fue el excampeón de peso semipesado Chuck Lidell, apodado Iceman por la tranquilidad con la que se lo veía antes de sus peleas. El luchador es un amigo cercano del actual promotor de la compañía, Dana White, habiendo incluso siendo representado por este al inciio de su carrera.",
+    openGraph: {
+        title: 'Chuck Lidell',
+        description: "Una de las primeras estrellas de la UFC, fue el excampeón de peso semipesado Chuck Lidell, apodado Iceman por la tranquilidad con la que se lo veía antes de sus peleas. El luchador es un amigo cercano del actual promotor de la compañía, Dana White, habiendo incluso siendo representado por este al inciio de su carrera.",
+        url: 'https://fullmma.org/leyendas/chuck-lidell'
+    }
+}
 
 
 export default function ChuckLiddell () {

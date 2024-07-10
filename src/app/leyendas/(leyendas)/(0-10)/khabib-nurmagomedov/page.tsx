@@ -2,6 +2,17 @@ import styles from '@/app/leyendas/components/leyenda.module.css'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import KhabibHero from './KhabibHero'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Khabib Nurmagomedov',
+    description: "Khabib es un ex luchador ruso de MMA, es considerado uno de los mejores peleadores de este deporte, que se destacó principalmente en su carrera en la UFC donde supo ser campeón en la división de Peso Ligero, concretando una correra de excelencia en la que ganó 29 combates y no perdió ninguno.",
+    openGraph: {
+        title: 'Khabib Nurmagomedov',
+        description: "Khabib es un ex luchador ruso de MMA, es considerado uno de los mejores peleadores de este deporte, que se destacó principalmente en su carrera en la UFC donde supo ser campeón en la división de Peso Ligero, concretando una correra de excelencia en la que ganó 29 combates y no perdió ninguno.",
+        url: 'https://fullmma.org/leyendas/khabib-nurmagomedov'
+    }
+}
 
 
 export default function Khabib () {

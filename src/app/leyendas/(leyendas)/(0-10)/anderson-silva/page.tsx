@@ -2,6 +2,17 @@ import styles from '@/app/leyendas/components/leyenda.module.css'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import AndersonHero from './AndersonHero'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Anderson Silva',
+    description: "Anderson Silva es un peleador de MMA brasileño que supo ser campeón de peso medio de UFC, en donde fue campeón de 2006 a 2013, con un total de 10 defensas del título exitosas, lo que lo convierte en el reinado más largo en la historia de la promoción. Por tamaña hazaña, es que tanto figuras como Dana White, presidente de la UFC, como muchos otros, lo consideran como el artista marcial mixto más grande de la historia. Llegando a ser reconocido con una inclusión en el Salón de la Fama de la UFC en 2023.",
+    openGraph: {
+        title: 'Anderson Silva',
+        description: "Anderson Silva es un peleador de MMA brasileño que supo ser campeón de peso medio de UFC, en donde fue campeón de 2006 a 2013, con un total de 10 defensas del título exitosas, lo que lo convierte en el reinado más largo en la historia de la promoción. Por tamaña hazaña, es que tanto figuras como Dana White, presidente de la UFC, como muchos otros, lo consideran como el artista marcial mixto más grande de la historia. Llegando a ser reconocido con una inclusión en el Salón de la Fama de la UFC en 2023.",
+        url: 'https://fullmma.org/leyendas/anderson-silva'
+    }
+}
 
 
 export default function Anderson () {

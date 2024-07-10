@@ -2,6 +2,17 @@ import styles from '@/app/leyendas/components/leyenda.module.css'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import AmandaHero from './AmandaHero'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Amanda Nunes',
+    description: "Amanda Nunes es una ex peleadora brasileña de MMA, y es una de las más sobresalientes que ha tenido el deporte. Destacando especialmente por su carrera en la UFC, donde fue campeona de las divisiones de Peso Pluma y Peso Gallo Femenino, siendo la primer peleadora femenina en conseguir ser doble campeona de forma simultánea.",
+    openGraph: {
+        title: 'Amanda Nunes',
+        description: "Amanda Nunes es una ex peleadora brasileña de MMA, y es una de las más sobresalientes que ha tenido el deporte. Destacando especialmente por su carrera en la UFC, donde fue campeona de las divisiones de Peso Pluma y Peso Gallo Femenino, siendo la primer peleadora femenina en conseguir ser doble campeona de forma simultánea.",
+        url: 'https://fullmma.org/leyendas/amanda-nunes'
+    }
+}
 
 
 export default function AmandaNunes () {

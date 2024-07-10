@@ -2,6 +2,17 @@ import styles from '@/app/leyendas/components/leyenda.module.css'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import GracieHero from './GracieHero'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Royce Gracie',
+    description: "Royce Gracie es un ex peleador de artes marciales mixtas, fue campeón de UFC en 3 ocasiones, donde fue agregado al Salón de la Fama, y su trayectoria se considera de suma importancia para lo que son las MMA hoy en día.",
+    openGraph: {
+        title: 'Royce Gracie',
+        description: "Royce Gracie es un ex peleador de artes marciales mixtas, fue campeón de UFC en 3 ocasiones, donde fue agregado al Salón de la Fama, y su trayectoria se considera de suma importancia para lo que son las MMA hoy en día.",
+        url: 'https://fullmma.org/leyendas/royce-gracie'
+    }
+}
 
 
 export default function RoyceGracie () {

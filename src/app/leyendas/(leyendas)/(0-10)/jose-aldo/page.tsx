@@ -2,6 +2,17 @@ import styles from '@/app/leyendas/components/leyenda.module.css'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import AldoHero from './AldoHero'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'José Aldo',
+    description: "José Aldo es un expeleador de MMA brasileño que destacó por ser el primer campeón de peso pluma de la UFC, donde es considerado por muchos como el mejor campeón que tuvo la división en la compañía. Contando con un total de 7 defensas exitosas, siendo de los peleadores más dominantes que tuvo la división.",
+    openGraph: {
+        title: 'José Aldo',
+        description: "José Aldo es un expeleador de MMA brasileño que destacó por ser el primer campeón de peso pluma de la UFC, donde es considerado por muchos como el mejor campeón que tuvo la división en la compañía. Contando con un total de 7 defensas exitosas, siendo de los peleadores más dominantes que tuvo la división.",
+        url: 'https://fullmma.org/leyendas/jose-aldo'
+    }
+}
 
 
 export default function Aldo () {

@@ -3,6 +3,17 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import LesnarHero from './LesnarHero'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Brock Lesnar',
+    description: "Brock Lesnar es un ex peleador de MMA que supo ser campeón de la División de Peso Pesado de la UFC, siendo uno de los peleadores más mediáticos que tuvo la compañía, teniendo la particularidad de haber participado en el UFC 100 y en el UFC 200. Además es un exjugador de fútbol americano, fue un luchador profeisonal y fue luchador de lucha libre olímpica amateur estadounidense, trabajando para la compañía de lucha libre WWE, donde tuvo una destacada participación, convirtiendose en su momento en el peleador más joven en ser campeón de esta compañía con tan solo 25 años.",
+    openGraph: {
+        title: 'Brock Lesnar',
+        description: "Brock Lesnar es un ex peleador de MMA que supo ser campeón de la División de Peso Pesado de la UFC, siendo uno de los peleadores más mediáticos que tuvo la compañía, teniendo la particularidad de haber participado en el UFC 100 y en el UFC 200. Además es un exjugador de fútbol americano, fue un luchador profeisonal y fue luchador de lucha libre olímpica amateur estadounidense, trabajando para la compañía de lucha libre WWE, donde tuvo una destacada participación, convirtiendose en su momento en el peleador más joven en ser campeón de esta compañía con tan solo 25 años.",
+        url: 'https://fullmma.org/leyendas/brock-lesnar'
+    }
+}
 
 
 export default function Cormier () {

@@ -2,6 +2,17 @@ import styles from '@/app/leyendas/components/leyenda.module.css'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import GspHero from './GspHero'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'George St-Pierre',
+    description: "George St-Pierre es un expeleador de MMA canadiense que destacó en su carrera por la actuación sobresaliente que tuvo cuando compitió en la UFC, en donde es considerado uno de los mejores peleadores de la historia, y seguramente sea el mejor Peso Wélter que tuvo la UFC. Supo ser campeón de la divisón de Peso Wélter en su momento, y campeón de Peso Medio de la UFC posteriormente, siendo uno de los pocos doble campeón que hay. Tanto en 2008, como en 2009 y 2010 fue nombrado el Atleta canadiense del Año por Rogers Sportsnet. En 2020 fue inducido al Salón de la Fama de UFC.",
+    openGraph: {
+        title: 'George St-Pierre',
+        description: "George St-Pierre es un expeleador de MMA canadiense que destacó en su carrera por la actuación sobresaliente que tuvo cuando compitió en la UFC, en donde es considerado uno de los mejores peleadores de la historia, y seguramente sea el mejor Peso Wélter que tuvo la UFC. Supo ser campeón de la divisón de Peso Wélter en su momento, y campeón de Peso Medio de la UFC posteriormente, siendo uno de los pocos doble campeón que hay. Tanto en 2008, como en 2009 y 2010 fue nombrado el Atleta canadiense del Año por Rogers Sportsnet. En 2020 fue inducido al Salón de la Fama de UFC.",
+        url: 'https://fullmma.org/leyendas/george-st-pierre'
+    }
+}
 
 
 export default function GSP () {

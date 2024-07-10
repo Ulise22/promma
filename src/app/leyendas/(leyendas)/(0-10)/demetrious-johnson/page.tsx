@@ -2,6 +2,17 @@ import styles from '@/app/leyendas/components/leyenda.module.css'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import DemetriousHero from './DemetriousHero'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Demetrious Johnson',
+    description: "Demetrious Johnson es un peleador estadounidense de Artes Marciales Mixtas, que actualmente compite en la división de peso mosca en la compañía ONE Championship, donde es el actual campeón. Además tuvo una exitosa carrera en su paso por la que hoy en día es la compañía más grande de MMA en el mundo, la UFC, donde fue campeón de peso mosca desde 2012 hasta 2018.",
+    openGraph: {
+        title: 'Demetrious Johnson',
+        description: "Demetrious Johnson es un peleador estadounidense de Artes Marciales Mixtas, que actualmente compite en la división de peso mosca en la compañía ONE Championship, donde es el actual campeón. Además tuvo una exitosa carrera en su paso por la que hoy en día es la compañía más grande de MMA en el mundo, la UFC, donde fue campeón de peso mosca desde 2012 hasta 2018.",
+        url: 'https://fullmma.org/leyendas/demetrious-johnson'
+    }
+}
 
 
 export default function Demetrious () {
