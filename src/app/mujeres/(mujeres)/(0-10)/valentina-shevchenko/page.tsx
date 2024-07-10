@@ -5,6 +5,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import AsideFighter from '@/app/components/asides/AsideFighter'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Valentina Shevchenko',
+    description: "Valentina es una peleadora de UFC, donde pelea desde diciembre de 2015, nacionalizada peruana que se encuentra rankeada #1 en su división y #3 en el libra por libra femenino.",
+    openGraph: {
+        title: 'Valentina Shevchenko',
+        description: "Valentina es una peleadora de UFC, donde pelea desde diciembre de 2015, nacionalizada peruana que se encuentra rankeada #1 en su división y #3 en el libra por libra femenino.",
+        url: 'https://fullmma.org/mujeres/valentina-shevchenko'
+    }
+}
 
 export default function Valentina () {
     return(

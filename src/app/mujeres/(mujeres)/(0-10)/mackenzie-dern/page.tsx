@@ -5,6 +5,17 @@ import Link from 'next/link'
 import mackenzie from '@/assets/peleadores__images/mujeres/0-10/mackenzie-dern/mackenzie-dern.png'
 import dern from '@/assets/peleadores__images/mujeres/0-10/mackenzie-dern/mackenzie_sparring.jpg'
 import AsideFighter from '@/app/components/asides/AsideFighter'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Mackenzie Dern',
+    description: 'Mackenzie Dern es una peleadora estadounidense que compite en la división de peso paja femenino de la UFC desde marzo de 2018, cuando debutaría contra Ashley Cooper, a quien vencería por decisión unánime. En la compañía ha peleado un total de 13 combates, en los que ha ganado 8 y perdido 5.',
+    openGraph: {
+        title: 'Mackenzie Dern',
+        description: 'Mackenzie Dern es una peleadora estadounidense que compite en la división de peso paja femenino de la UFC desde marzo de 2018, cuando debutaría contra Ashley Cooper, a quien vencería por decisión unánime. En la compañía ha peleado un total de 13 combates, en los que ha ganado 8 y perdido 5.',
+        url: 'https://fullmma.org/mujeres/mackenzie-dern'
+    }
+}
 
 export default function Mackenzie () {
     return(

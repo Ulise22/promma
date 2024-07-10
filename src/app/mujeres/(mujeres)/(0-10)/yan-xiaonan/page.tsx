@@ -3,6 +3,17 @@ import xiaonan from '@/assets/peleadores__images/mujeres/0-10/yan-xiaonan/yan_xi
 import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Yan Xiaonan',
+    description: "Yan Xiaonan es una peleadora china que compite en la UFC desde noviembre de 2017, cuando enfrentaría a la estadounidense Kailin Curran en el UFC Fight Night: Bisping vs. Gastelum, donde luego de 3 asaltos sería capaz de llevarse la pelea por decisión unánime.",
+    openGraph: {
+        title: 'Yan Xiaonan',
+        description: "Yan Xiaonan es una peleadora china que compite en la UFC desde noviembre de 2017, cuando enfrentaría a la estadounidense Kailin Curran en el UFC Fight Night: Bisping vs. Gastelum, donde luego de 3 asaltos sería capaz de llevarse la pelea por decisión unánime.",
+        url: 'https://fullmma.org/mujeres/yan-xiaonan'
+    }
+}
 
 export default function YanXiaonan () {
     return(

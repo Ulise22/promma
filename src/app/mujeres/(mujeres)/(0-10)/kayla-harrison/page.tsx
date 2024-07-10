@@ -4,6 +4,17 @@ import Image from 'next/image'
 import Link from 'next/link'
 import harrison from '@/assets/peleadores__images/mujeres/0-10/kayla-harrison/kayla_harrison.png'
 import AsideFighter from '@/app/components/asides/AsideFighter'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Kayla Harrison',
+    description: 'Kayla Harrison es una peleadora estadounidense de UFC que hizo su debut el 13 de abril de 2024 en el UFC 300. Tan sólo con una pelea, debido a su éxitosa trayectoria previa en PFL y a la cálidad del rival al que enfrentó en su primer combate, le bastó para posicionarse como la número #4 en la división de peso gallo femenino de UFC desde el 16 de abril.',
+    openGraph: {
+        title: 'Kayla Harrison',
+        description: 'Kayla Harrison es una peleadora estadounidense de UFC que hizo su debut el 13 de abril de 2024 en el UFC 300. Tan sólo con una pelea, debido a su éxitosa trayectoria previa en PFL y a la cálidad del rival al que enfrentó en su primer combate, le bastó para posicionarse como la número #4 en la división de peso gallo femenino de UFC desde el 16 de abril.',
+        url: 'https://fullmma.org/mujeres/kayla-harrison'
+    }
+}
 
 export default function Harrison () {
     return(

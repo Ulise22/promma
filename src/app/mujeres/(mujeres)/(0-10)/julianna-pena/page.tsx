@@ -5,6 +5,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Julianna Peña',
+    description: 'Julianna Peña es una peleadora de Artes Marciales Mixtas venezolana que supo ser campeona de la división de peso gallo femenino en la UFC, al vencer por sumisión a la brasileña Amanda Nunes en el segundo asalto, en diciembre de 2021.',
+    openGraph: {
+        title: 'Julianna Peña',
+        description: 'Julianna Peña es una peleadora de Artes Marciales Mixtas venezolana que supo ser campeona de la división de peso gallo femenino en la UFC, al vencer por sumisión a la brasileña Amanda Nunes en el segundo asalto, en diciembre de 2021.',
+        url: 'https://fullmma.org/mujeres/julianna-pena'
+    }
+}
 
 export default function JuliannaPena () {
     return(

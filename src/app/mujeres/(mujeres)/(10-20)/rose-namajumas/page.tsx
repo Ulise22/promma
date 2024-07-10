@@ -4,6 +4,17 @@ import rose from '@/assets/peleadores__images/mujeres/10-20/rose-namanjumas/rose
 import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Rose Namajumas',
+    description: "Rose Namajumas es una peleadora estadounidense que compite en la UFC desde diciembre de 2014, cuando participaría en la final de The Ultimate Fighter en la final contra la luchadora Carla Esparza. Rose supó ser campeona de la compañía en 2 oportunidades, ambas ocasiones en la división de Peso Paja Femenino, primero cuando derrotaría a la polaca Joanna Jędrzejczyk por TKO en el primer asalto en 2017, y la segunda vez cuando luego de perder su cinturón lo recuperaría al enfrentar a la china Weili Zhang, a quien derrotaría por KO en el primer asalto en abril de 2021.",
+    openGraph: {
+        title: 'Rose Namajumas',
+        description: "Rose Namajumas es una peleadora estadounidense que compite en la UFC desde diciembre de 2014, cuando participaría en la final de The Ultimate Fighter en la final contra la luchadora Carla Esparza. Rose supó ser campeona de la compañía en 2 oportunidades, ambas ocasiones en la división de Peso Paja Femenino, primero cuando derrotaría a la polaca Joanna Jędrzejczyk por TKO en el primer asalto en 2017, y la segunda vez cuando luego de perder su cinturón lo recuperaría al enfrentar a la china Weili Zhang, a quien derrotaría por KO en el primer asalto en abril de 2021.",
+        url: 'https://fullmma.org/mujeres/rose-namajumas'
+    }
+}
 
 export default function RoseNamajumas () {
     return(

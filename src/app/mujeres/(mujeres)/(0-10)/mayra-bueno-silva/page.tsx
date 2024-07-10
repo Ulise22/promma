@@ -5,6 +5,17 @@ import Link from 'next/link'
 import mayra from '@/assets/peleadores__images/mujeres/0-10/mayra-bueno-silva/mayra_silva.png'
 import careo from '@/assets/peleadores__images/mujeres/0-10/mayra-bueno-silva/mayra_careo.jpg'
 import AsideFighter from '@/app/components/asides/AsideFighter'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Mayra Bueno Silva',
+    description: "Mayra Bueno Silva es una luchadora de la UFC desde que hizo su debut en 2018 en el Dana White's Contender Series Brazil 1, donde ganó por sumisión a la brasileña Mayana Souza, ganandose así un contrato con la compañía. Actualmente está ranqueada #2 en la división de peso gallo femenino de UFC.",
+    openGraph: {
+        title: 'Mayra Bueno Silva',
+        description: "Mayra Bueno Silva es una luchadora de la UFC desde que hizo su debut en 2018 en el Dana White's Contender Series Brazil 1, donde ganó por sumisión a la brasileña Mayana Souza, ganandose así un contrato con la compañía. Actualmente está ranqueada #2 en la división de peso gallo femenino de UFC.",
+        url: 'https://fullmma.org/mujeres/mayra-bueno-silva'
+    }
+}
 
 export default function Mayra () {
     return(

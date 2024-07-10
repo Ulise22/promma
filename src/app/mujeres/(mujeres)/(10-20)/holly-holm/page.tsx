@@ -4,6 +4,17 @@ import holly from '@/assets/peleadores__images/mujeres/10-20/holly-holm/holly_ho
 import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Holly Holm',
+    description: "Holly Holm es una luchadora estadounidense que pelea en la UFC desde el año 2015, y que en base a su alto rendimiento dentro del octagono supo convertirse en una de las luchadoras más importantes en la historia de la compañía, llegando a ser campeona en una oportunidad.",
+    openGraph: {
+        title: 'Holly Holm',
+        description: "Holly Holm es una luchadora estadounidense que pelea en la UFC desde el año 2015, y que en base a su alto rendimiento dentro del octagono supo convertirse en una de las luchadoras más importantes en la historia de la compañía, llegando a ser campeona en una oportunidad.",
+        url: 'https://fullmma.org/mujeres/holly-holm'
+    }
+}
 
 export default function HollyHolm () {
     return(

@@ -6,6 +6,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Zhang Weili',
+    description: "Zhang Weili pelea en la UFC desde agosto de de 2018 y es la vigente campeona de Peso Paja Femenino luego de que recupera su cinturon contra la estadounidense Carla Esparza venciéndola por sumisión en el segundo asalto.",
+    openGraph: {
+        title: 'Zhang Weili',
+        description: "Zhang Weili pelea en la UFC desde agosto de de 2018 y es la vigente campeona de Peso Paja Femenino luego de que recupera su cinturon contra la estadounidense Carla Esparza venciéndola por sumisión en el segundo asalto.",
+        url: 'https://fullmma.org/mujeres/zhang-weili'
+    }
+}
 
 export default function ZhangWeili () {
     return(

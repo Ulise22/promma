@@ -6,6 +6,17 @@ import raquel from '@/assets/peleadores__images/mujeres/0-10/raquel-pennington/r
 import fight from '@/assets/peleadores__images/mujeres/0-10/raquel-pennington/raquel_fight.jpg'
 import pennington from '@/assets/peleadores__images/mujeres/0-10/raquel-pennington/raquel_penington.jpg'
 import AsideFighter from '@/app/components/asides/AsideFighter'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Raquel Pennington',
+    description: "Raquel Pennington es una luchadora de UFC que compite en la categoría de Peso Gallo femenino desde que hiciera su debut oficial en la compañía el 15 de marzo contra la brasileña Jessica Andrade con quien caería derrotada por decisión dividida, actualmente es la campeona indiscutida de su divsión.",
+    openGraph: {
+        title: 'Raquel Pennington',
+        description: "Raquel Pennington es una luchadora de UFC que compite en la categoría de Peso Gallo femenino desde que hiciera su debut oficial en la compañía el 15 de marzo contra la brasileña Jessica Andrade con quien caería derrotada por decisión dividida, actualmente es la campeona indiscutida de su divsión.",
+        url: 'https://fullmma.org/mujeres/raquel-pennington'
+    }
+}
 
 export default function Raquel () {
     return(
@@ -14,7 +25,7 @@ export default function Raquel () {
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Raquel Pennington UFC</h2>  
-                    <p className={styles.peleador__article__text}>Raquel Pennington es una luchadora de UFC que compite en la categoría de Peso Gallo femenino desde que hiciera su debut oficial en la compañía el 15 de marzo contra la brasileña <b>Jessica Andrade</b> con quien caería derrotada por decisión dividida, actualmente es la campeona indiscutida de su divsión, y se encuentra ranqueada #7 del libra por libra femenino. </p>
+                    <p className={styles.peleador__article__text}>Raquel Pennington es una luchadora de UFC que compite en la categoría de Peso Gallo femenino desde que hiciera su debut oficial en la compañía el 15 de marzo contra la brasileña <b>Jessica Andrade</b> con quien caería derrotada por decisión dividida, actualmente es la campeona indiscutida de su divsión.</p>
                     <p className={styles.peleador__article__text}>A lo largo de su carrera en la compañía supo destacar de sobremanera, dado que a pesar de no ganarlo, fue capaz de pelear por el título contra la legendaria <b>Amanda Nunes</b> por nocaut técnico. Aunque después de acumular una racha de 5 victorias consecutivas, Raquel se ha ganado nuevamente la chance de pelear por el título que quedó vacante luego de la retirada de Amanda Nunes, en esta ocasión lo hará el 20 de enero de 2024 contra la brasileña <Link href='/mujeres/mayra-bueno-silva'>Mayra Bueno Silva</Link>, protagonizando la pelea coestelar del UFC 297.</p>
                     <h2 className={styles.peleador__article__title}>Raquel Pennington Récord</h2>  
                     <p className={styles.peleador__article__text}>Raquel Pennington cuenta con un récord de 15-9, 15 victorias de las cuales 1 es por nocaut que consiguió en su debut como profesional en las MMA, 4 por sumisión y 10 por decisión. Además sus 9 derrotas están compuestas por apenas 1 nocaut, 1 por sumisión y 7 por decisión. </p>

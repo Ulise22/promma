@@ -5,6 +5,17 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import AsideFighter from '@/app/components/asides/AsideFighter'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Alexa Grasso',
+    description: 'Alexa Grasso es una peleadora mexicana de mma y es la actual número #1 libra por libra femenino de UFC y es la actual campeona de Peso Mosca Femenino de la UFC desde que derrotó a la histórica Valentina Shevchenvo en marzo de 2023 con una sumisión en el cuarto asalto en el UFC 285 de Las Vegas.',
+    openGraph: {
+        title: 'Alexa Grasso',
+        description: 'Alexa Grasso es una peleadora mexicana de mma y es la actual número #1 libra por libra femenino de UFC y es la actual campeona de Peso Mosca Femenino de la UFC desde que derrotó a la histórica Valentina Shevchenvo en marzo de 2023 con una sumisión en el cuarto asalto en el UFC 285 de Las Vegas.',
+        url: 'https://fullmma.org/mujeres/alexa-grasso'
+    }
+}
 
 export default function Grasso () {
     return(
