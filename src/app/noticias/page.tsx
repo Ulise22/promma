@@ -1,5 +1,5 @@
 import styles from './noticiasPage.module.css'
-import Noticias from "../components/homepage/Noticias";
+import Noticias from "../components/homepage/noticias/Noticias";
 import ArticlePreview from '../articulos/components/ArticlePreview';
 /* HERO IMAGES */
 import whittakerVSaliskerov from '@/assets/noticias/previews/10-20/whittaker-vs-aliskerov.jpg'

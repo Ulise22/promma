@@ -35,7 +35,7 @@
     ".next/types/**/*.ts",
     "src/app/peleadores/components/PeleadoresHero.jsx",
     "src/app/(info)/contacto/page.jsx"
-  ],
+, "src/app/components/homepage/noticias/HomeArticle.jsx"  ],
   "exclude": [
     "node_modules"
   ]

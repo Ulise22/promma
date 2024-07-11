@@ -1,0 +1,26 @@
+.noticias {
+    margin-top: 50px;
+}
+
+.noticias__title {
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.noticias__container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1015px) {
+
+}
+
+@media screen and (max-width: 660px) {
+
+}

@@ -2,7 +2,7 @@ import styles from './page.module.css'
 import Link from 'next/link'
 import HomeHero from './components/homepage/HomeHero'
 import ArticlePreview from './articulos/components/ArticlePreview'
-import Noticias from './components/homepage/Noticias'
+import Noticias from './components/homepage/noticias/Noticias'
 import ArticulosContainer from './components/homepage/ArticulosContainer'
 /*Articles PREVIEW */
 import ginaCarano from '@/assets/articulos/previews/30-40/gina_carano-preview.jpg'
