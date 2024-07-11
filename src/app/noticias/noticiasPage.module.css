@@ -1,3 +1,83 @@
+/* HERO */
+
+.noticiasHero {
+    display: grid;
+    grid-template-areas: "big big normal1 normal1 normal1" 
+                         "big big normal2 normal2 normal2";
+    gap: 20px;
+}
+
+.noticiasHero__bigArticle {
+    grid-area: big;
+    text-decoration: none;
+    color: #000;
+    color: #fff;
+    min-width: 300px;
+}
+
+.normal1 {
+    grid-area: normal1;
+}
+
+.normal2 {
+    grid-area: normal2;
+}
+
+.noticiasHero__bigArticle__img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.noticiasHero__bigArticle__text {
+    padding: 10px;
+}
+
+.noticiasHero__article {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+}
+
+.noticiasHero__title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.noticiasHero__article__container {
+    padding: 20px;
+}
+
+.noticiasHero__article__img {
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.noticiasHero__article__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.page__title {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+}
+
+.noticiasHero__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+/* CONTAINER */
+
 .noticiaspage__container {
     width: 80%;
     margin: 0 auto;
@@ -12,18 +92,65 @@
 }
 
 .noticiasPage__subtitle {
+    font-size: 20px;
+    font-weight: 600;
     border-bottom: 1px solid #ccc;
     padding: 10px 0;
     margin-top: 50px;
 }
 
 @media screen and (max-width: 1015px) {
+    /* HERO */
+
+    .noticiasHero {
+        grid-template-areas: "big" 
+                             "normal1"
+                             "normal2";
+        gap: 20px;
+    }
+
+    .noticiasHero__bigArticle__img {
+        height: 550px;
+    }
+
+    .noticiasHero__container {
+        justify-content: center;
+    }
+
+    /* CONTAINER */
+
     .noticiaspage__container {
         width: 95%;
     }
 }
 
 @media screen and (max-width: 660px) {
+    /* HERO */
+
+    .noticiasHero__bigArticle {
+        min-width: 0;
+    }
+
+    .noticiasHero__bigArticle__text {
+        font-size: 15;
+    }
+
+    .noticiasHero__article{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .noticiasHero__article__container {
+        padding: 0;
+    }
+
+    .noticiasHero__article__img {
+        width: 100%;
+    }
+
+    /* CONTAINER */
+
     .noticias {
         justify-content: center;
     }
