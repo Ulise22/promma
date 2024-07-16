@@ -40,6 +40,24 @@ export default function Home () {
         </div>
       </section>
       <Noticias />
+     <section className={styles.home__peleadores}>
+        <p className={styles.home__peleadores__title}>Peleadores Destacados</p>
+        <div className={styles.peleadores__container}>
+          <Link href='/peleadores/conor-mcgregor' className={`${styles.peleadores__card} ${styles.peleadores__card_mcgregor}`}>
+            <p className={styles.peleadores__card__name}>Conor Mcgregor</p>
+          </Link>
+          <Link href='/peleadores/alexander-volkanovski' className={`${styles.peleadores__card} ${styles.peleadores__card_volkanovski}`}>
+            <p className={styles.peleadores__card__name}>Alexander Volkanovski</p>
+          </Link>
+          <Link href='/peleadores/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
+            <p className={styles.peleadores__card__name}>Sean Strickland</p>
+          </Link>
+          <Link href='/peleadores' className={`${styles.peleadores__card__plus}`}>
+            <Image src={plus} alt=''/>
+          </Link>
+        </div>
+      </section>
+      <ArticulosContainer />
       <section className={styles.home__peleadores}>
         <p className={styles.home__peleadores__title}>Leyendas de las MMA</p>
         <div className={styles.peleadores__container}>
@@ -53,24 +71,6 @@ export default function Home () {
               <p className={styles.peleadores__card__name}>Anderson Silva</p>
           </Link>
           <Link href='/leyendas' className={`${styles.peleadores__card__plus__gray}`}>
-            <Image src={plus} alt=''/>
-          </Link>
-        </div>
-      </section>
-      <ArticulosContainer />
-      <section className={styles.home__peleadores}>
-        <p className={styles.home__peleadores__title}>Peleadores Destacados</p>
-        <div className={styles.peleadores__container}>
-          <Link href='/peleadores/conor-mcgregor' className={`${styles.peleadores__card} ${styles.peleadores__card_mcgregor}`}>
-            <p className={styles.peleadores__card__name}>Conor Mcgregor</p>
-          </Link>
-          <Link href='/peleadores/alexander-volkanovski' className={`${styles.peleadores__card} ${styles.peleadores__card_volkanovski}`}>
-            <p className={styles.peleadores__card__name}>Alexander Volkanovski</p>
-          </Link>
-          <Link href='/peleadores/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
-            <p className={styles.peleadores__card__name}>Sean Strickland</p>
-          </Link>
-          <Link href='/peleadores' className={`${styles.peleadores__card__plus}`}>
             <Image src={plus} alt=''/>
           </Link>
         </div>

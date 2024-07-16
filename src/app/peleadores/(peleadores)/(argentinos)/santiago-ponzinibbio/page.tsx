@@ -22,17 +22,17 @@ export const metadata: Metadata = {
 export default function Ponzinibbio () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={ponzinibbio} w={30} l={7} d={0} categoria='Peso Welter' nombre='Santiago Ponzinibbio' apodo='ARGENTINE DAGGER' />
+            <PeleadoresHero peleadoresImage={ponzinibbio} w={30} l={8} d={0} categoria='Peso Welter' nombre='Santiago Ponzinibbio' apodo='ARGENTINE DAGGER' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Santiago Ponzinibbio UFC</h2>
                     <p className={styles.peleador__article__text}>Santiago Ponzinibbio pelea en la <Link href='/articulos/ufc'>UFC</Link> desde noviembre de 2013. Y es una de las presencias argentinas más destacadas de ufc, trás haber estado muy cerca del top5 de su categoría en el Peso Welter a fines de 2018, y trás haber traído un evento de ufc a nuestro país en Buenos Aires en ese mismo año, el primero que se organizo en Argentina por esta compañía.</p>
-                    <p className={styles.peleador__article__text}>Desde que en noviembre de 2013 se unió a esta compañía, Ponzinibbio peleó un total de 17 combates, de los cuales ganó 11 y perdió 6, siendo 6 de estas victorias por la vía del nocaut y el resto por decisión.</p>
+                    <p className={styles.peleador__article__text}>Desde que en noviembre de 2013 se unió a esta compañía, Ponzinibbio peleó un total de 18 combates, de los cuales ganó 11 y perdió 7, siendo 6 de estas victorias por la vía del nocaut y el resto por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Ponzinibbio MMA</h2>
                     <p className={styles.peleador__article__text}>Santiago Ponzinbbio tiene una extensa carrera anterior a su debut en UFC, peleó 18 combates en competiciones sudamericanas en las cuales sólo perdió una vez contra el brasileño Leonardo Mafra, y donde obtuvo todas sus 6 victorias por sumisión, además de sus muchos ko.</p>
                     <p className={styles.peleador__article__text}>Ponzinibbio tiene un estilo principalmente de boxeo en sus peleas, aunque también es cinturón negro en Jiu Jitsu brasileño</p>
                     <h2 className={styles.peleador__article__title}>Ponzinibbio record</h2>
-                    <p className={styles.peleador__article__text}>Actualmente Santiago Ponzinibbio mantiene un record de 29-7-0 (29 victorias, 7 derrotas y 0 empates). Siendo 16 de sus victorias por nocaut, 6 por sumisión y 7 por decisión. Y sus derrotas siendo 4 por nocaut y 3 por decisión.</p>
+                    <p className={styles.peleador__article__text}>Actualmente Santiago Ponzinibbio mantiene un record de 29-8-0 (29 victorias, 7 derrotas y 0 empates). Siendo 16 de sus victorias por nocaut, 6 por sumisión y 7 por decisión. Y sus derrotas siendo 4 por nocaut y 4 por decisión.</p>
                     <Image className={styles.peleador__article__image} src={santiagoArgentina} alt='El peleador de mma Santiago Ponzinibbio, sosteniendo la bandera Argentina sentado en la pared de octagono después de un combate de ufc' />
                     <h2 className={styles.peleador__article__title}>Santiago Ponzinibbio enfermedad</h2>
                     <p className={styles.peleador__article__text}>Después de su victoria en Argentina contra Magny, Ponzinibbio estaba en el pico de su carrera y parecía bastante encaminado a tener una oportunidad por el título. Sin embargo, las cosas se torcieron cuando según él mismo contó, comenzó a sufrir una infección de sangre dentro del cuerpo. La infección llegó a la sangre y tuvo dos tipos diferentes de bacterias. Debido a esto comenzó un tratamiento que desafortunadamente traería efectos secundarios.</p>

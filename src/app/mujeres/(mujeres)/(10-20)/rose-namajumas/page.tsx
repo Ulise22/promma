@@ -19,13 +19,13 @@ export const metadata: Metadata = {
 export default function RoseNamajumas () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={rose} w={12} l={6} d={0} nombre='Rose Namajumas' apodo='Thug Rose' categoria='Peso Mosca Femenino' />
+            <PeleadoresHero peleadoresImage={rose} w={13} l={6} d={0} nombre='Rose Namajumas' apodo='Thug Rose' categoria='Peso Mosca Femenino' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Rose Namajumas UFC</h2>
                     <p className={styles.peleador__article__text}>Rose Namajumas es una peleadora estadounidense que compite en la <Link href='/articulos/ufc'>UFC</Link> desde diciembre de 2014, cuando participaría en la final de <b>The Ultimate Fighter</b> en la final contra la luchadora <b>Carla Esparza</b>. Rose supó ser campeona de la compañía en 2 oportunidades, ambas ocasiones en la división de Peso Paja Femenino, primero cuando derrotaría a la polaca <b>Joanna Jędrzejczyk</b> por TKO en el primer asalto en 2017, y la segunda vez cuando luego de perder su cinturón lo recuperaría al enfrentar a la china <Link href='/mujeres/weili-zhang'>Weili Zhang</Link>, a quien derrotaría por KO en el primer asalto en abril de 2021.</p>
                     <h2 className={styles.peleador__article__title}>Rose Namajumas Récord</h2>
-                    <p className={styles.peleador__article__text}>Rose Namajumas posee un récord profesional de 12-6. Siendo 2 de sus victorias por la vía del nocaut, 5 por la vía de la sumisión y 5 por decisión. Mientras que de sus 6 derrotas, 1 fue por nocaut, 1 por sumisión, y 4 por decisión.</p>
+                    <p className={styles.peleador__article__text}>Rose Namajumas posee un récord profesional de 13-6. Siendo 2 de sus victorias por la vía del nocaut, 5 por la vía de la sumisión y 6 por decisión. Mientras que de sus 6 derrotas, 1 fue por nocaut, 1 por sumisión, y 4 por decisión.</p>
                     <h2 className={styles.peleador__article__title}>¿Cuántos Cinturoes Tiene Rose Namajumas?</h2>
                     <p className={styles.peleador__article__text}>En cuanto a cinturones de UFC, fue campeona de peso paja en 2 ocasiones, defendiendo exitosamente el título en 2 ocasiones.</p>
                     <p className={styles.peleador__article__text}>Mientras que en las artes marciales, Rose Namajumas es cinturón negro en Taekwondo, es cinturón negro en Karate y es cinturón café en Jiu-Jitsu Brasileño.</p>
