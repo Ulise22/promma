@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     }
 }
 
-export default function SharaMagomedovOjo () {
+export default function BoxeoVSMMAPeligroso () {
     return(
         <main>
             <ArticleHero title='Boxeo vs MMA: ¿Cuál Es Más Peligroso?' subtitle='¿Cuál de estos 2 deportes es más peligroso para la salud de quienes lo practican? La respuesta que dan algunos especialistas sorprenderá a más de uno...' image={hero} date='2024-07-21' author={null} />
