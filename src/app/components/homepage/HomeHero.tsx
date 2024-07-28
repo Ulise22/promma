@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/noticias/ufc304'>
                 <Image className={styles.homehero__bigArticle__img} src={ufc304} alt='' />
                 <p className={styles.home__title}>UFC 304: ¡Leon Edwards vs Belal Muhammad! ¡Tom Aspinall vs Curtis Blaydes!</p>
-                <span>Noche de UFC con 2 cinturones en disputa, siendo la pelea de Leon Edwards vs Belal Muhammad la estelar, con la pelea por el cinturon interino de peso pesado como coestelar.</span>
+                <span>¡Paddy Pimblett somete a Bobby Green en el primer asalto de la pelea!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/shara-magomedov-ojo'>
                 <Image className={styles.homehero__article__img} src={magomedovOjo} alt='' />

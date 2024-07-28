@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function UFC303 () {
     return(
         <main>
-            <ArticleHero title='UFC 304: ¡Leon Edwards vs Belal Muhammad! ¡Tom Aspinall vs Curtis Blaydes!' subtitle='Noche de UFC con 2 cinturones en disputa, siendo la pelea de Leon Edwards vs Belal Muhammad la estelar, con la pelea por el cinturon interino de peso pesado como coestelar.' image={hero} date='2024-07-27' author={null} />
+            <ArticleHero title='UFC 304: ¡Leon Edwards vs Belal Muhammad! ¡Tom Aspinall vs Curtis Blaydes!' subtitle='¡Paddy Pimblett somete a Bobby Green en el primer asalto de la pelea!' image={hero} date='2024-07-27' author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Este 27 de agosto tenemos noche de UFC en Manchester, Reino Unido, con una cartelera repleta de luchadores ingleses y británicos, siendo el campeón de peso wélter <Link href='/peleadores/leon-edwards'>Leon Edwards</Link>, el encargado de encabezar esta cartelera, realizando su segunda defensa del título ante el retador <Link href='/peleadores/belal-muhammad'>Belal Muhammad</Link>, quien necesitó de acumular una racha de 8 victorias consecutivas para ganarse esta oportunidad por el cinturón de la división.</p>
@@ -33,7 +33,7 @@ export default function UFC303 () {
                     <p>Durante el combate se notó como Duncan tenía bastante respeto del poder que tenía el brasileño, que logró conectar golpes en varias ocasiones que hicieron pelear a Duncan de forma más cautelosa.</p>
                     <h2>Paddy Pimblett Somete a Bobby Green en el Primer Asalto</h2>
                     <p>El joven talento inglés logra una espectacular victoria por sumisió en el primer asalto, logrando conectar una llave con las piernas que dejó desmayado a Green. La pelea había comenzado sin mucha acción, con ambos peleadores midiéndose de pie, pero todo cambió cuando Bobby Green conectó un derribo hacia el inglés que lo terminó perjudicando, ya que terminó con el cuello y el brazo atrapados entre las piernas de Pimblett que logró finalizar a su rival.</p>
-                    <p>Con esta victoria, <Link href='/peleadores/paddy-pimblett'>Paddy Pimblett</Link> logra meterse en los rankings de la división de peso ligero de la <Link href='/articulo/ufc'>UFC</Link>, dado que esta es su primer pelea ante un luchador ranqueado, ocupando Green hasta esta noche la posición #15.</p>
+                    <p>Con esta victoria, <Link href='/peleadores/paddy-pimblett'>Paddy Pimblett</Link> logra meterse en los rankings de la división de peso ligero de la <Link href='/articulos/ufc'>UFC</Link>, dado que esta es su primer pelea ante un luchador ranqueado, ocupando Green hasta esta noche la posición #15.</p>
                     <h2>Tom Aspinall vs Curtis Blaydes</h2>
                     <p>En proceso...</p>
                     <h2>Leon Edwards vs Belal Muhammad</h2>
