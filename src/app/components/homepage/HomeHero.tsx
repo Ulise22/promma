@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/noticias/ufc304'>
                 <Image className={styles.homehero__bigArticle__img} src={ufc304} alt='' />
-                <p className={styles.home__title}>UFC 304: ¡Leon Edwards vs Belal Muhammad! ¡Tom Aspinall vs Curtis Blaydes!</p>
+                <p className={styles.home__title}>UFC 304: ¡Leon Edwards vs Belal Muhammad! ¡Tom Aspinall Noquea a Curtis Blaydes en el Primer Asalto!</p>
                 <span>¡Paddy Pimblett somete a Bobby Green en el primer asalto de la pelea!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/shara-magomedov-ojo'>
