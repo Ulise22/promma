@@ -1,5 +1,7 @@
 import styles from './noticiasPage.module.css'
 import Noticias from "../components/homepage/noticias/Noticias";
+import Link from 'next/link';
+import Image from 'next/image';
 import ArticlePreview from '../articulos/components/ArticlePreview';
 /* HERO IMAGES */
 import whittakerVSaliskerov from '@/assets/noticias/previews/10-20/whittaker-vs-aliskerov.jpg'
@@ -29,8 +31,8 @@ import cannonierVSimano from '@/assets/noticias/previews/10-20/fightnight-cannon
 import ailin from '@/assets/peleadores__images/argentinos/ailin-perez/ailin-perez.jpg'
 import ufc301 from '@/assets/noticias/previews/10-20/ufc301-preview.jpg'
 import chimaevCancel from '@/assets/noticias/previews/10-20/chimaev_whittaker-preview.jpg'
-import Link from 'next/link';
-import Image from 'next/image';
+/* 20 - 30 */
+import ufc303 from '@/assets/noticias/previews/20-30/ufc303-preview.jpg'
 
 export default function NoticiasPage () {
     return(
@@ -72,6 +74,7 @@ export default function NoticiasPage () {
                 </article>
             <p className={styles.noticiasPage__subtitle}>Todas Las Noticias</p>
             <article className={styles.noticias}>
+                <ArticlePreview img={ufc303} url='/noticias/ufc303' title='UFC 303: ¡Alex Pereira Noquea a Jiri Prochazka en el Segundo Asalto!¡Diego Lopes Vence a Dan Ige Que Tomó la Pelea con 4 Horas de Antelación!' author={null} text='En esta noche de MMA tenemos peleas fantásticas, con la pelea por el título de semipesados como evento estelar de esta jornada, y con la pelea inédita de Diego Lopes y de Dan Ige, que aceptó combatir unas pocas horas antes de la pelea.' date='29/06/2024' />
                 <ArticlePreview img={ufc302} url='/noticias/ufc302' title='UFC 302: ¡Islam Makhachev Somete a Poirier en el Último Asalto de la Pelea!' author={null} text='Islam Makhachev somete a Dustin Poirier en lo que hasta ahora parecería ser la última pelea de su carrera. Además Sean Strickland se lleva una esperable victoria contra Paulo Costa por decisión unánime.' date='02/06/2024' />
                 <ArticlePreview img={chimaevCancel} url='/noticias/khamzat-whittaker-cancelada' title='Whittaker vs Chimaev ¿Cancelada?' author={null} text='A un par de semanas para el enfrentamiento en Arabia Sáudita entre 2 de los mayores contendientes al título de Peso Medio de UFC, pareciera que se cae la pelea.' date='13/06/2024' />
                 <ArticlePreview img={cannonierVSimano} url='/noticias/fight-night-cannonier-imanov' title='UFC Fight Night: ¡Imanov Noquea a Canonnier! ¡Dominick Reyes Gana por Nocaut en el Primer Asalto! y ¡Raul Rosas JR Somete en el Segundo Asalto!' author={null} text='El UFC Fight Night Canonnier vs Imanov, nos dejó 5 nocauts, 1 sumisión y un montón de peleas espectaculares que valen la pena ver, en una cartelera organizada en la ciudad de Loisville en el Estado de Kentucky.' date='09/06/2024' />

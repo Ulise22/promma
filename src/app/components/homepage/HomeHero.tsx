@@ -4,15 +4,15 @@ import Image from 'next/image'
 /* IMAGES */
 import magomedovOjo from '@/assets/articulos/previews/30-40/shara_magomedov_ojo-preview.jpg'
 import chandlerEspera from '@/assets/noticias/previews/20-30/michael_chandler_espera-preview.jpg'
-import ufc303 from '@/assets/noticias/previews/20-30/ufc303-preview.jpg'
+import ufc304 from '@/assets/noticias/previews/20-30/ufc304-preview.jpg'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/noticias/ufc303'>
-                <Image className={styles.homehero__bigArticle__img} src={ufc303} alt='' />
-                <p className={styles.home__title}>UFC 303: ¡Alex Pereira Noquea a Jiri Prochazka en el Segundo Asalto!¡Diego Lopes Vence a Dan Ige Que Tomó la Pelea con 4 Horas de Antelación!</p>
-                <span>En esta noche de MMA tenemos peleas fantásticas, con la pelea por el título de semipesados como evento estelar de esta jornada, y con la pelea inédita de Diego Lopes y de Dan Ige, que aceptó combatir unas pocas horas antes de la pelea.</span>
+            <Link className={styles.homehero__bigArticle} href='/noticias/ufc304'>
+                <Image className={styles.homehero__bigArticle__img} src={ufc304} alt='' />
+                <p className={styles.home__title}>UFC 304: ¡Leon Edwards vs Belal Muhammad! ¡Tom Aspinall vs Curtis Blaydes!</p>
+                <span>Noche de UFC con 2 cinturones en disputa, siendo la pelea de Leon Edwards vs Belal Muhammad la estelar, con la pelea por el cinturon interino de peso pesado como coestelar.</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/shara-magomedov-ojo'>
                 <Image className={styles.homehero__article__img} src={magomedovOjo} alt='' />
