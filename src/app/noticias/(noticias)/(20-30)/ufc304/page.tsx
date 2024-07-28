@@ -28,8 +28,9 @@ export default function UFC303 () {
                     <h2>Arnold Allen se lleva la pelea contra Giga Chikadze</h2>
                     <p>El inglés hizo pesar su localía remontando una pelea que parecía empezar perdiendo, mostrándose cada vez más cómodo dentro del octagono a medida pasaban los minutos, siendo el tercer y último asalto en el que mostró su mejor cara, conectando varios golpes que se hicieron sentir en su rival. </p>
                     <p>Con esta pelea, Allen consigue la victoria número 20 de su carrera, cortando con una racha de 2 derrotas consecutivas, ante el ruso <b>Movsar Evloev</b>, y la sufrida ante <Link href='/peleadores/max-holloway'>Max Holloway</Link></p>
-                    <h2>Christian Duncan vs Gregory Rodriguez</h2>
-                    <p>En proceso...</p>
+                    <h2>El brasileño Rodriguez consigue ganar en Territorio Inglés</h2>
+                    <p>Gregory Rodriguez consigue una importantísima victoria en territorio extranjero, dominante por completo el combate de principio a fin ante un Duncan que no pudo hacer nada ni en el piso ni de pie ante Rodriguez, que con esta victoria lleva 3 consecutivas.</p>
+                    <p>Durante el combate se notó como Duncan tenía bastante respeto del poder que tenía el brasileño, que logró conectar golpes en varias ocasiones que hicieron pelear a Duncan de forma más cautelosa.</p>
                     <h2>Bobby Green vs Paddy Pimblett</h2>
                     <p>En proceso...</p>
                     <h2>Tom Aspinall vs Curtis Blaydes</h2>
