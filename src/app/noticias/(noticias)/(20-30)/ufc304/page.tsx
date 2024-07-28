@@ -31,8 +31,9 @@ export default function UFC303 () {
                     <h2>El brasileño Rodriguez consigue ganar en Territorio Inglés</h2>
                     <p>Gregory Rodriguez consigue una importantísima victoria en territorio extranjero, dominante por completo el combate de principio a fin ante un Duncan que no pudo hacer nada ni en el piso ni de pie ante Rodriguez, que con esta victoria lleva 3 consecutivas.</p>
                     <p>Durante el combate se notó como Duncan tenía bastante respeto del poder que tenía el brasileño, que logró conectar golpes en varias ocasiones que hicieron pelear a Duncan de forma más cautelosa.</p>
-                    <h2>Bobby Green vs Paddy Pimblett</h2>
-                    <p>En proceso...</p>
+                    <h2>Paddy Pimblett Somete a Bobby Green en el Primer Asalto</h2>
+                    <p>El joven talento inglés logra una espectacular victoria por sumisió en el primer asalto, logrando conectar una llave con las piernas que dejó desmayado a Green. La pelea había comenzado sin mucha acción, con ambos peleadores midiéndose de pie, pero todo cambió cuando Bobby Green conectó un derribo hacia el inglés que lo terminó perjudicando, ya que terminó con el cuello y el brazo atrapados entre las piernas de Pimblett que logró finalizar a su rival.</p>
+                    <p>Con esta victoria, <Link href='/peleadores/paddy-pimblett'>Paddy Pimblett</Link> logra meterse en los rankings de la división de peso ligero de la <Link href='/articulo/ufc'>UFC</Link>, dado que esta es su primer pelea ante un luchador ranqueado, ocupando Green hasta esta noche la posición #15.</p>
                     <h2>Tom Aspinall vs Curtis Blaydes</h2>
                     <p>En proceso...</p>
                     <h2>Leon Edwards vs Belal Muhammad</h2>
