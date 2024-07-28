@@ -11,8 +11,8 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/noticias/ufc304'>
                 <Image className={styles.homehero__bigArticle__img} src={ufc304} alt='' />
-                <p className={styles.home__title}>UFC 304: ¡Leon Edwards vs Belal Muhammad! ¡Tom Aspinall Noquea a Curtis Blaydes en el Primer Asalto!</p>
-                <span>¡Paddy Pimblett somete a Bobby Green en el primer asalto de la pelea!</span>
+                <p className={styles.home__title}>UFC 304: ¡Belal Muhammad Vence Por Decisión Unánime a Leon Edwards y es Nuevo Campeón! ¡Tom Aspinall Noquea a Curtis Blaydes en el Primer Asalto!</p>
+                <span>¡Paddy Pimblett somete a Bobby Green en el primer asalto de la pelea! Tom Aspinall logra otra victoria por nocaut en su revancha ante Blaydes. Belal Muhammad es nuevo campeón de peso wélter en la UFC.</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/shara-magomedov-ojo'>
                 <Image className={styles.homehero__article__img} src={magomedovOjo} alt='' />
