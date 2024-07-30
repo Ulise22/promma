@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function LeonEdwards () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={edwards} w={22} l={3} d={0} nombre='Leon Edwards' apodo='ROCKY' categoria='Peso Welter' />
+            <PeleadoresHero peleadoresImage={edwards} w={22} l={4} d={0} nombre='Leon Edwards' apodo='ROCKY' categoria='Peso Welter' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Edwards UFC</h2>
@@ -28,8 +28,8 @@ export default function LeonEdwards () {
                     <p className={styles.peleador__article__text}>El 21 de enero de 2020 se confirma que Leon Edwards renueva su contrato, su próximo combate se hubiese dado el 21 de marzo contra el ex campeón de aquel entonces (Tyron Woodley), pero a causa del COVID-19 forzaron al luchador para que retirarse. Luego de algunos retrasos en la pelea, se terminó cancelando. Edwards no volvió a luchar hasta el 13 de marzo de 2021. Esto generó que la UFC removiera a Edwards de los rankings por inactividad.</p>
                     <p className={styles.peleador__article__text}>Actualmente, en palabras de Leon Edwards: “Siento que voy a salir, convertirme en doble campeón, el primero del Reino Unido en hacerlo, ese es definitivamente uno de mis objetivos. Eso está en las tarjetas, seguro.” Buscando volverse campeón en dos divisiones, peso welter y peso medio.</p>
                     <h2 className={styles.peleador__article__title}>Leon Edwards Récord</h2>
-                    <p className={styles.peleador__article__text}>Un total de 17 peleas oficiales de UFC: 2 derrotas por decisión unánime y decisión dividida. 13 victorias: 3 por nocaut, 1 sumisión y 9 por decisión unánime y decisión dividida. 1 pelea que terminó sin decisión por un piquete a los ojos de parte Edwards a Muhammad.</p>
-                    <p className={styles.peleador__article__text}>25 combates totales, 21 victorias: 7 por nocaut, 3 por sumisión y 11 por decisión unánime y decisión dividida. 3 derrotas: 2 decisión unánime y decisión dividida, 1 por descalificación.Obteniendo una última pelea que fue cancelada por piquete de ojos.</p>
+                    <p className={styles.peleador__article__text}>Un total de 18 peleas oficiales de UFC: 3 derrotas por decisión unánime y decisión dividida. 13 victorias: 3 por nocaut, 1 sumisión y 9 por decisión unánime y decisión dividida. 1 pelea que terminó sin decisión por un piquete a los ojos de parte Edwards a Muhammad.</p>
+                    <p className={styles.peleador__article__text}>26 combates totales, 21 victorias: 7 por nocaut, 3 por sumisión y 11 por decisión unánime y decisión dividida. 4 derrotas: 3 decisión unánime y decisión dividida, 1 por descalificación. Obteniendo una última pelea que fue cancelada por piquete de ojos.</p>
                     <h2 className={styles.peleador__article__title}>Leon Edwards Historia</h2>
                     <p className={styles.peleador__article__text}>Nacimiento: Kingston, Jamaica (25 de agosto de 1991, 32 años)</p>
                     <p className={styles.peleador__article__text}>A temprana edad se mudó a Birmingham, Inglaterra. En los años de formación que tuvo en su nuevo hogar, lo apodaron “Rocky” a causa de la violencia en las calles de su barrio, Edwards no sería menos que otros muchachos de su edad. En palabras de Leon Edwards: “Por eso mi apodo es Rocky. Lo conseguí peleando en la calle.”</p>

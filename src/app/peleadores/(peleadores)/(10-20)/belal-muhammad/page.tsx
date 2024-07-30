@@ -18,13 +18,13 @@ export const metadata: Metadata = {
 export default function BelalMuhammad () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={belal} w={23} l={3} d={0} nombre='Belal Muhammad' apodo='Remember The Name' categoria='Peso Wélter' />
+            <PeleadoresHero peleadoresImage={belal} w={24} l={3} d={0} nombre='Belal Muhammad' apodo='Remember The Name' categoria='Peso Wélter' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Muhammad UFC</h2>
                     <p className={styles.peleador__article__text}>Belal Muhammad es un peleador estadounidense que pelea en la <Link href='/articulos/ufc'>UFC</Link> desde julio de 2016 en la división de peso wélter. Supo acumular una amplia racha de victorias de forma consecutiva, que le valieron la oportunidad de pelear por el título ante el luchador británico <Link href='/peleadores/leon-edwards'>Leon Edwards</Link>.</p>
                     <h2 className={styles.peleador__article__title}>Belal Muhammad Récord</h2>
-                    <p className={styles.peleador__article__text}>Belal Muhammad posee un récord de 23-3 (1). Siendo 5 de sus victorias por la vía del nocaut, 1 por la vía de la sumisión y 17 por decisión. Mientras que de sus 3 derrotas, 1 fue por nocaut y 2 fueron por decisión. Además tiene una pelea ante <b>Leon Edwards</b> que quedó sin resultado, luego de que esta sea parada en medio del segundo asalto, debido a un golpe accidental en el ojo que le impidió a Belal continuar peleando.</p>
+                    <p className={styles.peleador__article__text}>Belal Muhammad posee un récord de 24-3 (1). Siendo 5 de sus victorias por la vía del nocaut, 1 por la vía de la sumisión y 18 por decisión. Mientras que de sus 3 derrotas, 1 fue por nocaut y 2 fueron por decisión. Además tiene una pelea ante <b>Leon Edwards</b> que quedó sin resultado, luego de que esta sea parada en medio del segundo asalto, debido a un golpe accidental en el ojo que le impidió a Belal continuar peleando.</p>
                     <h3>Belal Muhammad UFC Récord</h3>
                     <p className={styles.peleador__article__text}>En la UFC posee un récord de 14-3 (1). Siendo 2 de sus victorias por nocaut, 1 por sumisión y 11 por decisión de los jueces. Habiendo llegado a la compañía invicto, todas sus derrotas pertenecen a su estancia en la UFC, siendo 1 de estas derrotas por KO y 2 por decisión.</p>
                     <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/FxhUUWZTfWQ?si=YitsJb3sgVsqOITo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>

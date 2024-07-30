@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     }
 }
 
-export default function Strickland () {
+export default function Aspinall () {
     return(
         <main> 
             <PeleadoresHero peleadoresImage={aspinall} w={15} l={3} d={0} nombre='Tom Aspinall' categoria='Peso Pesado' apodo={null} />

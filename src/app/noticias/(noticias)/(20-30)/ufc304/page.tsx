@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     }
 }
 
-export default function UFC303 () {
+export default function UFC304 () {
     return(
         <main>
             <ArticleHero title='UFC 304: ¡Belal Muhammad Vence Por Decisión Unánime a Leon Edwards y es Nuevo Campeón! ¡Tom Aspinall Noquea a Curtis Blaydes en el Primer Asalto!' subtitle='¡Paddy Pimblett somete a Bobby Green en el primer asalto de la pelea! Tom Aspinall logra otra victoria por nocaut en su revancha ante Blaydes. Belal Muhammad es nuevo campeón de peso wélter en la UFC.' image={hero} date='2024-07-27' author={null} />
