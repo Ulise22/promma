@@ -67,8 +67,8 @@ export default function Peleadores () {
                     <Link href='/peleadores/francis-ngannou' className={`${styles.peleadores__card} ${styles.peleadores__card_ngannou}`}>
                         <p className={styles.peleadores__card__name}>Francis Ngannou</p>
                     </Link>
-                    <Link href='/peleadores/belal-muhammad' className={`${styles.peleadores__card} ${styles.peleadores__card_belal}`}>
-                        <p className={styles.peleadores__card__name}>Belal Muhammad</p>
+                    <Link href='/peleadores/leon-edwards' className={`${styles.peleadores__card} ${styles.peleadores__card_edwards}`}>
+                        <p className={styles.peleadores__card__name}>Leon Edwards</p>
                     </Link>
                 </article>
                 <h2 className={styles.peleadores__subtitle}>Campeones de UFC</h2>
@@ -88,10 +88,6 @@ export default function Peleadores () {
                     <Link href='/peleadores/alexandre-pantoja' className={`${styles.peleadores__card} ${styles.peleadores__card_pantoja}`}>
                         <p className={styles.peleadores__card__name}>Alexandre Pantoja</p>
                     </Link>
-                    <Link href='/peleadores/leon-edwards' className={`${styles.peleadores__card} ${styles.peleadores__card_edwards}`}>
-                        <p className={styles.peleadores__card__name}>Leon Edwards</p>
-                    </Link>
-                    
                     <Link href='/peleadores/jon-jones' className={`${styles.peleadores__card} ${styles.peleadores__card_jones}`}>
                         <p className={styles.peleadores__card__name}>Jon Jones</p>
                     </Link>
@@ -101,6 +97,9 @@ export default function Peleadores () {
                     </Link>
                     <Link href='/peleadores/du-plessis' className={`${styles.peleadores__card} ${styles.peleadores__card_duPlessis}`}>
                         <p className={styles.peleadores__card__name}>Dricus Du Plessis</p>
+                    </Link>
+                    <Link href='/peleadores/belal-muhammad' className={`${styles.peleadores__card} ${styles.peleadores__card_belal}`}>
+                        <p className={styles.peleadores__card__name}>Belal Muhammad</p>
                     </Link>
                 </article>
                 <h2 className={styles.peleadores__subtitle}>Peleadores argentinos de MMA</h2>
