@@ -11,6 +11,7 @@ import alexanderEmelianenko from '@/assets/articulos/previews/20-30/alexander-em
 import yoelgenetica from '@/assets/articulos/previews/20-30/yoel_romero_genetica-preview.jpg'
 import Image from 'next/image'
 import plus from '@/assets/plus.png'
+import CoverturaUFC from './components/homepage/coverturaUfc/CoverturaUfc'
 
 export default function Home () {
   return(
@@ -75,6 +76,7 @@ export default function Home () {
           </Link>
         </div>
       </section>
+      <CoverturaUFC />
       <section className={styles.home__peleadores}>
         <p className={styles.home__peleadores__title}>Mujeres en MMA</p>
         <div className={styles.peleadores__container}>
