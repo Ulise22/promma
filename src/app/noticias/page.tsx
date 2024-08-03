@@ -41,8 +41,8 @@ export default function NoticiasPage () {
             <article className={styles.noticiasHero}>
                 <Link className={styles.noticiasHero__bigArticle} href='/noticias/fight-night-sandhagen-nurmagomedov'>
                     <Image className={styles.noticiasHero__bigArticle__img} src={sandhagenVSnurmagomedov} alt='' />
-                    <p className={styles.page__title}>UFC FIGHT NIGHT: ¡Cory Sandhagen vs Umar Nurmagomedov! ¡Chito Vera vs Deiveson Figueiredo!</p>
-                    <span>Esta noche de UFC en los Emiratos Árabes nos trae una tremenda cartelera con muchas peleas interesantes para ver.</span>
+                    <p className={styles.page__title}>UFC FIGHT NIGHT: ¡El Español Joel Álvarez Noquea a Brener en el Tercer Asalto!</p>
+                    <span>Joel Álvarez gana por nocaut en el tercer asalto de la pelea. Tony Ferguson vuelve a perder una vez más, cayendo derrotado en esta ocasión ante Michael Chiesa.</span>
                 </Link>
                 <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/tony-ferguson-retiro'>
                     <Image className={styles.noticiasHero__article__img} src={cucuyRetiro} alt='' />
