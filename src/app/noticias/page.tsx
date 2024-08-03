@@ -4,12 +4,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 import ArticlePreview from '../articulos/components/ArticlePreview';
 /* HERO IMAGES */
+import sandhagenVSnurmagomedov from '@/assets/noticias/previews/20-30/sandhagen-vs-nurmagomedov-preview.jpg'
 import whittakerVSaliskerov from '@/assets/noticias/previews/10-20/whittaker-vs-aliskerov.jpg'
 import cucuyRetiro from '@/assets/noticias/previews/20-30/ferguson_retiro_preview.jpg'
 import volkNextFight from '@/assets/noticias/previews/20-30/volk_next_fight_preview.jpg'
 import belalOdiado from '@/assets/noticias/previews/20-30/belal_odiado-preview.jpg'
 import amandaVuelve from '@/assets/noticias/previews/20-30/amanda_nunes_vuelve-preview.jpg'
-import ortegaLopes from '@/assets/noticias/previews/10-20/ortega-vs-lopes-preview.jpg'
 import jonesEvitaAspinall from '@/assets/noticias/previews/20-30/jones_evita_aspinall-preview.jpg'
 /* 0 - 10 */
 import ufc302 from '@/assets/noticias/previews/10-20/ufc302-preview.jpg'
@@ -31,6 +31,7 @@ import cannonierVSimano from '@/assets/noticias/previews/10-20/fightnight-cannon
 import ailin from '@/assets/peleadores__images/argentinos/ailin-perez/ailin-perez.jpg'
 import ufc301 from '@/assets/noticias/previews/10-20/ufc301-preview.jpg'
 import chimaevCancel from '@/assets/noticias/previews/10-20/chimaev_whittaker-preview.jpg'
+import ortegaLopes from '@/assets/noticias/previews/10-20/ortega-vs-lopes-preview.jpg'
 /* 20 - 30 */
 import ufc303 from '@/assets/noticias/previews/20-30/ufc303-preview.jpg'
 
@@ -38,10 +39,10 @@ export default function NoticiasPage () {
     return(
         <section className={styles.noticiaspage__container}>
             <article className={styles.noticiasHero}>
-                <Link className={styles.noticiasHero__bigArticle} href='/noticias/fight-night-whittaker-aliskerov'>
-                    <Image className={styles.noticiasHero__bigArticle__img} src={whittakerVSaliskerov} alt='' />
-                    <p className={styles.page__title}>UFC Fight Night: ¡Whittaker Noquea en el Primer Asalto a Aliskerov! ¡Shara Bullet Noquea a su Rival en el Tercer Asalto!</p>
-                    <span>Un evento donde contamos con emocionantes combates como el que tendran Johnny Walker y Volkan Oezdemir abriendo la cartelera principal, la pelea coestelar entre Sergei Pavlovich y Alexander Volkov, y el evento principal protagonizado por Robert Whittaker y Ikram Aliskerov.</span>
+                <Link className={styles.noticiasHero__bigArticle} href='/noticias/fight-night-sandhagen-nurmagomedov'>
+                    <Image className={styles.noticiasHero__bigArticle__img} src={sandhagenVSnurmagomedov} alt='' />
+                    <p className={styles.page__title}>UFC FIGHT NIGHT: ¡Cory Sandhagen vs Umar Nurmagomedov! ¡Chito Vera vs Deiveson Figueiredo!</p>
+                    <span>Esta noche de UFC en los Emiratos Árabes nos trae una tremenda cartelera con muchas peleas interesantes para ver.</span>
                 </Link>
                 <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/tony-ferguson-retiro'>
                     <Image className={styles.noticiasHero__article__img} src={cucuyRetiro} alt='' />
@@ -67,13 +68,14 @@ export default function NoticiasPage () {
                 </Link>
             </article>
             <article className={styles.noticiasHero__container}>
-                <ArticlePreview img={volkNextFight} url='/noticias/proxima-pelea-volkanovski' title='¿Volkanovski en Peso Ligero o Revancha Contra Ilia Topuria? Próxima Pelea de Alexander Volkanovski' author={null} text='.¿Cuál va a ser la próxima pelea de Alexander Volkanovski? ¿Obtendrá una revancha por el título ante Ilia Topuria, o pasará página y se movera a la división de peso ligero para enfrentar a los otros contendientes?' date='08/07/2024' />
+                <ArticlePreview img={whittakerVSaliskerov} url='/noticias/fight-night-whittaker-aliskerov' title='UFC Fight Night: ¡Whittaker Noquea en el Primer Asalto a Aliskerov! ¡Shara Bullet Noquea a su Rival en el Tercer Asalto!' author={null} text='Un evento donde contamos con emocionantes combates como el que tendran Johnny Walker y Volkan Oezdemir abriendo la cartelera principal, la pelea coestelar entre Sergei Pavlovich y Alexander Volkov, y el evento principal protagonizado por Robert Whittaker y Ikram Aliskerov.' date='22/06/2024' />
+                <ArticlePreview img={volkNextFight} url='/noticias/proxima-pelea-volkanovski' title='¿Volkanovski en Peso Ligero o Revancha Contra Ilia Topuria? Próxima Pelea de Alexander Volkanovski' author={null} text='¿Cuál va a ser la próxima pelea de Alexander Volkanovski? ¿Obtendrá una revancha por el título ante Ilia Topuria, o pasará página y se movera a la división de peso ligero para enfrentar a los otros contendientes?' date='08/07/2024' />
                 <ArticlePreview img={jonesEvitaAspinall} url='/noticias/jones-esquiva-aspinall' title='¿Jon Jones Está Evitando a Tom Aspinall?' author={null} text='El actual campeón de peso pesado de UFC Jon Jones, ha rechazado pelear con el campeón interino Tom Aspinall a la espera de combatir en su lugar a Stipe Miocic.' date='16/07/2024' />
                 <ArticlePreview img={amandaVuelve} url='/noticias/vuelve-amanda-nunes' title='¿Amanda Nunes Vuelve a Pelear?' author={null} text='La mejor peleadora de la historia de las MMA está retirada, pero ¿Volverá Amanda Nunes al Octagono?' date='25/06/2024' />
-                <ArticlePreview img={ortegaLopes} url='/noticias/ortega-vs-lopes-previa' title='Diego Lopes vs Brian Ortega: Una Pelea Que Puede Revolucionar la División' author={null} text='El próximo sábado 29 de junio se enfrentarán en la pelea coestelar el brasileño Diego Lopes y el estadounidense Brian Ortega en el UFC 303 es una que puede llegar a verse incluso como una eliminatoria por el título.' date='24/06/2024' />
                 </article>
             <p className={styles.noticiasPage__subtitle}>Todas Las Noticias</p>
             <article className={styles.noticias}>
+                <ArticlePreview img={ortegaLopes} url='/noticias/ortega-vs-lopes-previa' title='Diego Lopes vs Brian Ortega: Una Pelea Que Puede Revolucionar la División' author={null} text='El próximo sábado 29 de junio se enfrentarán en la pelea coestelar el brasileño Diego Lopes y el estadounidense Brian Ortega en el UFC 303 es una que puede llegar a verse incluso como una eliminatoria por el título.' date='24/06/2024' />
                 <ArticlePreview img={ufc303} url='/noticias/ufc303' title='UFC 303: ¡Alex Pereira Noquea a Jiri Prochazka en el Segundo Asalto!¡Diego Lopes Vence a Dan Ige Que Tomó la Pelea con 4 Horas de Antelación!' author={null} text='En esta noche de MMA tenemos peleas fantásticas, con la pelea por el título de semipesados como evento estelar de esta jornada, y con la pelea inédita de Diego Lopes y de Dan Ige, que aceptó combatir unas pocas horas antes de la pelea.' date='29/06/2024' />
                 <ArticlePreview img={ufc302} url='/noticias/ufc302' title='UFC 302: ¡Islam Makhachev Somete a Poirier en el Último Asalto de la Pelea!' author={null} text='Islam Makhachev somete a Dustin Poirier en lo que hasta ahora parecería ser la última pelea de su carrera. Además Sean Strickland se lleva una esperable victoria contra Paulo Costa por decisión unánime.' date='02/06/2024' />
                 <ArticlePreview img={chimaevCancel} url='/noticias/khamzat-whittaker-cancelada' title='Whittaker vs Chimaev ¿Cancelada?' author={null} text='A un par de semanas para el enfrentamiento en Arabia Sáudita entre 2 de los mayores contendientes al título de Peso Medio de UFC, pareciera que se cae la pelea.' date='13/06/2024' />
