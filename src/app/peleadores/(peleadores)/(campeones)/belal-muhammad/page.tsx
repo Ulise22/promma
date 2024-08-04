@@ -1,9 +1,9 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import belal from '@/assets/peleadores__images/20-30/belal-muhammad/belal-muhammad.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
-import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import AsideFighter from '@/app/components/asides/AsideFighter'
 
 export const metadata: Metadata = {
     title: 'Belal Muhammad',
@@ -42,7 +42,7 @@ export default function BelalMuhammad () {
                     <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/8CSI43PVL-E?si=FGom3i-k7gUwZy_y" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>El 6 de mayo de 2023, Belal se enfrentaría al brasileño <b>Gilbert Burns</b> en la pelea coestelar del UFC 288, en un combate organizado a 5 asaltos, que terminó por llegar a la decisión de los jueces que dieron como ganador a Belal por decisión unánime.</p>
                 </article>
-                <AsideChamps />
+                <AsideFighter />
             </section>
         </main>
     )

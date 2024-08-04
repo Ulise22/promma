@@ -9,10 +9,10 @@ import hero from '@/assets/noticias/heros/20-30/sandhagen-vs-nurmagomedov-hero.j
 
 export const metadata: Metadata = {
     title: 'Sandhagen vs Nurmavomedov',
-    description: '',
+    description: 'Joel Álvarez gana por nocaut en el tercer asalto de la pelea. Tony Ferguson vuelve a perder una vez más, cayendo derrotado en esta ocasión ante Michael Chiesa. Shara Bullet gana por decisión unánime su tercer pelea en la UFC.',
     openGraph: {
         title: 'Sandhagen vs Nurmavomedov',
-        description: '',
+        description: 'Joel Álvarez gana por nocaut en el tercer asalto de la pelea. Tony Ferguson vuelve a perder una vez más, cayendo derrotado en esta ocasión ante Michael Chiesa. Shara Bullet gana por decisión unánime su tercer pelea en la UFC.',
         url: 'https://fullmma.org/noticias/fight-night-sandhagen-nurmagomedov'
     }
 }

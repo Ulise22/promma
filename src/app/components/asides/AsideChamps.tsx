@@ -1,4 +1,3 @@
-'use client'
 import Image from "next/image";
 import Link from "next/link";
 import styles from './asideChamps.module.css'
@@ -7,7 +6,7 @@ import makhachev from '@/assets/peleadores__images/10-20/islam-makhachev/islam__
 import duPlessis from '@/assets/peleadores__images/0-10/dricus-du-plessis/du-plessis_card.jpg'
 import omalley from '@/assets/peleadores__images/20-30/sean-omalley/sean__omalley.jpg'
 import pereira from '@/assets/peleadores__images/0-10/alex-pereira/pereira_sparring2.jpg'
-import edwards from '@/assets/peleadores__images/10-20/leon-edwards/edwards_card.jpg'
+import belal from '@/assets/peleadores__images/20-30/belal-muhammad/belal-card.jpg'
 import topuria from '@/assets/peleadores__images/10-20/ilia-topuria/ilia-topuria.jpg'
 
 export default function AsideChamps () {
@@ -34,9 +33,9 @@ export default function AsideChamps () {
                 <Image className={styles.campeones__image} src={pereira} alt='Sean O&apos;Malley' />
                 <p className={styles.campeones__name}>Alex Pereira</p>
             </Link>
-            <Link href='/peleadores/leon-edwards' className={styles.campeones}>
-                <Image className={styles.campeones__image} src={edwards} alt='Leon Edwards' />
-                <p className={styles.campeones__name}>Leon Edwards</p>
+            <Link href='/peleadores/belal-muhammad' className={styles.campeones}>
+                <Image className={styles.campeones__image} src={belal} alt='Belal Muhammad' />
+                <p className={styles.campeones__name}>Belal Muhammad</p>
             </Link>
         </aside>
     )

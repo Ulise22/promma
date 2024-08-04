@@ -2,8 +2,8 @@ import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import edwards from '@/assets/peleadores__images/10-20/leon-edwards/edwards.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
-import AsideFighter from '@/app/components/asides/AsideFighter'
 import type { Metadata } from 'next'
+import AsideChamps from '@/app/components/asides/AsideChamps'
 
 export const metadata: Metadata = {
     title: 'Leon Edwards',
@@ -22,7 +22,7 @@ export default function LeonEdwards () {
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Edwards UFC</h2>
-                    <p className={styles.peleador__article__text}>Actual campeón de UFC 278 y UFC 286, habiendo ganado en ambas ocasiones contra Kamaru Usman. Lleva peleando profesionalmente en la <Link href='/articulos/ufc'>UFC</Link> 9 años. Actualmente está en el equipo UTC Birmingham, con solo dos derrotas oficiales de la UFC.</p>
+                    <p className={styles.peleador__article__text}>Actual campeón de UFC 278 y UFC 286, habiendo ganado en ambas ocasiones contra Kamaru Usman. Lleva peleando profesionalmente en la <Link href='/articulos/ufc'>UFC</Link> 9 años. Actualmente está en el equipo UTC Birmingham.</p>
                     <p className={styles.peleador__article__text}>El 8 de noviembre de 2014, Edwards, hizo su debut contra Claudio Silva en UFC Fight Night: Shogun vs. Saint Preux. Donde fue vencido por decisión dividida (29-28, 29-28, 28-29). El 20 de agosto de 2022 ganó el título mundial de peso welter, UFC 278, donde ganó por KO con una patada. El 18 de marzo de 2023 defendió el título contra el mismo contrincante, <Link href='/peleadores/kamaru-usman'>Kamaru Usman</Link>, donde ganó por decisión mayoritaria.</p>
                     <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/egNhnzfX6VU?si=x7u6LsAEVtydT6Iu" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>El 21 de enero de 2020 se confirma que Leon Edwards renueva su contrato, su próximo combate se hubiese dado el 21 de marzo contra el ex campeón de aquel entonces (Tyron Woodley), pero a causa del COVID-19 forzaron al luchador para que retirarse. Luego de algunos retrasos en la pelea, se terminó cancelando. Edwards no volvió a luchar hasta el 13 de marzo de 2021. Esto generó que la UFC removiera a Edwards de los rankings por inactividad.</p>
@@ -45,7 +45,7 @@ export default function LeonEdwards () {
                     <p className={styles.peleador__article__text}>En palabras del campeón: “Sabía que lo más probable es que tendremos una revancha en el futuro. Ya sea a continuación o más adelante, vamos a tener una revancha. Ha sido un campeón durante mucho tiempo, han estado diciendo que es el mejor libra por libra durante toda la semana, él lo creía. Como dije en el octágono, el cinturón no pertenece a nadie.” </p>
                     <p className={styles.peleador__article__text}>Tiempo más tarde, Edwards defendió su título contra Usman nuevamente. El 18 de marzo de 2023, por decisión mayoritaria (48-46, 48-46, 47-47), Leon Edwards mantuvo su título como el mejor de peso welter.</p>
                 </article>
-                <AsideFighter />
+                <AsideChamps />
             </section>
         </main>
     )
