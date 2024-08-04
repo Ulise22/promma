@@ -20,14 +20,14 @@ export const metadata: Metadata = {
 export default function Mackenzie () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={mackenzie} w={13} l={5} d={0} nombre='Mackenzie Dern' apodo={null} categoria='Peso Paja Femenino' />
+            <PeleadoresHero peleadoresImage={mackenzie} w={14} l={5} d={0} nombre='Mackenzie Dern' apodo={null} categoria='Peso Paja Femenino' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Mackenzie Dern UFC</h2>
                     <p className={styles.peleador__article__text}>Mackenzie Dern es una peleadora estadounidense que compite en la división de peso paja femenino de la UFC desde marzo de 2018, cuando debutaría contra Ashley Cooper, a quien vencería por decisión unánime. En la compañía ha peleado un total de 13 combates, en los que ha ganado 8 y perdido 5.</p>
                     <p className={styles.peleador__article__text}>Cuenta con la distinción de ser la mujer con más victorias por sumisión en su división, estando empatada en todas las divisiones con la luchadora canadiense <b>Gillian Robertson</b> con un total de 4.</p>
                     <h2 className={styles.peleador__article__title}>Mackenzie Dern Récord</h2>
-                    <p className={styles.peleador__article__text}>Mackenzie Dern posee un récord profesional de 13-5. Siendo 6 de sus 13 victorias por sumisión y 7 por decisión. Mientras que de sus 5 derrotas, sólo 1 fue por nocaut y las otras 4 fueron por decisión.</p>
+                    <p className={styles.peleador__article__text}>Mackenzie Dern posee un récord profesional de 14-5. Siendo 6 de sus 13 victorias por sumisión y 8 por decisión. Mientras que de sus 5 derrotas, sólo 1 fue por nocaut y las otras 4 fueron por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Mackenzie Dern Historia</h2>
                     <p className={styles.peleador__article__text}>Mackenzie Lynne Dern Santo nació eñ 24 de marzo de 1993 en la ciudad de Phoenix, capital del Estado de Arizona en Estados Unidos. Es hija de un competidor de grappling condecorado brasileño, que constantemente la llevaba a su Brasil natal, por lo que es capaz de hablar con fluidez tanto inglés como portugués.</p>
                     <p className={styles.peleador__article__text}>Por la clara influencia de su padre comenzó a entrenar a los 3 años junto a este, y junto a su madrastra que también es brasileña. Comenzó a competir a una temprana edad en divisiones de adultos con tan sólo 14 años, ganando un campeonato mundial en cada nivel de cinturón hasta lograr hacerse con el cinturón negro de jiu-jitsu brasileño que le fue entregado por su padre y maestro <b>Wellington Dias</b>, cuando Mackenzie tenía 19 años. </p>
