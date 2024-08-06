@@ -104,6 +104,9 @@ export default function Peleadores () {
                     <Link href='/peleadores/merab-dvalishvili' className={`${styles.peleadores__card} ${styles.peleadores__card_merab}`}>
                         <p className={styles.peleadores__card__name}>Merab Dvalishvili</p>
                     </Link>
+                    <Link href='/peleadores/robert-whittaker' className={`${styles.peleadores__card} ${styles.peleadores__card_whittaker}`}>
+                        <p className={styles.peleadores__card__name}>Robert Whittaker</p>
+                    </Link>
                 </article>
                 <h2 className={styles.peleadores__subtitle}>Peleadores argentinos de MMA</h2>
                 <article className={styles.peleadores__container}>
