@@ -7,10 +7,10 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
     title: 'Robert Whittaker',
-    description: "",
+    description: "Robert Whittaker es un peleador nacido en Nueva Zelanda y nacionalizado australiano que compite en la división de peso medio de la UFC, que supo ser campeón de la compañía en una ocasión, cuando se enfrentó al cubano Yoel Romero por el campeonato interino de la división, posteriormente, el entonces campeón George St-Pierre se retiraría, promoviendo a Whittaker a campeón indiscutido.",
     openGraph: {
         title: 'Robert Whittaker',
-        description: "",
+        description: "Robert Whittaker es un peleador nacido en Nueva Zelanda y nacionalizado australiano que compite en la división de peso medio de la UFC, que supo ser campeón de la compañía en una ocasión, cuando se enfrentó al cubano Yoel Romero por el campeonato interino de la división, posteriormente, el entonces campeón George St-Pierre se retiraría, promoviendo a Whittaker a campeón indiscutido.",
         url: 'https://fullmma.org/peleadores/robert-whittaker'
     }
 }
