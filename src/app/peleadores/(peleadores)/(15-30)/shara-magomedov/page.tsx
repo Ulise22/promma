@@ -7,10 +7,10 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
     title: 'Shara Magomedov',
-    description: "",
+    description: "Shara 'Bullet' es un peleador ruso de la república de Daguestán, al igual que muchos de los peleadores más reconocidos de la UFC, como Khabib, Islam Makhachev o Ankalaev. Lleva peleando en la UFC desde octubre de 2023, cuando enfrentó al ruso Bruno Silva en el UFC 294, ganando su combate por decisión unánime.",
     openGraph: {
         title: 'Shara Magomedov',
-        description: "",
+        description: "Shara 'Bullet' es un peleador ruso de la república de Daguestán, al igual que muchos de los peleadores más reconocidos de la UFC, como Khabib, Islam Makhachev o Ankalaev. Lleva peleando en la UFC desde octubre de 2023, cuando enfrentó al ruso Bruno Silva en el UFC 294, ganando su combate por decisión unánime.",
         url: 'https://fullmma.org/peleadores/shara-magomedov'
     }
 }
