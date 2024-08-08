@@ -249,6 +249,11 @@
     background-position: center;    
 }
 
+.peleadores__card_alvarez {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/30-40/joel-alvarez/joel_alvarez-card.jpg');
+    background-position: center;       
+}
+
 @media screen and (max-width: 1015px) {
     .peleadores {
         width: 90%;

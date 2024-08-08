@@ -113,6 +113,9 @@ export default function Peleadores () {
                     <Link href='/peleadores/diego-lopes' className={`${styles.peleadores__card} ${styles.peleadores__card_diegoLopes}`}>
                         <p className={styles.peleadores__card__name}>Diego Lopes</p>
                     </Link>
+                    <Link href='/peleadores/joel-alvarez' className={`${styles.peleadores__card} ${styles.peleadores__card_alvarez}`}>
+                        <p className={styles.peleadores__card__name}>Joel Álvarez</p>
+                    </Link>
                 </article>
                 <h2 className={styles.peleadores__subtitle}>Peleadores argentinos de MMA</h2>
                 <article className={styles.peleadores__container}>
