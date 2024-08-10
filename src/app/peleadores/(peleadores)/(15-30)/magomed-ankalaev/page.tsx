@@ -1,0 +1,55 @@
+import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
+import fighter from '@/assets/peleadores__images/30-40/magomed-ankalaev/magomed_ankalaev.png'
+import styles from '@/app/peleadores/components/peleador.module.css'
+import AsideChamps from '@/app/components/asides/AsideChamps'
+import Link from 'next/link'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+    title: 'Magomed Ankalaev',
+    description: "",
+    openGraph: {
+        title: 'Magomed Ankalaev',
+        description: "",
+        url: 'https://fullmma.org/peleadores/magomed-ankalaev'
+    }
+}
+
+export default function MagomedAnkalaev () {
+    return(
+        <main>
+            <PeleadoresHero peleadoresImage={fighter} w={18} l={1} d={1} nombre='Magomed Ankalaev' apodo={null} categoria='Peso Semipesado' />
+            <section className={styles.peleador__articles__container}>
+                <article className={styles.peleador__article}>
+                    <h2 className={styles.peleador__article__title}>Magomed Ankalaev UFC</h2>
+                    <p className={styles.peleador__article__text}>Magomed Ankalaev es un peleador de MMA ruso de la República de Daguestán que compite en la división de peso semipesado de la <Link href='/articulos/ufc'>UFC</Link> desde marzo de 2018. En la compañía supó tener una destacada participación, llegando incluso a tener una pelea por el título de la división cuando enfrentó a <b>Jan Blachowickz</b>, aunque esta pelea terminaría en empate, impidiéndole ganar el cinturón.</p>
+                    <h2 className={styles.peleador__article__title}>Magomed Ankalaev Récord</h2>
+                    <p className={styles.peleador__article__text}>Magomed posee un récord profesional en las MMA de 18-1-1 (1). Siendo 10 de sus victorias por la vía del nocaut y 8 por decisión de los jueces. Mientras que su única derrota fue por sumisión. Además empató una pelea ante el polaco <b>Jan Błachowicz</b>, y tiene una pelea ante el brasileño <b>Johnny Walker</b> que quedó sin resultado.</p>
+                    <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/T5pn6Q3A6qI?si=6z4PRPZfj7CjzOck" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <h2 className={styles.peleador__article__title}>Magomed Ankalaev Biografía</h2>
+                    <p className={styles.peleador__article__text}>Magomed Alibulatovich Ankalaev nació el 2 de junio de 1992 en Daguestán, Rusia. Comenzó a entrenar lucha grecorromana mientras estudiaba en la universidad, luego de un año transicionaría al sambo, y al ver las similitudes que este último tenía con las MMA, decidió practicar artes marciales mixtas. Según Ankalaev, lo que lo llevó a querer entrenar es que: <b>&quot;En Daguestán, la persona promedio está haciendo artes marciales, así que sólo soy un daguestaní promedio.&quot;</b></p>
+                    <p>Haría su debut profesional en el deporte el 18 de enero de 2014, enfrentando al ucraniano <b>Vasily Babich</b>, obteniendo una victoria por decisión mayoritaria luego de 3 asaltos. Ankalaev ganaría sus primeros 3 combates profesionales por decisión hasta que se uniría a la promotora <b>WFCA</b>.</p>
+                    <p>En esta nueva compañía, luego de 2 victorias, siendo la primera por TKO en el primer asalto y la segunda por decisión unánime, tendría la oportunidad de pelear por el título de la división el 4 de octubre de 2016 ante su compatriota <b>Maxim Grishin</b>, quien en el futuro también terminaría en la UFC. La pelea llegaría hasta el cuarto asalto, cuando finalmente nuestro protagonista conseguiría derrotar a su rival por TKO, conviriténdose en campeón de la compañía.</p>
+                    <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/AztD27T7huY?si=tq6ns--NqkwpLcHh" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <p>En la promotora rusa tendría 2 combates más, obteniendo 2 victorias ante los brasileños <b>Wegner Prado</b> y <b>Celso Ricardo da Silva</b>, venciendo a ambos por KO en el primer asalto.</p>
+                    <p>Ya con un récord de 8-0, el daguestaní conseguiría un contrato con la UFC, que le programaría su debut para el 17 de marzo de 2018, teniendo que enfrentar al escocés <b>Paul Craig</b>. En este combate tendría su primer derrota profesional y de la manera más curiosa, dado que estuvo dominando el combate por completo, ante un escocés que se vió superado por el ruso, sin embargo, Paul Craig lográ conectarle <b>triangle Choke</b>, sometiéndolo exactamente a los 4:59 (4 minutos y 59 segundos) del tercer asalto, procando la primer derrota profesional de nuestro protagonista.</p>
+                    <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/xRZDPYpXzQo?si=1kjI2lHDQGdQAAwa" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <p>Ankalaev sería capaz de recuperarse rápido de esa derrota, obteniendo una victoria por KO en el primer asalto en su siguiente combate al enfrentar al polaco <b>Marcin Prachinio</b>, ganando el primer bono de su carrera a la actuación de la noche. Luego enfrentaría al brasileño <b>Klidson Abreu</b>, obteniendo una victoria por decisión unánime. Luego pelearía ante al congoleño <b>Dalcha Lungiambula</b>, a quien dejaría KO en el tercer asalto con una patada frontal espectacular, lo que le haría ganar otro bono a la actuación de la noche.</p>
+                    <p>Quizás otra de sus peleas más curiosas, sería la que tendría ante el luchador de Moldavia <b>Ion Cuțelaba</b>, a quien enfrentaría el 29 de febrero de 2020. Antes de comenzar la pelea ya se veían muy picados ambos peleadores, teniendo un pequeño altercado mientras el anunciador de la UFC <b>Bruce Buffer</b> presentaba a los peleadores. La pelea duraría menos de un minuto, luego de que en medio del intercambio de golpes que se estaba produciendo entre ambos peleadores, el árbitro interpretó que el luchador de Moldavia ya no podía continuar peleando dado que estaba noqueado, quizás porque se lo notó mareado durante la pelea, por lo que frenó el combate y dió como ganador a Ankalaev en una polémica decisión.</p>
+                    <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/RRoNbrc2-yc?si=DKuU9noP_XcD6faF" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <p>El final polémico y anticlimático de la pelea, llevó a la UFC a organizar una revancha en octubre de ese mismo año en el UFC 245 (encabezado por <Link href='/leyendas/khabib-nurmagomedov'>Khabib</Link> y <Link href='/peleadores/justin-gaethje'>Justin Gaethje</Link>), donde esta vez sí con todas las de la ley, Ankalaev lograría dejar KO a su rival en el primer asalto, ganando una vez más el bono a la actuación de la noche.</p>
+                    <p>Magomed ganaría sus siguientes 3 combates por decisión, ante el ucraniano <b>Nikita Krylov</b>, ante el suizo <b>Volkan Oezdemir</b> y ante el brasileño <b>Thiago Santos</b>, siendo ante este último en un evento encabezado por él mismo en Las Vegas.</p>
+                    <p>El 30 de julio de 2022 se enfrentaría a <b>Anthony Smith</b> en el UFC 277 (encabezado por las peleadoras <Link href='/leyendas/amanda-nunes'>Amanda Nunes</Link> y <Link href='/mujeres/julianna-pena'>Julianna Peña</Link>). Aquella noche, el ruso lograría una victoria por TKO en el segundo asalto de la pelea, siendo esta su novena victoria consecutiva en la UFC.</p>
+                    <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/1AMABXCSpF4?si=xZwBMmDybQwzJp3l" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <p>Después de haber ganado sus últimos 9 combates en la compañía, Ankalaev se ganaría la oportunidad de pelear por el título vacante de peso semipesado de la UFC, enfrentando al excampeón <b>Jan Blachowicz</b> el 10 de diciembre de 2022. Sin embargo, esa noche la pelea se extendió hasta los 5 asaltos, y los jueces determinaron que la pelea había terminado en empate por decisión dividida, lo que significaba que ninguno de los 2 se llevaría a casa el campeonato.</p>
+                    <p>Dana White terminaría muy enojado con la fomra en que terminó la pelea, dado que parecía que ambos peleadores tenían más miedo de perder que de ganar el campeonato de la compañía.</p>
+                    <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/XZWzyYABYos?si=LbsEPbB0i1aApF2L" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <p>Debido al enojo del jefe, Ankalaev en lugar de pelear por el título nuevamente en su siguiente pelea, debería enfrentar al entonces ranqueado #7 <b>Johnny Walker</b> en el UFC 294 (protagonizado por <Link href='/peleadores/islam-makhachev'>Makhachev</Link> y <Link href='/peleadores/alexander-volkanovski'>Volkanovski</Link>). Pero durante su pelea, Ankalaev lazó un rodillazo ilegal accidental que impidió a su rival continuar peleando, por lo que la pelea quedaría sin resultado.</p>
+                    <p>Por esto mismo es que se organizó una revancha entre los peleadores para el 13 de enero de 2024, donde esta vez sí, Ankalaev lograría derrotar a su rival por TKO en el seugndo asalto, ganando nuevamente el bono a la actuación de la noche.</p>
+                    <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/hCKVclBItKs?si=-N7IBnk9q_drvG7b" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                </article>
+                <AsideChamps />
+            </section>
+        </main>
+    )
+}

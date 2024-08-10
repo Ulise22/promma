@@ -125,6 +125,9 @@ export default function Peleadores () {
                     <Link href='/peleadores/umar-nurmagomedov' className={`${styles.peleadores__card} ${styles.peleadores__card_umarNurmagomedov}`}>
                         <p className={styles.peleadores__card__name}>Umar Nurmagomedov</p>
                     </Link>
+                    <Link href='/peleadores/magomed-ankalaev' className={`${styles.peleadores__card} ${styles.peleadores__card_ankalaev}`}>
+                        <p className={styles.peleadores__card__name}>Magomed Ankalaev</p>
+                    </Link>
                 </article>
                 <h2 className={styles.peleadores__subtitle}>Peleadores argentinos de MMA</h2>
                 <article className={styles.peleadores__container}>
