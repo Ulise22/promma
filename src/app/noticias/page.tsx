@@ -41,14 +41,14 @@ export default function NoticiasPage () {
             <article className={styles.noticiasHero}>
                 <Link className={styles.noticiasHero__bigArticle} href='/noticias/fight-night-sandhagen-nurmagomedov'>
                     <Image className={styles.noticiasHero__bigArticle__img} src={sandhagenVSnurmagomedov} alt='' />
-                    <p className={styles.page__title}>UFC FIGHT NIGHT: ¡Umar Nurmagomedov Gana Por Decisión Unánime a Cory! ¡El Ecuatoriano Marlon Vera Cae Derrotado por el Brasileño Figueiredo Por Decisión Unánime!</p>
-                    <span>Joel Álvarez gana por nocaut en el tercer asalto de la pelea. Tony Ferguson vuelve a perder una vez más, cayendo derrotado en esta ocasión ante Michael Chiesa, y dejando entrever su retiro. Shara Bullet gana por decisión unánime su tercer pelea en la UFC.</span>
+                    <h2 className={styles.page__title}>UFC FIGHT NIGHT: ¡Umar Nurmagomedov Gana Por Decisión Unánime a Cory! ¡El Ecuatoriano Marlon Vera Cae Derrotado por el Brasileño Figueiredo Por Decisión Unánime!</h2>
+                    <p>Joel Álvarez gana por nocaut en el tercer asalto de la pelea. Tony Ferguson vuelve a perder una vez más, cayendo derrotado en esta ocasión ante Michael Chiesa, y dejando entrever su retiro. Shara Bullet gana por decisión unánime su tercer pelea en la UFC.</p>
                 </Link>
                 <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/tony-ferguson-retiro'>
                     <Image className={styles.noticiasHero__article__img} src={cucuyRetiro} alt='' />
                     <article className={styles.noticiasHero__article__container}>
-                        <p className={styles.noticiasHero__title}>¿Tony Ferguson Se Retira Luego de su Pelea con Michael Chiesa?</p>
-                        <span>El Cucuy se enfrentará al estadounidense Michael Chiesa en agosto, pero ¿será esta su última pelea?</span>
+                        <h2 className={styles.noticiasHero__title}>¿Tony Ferguson Se Retira Luego de su Pelea con Michael Chiesa?</h2>
+                        <p>El Cucuy se enfrentará al estadounidense Michael Chiesa en agosto, pero ¿será esta su última pelea?</p>
                         <div className={styles.noticiasHero__article__info}>
                             <h4>FULLMMA</h4>
                             <p>27/07/2024</p>
@@ -58,8 +58,8 @@ export default function NoticiasPage () {
                 <Link className={`${styles.noticiasHero__article} ${styles.normal2}`} href='/noticias/porque-belal-es-odiado'>
                     <Image className={styles.noticiasHero__article__img} src={belalOdiado} alt='' />
                     <article className={styles.noticiasHero__article__container}>
-                        <p className={styles.noticiasHero__title}>¿Por qué Belal es Tan Odiado?</p>
-                        <span>El peleador palestino ha demostrado ser uno de los mejores peso wélter de la UFC, entonces ¿por qué genera tanta antipatía entre los fans?</span>
+                        <h2 className={styles.noticiasHero__title}>¿Por qué Belal es Tan Odiado?</h2>
+                        <p>El peleador palestino ha demostrado ser uno de los mejores peso wélter de la UFC, entonces ¿por qué genera tanta antipatía entre los fans?</p>
                         <div className={styles.noticiasHero__article__info}>
                             <h4>FULLMMA</h4>
                             <p>06/07/2024</p>
@@ -73,7 +73,7 @@ export default function NoticiasPage () {
                 <ArticlePreview img={jonesEvitaAspinall} url='/noticias/jones-esquiva-aspinall' title='¿Jon Jones Está Evitando a Tom Aspinall?' author={null} text='El actual campeón de peso pesado de UFC Jon Jones, ha rechazado pelear con el campeón interino Tom Aspinall a la espera de combatir en su lugar a Stipe Miocic.' date='16/07/2024' />
                 <ArticlePreview img={amandaVuelve} url='/noticias/vuelve-amanda-nunes' title='¿Amanda Nunes Vuelve a Pelear?' author={null} text='La mejor peleadora de la historia de las MMA está retirada, pero ¿Volverá Amanda Nunes al Octagono?' date='25/06/2024' />
                 </article>
-            <p className={styles.noticiasPage__subtitle}>Todas Las Noticias</p>
+            <h2 className={styles.noticiasPage__subtitle}>Todas Las Noticias</h2>
             <article className={styles.noticias}>
                 <ArticlePreview img={ortegaLopes} url='/noticias/ortega-vs-lopes-previa' title='Diego Lopes vs Brian Ortega: Una Pelea Que Puede Revolucionar la División' author={null} text='El próximo sábado 29 de junio se enfrentarán en la pelea coestelar el brasileño Diego Lopes y el estadounidense Brian Ortega en el UFC 303 es una que puede llegar a verse incluso como una eliminatoria por el título.' date='24/06/2024' />
                 <ArticlePreview img={ufc303} url='/noticias/ufc303' title='UFC 303: ¡Alex Pereira Noquea a Jiri Prochazka en el Segundo Asalto!¡Diego Lopes Vence a Dan Ige Que Tomó la Pelea con 4 Horas de Antelación!' author={null} text='En esta noche de MMA tenemos peleas fantásticas, con la pelea por el título de semipesados como evento estelar de esta jornada, y con la pelea inédita de Diego Lopes y de Dan Ige, que aceptó combatir unas pocas horas antes de la pelea.' date='29/06/2024' />
