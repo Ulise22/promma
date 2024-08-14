@@ -136,6 +136,11 @@
         width: 100%;
         justify-content: center;
     }
+
+    .btns__container {
+        margin: 20px auto;
+    }
+
 }
 
 @media screen and (max-width: 660px) {
@@ -147,5 +152,9 @@
     .peleadores__card {
         width: 95%;
         max-width: 300px;
+    }
+
+    .btns__container {
+        width: 250px;
     }
 }
