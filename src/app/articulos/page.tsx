@@ -1,7 +1,6 @@
 import styles from './articulos.module.css'
 import PageHero from './components/PageHero'
 import ArticlePreview from '@/app/articulos/components/ArticlePreview'
-import Noticias from '../components/homepage/noticias/Noticias'
 /* IMAGES */
 /* 0-10 */
 import conorVkhabib from '@/assets/peleadores__images/peleadores__hero.jpg'

@@ -1,4 +1,5 @@
 export const data = [
+    /* 0-15 */
     {
         name: 'Alexander Volkanovski',
         url: '/peleadores/alexander-volkanovski',
@@ -74,6 +75,7 @@ export const data = [
         url: '/peleadores/marlon-vera',
         fighterClass: 'peleadores__card_vera'
     },
+    /* 15-30 */
     {
         name: 'Arman Tsarukyan',
         url: '/peleadores/arman-tsarukyan',
@@ -149,6 +151,7 @@ export const data = [
         url: '/peleadores/ian-garry',
         fighterClass: 'peleadores__card_ianGarry'
     },
+    /* 30-45 */
     {
         name: 'Santiago Ponzinnibio',
         url: '/peleadores/santiago-ponzinibbio',
