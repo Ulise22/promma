@@ -9,11 +9,11 @@ import hero from '@/assets/noticias/heros/20-30/jones_evita_aspinall-hero.jpg'
 
 export const metadata: Metadata = {
     title: 'Jon Jones Evita a Tom Aspinall',
-    description: 'Michael Chandler lleva sin pelear desde noviembre de 2022, a la espera de una pelea con Conor McGregor, pero ¿Por qué lo espera tanto?',
+    description: '',
     openGraph: {
         title: 'Jon Jones Evita a Tom Aspinall',
-        description: 'Michael Chandler lleva sin pelear desde noviembre de 2022, a la espera de una pelea con Conor McGregor, pero ¿Por qué lo espera tanto?',
-        url: 'https://fullmma.org/noticias/michael-chandler-espera-mcgregor'
+        description: '',
+        url: 'https://fullmma.org/noticias/jones-esquiva-aspinall'
     }
 }
 
