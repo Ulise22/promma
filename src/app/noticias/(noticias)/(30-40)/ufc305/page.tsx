@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function UFC305 () {
     return(
         <main>
-            <ArticleHero title='UFC 305: ¡Dricus Du Plessis vs Israel Adesanya Por el Título de Peso Medio!' subtitle='lorem ipsum' image={hero} date='2024-08-18' author={null} />
+            <ArticleHero title='UFC 305: ¡Dricus Du Plessis vs Israel Adesanya Por el Título de Peso Medio!' subtitle='¡Carlos Prates deja KO a Li Jingliang en el segundo asalto!' image={hero} date='2024-08-18' author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Hoy tenemos un nuevo evento numerado de <Link href='/articulos/ufc'>UFC</Link> celebrado en el RAC Arena en Australia, donde tendremos como pelea estelar el ansiado regreso de <Link href='/peleadores/israel-adesanya'>Israel Adesanya</Link>, quien enfrentará al actual campeón de la división de peso medio de la UFC, el sudafricano <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link> en lo que será su primer defensa del título desde que lo ganara en el <Link href='/noticias/ufc297'>UFC 297</Link> al derrotar a <Link href='/peleadores/sean-strickland'>Sean Strickland</Link>.</p>
@@ -29,14 +29,15 @@ export default function UFC305 () {
                     <p>En la primer pelea de la cartelera estelar tuvimos un increíble KO por parte del brasileño <b>Prates</b> hacia el chino <b>Li</b> en el segundo asalto.</p>
                     <p>En lo que parecía haber arrancado como una pelea igualada, el brasileño hizo valer su ventaja en cuanto a la altura y en cuanto al poder, al conectar los mejores golpes al final del primer asalto. Ya en el segundo el luchador chino empezó a sufrir los golpes de su rival, llegando al punto en que uno de esos golpes con la mano izquierda lo dejó tirado en el suelo, otorgándole la victoria al brasileño por KO en el segundo asalto.</p>
                     <p>Sin dudas con esta increíble actuación, Carlos Prates se ganará un bono de $50000, quien además con esta victoria, estira su racha de 10 victorias consecutivas y un récord de 20-8.</p>
-                    <h2>Tai Tuivasa vs Jairzinho Rozenstruik</h2>
-                    <p></p>
+                    <h2>Jairzinho Rozenstruik Gana Por Decisión Dividida a Tai Tuivasa</h2>
+                    <p>Jairzinho logra una merecida victoria por decisión ante el australiano <b>Tai Tuivasa</b>. En un combate que inició con un primer asalto sin mucha acción, donde ambos peleadores estaban especulando y parecían tener respeto del poder del otro, terminó con un Jairzinho cada vez más dominante y seguro de sí mismo, que logró conectar los mejores golpes de la pelea. </p>
+                    <p>Quizás lo polémico del combate, fue que a pesar de que claramente Jaizinho había sido el ganador de al menos los 2 últimos asaltos de forma muy clara, uno de los jueces le concedió un 30-27 a Tai Tuivasa, viéndolo como ganador de los 3 asaltos.</p>
                     <h2>Mateusz Gamrot vs Dan Hooker</h2>
-                    <p></p>
+                    <p>En proceso...</p>
                     <h2>Kai Kara-France vs Steve Erceg</h2>
-                    <p></p>
+                    <p>En proceso...</p>
                     <h2>Dricus Du Plessis vs Israel Adesanya</h2>
-                    <p></p>
+                    <p>En proceso...</p>
                 </article>
                 <AsideChamps />
             </section>
