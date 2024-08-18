@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function DuPlessis () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={duPlessis} w={21} l={2} d={0} nombre='Dricus Du Plessis' apodo='STILLKNOCKS' categoria='Peso Medio' />
+            <PeleadoresHero peleadoresImage={duPlessis} w={22} l={2} d={0} nombre='Dricus Du Plessis' apodo='STILLKNOCKS' categoria='Peso Medio' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Du Plessis</h2>
@@ -30,7 +30,7 @@ export default function DuPlessis () {
                     <Image className={styles.peleador__article__image} src={usman} alt='El peleador de UFC Dricus Du Plessis abrazado al otro peleador de UFC Kamaru Usman' />
                     <p className={styles.peleador__article__text}>Hasta el momento ha ganado todos sus 6 combates en la UFC, siendo 4 de esas victorias por la vía del nocaut, siendo la última una impresionante victoria contra <b>Robert Whittaker</b> por UFC 290, a quien venció por nocaut técnico en el segundo asalto, ganándose además el premio a la actuación de la noche. Esta racha de victorias es la que le ha hecho merecedor de una pelea por el título, que se jugará contra el estadounidense <Link href='/peleadores/sean-strickland'>Sean Stricklan</Link>, quien es el actual campeón de la división de peso medio de <Link href='/promotoras/ufc'>UFC</Link>, el 20 de enero de 2024.</p>
                     <h2 className={styles.peleador__article__title}>Du Plessis Récord</h2>
-                    <p className={styles.peleador__article__text}>Dricus Du Plessis, luego de participar en un total de 22 peleas, posee un récord de 20-2, siendo 9 de sus 22 victorias por nocaut, 10 por sumisión y tan sólo 1 por decisión. Mientras que de sus 2 derrotas, 1 fue por la vía del nocaut y 1 por la vía de la sumisión.</p>
+                    <p className={styles.peleador__article__text}>Dricus Du Plessis, luego de participar en un total de 22 peleas, posee un récord de 22-2, siendo 9 de sus 22 victorias por nocaut, 11 por sumisión y 2 por decisión. Mientras que de sus 2 derrotas, 1 fue por la vía del nocaut y 1 por la vía de la sumisión.</p>
                     <p className={styles.peleador__article__text}>La última derrota la sufrió contra el croata <b>Roberto Soldic</b>, quien lo noqueó en el tercer asalto. Aunque esta no había sido la primera vez que se enfrentaba a este luchador, dado que hacía tan solo unos meses ya se habían visto las caras en una pelea por el campeonato y Du Plessis había sido capaz de noquear en el segundo asalto de esa pelea, arrebatandole de esta forma el campeonato de KSW al croata, sin embargo en la revancha que tuvieron 6 meses depués es cuando llegó la derrota de Du Plessis.</p>
                     <h2 className={styles.peleador__article__title}>Du Plessis Historia</h2>
                     <p className={styles.peleador__article__text}>Dricus Du Plessis nació el 14 de enero de 1994 en la ciudad de Pretoria, ubicada en Sudáfrica. Tan sólo a la edad de 5 años comenzó a entrenar judo, a los 12 comenzaría a entrenar lucha libre, y posteriormente kickboxing con 14 años. Posteriormente, en sus años escolares empezaría a jugar Rugby a la par que entreneba artes marciales, volviendose partidario del equipo nacional de rugby de Sudáfrica, los Spingboks.</p>
