@@ -11,8 +11,8 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/noticias/ufc305'>
                 <Image className={styles.homehero__bigArticle__img} src={ufc305} alt='' />
-                <h2 className={styles.home__title}>UFC 305: ¡Dricus Du Plessis vs Israel Adesanya Por el Título de Peso Medio!</h2>
-                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam magnam et temporibus cumque dolor maiores earum eos laboriosam sapiente, voluptate, sit tenetur soluta id. Veniam aspernatur dicta quam illum.</span>
+                <h2 className={styles.home__title}>UFC 305: ¡Dricus Du Plessis Derrota Por Sumisión a Israel Adesanya!¡Kai Kara-France Noquea a Steve Erceg en el Primer Asalto!</h2>
+                <span>¡Carlos Prates deja KO a Li Jingliang en el segundo asalto! ¡Dan Hooker consigue una victoria ante Mateusz Gamrot!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/shara-magomedov-ojo'>
                 <Image className={styles.homehero__article__img} src={magomedovOjo} alt='' />

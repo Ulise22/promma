@@ -9,10 +9,10 @@ import hero from '@/assets/noticias/heros/30-40/ufc305-hero.jpg'
 
 export const metadata: Metadata = {
     title: 'UFC 305',
-    description: '',
+    description: 'Hoy tenemos un nuevo evento numerado de UFC celebrado en el RAC Arena en Australia, donde tendremos como pelea estelar el ansiado regreso de Israel Adesanya, quien enfrentará al actual campeón de la división de peso medio de la UFC, el sudafricano Dricus Du Plessis en lo que será su primer defensa del título desde que lo ganara en el UFC 297 al derrotar a Sean Strickland.',
     openGraph: {
         title: 'UFC 305',
-        description: '',
+        description: 'Hoy tenemos un nuevo evento numerado de UFC celebrado en el RAC Arena en Australia, donde tendremos como pelea estelar el ansiado regreso de Israel Adesanya, quien enfrentará al actual campeón de la división de peso medio de la UFC, el sudafricano Dricus Du Plessis en lo que será su primer defensa del título desde que lo ganara en el UFC 297 al derrotar a Sean Strickland.',
         url: 'https://fullmma.org/noticias/ufc305'
     }
 }
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function UFC305 () {
     return(
         <main>
-            <ArticleHero title='UFC 305: ¡Dricus Du Plessis vs Israel Adesanya Por el Título de Peso Medio!¡Kai Kara-France Noquea a Steve Erceg en el Primer Asalto!' subtitle='¡Carlos Prates deja KO a Li Jingliang en el segundo asalto! ¡Dan Hooker consigue una victoria ante Mateusz Gamrot!' image={hero} date='2024-08-18' author={null} />
+            <ArticleHero title='UFC 305: ¡Dricus Du Plessis Derrota Por Sumisión a Israel Adesanya!¡Kai Kara-France Noquea a Steve Erceg en el Primer Asalto!' subtitle='¡Carlos Prates deja KO a Li Jingliang en el segundo asalto! ¡Dan Hooker consigue una victoria ante Mateusz Gamrot!' image={hero} date='2024-08-18' author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Hoy tenemos un nuevo evento numerado de <Link href='/articulos/ufc'>UFC</Link> celebrado en el RAC Arena en Australia, donde tendremos como pelea estelar el ansiado regreso de <Link href='/peleadores/israel-adesanya'>Israel Adesanya</Link>, quien enfrentará al actual campeón de la división de peso medio de la UFC, el sudafricano <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link> en lo que será su primer defensa del título desde que lo ganara en el <Link href='/noticias/ufc297'>UFC 297</Link> al derrotar a <Link href='/peleadores/sean-strickland'>Sean Strickland</Link>.</p>
@@ -37,8 +37,9 @@ export default function UFC305 () {
                     <h2>Kai Kara-France Noquea a Steve Erceg en el Primer Asalto</h2>
                     <p>El luchador neozelandés logra una sorpredente victoria al noquear al australiano en territorio hostil en el primer asalto, luego de una combinación de golpes que llevó al árbitro a separar a los peleadores, dando como ganador al de Nueva Zelanda por TKO.</p>
                     <p>De esta forma, Kai Kara-France logra terminar con una pequeña racha de 2 derrotas consecutivas, volviéndo a la senda del triunfo.</p>
-                    <h2>Dricus Du Plessis vs Israel Adesanya</h2>
-                    <p>En proceso...</p>
+                    <h2>Dricus Du Plessis Somete con un Mataleón a Israel Adesanya en el Cuarto Asalto</h2>
+                    <p>En una pelea espectacular cerramos la noche de la mejor forma, con el actual campeón de peso medio <Link href='/peleadores/du-plessis'>Du Plessis</Link> siendo capaz de defender su título con un mataleón conseguido en el cuarto asalto.</p>
+                    <p>En una pelea que parecía estar llevándose <Link href='/peleadores/israel-adesanya'>Adesanya</Link>, siendo él quien más y mejores golpes conectó a lo largo del combate, Du Plessis hizo gala de su chapa de campeón, conectando unos golpes que dejaron mareado al nigeriano, aprovechando esto para derribar a su rival, y ya en el piso conectar el mataleón que le daría la victoria. De esta manera, el sudafricano sigue invicto en la UFC, y esperará probablemente para enfrentar al excampeón <Link href='/peleadores/sean-strickland'>Sean Strickland</Link> en su próximo combate.</p>
                 </article>
                 <AsideChamps />
             </section>
