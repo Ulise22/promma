@@ -4,15 +4,15 @@ import Image from 'next/image'
 /* IMAGES */
 import magomedovOjo from '@/assets/articulos/previews/30-40/shara_magomedov_ojo-preview.jpg'
 import chandlerEspera from '@/assets/noticias/previews/20-30/michael_chandler_espera-preview.jpg'
-import ufc304 from '@/assets/noticias/previews/20-30/ufc304-preview.jpg'
+import ufc305 from '@/assets/noticias/previews/30-40/ufc305-preview.jpg'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/noticias/ufc304'>
-                <Image className={styles.homehero__bigArticle__img} src={ufc304} alt='' />
-                <h2 className={styles.home__title}>UFC 304: ¡Belal Muhammad Vence Por Decisión Unánime a Leon Edwards y es Nuevo Campeón! ¡Tom Aspinall Noquea a Curtis Blaydes en el Primer Asalto!</h2>
-                <span>¡Paddy Pimblett somete a Bobby Green en el primer asalto de la pelea! Tom Aspinall logra otra victoria por nocaut en su revancha ante Blaydes. Belal Muhammad es nuevo campeón de peso wélter en la UFC.</span>
+            <Link className={styles.homehero__bigArticle} href='/noticias/ufc305'>
+                <Image className={styles.homehero__bigArticle__img} src={ufc305} alt='' />
+                <h2 className={styles.home__title}>UFC 305: ¡Dricus Du Plessis vs Israel Adesanya Por el Título de Peso Medio!</h2>
+                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit quisquam magnam et temporibus cumque dolor maiores earum eos laboriosam sapiente, voluptate, sit tenetur soluta id. Veniam aspernatur dicta quam illum.</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/shara-magomedov-ojo'>
                 <Image className={styles.homehero__article__img} src={magomedovOjo} alt='' />
