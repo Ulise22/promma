@@ -7,16 +7,17 @@ import daveBautista from '@/assets/articulos/previews/30-40/dave_bautista-previe
 import divisionGoats from '@/assets/articulos/previews/30-40/division_goats-preview.jpg'
 import boxeadorVsMMA from '@/assets/articulos/previews/30-40/boxeador_vs_mma-preview.jpg'
 import pridefc from '@/assets/articulos/previews/30-40/pridefc-preview.jpg'
-import palhares from '@/assets/articulos/previews/30-40/rousimar_palhares-preview.jpg'
 import LeeMurray from '@/assets/articulos/previews/40-50/lee_murray-preview.jpg'
 import mmaVsBoxPeligro from '@/assets/articulos/previews/40-50/box_vs_mma_danger-preview.jpg'
 import khabibPierde from '@/assets/articulos/previews/40-50/khabib_pierde-preview.jpeg'
+import gspAliens from '@/assets/articulos/previews/40-50/gsp_aliens.jpg'
 
 export default function ArticulosContainer () {
     return(
         <section className={styles.articulos}>
             <h2 className={styles.articulos__title}>Últimos Artículos</h2>
             <article className={styles.articulos__container}>
+                <HomeArticle author='FULLMMA' date='22/08/2024' img={gspAliens} link='/articulos/george-st-pierre-aliens' title='George St-Pierre Tiene Miedo a los Aliens y su Plan Para Evitar ser Abducido' description='La leyenda y excampeón de la UFC y su peculiar miedo a los Aliens y la estrategia que ideó para lidiar con ellos.' />
                 <HomeArticle author='FULLMMA' date='19/08/2024' img={khabibPierde} link='/articulos/khabib-nurmagomedov-pierde' title='La Única Derrota de Khabib Nurmagomedov' description='La historia y el vídeo de un joven Khabib de 17 años llorando después de perder una pelea de sambo en un campeonato ruso.' />
                 <HomeArticle author='FULLMMA' date='23/07/2024' img={LeeMurray} link='/articulos/lee-murray' title='Lee Murray: El Luchador de UFC Que Realizó el Mayor Robo en Reino Unido' description='Lee Murray, luchador de MMA y expeleador de UFC que vivió su vida como si fuera un personaje de GTA, siendo uno de los perpetuadores del mayor robo de dinero en efectivo en la historia de Reino Unido.' />
                 <HomeArticle author='FULLMMA' date='21/07/2024' img={mmaVsBoxPeligro} link='/articulos/boxeo-vs-mma-peligroso' title='Boxeo vs MMA: ¿Cuál Es Más Peligroso?' description='2 de los deportes de combate más practicados en el mundo, pero uno de los 2 cuenta con la peculiaridad de ser más riesgoso durante su práctica para quien lo entrena.' />
@@ -26,7 +27,6 @@ export default function ArticulosContainer () {
                 <HomeArticle author='FULLMMA' date='27/06/2024' img={divisionGoats} link='/articulos/mejores-peleadores-por-division-ufc' title='Los Mejores Peleadores de la Historia de Cada Division de UFC' description='La lista del mejor peleador histórico de cada división de la UFC.' />
                 <HomeArticle author='FULLMMA' date='20/06/2024' img={boxeadorVsMMA} link='/articulos/boxeador-vs-mma' title='Boxeador vs MMA: Las Peleas Entre Boxeo y MMA' description='Los enfrentamientos entre luchadores de MMA y boxeadores que se han dado en boxeo.' />
                 <HomeArticle author='FULLMMA' date='19/06/2024' img={pridefc} link='/articulos/que-paso-con-pride-fc' title='¿Qué Pasó con Pride FC?' description='Cómo el control de la mafia japonea Yakuza acabó con el reinado de la mayor compañía de MMA de la historia.' />
-                <HomeArticle author='FULLMMA' date='19/06/2024' img={palhares} link='/articulos/peleador-mas-sucio-ufc' title='El Peleador Más Sucio de la Historia Expulsado de la UFC' description='Rousimar Palhares, el luchador más sucio de la historia de las MMA que por su comportamiento dentro del octagono fue expulsado de la UFC.' />
             </article>
         </section>
     )
