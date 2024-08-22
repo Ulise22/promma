@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function GSPAliens () {
     return(
         <main>
-            <ArticleHero title='George St-Pierre Tiene Miedo a los Aliens y su Plan Para Evitar ser Abducido' subtitle='La leyenda y excampeón de la UFC y su peculiar miedo a los Aliens y la estrategia que ideó para lidiar con ellos.' image={hero} date='2024-08-21' author={null} />
+            <ArticleHero title='George St-Pierre Tiene Miedo a los Aliens y su Plan Para Evitar ser Abducido' subtitle='La leyenda y excampeón de la UFC y su peculiar miedo a los Aliens y la estrategia que ideó para lidiar con ellos.' image={hero} date='2024-08-22' author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>El luchador canadiense, leyenda de las MMA y uno de los mejores campeones que tuvo la <Link href='/articulos/ufc'>UFC</Link> en su historia, <Link href='/leyendas/george-st-pierre'>George St-Pierre</Link> tiene una peculiaridad bastante curiosa según cuenta él mismo y según ha contado su entrenador, y es que, no sólo cree en la existencia de los aliens, sino que además afirma vivir experiencias difíciles de explicar, bajo la sospecha de que lo que hay detrás es vida de otro planeta.</p>
