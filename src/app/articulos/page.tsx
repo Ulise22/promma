@@ -48,6 +48,7 @@ import mmaVsBoxPeligro from '@/assets/articulos/previews/40-50/box_vs_mma_danger
 import LeeMurray from '@/assets/articulos/previews/40-50/lee_murray-preview.jpg'
 import khabibPierde from '@/assets/articulos/previews/40-50/khabib_pierde-preview.jpeg'
 import gspAliens from '@/assets/articulos/previews/40-50/gsp_aliens.jpg'
+import helwaniVsWhite from '@/assets/articulos/previews/40-50/ariel_helwani_vs_dana_white.jpeg'
 
 export default function Articulos () {
     return(
@@ -55,13 +56,14 @@ export default function Articulos () {
             <PageHero />
             <section className={styles.articles__container}>
                 {/* <ArticlePreview img={magomedovOjo} url='/articulos/shara-magomedov-ojo' title='¿Qué le Pasó en el Ojo a Shara Magomedov?' author={null} text='Una de las mayores promesas de la UFC y cómo es capaz de pelear a pesar de haber perdido la visión en uno de sus ojos.' date='22/06/2024' /> */}
+                <ArticlePreview img={helwaniVsWhite} url='/articulos/ariel-helwani-vs-dana-white' title='El Periodista al que Dana White Detesta: ¿Por qué Dana White odia a Ariel Helwani?' author={null} text='La historia del qué pasó entre Ariel Helwani y UFC, y de qué sucedio entre Dana White y Ariel Helwani.' date='24/08/2024' />
                 <ArticlePreview img={gspAliens} url='/articulos/george-st-pierre-aliens' title='George St-Pierre Tiene Miedo a los Aliens y su Plan Para Evitar ser Abducido' author={null} text='La leyenda y excampeón de la UFC y su peculiar miedo a los Aliens y la estrategia que ideó para lidiar con ellos.' date='22/08/2024' />
                 <ArticlePreview img={khabibPierde} url='/articulos/khabib-nurmagomedov-pierde' title='La Única Derrota de Khabib Nurmagomedov' author={null} text='La historia y el vídeo de un joven Khabib de 17 años llorando después de perder una pelea de sambo en un campeonato ruso.' date='19/08/2024' />
                 <ArticlePreview img={LeeMurray} url='/articulos/lee-murray' title='Lee Murray: El Luchador de UFC Que Realizó el Mayor Robo en Reino Unido' author={null} text='Lee Murray, luchador de MMA y expeleador de UFC que vivió su vida como si fuera un personaje de GTA, siendo uno de los perpetuadores del mayor robo de dinero en efectivo en la historia de Reino Unido.' date='23/07/2024' />
-                <ArticlePreview img={mmaVsBoxPeligro} url='/articulos/boxeo-vs-mma-peligroso' title='Boxeo vs MMA: ¿Cuál Es Más Peligroso?' author={null} text='2 de los deportes de combate más practicados en el mundo, pero uno de los 2 cuenta con la peculiaridad de ser más riesgoso durante su práctica para quien lo entrena.' date='21/07/2024' />
                 </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={mmaVsBoxPeligro} url='/articulos/boxeo-vs-mma-peligroso' title='Boxeo vs MMA: ¿Cuál Es Más Peligroso?' author={null} text='2 de los deportes de combate más practicados en el mundo, pero uno de los 2 cuenta con la peculiaridad de ser más riesgoso durante su práctica para quien lo entrena.' date='21/07/2024' />
                 <ArticlePreview img={jonesEscondido} url='/articulos/jon-jones-esconde-usada' title='El Día Que Jon Jones se Escondió en Un Octagono Para No Ser Testeado' author={null} text='La curiosa anécdota sobre Jon Jones y cómo pasó el día entero escondido debajo de un octágono con tal de no ser testeado en las pruebas antidopaje.' date='08/07/2024' />
                 <ArticlePreview img={jorgeMasvidal} url='/articulos/jorge-masvidal-historia' title='La Biografía de Jorge Masvidal' author={null} text='La historia de uno de los peleadores favoritos de los fans, que llegó a pelear 2 veces por el título y es recordado como el primer BMF de la UFC.' date='04/07/2024' />
                 <ArticlePreview img={daveBautista} url='/articulos/dave-bautista-mma' title='Cuando el Actor de Hollywood Dave Bautista Hizo su Debut en MMA' author={null} text='El día en que se dió la pelea en MMA de Dave Bautista ante Vince Lucero.' date='28/06/2024' />
