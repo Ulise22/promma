@@ -9,10 +9,10 @@ import hero from '@/assets/articulos/previews/40-50/ariel_helwani_vs_dana_white.
 
 export const metadata: Metadata = {
     title: 'Ariel Helwani vs Dana White',
-    description: '',
+    description: 'Ariel Helwani es probablemente el periodista más reconocido en lo que respecta al mundo de las MMA, sin embargo, pese al éxito que ha tenido y sigue teniendo a lo largo de su carrera, su relación con el presidente de la UFC, Dana White.',
     openGraph: {
         title: 'Ariel Helwani vs Dana White',
-        description: '',
+        description: 'Ariel Helwani es probablemente el periodista más reconocido en lo que respecta al mundo de las MMA, sin embargo, pese al éxito que ha tenido y sigue teniendo a lo largo de su carrera, su relación con el presidente de la UFC, Dana White.',
         url: 'https://fullmma.org/articulos/ariel-helwani-vs-dana-white'
     }
 }
