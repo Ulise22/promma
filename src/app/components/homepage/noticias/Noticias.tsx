@@ -3,12 +3,12 @@ import styles from './noticias.module.css'
 import Image from 'next/image'
 import HomeArticle from './HomeArticle'
 /* IMAGES */
-import drakeApuesta from '@/assets/noticias/previews/30-40/drake_apuesta-preview.jpg'
-import danHookerTattoos from '@/assets/noticias/previews/20-30/dan_hooker_tattoos-preview.jpg'
-import cucuyRetiro from '@/assets/noticias/previews/20-30/ferguson_retiro_preview.jpg'
-import jonesEvitaAspinall from '@/assets/noticias/previews/20-30/jones_evita_aspinall-preview.jpg'
-import volkNextFight from '@/assets/noticias/previews/20-30/volk_next_fight_preview.jpg'
-import belalOdiado from '@/assets/noticias/previews/20-30/belal_odiado-preview.jpg'
+import drakeApuesta from '@/assets/noticias/previews/10-20/drake_apuesta-preview.jpg'
+import danHookerTattoos from '@/assets/noticias/previews/10-20/dan_hooker_tattoos-preview.jpg'
+import cucuyRetiro from '@/assets/noticias/previews/0-10/ferguson_retiro_preview.jpg'
+import jonesEvitaAspinall from '@/assets/noticias/previews/10-20/jones_evita_aspinall-preview.jpg'
+import volkNextFight from '@/assets/noticias/previews/10-20/volk_next_fight_preview.jpg'
+import belalOdiado from '@/assets/noticias/previews/10-20/belal_odiado-preview.jpg'
 
 export default function Noticias () {
     return(

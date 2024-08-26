@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/noticias/heros/20-30/ferguson_retiro-hero.jpg'
+import hero from '@/assets/noticias/heros/0-10/ferguson_retiro-hero.jpg'
 
 export const metadata: Metadata = {
     title: 'Tony Ferguson Retiro',

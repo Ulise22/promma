@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/noticias/previews/20-30/volk_next_fight_preview.jpg'
+import hero from '@/assets/noticias/previews/10-20/volk_next_fight_preview.jpg'
 import oliveira from '@/assets/peleadores__images/0-10/charles-oliveira/charles_oliveira.jpg'
 import poirier from '@/assets/peleadores__images/0-10/dustin-poirier/poirier.jpg'
 

@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/noticias/heros/20-30/belal_odiado-hero.jpg'
+import hero from '@/assets/noticias/heros/10-20/belal_odiado-hero.jpg'
 
 export const metadata: Metadata = {
     title: '¿Por qué Belal es Tan Odiado?',

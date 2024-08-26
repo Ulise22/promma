@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/noticias/previews/20-30/michael_chandler_espera-preview.jpg'
+import hero from '@/assets/noticias/previews/10-20/michael_chandler_espera-preview.jpg'
 
 export const metadata: Metadata = {
     title: 'Michael Chandler Espera a McGregor',

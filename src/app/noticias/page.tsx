@@ -5,26 +5,25 @@ import Image from 'next/image';
 import ArticlePreview from '../articulos/components/ArticlePreview';
 /* HERO IMAGES */
 import sandhagenVSnurmagomedov from '@/assets/covertura_ufc/fight_night/0-15/sandhagen-vs-nurmagomedov-preview.jpg'
-import cucuyRetiro from '@/assets/noticias/previews/20-30/ferguson_retiro_preview.jpg'
-import drakeApuesta from '@/assets/noticias/previews/30-40/drake_apuesta-preview.jpg'
-import danHookerTattoos from '@/assets/noticias/previews/20-30/dan_hooker_tattoos-preview.jpg'
-import volkNextFight from '@/assets/noticias/previews/20-30/volk_next_fight_preview.jpg'
-import belalOdiado from '@/assets/noticias/previews/20-30/belal_odiado-preview.jpg'
+import cucuyRetiro from '@/assets/noticias/previews/0-10/ferguson_retiro_preview.jpg'
+import drakeApuesta from '@/assets/noticias/previews/10-20/drake_apuesta-preview.jpg'
+import danHookerTattoos from '@/assets/noticias/previews/10-20/dan_hooker_tattoos-preview.jpg'
+import volkNextFight from '@/assets/noticias/previews/10-20/volk_next_fight_preview.jpg'
+import belalOdiado from '@/assets/noticias/previews/10-20/belal_odiado-preview.jpg'
 /* 0 - 10 */
 import conor from '@/assets/peleadores__images/0-10/conor-mcgregor/conor_mcgregor.jpg'
 import ufc300 from '@/assets/noticias/previews/0-10/ufc300.jpg'
 import dwt2 from '@/assets/noticias/previews/0-10/dogfight.jpg'
 import comebackMcGregor from '@/assets/noticias/previews/0-10/conor-mcgregor_volverapelear.jpg'
 import poirierVsMakhachev from '@/assets/noticias/previews/0-10/poirier-vs-makhachev.jpg'
-/* 10 - 20 */
 import rivalsIlia from '@/assets/articulos/insideArticle/ilia-topuria_hero.jpg'
 import ailin from '@/assets/peleadores__images/argentinos/ailin-perez/ailin-perez.jpg'
-import chimaevCancel from '@/assets/noticias/previews/10-20/chimaev_whittaker-preview.jpg'
-import ortegaLopes from '@/assets/noticias/previews/10-20/ortega-vs-lopes-preview.jpg'
-/* 20 - 30 */
-import chandlerEspera from '@/assets/noticias/previews/20-30/michael_chandler_espera-preview.jpg'
-import jonesEvitaAspinall from '@/assets/noticias/previews/20-30/jones_evita_aspinall-preview.jpg'
-import amandaVuelve from '@/assets/noticias/previews/20-30/amanda_nunes_vuelve-preview.jpg'
+import chimaevCancel from '@/assets/noticias/previews/0-10/chimaev_whittaker-preview.jpg'
+import ortegaLopes from '@/assets/noticias/previews/0-10/ortega-vs-lopes-preview.jpg'
+/* 10 - 20 */
+import chandlerEspera from '@/assets/noticias/previews/10-20/michael_chandler_espera-preview.jpg'
+import jonesEvitaAspinall from '@/assets/noticias/previews/10-20/jones_evita_aspinall-preview.jpg'
+import amandaVuelve from '@/assets/noticias/previews/10-20/amanda_nunes_vuelve-preview.jpg'
 
 export default function NoticiasPage () {
     return(
