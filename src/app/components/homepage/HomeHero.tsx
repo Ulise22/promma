@@ -3,13 +3,13 @@ import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import magomedovOjo from '@/assets/articulos/previews/30-40/shara_magomedov_ojo-preview.jpg'
-import ufc305 from '@/assets/noticias/previews/30-40/ufc305-preview.jpg'
+import ufc305 from '@/assets/covertura_ufc/ufc/0-15/ufc305-preview.jpg'
 import iliaPromissKOHolloway from '@/assets/noticias/previews/30-40/ilia_promissko_holloway-preview.jpg'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/noticias/ufc305'>
+            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc305'>
                 <Image className={styles.homehero__bigArticle__img} src={ufc305} alt='' />
                 <h2 className={styles.home__title}>UFC 305: ¡Dricus Du Plessis Derrota Por Sumisión a Israel Adesanya!¡Kai Kara-France Noquea a Steve Erceg en el Primer Asalto!</h2>
                 <span>¡Carlos Prates deja KO a Li Jingliang en el segundo asalto! ¡Dan Hooker consigue una victoria ante Mateusz Gamrot!</span>

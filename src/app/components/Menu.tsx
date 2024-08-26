@@ -35,12 +35,10 @@ export default function Menu () {
                 <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/noticias'>Noticias</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/noticias/dogfight-wild-tournament-2'>DWT 2</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/noticias/ufc297'>UFC 297</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/noticias/ufc298'>UFC 298</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/noticias/ufc299'>UFC 299</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/noticias/ufc300-main-event'>UFC 300</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/noticias/ufc301'>UFC 301</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/noticias/ufc302'>UFC 302</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/noticias/ortega-vs-lopes-previa'>Ortega vs Lopes</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/noticias/dan-hooker-tattoos'>Dan Hooker Tattoos</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/noticias/tony-ferguson-retiro'>Tony Ferguson Retiro</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/noticias/drake-apuesta-ufc'>Drake es Mufa</Link></li>
                     </ul>
                 </li>
                 <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/peleadores'>Peleadores</Link>
@@ -68,18 +66,6 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/leyendas/demetrious-johnson'>Demetrious Johnson</Link></li>
                     </ul>
                 </li>
-                {/* <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/peleadores'>Campeones</Link>
-                    <ul className={styles.menu__list__dropdown}>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/ilia-topuria'>Ilia Topuria</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/islam-makhachev'>Islam Makhachev</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/du-plessis'>Dricus Du Plessis</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/jon-jones'>Jon Jones</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/alex-pereira'>Alex Pereira</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/sean-omalley'>Sean O&apos;Malley</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/leon-edwards'>Leon Edwards</Link></li>
-                        <li><Link className={styles.menu__list__dropdown__link} href='/peleadores/alexandre-pantoja'>Alexandre Pantoja</Link></li>
-                    </ul>
-                </li> */}
                 <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/mujeres'>Mujeres</Link>
                     <ul className={styles.menu__list__dropdown}>
                         <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/alexa-grasso'>Alexa Grasso</Link></li>
@@ -89,6 +75,17 @@ export default function Menu () {
                         <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/valentina-shevchenko'>Valentina Shevchenko</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/raquel-pennington'>Raquel Pennington</Link></li>
                         <li><Link className={styles.menu__list__dropdown__link} href='/mujeres/mayra-bueno-silva'>Mayra Bueno Silva</Link></li>
+                    </ul>
+                </li>
+                <li onClick={() => setIsOpen(false)} className={styles.menu__list__item}><Link className={styles.menu__list__item__link} href='/covertura-ufc'>UFC</Link>
+                    <ul className={styles.menu__list__dropdown}>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/covertura-ufc/ufc297'>UFC 297</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/covertura-ufc/ufc298'>UFC 298</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/covertura-ufc/ufc299'>UFC 299</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/covertura-ufc/ufc300-main-event'>UFC 300</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/covertura-ufc/ufc301'>UFC 301</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/covertura-ufc/ufc302'>UFC 302</Link></li>
+                        <li><Link className={styles.menu__list__dropdown__link} href='/covertura-ufc/ufc303'>UFC 303</Link></li>
                     </ul>
                 </li>
             </ul>
