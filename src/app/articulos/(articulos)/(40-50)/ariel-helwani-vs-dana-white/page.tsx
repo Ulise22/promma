@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function HelwaniVSWhite () {
     return(
         <main>
-            <ArticleHero title='El Periodista al que Dana White Detesta: ¿Por qué Dana White odia a Ariel Helwani?' subtitle='La historia del qué pasó entre Ariel Helwani y UFC, y de qué sucedio entre Dana White y Ariel Helwani.' image={hero} date='2024-07-24' author={null} />
+            <ArticleHero title='El Periodista al que Dana White Detesta: ¿Por qué Dana White odia a Ariel Helwani?' subtitle='La historia del qué pasó entre Ariel Helwani y UFC, y de qué sucedio entre Dana White y Ariel Helwani.' image={hero} date='2024-08-24' author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Ariel Helwani es probablemente el periodista más reconocido en lo que respecta al mundo de las MMA, con 1.4 millones de seguidores en su cuenta oficial de X, más de 100.000 subscriptores en su canal personal de Youtube, habiendo trabajado para grandes medios como <b>Fox Sports</b> y <b>ESPN</b>. Sin embargo, pese al éxito que ha tenido y sigue teniendo a lo largo de su carrera, su relación con el presidente de la <Link href='/articulos/ufc'>UFC</Link>, <b>Dana White</b>, no es sólo que no es la mejor, sino que con el paso del tiempo se ha ido degradando al punto en que Dana llegó a banear al periodista canadiense de la compañía. Pero esto, ¿a qué se debe?</p>
