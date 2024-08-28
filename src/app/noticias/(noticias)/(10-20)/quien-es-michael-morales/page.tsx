@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function ProximaPeleaVolkanovski () {
     return(
         <main>
-            <ArticleHero title='¿Quién es Michael Morales? El Luchador Ecuatoriano de 25 Años que Está Invicto en la UFC' subtitle='La historia del ecuatoriano Michael Morales que recientemente acaba de entrar en el Ranking de peso wélter en la UFC.' image={hero} date='2024-07-08' author={null} />
+            <ArticleHero title='¿Quién es Michael Morales? El Luchador Ecuatoriano de 25 Años que Está Invicto en la UFC' subtitle='La historia del ecuatoriano Michael Morales que recientemente acaba de entrar en el Ranking de peso wélter en la UFC.' image={hero} date='2024-08-27' author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Recientemente el nacido en la Provincia de El Oro, en Ecuador, <b>Michael Morales Hurtado</b> logró una asombrosa victoria por nocaut en el primer asalto ante el estadounidense <b>Neil Magny</b>, que le valió su primer bono en la <Link href='/articulos/ufc'>UFC</Link> y lo colocó en el ranking de peso wélter de la compañía, en la posición #12 concretamente. Con esta victoria además, extendió su impresionante récord a 17-0, sumándose a la lista de los <Link href='/peleadores/ian-garry'>Ian Garry</Link> y <Link href='/peleadores/shavkat-rakhmonov'>Shavkat Rakhmonov</Link>, quienes también están invictos en su división, y quienes son peleadores jovenes que apuntan a mover la división y a pelear por el cinturón de las 170lbs en el futuro cercano.</p>
