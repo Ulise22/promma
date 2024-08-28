@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Proxima Pelea Volkanovski',
         description: '¿Cuál va a ser la próxima pelea de Alexander Volkanovski? ¿Obtendrá una revancha por el título ante Ilia Topuria, o pasará página y se movera a la división de peso ligero para enfrentar a los otros contendientes?',
-        url: 'https://fullmma.org/noticias/michael-chandler-espera-mcgregor'
+        url: 'https://fullmma.org/noticias/proxima-pelea-volkanovski'
     }
 }
 

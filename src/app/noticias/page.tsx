@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import ArticlePreview from '../articulos/components/ArticlePreview';
 /* HERO IMAGES */
-import sandhagenVSnurmagomedov from '@/assets/covertura_ufc/fight_night/0-15/sandhagen-vs-nurmagomedov-preview.jpg'
+import michaelMorales from '@/assets/noticias/previews/10-20/michael_morales-preview.jpg'
 import cucuyRetiro from '@/assets/noticias/previews/0-10/ferguson_retiro_preview.jpg'
 import drakeApuesta from '@/assets/noticias/previews/10-20/drake_apuesta-preview.jpg'
 import danHookerTattoos from '@/assets/noticias/previews/10-20/dan_hooker_tattoos-preview.jpg'
@@ -29,10 +29,10 @@ export default function NoticiasPage () {
     return(
         <section className={styles.noticiaspage__container}>
             <article className={styles.noticiasHero}>
-                <Link className={styles.noticiasHero__bigArticle} href='/covertura-ufc/fight-night-sandhagen-nurmagomedov'>
-                    <Image className={styles.noticiasHero__bigArticle__img} src={sandhagenVSnurmagomedov} alt='' />
-                    <h2 className={styles.page__title}>UFC FIGHT NIGHT: ¡Umar Nurmagomedov Gana Por Decisión Unánime a Cory! ¡El Ecuatoriano Marlon Vera Cae Derrotado por el Brasileño Figueiredo Por Decisión Unánime!</h2>
-                    <p>Joel Álvarez gana por nocaut en el tercer asalto de la pelea. Tony Ferguson vuelve a perder una vez más, cayendo derrotado en esta ocasión ante Michael Chiesa, y dejando entrever su retiro. Shara Bullet gana por decisión unánime su tercer pelea en la UFC.</p>
+                <Link className={styles.noticiasHero__bigArticle} href='/noticias/quien-es-michael-morales'>
+                    <Image className={styles.noticiasHero__bigArticle__img} src={michaelMorales} alt='' />
+                    <h2 className={styles.page__title}>¿Quién es Michael Morales? El Luchador Ecuatoriano de 25 Años que Está Invicto en la UFC</h2>
+                    <p>La historia del ecuatoriano Michael Morales que recientemente acaba de entrar en el Ranking de peso wélter en la UFC.</p>
                 </Link>
                 <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/tony-ferguson-retiro'>
                     <Image className={styles.noticiasHero__article__img} src={cucuyRetiro} alt='' />
