@@ -9,15 +9,15 @@ import hero from '@/assets/articulos/heros/40-50/nick_newell-hero.jpg'
 
 export const metadata: Metadata = {
     title: 'El manco de las MMA',
-    description: '',
+    description: 'Una de las mejores historias en el mundo de las MMA, es sin dudas la del luchador estadounidense Nick Newell, quien pese a con una amputación genética que lo dejó sin su mano izquierda, pudo competir en las MMA como cualquier otro peleador, llegando a ser campeón en una ocasión, y llegando a competir en promotars de renombre como Bellator.',
     openGraph: {
         title: 'El manco de las MMA',
-        description: '',
+        description: 'Una de las mejores historias en el mundo de las MMA, es sin dudas la del luchador estadounidense Nick Newell, quien pese a con una amputación genética que lo dejó sin su mano izquierda, pudo competir en las MMA como cualquier otro peleador, llegando a ser campeón en una ocasión, y llegando a competir en promotars de renombre como Bellator.',
         url: 'https://fullmma.org/articulos/luchador-manco-de-mma'
     }
 }
 
-export default function HelwaniVSWhite () {
+export default function MancoMMA () {
     return(
         <main>
             <ArticleHero title='Nick Newell: El Luchador con una Mano en MMA' subtitle='La historia de Nick Newell, el manco de las MMA que competía a nivel profesional y que llegó a ser campeón.' image={hero} date='2024-08-29' author={null} />
