@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     }
 }
 
-export default function HelwaniVSWhite () {
+export default function MejorPeleaMMA () {
     return(
         <main>
             <ArticleHero title='Don Frye vs Takayama: La Mejor Pelea de MMA en la Historia' subtitle='La pelea más loca de todos los tiempos entre Don Frye y Yoshihiro Takayama que hizo historia en las MMA, y qué fue de la vida de los peleadores.' image={hero} date='2024-08-28' author={null} />
