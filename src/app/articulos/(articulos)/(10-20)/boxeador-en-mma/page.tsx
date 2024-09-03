@@ -1,14 +1,25 @@
 import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/heros/10-20/james_toney-hero.jpg'
 
+export const metadata: Metadata = {
+    title: 'Boxeador en MMA',
+    description: 'La historia de cuando el campeón de boxeo James Toney se metió a pelear contra el campeón de peso pesado de la UFC, Randy Couture, y como este cayó derrotado de forma aplastante.',
+    openGraph: {
+        title: 'Boxeador en MMA',
+        description: 'La historia de cuando el campeón de boxeo James Toney se metió a pelear contra el campeón de peso pesado de la UFC, Randy Couture, y como este cayó derrotado de forma aplastante.',
+        url: 'https://fullmma.org/articulos/boxeador-en-mma'
+    }
+}
+
 export default function BoxeadorEnMMA () {
     return(
         <main>
-            <ArticleHero title='Boxeo Vs MMA: ¿Qué pasa cuando un boxeador pelea en MMA?' subtitle='En este artículo relatamos la ocasión en que un excampeón de boxeo se metió a competir en la UFC, y cómo terminó su enfrentamiento en el octagono.' image={hero} date='2024-06-14' author={null} />
+            <ArticleHero title='Boxeo Vs MMA: ¿Qué pasa cuando un boxeador pelea en MMA? Cuando las MMA Aplastaron al Boxeo' subtitle='El día que un excampeón de boxeo se metió a competir en la UFC, y cómo terminó su enfrentamiento en el octagono.' image={hero} date='2024-06-14' author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Pareciera ser que cada cierto tiempo reflota la discusión y el debate sobre qué es lo que sucedería si un boxeador profesional y un luchador de MMA se enfrentaran en un combate. Por ejemplo, hace no mucho, el boxeador de peso pesado <b>Tyson Fury</b>, había declarado que en un combate sería capaz de derrotar a <Link href='/peleadores/jon-jones'>Jon Jones</Link>, desafiandoló a pelear incluso.</p>

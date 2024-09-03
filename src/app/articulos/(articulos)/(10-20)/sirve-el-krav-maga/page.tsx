@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: '¿Es el Krav Maga la Mejor Técnica para Combate Real?',
         description: 'Con el paso del tiempo pude ver como muchos peleadores de artes marciales profesionales han expresado que el Krav Maga, y otros estilos de defensa personal, a la hora de la verdad no son muy útiles en situaciones reales, o que contra un peleador experimentado de MMA, incluso uno amateur, no tienen opciones reales de ganar en caso de enfrentarse.',
-        url: 'https://fullmma.org/articulos/rivalidad-adesanya-y-pereira'
+        url: 'https://fullmma.org/articulos/sirve-el-krav-maga'
     }
 }
 

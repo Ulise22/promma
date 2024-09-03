@@ -2,15 +2,26 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/heros/20-30/one_champion-hero.jpg'
 import oneWarriorSeries from '@/assets/articulos/insideArticle/one-championship/one-warrior-series-logo.jpg'
 
+export const metadata: Metadata = {
+    title: 'ONE Championship',
+    description: 'One Cahmpionship (antes llamada One Fighting Championship), es una empresa de combate fundada el 14 de julio de 2011 por el empresario Chatri Sityodtong y el exejecutivo en jefe de ESPN Star Sports Victor Cui. Con sede en Singapur, además de ofrecer peleas de MMA, también organizan combates de submission grappling, Kickboxing, Muay Thai y peleas de Lethwei. Esta empresa tuvo un rápido crecimiento y expansión alrededor del mundo, distrubuyendo su contenido a más de 150 países y convirtiendose en una empresa cotizada en más de mil millones de dólares en 2018.',
+    openGraph: {
+        title: 'ONE Championship',
+        description: 'One Cahmpionship (antes llamada One Fighting Championship), es una empresa de combate fundada el 14 de julio de 2011 por el empresario Chatri Sityodtong y el exejecutivo en jefe de ESPN Star Sports Victor Cui. Con sede en Singapur, además de ofrecer peleas de MMA, también organizan combates de submission grappling, Kickboxing, Muay Thai y peleas de Lethwei. Esta empresa tuvo un rápido crecimiento y expansión alrededor del mundo, distrubuyendo su contenido a más de 150 países y convirtiendose en una empresa cotizada en más de mil millones de dólares en 2018.',
+        url: 'https://fullmma.org/articulos/one-championship'
+    }
+}
+
 export default function OneChampionship () {
     return(
         <main>
-            <ArticleHero title='ONE Championship: La Competencia de UFC' subtitle='La historia e información de ONE Championship, el competidor asiático de UFC' image={hero} date='04/06/2024' author={null} />
+            <ArticleHero title='ONE Championship: La Principal Competencia de UFC' subtitle='La historia y curiosidades de ONE Championship, el principal competidor asiático de la UFC' image={hero} date='04/06/2024' author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>MMA One</h2>
