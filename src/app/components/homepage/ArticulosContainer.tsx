@@ -17,7 +17,6 @@ export default function ArticulosContainer () {
         <section className={styles.articulos}>
             <h2 className={styles.articulos__title}>Últimos Artículos</h2>
             <article className={styles.articulos__container}>
-
                 <HomeArticle author='FULLMMA' date='03/09/2024' img={nicoMontano} link='/articulos/que-paso-con-nicco-montano' title='¿Qué Pasó con Nico Montaño? La Primer Campeona de Peso Mosca de UFC que Fue Despojada de su Título' description='La historia de la primer campeona de peso mosca en la UFC, y como esta fue maltratada por la compañía, siendo despojada de su título.' />
                 <HomeArticle author='FULLMMA' date='31/08/2024' img={cmpunk} link='/articulos/cm-punk-ufc' title='La Historia de CM Punk, El peor Luchador de la historia de UFC' description='El mítico caso de CM Punk, quien abandonó la WWE para ir a la UFC y fracasó rotundamente, peleando únicamente en 2 ocasiones y perdiendo ambas peleas.' />
                 <HomeArticle author='FULLMMA' date='31/08/2024' img={zabit} link='/articulos/que-paso-con-zabit-magomedsharipov' title='Zabit Magomedsharipov: ¿Qué Pasó con la Bestia Daguestaní que se Retiró Demasiado Joven?' description='La historia de Zabit Magomedsharipov, ¿Quién es? ¿Por qué se retiró con tan sólo 28 años? y ¿Qué es de su vida actualmente?' />

@@ -54,6 +54,7 @@ import nickNewell from '@/assets/articulos/previews/40-50/nick_newell-preview.jp
 import zabit from '@/assets/articulos/previews/40-50/zabit-preview.jpg'
 import cmpunk from '@/assets/articulos/previews/40-50/cm_punk_ufc-preview.jpg'
 import nicoMontano from '@/assets/articulos/previews/40-50/nicco_montano-preview.jpg'
+import kimboSlice from '@/assets/articulos/previews/50-60/kimbo_slice-preview.jpg'
 
 export default function Articulos () {
     return(
@@ -61,13 +62,14 @@ export default function Articulos () {
             <PageHero />
             <section className={styles.articles__container}>
                 {/* <ArticlePreview img={magomedovOjo} url='/articulos/shara-magomedov-ojo' title='¿Qué le Pasó en el Ojo a Shara Magomedov?' author={null} text='Una de las mayores promesas de la UFC y cómo es capaz de pelear a pesar de haber perdido la visión en uno de sus ojos.' date='22/06/2024' /> */}
+                <ArticlePreview img={kimboSlice} url='/articulos/kimbo-slice-historia' title='Kimbo Slice: El rey de los luchadores web' author={null} text='La historia de Kevin Ferguson, mejor conocido como Kimbo Slice, y su historia de superación que lo llevó de ser guardia de seguridad de un club nocturno, a ser un luchador profesional.' date='05/09/2024' />
                 <ArticlePreview img={nicoMontano} url='/articulos/que-paso-con-nicco-montano' title='¿Qué Pasó con Nico Montaño? La Primer Campeona de Peso Mosca de UFC que Fue Despojada de su Título' author={null} text='La historia de la primer campeona de peso mosca en la UFC, y como esta fue maltratada por la compañía, siendo despojada de su título.' date='03/09/2024' />
                 <ArticlePreview img={cmpunk} url='/articulos/cm-punk-ufc' title='La Historia de CM Punk, El peor Luchador de la historia de UFC' author={null} text='El mítico caso de CM Punk, quien abandonó la WWE para ir a la UFC y fracasó rotundamente, peleando únicamente en 2 ocasiones y perdiendo ambas peleas.' date='31/08/2024' />
                 <ArticlePreview img={zabit} url='/articulos/que-paso-con-zabit-magomedsharipov' title='Zabit Magomedsharipov: ¿Qué Pasó con la Bestia Daguestaní que se Retiró Demasiado Joven?' author={null} text='La historia de Zabit Magomedsharipov, ¿Quién es? ¿Por qué se retiró con tan sólo 28 años? y ¿Qué es de su vida actualmente?' date='31/08/2024' />
-                <ArticlePreview img={nickNewell} url='/articulos/luchador-manco-de-mma' title='Nick Newell: El Luchador con una Mano en MMA' author={null} text='La historia de Nick Newell, el manco de las MMA que competía a nivel profesional y que llegó a ser campeón.' date='29/08/2024' />
                 </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={nickNewell} url='/articulos/luchador-manco-de-mma' title='Nick Newell: El Luchador con una Mano en MMA' author={null} text='La historia de Nick Newell, el manco de las MMA que competía a nivel profesional y que llegó a ser campeón.' date='29/08/2024' />
                 <ArticlePreview img={bestFight} url='/articulos/mejor-pelea-mma-de-la-historia' title='Don Frye vs Takayama: La Mejor Pelea de MMA en la Historia' author={null} text='La pelea más loca de todos los tiempos entre Don Frye y Yoshihiro Takayama que hizo historia en las MMA, y qué fue de la vida de los peleadores.' date='28/08/2024' />
                 <ArticlePreview img={helwaniVsWhite} url='/articulos/ariel-helwani-vs-dana-white' title='El Periodista al que Dana White Detesta: ¿Por qué Dana White odia a Ariel Helwani?' author={null} text='La historia del qué pasó entre Ariel Helwani y UFC, y de qué sucedio entre Dana White y Ariel Helwani.' date='24/08/2024' />
                 <ArticlePreview img={gspAliens} url='/articulos/george-st-pierre-aliens' title='George St-Pierre Tiene Miedo a los Aliens y su Plan Para Evitar ser Abducido' author={null} text='La leyenda y excampeón de la UFC y su peculiar miedo a los Aliens y la estrategia que ideó para lidiar con ellos.' date='22/08/2024' />
