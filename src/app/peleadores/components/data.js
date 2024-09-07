@@ -166,5 +166,10 @@ export const data = [
         name: 'Guido Cannetti',
         url: '/peleadores/guido-cannetti',
         fighterClass: 'peleadores__card_canetti'
+    },
+    {
+        name: 'Esteban Ribovics',
+        url: '/peleadores/esteban-ribovics',
+        fighterClass: 'peleadores__card_ribovics'
     }
 ]

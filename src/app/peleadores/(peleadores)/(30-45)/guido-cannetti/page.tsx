@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     }
 }
 
-export default function Staropoli () {
+export default function Cannetti () {
     return(
         <main>
             <PeleadoresHero peleadoresImage={cannetti} w={10} l={7} d={0} nombre='Guido Cannetti' apodo='NINJA' categoria='Peso Gallo' />
