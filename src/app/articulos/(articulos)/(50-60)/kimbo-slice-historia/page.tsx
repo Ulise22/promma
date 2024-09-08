@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function KimboSlice () {
     return(
         <main>
-            <ArticleHero title='Kimbo Slice: El rey de los luchadores web' subtitle='La historia de Kevin Ferguson, mejor conocido como Kimbo Slice, y su historia de superación que lo llevó de ser guardia de seguridad de un club nocturno, a ser un luchador profesional.' image={hero} date='2024-09-03' author={null} />
+            <ArticleHero title='Kimbo Slice: El rey de los luchadores web' subtitle='La historia de Kevin Ferguson, mejor conocido como Kimbo Slice, y su historia de superación que lo llevó de ser guardia de seguridad de un club nocturno, a ser un luchador profesional.' image={hero} date='2024-09-05' author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Kimbo Slice es uno de esos peleadores, que pese a su corta carrera en las MMA, con sólo 8 peleas profesionales, supo ganarse el cariño de los fans y quedar en la memoria de los fanáticos más intensos de las artes marciales mixtas. </p>
