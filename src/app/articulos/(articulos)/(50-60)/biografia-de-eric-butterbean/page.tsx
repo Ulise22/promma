@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function KimboSlice () {
     return(
         <main>
-            <ArticleHero title='¿Quién fue Eric Butterbean y por qué era tan famoso?' subtitle='La historia de vida de Eric Butterbean, quien paso de ser un luchador aficionado en concursos de boxeo a convertirse en una estrella internacional en el mundo del boxeo y, eventualmente, en las artes marciales mixtas.' image={hero} date='2024-09-03' author={null} />
+            <ArticleHero title='¿Quién fue Eric Butterbean y por qué era tan famoso?' subtitle='La historia de vida de Eric Butterbean, quien paso de ser un luchador aficionado en concursos de boxeo a convertirse en una estrella internacional en el mundo del boxeo y, eventualmente, en las artes marciales mixtas.' image={hero} date='2024-09-08' author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Eric Esch, más conocido por su apodo &quot;Butterbean&quot;, es uno de los personajes más carismáticos y únicos en la historia del deporte de combate. Pasando de ser un luchador aficionado en concursos de boxeo a convertirse en una estrella internacional en el mundo del boxeo y, eventualmente, en las artes marciales mixtas. Con su apariencia inconfundible y su impresionante capacidad para noquear a sus oponentes, Butterbean se ganó tanto el respeto como el cariño del público. Aunque muchos lo subestimaron por su figura corpulenta, su poder de golpeo y su resistencia mental lo llevaron a competir contra algunos de los nombres más grandes en ambos deportes. Esta biografía explora la vida de un hombre que, contra todo pronóstico, se convirtió en una leyenda en los cuadriláteros y las jaulas.</p>
