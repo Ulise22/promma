@@ -3,9 +3,21 @@ import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import Image from 'next/image'
+import type { Metadata } from 'next'
 /* Images */
 import hero from '@/assets/articulos/heros/20-30/alexander-emelianenko-hero.jpg'
 import tatoos from '@/assets/articulos/insideArticle/alexander-tatuajes.jpg'
+
+export const metadata: Metadata = {
+    title: 'Alexander Emelianenko',
+    description: 'Los tatuajes de Alexander Emelianenko y el significado que tienen, ¿De verdad formó parte de la mafia rusa?',
+    openGraph: {
+        title: 'Alexander Emelianenko',
+        description: 'Los tatuajes de Alexander Emelianenko y el significado que tienen, ¿De verdad formó parte de la mafia rusa?',
+        url: 'https://fullmma.org/articulos/alexander-emelianenko'
+    }
+}
+
 
 export default function AlexanderEmelianenko () {
     return(
