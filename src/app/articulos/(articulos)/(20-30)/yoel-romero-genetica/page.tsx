@@ -3,9 +3,20 @@ import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import Image from 'next/image'
+import type { Metadata } from 'next'
 /* Images */
 import hero from '@/assets/articulos/previews/20-30/yoel_romero_genetica-preview.jpg'
 import joelAndJones from '@/assets/articulos/insideArticle/yoel-romero-genetica/romero-and-jones.jpg'
+
+export const metadata: Metadata = {
+    title: 'La Génetica de Yoel Romero',
+    description: 'Yoel Romero es un superhumano, el admirable prodigio genético que ha demostrado ser el luchador cubano para seguir activo con 47 años y para sorprender a los médicos con lo rápido de su recuperación.',
+    openGraph: {
+        title: 'La Génetica de Yoel Romero',
+        description: 'Yoel Romero es un superhumano, el admirable prodigio genético que ha demostrado ser el luchador cubano para seguir activo con 47 años y para sorprender a los médicos con lo rápido de su recuperación.',
+        url: 'https://fullmma.org/articulos/yoel-romero-genetica'
+    }
+}
 
 export default function YoelRomeroGenetica () {
     return(
