@@ -9,15 +9,10 @@ import khabibVferguson from '@/assets/articulos/previews/0-10/khabibVferguson.jp
 import cortePeso from '@/assets/articulos/previews/0-10/corte-peso.jpg'
 import texeira from '@/assets/articulos/previews/0-10/glover_teixeira.jpg'
 import goats from '@/assets/articulos/previews/0-10/ufc-goats.jpg'
-import bestStyles from '@/assets/articulos/previews/0-10/mejores-estilos_preview.jpg'
 import GoatFemUfc from '@/assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_card.jpg'
 import jonesYoungChamp from '@/assets/articulos/previews/0-10/campeon-mas-joven.jpg'
 import IzziVsPereira from '@/assets/articulos/previews/0-10/izzy-vs-pereira_preview.jpg'
 /* 10-20 */
-import queSonMma from '@/assets/articulos/previews/10-20/que-son-mma_preview.jpg'
-import mostLoss from '@/assets/articulos/previews/10-20/most-loss_preview.jpg'
-import origenAM from '@/assets/articulos/previews/10-20/origen-am_preview.jpg'
-import karateDefensaPersonal from '@/assets/articulos/previews/10-20/karate-defensa-personal_preview.jpg'
 import mostProFights from '@/assets/articulos/previews/10-20/most-pro-fights.jpg'
 import allDoubleChamps from '@/assets/articulos/previews/10-20/dobles-campeones.jpg'
 import kravmaga from '@/assets/articulos/previews/10-20/kravmaga-preview.jpg'
@@ -106,7 +101,6 @@ export default function Articulos () {
                 <ArticlePreview img={allDoubleChamps} url='/articulos/dobles-campeones-de-ufc' title='Todos los Dobles Campeones de UFC' author={null} text='¿Quiénes componen el selecto grupo de los campeones de 2 categorías de peso diferentes en la ufc?' date='01/04/2024' />
                 <ArticlePreview img={mostProFights} url='/articulos/peleador-de-mma-con-mas-peleas' title='¿Qué luchador de MMA ha tenido más peleas?' author={null} date='24/03/2024' text='La historia detrás de Travis Fulton, el luchador con más peleas en MMA y su oscuro final.' />
                 <ArticlePreview img={GoatFemUfc} url='/articulos/mejores-peleadoras-ufc' title='Las Mejores Peleadoras de la Historia de la UFC' author={null} date={null} text='El listado de las mejores peleadoras de la historia en haber peleado en la comapañía de Dana White.' />
-                <ArticlePreview img={mostLoss} url='/articulos/mas-peleas-perdidas-ufc' title='¿Quién es el Peleador Que Más Peleas Perdió de Forma Consecutiva?' author={null} date={null} text='Los peleadores con el poco honroso récord de ser quienes más peleas consecutivas perdieron en la historia de la UFC.' />
                 <ArticlePreview img={conorVkhabib} url='/articulos/conor-vs-khabib' title='Conor McGregor vs Khabib Nurmagomedov: ¿Qué pasó realmente?' author={null} date={null} text='La historia detrás de todo el beef que hubo alrededor de estos 2 peleadores, y los conflictos que hubo después de su pelea.' />
                 <ArticlePreview img={mostppv} url='/articulos/most-ppv' title='Top 5: Las peleas de MMA que más PPV vendieron' author={null} date={null} text='El listado de las peleas que más vendieron en la historia de la UFC, dominada principalmente por Conor McGregor.' />
                 <ArticlePreview img={khabibVferguson} url='/articulos/khabib-vs-ferguson' title='Khabib Vs Ferguson: ¿Por Qué se Canceló Tantas Veces? La Pelea Maldita que Nunca se Dió' author={null} date={null} text='La historia de la pelea que los fans querían ver y nunca pudo darse, pese a que se programó hasta 5 veces.' />
@@ -115,10 +109,6 @@ export default function Articulos () {
                 <ArticlePreview img={IzziVsPereira} url='/articulos/rivalidad-adesanya-y-pereira' title='La Rivalidad entre Israel Adensanya y Alex Pereira' author={null} date='01/09/2024' text='¿De dónde viene la rivalidad entre Israel Adesanya y Alex Pereira? La historia y trasfondo de una de la mayores rivalidades modernas de las MMA, entre estos peleadores que se han enfrentado hasta en 4 ocasiones.' />
                 <ArticlePreview img={texeira} url='/articulos/campeon-viejo-ufc' title='El campeón más viejo de la historia moderna de la UFC' author={null} date={null} text='El camino por el que pasó Glover Texeira, para contra todo pronostico, convertirse en campeón de la UFC con más de 40 años.' />
                 <ArticlePreview img={goats} url='/articulos/top5-mejores-peleadores' title='Los 5 Mejores Peleadores de la Historia de UFC' author={null} date={null} text='Un listado de los 5 peleadores que consideramos que podrían ser considerados los mejores de la historia de la UFC.' />
-                <ArticlePreview img={bestStyles} url='/articulos/mejores-estilos-mma' title='Los Mejores Estilos de Pelea para las MMA' author={null} date={null} text='¿Cuáles son los estilos de pelea o artes marciales más útiles que debe dominar un peleador de MMA?' />
-                <ArticlePreview img={queSonMma} url='/articulos/que-son-mma' title='¿Qué son las MMA?' author={null} date={null} text='Una descripción y breve historia del origen de las artes marciales mixtas.' />
-                <ArticlePreview img={origenAM} url='/articulos/origen-artes-marciales' title='Origen de las Artes Marciales' author={null} date={null} text='¿Cuál es el origen de las artes marciales? ¿Cuál es el arte marcial más antiguo conocido por el hombre?' />
-                <ArticlePreview img={karateDefensaPersonal} url='/articulos/karate-y-defensa-personal' title='Karate y Defensa Personal' author={null} date={null} text='Discutimos que tan útil es saber karate en caso de necesitarlo para defensa personal.' />
             </section>
         </main>
     )
