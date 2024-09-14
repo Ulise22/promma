@@ -3,6 +3,7 @@ import PageHero from './components/PageHero'
 import ArticlePreview from '@/app/articulos/components/ArticlePreview'
 /* IMAGES */
 /* 0-10 */
+import titovsdana from '@/assets/articulos/previews/0-10/dana_vs_ortiz.jpg'
 import conorVkhabib from '@/assets/peleadores__images/peleadores__hero.jpg'
 import mostppv from '@/assets/articulos/previews/0-10/mostppv.jpg'
 import khabibVferguson from '@/assets/articulos/previews/0-10/khabibVferguson.jpg'
@@ -61,13 +62,14 @@ export default function Articulos () {
             <PageHero />
             <section className={styles.articles__container}>
                 {/* <ArticlePreview img={magomedovOjo} url='/articulos/shara-magomedov-ojo' title='¿Qué le Pasó en el Ojo a Shara Magomedov?' author={null} text='Una de las mayores promesas de la UFC y cómo es capaz de pelear a pesar de haber perdido la visión en uno de sus ojos.' date='22/06/2024' /> */}
+                <ArticlePreview img={titovsdana} url='/articulos/dana-white-vs-tito-ortiz' title='La Pelea de Boxeo Entre Dana White y Tito Ortiz que Finalmente no Ocurrió' author={null} text='La historia de rivalidad entre Tito Ortiz y Dana White, y la pelea de boxeo entre estos 2 que se llegó a pactar pero que nunca se dió.' date='14/09/2024' />
                 <ArticlePreview img={popek} url='/articulos/popek-monster-mma' title='Popek: El Rapero Polaco y Pelador de MMA Más Loco del Mundo' author={null} text='La historia del rapero polaco Popek Monster, el caótico estilo de vida que lleva y su carrera en las artes marciales mixtas.' date='10/09/2024' />
                 <ArticlePreview img={hollywood} url='/articulos/peleadores-de-ufc-en-peliculas' title='Top 5 Peleadores de UFC que Aparecieron en Películas de Hollywood' author={null} text='La Lista de 5 Campeones de UFC que aparecieron en el cine y televisión, teniendo una actuacion destacada.' date='10/09/2024' />
                 <ArticlePreview img={butterbean} url='/articulos/biografia-de-eric-butterbean' title='¿Quién fue Eric Butterbean y por qué era tan famoso?' author={null} text='La historia de vida de Eric Butterbean, quien paso de ser un luchador aficionado en concursos de boxeo a convertirse en una estrella internacional en el mundo del boxeo y, eventualmente, en las artes marciales mixtas.' date='08/09/2024' />
-                <ArticlePreview img={kimboSlice} url='/articulos/kimbo-slice-historia' title='Kimbo Slice: El rey de los luchadores web' author={null} text='La historia de Kevin Ferguson, mejor conocido como Kimbo Slice, y su historia de superación que lo llevó de ser guardia de seguridad de un club nocturno, a ser un luchador profesional.' date='05/09/2024' />
                 </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={kimboSlice} url='/articulos/kimbo-slice-historia' title='Kimbo Slice: El rey de los luchadores web' author={null} text='La historia de Kevin Ferguson, mejor conocido como Kimbo Slice, y su historia de superación que lo llevó de ser guardia de seguridad de un club nocturno, a ser un luchador profesional.' date='05/09/2024' />
                 <ArticlePreview img={nicoMontano} url='/articulos/que-paso-con-nicco-montano' title='¿Qué Pasó con Nico Montaño? La Primer Campeona de Peso Mosca de UFC que Fue Despojada de su Título' author={null} text='La historia de la primer campeona de peso mosca en la UFC, y como esta fue maltratada por la compañía, siendo despojada de su título.' date='03/09/2024' />
                 <ArticlePreview img={cmpunk} url='/articulos/cm-punk-ufc' title='La Historia de CM Punk, El peor Luchador de la historia de UFC' author={null} text='El mítico caso de CM Punk, quien abandonó la WWE para ir a la UFC y fracasó rotundamente, peleando únicamente en 2 ocasiones y perdiendo ambas peleas.' date='31/08/2024' />
                 <ArticlePreview img={zabit} url='/articulos/que-paso-con-zabit-magomedsharipov' title='Zabit Magomedsharipov: ¿Qué Pasó con la Bestia Daguestaní que se Retiró Demasiado Joven?' author={null} text='La historia de Zabit Magomedsharipov, ¿Quién es? ¿Por qué se retiró con tan sólo 28 años? y ¿Qué es de su vida actualmente?' date='31/08/2024' />
