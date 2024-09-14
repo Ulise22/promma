@@ -4,7 +4,7 @@ export default function Contacto () {
 
     return(
         <main className={styles.contacto}>
-            <form action="https://formsubmit.co/ulimontenegro23@gmail.com" method="POST" className={styles.form}>
+            <form action="https://formsubmit.co/fullmmarg@gmail.com" method="POST" className={styles.form}>
                 <h1 className={styles.form__title}>Contactanos</h1>
                 <div className={styles.form__container}>
                     <label className={styles.form__label}>Nombre:</label>
