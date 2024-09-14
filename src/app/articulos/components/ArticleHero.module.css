@@ -17,6 +17,12 @@
     height: auto;
 }
 
+.articleHero__info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 @media screen and (max-width: 660px) {
     .articleHero {
         width: 95%;
