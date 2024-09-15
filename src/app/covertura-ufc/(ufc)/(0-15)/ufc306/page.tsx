@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function UFC306 () {
     return(
         <main>
-            <ArticleHero title="UFC 306: ¡Raúl Rosas Jr. Logra La Primer Victoria de la Noche en La Esfera!" subtitle='Noche de UFC en La Esfera en Las Vegas por el Día de la Independencia de México' image={hero} date='2024-09-15' author={null} />
+            <ArticleHero title="UFC 306: ¡Raúl Rosas Jr. Logra La Primer Victoria de la Noche en La Esfera! ¡Esteban Ribovics Gana en un Peleón al Mexicano Daniel Zellhuber!" subtitle='¡Ronaldo Rodríguez Gana por Decisión ante Ode Osbourne! ' image={hero} date='2024-09-15' author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos un tremendo evento de UFC esta noche, por motivo del día de la independencia de México en La Esfera de Las Vegas. Con la pelea títular de peso gallo entre <Link href='/peleadores/sean-omalley'>Sean O&apos;Malley</Link> y <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link> como pelea estelar. Además, la pelea coestelar no se queda atrás, trayendonos el final de la trilogía entre la campeona mexicana <Link href='/mujeres/alexa-grasso'>Alexa Grasso</Link> y la leyenda <Link href='/mujeres/valentina-shevchenko'>Valentina Shevchenko</Link>.</p>
@@ -29,8 +29,9 @@ export default function UFC306 () {
                     <h2>Ronaldo Rodríguez Derrota a Ode Osbourne</h2>
                     <p>Vaya primer pelea estelear que tuvimos en el UFC 306 con la tremenda guerra entre el mexicano Ronaldo Rodríguez, que estando cerca de ser noqueado en el primer asalto supo sobrevivir y continuar dando pelea, y el jamaiquino Ode Osbourne que cerca estuvo de ser sometido en el segundo asalto.</p>
                     <p>La pelea fue bastante cerrada y finalmente los jueces se terminaron por decantar a favor del mexicano, que se llevó la victoria por decisión, en la que sin dudas es hasta ahora la pelea de la noche.</p>
-                    <h2>Daniel Zellhuber vs Esteban Ribovics</h2>
-                    <p>En Proceso...</p>
+                    <h2>Esteban Ribovics Derrota a Daniel Zellhuber en la Pelea de la Noche</h2>
+                    <p>En lo que fue todo un espectáculo, tanto el argentino <Link href='/peleadores/esteban-ribovics'>Esteban Ribovics</Link> como el mexicano <b>Daniel Zellhuber</b> nos dieron una demostración de lo que es una pelea de MMA bien dada, donde parecía que cualquiera de los 2 podía caer noqueado en cualquier momento, especialmente el Daniel quien sufrió una tremenda derecha por parte de Esteban en el tercer asalto, ambos peleadores mostraron corazón, sabiendo mantenerse de pie y dar guerra hasta el final.</p>
+                    <p>De esta manera, la pelea que se dió practicamente en su totalidad en el striking, se la terminó llevando el argentino por decisión dividida, en la que seguramente será elegida la pelea de la noche.</p>
                     <h2>Brian Ortega vs Diego Lopes</h2>
                     <p>En Proceso...</p>
                     <h2>Alexa Grasso vs Valentina Shevchenko</h2>
