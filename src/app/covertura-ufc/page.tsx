@@ -11,6 +11,7 @@ import ufc301 from '@/assets/covertura_ufc/ufc/0-15/ufc301-preview.jpg'
 import ufc302 from '@/assets/covertura_ufc/ufc/0-15/ufc302-preview.jpg'
 import ufc303 from '@/assets/covertura_ufc/ufc/0-15/ufc303-preview.jpg'
 import ufc304 from '@/assets/covertura_ufc/ufc/0-15/ufc304-preview.jpg'
+import ufc305 from '@/assets/covertura_ufc/ufc/0-15/ufc305-preview.jpg'
 /* UFC FIGHT NIGHT IMAGES */
 import whittakerVSaliskerov from '@/assets/covertura_ufc/fight_night/0-15/whittaker-vs-aliskerov.jpg'
 import lewisVsNascimento from '@/assets/covertura_ufc/fight_night/0-15/lewis-vs-nascimento-preview.jpg'
@@ -23,6 +24,7 @@ export default function CoverturaUFC () {
         <main className={styles.covertura__container}>
             <h2 className={styles.covertura__subtitle}>UFC Numerado</h2>
             <section className={styles.covertura__articles__container}>
+                <ArticlePreview img={ufc305} url='/covertura-ufc/ufc305' title='UFC 305: ¡Dricus Du Plessis Derrota Por Sumisión a Israel Adesanya!¡Kai Kara-France Noquea a Steve Erceg en el Primer Asalto!' author={null} text='¡Carlos Prates deja KO a Li Jingliang en el segundo asalto! ¡Dan Hooker consigue una victoria ante Mateusz Gamrot!' date='18/08/2024' />
                 <ArticlePreview img={ufc304} url='/covertura-ufc/ufc304' title='UFC 304: ¡Belal Muhammad Vence Por Decisión Unánime a Leon Edwards y es Nuevo Campeón! ¡Tom Aspinall Noquea a Curtis Blaydes en el Primer Asalto!' author={null} text='¡Paddy Pimblett somete a Bobby Green en el primer asalto de la pelea! Tom Aspinall logra otra victoria por nocaut en su revancha ante Blaydes. Belal Muhammad es nuevo campeón de peso wélter en la UFC.' date='27/07/2024' />
                 <ArticlePreview img={ufc303} url='/covertura-ufc/ufc303' title='UFC 303: ¡Alex Pereira Noquea a Jiri Prochazka en el Segundo Asalto!¡Diego Lopes Vence a Dan Ige Que Tomó la Pelea con 4 Horas de Antelación!' author={null} text='En esta noche de MMA tenemos peleas fantásticas, con la pelea por el título de semipesados como evento estelar de esta jornada, y con la pelea inédita de Diego Lopes y de Dan Ige, que aceptó combatir unas pocas horas antes de la pelea.' date='29/06/2024' />
                 <ArticlePreview img={ufc302} url='/covertura-ufc/ufc302' title='UFC 302: ¡Islam Makhachev Somete a Poirier en el Último Asalto de la Pelea!' author={null} text='Islam Makhachev somete a Dustin Poirier en lo que hasta ahora parecería ser la última pelea de su carrera. Además Sean Strickland se lleva una esperable victoria contra Paulo Costa por decisión unánime.' date='02/06/2024' />

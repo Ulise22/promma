@@ -3,16 +3,16 @@ import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import magomedovOjo from '@/assets/articulos/previews/30-40/shara_magomedov_ojo-preview.jpg'
-import ufc305 from '@/assets/covertura_ufc/ufc/0-15/ufc305-preview.jpg'
+import ufc306 from '@/assets/covertura_ufc/ufc/0-15/ufc306-preview.jpg'
 import iliaPromissKOHolloway from '@/assets/noticias/previews/10-20/ilia_promissko_holloway-preview.jpg'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc305'>
-                <Image className={styles.homehero__bigArticle__img} src={ufc305} alt='' />
-                <h2 className={styles.home__title}>UFC 305: ¡Dricus Du Plessis Derrota Por Sumisión a Israel Adesanya!¡Kai Kara-France Noquea a Steve Erceg en el Primer Asalto!</h2>
-                <span>¡Carlos Prates deja KO a Li Jingliang en el segundo asalto! ¡Dan Hooker consigue una victoria ante Mateusz Gamrot!</span>
+            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc306'>
+                <Image className={styles.homehero__bigArticle__img} src={ufc306} alt='' />
+                <h2 className={styles.home__title}>UFC 306: ¡Sean O&apos;malley vs Merab Dvalishvili!¡Alexa Grasso vs Valentina Shevchenko!</h2>
+                <span></span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/shara-magomedov-ojo'>
                 <Image className={styles.homehero__article__img} src={magomedovOjo} alt='' />
