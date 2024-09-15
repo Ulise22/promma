@@ -41,8 +41,8 @@ export default function Peleadores ({
                     <Link href='/peleadores/islam-makhachev' className={`${styles.peleadores__card} ${styles.peleadores__card_makhachev}`}>
                         <h3 className={styles.peleadores__card__name}>Islam Makhachev</h3>
                     </Link>
-                    <Link href='/peleadores/sean-omalley' className={`${styles.peleadores__card} ${styles.peleadores__card_omalley}`}>
-                        <h3 className={styles.peleadores__card__name}>Sean O&apos;malley</h3>
+                    <Link href='/peleadores/merab-dvalishvili' className={`${styles.peleadores__card} ${styles.peleadores__card_merab}`}>
+                        <h3 className={styles.peleadores__card__name}>Merab Dvalisvili</h3>
                     </Link>
                     <Link href='/peleadores/alex-pereira' className={`${styles.peleadores__card} ${styles.peleadores__card_pereira}`}>
                         <h3 className={styles.peleadores__card__name}>Alex Pereira</h3>

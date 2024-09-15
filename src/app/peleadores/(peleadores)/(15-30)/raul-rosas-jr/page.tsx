@@ -19,13 +19,13 @@ export const metadata: Metadata = {
 export default function RaulRosasJR () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={raul} w={9} l={1} d={0} nombre='Raúl Rosas Jr.' categoria='Peso Gallo' apodo='EL NIÑO PROBLEMA' />
+            <PeleadoresHero peleadoresImage={raul} w={10} l={1} d={0} nombre='Raúl Rosas Jr.' categoria='Peso Gallo' apodo='EL NIÑO PROBLEMA' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Raul Rosas Jr. UFC</h2>
                     <p className={styles.peleador__article__text}>Raúl Rosas Jr es un peleador mexicano que compite en la división de peso gallo de la <Link href='/articulos/ufc'>UFC</Link>, que destaca especialmente por ser conocido como el peleador más joven en firmar la compañía, con sólo 17 años.</p>
                     <h2 className={styles.peleador__article__title}>Raul Rosas Jr. Récord</h2>
-                    <p className={styles.peleador__article__text}>Raúl Rosas Jr. posee un récord de 9-1 en su carrera de MMA. Siendo 2 de sus victorias por la vía del nocaut, 6 por la vía de la sumisión y sólo 1 por decisión. Mientras que su única derrota fue por decisión.</p>
+                    <p className={styles.peleador__article__text}>Raúl Rosas Jr. posee un récord de 10-1 en su carrera de MMA. Siendo 2 de sus victorias por la vía del nocaut, 6 por la vía de la sumisión y sólo 2 por decisión. Mientras que su única derrota fue por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Raul Rosas Jr. Biografía</h2>
                     <p className={styles.peleador__article__text}>Raúl Rosas Jr. nació el 8 de octubre de 2004 en los Estados Unidos, en la ciudad de Clovis, ubicada en el Estado de Nuevo México. Es hijo de padres mexicanos que emigraron al país del norte de américa, por lo que Raúl cuenta con ambas nacionalidades, la de sus padres y la de USA.</p>
                     <p className={styles.peleador__article__text}>A los 13 años, cuando se mudó junto a su familia a California, comenzó a luchar en la secundaria en un deporte llamado <b>Pankration</b>, que es bastante similar a las MMA. Sus padres lo apoyaron en su carrera deportiva, por lo que un año después pudo participar del campeonato mundial de IMMAF en Roma, donde ganó el oro. </p>

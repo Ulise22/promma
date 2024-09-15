@@ -10,12 +10,13 @@ export default function Mujeres () {
             <section className={styles.peleadores}>
                 <h2 className={styles.peleadores__subtitle}>Mujeres UFC</h2>
                 <article className={styles.peleadores__container}>
+                    <Link href='/mujeres/alexa-grasso' className={`${styles.peleadores__card} ${styles.peleadores__card_grasso}`}>
+                        <h3 className={styles.peleadores__card__name}>Alexa Grasso</h3>
+                    </Link>
                     <Link href='/mujeres/julianna-pena' className={`${styles.peleadores__card} ${styles.peleadores__card_julianna}`}>
                         <h3 className={styles.peleadores__card__name}>Julianna Peña</h3>
                     </Link>
-                    <Link href='/mujeres/valentina-shevchenko' className={`${styles.peleadores__card} ${styles.peleadores__card_shevchenko}`}>
-                        <h3 className={styles.peleadores__card__name}>Valentina Shevchenko</h3>
-                    </Link>
+                    
                     <Link href='/mujeres/ailin-perez' className={`${styles.peleadores__card} ${styles.peleadores__card_ailin}`}>
                         <h3 className={styles.peleadores__card__name}>Ailín Pérez</h3>
                     </Link>
@@ -43,8 +44,8 @@ export default function Mujeres () {
                     <Link href='/mujeres/zhang-weili' className={`${styles.peleadores__card} ${styles.peleadores__card_weili}`}>
                         <h3 className={styles.peleadores__card__name}>Zhang Weili</h3>
                     </Link>
-                    <Link href='/mujeres/alexa-grasso' className={`${styles.peleadores__card} ${styles.peleadores__card_grasso}`}>
-                        <h3 className={styles.peleadores__card__name}>Alexa Grasso</h3>
+                    <Link href='/mujeres/valentina-shevchenko' className={`${styles.peleadores__card} ${styles.peleadores__card_shevchenko}`}>
+                        <h3 className={styles.peleadores__card__name}>Valentina Shevchenko</h3>
                     </Link>
                     <Link href='/mujeres/raquel-pennington' className={`${styles.peleadores__card} ${styles.peleadores__card_pennington}`}>
                         <h3 className={styles.peleadores__card__name}>Raquel Pennington</h3>

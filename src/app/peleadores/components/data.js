@@ -102,9 +102,9 @@ export const data = [
         fighterClass: 'peleadores__card_edwards'
     },
     {
-        name: 'Merab Dvalisvili',
-        url: '/peleadores/merab-dvalishvili',
-        fighterClass: 'peleadores__card_merab'
+        name: "Sean O'Malley",
+        url: '/peleadores/sean-omalley',
+        fighterClass: 'peleadores__card_omalley'
     },
     {
         name: 'Robert Whittaker',

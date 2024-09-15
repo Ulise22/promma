@@ -20,13 +20,13 @@ export const metadata: Metadata = {
 export default function Omalley () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={omalley} w={18} l={1} d={0} nombre={`Sean O'Malley`} apodo='SUGAR' categoria='Peso Gallo' />
+            <PeleadoresHero peleadoresImage={omalley} w={18} l={2} d={0} nombre={`Sean O'Malley`} apodo='SUGAR' categoria='Peso Gallo' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Sean O&apos;malley UFC</h2>
                     <p className={styles.peleador__article__text}>Sean O&apos;Malley es un peleador estadounindense de UFC, que compite en la comapañía en la división de Peso Gallo desde diciembre de 2017, cuando debutaría contra su compatriota <b>Terrion Ware</b>, a quien vencería por decisión unánime. El 19 de agosto de 2023 se consagraría como una de las estrellas de la compañía, al derrotar al entonces campeón de la división <b>Aljamain Sterling</b>, a quien venció por TKO en el segundo asalto, convirtiéndose en el nuevo campeón de la división.</p>
                     <h2 className={styles.peleador__article__title}>Sean O&apos;malley Record</h2>
-                    <p className={styles.peleador__article__text}>Sean O&apos;Malley posee un récord de 18-1 (1). Siendo 12 de sus 18 victorias por nocaut, 1 por sumisión y 5 por decisión. Mientras que su única derrota fue por nocaut. Además una de sus peleas en la UFC terminó en sin resultado luego de que en su enfrentamiento contra el brasileño <b>Pedro Munhoz</b>, Sean accidentalmente le diera un piquete en el ojo a su rival que le impidió seguir compitiendo.</p>
+                    <p className={styles.peleador__article__text}>Sean O&apos;Malley posee un récord de 18-2 (1). Siendo 12 de sus 18 victorias por nocaut, 1 por sumisión y 5 por decisión. Mientras que de sus 2 derrotas, 1 fue por la vía del nocaut y sólo 1 por decisión. Además una de sus peleas en la UFC terminó en sin resultado luego de que en su enfrentamiento contra el brasileño <b>Pedro Munhoz</b>, Sean accidentalmente le diera un piquete en el ojo a su rival que le impidió seguir compitiendo.</p>
                     <Image className={styles.peleador__article__image} src={careo} alt='' />
                     <h2 className={styles.peleador__article__title}>Sean O&apos;malley Historia</h2>
                     <p className={styles.peleador__article__text}>Sean Daniel O&apos;Malley nació el 24 de octubre de 1994 en Estados Unidos, en la ciudad de Helena, ubicada en el Estado de Montana. Es peleador profesional desde el 6 de marzo de 2015, cuando con 20 años enfrentaría al estadounidense <b>Josh Reyes</b> en la promotora <b>Intense Fighting Championship</b>, a quien vencería por TKO en un minuto y medio de combate. </p>
