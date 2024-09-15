@@ -26,8 +26,9 @@ export default function UFC306 () {
                     <p>Tenemos un tremendo evento de UFC esta noche, por motivo del día de la independencia de México en La Esfera de Las Vegas. Con la pelea títular de peso gallo entre <Link href='/peleadores/sean-omalley'>Sean O&apos;Malley</Link> y <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link> como pelea estelar. Además, la pelea coestelar no se queda atrás, trayendonos el final de la trilogía entre la campeona mexicana <Link href='/mujeres/alexa-grasso'>Alexa Grasso</Link> y la leyenda <Link href='/mujeres/valentina-shevchenko'>Valentina Shevchenko</Link>.</p>
                     <h2>Raúl Rosas Jr. Consigue una Victoria ante Aoriqileng</h2>
                     <p>En una pelea donde estando de pie en el striking estaba bastante pareja, es la lucha en el suelo lo que termina declinando la balanza del combate a favor del mexicano <Link href='/peleadores/raul-rosas-jr'>Raúl Rosas Jr.</Link>, quien supo ser dominante a lo largo de todo el encuentro, llevándose una merecida victoria por decisión unánime en el primer combate de la noche. </p>
-                    <h2>Ronaldo Rodríguez vs Ode Osbourne</h2>
-                    <p>En Proceso...</p>
+                    <h2>Ronaldo Rodríguez Derrota a Ode Osbourne</h2>
+                    <p>Vaya primer pelea estelear que tuvimos en el UFC 306 con la tremenda guerra entre el mexicano Ronaldo Rodríguez, que estando cerca de ser noqueado en el primer asalto supo sobrevivir y continuar dando pelea, y el jamaiquino Ode Osbourne que cerca estuvo de ser sometido en el segundo asalto.</p>
+                    <p>La pelea fue bastante cerrada y finalmente los jueces se terminaron por decantar a favor del mexicano, que se llevó la victoria por decisión, en la que sin dudas es hasta ahora la pelea de la noche.</p>
                     <h2>Daniel Zellhuber vs Esteban Ribovics</h2>
                     <p>En Proceso...</p>
                     <h2>Brian Ortega vs Diego Lopes</h2>
