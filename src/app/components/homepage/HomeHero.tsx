@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc306'>
                 <Image className={styles.homehero__bigArticle__img} src={ufc306} alt='' />
                 <h2 className={styles.home__title}>UFC 306: ¡Raúl Rosas Jr. Logra La Primer Victoria de la Noche en La Esfera! ¡Esteban Ribovics Gana en un Peleón al Mexicano Daniel Zellhuber!</h2>
-                <span>¡Ronaldo Rodríguez Gana por Decisión ante Ode Osbourne! </span>
+                <span>¡Ronaldo Rodríguez Gana por Decisión ante Ode Osbourne! ¡Diego Lopes Derrota a Brian Ortega por Decisión Unánime!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/shara-magomedov-ojo'>
                 <Image className={styles.homehero__article__img} src={magomedovOjo} alt='' />

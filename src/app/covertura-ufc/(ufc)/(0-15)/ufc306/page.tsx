@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function UFC306 () {
     return(
         <main>
-            <ArticleHero title="UFC 306: ¡Raúl Rosas Jr. Logra La Primer Victoria de la Noche en La Esfera! ¡Esteban Ribovics Gana en un Peleón al Mexicano Daniel Zellhuber!" subtitle='¡Ronaldo Rodríguez Gana por Decisión ante Ode Osbourne! ' image={hero} date='2024-09-15' author={null} />
+            <ArticleHero title="UFC 306: ¡Raúl Rosas Jr. Logra La Primer Victoria de la Noche en La Esfera! ¡Esteban Ribovics Gana en un Peleón al Mexicano Daniel Zellhuber!" subtitle='¡Ronaldo Rodríguez Gana por Decisión ante Ode Osbourne! ¡Diego Lopes Derrota a Brian Ortega por Decisión Unánime! ' image={hero} date='2024-09-15' author={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos un tremendo evento de UFC esta noche, por motivo del día de la independencia de México en La Esfera de Las Vegas. Con la pelea títular de peso gallo entre <Link href='/peleadores/sean-omalley'>Sean O&apos;Malley</Link> y <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link> como pelea estelar. Además, la pelea coestelar no se queda atrás, trayendonos el final de la trilogía entre la campeona mexicana <Link href='/mujeres/alexa-grasso'>Alexa Grasso</Link> y la leyenda <Link href='/mujeres/valentina-shevchenko'>Valentina Shevchenko</Link>.</p>
@@ -32,8 +32,9 @@ export default function UFC306 () {
                     <h2>Esteban Ribovics Derrota a Daniel Zellhuber en la Pelea de la Noche</h2>
                     <p>En lo que fue todo un espectáculo, tanto el argentino <Link href='/peleadores/esteban-ribovics'>Esteban Ribovics</Link> como el mexicano <b>Daniel Zellhuber</b> nos dieron una demostración de lo que es una pelea de MMA bien dada, donde parecía que cualquiera de los 2 podía caer noqueado en cualquier momento, especialmente el Daniel quien sufrió una tremenda derecha por parte de Esteban en el tercer asalto, ambos peleadores mostraron corazón, sabiendo mantenerse de pie y dar guerra hasta el final.</p>
                     <p>De esta manera, la pelea que se dió practicamente en su totalidad en el striking, se la terminó llevando el argentino por decisión dividida, en la que seguramente será elegida la pelea de la noche.</p>
-                    <h2>Brian Ortega vs Diego Lopes</h2>
-                    <p>En Proceso...</p>
+                    <h2>Diego Lopes se Lleva la Pelea ante Brian Ortega</h2>
+                    <p>El nacido en Brasil se lleva la victoria por decisión unánime en un desempeño impresionante, donde supo dominar al estadounidense de principio a fin, estando cerca de la finalización por nocaut en el priemr asalto. </p>
+                    <p>De esta forma, con esta victoria ante el número #3 del peso pluma, <Link href='/peleadores/diego-lopes'>Diego Lopes</Link> se posiciona como un claro contendiente al título para enfrentar al ganador del combate entre <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> y <Link href='/peleadores/max-holloway'>Max Holloway</Link>.</p>
                     <h2>Alexa Grasso vs Valentina Shevchenko</h2>
                     <p>En Proceso...</p>
                     <h2>Sean O&apos;Malley vs Merab Dvalishvili</h2>
