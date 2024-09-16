@@ -9,10 +9,10 @@ import hero from '@/assets/noticias/heros/10-20/khalil-hero.webp'
 
 export const metadata: Metadata = {
     title: 'Khalil Rountree',
-    description: '',
+    description: 'Khalil Rountree es un peleador estadounidense de UFC que está por enfrentar el desafío más grande de su carrera el próximo 5 de octubre, cuando en el UFC 307 se vea cara a cara con el campeón de peso semipesado Alex Pereira. Su historia de vida es un gran ejemplo de vida y de superación, que merece ser contada y por eso hoy la vamos a repasar.',
     openGraph: {
         title: 'Khalil Rountree',
-        description: '',
+        description: 'Khalil Rountree es un peleador estadounidense de UFC que está por enfrentar el desafío más grande de su carrera el próximo 5 de octubre, cuando en el UFC 307 se vea cara a cara con el campeón de peso semipesado Alex Pereira. Su historia de vida es un gran ejemplo de vida y de superación, que merece ser contada y por eso hoy la vamos a repasar.',
         url: 'https://fullmma.org/noticias/khalil-rountree'
     }
 }
