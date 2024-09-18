@@ -8,10 +8,10 @@ import hero from '@/assets/articulos/heros/10-20/car_jiujitsu-hero.jpeg'
 
 export const metadata: Metadata = {
     title: 'Car Jiu Jitsu',
-    description: '',
+    description: 'Sí, es real el Jiu Jitsu en coche, y como su nombre lo dice, no es otra cosa que el Jiu Jitsu, pero practicado dentro de un automóvil. Esta nueva forma de practicar este arte marcial, se originó en Rusia en el año 2020, y ganó una rápida notoriedad por lo novedoso de la idea.',
     openGraph: {
         title: 'Car Jiu Jitsu',
-        description: '',
+        description: 'Sí, es real el Jiu Jitsu en coche, y como su nombre lo dice, no es otra cosa que el Jiu Jitsu, pero practicado dentro de un automóvil. Esta nueva forma de practicar este arte marcial, se originó en Rusia en el año 2020, y ganó una rápida notoriedad por lo novedoso de la idea.',
         url: 'https://fullmma.org/articulos/car-jiu-jitsu'
     }
 }

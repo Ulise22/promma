@@ -13,13 +13,14 @@ import goats from '@/assets/articulos/previews/0-10/ufc-goats.jpg'
 import GoatFemUfc from '@/assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_card.jpg'
 import jonesYoungChamp from '@/assets/articulos/previews/0-10/campeon-mas-joven.jpg'
 import IzziVsPereira from '@/assets/articulos/previews/0-10/izzy-vs-pereira_preview.jpg'
+import masvidalVsAskren from '@/assets/articulos/previews/0-10/masvidal-vs-askren_preview.jpeg'
 /* 10-20 */
+import mmaMedieval from '@/assets/articulos/previews/10-20/mma_medieval-preview.jpeg'
 import carJiujitsu from '@/assets/articulos/previews/10-20/car_jiujitsu-preview.jpg'
 import mostProFights from '@/assets/articulos/previews/10-20/most-pro-fights.jpg'
 import allDoubleChamps from '@/assets/articulos/previews/10-20/dobles-campeones.jpg'
 import kravmaga from '@/assets/articulos/previews/10-20/kravmaga-preview.jpg'
 import mariusz from '@/assets/articulos/previews/10-20/mariusz-pudzianowski-preview.jpg'
-import masvidalVsAskren from '@/assets/articulos/previews/0-10/masvidal-vs-askren_preview.jpeg'
 import jamesToney from '@/assets/articulos/previews/10-20/james_toney-preview.jpg'
 /* 20-30 */
 import jimMiller from '@/assets/articulos/previews/20-30/jim-miller-preview.jpg'
@@ -63,13 +64,14 @@ export default function Articulos () {
             <PageHero />
             <section className={styles.articles__container}>
                 {/* <ArticlePreview img={magomedovOjo} url='/articulos/shara-magomedov-ojo' title='¿Qué le Pasó en el Ojo a Shara Magomedov?' author={null} text='Una de las mayores promesas de la UFC y cómo es capaz de pelear a pesar de haber perdido la visión en uno de sus ojos.' date='22/06/2024' /> */}
+                <ArticlePreview img={mmaMedieval} url='/articulos/mma-medieval' title='¿Qué es el MMA Medieval?' author={null} text='Los combates de MMA organizados en un octágono, con armaduras y espadas que emulan las luchas medievales.' date='18/09/2024' />
                 <ArticlePreview img={carJiujitsu} url='/articulos/car-jiu-jitsu' title='Car Jitsu: ¿Es real el Jiu Jitsu en coche?' author={null} text='La curiosa forma de practicar Jiu Jitsu en Rusia que va ganando cada vez más popularidad' date='17/09/2024' />
                 <ArticlePreview img={titovsdana} url='/articulos/dana-white-vs-tito-ortiz' title='La Pelea de Boxeo Entre Dana White y Tito Ortiz que Finalmente no Ocurrió' author={null} text='La historia de rivalidad entre Tito Ortiz y Dana White, y la pelea de boxeo entre estos 2 que se llegó a pactar pero que nunca se dió.' date='14/09/2024' />
                 <ArticlePreview img={popek} url='/articulos/popek-monster-mma' title='Popek: El Rapero Polaco y Pelador de MMA Más Loco del Mundo' author={null} text='La historia del rapero polaco Popek Monster, el caótico estilo de vida que lleva y su carrera en las artes marciales mixtas.' date='10/09/2024' />
-                <ArticlePreview img={hollywood} url='/articulos/peleadores-de-ufc-en-peliculas' title='Top 5 Peleadores de UFC que Aparecieron en Películas de Hollywood' author={null} text='La Lista de 5 Campeones de UFC que aparecieron en el cine y televisión, teniendo una actuacion destacada.' date='10/09/2024' />
                 </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={hollywood} url='/articulos/peleadores-de-ufc-en-peliculas' title='Top 5 Peleadores de UFC que Aparecieron en Películas de Hollywood' author={null} text='La Lista de 5 Campeones de UFC que aparecieron en el cine y televisión, teniendo una actuacion destacada.' date='10/09/2024' />
                 <ArticlePreview img={butterbean} url='/articulos/biografia-de-eric-butterbean' title='¿Quién fue Eric Butterbean y por qué era tan famoso?' author={null} text='La historia de vida de Eric Butterbean, quien paso de ser un luchador aficionado en concursos de boxeo a convertirse en una estrella internacional en el mundo del boxeo y, eventualmente, en las artes marciales mixtas.' date='08/09/2024' />
                 <ArticlePreview img={kimboSlice} url='/articulos/kimbo-slice-historia' title='Kimbo Slice: El rey de los luchadores web' author={null} text='La historia de Kevin Ferguson, mejor conocido como Kimbo Slice, y su historia de superación que lo llevó de ser guardia de seguridad de un club nocturno, a ser un luchador profesional.' date='05/09/2024' />
                 <ArticlePreview img={nicoMontano} url='/articulos/que-paso-con-nicco-montano' title='¿Qué Pasó con Nico Montaño? La Primer Campeona de Peso Mosca de UFC que Fue Despojada de su Título' author={null} text='La historia de la primer campeona de peso mosca en la UFC, y como esta fue maltratada por la compañía, siendo despojada de su título.' date='03/09/2024' />
