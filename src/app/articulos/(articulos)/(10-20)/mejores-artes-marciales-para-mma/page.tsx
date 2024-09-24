@@ -16,10 +16,10 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
     title: 'Mejores Artes Marciales Para MMA',
-    description: '',
+    description: 'Repasamos cuáles son las mejores artes marciales para una pelea de MMA, según el luchador profesional Jeff Chan.',
     openGraph: {
         title: 'Mejores Artes Marciales Para MMA',
-        description: '',
+        description: 'Repasamos cuáles son las mejores artes marciales para una pelea de MMA, según el luchador profesional Jeff Chan.',
         url: 'https://fullmma.org/articulos/mejores-artes-marciales-para-mma'
     }
 }
