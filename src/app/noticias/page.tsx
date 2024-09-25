@@ -8,8 +8,8 @@ import michaelMorales from '@/assets/noticias/previews/10-20/michael_morales-pre
 import cucuyRetiro from '@/assets/noticias/previews/0-10/ferguson_retiro_preview.jpg'
 import drakeApuesta from '@/assets/noticias/previews/10-20/drake_apuesta-preview.jpg'
 import danHookerTattoos from '@/assets/noticias/previews/10-20/dan_hooker_tattoos-preview.jpg'
-import volkNextFight from '@/assets/noticias/previews/10-20/volk_next_fight_preview.jpg'
 import belalOdiado from '@/assets/noticias/previews/10-20/belal_odiado-preview.jpg'
+import kevinVallejosUFC from '@/assets/noticias/previews/20-30/kevin_vallejos.jpg'
 /* 0 - 10 */
 import conor from '@/assets/peleadores__images/0-10/conor-mcgregor/conor_mcgregor.jpg'
 import ufc300 from '@/assets/noticias/previews/0-10/ufc300.jpg'
@@ -21,6 +21,7 @@ import ailin from '@/assets/peleadores__images/argentinos/ailin-perez/ailin-pere
 import chimaevCancel from '@/assets/noticias/previews/0-10/chimaev_whittaker-preview.jpg'
 import ortegaLopes from '@/assets/noticias/previews/0-10/ortega-vs-lopes-preview.jpg'
 /* 10 - 20 */
+import volkNextFight from '@/assets/noticias/previews/10-20/volk_next_fight_preview.jpg'
 import chandlerEspera from '@/assets/noticias/previews/10-20/michael_chandler_espera-preview.jpg'
 import jonesEvitaAspinall from '@/assets/noticias/previews/10-20/jones_evita_aspinall-preview.jpg'
 import amandaVuelve from '@/assets/noticias/previews/10-20/amanda_nunes_vuelve-preview.jpg'
@@ -35,14 +36,14 @@ export default function NoticiasPage () {
                     <h2 className={styles.page__title}>¿Quién es Michael Morales? El Luchador Ecuatoriano de 25 Años que Está Invicto en la UFC</h2>
                     <p>La historia del ecuatoriano Michael Morales que recientemente acaba de entrar en el Ranking de peso wélter en la UFC.</p>
                 </Link>
-                <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/tony-ferguson-retiro'>
-                    <Image className={styles.noticiasHero__article__img} src={cucuyRetiro} alt='' />
+                <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/kevin-vallejos-entra-a-ufc'>
+                    <Image className={styles.noticiasHero__article__img} src={kevinVallejosUFC} alt='' />
                     <article className={styles.noticiasHero__article__container}>
-                        <h2 className={styles.noticiasHero__title}>¿Tony Ferguson Se Retira Luego de su Pelea con Michael Chiesa?</h2>
-                        <p>El Cucuy se enfrentará al estadounidense Michael Chiesa en agosto, pero ¿será esta su última pelea?</p>
+                        <h2 className={styles.noticiasHero__title}>Kevin Vallejos Gana Por Nocaut En El Primer Asalto y se Asegura el Contrato en la UFC</h2>
+                        <p>EL Chino Vallejos Gana por Nocaut en el Dana White&apos;s Contender Series y se asegura un contrato en la UFC.</p>
                         <div className={styles.noticiasHero__article__info}>
                             <h4>FULLMMA</h4>
-                            <p>27/07/2024</p>
+                            <p>24/09/2024</p>
                         </div>
                     </article>
                 </Link>
@@ -59,13 +60,14 @@ export default function NoticiasPage () {
                 </Link>
             </article>
             <article className={styles.noticiasHero__container}>
+                <ArticlePreview img={cucuyRetiro} url='/noticias/tony-ferguson-retiro' title='¿Tony Ferguson Se Retira Luego de su Pelea con Michael Chiesa?' author={null} text='El Cucuy se enfrentará al estadounidense Michael Chiesa en agosto, pero ¿será esta su última pelea?' date='27/07/2024' />
                 <ArticlePreview img={khalil} url='/noticias/khalil-rountree' title='¿Quién es Khalil Rountree? El Próximo Rival de Alex Pereira en el UFC 307' author={null} text='La historia de Khalil Rountree Jr. y de cómo paso de de pesar 300lbs a ser el peleador de UFC que va a pelear por el título de los semipesados.' date='16/09/2024' />
                 <ArticlePreview img={drakeApuesta} url='/noticias/drake-apuesta-ufc' title='¡Drake es Mufa! Todas Las Apuestas Perdidas de Drake en UFC' author={null} text='"La maldición de Drake" y todos los peleadores que sufrieron de esta con las apuestas del cantante estadounidense' date='19/08/2024' />
                 <ArticlePreview img={danHookerTattoos} url='/noticias/dan-hooker-tattoos' title='Los tatuajes de Dan Hooker y su significado' author={null} text='Cómo la estrella de la UFC Dan Hooker pasó de no tener ningún tatuaje a llenarse el cuerpo de tinta y el significado detrás de sus tatuajes.' date='17/08/2024' />
-                <ArticlePreview img={volkNextFight} url='/noticias/proxima-pelea-volkanovski' title='¿Volkanovski en Peso Ligero o Revancha Contra Ilia Topuria? Próxima Pelea de Alexander Volkanovski' author={null} text='¿Cuál va a ser la próxima pelea de Alexander Volkanovski? ¿Obtendrá una revancha por el título ante Ilia Topuria, o pasará página y se movera a la división de peso ligero para enfrentar a los otros contendientes?' date='08/07/2024' />
             </article>
             <h2 className={styles.noticiasPage__subtitle}>Todas Las Noticias</h2>
             <article className={styles.noticias}>
+                <ArticlePreview img={volkNextFight} url='/noticias/proxima-pelea-volkanovski' title='¿Volkanovski en Peso Ligero o Revancha Contra Ilia Topuria? Próxima Pelea de Alexander Volkanovski' author={null} text='¿Cuál va a ser la próxima pelea de Alexander Volkanovski? ¿Obtendrá una revancha por el título ante Ilia Topuria, o pasará página y se movera a la división de peso ligero para enfrentar a los otros contendientes?' date='08/07/2024' />
                 <ArticlePreview img={chandlerEspera} url='/noticias/michael-chandler-espera-mcgregor' title='¿Tiene Sentido Para Michael Chandler Esperar a McGregor?' author={null} text='Michael Chandler lleva sin pelear desde noviembre de 2022, a la espera de una pelea con Conor McGregor, pero ¿Por qué lo espera tanto?' date='25/06/2024' />
                 <ArticlePreview img={jonesEvitaAspinall} url='/noticias/jones-esquiva-aspinall' title='¿Jon Jones Está Evitando a Tom Aspinall?' author={null} text='El actual campeón de peso pesado de UFC Jon Jones, ha rechazado pelear con el campeón interino Tom Aspinall a la espera de combatir en su lugar a Stipe Miocic.' date='16/07/2024' />
                 <ArticlePreview img={amandaVuelve} url='/noticias/vuelve-amanda-nunes' title='¿Amanda Nunes Vuelve a Pelear?' author={null} text='La mejor peleadora de la historia de las MMA está retirada, pero ¿Volverá Amanda Nunes al Octagono?' date='25/06/2024' />
