@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function Ponzinibbio () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={ponzinibbio} w={30} l={8} d={0} categoria='Peso Welter' nombre='Santiago Ponzinibbio' apodo='ARGENTINE DAGGER' />
+            <PeleadoresHero peleadoresImage={ponzinibbio} w={29} l={8} d={0} categoria='Peso Welter' nombre='Santiago Ponzinibbio' apodo='ARGENTINE DAGGER' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Santiago Ponzinibbio UFC</h2>
