@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     }
 }
 
-export default function JonesEsquivaAspinall () {
+export default function SandhagenNurmagomedov () {
     return(
         <main>
             <ArticleHero title='UFC FIGHT NIGHT: ¡Umar Nurmagomedov Gana Por Decisión Unánime a Cory! ¡El Ecuatoriano Marlon Vera Cae Derrotado por el Brasileño Figueiredo Por Decisión Unánime!' subtitle='Joel Álvarez gana por nocaut en el tercer asalto de la pelea. Tony Ferguson vuelve a perder una vez más, cayendo derrotado en esta ocasión ante Michael Chiesa. Shara Bullet gana por decisión unánime su tercer pelea en la UFC.' image={hero} date='2024-08-03' author={null} updatedDate={null} />
