@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function MoicanoSaintDenis () {
     return(
         <main>
-            <ArticleHero title='UFC FIGHT NIGHT: ¡Ailín Pérez Somete en el Primer Asalto a Zhelezniakova! ¡Renato Moicano vs Benoit Saint Denis! ¡Imavov vs Allen!' subtitle='Noche de UFC en Francia donde tuvimos la victoria de la argentina Ailín Pérez en el primer asalto por sumisión y la victoria del español Daniel Barez por decisión unánime' image={hero} date='2024-09-28' author={null} updatedDate={null} />
+            <ArticleHero title='UFC FRANCIA: ¡Ailín Pérez Somete en el Primer Asalto a Zhelezniakova! ¡Renato Moicano vs Benoit Saint Denis! ¡Imavov vs Allen!' subtitle='Noche de UFC en Francia donde tuvimos la victoria de la argentina Ailín Pérez en el primer asalto por sumisión y la victoria del español Daniel Barez por decisión unánime.' image={hero} date='2024-09-28' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Hoy tenemos evento de UFC en Francia, con una larga lista de luchadores franceses que serán protagonistas de esta noche de MMA. El evento estará encabezado por el brasileño <b>Renato Moicano</b>, quien viene de una espectácular victoria en el <Link href='/covertura-ufc/ufc300-early-prelims'>UFC 300</Link>, donde logró someter a su rival en el segundo asalto, y por el francés <b>Benoit Saint Denis</b>, quien viene de una derrota por nocaut ante el histórico de la división de peso ligero <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link> en el <Link href='/covertura-ufc/ufc299'>UFC 299</Link>.</p>
