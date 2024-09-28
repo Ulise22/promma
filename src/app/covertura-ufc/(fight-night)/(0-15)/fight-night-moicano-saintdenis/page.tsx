@@ -31,10 +31,12 @@ export default function MoicanoSaintDenis () {
                     <h2>Ailín Pérez Somete a Daria Zhelezniakova en el Primer Asalto</h2>
                     <p>La argentina <Link href='/mujeres/ailin-perez'>Ailín Pérez</Link> se luce en la pelea y consigue una tremenda sumisión con un triángulo de brazo en el primer asalto que le otorga la victoria. </p>
                     <p>Con esta victoria, Ailín consigue su cuarta victoria consecutiva, acumulando un récord de 11-2, y siendo la única peleadora de Argentina ranqueada en el top #15 de su división. </p>
-                    <h2>Nassourdine Imavov vs Brendan Allen</h2>
-                    <p>En Proceso...</p>
-                    <h2>Renato Moicano vs Benoit Saint Denis</h2>
-                    <p>En proceso...</p>
+                    <h2>Charriere Noquea a Miranda en el Segundo Asalto</h2>
+                    <p>En lo que es la segunda pelea de la cartelera estelar, el francés consiguió un gran KO a inicios del segundo asalto. Durante el combate se notó mucho como el brasileño buscaba concretar un derribo constantemente para llevar la pelea al suelo, que era un terreno que se le hacía más cómodo, pero sin embargo, Charriere fue capaz de notar esto, defendiendo los intentos de derribo durante el primer asalto. Ya entrados en el segundo asalto, el francés necesito menos de un minuto para conectar el golpe que dejaría KO a su rival, y que le otorgaría la victoria en la pelea.</p>
+                    {/* <h2>Nassourdine Imavov vs Brendan Allen</h2>
+                    <p>En Proceso...</p> */}
+                    {/* <h2>Renato Moicano vs Benoit Saint Denis</h2>
+                    <p>En proceso...</p> */}
                 </article>
                 <AsideChamps />
             </section>
