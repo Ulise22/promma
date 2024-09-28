@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function MoicanoSaintDenis () {
     return(
         <main>
-            <ArticleHero title='UFC FRANCIA: ¡Ailín Pérez Somete en el Primer Asalto a Zhelezniakova! ¡Renato Moicano vs Benoit Saint Denis! ¡Imavov vs Allen!' subtitle='Noche de UFC en Francia donde tuvimos la victoria de la argentina Ailín Pérez en el primer asalto por sumisión y la victoria del español Daniel Barez por decisión unánime.' image={hero} date='2024-09-28' author={null} updatedDate={null} />
+            <ArticleHero title='UFC FRANCIA: ¡Renato Moicano vs Benoit Saint Denis! ¡Imavov Derrota a Allen Por Decisión Unánime! ¡Ailín Pérez Somete en el Primer Asalto a Zhelezniakova! ' subtitle='Noche de UFC en Francia donde tuvimos la victoria de la argentina Ailín Pérez en el primer asalto por sumisión y la victoria del español Daniel Barez por decisión unánime.' image={hero} date='2024-09-28' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Hoy tenemos evento de UFC en Francia, con una larga lista de luchadores franceses que serán protagonistas de esta noche de MMA. El evento estará encabezado por el brasileño <b>Renato Moicano</b>, quien viene de una espectácular victoria en el <Link href='/covertura-ufc/ufc300-early-prelims'>UFC 300</Link>, donde logró someter a su rival en el segundo asalto, y por el francés <b>Benoit Saint Denis</b>, quien viene de una derrota por nocaut ante el histórico de la división de peso ligero <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link> en el <Link href='/covertura-ufc/ufc299'>UFC 299</Link>.</p>
@@ -33,8 +33,8 @@ export default function MoicanoSaintDenis () {
                     <p>Con esta victoria, Ailín consigue su cuarta victoria consecutiva, acumulando un récord de 11-2, y siendo la única peleadora de Argentina ranqueada en el top #15 de su división. </p>
                     <h2>Charriere Noquea a Miranda en el Segundo Asalto</h2>
                     <p>En lo que es la segunda pelea de la cartelera estelar, el francés consiguió un gran KO a inicios del segundo asalto. Durante el combate se notó mucho como el brasileño buscaba concretar un derribo constantemente para llevar la pelea al suelo, que era un terreno que se le hacía más cómodo, pero sin embargo, Charriere fue capaz de notar esto, defendiendo los intentos de derribo durante el primer asalto. Ya entrados en el segundo asalto, el francés necesito menos de un minuto para conectar el golpe que dejaría KO a su rival, y que le otorgaría la victoria en la pelea.</p>
-                    {/* <h2>Nassourdine Imavov vs Brendan Allen</h2>
-                    <p>En Proceso...</p> */}
+                    <h2>Nassourdine Imavov Vence a Brendan Allen Por Decisión Unánime</h2>
+                    <p>El nacido en Daguestán y nacionalizado francés logra llevarse la victoria por decisión de los jueces, de lo que fuera capaz de revertir un primer asalto en el que dominó por completo Brendan Allen. Sin embargo, en los últimos 2, Imavov fue capaz de defender todos los intentos de derribos de su rival, logrando coonectar las mejores combinaciones de golpes, tanto de pie como en el suelo, que le terminaron por otorgar la victoria. </p>
                     {/* <h2>Renato Moicano vs Benoit Saint Denis</h2>
                     <p>En proceso...</p> */}
                 </article>
