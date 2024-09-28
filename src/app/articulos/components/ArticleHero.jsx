@@ -4,7 +4,7 @@ import styles from './ArticleHero.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faSquareXTwitter } from '@fortawesome/free-brands-svg-icons'
 
-export default function ArticleHero ({title, subtitle, image, date, author}) {
+export default function ArticleHero ({title, subtitle, image, date, author, updatedDate}) {
     const defaultAuthor = 'FULLMMA'
     return(
         <section className={styles.articleHero}>
@@ -13,9 +13,10 @@ export default function ArticleHero ({title, subtitle, image, date, author}) {
             <Image className={styles.articleHero__image} src={image}  alt='title'/>
             {date && <p className={styles.articleHero__info}> 
                 <b>{author || defaultAuthor }</b>,
-                <time datatime={date}>{date}</time>
+                <time dataTime={date}>{date}</time>
                 <a target='_Blank' href='https://www.facebook.com/people/Fullmma/61565690940390/'> <FontAwesomeIcon icon={faFacebook} size='xl' /> </a>
                 <a target='_Blank' href='https://x.com/MmaFull265'> <FontAwesomeIcon icon={faSquareXTwitter} size='xl' /> </a>
+                {updatedDate && <p>Fecha de Actualización: <time dateTime={date}> {updatedDate} </time></p>}
                  </p>}
         </section>
     )

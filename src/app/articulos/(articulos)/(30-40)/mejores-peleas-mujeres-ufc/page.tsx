@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function MejoresPeleasMujeres () {
     return(
         <main>
-            <ArticleHero title='Las Mejores Peleas de UFC de Mujeres de la Historia' subtitle='Los 5 mejores combates de mujeres de la historia de UFC.' image={hero} date='2024-06-29' author={null} />
+            <ArticleHero title='Las Mejores Peleas de UFC de Mujeres de la Historia' subtitle='Los 5 mejores combates de mujeres de la historia de UFC.' image={hero} date='2024-06-29' author={null} updatedDate='2024-09-28' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Las Mejores Peleas de UFC de Mujeres</h2>
