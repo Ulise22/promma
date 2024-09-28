@@ -1,4 +1,3 @@
-'use client'
 import Image from 'next/image'
 import styles from './ArticleHero.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -16,7 +15,7 @@ export default function ArticleHero ({title, subtitle, image, date, author, upda
                 <time dataTime={date}>{date}</time>
                 <a target='_Blank' href='https://www.facebook.com/people/Fullmma/61565690940390/'> <FontAwesomeIcon icon={faFacebook} size='xl' /> </a>
                 <a target='_Blank' href='https://x.com/MmaFull265'> <FontAwesomeIcon icon={faSquareXTwitter} size='xl' /> </a>
-                {updatedDate && <p>Fecha de Actualización: <time dateTime={date}> {updatedDate} </time></p>}
+                {updatedDate && <span className={styles.articleHero__info}>Fecha de Actualización: <time dateTime={date}> {updatedDate} </time></span>}
                  </p>}
         </section>
     )
