@@ -8,7 +8,7 @@ import hero from '@/assets/covertura_ufc/ufc/0-15/ufc300_prelims.jpg'
 export default function UFC300Prelims () {
     return(
         <main>
-            <ArticleHero title='UFC 300: !Kayla Harrinson Somete a Holly Holm en el Segundo Asalto en su Debut en la UFC¡' subtitle='Por el UFC 300 Kayla somete a Holly Holm en el segundo asalto y Diego Lopes Noquea su rival en el primer asalto.' image={hero} date='2024-04-13' author={null} />
+            <ArticleHero title='UFC 300: !Kayla Harrinson Somete a Holly Holm en el Segundo Asalto en su Debut en la UFC¡' subtitle='Por el UFC 300 Kayla somete a Holly Holm en el segundo asalto y Diego Lopes Noquea su rival en el primer asalto.' image={hero} date='2024-04-13' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Sadiq Yusuff vs Diego Lopes</h2>

@@ -9,7 +9,7 @@ import hero from '@/assets/covertura_ufc/ufc/0-15/ufc301-hero.jpg'
 export default function UFC301 () {
     return(
         <main>
-            <ArticleHero title='¡José Aldo se Retira con una Victoria contra Jonatha Martinez y Alexandre Pantoja Retiene su Título!' subtitle='José Aldo se retira con victoria de la UFC enfrentando a un peleador ranqueado con sus 37 años de edad, y Pantoja es capaz de retener el cinturón en su primera defensa.' image={hero} date='2024-05-05' author={null} />
+            <ArticleHero title='¡José Aldo se Retira con una Victoria contra Jonatha Martinez y Alexandre Pantoja Retiene su Título!' subtitle='José Aldo se retira con victoria de la UFC enfrentando a un peleador ranqueado con sus 37 años de edad, y Pantoja es capaz de retener el cinturón en su primera defensa.' image={hero} date='2024-05-05' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>En este UFC 301 que tuvo lugar en Brasil y que nos entretuvo con un peleador de esta nacionalidad por pelea, vimos muchas grandes peleas, y momentos históricos, como lo son la primera defensa del cinturón de <Link href='/peleadores/alexandre-pantoja'>Alex Pantoja</Link> y la última pelea por UFC del legendario <Link href='/leyendas/jose-aldo'>José Aldo</Link>. </p>

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function UFC305 () {
     return(
         <main>
-            <ArticleHero title='UFC 305: ¡Dricus Du Plessis Derrota Por Sumisión a Israel Adesanya!¡Kai Kara-France Noquea a Steve Erceg en el Primer Asalto!' subtitle='¡Carlos Prates deja KO a Li Jingliang en el segundo asalto! ¡Dan Hooker consigue una victoria ante Mateusz Gamrot!' image={hero} date='2024-08-18' author={null} />
+            <ArticleHero title='UFC 305: ¡Dricus Du Plessis Derrota Por Sumisión a Israel Adesanya!¡Kai Kara-France Noquea a Steve Erceg en el Primer Asalto!' subtitle='¡Carlos Prates deja KO a Li Jingliang en el segundo asalto! ¡Dan Hooker consigue una victoria ante Mateusz Gamrot!' image={hero} date='2024-08-18' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Hoy tenemos un nuevo evento numerado de <Link href='/articulos/ufc'>UFC</Link> celebrado en el RAC Arena en Australia, donde tendremos como pelea estelar el ansiado regreso de <Link href='/peleadores/israel-adesanya'>Israel Adesanya</Link>, quien enfrentará al actual campeón de la división de peso medio de la UFC, el sudafricano <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link> en lo que será su primer defensa del título desde que lo ganara en el <Link href='/noticias/ufc297'>UFC 297</Link> al derrotar a <Link href='/peleadores/sean-strickland'>Sean Strickland</Link>.</p>

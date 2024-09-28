@@ -9,7 +9,7 @@ import hero from '@/assets/covertura_ufc/fight_night/0-15/fightnight-cannonier-i
 export default function FightNightLewisNascimento () {
     return(
         <main>
-            <ArticleHero title='UFC Fight Night: ¡Imanov Noquea a Canonnier! ¡Dominick Reyes Gana por Nocaut en el Primer Asalto! y ¡Raul Rosas JR Somete en el Segundo Asalto!' subtitle='El UFC Fight Night Canonnier vs Imanov, nos dejó 5 nocauts, 1 sumisión y un montón de peleas espectaculares que valen la pena ver, en una cartelera organizada en la ciudad de Loisville en el Estado de Kentucky.' image={hero} date='2024-06-09' author={null} />
+            <ArticleHero title='UFC Fight Night: ¡Imanov Noquea a Canonnier! ¡Dominick Reyes Gana por Nocaut en el Primer Asalto! y ¡Raul Rosas JR Somete en el Segundo Asalto!' subtitle='El UFC Fight Night Canonnier vs Imanov, nos dejó 5 nocauts, 1 sumisión y un montón de peleas espectaculares que valen la pena ver, en una cartelera organizada en la ciudad de Loisville en el Estado de Kentucky.' image={hero} date='2024-06-09' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>En un Fight Night bastante entretenido, que nos dejó con 5 victorias por nocaut en toda la cartelera, y una por sumisión que logró el mexicano <b>Raul Rosas Jr</b>. La noche llegó a su culmen en la pelea estelar, que nos dejó con un Imanov ganando por nocaut, escalando en los rankings de la <Link href='/articulos/ufc'>UFC</Link>, en la división de peso mediano que tiene a un <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link> como campeón indiscutido.</p>

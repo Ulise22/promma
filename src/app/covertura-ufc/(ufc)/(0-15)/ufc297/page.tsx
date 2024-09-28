@@ -10,7 +10,7 @@ import Image from 'next/image'
 export default function UFC297 () {
     return(
         <main>
-            <ArticleHero title='UFC 297: ¡Dricus Du Plessis Nuevo Campeón de Peso Medio Por decisión dividida!¡Raquel Pennington Nueva Campeona de Peso Gallo Femenino!' subtitle='En un combate igualado, el sudafricano Dricus Du Plesis se convierte en el nuevo campeón de la división de Peso Mediano de la UFC por decisión dividida. Raquel Pennington ganó el campeonato vacante de Peso Gallo femenino' image={hero} date={null} author={null} />
+            <ArticleHero title='UFC 297: ¡Dricus Du Plessis Nuevo Campeón de Peso Medio Por decisión dividida!¡Raquel Pennington Nueva Campeona de Peso Gallo Femenino!' subtitle='En un combate igualado, el sudafricano Dricus Du Plesis se convierte en el nuevo campeón de la división de Peso Mediano de la UFC por decisión dividida. Raquel Pennington ganó el campeonato vacante de Peso Gallo femenino' image={hero} date={null} author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Dricus Du Plessis es el Nuevo Campeón de Peso Medio de UFC</h2>

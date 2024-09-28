@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function JonesEsquivaAspinall () {
     return(
         <main>
-            <ArticleHero title='UFC FIGHT NIGHT: ¡Umar Nurmagomedov Gana Por Decisión Unánime a Cory! ¡El Ecuatoriano Marlon Vera Cae Derrotado por el Brasileño Figueiredo Por Decisión Unánime!' subtitle='Joel Álvarez gana por nocaut en el tercer asalto de la pelea. Tony Ferguson vuelve a perder una vez más, cayendo derrotado en esta ocasión ante Michael Chiesa. Shara Bullet gana por decisión unánime su tercer pelea en la UFC.' image={hero} date='2024-08-03' author={null} />
+            <ArticleHero title='UFC FIGHT NIGHT: ¡Umar Nurmagomedov Gana Por Decisión Unánime a Cory! ¡El Ecuatoriano Marlon Vera Cae Derrotado por el Brasileño Figueiredo Por Decisión Unánime!' subtitle='Joel Álvarez gana por nocaut en el tercer asalto de la pelea. Tony Ferguson vuelve a perder una vez más, cayendo derrotado en esta ocasión ante Michael Chiesa. Shara Bullet gana por decisión unánime su tercer pelea en la UFC.' image={hero} date='2024-08-03' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Hoy tenemos noche de UFC en los Emiratos Árabes con un montón de peleas, siendo la que tendrán <b>Cory Sandhagen</b> y <b>Umar Nurmagomedov</b> la que encabezará el evento. Además, volveremos a ver pelear a <b>Shara Bullet</b> en la pelea coestelarn en lo que sería su tercer pelea en la compañía, enfrentando al polaco <b>Michal Oleksiejczuk</b>.</p>

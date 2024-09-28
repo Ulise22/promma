@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function UFC304 () {
     return(
         <main>
-            <ArticleHero title='UFC 304: ¡Belal Muhammad Vence Por Decisión Unánime a Leon Edwards y es Nuevo Campeón! ¡Tom Aspinall Noquea a Curtis Blaydes en el Primer Asalto!' subtitle='¡Paddy Pimblett somete a Bobby Green en el primer asalto de la pelea! Tom Aspinall logra otra victoria por nocaut en su revancha ante Blaydes. Belal Muhammad es nuevo campeón de peso wélter en la UFC.' image={hero} date='2024-07-27' author={null} />
+            <ArticleHero title='UFC 304: ¡Belal Muhammad Vence Por Decisión Unánime a Leon Edwards y es Nuevo Campeón! ¡Tom Aspinall Noquea a Curtis Blaydes en el Primer Asalto!' subtitle='¡Paddy Pimblett somete a Bobby Green en el primer asalto de la pelea! Tom Aspinall logra otra victoria por nocaut en su revancha ante Blaydes. Belal Muhammad es nuevo campeón de peso wélter en la UFC.' image={hero} date='2024-07-27' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Este 27 de agosto tenemos noche de UFC en Manchester, Reino Unido, con una cartelera repleta de luchadores ingleses y británicos, siendo el campeón de peso wélter <Link href='/peleadores/leon-edwards'>Leon Edwards</Link>, el encargado de encabezar esta cartelera, realizando su tercera defensa del título ante el retador <Link href='/peleadores/belal-muhammad'>Belal Muhammad</Link>, quien necesitó de acumular una racha de 8 victorias consecutivas para ganarse esta oportunidad por el cinturón de la división.</p>

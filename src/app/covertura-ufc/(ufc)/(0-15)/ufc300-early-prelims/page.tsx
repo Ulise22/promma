@@ -8,7 +8,7 @@ import hero from '@/assets/covertura_ufc/ufc/0-15/ufc300_early-prelims.jpg'
 export default function UFC300EarlyPrelims () {
     return(
         <main>
-            <ArticleHero title='UFC 300: !Deivenson Figueiredo Somete a Cody en la Primer Pelea de la Noche¡' subtitle='Arranca el UFC 300 con unas increíbles peleas en los primeros preliminares.' image={hero} date='2024-04-13' author={null} />
+            <ArticleHero title='UFC 300: !Deivenson Figueiredo Somete a Cody en la Primer Pelea de la Noche¡' subtitle='Arranca el UFC 300 con unas increíbles peleas en los primeros preliminares.' image={hero} date='2024-04-13' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Deivenson Figueiredo vs Cody Garbrandt</h2>

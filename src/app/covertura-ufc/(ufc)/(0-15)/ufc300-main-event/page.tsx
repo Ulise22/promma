@@ -8,7 +8,7 @@ import hero from '@/assets/covertura_ufc/ufc/0-15/ufc300.jpeg'
 export default function UFC300MainEvent () {
     return(
         <main>
-            <ArticleHero title='UFC 300: ¡Alex Pereira Noquea en el Primer Asalto a Hill! !Max Holloway Noquea a Gaethje en el Último Segundo de la Pelea¡' subtitle='Alex Pereira defiende su cinturón ante Jamahal Hill noqueando en el primer asalto. Max Holloway se convierte en el nuevo BMF al noquear a Justin Gaethje en el último asalto. Además Zhang Weili, Bo Nickal y Arman Tsarukyan ganan sus peleas.' image={hero} date='2024-04-14' author={null} />
+            <ArticleHero title='UFC 300: ¡Alex Pereira Noquea en el Primer Asalto a Hill! !Max Holloway Noquea a Gaethje en el Último Segundo de la Pelea¡' subtitle='Alex Pereira defiende su cinturón ante Jamahal Hill noqueando en el primer asalto. Max Holloway se convierte en el nuevo BMF al noquear a Justin Gaethje en el último asalto. Además Zhang Weili, Bo Nickal y Arman Tsarukyan ganan sus peleas.' image={hero} date='2024-04-14' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Bo Nickal vs Cody Brundage</h2>

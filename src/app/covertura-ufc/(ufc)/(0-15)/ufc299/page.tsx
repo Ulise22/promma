@@ -9,7 +9,7 @@ import Image from 'next/image'
 export default function UFC299 () {
     return(
         <main>
-            <ArticleHero title='UFC 299: ¡Sean O&apos;malley Vence Chito Vera Por Decisión y Sigue Siendo Campeón!¡Dustin Poirier Gana por Nocaut en el Segundo Asalto!' subtitle='' image={hero} date={null} author={null} />
+            <ArticleHero title='UFC 299: ¡Sean O&apos;malley Vence Chito Vera Por Decisión y Sigue Siendo Campeón!¡Dustin Poirier Gana por Nocaut en el Segundo Asalto!' subtitle='' image={hero} date={null} author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Sean Omalley vence a Chito en su primera defensa del título</h2>
