@@ -1,14 +1,25 @@
 import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+import Link from 'next/link'
 /* Images */
 import hero from '@/assets/peleadores__images/peleadores__hero.jpg'
-import Link from 'next/link'
+
+export const metadata: Metadata = {
+    title: 'Qué Pasó Entre Conor y Khabib',
+    description: '',
+    openGraph: {
+        title: 'Qué Pasó Entre Conor y Khabib',
+        description: '',
+        url: 'https://fullmma.org/articulos/conor-vs-khabib'
+    }
+}
 
 export default function KhabibVsConor () {
     return(
         <main>
-            <ArticleHero title='Conor McGregor vs Khabib Nurmagomedov: ¿Qué pasó Realmente Antes y Después de la Pelea?' subtitle='Vamos a hablar de la razón de tanta rivalidad entre estos 2 peleadores, por qué Khabib luego del combate fue a pelear con alguien de la esquina de Conor, el incidente del bus...' image={hero} date={null} author={null} />
+            <ArticleHero title='Conor McGregor vs Khabib Nurmagomedov: ¿Qué pasó Realmente Antes y Después de la Pelea?' subtitle='Vamos a hablar de la razón de tanta rivalidad entre estos 2 peleadores, por qué Khabib luego del combate fue a pelear con alguien de la esquina de Conor, el incidente del bus...' image={hero} date={null} author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Dillon Danis y Khabib</h2>

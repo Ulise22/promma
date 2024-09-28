@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function YoelRomeroGenetica () {
     return(
         <main>
-            <ArticleHero title='La Genética de Yoel Romero' subtitle='Yoel Romero es un superhumano, el admirable prodigio genético que ha demostrado ser el luchador cubano para seguir activo con 47 años y para sorprender a los médicos con lo rápido de su recuperación.' image={hero} date='2024-06-12' author={null} />
+            <ArticleHero title='La Genética de Yoel Romero' subtitle='Yoel Romero es un superhumano, el admirable prodigio genético que ha demostrado ser el luchador cubano para seguir activo con 47 años y para sorprender a los médicos con lo rápido de su recuperación.' image={hero} date='2024-06-12' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Yoel Romero Prodigio Genético</h2>

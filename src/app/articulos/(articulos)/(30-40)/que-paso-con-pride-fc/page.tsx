@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function PeleadorMasSucioUFC () {
     return(
         <main>
-            <ArticleHero title='¿Qué Pasó con Pride FC?' subtitle='Cómo el control de la mafia japonea Yakuza acabó con el reinado de la mayor compañía de MMA de la historia.' image={hero} date='2024-06-19' author={null} />
+            <ArticleHero title='¿Qué Pasó con Pride FC?' subtitle='Cómo el control de la mafia japonea Yakuza acabó con el reinado de la mayor compañía de MMA de la historia.' image={hero} date='2024-06-19' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Pride FC</h2>

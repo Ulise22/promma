@@ -1,14 +1,25 @@
 import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/heros/10-20/mariusz-pudzianowski-hero.jpg'
-import Link from 'next/link'
+
+export const metadata: Metadata = {
+    title: 'Luchador de MMA 5 Veces El Hombre Más Fuerte del Mundo',
+    description: '',
+    openGraph: {
+        title: 'Luchador de MMA 5 Veces El Hombre Más Fuerte del Mundo',
+        description: '',
+        url: 'https://fullmma.org/articulos/mariusz-pudzianowski'
+    }
+}
 
 export default function MariuszPudzianowski () {
     return(
         <main>
-            <ArticleHero title='El Polaco Que Fue 5 Veces el Hombre Más Fuerte del Mundo, y que con 45 Años Noquea a sus Rivales, Mariusz Pudzianowski' subtitle='La historia del hombre nacido en Polonia, Mariusz Pudzianowski, que luego de haber desarrollado su carrera como Strongman, siendo elegido el hombre más fuerte del mundo en 5 oportunidades, se mudó a las MMA, donde sorprendió a todos con su impenente físico y su habilidad para noquear rivales con más experiencia que él.' image={hero} date='30/04/2024' author={null} />
+            <ArticleHero title='El Polaco Que Fue 5 Veces el Hombre Más Fuerte del Mundo, y que con 45 Años Noquea a sus Rivales, Mariusz Pudzianowski' subtitle='La historia del hombre nacido en Polonia, Mariusz Pudzianowski, que luego de haber desarrollado su carrera como Strongman, siendo elegido el hombre más fuerte del mundo en 5 oportunidades, se mudó a las MMA, donde sorprendió a todos con su impenente físico y su habilidad para noquear rivales con más experiencia que él.' image={hero} date='30/04/2024' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Mariusz Zbigniew Pudzianowski, conocido como Pudzian, nació el 7 de febrero de 1977 en la ciudad de Biala Rawska, en Polonia. Es hijo de un levantador de pesas, que fue de gran influencia para que nuestro protagonista se interesera por el deporte, comenzando a practicar karate con 11 años, y a levantar pesas con 13. Además desde los 15 comenzó a practicar boxeo, aunque abandonó esta practica unos 7 años después. </p>

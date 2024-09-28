@@ -2,14 +2,25 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/heros/20-30/kots-hero.jpg'
 
+export const metadata: Metadata = {
+    title: 'King Of The Streets',
+    description: '',
+    openGraph: {
+        title: 'King Of The Streets',
+        description: '',
+        url: 'https://fullmma.org/articulos/king-of-the-streets'
+    }
+}
+
 export default function KingOfTheStreets () {
     return(
         <main>
-            <ArticleHero title='King Of The Streets' subtitle='La organización de peleas clandestinas más grande del mundo y popular en Youtube' image={hero} date='05/06/2024' author={null} />
+            <ArticleHero title='King Of The Streets' subtitle='La organización de peleas clandestinas más grande del mundo y popular en Youtube' image={hero} date='05/06/2024' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>KOTS MMA</h2>

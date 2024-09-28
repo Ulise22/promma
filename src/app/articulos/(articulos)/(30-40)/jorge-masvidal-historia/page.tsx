@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function JorgeMasvidalHistoria () {
     return(
         <main>
-            <ArticleHero title='La Biografía de Jorge Masvidal' subtitle='La historia de uno de los peleadores favoritos de los fans, que llegó a pelear 2 veces por el título y es recordado como el primer BMF de la UFC.' image={hero} date='2024-07-04' author={null} />
+            <ArticleHero title='La Biografía de Jorge Masvidal' subtitle='La historia de uno de los peleadores favoritos de los fans, que llegó a pelear 2 veces por el título y es recordado como el primer BMF de la UFC.' image={hero} date='2024-07-04' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Jorge Masvidal UFC</h2>

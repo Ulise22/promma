@@ -1,15 +1,26 @@
 import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/previews/0-10/campeon-mas-joven.jpg'
 import Image from 'next/image'
 
+export const metadata: Metadata = {
+    title: 'Campeón Más Joven de la UFC',
+    description: '',
+    openGraph: {
+        title: 'Campeón Más Joven de la UFC',
+        description: '',
+        url: 'https://fullmma.org/articulos/campeon-mas-joven-de-ufc'
+    }
+}
+
 export default function PeleadorMasJoven () {
     return(
         <main>
-            <ArticleHero title='Jon Jones: El Peleador Más Joven en Ser Campeón de la UFC' subtitle='La historia de cómo quien hoy en día es considerado uno de los mejores de la historia, se convirtió en el campeón más joven que tuvo la UFC con tan sólo 23 años' image={hero} date={null} author={null} />
+            <ArticleHero title='Jon Jones: El Peleador Más Joven en Ser Campeón de la UFC' subtitle='La historia de cómo quien hoy en día es considerado uno de los mejores de la historia, se convirtió en el campeón más joven que tuvo la UFC con tan sólo 23 años' image={hero} date={null} author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>El peleador más joven en ser campeón de la UFC en toda la historia es <Link href='/peleadores/jon-jones'>Jon Jones</Link>, que lo consiguió el 19 de marzo de 2011 en el UFC 128, al vencer por TKO en el tercer asalto al brasileño <b>Maurício Rua</b>. Sin embargo el camino para conseguir tremenda hazaña no fue nada sencillo para el joven Jon Jones.</p>

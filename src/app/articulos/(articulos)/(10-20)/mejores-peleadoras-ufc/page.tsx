@@ -1,15 +1,26 @@
 import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/heros/10-20/goats-fem-ufc_hero.jpg'
 import Image from 'next/image'
 
+export const metadata: Metadata = {
+    title: 'Mejores Peleadoras de UFC',
+    description: '',
+    openGraph: {
+        title: 'Mejores Peleadoras de UFC',
+        description: '',
+        url: 'https://fullmma.org/articulos/mejores-peleadoras-ufc'
+    }
+}
+
 export default function MejoresPeleadorasUFC () {
     return(
         <main>
-            <ArticleHero title='Las Mejores Peleadoras de UFC de la Historia' subtitle='En este artículo repasaremos la lista de algunas de las mujeres que consideramos como las mejores de la historia de la UFC.' image={hero} date={null} author={null} />
+            <ArticleHero title='Las Mejores Peleadoras de UFC de la Historia' subtitle='En este artículo repasaremos la lista de algunas de las mujeres que consideramos como las mejores de la historia de la UFC.' image={hero} date={null} author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Desde sus primeros días como un deporte de nicho hasta convertirse en un fenómeno global, las artes marciales mixtas (MMA) han sido testigo de un ascenso meteórico en popularidad. En este crecimiento, las mujeres han desempeñado un papel crucial, desafiando estereotipos y demostrando una destreza atlética excepcional en la jaula. La <Link href='/articulos/ufc'>UFC</Link> (Ultimate Fighting Championship), la organización líder en MMA, ha sido un escenario vibrante donde las mujeres han brillado con ferocidad y habilidad. Desde la inclusión de la división femenina en 2012, estas atletas han cautivado al público con su valentía, técnica y determinación inquebrantable.</p>

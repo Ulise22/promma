@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function AlexanderEmelianenko () {
     return(
         <main>
-            <ArticleHero title='Alexander Emelianenko: El Hermano de Fedor Emelianenko y su Relación con la Mafia Rusa' subtitle='Los tatuajes de Alexander Emelianenko y el significado que tienen, ¿De verdad formó parte de la mafia rusa?' image={hero} date='27/05/2024' author={null} />
+            <ArticleHero title='Alexander Emelianenko: El Hermano de Fedor Emelianenko y su Relación con la Mafia Rusa' subtitle='Los tatuajes de Alexander Emelianenko y el significado que tienen, ¿De verdad formó parte de la mafia rusa?' image={hero} date='27/05/2024' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Alexander Emelianenko</h2>

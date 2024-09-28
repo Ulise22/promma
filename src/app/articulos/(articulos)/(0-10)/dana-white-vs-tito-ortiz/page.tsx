@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function DanaVsOrtiz () {
     return(
         <main>
-            <ArticleHero title='La Pelea de Boxeo Entre Dana White y Tito Ortiz que Finalmente no Ocurrió' subtitle='La historia de rivalidad entre Tito Ortiz y Dana White, y la pelea de boxeo entre estos 2 que se llegó a pactar pero que nunca se dió.' image={hero} date='2024-09-14' author={null} />
+            <ArticleHero title='La Pelea de Boxeo Entre Dana White y Tito Ortiz que Finalmente no Ocurrió' subtitle='La historia de rivalidad entre Tito Ortiz y Dana White, y la pelea de boxeo entre estos 2 que se llegó a pactar pero que nunca se dió.' image={hero} date='2024-09-14' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Una de las historias más sorprendentes del mundo de las MMA, y en partícular de la <Link href='/articulos/ufc'>UFC</Link>, que va a llamar la atención especialmente a los fans más casuales o más recientes, es la vez en la que <b>Dana White</b>, presidente de la UFC, estuvo a punto de pelear en un ring de boxeo contra uno de sus propios peleadores, <b>Tito Ortiz</b>. </p>

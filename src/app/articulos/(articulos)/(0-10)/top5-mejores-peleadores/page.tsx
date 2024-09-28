@@ -1,14 +1,25 @@
 import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/previews/0-10/ufc-goats.jpg'
-import Link from 'next/link'
+
+export const metadata: Metadata = {
+    title: 'Los Mejores Peleadores de la Historia de UFC',
+    description: '',
+    openGraph: {
+        title: 'Los Mejores Peleadores de la Historia de UFC',
+        description: '',
+        url: 'https://fullmma.org/articulos/top5-mejores-peleadores'
+    }
+}
 
 export default function Top5 () {
     return(
         <main>
-            <ArticleHero title='Los 5 Mejores Peleadores de la Historia de las MMA' subtitle='¿Quiénes son los mejores peleadores en la historia de las MMA? ¿Jon Jones? ¿Khabib? ¿George St-Pierre? ¿Anderson Silva?' image={hero} date={null} author={null} />
+            <ArticleHero title='Los 5 Mejores Peleadores de la Historia de las MMA' subtitle='¿Quiénes son los mejores peleadores en la historia de las MMA? ¿Jon Jones? ¿Khabib? ¿George St-Pierre? ¿Anderson Silva?' image={hero} date={null} author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Los 5 Mejores Peleadores de la UFC de la Historia</h2>

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function OneChampionship () {
     return(
         <main>
-            <ArticleHero title='ONE Championship: La Principal Competencia de UFC' subtitle='La historia y curiosidades de ONE Championship, el principal competidor asiático de la UFC' image={hero} date='04/06/2024' author={null} />
+            <ArticleHero title='ONE Championship: La Principal Competencia de UFC' subtitle='La historia y curiosidades de ONE Championship, el principal competidor asiático de la UFC' image={hero} date='04/06/2024' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>MMA One</h2>

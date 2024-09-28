@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function DaveBautistaMMA () {
     return(
         <main>
-            <ArticleHero title='Cuando el Actor de Hollywood Dave Bautista Hizo su Debut en MMA' subtitle='El día en que se dió la pelea en MMA de Dave Bautista ante Vince Lucero.' image={hero} date='2024-06-28' author={null} />
+            <ArticleHero title='Cuando el Actor de Hollywood Dave Bautista Hizo su Debut en MMA' subtitle='El día en que se dió la pelea en MMA de Dave Bautista ante Vince Lucero.' image={hero} date='2024-06-28' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>El 6 de octubre de 2012, el actor de hollywood y la exluchador de WWE, decidió seguir los pasos del también exluchador de WWE <Link href='/leyendas/brock-lesnar'>Brock Lesnar</Link> al subirse a un octágono para pelear en MMA.</p>

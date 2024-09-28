@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function PeleadorMasSucioUFC () {
     return(
         <main>
-            <ArticleHero title='El Peleador Más Sucio de la Historia Expulsado de la UFC' subtitle='Rousimar Palhares, el luchador más sucio de la historia de las MMA que por su comportamiento dentro del octagono fue expulsado de la UFC.' image={hero} date='2024-06-18' author={null} />
+            <ArticleHero title='El Peleador Más Sucio de la Historia Expulsado de la UFC' subtitle='Rousimar Palhares, el luchador más sucio de la historia de las MMA que por su comportamiento dentro del octagono fue expulsado de la UFC.' image={hero} date='2024-06-18' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>En un deporte de combate, donde está permitido practicamente todo, desde puñetazos, patadas, rodillazos, codazos, estrangulaciones, luxaciones, llaves de todo tipo que dejarían asustados a cualquiera, imagina lo sucio que tenés que ser para ser vetado de un deporte así. Es el caso del luchador brasileño <b>Rousimar Palhares</b>, que luego de ser sancionado 3 veces en la <Link href='/articulos/ufc'>UFC</Link>, terminó por ser expulsado de la compañía por su comportamiento fuera y especialmente dentro del octagono.</p>

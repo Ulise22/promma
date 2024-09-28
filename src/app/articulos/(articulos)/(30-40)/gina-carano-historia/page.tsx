@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function GinaCaranoHistoria () {
     return(
         <main>
-            <ArticleHero title='Gina Carano: La Primera Estrella Femenina de las MMA' subtitle='La historia de una de las mujeres más importantes en la historia de las MMA, que pasó de ser una de las procursoras de las MMA femeninas a una estrella de cine.' image={hero} date='2024-06-20' author={null} />
+            <ArticleHero title='Gina Carano: La Primera Estrella Femenina de las MMA' subtitle='La historia de una de las mujeres más importantes en la historia de las MMA, que pasó de ser una de las procursoras de las MMA femeninas a una estrella de cine.' image={hero} date='2024-06-20' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Gina Carano UFC</h2>

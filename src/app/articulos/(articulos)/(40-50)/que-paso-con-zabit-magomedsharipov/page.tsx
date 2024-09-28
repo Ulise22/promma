@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function ZabitMagomedsharipov () {
     return(
         <main>
-            <ArticleHero title='Zabit Magomedsharipov: ¿Qué Pasó con la Bestia Daguestaní que se Retiró Demasiado Joven?' subtitle='La historia de Zabit Magomedsharipov, ¿Quién es? ¿Por qué se retiró con tan sólo 28 años? y ¿Qué es de su vida actualmente?' image={hero} date='2024-08-31' author={null} />
+            <ArticleHero title='Zabit Magomedsharipov: ¿Qué Pasó con la Bestia Daguestaní que se Retiró Demasiado Joven?' subtitle='La historia de Zabit Magomedsharipov, ¿Quién es? ¿Por qué se retiró con tan sólo 28 años? y ¿Qué es de su vida actualmente?' image={hero} date='2024-08-31' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p><b>Zabit Akhmedovich Magomedsharipov</b> es uno de los mayores casos de &quot;¿hasta dónde hubiera llegado?&quot; de no retirarse tan joven, dado que en el tiempo que estuvo activo nos deslumbró con actuaciones impresionantes en sus peleas, teniendo un estilo muy partícular, vistoso y poco usaul en los peleadores de Daguestán.</p>

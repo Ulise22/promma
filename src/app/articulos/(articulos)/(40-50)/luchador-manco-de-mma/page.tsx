@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function MancoMMA () {
     return(
         <main>
-            <ArticleHero title='Nick Newell: El Luchador con una Mano en MMA' subtitle='La historia de Nick Newell, el manco de las MMA que competía a nivel profesional y que llegó a ser campeón.' image={hero} date='2024-08-29' author={null} />
+            <ArticleHero title='Nick Newell: El Luchador con una Mano en MMA' subtitle='La historia de Nick Newell, el manco de las MMA que competía a nivel profesional y que llegó a ser campeón.' image={hero} date='2024-08-29' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Una de las mejores historias en el mundo de las MMA, es sin dudas la del luchador estadounidense <b>Nick Newell</b>, quien pese a con una amputación genética que lo dejó sin su mano izquierda, pudo competir en las MMA como cualquier otro peleador, llegando a ser campeón en una ocasión, y llegando a competir en promotars de renombre como <b>Bellator</b>.</p>

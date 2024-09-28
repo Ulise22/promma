@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 export default function CarJiuJitsu () {
     return(
         <main>
-            <ArticleHero title='Car Jitsu: ¿Es real el Jiu Jitsu en coche?' subtitle='La curiosa forma de practicar Jiu Jitsu en Rusia que va ganando cada vez más popularidad' image={hero} date='2024-09-17' author={null} />
+            <ArticleHero title='Car Jitsu: ¿Es real el Jiu Jitsu en coche?' subtitle='La curiosa forma de practicar Jiu Jitsu en Rusia que va ganando cada vez más popularidad' image={hero} date='2024-09-17' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Sí, es real el Jiu Jitsu en coche, y como su nombre lo dice, no es otra cosa que el Jiu Jitsu, pero practicado dentro de un automóvil. Esta nueva forma de practicar este arte marcial, se originó en Rusia en el año 2020, y ganó una rápida notoriedad por lo novedoso de la idea. </p>

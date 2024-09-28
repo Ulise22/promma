@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 export default function KhabibVsFerguson () {
     return(
         <main>
-            <ArticleHero title='Khabib Vs Ferguson: ¿Por Qué se Canceló Tantas Veces? La Pelea Maldita que Nunca se Dió' subtitle='La historia detrás del combate que muchos fanaticos quería ver, pero que sin embargo nunca se dió, a pesar de que se llegó a programar hasta 5 veces el encuentro entre ambos.' image={hero} date={null} author={null} />
+            <ArticleHero title='Khabib Vs Ferguson: ¿Por Qué se Canceló Tantas Veces? La Pelea Maldita que Nunca se Dió' subtitle='La historia detrás del combate que muchos fanaticos quería ver, pero que sin embargo nunca se dió, a pesar de que se llegó a programar hasta 5 veces el encuentro entre ambos.' image={hero} date={null} author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>La pelea de <Link href='/leyendas/khabib-nurmagomedov'>Khabib</Link> contra <Link href='/peleadores/tony-ferguson'>Ferguson</Link> es una que los fans quería ver desde hacía mucho tiempo, ambos con rachas ganadoras bastante extensas y con una carrera prolifica, sin embargo, por razones de fuerza mayor nunca pudimos ver a estos históricos peleadores enfrentarse en un ocatagono. El enfrentamiento fue reprogramado hasta 5 veces, sin embargo, pese a los varios intentos por parte de la <Link href='/articulos/ufc'>UFC</Link> de volverlo realidad, nunca lo pudimos ver realizarse.</p>

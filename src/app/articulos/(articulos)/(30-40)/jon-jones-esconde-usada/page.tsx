@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function JonJonesSeEscondeDeUsada () {
     return(
         <main>
-            <ArticleHero title='El Día Que Jon Jones se Escondió en Un Octagono Para No Ser Testeado' subtitle='La curiosa anécdota sobre Jon Jones y cómo pasó el día entero escondido debajo de un octágono con tal de no ser testeado en las pruebas antidopaje.' image={hero} date='2024-07-08' author={null} />
+            <ArticleHero title='El Día Que Jon Jones se Escondió en Un Octagono Para No Ser Testeado' subtitle='La curiosa anécdota sobre Jon Jones y cómo pasó el día entero escondido debajo de un octágono con tal de no ser testeado en las pruebas antidopaje.' image={hero} date='2024-07-08' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Todos conocemos a <Link href='/peleadores/jon-jones'>Jon Jones</Link> por ser probablemente el mejor artista marcial mixto de la historia, sin embargo su vida y su carrera profesional no dejó de estar plagada de polémicas, una de ellas es respecto al uso de sustancias prohibidas que lo ayudan a mejorar el rendimiento, dado que daría positivo por un metabolito de turinabol luego de su segunda victoria ante <Link href='/leyendas/daniel-cormier'>Daniel Cormier</Link>. Sin embargo, su consumo de sustancias data de bastante tiempo antes, y esto nos deja una de las anécdotas más curiosas de la historia de <Link href='/articulos/ufc'>UFC</Link>.</p>

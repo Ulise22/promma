@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function BoxeoVsMMA () {
     return(
         <main>
-            <ArticleHero title='Boxeador vs MMA: Las Peleas Entre Boxeo y MMA' subtitle='Los enfrentamientos entre luchadores de MMA y boxeadores que se han dado en boxeo.' image={hero} date='2024-06-20' author={null} />
+            <ArticleHero title='Boxeador vs MMA: Las Peleas Entre Boxeo y MMA' subtitle='Los enfrentamientos entre luchadores de MMA y boxeadores que se han dado en boxeo.' image={hero} date='2024-06-20' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Los Peleadores de MMA en Boxeo</h2>

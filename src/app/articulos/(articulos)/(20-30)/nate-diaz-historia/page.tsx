@@ -10,7 +10,7 @@ import edwards from '@/assets/articulos/insideArticle/nate-vs-edwards.jpg'
 export default function NateDiaz () {
     return(
         <main>
-            <ArticleHero title='La Historia de Nate Diaz, el Peleador Más Querido de la UFC' subtitle='La historia de uno de los peleadores más querido de la UFC, desde sus dificiles inicios en la infancia, hasta su ascenso como estrella de las MMA.' image={hero} date='01/05/2024' author={null} />
+            <ArticleHero title='La Historia de Nate Diaz, el Peleador Más Querido de la UFC' subtitle='La historia de uno de los peleadores más querido de la UFC, desde sus dificiles inicios en la infancia, hasta su ascenso como estrella de las MMA.' image={hero} date='01/05/2024' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Nate Diaz</h2>

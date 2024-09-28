@@ -1,14 +1,25 @@
 import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
+import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/heros/0-10/glover_texeira_hero.jpg'
-import Link from 'next/link'
+
+export const metadata: Metadata = {
+    title: 'Campeón Más Viejo de la UFC',
+    description: '',
+    openGraph: {
+        title: 'Campeón Más Viejo de la UFC',
+        description: '',
+        url: 'https://fullmma.org/articulos/campeon-viejo-ufc'
+    }
+}
 
 export default function CampeonViejoUFC () {
     return(
         <main>
-            <ArticleHero title='El Campeón Más Viejo de la Historia Moderna de UFC' subtitle='La historia de Glover Teixeira, el peleador brasileño que con 42 años sorprendió al mundo al convertirse en campeón de la división de Peso Semipesado de la UFC.' image={hero} date={null} author={null} />
+            <ArticleHero title='El Campeón Más Viejo de la Historia Moderna de UFC' subtitle='La historia de Glover Teixeira, el peleador brasileño que con 42 años sorprendió al mundo al convertirse en campeón de la división de Peso Semipesado de la UFC.' image={hero} date={null} author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>El 30 de octubre de 2021, 2 días después de su cumpleaños, Glover Teixeira haría historia en el UFC 267, al vencer con una sumisión al polaco <b>Jan Blachowicz</b> en el segundo asalto, arrebatándole el cinturón y consagrándose él como el nuevo campeón de los peso Semipesados de la <Link href='/articulos/ufc'>UFC</Link>. Siendo, junto al histórico <Link href='/leyendas/randy-couture'>Randy Couture</Link>, el único en lograr esto pasando los 40 años.</p>

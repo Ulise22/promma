@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function ZabitMagomedsharipov () {
     return(
         <main>
-            <ArticleHero title='¿Qué Pasó con Nico Montaño? La Primer Campeona de Peso Mosca de UFC que Fue Despojada de su Título' subtitle='La historia de la primer campeona de peso mosca en la UFC, y como esta fue maltratada por la compañía, siendo despojada de su título.' image={hero} date='2024-09-03' author={null} />
+            <ArticleHero title='¿Qué Pasó con Nico Montaño? La Primer Campeona de Peso Mosca de UFC que Fue Despojada de su Título' subtitle='La historia de la primer campeona de peso mosca en la UFC, y como esta fue maltratada por la compañía, siendo despojada de su título.' image={hero} date='2024-09-03' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>La historia de la estadounidense Nicco Montaño es bastante curiosa, dado que supo ser campeona en su primer pelea en UFC, en ese entonces con un récord de 3-2, y fue despojada de su título sólo 10 meses después, sin llegar nunca a defender. Además de que luego de haber perdido su título, sólo tendría 1 pelea más 2 años después, hasta que finalmente fue expulsada de la compañía, pero ¿por qué sucedió todo esto?</p>

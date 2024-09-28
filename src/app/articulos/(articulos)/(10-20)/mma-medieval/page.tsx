@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 export default function MMAMedieval () {
     return(
         <main>
-            <ArticleHero title='¿Qué es el MMA Medieval?' subtitle='Los combates de MMA organizados en un octágono, con armaduras y espadas que emulan las luchas medievales.' image={hero} date='2024-09-18' author={null} />
+            <ArticleHero title='¿Qué es el MMA Medieval?' subtitle='Los combates de MMA organizados en un octágono, con armaduras y espadas que emulan las luchas medievales.' image={hero} date='2024-09-18' author={null} updatedDate={null}/>
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Las MMA medievales son una modalidad de las artes marciales mixtas, que mezclan las reglas clásicas de este deporte, con la estética y con las armaduras medievales que pueden llegar a pesar varias decenas de kilos. Además está presente la utilización de espadas, mazas y hachas que hacen sentir a quienes participan de estos eventos como si estuvieran en la edad media. </p>

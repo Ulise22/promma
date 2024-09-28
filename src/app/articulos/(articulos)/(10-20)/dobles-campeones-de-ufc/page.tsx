@@ -1,14 +1,25 @@
 import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/previews/10-20/dobles-campeones.jpg'
 
+export const metadata: Metadata = {
+    title: 'Dobles Campeones de UFC',
+    description: '',
+    openGraph: {
+        title: 'Dobles Campeones de UFC',
+        description: '',
+        url: 'https://fullmma.org/articulos/dobles-campeones-de-ufc'
+    }
+}
+
 export default function PoirierVsMakhachev () {
     return(
         <main>
-            <ArticleHero title='Todos los Dobles Campeones de UFC' subtitle='¿Quiénes componen el selecto grupo de los campeones de 2 categorías de peso diferentes en la ufc? ¿Quién fue el primero en conseguirlo? ¿Cuántos peleadores fueron campeones de 2 divisiones simultaneamente?' image={hero} date='01/04/2024' author={null} />
+            <ArticleHero title='Todos los Dobles Campeones de UFC' subtitle='¿Quiénes componen el selecto grupo de los campeones de 2 categorías de peso diferentes en la ufc? ¿Quién fue el primero en conseguirlo? ¿Cuántos peleadores fueron campeones de 2 divisiones simultaneamente?' image={hero} date='01/04/2024' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Desde su creación en 1993, la <Link href='/articulos/ufc'>Ultimate Fighting Championship</Link> (UFC) ha sido el epicentro del deporte de las artes marciales mixtas (MMA), atrayendo a los mejores luchadores del mundo para competir en su jaula. Entre las múltiples hazañas y logros impresionantes que han marcado la historia de la UFC, una distinción que sobresale es la de aquellos luchadores que han dominado no solo una, sino dos divisiones de peso diferentes.</p>

@@ -1,15 +1,26 @@
 import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/heros/0-10/masvidal-vs-askren_hero.jpeg'
 import Image from 'next/image'
 
+export const metadata: Metadata = {
+    title: 'Ko Más Rápido de la UFC',
+    description: '',
+    openGraph: {
+        title: 'Ko Más Rápido de la UFC',
+        description: '',
+        url: 'https://fullmma.org/articulos/ko-mas-rapido-ufc'
+    }
+}
+
 export default function KOMasRapido () {
     return(
         <main>
-            <ArticleHero title='El KO Más Rápido en la Historia de la UFC' subtitle='Cuál es la historia y el trasfondo detrás de la pelea entre Jorge Masvidal y Ben Askren, que terminó en el KO más rápido en la historia de la UFC.' image={hero} date={null} author={null} />
+            <ArticleHero title='El KO Más Rápido en la Historia de la UFC' subtitle='Cuál es la historia y el trasfondo detrás de la pelea entre Jorge Masvidal y Ben Askren, que terminó en el KO más rápido en la historia de la UFC.' image={hero} date={null} author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>El 6 de julio de 2019 en la ciudad estadounidense de Paradise, ubicada en el Estado de Nevada, fuimos testigos de lo que hasta a día de hoy, continúa siendo el KO más rápido en la historia de la UFC, cuando en el combate entre Ben Askren y Jorge Masvidal, vimos como este último le dió un rodillazo en la cabeza que puso a dormir a su rival, a tan sólo 5 segundos de comenzada la pelea. </p>

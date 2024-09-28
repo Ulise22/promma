@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function SharaMagomedovOjo () {
     return(
         <main>
-            <ArticleHero title='¿Qué le Pasó en el Ojo a Shara Magomedov?' subtitle='Una de las mayores promesas de la UFC y cómo es capaz de pelear a pesar de haber perdido la visión en uno de sus ojos.' image={hero} date='2024-06-22' author={null} />
+            <ArticleHero title='¿Qué le Pasó en el Ojo a Shara Magomedov?' subtitle='Una de las mayores promesas de la UFC y cómo es capaz de pelear a pesar de haber perdido la visión en uno de sus ojos.' image={hero} date='2024-06-22' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Shara Magomedov</h2>

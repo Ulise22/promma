@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function MejorPeleaMMA () {
     return(
         <main>
-            <ArticleHero title='Don Frye vs Takayama: La Mejor Pelea de MMA en la Historia' subtitle='La pelea más loca de todos los tiempos entre Don Frye y Yoshihiro Takayama que hizo historia en las MMA, y qué fue de la vida de los peleadores.' image={hero} date='2024-08-28' author={null} />
+            <ArticleHero title='Don Frye vs Takayama: La Mejor Pelea de MMA en la Historia' subtitle='La pelea más loca de todos los tiempos entre Don Frye y Yoshihiro Takayama que hizo historia en las MMA, y qué fue de la vida de los peleadores.' image={hero} date='2024-08-28' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>El 23 de junio de 2002 en Saitama, Japón, se dió lugar a un suceso histórico, a una absoluta guerra entre 2 luchadores que dieron un espectáculo que ni en las mejores películas de acción se ven. Y es que la pelea entre el estadounidense <b>Don Frye</b> y <b>Yoshihiro Takayama</b> es probablemente la mejor de la historia, y su influencia y legado en el mundo de las MMA es innegable.</p>

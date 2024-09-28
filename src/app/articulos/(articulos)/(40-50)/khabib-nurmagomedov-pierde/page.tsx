@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function KhabibPierde () {
     return(
         <main>
-            <ArticleHero title='La Única Derrota de Khabib Nurmagomedov' subtitle='La historia y el vídeo de un joven Khabib de 17 años llorando después de perder una pelea de sambo en un campeonato ruso.' image={hero} date='2024-08-19' author={null} />
+            <ArticleHero title='La Única Derrota de Khabib Nurmagomedov' subtitle='La historia y el vídeo de un joven Khabib de 17 años llorando después de perder una pelea de sambo en un campeonato ruso.' image={hero} date='2024-08-19' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>El excampeón de peso ligero en la <Link href='/articulos/ufc'>UFC</Link> y leyenda de las MMA <Link href='/leyendas/khabib-nurmagomedov'>Khabib Nurmagomedov</Link> destacó a lo largo de su carrera por su dominante estilo de lucha, que le garantizó victoria tras victoria, permitiéndole retirarse con un récord invicto de 29-0. </p>

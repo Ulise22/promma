@@ -2,14 +2,26 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/heros/20-30/jim-miller-hero.jpg'
 
+export const metadata: Metadata = {
+    title: 'Jim Miller Historia',
+    description: '',
+    openGraph: {
+        title: 'Jim Miller Historia',
+        description: '',
+        url: 'https://fullmma.org/articulos/jim-miller-historia'
+    }
+}
+
+
 export default function JimMiller () {
     return(
         <main>
-            <ArticleHero title='Jim Miller, el Peleador con Más Victorias en la Historia de la UFC y que Participó del UFC100, UFC200 y UCF300' subtitle='La historia de uno de los peleadores más importantes en la historia de la compañía más grande de MMA, que cuenta con más de 40 peleas en UFC.' image={hero} date='02/05/2024' author={null} />
+            <ArticleHero title='Jim Miller, el Peleador con Más Victorias en la Historia de la UFC y que Participó del UFC100, UFC200 y UCF300' subtitle='La historia de uno de los peleadores más importantes en la historia de la compañía más grande de MMA, que cuenta con más de 40 peleas en UFC.' image={hero} date='02/05/2024' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Jim Miller</h2>

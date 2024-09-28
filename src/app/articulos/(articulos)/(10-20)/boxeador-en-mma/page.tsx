@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 export default function BoxeadorEnMMA () {
     return(
         <main>
-            <ArticleHero title='Boxeo Vs MMA: ¿Qué pasa cuando un boxeador pelea en MMA? Cuando las MMA Aplastaron al Boxeo' subtitle='El día que un excampeón de boxeo se metió a competir en la UFC, y cómo terminó su enfrentamiento en el octagono.' image={hero} date='2024-06-14' author={null} />
+            <ArticleHero title='Boxeo Vs MMA: ¿Qué pasa cuando un boxeador pelea en MMA? Cuando las MMA Aplastaron al Boxeo' subtitle='El día que un excampeón de boxeo se metió a competir en la UFC, y cómo terminó su enfrentamiento en el octagono.' image={hero} date='2024-06-14' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Pareciera ser que cada cierto tiempo reflota la discusión y el debate sobre qué es lo que sucedería si un boxeador profesional y un luchador de MMA se enfrentaran en un combate. Por ejemplo, hace no mucho, el boxeador de peso pesado <b>Tyson Fury</b>, había declarado que en un combate sería capaz de derrotar a <Link href='/peleadores/jon-jones'>Jon Jones</Link>, desafiandoló a pelear incluso.</p>

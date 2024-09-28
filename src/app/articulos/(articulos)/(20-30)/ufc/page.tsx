@@ -2,14 +2,25 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/heros/20-30/ufc-hero.jpg'
 
+export const metadata: Metadata = {
+    title: 'UFC',
+    description: '',
+    openGraph: {
+        title: 'UFC',
+        description: '',
+        url: 'https://fullmma.org/articulos/ufc'
+    }
+}
+
 export default function UFC () {
     return(
         <main>
-            <ArticleHero title='UFC: Historia e Información de la Compañía de MMA Más Grande del Mundo' subtitle='Todo lo relacionado al origen, crecimiento y actualidad de la compañía UFC.' image={hero} date='05/06/2024' author={null} />
+            <ArticleHero title='UFC: Historia e Información de la Compañía de MMA Más Grande del Mundo' subtitle='Todo lo relacionado al origen, crecimiento y actualidad de la compañía UFC.' image={hero} date='05/06/2024' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Cuando hablamos de las artes marciales mixtas, es imposible no mencionar a las diferentes promotoras de este deporte, y cuando hablamos de dichas promotoras, la que destaca por encima de las demás, sin dudas, es la UFC, que con el paso de los años ha sabido convertirse en el gigante del deporte siendo quien concentra a las mayores estrellas y a los mejores peleadores del mundo. Por eso en este artículo vamos a hablar de su historia, las cosas por las que tuvo que pasar para llegar a ser la N°1 y mucho más.</p>

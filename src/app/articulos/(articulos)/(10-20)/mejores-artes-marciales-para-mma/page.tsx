@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 export default function BestMAForMMA () {
     return(
         <main>
-            <ArticleHero title='Las Mejores Artes Marciales Para MMA Según un Peleador Profesional' subtitle='Repasamos cuáles son las mejores artes marciales para una pelea de MMA, según el luchador profesional Jeff Chan.' image={hero} date='2024-09-23' author={null} />
+            <ArticleHero title='Las Mejores Artes Marciales Para MMA Según un Peleador Profesional' subtitle='Repasamos cuáles son las mejores artes marciales para una pelea de MMA, según el luchador profesional Jeff Chan.' image={hero} date='2024-09-23' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>En el canal de Youtube <b>Martial Arts Journey With Rokas</b> estuvo presente el luchador profesional de MMA, <b>Jeff Chan</b>, quien tuvo su más reciente pelea y victoria en la promotora <Link href='/articulos/one-championship'>ONE Championship</Link>. Allí, realizó una tierlist, donde colocó por orden, las que él consideraba como las mejores artes marciales para hacer MMA. Por eso hoy, vamos a hablar de las que colocó más arriba en este ranking.</p>

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function PeleadorMasSucioUFC () {
     return(
         <main>
-            <ArticleHero title='Los Mejores Peleadores de la Historia de Cada Division de UFC' subtitle='La lista del mejor peleador histórico de cada división de la UFC' image={hero} date='2024-06-27' author={null} />
+            <ArticleHero title='Los Mejores Peleadores de la Historia de Cada Division de UFC' subtitle='La lista del mejor peleador histórico de cada división de la UFC' image={hero} date='2024-06-27' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>A lo largo de los más de 30 años que tiene de existencia la <Link href='/articulos/ufc'>UFC</Link>, han pasado una incontable cantidad de peleadores por cada una de las divisiones de la compañía, algunos tan buenos que dejaron una huella tan grande que diificilmente sea opacada por otro peleador. Por eso hoy decidimos hacer un listado con los mejores peleadores de la historia de la UFC en cada una de las 8 divisiones existentes. Teniendo en cuenta que sólo mencionaremos peleadores que hayan sido campeones en sus divisiones y hayan conseguido defender su título de forma exitosa.</p>

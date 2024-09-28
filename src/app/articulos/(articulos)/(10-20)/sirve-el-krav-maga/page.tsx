@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 export default function KravMagaUtility () {
     return(
         <main>
-            <ArticleHero title='¿Qué Tan Útil es el Krav Maga en un Combate Real?' subtitle='La razón por la que muchos peleadores profesionales consideran que el Krav Maga y otro tipo de estilos de defensa personal NO sirven para una pelea callejera y para las MMA.' image={hero} date='30/04/2024' author={null} />
+            <ArticleHero title='¿Qué Tan Útil es el Krav Maga en un Combate Real?' subtitle='La razón por la que muchos peleadores profesionales consideran que el Krav Maga y otro tipo de estilos de defensa personal NO sirven para una pelea callejera y para las MMA.' image={hero} date='30/04/2024' author={null} updatedDate={null}/>
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Con el paso del tiempo pude ver como muchos peleadores de artes marciales profesionales han expresado que el Krav Maga, y otros estilos de defensa personal, a la hora de la verdad no son muy útiles en situaciones reales, o que contra un peleador experimentado de MMA, incluso uno amateur, no tienen opciones reales de ganar en caso de enfrentarse.</p>

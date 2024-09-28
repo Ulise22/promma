@@ -9,7 +9,7 @@ import hero from '@/assets/articulos/heros/20-30/dogfight-hero.jpg'
 export default function DogfightWildTorunament () {
     return(
         <main>
-            <ArticleHero title='King Of The Streets' subtitle='El evento de pelea más loco que se puede ver gratis en youtube y que es organizado en España por Jordi Wild.' image={hero} date='05/06/2024' author={null} />
+            <ArticleHero title='King Of The Streets' subtitle='El evento de pelea más loco que se puede ver gratis en youtube y que es organizado en España por Jordi Wild.' image={hero} date='05/06/2024' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Dogfight</h2>

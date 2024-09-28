@@ -2,14 +2,25 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/previews/20-30/mejores_peleas_ufc-preview.jpg'
 
+export const metadata: Metadata = {
+    title: 'Mejores Peleas de UFC',
+    description: '',
+    openGraph: {
+        title: 'Mejores Peleas de UFC',
+        description: '',
+        url: 'https://fullmma.org/articulos/mejores-peleas-ufc'
+    }
+}
+
 export default function MejoresPeleasUFC () {
     return(
         <main>
-            <ArticleHero title='Las Mejores Peleas de UFC de la Historia' subtitle='El listado de las mejores peleas de la historia, basado en los World MMA Awards que premian a la mejor pelea del año desde 2008.' image={hero} date='2024-06-17' author={null} />
+            <ArticleHero title='Las Mejores Peleas de UFC de la Historia' subtitle='El listado de las mejores peleas de la historia, basado en los World MMA Awards que premian a la mejor pelea del año desde 2008.' image={hero} date='2024-06-17' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Las mejores peleas de la historia de la ufc</h2>

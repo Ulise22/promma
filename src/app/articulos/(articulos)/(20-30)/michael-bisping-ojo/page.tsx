@@ -1,15 +1,26 @@
 import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/heros/20-30/michael_bisping_ojo-hero.jpg'
 
+export const metadata: Metadata = {
+    title: 'Michael Bisping Ojo',
+    description: '',
+    openGraph: {
+        title: 'Michael Bisping Ojo',
+        description: '',
+        url: 'https://fullmma.org/articulos/michael-bisping-ojo'
+    }
+}
+
 export default function MichaelBispingOjo () {
     return(
         <main>
-            <ArticleHero title='Michael Bisping: El Luchador Inglés de UFC Que Perdió un Ojo Peleando' subtitle='La historia de cómo el peleador de Reino Unido perdió su ojo durante una pelea de UFC, y cómo a pesar de eso logró ser campeón' image={hero} date='2024-06-13' author={null} />
+            <ArticleHero title='Michael Bisping: El Luchador Inglés de UFC Que Perdió un Ojo Peleando' subtitle='La historia de cómo el peleador de Reino Unido perdió su ojo durante una pelea de UFC, y cómo a pesar de eso logró ser campeón' image={hero} date='2024-06-13' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Michael Bisping</h2>
