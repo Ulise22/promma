@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function KhalilRountree () {
     return(
         <main>
-            <ArticleHero title='¿Quién es Khalil Rountree? El Próximo Rival de Alex Pereira en el UFC 307' subtitle='La historia de Khalil Rountree Jr. y de cómo paso de de pesar 300lbs a ser el peleador de UFC que va a pelear por el título de los semipesados.' image={hero} date='2024-09-16' author={null} />
+            <ArticleHero title='¿Quién es Khalil Rountree? El Próximo Rival de Alex Pereira en el UFC 307' subtitle='La historia de Khalil Rountree Jr. y de cómo paso de de pesar 300lbs a ser el peleador de UFC que va a pelear por el título de los semipesados.' image={hero} date='2024-09-16' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Khalil Rountree es un peleador estadounidense de <Link href='/articulos/ufc'>UFC</Link> que está por enfrentar el desafío más grande de su carrera el próximo 5 de octubre, cuando en el <b>UFC 307</b> se vea cara a cara con el campeón de peso semipesado <Link href='/peleadores/alex-pereira'>Alex Pereira</Link>. Su historia de vida es un gran ejemplo de vida y de superación, que merece ser contada y por eso hoy la vamos a repasar.</p>

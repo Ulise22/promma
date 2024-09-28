@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function JonesEsquivaAspinall () {
     return(
         <main>
-            <ArticleHero title='¿Jon Jones Está Evitando a Tom Aspinall?' subtitle='El actual campeón de peso pesado de UFC Jon Jones, ha rechazado pelear con el campeón interino Tom Aspinall a la espera de combatir en su lugar a Stipe Miocic.' image={hero} date='2024-07-16' author={null} />
+            <ArticleHero title='¿Jon Jones Está Evitando a Tom Aspinall?' subtitle='El actual campeón de peso pesado de UFC Jon Jones, ha rechazado pelear con el campeón interino Tom Aspinall a la espera de combatir en su lugar a Stipe Miocic.' image={hero} date='2024-07-16' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Jon Jones vs Tom Aspinall</h2>

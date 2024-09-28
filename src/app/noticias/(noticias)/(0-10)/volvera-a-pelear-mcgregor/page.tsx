@@ -8,7 +8,7 @@ import hero from '@/assets/noticias/previews/0-10/conor-mcgregor_volverapelear.j
 export default function ConorMcgregorVueltaAPelear () {
     return(
         <main>
-            <ArticleHero title='¿Cuándo Vuelve a Pelear Conor McGregor?' subtitle='Recientemente Conor ha declarado sus intenciones de volver a pelear en la UFC este año, pero ¿hay posibilidades de que vuelva a competir?' image={hero} date='2024-03-26' author={null} />
+            <ArticleHero title='¿Cuándo Vuelve a Pelear Conor McGregor?' subtitle='Recientemente Conor ha declarado sus intenciones de volver a pelear en la UFC este año, pero ¿hay posibilidades de que vuelva a competir?' image={hero} date='2024-03-26' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>El pasado 21 de marzo, se estrenó en Amazon Prime, la película <b>Road House</b>, protagonizada por Jake Gyllenhaal, y que cuenta con el debut en el cine de la estrella de MMA <Link href='/peleadores/conor-mcgregor'>Conor McGregor</Link>, en el que interpreta al villano de la cinta, contando con una participación importante en la misma.Pero entre esto, su empresa de whisky, y otras actividades que parecen alejarlo del mundo de la pelea, nos preguntamos si volveremos a verlo entrar en el octagono.</p>

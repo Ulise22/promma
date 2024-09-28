@@ -17,7 +17,7 @@ import threeVSone from '@/assets/noticias/insideArticle/dwf2/3-v-1.jpeg'
 export default function DWT2 () {
     return(
         <main>
-            <ArticleHero title='Lo Mejor de Dogfight Wild Tournament 2' subtitle='Lo mejor que ha ocurrido en el evento de pelea organizado por Jordi Wild y que se puede ver gratis en youtube.' image={hero} date={null} author={null} />
+            <ArticleHero title='Lo Mejor de Dogfight Wild Tournament 2' subtitle='Lo mejor que ha ocurrido en el evento de pelea organizado por Jordi Wild y que se puede ver gratis en youtube.' image={hero} date={null} author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>El 9 de feberero de 2024, volvió el evento organizado por Youtuber dueño del podcast más escuchado en lengua hispana, Jordi Wild, que en esta segunda edición del evento de pelea DWT no decepciona y nos trae apasionantes duelos y combates. </p>

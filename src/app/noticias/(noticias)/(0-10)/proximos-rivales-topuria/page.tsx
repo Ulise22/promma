@@ -9,7 +9,7 @@ import Image from 'next/image'
 export default function ProximosRivalesTopuria () {
     return(
         <main>
-            <ArticleHero title='¿Cuál Será el Próximo Rival de Ilia Topuria Ahora que es Campeón?' subtitle='Luego de que Ilia hiciera historia al vencer por KO a Volkanovski, proclamándose campeón de la UFC, muchos tenemos ganas de volverlo a ver en el octagono, y estos son los posibles rivales que podrían enfrentarlo.' image={hero} date='23/02/2024' author={null} />
+            <ArticleHero title='¿Cuál Será el Próximo Rival de Ilia Topuria Ahora que es Campeón?' subtitle='Luego de que Ilia hiciera historia al vencer por KO a Volkanovski, proclamándose campeón de la UFC, muchos tenemos ganas de volverlo a ver en el octagono, y estos son los posibles rivales que podrían enfrentarlo.' image={hero} date='23/02/2024' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Luego de que el pasado 17 de febrero, Ilia Topuria hiciera historia y sorprendiera al mundo al noquear a un campeón histórico de la división de Peso Pluma, como <Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link>, que hace no mucho tiempo era el número 1 libra por libra, somos cada vez más los aficionados que queremos ver pelear al georgiano español volver a pelear en el octagono. Por eso hoy repasaremos los posibles rivales a los que podría y nos gustaría ver enfrentar a Ilia Topuria.</p>

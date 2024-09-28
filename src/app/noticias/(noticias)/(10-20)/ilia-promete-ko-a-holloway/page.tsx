@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function IliaPrometeKOHolloway () {
     return(
         <main>
-            <ArticleHero title='Ilia Promete KO en el Primer Asalto Contra Holloway' subtitle='Ilia Topuria habló de su pelea con Max Holloway, en la cual promote noquear en el primer asalto, además habló de la llegada de su hermano a la UFC, confirmó que el BMF no está en juego, futuras peleas, Islam Makhachev, Volkanovski, Sean O&apos;Malley, Diego Lopes, etc.' image={hero} date='2024-08-22' author={null} />
+            <ArticleHero title='Ilia Promete KO en el Primer Asalto Contra Holloway' subtitle='Ilia Topuria habló de su pelea con Max Holloway, en la cual promote noquear en el primer asalto, además habló de la llegada de su hermano a la UFC, confirmó que el BMF no está en juego, futuras peleas, Islam Makhachev, Volkanovski, Sean O&apos;Malley, Diego Lopes, etc.' image={hero} date='2024-08-22' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Recientemente el actual campeón de peso pluma de la <Link href='/articulos/ufc'>UFC</Link>, <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> dió su primer entrevista en inglés al canal de Youtube <b>MMA Junkie</b> desde que se anunció su pelea ante el estadounidense <Link href='/peleadores/max-holloway'>Max Holloway</Link> en Abu Dhabi, con fecha para el 26 de octubre en el <b>UFC 308</b>. En esta primer entrevista habló de todo y dejó algunos titulares interesantes.</p>

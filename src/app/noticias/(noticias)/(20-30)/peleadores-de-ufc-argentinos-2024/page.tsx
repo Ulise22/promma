@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function PeleadoresArgentinosUFC () {
     return(
         <main>
-            <ArticleHero title='Los 5 Peleadores de UFC Argentinos Que Compiten en 2024' subtitle="Con la llegada de Kevin Vallejos a la UFC, ya son 5 los argentinos que compiten en la UFC. Quiénes son y cómo les va." image={hero} date='2024-09-26' author={null} />
+            <ArticleHero title='Los 5 Peleadores de UFC Argentinos Que Compiten en 2024' subtitle="Con la llegada de Kevin Vallejos a la UFC, ya son 5 los argentinos que compiten en la UFC. Quiénes son y cómo les va." image={hero} date='2024-09-26' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Recientemente, &apos;El Chino&apos; Vallejos logró impresionar con un KO espectácular a Dana White, en el programa de televisión <b>Dana White&apos;s Contender Series</b>, lo que valió como recompensa un contrato con la UFC, la compañía de MMA más grande del planeta. </p>

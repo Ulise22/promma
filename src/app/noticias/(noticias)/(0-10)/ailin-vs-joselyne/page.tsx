@@ -9,7 +9,7 @@ import hero from '@/assets/peleadores__images/argentinos/ailin-perez/ailin-perez
 export default function AilinVsJoselyne () {
     return(
         <main>
-            <ArticleHero title='La Argentina Ailín Pérez Gana su Pelea por Decisión Unánime en UFC 302' subtitle='En un combate contra la panameña Joselyne Edwards, Ailín demostró ser la clara ganadora de un combate en el que incluso estuvo cerca de noquear a su rival.' image={hero} date='2024-06-01' author={null} />
+            <ArticleHero title='La Argentina Ailín Pérez Gana su Pelea por Decisión Unánime en UFC 302' subtitle='En un combate contra la panameña Joselyne Edwards, Ailín demostró ser la clara ganadora de un combate en el que incluso estuvo cerca de noquear a su rival.' image={hero} date='2024-06-01' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>En un combate que tuvo una clara ganadora, la argentina Ailín Pérez terminó llevandose la pelea por decisión unánime contra la panamela <b>Joselyne Edwards</b> en el <Link href='/covertura-ufc/ufc302'>UFC 302</Link>, luego de concretar 6 derribos de 11 intentados, contra los 0 intentados por su rival. Además de superar en golpes significativos a la panameño con 42 a 27, uno de ellos llegando incluso a tirar al piso a Joselyne Edwards que recibió por sopresa la mano de Ailín.</p>

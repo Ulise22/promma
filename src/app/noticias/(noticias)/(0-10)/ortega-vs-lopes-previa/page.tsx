@@ -9,7 +9,7 @@ import hero from '@/assets/noticias/heros/0-10/ortega-vs-lopes-hero.jpg'
 export default function OrtegaVsLopesPrevia () {
     return(
         <main>
-            <ArticleHero title='Diego Lopes vs Brian Ortega: Una Pelea Que Puede Revolucionar la División' subtitle='El próximo sábado 29 de junio se enfrentarán en la pelea coestelar el brasileño Diego Lopes y el estadounidense Brian Ortega en el UFC 303 es una que puede llegar a verse incluso como una eliminatoria por el título.' image={hero} date='2024-06-24' author={null} />
+            <ArticleHero title='Diego Lopes vs Brian Ortega: Una Pelea Que Puede Revolucionar la División' subtitle='El próximo sábado 29 de junio se enfrentarán en la pelea coestelar el brasileño Diego Lopes y el estadounidense Brian Ortega en el UFC 303 es una que puede llegar a verse incluso como una eliminatoria por el título.' image={hero} date='2024-06-24' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>El sábado 29 de junio en el <Link href='/covertura-ufc/ufc303'>UFC 303</Link>, luego de que se cayera la pelea de <b>Jamahal Hill</b>, en reemplazo para protagonizar la pelea coestelar se agregó el combate entre el brasileño nacionalizado mexicano <Link href='/peleadores/diego-lopes'>Diego Lopes</Link> y el estadounidense <b>Brian Ortega</b>, pelea que podría revolucionar por completo la división de peso pluma.</p>

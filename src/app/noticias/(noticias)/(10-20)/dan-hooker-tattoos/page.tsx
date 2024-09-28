@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function DanHookerTattoos () {
     return(
         <main>
-            <ArticleHero title='Los tatuajes de Dan Hooker y su significado' subtitle='Cómo la estrella de la UFC Dan Hooker pasó de no tener ningún tatuaje a llenarse el cuerpo de tinta y el significado detrás de sus tatuajes.' image={hero} date='2024-08-17' author={null} />
+            <ArticleHero title='Los tatuajes de Dan Hooker y su significado' subtitle='Cómo la estrella de la UFC Dan Hooker pasó de no tener ningún tatuaje a llenarse el cuerpo de tinta y el significado detrás de sus tatuajes.' image={hero} date='2024-08-17' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Quien es una de las estrellas de la <Link href='/articulos/ufc'>UFC</Link>, con su increíble estilo de striking, ocupando al día de la fecha el puesto #11 en los rankings de peso ligero, <b>Dan Hooker</b>, en el último tiempo ha sorprendido a varios con el cambio físico que ha presentado, pasando de no tener ningún tatuaje en el cuerpo, a poco a poco estar llenándose de estos en menos de 2 años. </p>

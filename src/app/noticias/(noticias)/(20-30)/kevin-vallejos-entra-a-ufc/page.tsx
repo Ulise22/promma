@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function KevinVallejosUFC () {
     return(
         <main>
-            <ArticleHero title='Kevin Vallejos Gana Por Nocaut En El Primer Asalto y se Asegura el Contrato en la UFC' subtitle="EL Chino Vallejos Gana por Nocaut en el Dana White's Contender Series y se asegura un contrato en la UFC." image={hero} date='2024-09-24' author={null} />
+            <ArticleHero title='Kevin Vallejos Gana Por Nocaut En El Primer Asalto y se Asegura el Contrato en la UFC' subtitle="EL Chino Vallejos Gana por Nocaut en el Dana White's Contender Series y se asegura un contrato en la UFC." image={hero} date='2024-09-24' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>El argentino <b>Kevin &quot;El Chino&quot; Vallejos</b> se luce con un impresionante nocaut en el primer asalto de su pelea, en el <b>Dana White&apos;s Contender Series</b>, que practicamente lo deja dentro de la <Link href='/articulos/ufc'>UFC</Link>.</p>

@@ -8,7 +8,7 @@ import hero from '@/assets/noticias/previews/0-10/poirier-vs-makhachev.jpg'
 export default function PoirierVsMakhachev () {
     return(
         <main>
-            <ArticleHero title='¿Dustin Poirier vs Islam Makhachev por el Título de Peso Ligero?' subtitle='Luego las declaraciones cruzadas entre ambos peleadores y de la reciente victoria de Poirier contra Saint Denis, ¿se dará una pelea entre estos 2 por el título?' image={hero} date='2024-03-27' author={null} />
+            <ArticleHero title='¿Dustin Poirier vs Islam Makhachev por el Título de Peso Ligero?' subtitle='Luego las declaraciones cruzadas entre ambos peleadores y de la reciente victoria de Poirier contra Saint Denis, ¿se dará una pelea entre estos 2 por el título?' image={hero} date='2024-03-27' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Luego de que en el <Link href='/covertura-ufc/ufc299'>UFC 299</Link>, Dustin Poirier demotrara por qué es un uno de los más fuertes de su división al ganarle por nocaut al joven francés <b>Saint Denis</b> en el segundo asalto, se abre una puerta para el ahora mismo #3 de la división. </p>

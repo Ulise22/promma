@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function PorqueBelalEsOdiado () {
     return(
         <main>
-            <ArticleHero title='¿Por qué Belal es Tan Odiado?' subtitle='El peleador palestino ha demostrado ser uno de los mejores peso wélter de la UFC, entonces ¿por qué genera tanta antipatía entre los fans?' image={hero} date='2024-07-06' author={null} />
+            <ArticleHero title='¿Por qué Belal es Tan Odiado?' subtitle='El peleador palestino ha demostrado ser uno de los mejores peso wélter de la UFC, entonces ¿por qué genera tanta antipatía entre los fans?' image={hero} date='2024-07-06' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Belal Muhammad lleva una racha de 9 victorias consecutivas en la <Link href='/articulos/ufc'>UFC</Link> desde que le ganó a <b>Curtis Millender</b> en abril de 2019, siendo las últimas 5 victorias ante rivales ranqueados en el top10 de la división de peso wélter, sin embargo no es hasta julio de 2024 que consigue una pelea por el título ante <Link href='/peleadores/leon-edwards'>Leon Edwards</Link>, con peleadores como <Link href='/peleadores/colby-covington'>Colby Covington</Link> que con un récord más irregular pasándole por delante en la lista de contendientes del título, gran parte de esto se explica por el poco amor que le tienen los fans a este peleador, pero ¿a qué se debe esto?</p>

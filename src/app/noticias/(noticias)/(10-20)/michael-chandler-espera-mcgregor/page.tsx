@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function ChandlerEsperaMcgregor () {
     return(
         <main>
-            <ArticleHero title='¿Tiene Sentido Para Michael Chandler Esperar a McGregor?' subtitle='Michael Chandler lleva sin pelear desde noviembre de 2022, a la espera de una pelea con Conor McGregor, pero ¿Por qué lo espera tanto?' image={hero} date='2024-06-25' author={null} />
+            <ArticleHero title='¿Tiene Sentido Para Michael Chandler Esperar a McGregor?' subtitle='Michael Chandler lleva sin pelear desde noviembre de 2022, a la espera de una pelea con Conor McGregor, pero ¿Por qué lo espera tanto?' image={hero} date='2024-06-25' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p><Link href='/peleadores/michael-chandler'>Michael Chandler</Link> sin dudas es uno de los peleadores más entretenidos de ver en la <Link href='/articulos/ufc'>UFC</Link>, sin embargo hace casi 2 años que no compite, desde su derrota por sumisión ante <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link>, a la espera de tener una pelea con <Link href='/peleadores/conor-mcgregor'>Conor Mcgregor</Link>, que hasta el momento no ha vuelto a pisar un octagono. Lo que nos hace preguntarnos, ¿por qué lo espera tanto? y, ¿vale la pena la espera?</p>

@@ -10,7 +10,7 @@ import internado from '@/assets/noticias/insideArticle/chimaev/chimaev-internado
 export default function ChimaevWhittakerCancelada () {
     return(
         <main>
-            <ArticleHero title='Whittaker vs Chimaev ¿Cancelada?' subtitle='A 9 días para el enfrentamiento en Arabia Sáudita entre 2 de los mayores contendientes al título de Peso Medio de UFC, pareciera que se cae la pelea.' image={hero} date='2024-06-13' author={null} />
+            <ArticleHero title='Whittaker vs Chimaev ¿Cancelada?' subtitle='A 9 días para el enfrentamiento en Arabia Sáudita entre 2 de los mayores contendientes al título de Peso Medio de UFC, pareciera que se cae la pelea.' image={hero} date='2024-06-13' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Robert Whittaker vs Khamzat Chimaev</h2>

@@ -9,7 +9,7 @@ import hero from '@/assets/noticias/previews/0-10/conor-mcgregor_volverapelear.j
 export default function McGregorCancelaPelea () {
     return(
         <main>
-            <ArticleHero title='Conor McGregor vs Chandler: ¿McGregor Cancela la Pelea?' subtitle='A poco tiempo de que se celebre el UFC 303, McGregor canceló la rueda de prensa que estaba prevista para promocionar el evento, muchas cosas extrañas han sucedido desde entonces que desperteron todo tipo de rumores, ¿pero qué está pasando realmente?' image={hero} date='2024-06-07' author={null} />
+            <ArticleHero title='Conor McGregor vs Chandler: ¿McGregor Cancela la Pelea?' subtitle='A poco tiempo de que se celebre el UFC 303, McGregor canceló la rueda de prensa que estaba prevista para promocionar el evento, muchas cosas extrañas han sucedido desde entonces que desperteron todo tipo de rumores, ¿pero qué está pasando realmente?' image={hero} date='2024-06-07' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Connor McGregor vs Chandler</h2>

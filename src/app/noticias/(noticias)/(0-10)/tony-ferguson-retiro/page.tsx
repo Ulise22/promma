@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function FergusonRetiro () {
     return(
         <main>
-            <ArticleHero title='¿Tony Ferguson Se Retira Luego de su Pelea con Michael Chiesa?' subtitle='El Cucuy se enfrentará al estadounidense Michael Chiesa en agosto, pero ¿será esta su última pelea?' image={hero} date='2024-07-27' author={null} />
+            <ArticleHero title='¿Tony Ferguson Se Retira Luego de su Pelea con Michael Chiesa?' subtitle='El Cucuy se enfrentará al estadounidense Michael Chiesa en agosto, pero ¿será esta su última pelea?' image={hero} date='2024-07-27' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Tony Ferguson vs Michael Chiesa</h2>

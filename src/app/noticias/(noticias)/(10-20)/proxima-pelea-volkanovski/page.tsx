@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function ProximaPeleaVolkanovski () {
     return(
         <main>
-            <ArticleHero title='¿Volkanovski en Peso Ligero o Revancha Contra Ilia Topuria? Próxima Pelea de Alexander Volkanovski' subtitle='¿Cuál va a ser la próxima pelea de Alexander Volkanovski? ¿Obtendrá una revancha por el título ante Ilia Topuria, o pasará página y se movera a la división de peso ligero para enfrentar a los otros contendientes?' image={hero} date='2024-07-08' author={null} />
+            <ArticleHero title='¿Volkanovski en Peso Ligero o Revancha Contra Ilia Topuria? Próxima Pelea de Alexander Volkanovski' subtitle='¿Cuál va a ser la próxima pelea de Alexander Volkanovski? ¿Obtendrá una revancha por el título ante Ilia Topuria, o pasará página y se movera a la división de peso ligero para enfrentar a los otros contendientes?' image={hero} date='2024-07-08' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p><Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link> recientemente concedió una entrevista en el canal de Youtube de <Link href='/peleadores/israel-adesanya'>Israel Adesanya</Link> donde habló y dejó un par de pistas sobre lo que le depara el futuro cercano a su carrera deportiva. </p>

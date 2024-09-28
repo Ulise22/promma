@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function VuelveAmandaNunes () {
     return(
         <main>
-            <ArticleHero title='¿Amanda Nunes Vuelve a Pelear?' subtitle='La mejor peleadora de la historia de las MMA está retirada, pero ¿Volverá Amanda Nunes al Octagono?' image={hero} date='2024-06-25' author={null} />
+            <ArticleHero title='¿Amanda Nunes Vuelve a Pelear?' subtitle='La mejor peleadora de la historia de las MMA está retirada, pero ¿Volverá Amanda Nunes al Octagono?' image={hero} date='2024-06-25' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>La peleadora brasileña <Link href='/leyendas/amanda-nunes'>Amanda Nunes</Link>, quien seguramente entre a los libros de historia de las MMA como la mejor peleadora de la historia se retiró con un récord de 23-5 luego de defender el título de peso gallo de <Link href='/articulos/ufc'>UFC</Link> ante la mexicana <b>Irene Aldana</b> en junio de 2023, luego de recuperarlo al enfrentar a la venezolana <Link href='/mujeres/julianna-pena'>Julianna Peña</Link>, a quien derrotó por decisión unánime.</p>

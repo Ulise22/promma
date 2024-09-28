@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function DrakeApuestaUFC () {
     return(
         <main>
-            <ArticleHero title='¡Drake es Mufa! Todas Las Apuestas Perdidas de Drake en UFC' subtitle='"La maldición de Drake" y todos los peleadores que sufrieron de esta con las apuestas del cantante estadounidense' image={hero} date='2024-08-19' author={null} />
+            <ArticleHero title='¡Drake es Mufa! Todas Las Apuestas Perdidas de Drake en UFC' subtitle='"La maldición de Drake" y todos los peleadores que sufrieron de esta con las apuestas del cantante estadounidense' image={hero} date='2024-08-19' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Más allá de la carrera musical de <b>Drake</b>, una de las cosas curiosas que tiene este personaje en lo que respecta al mundo de las MMA, es que constantemente está apostando dinero por diferentes peleadores, y ya se ha vuelto usual ver a fanáticos acusarlo de &quot;mufa&quot;, casi al grado de ser un meme, debido a que lo normal suele ser que pierda sus apuestas. Por eso hoy vamos a repasar algunas de las apuestas que perdió el cantante apostando en peleas de <Link href='/articulos/ufc'>UFC</Link>.</p>
