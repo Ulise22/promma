@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function AilinPerez () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={ailin} w={10} l={2} d={0} nombre='Ailín Pérez' apodo='FIONA' categoria='Peso Gallo Femenino' />
+            <PeleadoresHero peleadoresImage={ailin} w={11} l={2} d={0} nombre='Ailín Pérez' apodo='FIONA' categoria='Peso Gallo Femenino' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Ailín Pérez UFC</h2>
@@ -30,7 +30,7 @@ export default function AilinPerez () {
                     <p className={styles.peleador__article__text}>En su primer combate ganado contra la estadounidense <b>Ashlee Evans-Smith</b>, Ailín se ganó el apodo de &quot;Ailín Nurmagomedov&quot;, luego de que en su combate completara 10 intentos de derribo de 15 intentados, en un combate que fue ganado con mucha contundencia por parte de la argentina.</p>
                     <Image className={styles.peleador__article__image} src={nurmagomedov} alt='La peleadora de MMA argentina Alín Pérez junto a la peleadora de MMA checa Lucie Pudilova luego de su combate por UFC' />
                     <h2 className={styles.peleador__article__title}>Ailín Pérez Record</h2>
-                    <p className={styles.peleador__article__text}>Ailín Pérez tiene un record de 10-2. Siendo 4 de sus victorias por nocaut, 1 por sumisión y 5 por decisión. Mientras que de sus 2 derrotas, 1 fue por sumisión contra la peleadora suiza <b>Stephanie Egger</b>, y la otra por descalificasión en una pelea por el campeonato <b>Samurai Fight House</b> contra la brasileña Tamires Vidal</p>
+                    <p className={styles.peleador__article__text}>Ailín Pérez tiene un record de 10-2. Siendo 4 de sus victorias por nocaut, 2 por sumisión y 5 por decisión. Mientras que de sus 2 derrotas, 1 fue por sumisión contra la peleadora suiza <b>Stephanie Egger</b>, y la otra por descalificasión en una pelea por el campeonato <b>Samurai Fight House</b> contra la brasileña Tamires Vidal</p>
                     <h2 className={styles.peleador__article__title}>Ailín Pérez Historia</h2>
                     <p className={styles.peleador__article__text}>Ailín &quot;Fiona Pérez&quot; comenzó a entrenar deportes de contacto con 11 años y es hoy en día una de las representantes de Argentina que tenemos en <Link href='/articulos/ufc'>UFC</Link> en donde ya lleva 2 victorias seguidas, sin embargo su camino hasta llegar a la mayor compañía de Artes Marciales Mixtas no fue fácil, como ella mismo lo relata: &quot;Estaba por hacer mi debut profesional en las artes marciales mixtas y decidimos tener un hijo con mi pareja, formar una familia y enfocarnos de lleno en el deporte. Así nació Ades&quot;.</p>
                     <p className={styles.peleador__article__text}>Durante su embarazo terminó separandose de su pareja y tuvo que cuidar ella sola de su hijo mientras trabajaba y entrenaba para comenzar su carrera en las MMA. Ailín cuenta como su madre y abuela de su hijo fue de gran ayuda para que nunca se sienta sola, ayudandola en los cuidados de Ades y acompañando en cada paso.</p>
