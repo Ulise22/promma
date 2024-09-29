@@ -41,7 +41,7 @@ export default function NoticiasPage () {
                     <Image className={styles.noticiasHero__article__img} src={kevinVallejosUFC} alt='' />
                     <article className={styles.noticiasHero__article__container}>
                         <h2 className={styles.noticiasHero__title}>Kevin Vallejos Gana Por Nocaut En El Primer Asalto y se Asegura el Contrato en la UFC</h2>
-                        <p>EL Chino Vallejos Gana por Nocaut en el Dana White&apos;s Contender Series y se asegura un contrato en la UFC.</p>
+                        <p>El Chino Vallejos Gana por Nocaut en el Dana White&apos;s Contender Series y se asegura un contrato en la UFC.</p>
                         <div className={styles.noticiasHero__article__info}>
                             <h4>FULLMMA</h4>
                             <p>24/09/2024</p>
