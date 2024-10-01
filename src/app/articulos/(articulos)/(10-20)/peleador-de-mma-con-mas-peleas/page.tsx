@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Travis Fulton',
         description: 'Travis Fulton es quien cuenta con el récord de la mayor cantidad de peleas profesionales en la historia de las MMA, superando por mucho a los demás, con un total de 322 peleas profesionales en su haber, supera por más del doble al siguiente en la lista de más combates, que es el estadounidense Shannon Ritch, que peleó en 151 ocasiones.',
-        url: 'https://fullmma.org/articulos/rivalidad-adesanya-y-pereira'
+        url: 'https://fullmma.org/articulos/peleador-de-mma-con-mas-peleas'
     }
 }
 
