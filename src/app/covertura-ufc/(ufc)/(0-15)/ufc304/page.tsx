@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'UFC 304',
         description: '¡Paddy Pimblett somete a Bobby Green en el primer asalto de la pelea! Tom Aspinall logra otra victoria por nocaut en su revancha ante Blaydes. Belal Muhammad es nuevo campeón de peso wélter en la UFC.',
-        url: 'https://fullmma.org/noticias/ufc304'
+        url: 'https://fullmma.org/covertura-ufc/ufc304'
     }
 }
 

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'UFC 305',
         description: 'Hoy tenemos un nuevo evento numerado de UFC celebrado en el RAC Arena en Australia, donde tendremos como pelea estelar el ansiado regreso de Israel Adesanya, quien enfrentará al actual campeón de la división de peso medio de la UFC, el sudafricano Dricus Du Plessis en lo que será su primer defensa del título desde que lo ganara en el UFC 297 al derrotar a Sean Strickland.',
-        url: 'https://fullmma.org/noticias/ufc305'
+        url: 'https://fullmma.org/covertura-ufc/ufc305'
     }
 }
 

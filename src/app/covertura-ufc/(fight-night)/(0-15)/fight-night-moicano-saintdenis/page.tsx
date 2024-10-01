@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Moicano vs Saint Denis',
         description: '',
-        url: 'https://fullmma.org/noticias/fight-night-moicano-saintdenis'
+        url: 'https://fullmma.org/covertura-ufc/fight-night-moicano-saintdenis'
     }
 }
 

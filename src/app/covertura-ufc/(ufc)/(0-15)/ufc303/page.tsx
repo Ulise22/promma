@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'UFC 303: Alex Pereira Noquea a Jiri Prochazka',
         description: 'En una noche de puras Artes Marciales Mixtas, Alex Pereira retiene el título con un espectacular nocaut a Jiri Prochazka. Además el evento coestelar lo protagoniza un Dan Ige que tomó la pelea con pocas horas de anticipación.',
-        url: 'https://fullmma.org/noticias/ufc303'
+        url: 'https://fullmma.org/covertura-ufc/ufc303'
     }
 }
 
