@@ -9,7 +9,7 @@ import hero from '@/assets/articulos/heros/20-30/dogfight-hero.jpg'
 export default function DogfightWildTorunament () {
     return(
         <main>
-            <ArticleHero title='King Of The Streets' subtitle='El evento de pelea más loco que se puede ver gratis en youtube y que es organizado en España por Jordi Wild.' image={hero} date='05/06/2024' author={null} updatedDate={null} />
+            <ArticleHero title='Dogfight Wild Tournament' subtitle='El evento de pelea más loco que se puede ver gratis en youtube y que es organizado en España por Jordi Wild.' image={hero} date='05/06/2024' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>Dogfight</h2>
@@ -25,7 +25,7 @@ export default function DogfightWildTorunament () {
                     <p>El último combate fue uno a muerte súbita, es decir, un combate de máximo 25 minutos que sólo da un ganador si uno somete o noquea a su oponente, entre los peleadores Zdravko y Aitor. Este combate terminó con una victoria por nocaut ténico para Aitor, quien se impuso muy rápido logrando la victoria en menos de un minuto y medio, aunque parecía que Zdravko se había lesionado en medio de la pelea, teniendo que ser atendido por los médicos.</p>
                     <h2>Dogfight Wild Tournament 2024</h2>
                     <iframe className={styles.article__video} width="560" height="315" src="https://www.youtube.com/embed/XnwHtzBf-c8?si=YsyCGwXOwkIFbNam" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                    <p>En febrero de 2024 volvió a celebrarse el evento organizaco por Jordi Wild, que en esta ocasión volvió a contar con rock y con el show de comedia de David Suarez. Este evento contó con un total de 7 combates que cubrimos en esta misma web. <Link href='/noticias/dogfight-wild-tournament-2'>VER</Link></p>
+                    <p>En febrero de 2024 volvió a celebrarse el evento organizaco por Jordi Wild, que en esta ocasión volvió a contar con rock y con el show de comedia de David Suarez. Este evento contó con un total de 7 combates que cubrimos en esta misma web. (<Link href='/noticias/dogfight-wild-tournament-2'>VER</Link>)</p>
                     <p>El evento inició con una revancha que el año pasado había sido la pelea principal, entre Aitor Gaspar contra Badnews Zdravko, en un combate a muerte súbita de 25 minutos como el año pasado.</p>
                     <p>El evento también contó con un combate 2vs2 entre el equipo rojo, conformado por <b>Alberto Rondán y Nicolás Martínez</b> y el equipo azul, conformado <b>Chiky Arroyo y Pau Peñalba</b>.</p>
                     <p>Además se había organizado un pequeño torneo inspirado en la película protagonizada por Jean-Claude Van Damme <b>Contacto Sangriendo</b>. Donde en una arena con caída al medio, peleaban en formato de eliminatorio 4 peleadores, donde el que cayera noqueado o abandonara la arena sería descalificado y avanzaría su rival a la final del torneo. Sin embargo, por lesión de uno de los finalistas, no se pudo realizar el último combate y sólo pudimos disfrutar de las semifinales del torneo.</p>
