@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc307'>
                 <Image className={styles.homehero__bigArticle__img} src={ufc307} alt='' />
-                <h2 className={styles.home__title}>UFC 307: ¡Alex Pereira y Rhalil Kountree Encabezan el Evento! ¡Raquel Penniungton tiene su primera defensa ante Julianna Peña!</h2>
+                <h2 className={styles.home__title}>UFC 307: ¡Alex Pereira y Khalil Rountree Encabezan el Evento! ¡Raquel Pennington tiene su primera defensa ante Julianna Peña!</h2>
                 <span>Además, en la cartelera estelar tendremos a José Aldo enfrentando a Mario Bautista y la posible próxima contendiente del título en la pelea entre Kayla Harrison y Ketlen Vieira</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/shara-magomedov-ojo'>
