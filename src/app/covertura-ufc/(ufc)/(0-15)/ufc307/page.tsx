@@ -31,9 +31,10 @@ export default function UFC307 () {
                     <h2>Kayla Harrison Vence a Ketlen Vieira</h2>
                     <p>Victoria contundente para la estadounidense <Link href='/mujeres/kayla-harrison'>Kayla Harrison</Link>, quien en su segunda pelea en la UFC ante la #2 de la división, logra una victoria por decisión unánime que es más que merecida, por lo contundente de su desempeño a lo largo del combate. </p>
                     <p>De esta forma, Harrison se perfila como clara candidata al título de peso gallo femenino, que se disputará en unas pocas horas entre Raquel Pennington y Julianna Peña. Y así lo entendió la misma Kayla, que se presenta a sí misma como la futura campeona de la división. </p>
-                    {/* <h2>Roman Dolidze vs Kevin Holland</h2>
-                    <p></p>
-                    <h2>José Aldo vs Mario Bautista</h2>
+                    <h2>Roman Dolidze Gana por Parada Médica a Kevin Holland</h2>
+                    <p>Dolidze consigue una victoria meritoria ante Kevin Holland luego de finalizado el primer por TKO, debido a una lesión que impidió a Holland continuar peleando.</p>
+                    <p>Esta es la segunda victoria consecutiva del georgiano que con esta pelea suma un récord profesional de 14-3, y que se suma a la lista de georgianos de la UFC que comienzan a destacar, al igual que sus compatriotas que son campeones como <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> y <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link>. </p>
+                    {/* <h2>José Aldo vs Mario Bautista</h2>
                     <p></p>
                     <h2>Raquel Pennington vs Julianna Peña</h2>
                     <p></p>
