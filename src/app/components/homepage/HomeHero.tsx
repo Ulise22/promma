@@ -3,16 +3,16 @@ import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import magomedovOjo from '@/assets/articulos/previews/30-40/shara_magomedov_ojo-preview.jpg'
-import ufc306 from '@/assets/covertura_ufc/ufc/0-15/ufc306-preview.jpg'
+import ufc307 from '@/assets/covertura_ufc/ufc/0-15/ufc307-preview.jpg'
 import iliaPromissKOHolloway from '@/assets/noticias/previews/10-20/ilia_promissko_holloway-preview.jpg'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc306'>
-                <Image className={styles.homehero__bigArticle__img} src={ufc306} alt='' />
-                <h2 className={styles.home__title}>UFC 306: ¡Merab Dvalisvhili Nuevo Campeón de Peso Gallo! ¡Valentina Shevchenko Vuelve a Ser Campeona al Derrotar Por Decisión a Alexa Grasso!  ¡Esteban Ribovics Gana en un Peleón al Mexicano Daniel Zellhuber!</h2>
-                <span>¡Ronaldo Rodríguez Gana por Decisión ante Ode Osbourne! ¡Diego Lopes Derrota a Brian Ortega por Decisión Unánime! ¡Raúl Rosas Jr. Logra La Primer Victoria de la Noche en La Esfera!</span>
+            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc307'>
+                <Image className={styles.homehero__bigArticle__img} src={ufc307} alt='' />
+                <h2 className={styles.home__title}>UFC 307: ¡Alex Pereira y Rhalil Kountree Encabezan el Evento! ¡Raquel Penniungton tiene su primera defensa ante Julianna Peña!</h2>
+                <span>Además, en la cartelera estelar tendremos a José Aldo enfrentando a Mario Bautista y la posible próxima contendiente del título en la pelea entre Kayla Harrison y Ketlen Vieira</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/shara-magomedov-ojo'>
                 <Image className={styles.homehero__article__img} src={magomedovOjo} alt='' />
