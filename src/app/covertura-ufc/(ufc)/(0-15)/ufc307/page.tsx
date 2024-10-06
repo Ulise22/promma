@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: 'UFC 307',
     description: "",
     openGraph: {
-        title: 'UFC 306',
+        title: 'UFC 307',
         description: "",
         url: 'https://fullmma.org/covertura-ufc/ufc307'
     }
