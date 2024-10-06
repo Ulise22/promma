@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function UFC307 () {
     return(
         <main>
-            <ArticleHero title="UFC 307: ¡Alex Pereira y Khalil Rountree Encabezan el Evento! ¡Raquel Pennington tiene su primera defensa ante Julianna Peña!" subtitle='Kayla Harrison gana luego de una actuación dominante en su pelea por decisión unánime. Roman Dolidze gana por parada médica luego de una lesión de Kevin Holland. Mario Bautista gana su pelea contra José Aldo por decisión dividida.' image={hero} date='2024-10-05' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 307: ¡Alex Pereira y Khalil Rountree Encabezan el Evento! ¡Raquel Pennington tiene su primera defensa ante Julianna Peña!" subtitle='Kayla Harrison gana luego de una actuación dominante en su pelea por decisión unánime. Roman Dolidze gana por parada médica luego de una lesión de Kevin Holland. Mario Bautista gana su pelea contra José Aldo por decisión dividida.' image={hero} date='2024-10-05' author={null} updatedDate='2024-10-06' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>En esta noche de UFC en Salt City tenemos una tremenda cartelera con varias peleas que vale la pena ver, siendo este evento encabezado por la pelea del título entre el campeón de los semipesados <Link href='/peleadores/alex-pereira'>Alex Pereira</Link> y el retador <b>Khalil Rountree Jr.</b> en una pelea que promete acción. Además, como cartelera co-estelar, tenemos la disputa por el título de peso gallo femenino entre la campeona <Link href='/mujeres/raquel-pennington'>Raquel Pennington</Link> y la retadora <Link href='/mujeres/julianna-pena'>Julianna Peña</Link>. </p>
