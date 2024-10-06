@@ -20,13 +20,13 @@ export const metadata: Metadata = {
 export default function JuliannaPena () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={julianna} w={12} l={5} d={0} nombre='Julianna Peña' apodo='THE VENEZUELAN VIXEN' categoria='Peso Gallo Femenino' />
+            <PeleadoresHero peleadoresImage={julianna} w={13} l={5} d={0} nombre='Julianna Peña' apodo='THE VENEZUELAN VIXEN' categoria='Peso Gallo Femenino' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Julianna Peña UFC</h2>
                     <p className={styles.peleador__article__text}>Julianna Peña es una peleadora estadounidense de Artes Marciales Mixtas, de ascendencia venezolana y mexicana que supo ser campeona de la división de peso gallo femenino en la <Link href='/articulos/ufc'>UFC</Link> en el 2021, al vencer por sumisión a la histórica campeona <Link href='/leyendas/amanda-nunes'>Amanda Nunes</Link> en el segundo asalto, logrando ser la única peleadora en vencer a la brasileña en una pelea por el campeonato. </p>
                     <h2 className={styles.peleador__article__title}>Julianna Peña Récord</h2>
-                    <p className={styles.peleador__article__text}>Julianna Peña tiene un record de 11-5. Siendo 3 de sus 11 victorias por la vía del nocaut, 5 por sumisión y 3 por decisión. Mientras que sus 5 derrotas se componen de 1 por nocaut, 2 por sumisión y 2 por decisión.</p>
+                    <p className={styles.peleador__article__text}>Julianna Peña tiene un record de 12-5. Siendo 3 de sus 12 victorias por la vía del nocaut, 5 por sumisión y 4 por decisión. Mientras que sus 5 derrotas se componen de 1 por nocaut, 2 por sumisión y 2 por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Julianna Peña Biografía</h2>
                     <p className={styles.peleador__article__text}>Julianna Nicole Peña nació el 19 de agosto de 1989 en la ciudad de Washington, Spokane, Estados Unidos. Es la menor de 4 hermanos. Se graduó en 2007 en el Mt Spokane High School. Ya en su adultez, con la idea de perder peso y canalizar su agresividad, comenzó a asistir a clases de cardio Kick Boxing, que eventualmente la llevó a transicionar a las MMA, de las que haría una carrera profesional, debutando oficialmente el 9 de mayo de 2009 con una victoria contra la estadounidense Raylene Harvey, a quien sometería en el primer asalto, después de ya haber ganado 2 combates amateur previamente.</p>
                     <Image className={styles.peleador__article__image} src={pelea} alt='La luchadora venezolana de artes marciales mixtas Julianna Peña encima de su rival golpeandola en un combate de MMA' />

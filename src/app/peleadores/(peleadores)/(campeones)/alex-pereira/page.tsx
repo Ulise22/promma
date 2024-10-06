@@ -21,14 +21,14 @@ export const metadata: Metadata = {
 export default function AlexPereira () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={pereira} w={11} l={2} d={0} nombre='Alex Pereira' apodo='POATAN' categoria='Peso Semipesado' />
+            <PeleadoresHero peleadoresImage={pereira} w={12} l={2} d={0} nombre='Alex Pereira' apodo='POATAN' categoria='Peso Semipesado' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Pereira UFC</h2>
                     <p className={styles.peleador__article__text}>Alex Pereira es un luchador de MMA brasileño, ex peleador de kickboxing, que comite en la <Link href='/articulos/ufc'>UFC</Link> desde el 6 de noviembre de 2021, cuando debutó contra el griego Andreas Michailidis por UFC 268, a quien derrotó por TKO a los 18 segundos del segundo asalto, lo que ya en su primer combate le valió para cobrar el bono a la Actuación de la Noche. Desde entonces fue capaz de ser campeón de Peso Medio, al derrotar a <Link href='/peleadores/israel-adesanya'>Israel Adensanya</Link> por TKO en el 5to asalto y para ser campeón de peso semipesado, luego de que derrotara a <Link href='/peleadores/jiri-prochazka'>JIŘÍ PROCHÁZKA</Link> por TKO en el segundo asalto.</p>
                     <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/9emd9w2KGy8?si=Plhh7A_N6ff7fN_u" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <h2 className={styles.peleador__article__title}>Alex Pereira Récord</h2>
-                    <p className={styles.peleador__article__text}>En MMA, Alex Pereira tiene un record de 11-2 que le valió para ser campeón de 2 divisiones diferentes. 9 de sus 11 victorias fueron por la vía del nocaut, mientras que las otras 2 fueron por decisión. De sus 2 derrotas, 1 fue por la vía del nocaut y la otra por sumisión.</p>
+                    <p className={styles.peleador__article__text}>En MMA, Alex Pereira tiene un record de 12-2 que le valió para ser campeón de 2 divisiones diferentes. 10 de sus 12 victorias fueron por la vía del nocaut, mientras que las otras 2 fueron por decisión. De sus 2 derrotas, 1 fue por la vía del nocaut y la otra por sumisión.</p>
                     <p className={styles.peleador__article__text}>Mientras que su record en <b>Kickboxing</b> es de 33-7. Siendo 21 de sus 33 victorias por nocaut y las otras 12 por decisión. Mientras que de sus 7 derrotas, 2 fueron por nocaut y las otras 5 por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Alex Pereira Historia</h2>
                     <p className={styles.peleador__article__text}>Alex Sandro Silva Pereira nació el 7 de julio de 1987 en el municipio Brasileño del Estado de São Paulo, São Bernardo do Campo. Creció en una favela y tuvo que dejar la escuela secundaria para empezar a trabajar en una tienda de neumáticos a los 12 años de edad. Influenciado por sus amigos, Alex Pereira comenzó a beber y esto lo llevó a convertirse en un alcohólico.</p>

@@ -7,7 +7,7 @@ export default function AldoHero () {
                 <h1 className={styles.leyenda__hero__title}>José Aldo</h1>
             </section>
             <section className={styles.leyenda__record__container}>
-                <b className={styles.leyenda__record}>32-8</b>
+                <b className={styles.leyenda__record}>32-9</b>
             </section>
         </>
     )
