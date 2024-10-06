@@ -36,9 +36,10 @@ export default function UFC307 () {
                     <p>Esta es la segunda victoria consecutiva del georgiano que con esta pelea suma un récord profesional de 14-3, y que se suma a la lista de georgianos de la UFC que comienzan a destacar, al igual que sus compatriotas que son campeones como <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> y <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link>. </p>
                     <h2>Mario Bautista se Lleva la Pelea ante José Aldo</h2>
                     <p>En la pelea previa a los combates por el campeonato, el estadounidense Mario Bautista consigue la victoria por decisión dividida por sobre la leyenda <Link href='/leyendas/jose-aldo'>José Aldo</Link>, en lo que fue una pelea bastante cerrada, donde el estadounidense logró algo de superioridad al controlar a su adversario cuando lo ponía contra la reja. </p>
-                    {/* <h2>Raquel Pennington vs Julianna Peña</h2>
-                    <p></p>
-                    <h2>Alex Pereira vs Khalil Rountree</h2>
+                    <h2>Julianna Peña Gana a Raquel Pennington y es Nueva Campeona</h2>
+                    <p><Link href='/mujeres/julianna-pena'>Julianna Peña</Link> se convierte en la nueva campeona de peso gallo femenino luego de una muy buena pelea ante <Link href='/mujeres/raquel-pennington'>Raquel Pennington</Link>, en lo que fue una pelea bastante pareja, que al final podría haber terminado a favor de cualquiera de las 2 peleadoras, y así lo vieron los jueces que por decisión dividida eligieron a Peña como ganadora.</p>
+                    <p>Al llegar al quinto asalto se podía intuir que el último asalto sería el que definiría al ganador, dado que hasta entonces estaban 2-2, con un asalto en el que Julianna estuvo cerca de someter a su rival, y otro en el que Raquel estuvo por noquear a su contendiente. Finalmente en un quinto asalto que fue el más cerrado de los 5, quien se terminó por consagrar como ganadora fue la venezolana.</p>
+                    {/* <h2>Alex Pereira vs Khalil Rountree</h2>
                     <p></p> */}
                 </article>
                 <AsideChamps />
