@@ -34,9 +34,9 @@ export default function UFC307 () {
                     <h2>Roman Dolidze Gana por Parada Médica a Kevin Holland</h2>
                     <p>Dolidze consigue una victoria meritoria ante Kevin Holland luego de finalizado el primer por TKO, debido a una lesión que impidió a Holland continuar peleando.</p>
                     <p>Esta es la segunda victoria consecutiva del georgiano que con esta pelea suma un récord profesional de 14-3, y que se suma a la lista de georgianos de la UFC que comienzan a destacar, al igual que sus compatriotas que son campeones como <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> y <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link>. </p>
-                    {/* <h2>José Aldo vs Mario Bautista</h2>
-                    <p></p>
-                    <h2>Raquel Pennington vs Julianna Peña</h2>
+                    <h2>José Aldo vs Mario Bautista</h2>
+                    <p>En la pelea previa a los combates por el campeonato, el estadounidense Mario Bautista consigue la victoria por decisión dividida por sobre la leyenda <Link href='/leyendas/jose-aldo'>José Aldo</Link>, en lo que fue una pelea bastante cerrada, donde el estadounidense logró algo de superioridad al controlar a su adversario cuando lo ponía contra la reja. </p>
+                    {/* <h2>Raquel Pennington vs Julianna Peña</h2>
                     <p></p>
                     <h2>Alex Pereira vs Khalil Rountree</h2>
                     <p></p> */}
