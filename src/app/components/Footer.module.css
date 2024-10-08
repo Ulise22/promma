@@ -5,13 +5,36 @@
     margin-top: 20px;
 }
 
+.footer__title {
+    padding: 20px;
+    padding-bottom: 0;
+}
+
+.footer__container {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__container__group {
+    background-color: #000;
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 20px;
+}
+
 .footer__list {
     list-style: none;
-    width: 70%;
-    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
     padding: 10px 0;
+}
+
+.footer__list__social {
+    display: flex;
+    margin-left: -40px;
+    gap: 20px;
+    list-style: none;
 }
 
 .foter__list__item {
@@ -37,14 +60,11 @@
 }
 
 @media screen and (max-width: 1015px) {
-    .footer__list {
-        width: 80%;
-        text-align: center;
+    .footer__container {
+        flex-direction: column;
+        gap: 0;
     }
 
-    .footer__line {
-        width: 80%;
-    }
 }
 
 @media screen and (max-width: 660px) {
