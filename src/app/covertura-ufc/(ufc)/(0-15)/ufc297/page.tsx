@@ -3,7 +3,7 @@ import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/covertura_ufc/ufc/0-15/ufc297_hero.jpg'
+import hero from '@/assets/covertura_ufc/ufc/0-15/ufc297.jpg'
 import raquelVsilva from '@/assets/peleadores__images/mujeres/0-10/mayra-bueno-silva/mayra_careo.jpg'
 import Image from 'next/image'
 

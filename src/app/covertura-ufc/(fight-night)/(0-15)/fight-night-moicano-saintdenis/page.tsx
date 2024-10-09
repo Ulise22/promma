@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/covertura_ufc/fight_night/0-15/moicano_vs_saintdenis-hero.jpg'
+import hero from '@/assets/covertura_ufc/fight_night/0-15/moicano_vs_saintdenis.jpg'
 
 export const metadata: Metadata = {
     title: 'Moicano vs Saint Denis',

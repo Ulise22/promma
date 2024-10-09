@@ -3,22 +3,22 @@ import ArticlePreview from '../articulos/components/ArticlePreview'
 /* UFC IMAGES */
 import ufc297 from '@/assets/covertura_ufc/ufc/0-15/ufc297.jpg'
 import ufc298 from '@/assets/covertura_ufc/ufc/0-15/ufc298_preview.jpg'
-import ufc299 from '@/assets/covertura_ufc/ufc/0-15/ufc299_preview.jpg'
+import ufc299 from '@/assets/covertura_ufc/ufc/0-15/ufc299.jpg'
 import ufc300EarlyPrelims from '@/assets/covertura_ufc/ufc/0-15/ufc300_early-prelims.jpg'
 import ufc300Prelims from '@/assets/covertura_ufc/ufc/0-15/ufc300_prelims.jpg'
 import ufc300MainEvent from '@/assets/covertura_ufc/ufc/0-15/ufc300.jpeg'
 import ufc301 from '@/assets/covertura_ufc/ufc/0-15/ufc301-preview.jpg'
 import ufc302 from '@/assets/covertura_ufc/ufc/0-15/ufc302-preview.jpg'
 import ufc303 from '@/assets/covertura_ufc/ufc/0-15/ufc303-preview.jpg'
-import ufc304 from '@/assets/covertura_ufc/ufc/0-15/ufc304-preview.jpg'
-import ufc305 from '@/assets/covertura_ufc/ufc/0-15/ufc305-preview.jpg'
-import ufc306 from '@/assets/covertura_ufc/ufc/0-15/ufc306-preview.jpg'
+import ufc304 from '@/assets/covertura_ufc/ufc/0-15/ufc304.jpg'
+import ufc305 from '@/assets/covertura_ufc/ufc/0-15/ufc305.jpg'
+import ufc306 from '@/assets/covertura_ufc/ufc/0-15/ufc306.jpg'
 /* UFC FIGHT NIGHT IMAGES */
 import whittakerVSaliskerov from '@/assets/covertura_ufc/fight_night/0-15/whittaker-vs-aliskerov.jpg'
 import lewisVsNascimento from '@/assets/covertura_ufc/fight_night/0-15/lewis-vs-nascimento-preview.jpg'
 import cannonierVSimano from '@/assets/covertura_ufc/fight_night/0-15/fightnight-cannonier-imanov-preview.jpg'
-import sandhagenVSnurmagomedov from '@/assets/covertura_ufc/fight_night/0-15/sandhagen-vs-nurmagomedov-preview.jpg'
-import moicanoVSsaintdenis from '@/assets/covertura_ufc/fight_night/0-15/moicano_vs_saintdenis-preview.jpg'
+import sandhagenVSnurmagomedov from '@/assets/covertura_ufc/fight_night/0-15/sandhagen-vs-nurmagomedov-hero.jpg'
+import moicanoVSsaintdenis from '@/assets/covertura_ufc/fight_night/0-15/moicano_vs_saintdenis.jpg'
 
 
 export default function CoverturaUFC () {
