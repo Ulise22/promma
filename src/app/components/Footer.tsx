@@ -19,6 +19,9 @@ export default function Footer () {
                         <li>
                             <Link className={styles.foter__list__item} href='/politica-privacidad'>Política de Privacidad</Link>
                         </li>
+                        <li>
+                            <Link className={styles.foter__list__item} href='/atribuciones-de-imagenes'>Atribuciones de Images</Link>
+                        </li>
                     </ul>
                 </div>
                 <div className={styles.footer__container__group}>
