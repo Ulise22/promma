@@ -18,6 +18,19 @@ export default function Atribuciones () {
                 <li>&quot;Alexa Grasso 2023 03.png&quot; de <b>Alexa Lopez Col</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Kayla Harrison Rio 2016.jpg&quot; de <b>Agência Brasil Fotografias</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
                 <li>&quot;Holly Holm at UFC 246.jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Khabib nurmagomedov hall of fame ufc.jpg&quot; de <b>Airotcivss</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
+                <li>&quot;2021 - ContentMakers CG1 0140 (51654351373) (cropped).jpg&quot; de <b>Web Summit</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
+                <li>&quot;Anderson Silva.png&quot; de <b>Conselho Nacional do Ministério Público CNMP</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Brock Lesnar 2014.jpg&quot; de <b>Refill at Italian Wikipedia</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
+                <li>&quot;Jose Aldo 2015.jpg&quot; de <b>Andrius Petrucenia on Flickr (Original version) UCinternational (Crop)</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 2.0</li>
+                <li>&quot;José Aldo (30 de dezembro de 2010).jpg&quot; de <b>Maddox</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Demetrious Johnson.jpg&quot; de <b>Kelly Bailey</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
+                <li>&quot;Ceremonial weigh ins - Amanda Nunes vs Julianna Peña UFC 269 (cropped).jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Demetrious Johnson.jpg&quot; de <b>Kelly Bailey</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
+                <li>&quot;Ceremonial weigh ins - Amanda Nunes vs Julianna Peña UFC 269 (cropped).jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Royce Gracie 2.jpg&quot; de <b>Peter Gordon from Vancouver, Canada</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
+                <li>&quot;Randy Couture at the 2008 Tribeca Film Festival.JPG&quot; de <b>David Shankbone</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Fedor Emelianenko Dec 2015.jpg&quot; de <b>Bruno Massami</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
             </ul>
         </main>
     )

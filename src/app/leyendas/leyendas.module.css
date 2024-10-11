@@ -62,7 +62,7 @@
 .leyendas__card__anderson {
     background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/0-10/anderson-silva/anderson-silva_card.jpg');
     background-repeat: no-repeat;
-    background-position: center, -120px;
+    background-position: center;
 }
 
 .leyendas__card__lesnar {
@@ -106,7 +106,7 @@
 }
 
 .leyendas__card__emilianenko {
-    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/10-20/fedor-emilianenko/fedor-emilianenko-card.png');
+    background-image: linear-gradient(180deg, #3d3d3d68 0%, #3d3d3d68 100%), url('../../assets/leyendas/(peleadores)/10-20/fedor-emilianenko/fedor-emilianenko-card.jpg');
     background-position: center;
 }
 
