@@ -16,6 +16,7 @@ export default function Atribuciones () {
                 <li>&quot;Alexa Grasso 2023 03.png&quot; de <b>Alexa Lopez Col</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Kayla Harrison Rio 2016.jpg&quot; de <b>Agência Brasil Fotografias</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
                 <li>&quot;Holly Holm at UFC 246.jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                {/* Leyendas */}
                 <li>&quot;Khabib nurmagomedov hall of fame ufc.jpg&quot; de <b>Airotcivss</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
                 <li>&quot;2021 - ContentMakers CG1 0140 (51654351373) (cropped).jpg&quot; de <b>Web Summit</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
                 <li>&quot;Anderson Silva.png&quot; de <b>Conselho Nacional do Ministério Público CNMP</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
@@ -35,6 +36,24 @@ export default function Atribuciones () {
                 <li>&quot;Alex Pereira UFC 300.png&quot; de <b>Chamatkar Sandhu</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Chito Vera 2017.png&quot; de <b>Steve Mora</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Conor McGregor 2018.jpg&quot; de <b>Russian Presidential Press and Information Office</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 4.0</li>
+                <li>&quot;Chito Vera 2017.png&quot; de <b>Steve Mora</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Islam Makhachev 2022 UFC belt.png&quot; de <b>Новости ННТ</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Salome Zourabichvili awards Ilia Topuria with the Order of Honor (cropped).jpg&quot; de <b>Unknown author</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 4.0</li>
+                <li>&quot;Jon Jones Posing.png&quot; de <b>Vengo Films</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Justin Gaethje at press conference.png&quot; de <b>K22</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
+                <li>&quot;Leon Edwards 2021.png&quot; de <b>Anything Goes With James English</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Khamzat Chimaev 2022.png&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;KamaruUsmanPress2018.png&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 3.0</li>
+                <li>&quot;Max Holloway BMF.png&quot; de <b>Chamatkar Sandhu</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Israel Adesanya UFC 271.jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;JiriProchazka2022.png&quot; de <b>Show Jana Krause</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Raúl Rosas Jr. 2024.png&quot; de <b>Chamatkar Sandhu</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Sean Strickland 2022.jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;1224290832.jpg.0.jpg&quot; de <b>Yygggg</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
+                <li>&quot;Ciryl Gane en visite au centre d&apos;entraînement du MHSC.jpg&quot; de <b>MHSC TV - Montpellier Hérault Sport Club</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Joel-alvarez-posando.jpg&quot; de <b>Jprietf</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
+                <li>&quot;Magomed Ankalaev at UFC Fight Night 136 in Moscow, Russia.jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;UmarNurmagomedov.png&quot; de <b>Новости ННТ</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
             </ul>
         </main>
     )

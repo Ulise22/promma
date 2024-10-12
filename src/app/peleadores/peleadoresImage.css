@@ -49,13 +49,13 @@
 }
 
 .peleadores__card_tenaglia {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/argentinos/franco-tenaglia/tenaglia_card.webp');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/argentinos/franco-tenaglia/tenaglia_card.jpg');
     background-position: center;
 }
 
 .peleadores__card_canetti {
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/argentinos/guido-cannetti/cannetti_card.jpg');
-    background-position: center;
+    background-position: left;
 }
 
 .peleadores__card_volkanovski {
@@ -69,8 +69,8 @@
 }
 
 .peleadores__card_ferguson {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/20-30/tony-ferguson/ferguson_card2.webp');
-    background-position: center;
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/20-30/tony-ferguson/ferguson_card.jpg');
+    background-position: left;
 }
 
 .peleadores__card_prochazka {
@@ -104,8 +104,8 @@
 }
 
 .peleadores__card_chandler {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/10-20/michael-chandler/chandler_card.jpg');
-    background-position: center;
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/10-20/michael-chandler/michael_chandler.jpg');
+    background-position: left;
 }
 
 .peleadores__card_holloway {
@@ -139,7 +139,7 @@
 }
 
 .peleadores__card_tsarukyan {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/20-30/arman-tsarukyan/arman-tsarukyan_card.webp');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/20-30/arman-tsarukyan/arman-tsarukyan_card.jpg');
     background-position: center;
 }
 
