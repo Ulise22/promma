@@ -24,9 +24,6 @@ import mariusz from '@/assets/articulos/previews/10-20/mariusz-pudzianowski-prev
 import jamesToney from '@/assets/articulos/previews/10-20/james_toney-preview.jpg'
 /* 20-30 */
 import jimMiller from '@/assets/articulos/previews/20-30/jim-miller-preview.jpg'
-import one from '@/assets/articulos/previews/20-30/one_championship-preview.png'
-import kots from '@/assets/articulos/previews/20-30/kots-preview.jpg'
-import dwt from '@/assets/articulos/previews/20-30/dogfight.jpg'
 import ufc from '@/assets/articulos/previews/20-30/ufc-preview.jpg'
 import nateDiaz from '@/assets/articulos/previews/20-30/nate-diaz-preview.jpg'
 import mejoresPeleasUFC from '@/assets/articulos/previews/20-30/mejores_peleas_ufc-preview.jpg'

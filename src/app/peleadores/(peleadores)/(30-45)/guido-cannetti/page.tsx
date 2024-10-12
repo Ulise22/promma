@@ -3,7 +3,6 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import cannetti from '@/assets/peleadores__images/argentinos/guido-cannetti/guido_cannetti.png'
 import sparring from '@/assets/peleadores__images/argentinos/guido-cannetti/guido_sparring.jpg'
-import guido from '@/assets/peleadores__images/argentinos/guido-cannetti/guido_cannetti.jpg'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
@@ -36,7 +35,6 @@ export default function Cannetti () {
                     <p className={styles.peleador__article__text}>De esta manera, para mayo de 2014, Cannetti comenzó a formar parte del elenco de The Ultimate Fighter: Latin America, compitiendo por Team Werdum. En dicho programa, sería derrotado en la primera ronda del torneo por el peleador <b>Marco Beltrán</b>, quien por decisión se llevaría la pelea. Posteriormente entraría a participar otra vez en reemplazo del ecuatoriano <Link href='/peleadores/marlon-vera'>Marlon Vera</Link>, quien había presentado una infección en el pie que no le permitiría continuar participando del programa, aquel combate lo perdería con <b>Alejandro Pérez</b>, quien consiguió ganar por nocaut en el primer asalto.</p>
                     <p className={styles.peleador__article__text}>Guido Cannetti haría su debut oficial en UFC al enfrentarse a su compañero de reparte de The Ultimate Fighter: Latin America, Henry Briones, con quien caería derrotado por sumisión en el segundo asalto. Sin embargo obtendría un bono por protagonizar la pelea de la noche.</p>
                     <p className={styles.peleador__article__text}>Desde entonces, contando su debut, Guido ha peleado un total de 10 veces en la compañía, manteniendo un récord de 4-6. Siendo su último combate contra el estadounidense <b>Mario Bautista</b>, en la que sería derrotado por sumisión en el primer asalto. Luego de aquel combate, Guido finalmente se retiraría del deporte.</p>
-                    <Image className={styles.peleador__article__image} src={guido} alt='El peleador de UFC argentino Guido Canneti' />
                     <p className={styles.peleador__article__text}>En cuanto a su vida personal, Guido Cannetti está casado con su esposa Carolina, con quien tiene 2 hijos, Francesco y Filippo.</p>
                 </article>
                 <AsideChamps />
