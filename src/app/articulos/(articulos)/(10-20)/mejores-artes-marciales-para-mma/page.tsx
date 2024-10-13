@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/articulos/heros/10-20/best_ma_for_mma-hero.jpg'
+import hero from '@/assets/articulos/10-20/best_ma_for_mma.jpg'
 import jiujitsu from '@/assets/articulos/insideArticle/martial-arts/jiu-jitsu.jpg'
 import sambo from '@/assets/articulos/insideArticle/martial-arts/sambo.jpg'
 import kickboxing from '@/assets/articulos/insideArticle/martial-arts/kickboxing.jpg'

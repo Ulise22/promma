@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/articulos/heros/10-20/mariusz-pudzianowski-hero.jpg'
+import hero from '@/assets/articulos/10-20/mariusz_pudzianowski.jpg'
 
 export const metadata: Metadata = {
     title: 'Luchador de MMA 5 Veces El Hombre Más Fuerte del Mundo',

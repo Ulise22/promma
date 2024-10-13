@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/articulos/heros/10-20/james_toney-hero.jpg'
+import hero from '@/assets/articulos/10-20/james_toney.jpg'
 
 export const metadata: Metadata = {
     title: 'Boxeador en MMA',

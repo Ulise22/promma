@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/articulos/previews/10-20/most-pro-fights.jpg'
+import hero from '@/assets/articulos/10-20/most_pro_fights.jpg'
 
 export const metadata: Metadata = {
     title: 'Travis Fulton',
