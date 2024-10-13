@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/articulos/heros/0-10/glover_texeira_hero.jpg'
+import hero from '@/assets/articulos/0-10/glover_teixeira.jpg'
 
 export const metadata: Metadata = {
     title: 'Campeón Más Viejo de la UFC',

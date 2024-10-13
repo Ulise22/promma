@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/articulos/previews/0-10/ufc-goats.jpg'
+import hero from '@/assets/articulos/0-10/ufc-goats.jpg'
 
 export const metadata: Metadata = {
     title: 'Los Mejores Peleadores de la Historia de UFC',

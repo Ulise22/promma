@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/previews/0-10/dana_vs_ortiz.jpg'
+import hero from '@/assets/articulos/0-10/dana_vs_ortiz.jpg'
 
 export const metadata: Metadata = {
     title: 'Dana White vs Tito Ortiz',

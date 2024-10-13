@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/articulos/previews/0-10/khabibVferguson.jpg'
+import hero from '@/assets/articulos/0-10/khabibVferguson.jpg'
 
 export const metadata: Metadata = {
     title: 'Khabib vs Ferguson',

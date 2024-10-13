@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/articulos/heros/0-10/mostppv_hero.jpg'
+import hero from '@/assets/articulos/0-10/mostppv.jpg'
 
 export const metadata: Metadata = {
     title: '5 Combates que Más PPV Vendieron',

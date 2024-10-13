@@ -6,8 +6,8 @@ import magomedovOjo from '@/assets/articulos/heros/30-40/shara_magomedov_ojo-her
 import alexanderEmelianenko from '@/assets/articulos/previews/20-30/alexander-emelianenko-preview.jpg'
 import yoelgenetica from '@/assets/articulos/previews/20-30/yoel_romero_genetica-preview.jpg'
 import GoatFemUfc from '@/assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_card.jpg'
-import mostPPV from '@/assets/articulos/previews/0-10/mostppv.jpg'
-import top5 from '@/assets/articulos/previews/0-10/ufc-goats.jpg'
+import mostPPV from '@/assets/articulos/0-10/mostppv.jpg'
+import top5 from '@/assets/articulos/0-10/ufc-goats.jpg'
 import LeeMurray from '@/assets/articulos/heros/40-50/lee_murray-hero.jpg'
 import pridefc from '@/assets/articulos/heros/30-40/pridefc-hero.jpg'
 
