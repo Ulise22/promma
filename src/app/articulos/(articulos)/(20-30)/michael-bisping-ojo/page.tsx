@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/heros/20-30/michael_bisping_ojo-hero.jpg'
+import hero from '@/assets/articulos/20-30/michael_bisping_ojo.jpg'
 
 export const metadata: Metadata = {
     title: 'Michael Bisping Ojo',
