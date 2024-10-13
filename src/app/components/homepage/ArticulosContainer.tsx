@@ -1,9 +1,9 @@
 import styles from './articulosContainer.module.css'
 import HomeArticle from './noticias/HomeArticle'
 /* IMAGES */
-import bestMAForMMA from '@/assets/articulos/previews/10-20/best_ma_for_mma-preview.png'
-import mmaMedieval from '@/assets/articulos/previews/10-20/mma_medieval-preview.jpeg'
-import carJiujitsu from '@/assets/articulos/previews/10-20/car_jiujitsu-preview.jpg'
+import bestMAForMMA from '@/assets/articulos/10-20/best_ma_for_mma.jpg'
+import mmaMedieval from '@/assets/articulos/10-20/mma_medieval.jpeg'
+import carJiujitsu from '@/assets/articulos/10-20/car_jiujitsu.jpg'
 import titovsdana from '@/assets/articulos/0-10/dana_vs_ortiz.jpg'
 import popek from '@/assets/articulos/previews/50-60/popel_monster-preview.jpg'
 import hollywood from '@/assets/articulos/previews/50-60/ufc_hollywood-preview.jpg'
