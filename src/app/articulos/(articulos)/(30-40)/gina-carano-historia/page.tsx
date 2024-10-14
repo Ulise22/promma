@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/heros/30-40/gina_carano-hero.jpg'
+import hero from '@/assets/articulos/30-40/gina_carano.jpg'
 
 export const metadata: Metadata = {
     title: 'Gina Carano: La Primera Estrella Femenina de las MMA',

@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/heros/30-40/jorge_masvidal-hero.jpg'
+import hero from '@/assets/articulos/30-40/jorge_masvidal.png'
 
 export const metadata: Metadata = {
     title: 'Jorge Masvidal Biografía',

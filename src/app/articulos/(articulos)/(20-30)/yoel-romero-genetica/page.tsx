@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import type { Metadata } from 'next'
 /* Images */
-import hero from '@/assets/articulos/previews/20-30/yoel_romero_genetica-preview.jpg'
+import hero from '@/assets/articulos/20-30/yoel_romero_genetica.jpg'
 import joelAndJones from '@/assets/articulos/insideArticle/yoel-romero-genetica/romero-and-jones.jpg'
 
 export const metadata: Metadata = {

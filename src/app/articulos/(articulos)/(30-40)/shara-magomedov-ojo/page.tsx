@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/heros/30-40/shara_magomedov_ojo-hero.png'
+import hero from '@/assets/articulos/30-40/shara_magomedov_ojo.png'
 
 export const metadata: Metadata = {
     title: 'Shara Bullet Ojo',

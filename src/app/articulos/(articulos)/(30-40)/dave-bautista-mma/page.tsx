@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/heros/30-40/dave_bautista-hero.jpg'
+import hero from '@/assets/articulos/30-40/dave_bautista.jpg'
 
 export const metadata: Metadata = {
     title: 'El Debut en MMA de Dave Bautista',

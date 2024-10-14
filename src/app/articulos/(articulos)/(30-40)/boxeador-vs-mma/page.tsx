@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/heros/30-40/boxeador_vs_mma-hero.jpg'
+import hero from '@/assets/articulos/30-40/boxeador_vs_mma.jpg'
 
 export const metadata: Metadata = {
     title: 'Todas Las Peleas de Luchadores de MMA en Boxeo',

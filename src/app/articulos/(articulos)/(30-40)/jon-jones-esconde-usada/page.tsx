@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/previews/30-40/jones_se_esconde-preview.jpg'
+import hero from '@/assets/articulos/30-40/jones_se_esconde.jpg'
 
 export const metadata: Metadata = {
     title: 'El Día Que Jon Jones se Escondió en Un Octagono Para No Ser Testeado',

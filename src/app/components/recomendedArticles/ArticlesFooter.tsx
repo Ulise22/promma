@@ -2,14 +2,14 @@ import Link from 'next/link'
 import styles from './ArticlesFooter.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import magomedovOjo from '@/assets/articulos/heros/30-40/shara_magomedov_ojo-hero.png'
-import alexanderEmelianenko from '@/assets/articulos/previews/20-30/alexander-emelianenko-preview.jpg'
-import yoelgenetica from '@/assets/articulos/previews/20-30/yoel_romero_genetica-preview.jpg'
+import magomedovOjo from '@/assets/articulos/30-40/shara_magomedov_ojo.png'
+import alexanderEmelianenko from '@/assets/articulos/20-30/alexander_emelianenko.jpg'
+import yoelgenetica from '@/assets/articulos/20-30/yoel_romero_genetica.jpg'
 import GoatFemUfc from '@/assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_card.jpg'
 import mostPPV from '@/assets/articulos/0-10/mostppv.jpg'
 import top5 from '@/assets/articulos/0-10/ufc-goats.jpg'
 import LeeMurray from '@/assets/articulos/heros/40-50/lee_murray-hero.jpg'
-import pridefc from '@/assets/articulos/heros/30-40/pridefc-hero.jpg'
+import pridefc from '@/assets/articulos/30-40/pridefc.jpg'
 
 export default function ArticlesFooter () {
     return(

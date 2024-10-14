@@ -58,6 +58,8 @@ export default function Atribuciones () {
                 <li>&quot;Glover Teixeira, November 2021.jpg&quot; de <b>Apsanibel</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
                 <li>&quot;UFC 257 Conor McGregor vs Dustin Poirier 2 by WWESlashrocker54 on DeviantArt&quot; de <b>DevianArt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Nate Diaz Oct 2019.jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Rousimar Toquinho.jpg&quot; de <b>Rhdesantana</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 3.0</li>
+                <li>&quot;JJ.Vol. 29 No1. 2005(1184).jpg&quot; de <b>Nori Bunasawa</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
             </ul>
         </main>
     )

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import magomedovOjo from '@/assets/articulos/previews/30-40/shara_magomedov_ojo-preview.jpg'
+import magomedovOjo from '@/assets/articulos/30-40/shara_magomedov_ojo.png'
 import ufc307 from '@/assets/covertura_ufc/ufc/0-15/ufc307.jpg'
 import iliaPromissKOHolloway from '@/assets/noticias/previews/10-20/ilia_promissko_holloway-preview.jpg'
 
