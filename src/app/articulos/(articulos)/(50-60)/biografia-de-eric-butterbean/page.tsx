@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/heros/50-60/butterbean-hero.jpeg'
+import hero from '@/assets/articulos/50-60/eric_butterbean.jpg'
 
 export const metadata: Metadata = {
     title: 'Eric Butterbean Biografía',

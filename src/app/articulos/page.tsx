@@ -50,10 +50,10 @@ import zabit from '@/assets/articulos/40-50/zabit.jpg'
 import cmpunk from '@/assets/articulos/40-50/cm_punk.jpg'
 import nicoMontano from '@/assets/articulos/40-50/nicco_montano.jpg'
 /* 50-60 */ 
-import kimboSlice from '@/assets/articulos/previews/50-60/kimbo_slice-preview.jpg'
-import butterbean from '@/assets/articulos/previews/50-60/butterbean-preview.webp'
-import hollywood from '@/assets/articulos/previews/50-60/ufc_hollywood-preview.jpg'
-import popek from '@/assets/articulos/previews/50-60/popel_monster-preview.jpg'
+import kimboSlice from '@/assets/articulos/50-60/kimbo_slice.jpg'
+import butterbean from '@/assets/articulos/50-60/eric_butterbean.jpg'
+import hollywood from '@/assets/articulos/50-60/ufc_hollywood.jpg'
+import popek from '@/assets/articulos/50-60/popek_monster.jpg'
 
 export default function Articulos () {
     return(
@@ -68,7 +68,7 @@ export default function Articulos () {
                 </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
-                <ArticlePreview img={popek} url='/articulos/popek-monster-mma' title='Popek: El Rapero Polaco y Pelador de MMA Más Loco del Mundo' author={null} text='La historia del rapero polaco Popek Monster, el caótico estilo de vida que lleva y su carrera en las artes marciales mixtas.' date='10/09/2024' />
+                <ArticlePreview img={popek} url='/articulos/popek-monster-mma' title='Popek: El Rapero y Pelador Polaco de MMA Más Loco del Mundo' author={null} text='La historia del rapero polaco Popek Monster, el caótico estilo de vida que lleva y su carrera en las artes marciales mixtas.' date='10/09/2024' />
                 <ArticlePreview img={hollywood} url='/articulos/peleadores-de-ufc-en-peliculas' title='Top 5 Peleadores de UFC que Aparecieron en Películas de Hollywood' author={null} text='La Lista de 5 Campeones de UFC que aparecieron en el cine y televisión, teniendo una actuacion destacada.' date='10/09/2024' />
                 <ArticlePreview img={butterbean} url='/articulos/biografia-de-eric-butterbean' title='¿Quién fue Eric Butterbean y por qué era tan famoso?' author={null} text='La historia de vida de Eric Butterbean, quien paso de ser un luchador aficionado en concursos de boxeo a convertirse en una estrella internacional en el mundo del boxeo y, eventualmente, en las artes marciales mixtas.' date='08/09/2024' />
                 <ArticlePreview img={kimboSlice} url='/articulos/kimbo-slice-historia' title='Kimbo Slice: El rey de los luchadores web' author={null} text='La historia de Kevin Ferguson, mejor conocido como Kimbo Slice, y su historia de superación que lo llevó de ser guardia de seguridad de un club nocturno, a ser un luchador profesional.' date='05/09/2024' />

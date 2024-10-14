@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/heros/50-60/kimbo_slice-hero.jpg'
+import hero from '@/assets/articulos/50-60/kimbo_slice.jpg'
 
 export const metadata: Metadata = {
     title: 'Kimbo Slice Historia',

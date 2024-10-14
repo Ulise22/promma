@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/heros/50-60/popek_monster-hero.jpg'
+import hero from '@/assets/articulos/50-60/popek_monster.jpg'
 
 export const metadata: Metadata = {
     title: 'Popek Monster',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function KimboSlice () {
     return(
         <main>
-            <ArticleHero title='Popek: El Rapero Polaco y Pelador de MMA Más Loco del Mundo' subtitle='La historia del rapero polaco Popek Monster, el caótico estilo de vida que lleva y su carrera en las artes marciales mixtas.' image={hero} date='2024-09-10' author={null} updatedDate={null} />
+            <ArticleHero title='Popek: El Rapero y Pelador Polaco de MMA Más Loco del Mundo' subtitle='La historia del rapero polaco Popek Monster, el caótico estilo de vida que lleva y su carrera en las artes marciales mixtas.' image={hero} date='2024-09-10' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Antes de conocer más en profundidad sobre la carrera en las artes marciales mixtas de Popek, es importante ponernos en contexto sobre quien es esta persona. Su verdadero nombre es Paweł Ryszard Mikołajuw y nació el día 2 de diciembre de 1978 en la ciudad polaca de Legnica. Con sólo 14 años abandonó su hogar y la escuela, aunque pese a esto, se las ingenió para saber hablar 3 idiomas, siendo estos el polaco, el inglés y el alemán.</p>
