@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/previews/40-50/ariel_helwani_vs_dana_white.jpeg'
+import hero from '@/assets/articulos/40-50/ariel_helwani_vs_dana_white.jpeg'
 
 export const metadata: Metadata = {
     title: 'Ariel Helwani vs Dana White',

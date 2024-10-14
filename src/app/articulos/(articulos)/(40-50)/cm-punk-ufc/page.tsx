@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/heros/40-50/cm_punk_ufc-hero.jpg'
+import hero from '@/assets/articulos/40-50/cm_punk.jpg'
 
 export const metadata: Metadata = {
     title: 'El peor Luchador de la historia de UFC',

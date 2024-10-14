@@ -8,7 +8,7 @@ import yoelgenetica from '@/assets/articulos/20-30/yoel_romero_genetica.jpg'
 import GoatFemUfc from '@/assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_card.jpg'
 import mostPPV from '@/assets/articulos/0-10/mostppv.jpg'
 import top5 from '@/assets/articulos/0-10/ufc-goats.jpg'
-import LeeMurray from '@/assets/articulos/heros/40-50/lee_murray-hero.jpg'
+import LeeMurray from '@/assets/articulos/40-50/lee_murray.jpg'
 import pridefc from '@/assets/articulos/30-40/pridefc.jpg'
 
 export default function ArticlesFooter () {

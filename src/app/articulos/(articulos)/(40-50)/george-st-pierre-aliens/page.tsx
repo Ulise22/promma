@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/previews/40-50/gsp_aliens.jpg'
+import hero from '@/assets/articulos/40-50/gsp_aliens.jpg'
 
 export const metadata: Metadata = {
     title: 'George St-Pierre Aliens',

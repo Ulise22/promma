@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/articulos/heros/40-50/nick_newell-hero.jpg'
+import hero from '@/assets/articulos/40-50/nick_newell.jpg'
 
 export const metadata: Metadata = {
     title: 'El manco de las MMA',
