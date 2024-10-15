@@ -3,7 +3,7 @@ import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/articulos/insideArticle/ilia-topuria_hero.jpg'
+import hero from '@/assets/noticias/0-10/ilia_prox_rival.jpg'
 import Image from 'next/image'
 
 export default function ProximosRivalesTopuria () {

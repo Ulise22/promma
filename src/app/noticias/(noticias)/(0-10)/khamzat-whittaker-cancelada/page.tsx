@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/noticias/previews/0-10/chimaev_whittaker-preview.jpg'
+import hero from '@/assets/noticias/0-10/chimaev_whittaker.jpg'
 import internado from '@/assets/noticias/insideArticle/chimaev/chimaev-internado.jpg'
 
 export default function ChimaevWhittakerCancelada () {

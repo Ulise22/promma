@@ -3,7 +3,7 @@ import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 /* Images */
-import hero from '@/assets/noticias/previews/0-10/conor-mcgregor_volverapelear.jpg'
+import hero from '@/assets/noticias/0-10/conor_mcgregor_volverapelear.jpg'
 
 export default function ConorMcgregorVueltaAPelear () {
     return(

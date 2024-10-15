@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/noticias/heros/0-10/ortega-vs-lopes-hero.jpg'
+import hero from '@/assets/noticias/0-10/ortega-vs-lopes.jpg'
 
 export default function OrtegaVsLopesPrevia () {
     return(

@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/noticias/previews/20-30/kevin_vallejos.jpg'
+import hero from '@/assets/noticias/20-30/kevin_vallejos.jpg'
 
 export const metadata: Metadata = {
     title: 'Kevin Vallejos Entra a la UFC',

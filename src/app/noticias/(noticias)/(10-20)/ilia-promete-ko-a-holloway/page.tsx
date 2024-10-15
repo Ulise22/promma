@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/noticias/heros/10-20/ilia_promissko_holloway-hero.jpg'
+import hero from '@/assets/noticias/10-20/ilia_promissko_holloway.jpg'
 
 export const metadata: Metadata = {
     title: 'Ilia Topuria Promete Noquear a Holloway',

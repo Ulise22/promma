@@ -4,29 +4,27 @@ import Link from 'next/link';
 import Image from 'next/image';
 import ArticlePreview from '../articulos/components/ArticlePreview';
 /* HERO IMAGES */
-import michaelMorales from '@/assets/noticias/previews/10-20/michael_morales-preview.jpg'
-import drakeApuesta from '@/assets/noticias/previews/10-20/drake_apuesta-preview.jpg'
-import danHookerTattoos from '@/assets/noticias/previews/10-20/dan_hooker_tattoos-preview.jpg'
-import belalOdiado from '@/assets/noticias/previews/10-20/belal_odiado-preview.jpg'
-import kevinVallejosUFC from '@/assets/noticias/previews/20-30/kevin_vallejos.jpg'
-import argUFC2024 from '@/assets/noticias/previews/20-30/argentinos2024-preview.jpg'
+import michaelMorales from '@/assets/noticias/10-20/michael_morales.jpg'
+import drakeApuesta from '@/assets/noticias/10-20/drake_apuesta.jpg'
+import danHookerTattoos from '@/assets/noticias/10-20/dan_hooker_tattoos.jpg'
+import belalOdiado from '@/assets/noticias/10-20/belal_odiado.jpg'
+import kevinVallejosUFC from '@/assets/noticias/20-30/kevin_vallejos.jpg'
+import argUFC2024 from '@/assets/noticias/20-30/argentinos2024.jpg'
 /* 0 - 10 */
-import conor from '@/assets/peleadores__images/0-10/conor-mcgregor/conor_mcgregor.jpg'
-import ufc300 from '@/assets/noticias/previews/0-10/ufc300.jpg'
-import dwt2 from '@/assets/noticias/previews/0-10/dogfight.jpg'
-import comebackMcGregor from '@/assets/noticias/previews/0-10/conor-mcgregor_volverapelear.jpg'
-import poirierVsMakhachev from '@/assets/noticias/previews/0-10/poirier-vs-makhachev.jpg'
-import rivalsIlia from '@/assets/articulos/insideArticle/ilia-topuria_hero.jpg'
-import ailin from '@/assets/peleadores__images/argentinos/ailin-perez/ailin-perez.jpg'
-import chimaevCancel from '@/assets/noticias/previews/0-10/chimaev_whittaker-preview.jpg'
-import ortegaLopes from '@/assets/noticias/previews/0-10/ortega-vs-lopes-preview.jpg'
-import cucuyRetiro from '@/assets/noticias/previews/0-10/ferguson_retiro_preview.jpg'
+import conor from '@/assets/peleadores__images/0-10/conor-mcgregor/mcgregor-card.jpg'
+import dwt2 from '@/assets/noticias/0-10/dwt2.jpeg'
+import comebackMcGregor from '@/assets/noticias/0-10/conor_mcgregor_volverapelear.jpg'
+import poirierVsMakhachev from '@/assets/noticias/0-10/poirier-vs-makhachev.jpg'
+import rivalsIlia from '@/assets/noticias/0-10/ilia_prox_rival.jpg'
+import chimaevCancel from '@/assets/noticias/0-10/chimaev_whittaker.jpg'
+import ortegaLopes from '@/assets/noticias/0-10/ortega-vs-lopes.jpg'
+import cucuyRetiro from '@/assets/noticias/0-10/ferguson_retiro.jpg'
 /* 10 - 20 */
-import volkNextFight from '@/assets/noticias/previews/10-20/volk_next_fight_preview.jpg'
-import chandlerEspera from '@/assets/noticias/previews/10-20/michael_chandler_espera-preview.jpg'
-import jonesEvitaAspinall from '@/assets/noticias/previews/10-20/jones_evita_aspinall-preview.jpg'
-import amandaVuelve from '@/assets/noticias/previews/10-20/amanda_nunes_vuelve-preview.jpg'
-import khalil from '@/assets/noticias/previews/10-20/khalil-preview.jpg'
+import volkNextFight from '@/assets/peleadores__images/0-10/alexander-volkanovski/volkanovski.jpg'
+import chandlerEspera from '@/assets/peleadores__images/10-20/michael-chandler/michael_chandler.jpg'
+import jonesEvitaAspinall from '@/assets/noticias/10-20/jones_evita_aspinall.jpg'
+import amandaVuelve from '@/assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_card.jpg'
+import khalil from '@/assets/noticias/10-20/khalil.webp'
 
 export default function NoticiasPage () {
     return(

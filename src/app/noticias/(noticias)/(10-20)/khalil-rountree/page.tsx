@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/noticias/heros/10-20/khalil-hero.webp'
+import hero from '@/assets/noticias/10-20/khalil.webp'
 
 export const metadata: Metadata = {
     title: 'Khalil Rountree',

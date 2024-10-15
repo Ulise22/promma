@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/noticias/heros/10-20/jones_evita_aspinall-hero.jpg'
+import hero from '@/assets/noticias/10-20/jones_evita_aspinall.jpg'
 
 export const metadata: Metadata = {
     title: 'Jon Jones Evita a Tom Aspinall',

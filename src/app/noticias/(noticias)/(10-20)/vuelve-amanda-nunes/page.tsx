@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/noticias/heros/10-20/amanda_nunes_vuelve-hero.jpg'
+import hero from '@/assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_card.jpg'
 
 export const metadata: Metadata = {
     title: '¿Vuelve Amanda Nunes a Pelear?',

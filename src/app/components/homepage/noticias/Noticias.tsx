@@ -3,12 +3,12 @@ import styles from './noticias.module.css'
 import Image from 'next/image'
 import HomeArticle from './HomeArticle'
 /* IMAGES */
-import argUFC2024 from '@/assets/noticias/previews/20-30/argentinos2024-preview.jpg'
-import kevinVallejosUFC from '@/assets/noticias/previews/20-30/kevin_vallejos.jpg'
-import khalil from '@/assets/noticias/previews/10-20/khalil-preview.jpg'
+import argUFC2024 from '@/assets/noticias/20-30/argentinos2024.jpg'
+import kevinVallejosUFC from '@/assets/noticias/20-30/kevin_vallejos.jpg'
+import khalil from '@/assets/noticias/10-20/khalil.webp'
 import michaelMorales from '@/assets/noticias/previews/10-20/michael_morales-preview.jpg'
 import drakeApuesta from '@/assets/noticias/previews/10-20/drake_apuesta-preview.jpg'
-import danHookerTattoos from '@/assets/noticias/previews/10-20/dan_hooker_tattoos-preview.jpg'
+import danHookerTattoos from '@/assets/noticias/10-20/dan_hooker_tattoos.jpg'
 
 export default function Noticias () {
     return(

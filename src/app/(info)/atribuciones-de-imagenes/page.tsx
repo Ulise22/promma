@@ -62,6 +62,11 @@ export default function Atribuciones () {
                 <li>&quot;JJ.Vol. 29 No1. 2005(1184).jpg&quot; de <b>Nori Bunasawa</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
                 <li>&quot;CM Punk 2022-03-23 (AEW Wrestling, Dynamite, HEB Center, Cedar Park) 01.jpg&quot; de <b>Ralph Arvesen</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 2.0</li>
                 <li>&quot;Eric Esch 2006.jpg&quot; de <b>Larry Burton</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 3.0</li>
+                {/* Noticias */}
+                <li>&quot;Topuria shocks Volkanovski to win UFC featherweight title | FMT&quot; de <b>unknown</b>, disponible en Free Malasysia Today bajo la licencia Creative Commons Attribution 4.0 International</li>
+                <li>&quot;UFC 189 World Tour Aldo vs. McGregor London 2015 (18776759002).jpg&quot; de <b>Andrius Petrucenia</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 4.0 International</li>
+                <li>&quot;Drake and Future 2016 Summer Sixteen Tour.jpg&quot; de <b>The Come Up Show</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
+                <li>&quot;2022-01-22 at 8.20.51 PM.png&quot; de <b>Fgytf</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
             </ul>
         </main>
     )

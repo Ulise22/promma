@@ -4,7 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/noticias/previews/0-10/conor-mcgregor_volverapelear.jpg'
+import hero from '@/assets/peleadores__images/0-10/conor-mcgregor/mcgregor-card.jpg'
 
 export default function McGregorCancelaPelea () {
     return(

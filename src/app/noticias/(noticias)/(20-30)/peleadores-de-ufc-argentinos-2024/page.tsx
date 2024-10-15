@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/noticias/heros/20-30/argentinos2024-hero.jpg'
+import hero from '@/assets/noticias/20-30/argentinos2024.jpg'
 
 export const metadata: Metadata = {
     title: 'Peleadores Argentinos de UFC',
