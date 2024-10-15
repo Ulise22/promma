@@ -2,14 +2,25 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Image from 'next/image'
+import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/noticias/0-10/dwt2.jpeg'
 
+export const metadata: Metadata = {
+    title: 'Dogfight Wild Tournament 2',
+    description: 'El 9 de feberero de 2024, volvió el evento organizado por Youtuber dueño del podcast más escuchado en lengua hispana, Jordi Wild, que en esta segunda edición del evento de pelea DWT no decepciona y nos trae apasionantes duelos y combates.',
+    openGraph: {
+        title: 'Dogfight Wild Tournament 2',
+        description: 'El 9 de feberero de 2024, volvió el evento organizado por Youtuber dueño del podcast más escuchado en lengua hispana, Jordi Wild, que en esta segunda edición del evento de pelea DWT no decepciona y nos trae apasionantes duelos y combates.',
+        url: 'https://fullmma.org/noticias/dogfight-wild-torunament'
+    }
+}
+
 export default function DWT2 () {
     return(
         <main>
-            <ArticleHero title='Lo Mejor de Dogfight Wild Tournament 2' subtitle='Lo mejor que ha ocurrido en el evento de pelea organizado por Jordi Wild y que se puede ver gratis en youtube.' image={hero} date={null} author={null} updatedDate={null} />
+            <ArticleHero title='Lo Mejor de Dogfight Wild Tournament 2' subtitle='Lo mejor que ha ocurrido en el evento de pelea organizado por Jordi Wild y que se puede ver gratis en youtube.' image={hero} date='2024-02-09' author={null} updatedDate='2024-10-15' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>El 9 de feberero de 2024, volvió el evento organizado por Youtuber dueño del podcast más escuchado en lengua hispana, Jordi Wild, que en esta segunda edición del evento de pelea DWT no decepciona y nos trae apasionantes duelos y combates. </p>
@@ -18,7 +29,7 @@ export default function DWT2 () {
                     <iframe className={styles.article__video} width="560" height="315" src="https://www.youtube.com/embed/nsODUCSOaoc?si=QOqY5L6O_6oLD_Ni" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <h2>2da Pelea: 2 vs 2, Equipo Rojo contra Equipo Azul</h2>
                     <p>La pelea que enfrentaba al equipo rojo, provenientes de Barcelona, Alberto Rondán y Nicolás Martínez contra el quipo azul, provenientes de Madrid, Chiky Arroyo y Pau Peñalba, terminó con una contundente victoria para el quipo azul en los primeros minutos del encuentro, en especial por el gran aporte que hizo Chiky en la pelea.</p>
-                    <p>Chiky Arroyo, que era el más alto de los 4, fue capaz de someter a uno de los 2 mientras su compañero luchaba en el piso con el otro, y también fue capaz de someter al otro luchador que estaba ocuapado luchando con su compañero. De esta manera tanto Chiky como Pau fueron capaces de proclamarse ganadores del encuentro.</p>
+                    <p>Chiky Arroyo, que era el más alto de los 4, fue capaz de someter a uno de los 2 mientras su compañero luchaba en el piso con el otro, para después ser capaz de someter al otro luchador que estaba ocuapado luchando con su compañero. De esta manera tanto Chiky como Pau fueron quienes se proclamaron como ganadores del encuentro.</p>
                     <iframe className={styles.article__video} width="560" height="315" src="https://www.youtube.com/embed/rm3hR_trgC4?si=fJPeYmV0AC5-OT8Q" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <h2>Primera Semifinal Torneo Contacto Sangriento: Sergio Hidalgo vs Emilio Motescarlos</h2>
                     <p>La primera semifinal del Torneo al estilo Contacto Sangriento, terminó con una victoria para Sergio, que con un rodillazo dejó KO a su rival, Emilio Motescarlos. Resultado que lleva a Hidalgo a disputar la final del torneo que se disputará en unas horas.</p>
