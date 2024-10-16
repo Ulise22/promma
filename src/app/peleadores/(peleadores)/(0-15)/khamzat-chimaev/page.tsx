@@ -1,7 +1,5 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import khamzat from '@/assets/peleadores__images/10-20/khamzat-chimaev/khamzat.png'
-import pelea2 from '@/assets/peleadores__images/10-20/khamzat-chimaev/khamzat_pelea2.jpg'
-import post2 from '@/assets/peleadores__images/10-20/khamzat-chimaev/khamzat_post2.jpg'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'

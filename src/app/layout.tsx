@@ -6,6 +6,7 @@ import { config } from '@fortawesome/fontawesome-svg-core'
 import { Analytics } from "@vercel/analytics/react"
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import Menu from './components/Menu'
+import Link from 'next/link'
 config.autoAddCss = false
 
 const inter = Inter({ subsets: ['latin'] })
