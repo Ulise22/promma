@@ -53,11 +53,6 @@
     background-position: center;
 }
 
-.peleadores__card_canetti {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/argentinos/guido-cannetti/cannetti_card.jpg');
-    background-position: left;
-}
-
 .peleadores__card_volkanovski {
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-10/alexander-volkanovski/volkanovski.jpg');
     background-position: right;
