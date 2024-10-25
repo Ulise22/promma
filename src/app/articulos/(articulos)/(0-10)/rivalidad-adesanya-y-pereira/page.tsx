@@ -9,10 +9,10 @@ import Image from 'next/image'
 
 export const metadata: Metadata = {
     title: 'Rivalidad Pereira vs Adesanya',
-    description: '',
+    description: 'El día de hoy vamos a hablar de una de las mayores rivalidades de la historia reciente de la UFC, que guarda una historia curiosa que merece ser contada, y no es otra que la que tuvieron Israel Adesanya y Alex Pereira, quienes se enfrentaron en 4 ocasiones diferentes, con 2 de estas peleas teniendo lugar en le kickboxing y las otras 2 en las MMA.',
     openGraph: {
         title: 'Rivalidad Pereira vs Adesanya',
-        description: '',
+        description: 'El día de hoy vamos a hablar de una de las mayores rivalidades de la historia reciente de la UFC, que guarda una historia curiosa que merece ser contada, y no es otra que la que tuvieron Israel Adesanya y Alex Pereira, quienes se enfrentaron en 4 ocasiones diferentes, con 2 de estas peleas teniendo lugar en le kickboxing y las otras 2 en las MMA.',
         url: 'https://fullmma.org/articulos/rivalidad-adesanya-y-pereira'
     }
 }
