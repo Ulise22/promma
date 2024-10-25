@@ -7,7 +7,7 @@ import duPlessis from '@/assets/peleadores__images/0-10/dricus-du-plessis/du-ple
 import omalley from '@/assets/peleadores__images/20-30/sean-omalley/sean__omalley.jpg'
 import pereira from '@/assets/peleadores__images/0-10/alex-pereira/pereira_sparring2.jpg'
 import belal from '@/assets/peleadores__images/20-30/belal-muhammad/belal-card.jpg'
-import topuria from '@/assets/peleadores__images/10-20/ilia-topuria/ilia-topuria.jpg'
+import topuria from '@/assets/peleadores__images/10-20/ilia-topuria/illia__topuria.jpg'
 
 export default function AsideChamps () {
     return(
