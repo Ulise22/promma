@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function UFC308 () {
     return(
         <main>
-            <ArticleHero title="UFC 308: ¡Ilia Topuria vs Max Holloway! ¡Robert Whittaker vs Khamzat Chimaev!" subtitle='Tenemos un tremendo evento que además cuenta con el regreso al octágono de Shara Magomedov, con la pelea de Dan Ige y Lerone Murphy, y la pelea entre Ankalaev y Rakic acompañando la cartelera estelar.' image={hero} date='2024-10-26' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 308: ¡Ilia Topuria vs Max Holloway! ¡Khamzat Chimaev Somete a Robert Whittaker en el Primer Asalto!" subtitle='Tenemos un tremendo evento que además cuenta con el regreso al octágono de Shara Magomedov, con la pelea de Dan Ige y Lerone Murphy, y la pelea entre Ankalaev y Rakic acompañando la cartelera estelar.' image={hero} date='2024-10-26' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>En este eventazo de UFC en Abu Dhabi tenemos a la que quizás sea la pelea del año como evento principal, con el campeón español de peso pluma <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> realizando su primer defensa del título ante el BMF de la UFC <Link href='/peleadores/max-holloway'>Max Holloway</Link>. </p>
@@ -46,8 +46,8 @@ export default function UFC308 () {
                     <h2>Magomed Ankalaev vs Aleksandar Rakic</h2>
                     <p>En una pelea que fue bastante cerrada, donde lo que predominó fue el striking, quien finalmente se llevó la pelea fue <Link href='/peleadores/magomed-ankalaev'>Magomed Ankalaev</Link>, quien fue de menos a más a lo largo del combate, mostrando tener cierto poder en sus manos, al conectar golpes que se notó que hicieron mella en su rival.</p>
                     <p>Todos los jueces clasificaron la pelea 29-28, dando como ganador por decisión unánime al luchador daguestaní. Quien luego de su pelea, no dudo en retar al actual campeón de la división de peso semipesado <Link href='/peleadores/alex-pereira'>Alex Pereira</Link>. Queda esperar que es lo que hace la UFC, y ver si le da pelea titular al peleador ruso. </p>
-                    {/* <h2>Robert Whittaker vs Khamzat Chimaev</h2>
-                    <p></p> */}
+                    <h2>Khamzat Chimaev Somete a Robert Whittaker en el Primer Asalto</h2>
+                    <p>En una locura de performance, el checheno <Link href='/peleadores/khamzat-chimaev'>Khamzat Chimaev</Link> logra una impresionante victoria por sumisión en el primer asalto, luego de conectar un mataleón que obligaría a <Link href='/peleadores/robert-whittaker'>Robert Whittaker</Link> a tapear, dándole la vitoria al luchador ruso. </p>
                     {/* <h2>Ilia Topuria vs Max Holloway</h2>
                     <p></p> */}
                 </article>
