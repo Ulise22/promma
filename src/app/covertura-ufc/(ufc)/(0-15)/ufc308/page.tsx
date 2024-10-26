@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function UFC308 () {
     return(
         <main>
-            <ArticleHero title="UFC 308: ¡Ilia Topuria vs Max Holloway! ¡Khamzat Chimaev Somete a Robert Whittaker en el Primer Asalto!" subtitle='Tenemos un tremendo evento que además cuenta con el regreso al octágono de Shara Magomedov, con la pelea de Dan Ige y Lerone Murphy, y la pelea entre Ankalaev y Rakic acompañando la cartelera estelar.' image={hero} date='2024-10-26' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 308: ¡Ilia Topuria Noquea a Max Holloway en el Tercer Asalto! ¡Khamzat Chimaev Somete a Robert Whittaker en el Primer Asalto!" subtitle='Tenemos un tremendo evento que además cuenta con el regreso al octágono de Shara Magomedov, con la pelea de Dan Ige y Lerone Murphy, y la pelea entre Ankalaev y Rakic acompañando la cartelera estelar.' image={hero} date='2024-10-26' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>En este eventazo de UFC en Abu Dhabi tenemos a la que quizás sea la pelea del año como evento principal, con el campeón español de peso pluma <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> realizando su primer defensa del título ante el BMF de la UFC <Link href='/peleadores/max-holloway'>Max Holloway</Link>. </p>
@@ -48,8 +48,9 @@ export default function UFC308 () {
                     <p>Todos los jueces clasificaron la pelea 29-28, dando como ganador por decisión unánime al luchador daguestaní. Quien luego de su pelea, no dudo en retar al actual campeón de la división de peso semipesado <Link href='/peleadores/alex-pereira'>Alex Pereira</Link>. Queda esperar que es lo que hace la UFC, y ver si le da pelea titular al peleador ruso. </p>
                     <h2>Khamzat Chimaev Somete a Robert Whittaker en el Primer Asalto</h2>
                     <p>En una locura de performance, el checheno <Link href='/peleadores/khamzat-chimaev'>Khamzat Chimaev</Link> logra una impresionante victoria por sumisión en el primer asalto, luego de conectar un mataleón que obligaría a <Link href='/peleadores/robert-whittaker'>Robert Whittaker</Link> a tapear, dándole la vitoria al luchador ruso. </p>
-                    {/* <h2>Ilia Topuria vs Max Holloway</h2>
-                    <p></p> */}
+                    <h2>Ilia Topuria Hace Historia y Noquea a Max Holloway</h2>
+                    <p>El campeón hispano <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> hace historia al convertirse en el primer luchador en noquear a <Link href='/peleadores/max-holloway'>Max Holloway</Link> en el tercer asalto de la pelea, completando de esta manera su primer defensa exitosa del título. </p>
+                    <p>Tal y como lo prometió, consiguió llevarse la victoria por la vía del nocaut, siendo el primero que consigue esto ante el luchador hawaiano. Una completa locura lo conseguido por el georgiano. </p>
                 </article>
                 <AsideChamps />
             </section>
