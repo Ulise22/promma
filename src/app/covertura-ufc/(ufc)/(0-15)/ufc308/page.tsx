@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function UFC308 () {
     return(
         <main>
-            <ArticleHero title="UFC 308: ¡Ilia Topuria vs Max Holloway! ¡Robert Whittaker vs Khamzat Chimaev!" subtitle='' image={hero} date='2024-10-26' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 308: ¡Ilia Topuria vs Max Holloway! ¡Robert Whittaker vs Khamzat Chimaev!" subtitle='Tenemos un tremendo evento que además cuenta con el regreso al octágono de Shara Magomedov, con la pelea de Dan Ige y Lerone Murphy, y la pelea entre Ankalaev y Rakic acompañando la cartelera estelar.' image={hero} date='2024-10-26' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>En este eventazo de UFC en Abu Dhabi tenemos a la que quizás sea la pelea del año como evento principal, con el campeón español de peso pluma <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> realizando su primer defensa del título ante el BMF de la UFC <Link href='/peleadores/max-holloway'>Max Holloway</Link>. </p>
@@ -35,11 +35,11 @@ export default function UFC308 () {
                     <p>En lo que fue una locura de combate, que se extendió hasta los 3 asaltos, tanto el polaco <b>Mateusz Rebecki</b> como el luchador de Kirguistán <b>Myktbek Orolbai</b> protagonizaron un combate de película, que finalmente se llevó el polaco por decisión dividida. </p>
                     <p>Durante el primer asalto fue Rebecki el que mejor se mostró, dejando el ojo de su rival hinchado al punto de que casi se detiene el combate ahí. Estando lastimado y teniendo que dar todo si quería ganar, Orolbai fue a buscar el combate en el segundo asalto, llegando a provocarle un tremendo corte por debajo de la ceja a su rival. </p>
                     <p>Finalmente durante el tercer asalto, que fue el que determinó el resultado de esta pelea, el luchador polaco sería capaz de conectar un golpe que dejaría en el piso a su rival, buscando luego llevarse el asalto mediante ground and pound. Aún así, fue el luchador de Kirguistán el que mejor terminó el asalto, siendo capaz de conectar unos golpes que dejaron muy lastimado a su rival. El resultado final terminó por ser una victoria para Rebecki, que por decisión dividida fue el ganador de esta pedazo de pelea. </p>
-                    {/* <h2>Geoff Neal vs Rafael Dos Anjos</h2>
-                    <p></p>
-                    <h2>Shara Magomedov vs Armen Petrosyan</h2>
-                    <p></p>
-                    <h2>Lerone Murphy vs Dan Ige</h2>
+                    <h2>Geoff Neal Vence a Rafael Dos Anjos por TKO en el Primer Asalto</h2>
+                    <p>En una pelea que no duró mucho, el luchador estadounidense sería capaz de derrotar al excampeón de peso ligero, al brasileño <b>Rafael Dos Anjos</b> vía TKO, al primero haber logrado conectar un buen golpe que tiraría al suelo a su rival, para luego hacerse con la victoria por nocaut técnico al su rival sufrir una lesión en la pierna que no le permitiría continuar con la pelea.</p>
+                    {/* <h2>Shara Magomedov vs Armen Petrosyan</h2>
+                    <p></p> */}
+                    {/* <h2>Lerone Murphy vs Dan Ige</h2>
                     <p></p>
                     <h2>Magomed Ankalaev vs Aleksandar Rakic</h2>
                     <p></p>
