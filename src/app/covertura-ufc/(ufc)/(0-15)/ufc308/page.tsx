@@ -40,13 +40,14 @@ export default function UFC308 () {
                     <h2>Shara Magomedov Noquea a Armen Petrosyan en el Segundo Asalto</h2>
                     <p>El daguestaní logra una espectácular victoria por nocaut con un codazo en el segundo asalto en lo que fue una tremenda pelea.</p>
                     <p>En lo que venía siendo una maravilla de combate, como nos tiene acostumbrados <Link href='/peleadores/shara-magomedov'>Shara Bullet</Link>, donde ambos luchadores consiguieron conectarse mutuamente, conectando low-kicks, patadas a la zona media del cuerpo y golpes a la cabeza, finalmente terminaría de la forma más impresionante posible, con un doble spinning-backfist que noquearía a su rival terminando el segundo asalto de la pelea. </p>
-                    {/* <h2>Lerone Murphy vs Dan Ige</h2>
-                    <p></p>
-                    <h2>Magomed Ankalaev vs Aleksandar Rakic</h2>
-                    <p></p>
-                    <h2>Robert Whittaker vs Khamzat Chimaev</h2>
-                    <p></p>
-                    <h2>Ilia Topuria vs Max Holloway</h2>
+                    <h2>Lerone Murphy Derrota a Dan Ige por Decisión Unánime</h2>
+                    <p>En lo que fue otra pelea entretenida en la cartelera estelar, con el primer asalto siendo a favor del estadounidense, el segundo para el inglés, y finalmente el tercero para Lerone Murphy, que sigue invicto en su carrera.</p>
+                    <p>De esta manera, el luchador inglés extendiende su récord a 15-0-1, siguiendo invicto con una peleada, pero al fin y al cabo merecida, victoria por decisión unánime ante el veterano de la división <b>Dan Ige</b>. </p>
+                    {/* <h2>Magomed Ankalaev vs Aleksandar Rakic</h2>
+                    <p></p> */}
+                    {/* <h2>Robert Whittaker vs Khamzat Chimaev</h2>
+                    <p></p> */}
+                    {/* <h2>Ilia Topuria vs Max Holloway</h2>
                     <p></p> */}
                 </article>
                 <AsideChamps />
