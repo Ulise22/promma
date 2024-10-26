@@ -31,6 +31,10 @@ export default function UFC308 () {
                     <h2>Abus Magomedov Somete a Brunno Ferreira en le Tercer Asalto</h2>
                     <p>El luchador de origen Daguestaní y de nacionalidad alemana, Abus Magomedov se hace con la victoria por la vía de la sumisión en el tercera asalto. </p>
                     <p>En una pelea que fue de menos a más, donde vimos la mejor cara del brasileño en el segundo asalto, cuando fue capaz de conectar los mejores golpes al acortar la distancia, terminó siendo completamente dominado en el suelo durante el tercer asalto, al finalmente ser sometido con un triángulo de brazo para darle la victoria a Magomedov. </p>
+                    <h2>¡Rebecki y Orolbai Protagonizan la Pelea de la Noche!</h2>
+                    <p>En lo que fue una locura de combate, que se extendió hasta los 3 asaltos, tanto el polaco <b>Mateusz Rebecki</b> como el luchador de Kirguistán <b>Myktbek Orolbai</b> protagonizaron un combate de película, que finalmente se llevó el polaco por decisión dividida. </p>
+                    <p>Durante el primer asalto fue Rebecki el que mejor se mostró, dejando el ojo de su rival hinchado al punto de que casi se detiene el combate ahí. Estando lastimado y teniendo que dar todo si quería ganar, Orolbai fue a buscar el combate en el segundo asalto, llegando a provocarle un tremendo corte por debajo de la ceja a su rival. </p>
+                    <p>Finalmente durante el tercer asalto, que fue el que determinó el resultado de esta pelea, el luchador polaco sería capaz de conectar un golpe que dejaría en el piso a su rival, buscando luego llevarse el asalto mediante ground and pound. Aún así, fue el luchador de Kirguistán el que mejor terminó el asalto, siendo capaz de conectar unos golpes que dejaron muy lastimado a su rival. El resultado final terminó por ser una victoria para Rebecki, que por decisión dividida fue el ganador de esta pedazo de pelea. </p>
                     {/* <h2>Geoff Neal vs Rafael Dos Anjos</h2>
                     <p></p>
                     <h2>Shara Magomedov vs Armen Petrosyan</h2>
