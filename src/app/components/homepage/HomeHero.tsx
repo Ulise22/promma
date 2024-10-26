@@ -3,16 +3,16 @@ import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import magomedovOjo from '@/assets/articulos/30-40/shara_magomedov_ojo.png'
-import ufc307 from '@/assets/covertura_ufc/ufc/0-15/ufc307.jpg'
+import ufc308 from '@/assets/covertura_ufc/ufc/0-15/ufc308.jpg'
 import iliaPromissKOHolloway from '@/assets/noticias/10-20/ilia_promissko_holloway.jpg'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc307'>
-                <Image className={styles.homehero__bigArticle__img} src={ufc307} alt='' />
-                <h2 className={styles.home__title}>UFC 307: ¡Alex Pereira Noquea a Khalil Rountree En El Cuarto Asalto y Sigue Siendo Campeón! ¡Julianna Peña es Nueva Campeona de UFC al Derrotar a Raquel Pennington!</h2>
-                <span>Kayla Harrison gana luego de una actuación dominante en su pelea por decisión unánime. Roman Dolidze gana por parada médica luego de una lesión de Kevin Holland. Mario Bautista gana su pelea contra José Aldo por decisión dividida.</span>
+            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc308'>
+                <Image className={styles.homehero__bigArticle__img} src={ufc308} alt='' />
+                <h2 className={styles.home__title}>UFC 308: ¡Ilia Topuria vs Max Holloway! ¡Robert Whittaker vs Khamzat Chimaev!</h2>
+                <span>Tenemos un tremendo evento que además cuenta con el regreso al octágono de Shara Magomedov, con la pelea de Dan Ige y Lerone Murphy, y la pelea entre Ankalaev y Rakic acompañando la cartelera estelar.</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/shara-magomedov-ojo'>
                 <Image className={styles.homehero__article__img} src={magomedovOjo} alt='' />
