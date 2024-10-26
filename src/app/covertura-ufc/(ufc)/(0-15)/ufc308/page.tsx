@@ -37,8 +37,9 @@ export default function UFC308 () {
                     <p>Finalmente durante el tercer asalto, que fue el que determinó el resultado de esta pelea, el luchador polaco sería capaz de conectar un golpe que dejaría en el piso a su rival, buscando luego llevarse el asalto mediante ground and pound. Aún así, fue el luchador de Kirguistán el que mejor terminó el asalto, siendo capaz de conectar unos golpes que dejaron muy lastimado a su rival. El resultado final terminó por ser una victoria para Rebecki, que por decisión dividida fue el ganador de esta pedazo de pelea. </p>
                     <h2>Geoff Neal Vence a Rafael Dos Anjos por TKO en el Primer Asalto</h2>
                     <p>En una pelea que no duró mucho, el luchador estadounidense sería capaz de derrotar al excampeón de peso ligero, al brasileño <b>Rafael Dos Anjos</b> vía TKO, al primero haber logrado conectar un buen golpe que tiraría al suelo a su rival, para luego hacerse con la victoria por nocaut técnico al su rival sufrir una lesión en la pierna que no le permitiría continuar con la pelea.</p>
-                    {/* <h2>Shara Magomedov vs Armen Petrosyan</h2>
-                    <p></p> */}
+                    <h2>Shara Magomedov Noquea a Armen Petrosyan en el Segundo Asalto</h2>
+                    <p>El daguestaní logra una espectácular victoria por nocaut con un codazo en el segundo asalto en lo que fue una tremenda pelea.</p>
+                    <p>En lo que venía siendo una maravilla de combate, como nos tiene acostumbrados <Link href='/peleadores/shara-magomedov'>Shara Bullet</Link>, donde ambos luchadores consiguieron conectarse mutuamente, conectando low-kicks, patadas a la zona media del cuerpo y golpes a la cabeza, finalmente terminaría de la forma más impresionante posible, con un doble spinning-backfist que noquearía a su rival terminando el segundo asalto de la pelea. </p>
                     {/* <h2>Lerone Murphy vs Dan Ige</h2>
                     <p></p>
                     <h2>Magomed Ankalaev vs Aleksandar Rakic</h2>
