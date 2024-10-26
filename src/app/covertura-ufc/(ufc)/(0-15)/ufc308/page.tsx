@@ -43,8 +43,9 @@ export default function UFC308 () {
                     <h2>Lerone Murphy Derrota a Dan Ige por Decisión Unánime</h2>
                     <p>En lo que fue otra pelea entretenida en la cartelera estelar, con el primer asalto siendo a favor del estadounidense, el segundo para el inglés, y finalmente el tercero para Lerone Murphy, que sigue invicto en su carrera.</p>
                     <p>De esta manera, el luchador inglés extendiende su récord a 15-0-1, siguiendo invicto con una peleada, pero al fin y al cabo merecida, victoria por decisión unánime ante el veterano de la división <b>Dan Ige</b>. </p>
-                    {/* <h2>Magomed Ankalaev vs Aleksandar Rakic</h2>
-                    <p></p> */}
+                    <h2>Magomed Ankalaev vs Aleksandar Rakic</h2>
+                    <p>En una pelea que fue bastante cerrada, donde lo que predominó fue el striking, quien finalmente se llevó la pelea fue <Link href='/peleadores/magomed-ankalaev'>Magomed Ankalaev</Link>, quien fue de menos a más a lo largo del combate, mostrando tener cierto poder en sus manos, al conectar golpes que se notó que hicieron mella en su rival.</p>
+                    <p>Todos los jueces clasificaron la pelea 29-28, dando como ganador por decisión unánime al luchador daguestaní. Quien luego de su pelea, no dudo en retar al actual campeón de la división de peso semipesado <Link href='/peleadores/alex-pereira'>Alex Pereira</Link>. Queda esperar que es lo que hace la UFC, y ver si le da pelea titular al peleador ruso. </p>
                     {/* <h2>Robert Whittaker vs Khamzat Chimaev</h2>
                     <p></p> */}
                     {/* <h2>Ilia Topuria vs Max Holloway</h2>
