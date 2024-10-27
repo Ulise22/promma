@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc308'>
                 <Image className={styles.homehero__bigArticle__img} src={ufc308} alt='' />
-                <h2 className={styles.home__title}>UFC 308: ¡Ilia Topuria vs Max Holloway! ¡Robert Whittaker vs Khamzat Chimaev!</h2>
+                <h2 className={styles.home__title}>UFC 308: ¡Ilia Topuria Noquea a Max Holloway en el Tercer Asalto! ¡Khamzat Chimaev Somete a Robert Whittaker en el Primer Asalto!</h2>
                 <span>Tenemos un tremendo evento que además cuenta con el regreso al octágono de Shara Magomedov, con la pelea de Dan Ige y Lerone Murphy, y la pelea entre Ankalaev y Rakic acompañando la cartelera estelar.</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/shara-magomedov-ojo'>
