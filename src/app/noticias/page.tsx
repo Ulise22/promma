@@ -6,10 +6,10 @@ import ArticlePreview from '../articulos/components/ArticlePreview';
 /* HERO IMAGES */
 import michaelMorales from '@/assets/noticias/10-20/michael_morales.jpg'
 import drakeApuesta from '@/assets/noticias/10-20/drake_apuesta.jpg'
-import danHookerTattoos from '@/assets/noticias/10-20/dan_hooker_tattoos.jpg'
 import belalOdiado from '@/assets/noticias/10-20/belal_odiado.jpg'
 import kevinVallejosUFC from '@/assets/noticias/20-30/kevin_vallejos.jpg'
 import argUFC2024 from '@/assets/noticias/20-30/argentinos2024.jpg'
+import iliaPromissKOHolloway from '@/assets/noticias/10-20/ilia_promissko_holloway.jpg'
 /* 0 - 10 */
 import conor from '@/assets/peleadores__images/0-10/conor-mcgregor/mcgregor-card.jpg'
 import dwt2 from '@/assets/noticias/0-10/dwt2.jpeg'
@@ -25,6 +25,7 @@ import chandlerEspera from '@/assets/peleadores__images/10-20/michael-chandler/m
 import jonesEvitaAspinall from '@/assets/noticias/10-20/jones_evita_aspinall.jpg'
 import amandaVuelve from '@/assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_card.jpg'
 import khalil from '@/assets/noticias/10-20/khalil.webp'
+import danHookerTattoos from '@/assets/noticias/10-20/dan_hooker_tattoos.jpg'
 
 export default function NoticiasPage () {
     return(
@@ -61,11 +62,12 @@ export default function NoticiasPage () {
             <article className={styles.noticiasHero__container}>
                 <ArticlePreview img={argUFC2024} url='/noticias/peleadores-de-ufc-argentinos-2024' title='Los 5 Peleadores de UFC Argentinos Que Compiten en 2024' author={null} text='Con la llegada de Kevin Vallejos a la UFC, ya son 5 los argentinos que compiten en la UFC. Quiénes son y cómo les va.' date='16/09/2024' />
                 <ArticlePreview img={khalil} url='/noticias/khalil-rountree' title='¿Quién es Khalil Rountree? El Próximo Rival de Alex Pereira en el UFC 307' author={null} text='La historia de Khalil Rountree Jr. y de cómo paso de de pesar 300lbs a ser el peleador de UFC que va a pelear por el título de los semipesados.' date='16/09/2024' />
+                <ArticlePreview img={iliaPromissKOHolloway} url='/noticias/ilia-promete-ko-a-holloway' title='Ilia Promete KO en el Primer Asalto Contra Holloway' author={null} text='Ilia Topuria habló de su pelea con Max Holloway, en la cual promote noquear en el primer asalto, además habló de la llegada de su hermano a la UFC, futuras peleas, Islam Makhachev, Volkanovski, Sean O&apos;Malley, Diego Lopes, etc.' date='22/08/2024' />
                 <ArticlePreview img={drakeApuesta} url='/noticias/drake-apuesta-ufc' title='¡Drake es Mufa! Todas Las Apuestas Perdidas de Drake en UFC' author={null} text='"La maldición de Drake" y todos los peleadores que sufrieron de esta con las apuestas del cantante estadounidense' date='19/08/2024' />
-                <ArticlePreview img={danHookerTattoos} url='/noticias/dan-hooker-tattoos' title='Los tatuajes de Dan Hooker y su significado' author={null} text='Cómo la estrella de la UFC Dan Hooker pasó de no tener ningún tatuaje a llenarse el cuerpo de tinta y el significado detrás de sus tatuajes.' date='17/08/2024' />
             </article>
             <h2 className={styles.noticiasPage__subtitle}>Todas Las Noticias</h2>
             <article className={styles.noticias}>
+                <ArticlePreview img={danHookerTattoos} url='/noticias/dan-hooker-tattoos' title='Los tatuajes de Dan Hooker y su significado' author={null} text='Cómo la estrella de la UFC Dan Hooker pasó de no tener ningún tatuaje a llenarse el cuerpo de tinta y el significado detrás de sus tatuajes.' date='17/08/2024' />
                 <ArticlePreview img={cucuyRetiro} url='/noticias/tony-ferguson-retiro' title='¿Tony Ferguson Se Retira Luego de su Pelea con Michael Chiesa?' author={null} text='El Cucuy se enfrentará al estadounidense Michael Chiesa en agosto, pero ¿será esta su última pelea?' date='27/07/2024' />
                 <ArticlePreview img={jonesEvitaAspinall} url='/noticias/jones-esquiva-aspinall' title='¿Jon Jones Está Evitando a Tom Aspinall?' author={null} text='El actual campeón de peso pesado de UFC Jon Jones, ha rechazado pelear con el campeón interino Tom Aspinall a la espera de combatir en su lugar a Stipe Miocic.' date='16/07/2024' />
                 <ArticlePreview img={volkNextFight} url='/noticias/proxima-pelea-volkanovski' title='¿Volkanovski en Peso Ligero o Revancha Contra Ilia Topuria? Próxima Pelea de Alexander Volkanovski' author={null} text='¿Cuál va a ser la próxima pelea de Alexander Volkanovski? ¿Obtendrá una revancha por el título ante Ilia Topuria, o pasará página y se movera a la división de peso ligero para enfrentar a los otros contendientes?' date='08/07/2024' />
