@@ -20,14 +20,14 @@ export const metadata: Metadata = {
 export default function Illia () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={topuria} w={15} l={0} d={0} nombre='Ilia Topuria' categoria='Peso pluma (featherweight)' apodo='El Matador' />
+            <PeleadoresHero peleadoresImage={topuria} w={16} l={0} d={0} nombre='Ilia Topuria' categoria='Peso pluma (featherweight)' apodo='El Matador' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Ilia Topuria ufc</h2>
                     <p className={styles.peleador__article__text}>Ilia Topuria es un luchador de nacionalidad georgiana y española de <Link href='/articulos/ufc'>UFC</Link> que compite en la categoría de Peso Pluma, e hizo historia al convertirse en el primer peleador del país hispano en convertirse en campeón de la UFC, haciéndolo además contra un histórico de la división, <Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link> por KO, que junto a <Link href='/leyendas'>José Aldo</Link>, seguramente sea el mejor de la historia en la división de Peso Pluma.</p>
                     <Image className={styles.peleador__article__image} src={ilia} alt="Ilia topuria festejando una victoria de ufc despues de combatir contra Bryce Mitchel" />
                     <h2 className={styles.peleador__article__title}>Ilia Topuria Récord</h2>
-                    <p className={styles.peleador__article__text}>Ilia Topuria, a fecha de febrero de 2024, es el único campeón invicto que tiene la UFC con un récord de 15-0. Siendo 5 de sus victorias por nocaut, 8 por sumisión y tan sólo 2 por decisión. </p>
+                    <p className={styles.peleador__article__text}>Ilia Topuria, a fecha de octubre de 2024, es el único campeón invicto que tiene la UFC con un récord de 16-0. Siendo 6 de sus victorias por nocaut, 8 por sumisión y tan sólo 2 por decisión. </p>
                     <h2 className={styles.peleador__article__title}>Ilia Topuria Historia</h2>
                     <p className={styles.peleador__article__text}>Ilia Topuria en la ciudad alemana de Halle, ubicada en el distrito de Gütersloh, aunque al ser hijos de padres georgianos heredó su nacionalidad y no recibió la nacionalidad alemana. A los 7 años se mudó al país de origen de sus padres, Georgia, donde comenzó a practicar lucha grecorromana en la escuela. A los 15 años, Ilia junto a su hermano Aleksandre, se fue a vivir al país que hoy en día trata como propio, España, concretamente a la ciudad de Alicante, donde comenzó a entrenar en el gimnasio <b>Climent Club</b>, que es manejado por 2 hermanos que también son inmigrantes, en este caso, provenientes de Argentina.</p>
                     <p className={styles.peleador__article__text}>Una vez radicado allí compite y gana el torneo amateur <b>Arnold Fighters</b>, organizado por el histórico culturista y estrella de hollywood, <b>Arnold Schwarzanegger</b>. Además gana el subcampeonato de Europa de Jiu-Jitsu Brasileño en la categoría Junior, deporte y arte marcial del cual es cinturón negro bajo la tutela de sus maestros <b>Agustín y Jorge Climent</b>.</p>

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function Holloway () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={holloway} w={26} l={7} d={0} nombre='Max Holloway' apodo='BLESSED' categoria='Peso Pluma' />
+            <PeleadoresHero peleadoresImage={holloway} w={26} l={8} d={0} nombre='Max Holloway' apodo='BLESSED' categoria='Peso Pluma' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Max Holloway UFC</h2>
@@ -30,7 +30,7 @@ export default function Holloway () {
                     <p className={styles.peleador__article__text}>Desde su llegada a la UFC hace 11 años, Holloway ha roto todo tipo de records, desde cantidad de golpes conectados en toda la UFC, hasta cantidad de bonos ganados por pelea de la noche o por actuación de la noche, siendo una leyenda vivienda del deporte y de la compañía, y uno de los peleadores más destacados de la actualidad.</p>
                     <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/Fh-PoFV6Xdk?si=cEc-MIfkbA7ofnSq" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <h2 className={styles.peleador__article__title}>Max Holloway Récord</h2>
-                    <p className={styles.peleador__article__text}>Max Holloway tiene un récord de 26-7. Siendo 12 de sus 25 victorias por nocaut, 2 por sumisión y 12 por decisión. Mientras que de sus 7 derrotas, 1 ha sido por sumisión y 6 por decisión. En 13 años de carrera y en 33 combates, no ha perdido ninguna pelea por nocaut.</p>
+                    <p className={styles.peleador__article__text}>Max Holloway tiene un récord de 26-8. Siendo 12 de sus 25 victorias por nocaut, 2 por sumisión y 12 por decisión. Mientras que de sus 8 derrotas, 1 ha sido por sumisión, 6 por decisión, y sólo 1 por la vía del nocaut.</p>
                     <h2 className={styles.peleador__article__title}>Max Holloway Historia</h2>
                     <p className={styles.peleador__article__text}>Jerome Max Keli&apos;i Holloway nació el 4 de diciembre de 1991 en Honolu, Hawái. Viviendo una infancia en un entorno familiar complicado, debido a que cuando su padre se enteró de que su madre estaba embarazada, abandonó completamente a su familia. Pese a esto, la madre de Max era capaz de contactar con su padre cada tanto, resultando en fugaces reconciliaciones, que terminaban en el momento en que su padre le lavantaba la mano a su mujer.</p>
                     <p className={styles.peleador__article__text}>Debido a la ausencia de su padre, y a la poca responsabilidad de su madre, quien sufría de una adicción a ciertas sustancias jodidas, es que tanto Max, como sus hermanos, fueron educados principalmente por sus abuelos. El descubrir sobre el problema con las adicciones que su madre atravesaba, lejos de llevar a nuestro protagonista por el mismo camino, lo incentivo a alejarse lo más posible, dedicando su tiempo a hacer deporte en su lugar, siendo el Kickboxing el arte marcial que aprendería durante la adolescencia, y que le abriría las puertas a las MMA y a otras artes marciales que también practica como el Jiu Jitsu y el Muay Thai.</p>

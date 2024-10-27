@@ -18,13 +18,13 @@ export const metadata: Metadata = {
 export default function SharaMagomedov () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={14} l={0} d={0} nombre='Shara Magomedov' apodo='BULLET' categoria='Peso Medio' />
+            <PeleadoresHero peleadoresImage={fighter} w={15} l={0} d={0} nombre='Shara Magomedov' apodo='BULLET' categoria='Peso Medio' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Shara Bullet</h2>
                     <p className={styles.peleador__article__text}>Shara &quot;Bullet&quot; es un peleador ruso de la república de Daguestán, al igual que muchos de los peleadores más reconocidos de la UFC, como <Link href='/leyendas/khabib-nurmagomedov'>Khabib</Link>, <Link href='/peleadores/islam-makhachev'>Islam Makhachev</Link> o <Link href='/peleadores/magomed-ankalaev'>Ankalaev</Link>. Lleva peleando en la <Link href='/articulos/ufc'>UFC</Link> desde octubre de 2023, cuando enfrentó al ruso <b>Bruno Silva</b> en el UFC 294, ganando su combate por decisión unánime.</p>
                     <h2 className={styles.peleador__article__title}>Shara Magomedov Récord</h2>
-                    <p className={styles.peleador__article__text}>Shara Magomedov tiene un récord profesional invicto de 14-0 en lo que lleva de su carrera en las MMA. Siendo 11 de sus victorias por la vía del nocaut y sólo 3 por decisión. </p>
+                    <p className={styles.peleador__article__text}>Shara Magomedov tiene un récord profesional invicto de 15-0 en lo que lleva de su carrera en las MMA. Siendo 12 de sus victorias por la vía del nocaut y sólo 3 por decisión. </p>
                     <h2 className={styles.peleador__article__title}>Shara Magomedov Biografía</h2>
                     <p className={styles.peleador__article__text}>Sharabutdin Magomedovich Magomedov nació el 16 de mayo de 1994 en la República de Daguestán en Rusia. Originalmente comenzaría a practicar fútbol desde niño, pero una pelea con alguien de su equipo le causó la expulsión de este. Esto lo llevó a explorar otros deportes, en particular comenzó a entrenar boxeo a los 12 años de edad, según él mismo explicó a la UFC, porque quería ser capaz de defenderse en la calle, dado que en Daguestán, muchas veces se veía obligado a pelear, y en muchos casos era contra personas que iban al gimnasio y estaban entrenados, por lo que necesitaba tener algún tipo de entrenamiento en combate.</p>
                     <p className={styles.peleador__article__text}>Rápidamente destaca en los deportes de combates, especialmente en kickboxing y en el muay thai: ganando un campeonato internacional de boxeo a nivel amateur, un torneo internacional de Muay Thai, una competición All-Russian en muay thai, y una competición All-Russian Kickboxing. </p>

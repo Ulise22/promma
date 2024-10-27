@@ -19,13 +19,13 @@ export const metadata: Metadata = {
 export default function Khamzat () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={khamzat} w={13} l={0} d={0} nombre='Khamzat Chimaev' apodo='BORZ' categoria='Peso Medio' />
+            <PeleadoresHero peleadoresImage={khamzat} w={14} l={0} d={0} nombre='Khamzat Chimaev' apodo='BORZ' categoria='Peso Medio' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>UFC Chimaev</h2>
                     <p className={styles.peleador__article__text}>Khamzat Chimaev es un peleador nacido en Rusia que actualmente compite en la división de peso medio de la <Link href='/articulos/ufc'>UFC</Link>, en donde está desde julio de 2020, cuando hiciera su debut ante el galés <b>John Philips</b>.</p>
                     <h2 className={styles.peleador__article__title}>Khamzat Chimaev Récord</h2>
-                    <p className={styles.peleador__article__text}>Khamzat Chimaev sostiene un récord perfecto de 13-0. Siendo 6 de estas victorias por la vía del nocaut, 5 por la vía de la sumisión y 2 por decisión. Además, un poco más de la mitad de sus victorias se dieron en la UFC, donde consiguió ganar en 7 ocasiones.</p>
+                    <p className={styles.peleador__article__text}>Khamzat Chimaev sostiene un récord perfecto de 14-0. Siendo 6 de estas victorias por la vía del nocaut, 6 por la vía de la sumisión y 2 por decisión. Además, un poco más de la mitad de sus victorias se dieron en la UFC, donde consiguió ganar en 7 ocasiones.</p>
                     <h2 className={styles.peleador__article__title}>Khamzat Chimaev Khabib</h2>
                     <p className={styles.peleador__article__text}>La historia entre Khamzat Chimaev y <Link href='/leyendas/khabib-nurmagomedov'>Khabib Nurmagomedoz</Link>, sucedió durante el evento de UFC 280, que vería como el peleador entrenado por Khabib, <Link href='/peleadores/islam-makhachev'>Islam Makhachev</Link>, le arreabataría el título de Peso Ligero al brasileño <Link href='/peleadores/charles-oliveira'>Charles Oliveira</Link>. Después de este combate, hubo un enfrentamiento fuera del octagono entre el primo de Khabib, <b>Abukar Nurmagomedov</b>, quien había peleado en ese evento en uno de los combates preliminares del evento. La pelea casi escala al punto de tener involucrados tanto a Khamzat como a Khabib, por lo que seguridad se tuvo que involucrar para evitar que el conflicto escale a mayores.</p>
                     <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/Qah195MOT7w?si=Stbz1ATyNleS7eyo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
