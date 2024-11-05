@@ -67,6 +67,7 @@ export default function Atribuciones () {
                 <li>&quot;UFC 189 World Tour Aldo vs. McGregor London 2015 (18776759002).jpg&quot; de <b>Andrius Petrucenia</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 4.0 International</li>
                 <li>&quot;Drake and Future 2016 Summer Sixteen Tour.jpg&quot; de <b>The Come Up Show</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
                 <li>&quot;2022-01-22 at 8.20.51 PM.png&quot; de <b>Fgytf</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
+                <li>&quot;Sharabutdin Magomedov 2024.png&quot; de <b>Sexto Round</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
             </ul>
         </main>
     )

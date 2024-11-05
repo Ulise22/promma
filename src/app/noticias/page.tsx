@@ -9,6 +9,7 @@ import belalOdiado from '@/assets/noticias/10-20/belal_odiado.jpg'
 import kevinVallejosUFC from '@/assets/noticias/20-30/kevin_vallejos.jpg'
 import argUFC2024 from '@/assets/noticias/20-30/argentinos2024.jpg'
 import iliaPromissKOHolloway from '@/assets/noticias/10-20/ilia_promissko_holloway.jpg'
+import sharaBulletFeb2025 from '@/assets/noticias/0-10/shara_bullet_feb_2025.jpg'
 import proxRivalDuPlessis from '@/assets/noticias/0-10/chimaev_or_strickland.jpg'
 /* 0 - 10 */
 import conor from '@/assets/peleadores__images/0-10/conor-mcgregor/mcgregor-card.jpg'
@@ -59,8 +60,8 @@ export default function NoticiasPage () {
                 </Link>
             </article>
             <article className={styles.noticiasHero__container}>
+                <ArticlePreview img={sharaBulletFeb2025} url='/noticias/shara-bullet-pelea-febrero-2025' title='¿Shara Magomedov vs Paulo Costa Para Febrero de 2025?' author={null} text='¿Cuál será el próximo rival de Shara Bullet en febrero del 2025? ¿Israel Adesanya? ¿Paulo Costa? ¿Michael Venom Page?' date='04/11/2024' />
                 <ArticlePreview img={argUFC2024} url='/noticias/peleadores-de-ufc-argentinos-2024' title='Los 5 Peleadores de UFC Argentinos Que Compiten en 2024' author={null} text='Con la llegada de Kevin Vallejos a la UFC, ya son 5 los argentinos que compiten en la UFC. Quiénes son y cómo les va.' date='26/09/2024' />
-                <ArticlePreview img={kevinVallejosUFC} url='/noticias/kevin-vallejos-entra-a-ufc' title='Kevin Vallejos Gana Por Nocaut En El Primer Asalto y se Asegura el Contrato en la UFC' author={null} text='El Chino Vallejos Gana por Nocaut en el Dana White&apos;s Contender Series y se asegura un contrato en la UFC.' date='24/09/2024' />
                 <ArticlePreview img={khalil} url='/noticias/khalil-rountree' title='¿Quién es Khalil Rountree? El Próximo Rival de Alex Pereira en el UFC 307' author={null} text='La historia de Khalil Rountree Jr. y de cómo paso de de pesar 300lbs a ser el peleador de UFC que va a pelear por el título de los semipesados.' date='16/09/2024' />
                 <ArticlePreview img={iliaPromissKOHolloway} url='/noticias/ilia-promete-ko-a-holloway' title='Ilia Promete KO en el Primer Asalto Contra Holloway' author={null} text='Ilia Topuria habló de su pelea con Max Holloway, en la cual promote noquear en el primer asalto, además habló de la llegada de su hermano a la UFC, futuras peleas, Islam Makhachev, Volkanovski, Sean O&apos;Malley, Diego Lopes, etc.' date='22/08/2024' />
             </article>
