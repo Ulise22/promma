@@ -16,12 +16,9 @@ import masvidalVsAskren from '@/assets/articulos/0-10/masvidal_vs_askren.jpeg'
 /* 10-20 */
 import GoatFemUfc from '@/assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_card.jpg'
 import bestMAForMMA from '@/assets/articulos/10-20/best_ma_for_mma.jpg'
-import mmaMedieval from '@/assets/articulos/10-20/mma_medieval.jpeg'
-import carJiujitsu from '@/assets/articulos/10-20/car_jiujitsu.jpg'
 import mostProFights from '@/assets/articulos/10-20/most_pro_fights.jpg'
 import allDoubleChamps from '@/assets/articulos/10-20/dobles-campeones.jpg'
 import mariusz from '@/assets/articulos/10-20/mariusz_pudzianowski.jpg'
-import jamesToney from '@/assets/articulos/10-20/james_toney.jpg'
 /* 20-30 */
 import jimMiller from '@/assets/articulos/20-30/jim-miller.jpg'
 import ufc from '@/assets/articulos/20-30/ufc.jpg'
@@ -77,7 +74,6 @@ export default function Articulos () {
                 <ArticlePreview img={bestFight} url='/articulos/mejor-pelea-mma-de-la-historia' title='Don Frye vs Takayama: La Mejor Pelea de MMA en la Historia' author={null} text='La pelea más loca de todos los tiempos entre Don Frye y Yoshihiro Takayama que hizo historia en las MMA, y qué fue de la vida de los peleadores.' date='28/08/2024' />
                 <ArticlePreview img={helwaniVsWhite} url='/articulos/ariel-helwani-vs-dana-white' title='El Periodista al que Dana White Detesta: ¿Por qué Dana White odia a Ariel Helwani?' author={null} text='La historia del qué pasó entre Ariel Helwani y UFC, y de qué sucedio entre Dana White y Ariel Helwani.' date='24/08/2024' />
                 <ArticlePreview img={gspAliens} url='/articulos/george-st-pierre-aliens' title='George St-Pierre Tiene Miedo a los Aliens y su Plan Para Evitar ser Abducido' author={null} text='La leyenda y excampeón de la UFC y su peculiar miedo a los Aliens y la estrategia que ideó para lidiar con ellos.' date='22/08/2024' />
-                <ArticlePreview img={khabibPierde} url='/articulos/khabib-nurmagomedov-pierde' title='La Única Derrota de Khabib Nurmagomedov' author={null} text='La historia y el vídeo de un joven Khabib de 17 años llorando después de perder una pelea de sambo en un campeonato ruso.' date='19/08/2024' />
                 <ArticlePreview img={LeeMurray} url='/articulos/lee-murray' title='Lee Murray: El Luchador de UFC Que Realizó el Mayor Robo en Reino Unido' author={null} text='Lee Murray, luchador de MMA y expeleador de UFC que vivió su vida como si fuera un personaje de GTA, siendo uno de los perpetuadores del mayor robo de dinero en efectivo en la historia de Reino Unido.' date='23/07/2024' />
                 <ArticlePreview img={mmaVsBoxPeligro} url='/articulos/boxeo-vs-mma-peligroso' title='Boxeo vs MMA: ¿Cuál Es Más Peligroso?' author={null} text='2 de los deportes de combate más practicados en el mundo, pero uno de los 2 cuenta con la peculiaridad de ser más riesgoso durante su práctica para quien lo entrena.' date='21/07/2024' />
                 <ArticlePreview img={jonesEscondido} url='/articulos/jon-jones-esconde-usada' title='El Día Que Jon Jones se Escondió en Un Octagono Para No Ser Testeado' author={null} text='La curiosa anécdota sobre Jon Jones y cómo pasó el día entero escondido debajo de un octágono con tal de no ser testeado en las pruebas antidopaje.' date='08/07/2024' />
@@ -90,7 +86,6 @@ export default function Articulos () {
                 <ArticlePreview img={pridefc} url='/articulos/que-paso-con-pride-fc' title='¿Qué Pasó con Pride FC?' author={null} text='Cómo el control de la mafia japonea Yakuza acabó con el reinado de la mayor compañía de MMA de la historia.' date='19/06/2024' />
                 <ArticlePreview img={palhares} url='/articulos/peleador-mas-sucio-ufc' title='El Peleador Más Sucio de la Historia Expulsado de la UFC' author={null} text='Rousimar Palhares, el luchador más sucio de la historia de las MMA que por su comportamiento dentro del octagono fue expulsado de la UFC.' date='19/06/2024' />
                 <ArticlePreview img={mejoresPeleasUFC} url='/articulos/mejores-peleas-ufc' title='Las Mejores Peleas de UFC de la Historia Por Año Desde el 2008 a la Actualidad' author={null} text='El listado de las mejores peleas de la historia, basado en los World MMA Awards que premian a la mejor pelea del año desde el año 2008 hasta la actualidad.' date='18/06/2024' />
-                <ArticlePreview img={jamesToney} url='/articulos/boxeador-en-mma' title='Boxeo Vs MMA: ¿Qué pasa cuando un boxeador pelea en MMA? Cuando las MMA Aplastaron al Boxeo' author={null} text='El día que un excampeón de boxeo se metió a competir en la UFC, y cómo terminó su enfrentamiento en el octagono.' date='14/06/2024' />
                 <ArticlePreview img={ufc} url='/articulos/ufc' title='UFC: Historia e Información de la Compañía de MMA Más Grande del Mundo' author={null} text='Todo lo relacionado al origen, crecimiento y actualidad de la compañía UFC.' date='05/06/2024' />
                 <ArticlePreview img={jimMiller} url='/articulos/jim-miller-historia' title='Jim Miller, el Peleador con Más Victorias en la Historia de la UFC y que Participó del UFC100, UFC200 y UCF300' author={null} text='La historia de uno de los peleadores más importantes en la historia de la compañía más grande de MMA, que cuenta con más de 40 peleas en UFC.' date='02/05/2024' />
                 <ArticlePreview img={nateDiaz} url='/articulos/nate-diaz-historia' title='Nate Diaz, el Peleador Más Querido de la UFC' author={null} text='La historia de uno de los peleadores más carismáticos de la UFC, que supo ganarse el cariño de la gente con peleas memorables y con su forma de ser.' date='01/05/2024' />
