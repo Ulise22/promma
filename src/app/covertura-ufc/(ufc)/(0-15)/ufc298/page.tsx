@@ -25,6 +25,9 @@ export default function UFC298 () {
                     <h2>Merab Dvalishvili Derrota a Henry Cejudo por Decisión</h2>
                     <p>En una pelea entretenida donde se vió a un muy buen Henry Cejudo en el primer asalto, vimos al georgiano <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link> ir creciendo a medida que transcurría el combate, al punto de que luego de los 3 asaltos de la pelea, se terminó consagrando como el ganador de la misma.</p>
                     <p>Demostrando luego de esta victoria contra otro ex-campeón de los Peso Gallo, que practicamente no tiene otro rival en la división que le pueda hacer frente.</p>
+                    <h2>¡Amanda Lemos Derrota a Mackenzie Dern en la Pelea de la Noche!</h2>
+                    <p>En el que era el único combate femenino de la cartelera estelar y preliminar, es donde nos encontraríamos con la que sin dudas es la pelea de la noche, donde la experimentada brasileña <b>Amanda Lemos</b> lograría imponerse por sobre la estadounidense <Link href='/mujeres/mackenzie-dern'>Mackenzie Dern</Link> en lo que fue un combate bastante cerrado, logrando ganarle sólo 2 de los 3 asaltos a la luchadora americana. </p>
+                    <p>De esta manera la brasileña volvería a la senda de la victoria, luego de lo que fue su derrota por el campeonato de peso paja femenina ante la luchadora china <Link href='/mujeres/zhang-weili'>Zhang Weili</Link>. Por su parte, la estadounidense con esta pelea acumula 2 derrotas consecutivas, dado que venía de una reciente derrota en noviembre de 2023 ante la también brasileña <b>Jéssica Andrade</b>, quien la noqueó en el segundo asalto. De igual manera, con la actuación que ambas luchadoras dieron esta noche, se convirtieron en grandes merecedoras del bono de $50k. </p>
                 </article>
                 <AsideChamps />
             </section>
