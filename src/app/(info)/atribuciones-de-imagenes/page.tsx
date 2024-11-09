@@ -16,6 +16,9 @@ export default function Atribuciones () {
                 <li>&quot;Alexa Grasso 2023 03.png&quot; de <b>Alexa Lopez Col</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Kayla Harrison Rio 2016.jpg&quot; de <b>Agência Brasil Fotografias</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
                 <li>&quot;Holly Holm at UFC 246.jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Valentina Shevchenko 2020.jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Ceremonial weigh ins - Amanda Nunes vs Julianna Peña UFC 269 - YouTube - 0 23 (cropped).jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Raquel Pennington UFC (29322870015)(cropped).jpg&quot; de <b>NATHANIEL GARCIA PHOTOGRAPHY</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Zero, Public Domain Dedication</li>
                 {/* Leyendas */}
                 <li>&quot;Khabib nurmagomedov hall of fame ufc.jpg&quot; de <b>Airotcivss</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
                 <li>&quot;2021 - ContentMakers CG1 0140 (51654351373) (cropped).jpg&quot; de <b>Web Summit</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
@@ -54,6 +57,12 @@ export default function Atribuciones () {
                 <li>&quot;Joel-alvarez-posando.jpg&quot; de <b>Jprietf</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
                 <li>&quot;Magomed Ankalaev at UFC Fight Night 136 in Moscow, Russia.jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;UmarNurmagomedov.png&quot; de <b>Новости ННТ</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Sharabutdin Magomedov 2024.png&quot; de <b>Sexto Round</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Robert Whittaker 2024.png&quot; de <b>Sexto Round</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Francis Ngannou 2023 (cropped).png&quot; de <b>Mike Tyson</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Dustin poirier 2024.jpg&quot; de <b>Poatanfan24</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
+                <li>&quot;Michael Chandler (Cropped).jpg&quot; de <b>Nate Pesce</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
+                <li>&quot;Santiago Ponzinibbio.jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
                 {/* Artículos */}
                 <li>&quot;Glover Teixeira, November 2021.jpg&quot; de <b>Apsanibel</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
                 <li>&quot;UFC 257 Conor McGregor vs Dustin Poirier 2 by WWESlashrocker54 on DeviantArt&quot; de <b>DevianArt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
@@ -62,12 +71,17 @@ export default function Atribuciones () {
                 <li>&quot;JJ.Vol. 29 No1. 2005(1184).jpg&quot; de <b>Nori Bunasawa</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
                 <li>&quot;CM Punk 2022-03-23 (AEW Wrestling, Dynamite, HEB Center, Cedar Park) 01.jpg&quot; de <b>Ralph Arvesen</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 2.0</li>
                 <li>&quot;Eric Esch 2006.jpg&quot; de <b>Larry Burton</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 3.0</li>
+                <li>&quot;Popek 2018.jpg&quot; de <b>Serecki</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
+                <li>&quot;Zabit Magomedsharipov at UFC Fight Night 136.jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Michael Bisping.png&quot; de <b>Nate Lindaman</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Khabib Nurmagomedov 2.png&quot; de <b>BattleBeetle</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Tony Ferguson 2019.jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 {/* Noticias */}
                 <li>&quot;Topuria shocks Volkanovski to win UFC featherweight title | FMT&quot; de <b>unknown</b>, disponible en Free Malasysia Today bajo la licencia Creative Commons Attribution 4.0 International</li>
                 <li>&quot;UFC 189 World Tour Aldo vs. McGregor London 2015 (18776759002).jpg&quot; de <b>Andrius Petrucenia</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 4.0 International</li>
                 <li>&quot;Drake and Future 2016 Summer Sixteen Tour.jpg&quot; de <b>The Come Up Show</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
                 <li>&quot;2022-01-22 at 8.20.51 PM.png&quot; de <b>Fgytf</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
-                <li>&quot;Sharabutdin Magomedov 2024.png&quot; de <b>Sexto Round</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Ilia Topuria at the Orbeliani Palace.jpg&quot; de <b>საქართველოს პრეზიდენტის ადმინისტრაცია</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 4.0</li>
             </ul>
         </main>
     )
