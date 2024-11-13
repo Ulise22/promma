@@ -31,8 +31,8 @@ export default function Mujeres () {
                     <Link href='/mujeres/holly-holm' className={`${styles.peleadores__card} ${styles.peleadores__card_holly}`}>
                         <h3 className={styles.peleadores__card__name}>Holly Holm</h3>
                     </Link>
-                    <Link href='/mujeres/rose-namajumas' className={`${styles.peleadores__card} ${styles.peleadores__card_namajumas}`}>
-                        <h3 className={styles.peleadores__card__name}>Rose Namajumas</h3>
+                    <Link href='/mujeres/rose-namajunas' className={`${styles.peleadores__card} ${styles.peleadores__card_namajumas}`}>
+                        <h3 className={styles.peleadores__card__name}>Rose Namajunas</h3>
                     </Link>
                     <Link href='/mujeres/raquel-pennington' className={`${styles.peleadores__card} ${styles.peleadores__card_pennington}`}>
                         <h3 className={styles.peleadores__card__name}>Raquel Pennington</h3>
