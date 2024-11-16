@@ -6,12 +6,11 @@ export default function Atribuciones () {
             <h1>Atribuciones de Imagenes Utilizadas en el Sitio Web:</h1>
             <ul>
                 {/* <li>"Título de la obra" de [Autor], disponible en [Fuente], bajo la licencia [Tipo de Licencia].</li> */}
+                {/* Covertura UFC */}
                 <li>&quot;Derrick Lewis after UFC 239.jpg&quot; de <b>MMAnytt</b>, disponible en Wikimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Renato Moicano 2024.png&quot; de <b>Show Me The Money</b>, disponible en Wikimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Benoit Saint Denis 2023.png&quot; de <b>ZACK</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
-                <li>&quot;Sean O&apos;Malley 2018.png&quot; de <b>Optic Gaming</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
-                <li>&quot;Belal Muhammad UFC.jpg&quot; de <b>Inaquout</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
-                <li>&quot;Khalil Rountree, Jr.. (cropped).jpg&quot; de <b>Slsinc</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
+                <li>&quot;Stipe Miocic (48086547846) (cropped).jpg&quot; de <b>Erik Drost</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
                 {/* Mujeres */}
                 <li>&quot;Alexa Grasso 2023 03.png&quot; de <b>Alexa Lopez Col</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Kayla Harrison Rio 2016.jpg&quot; de <b>Agência Brasil Fotografias</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
@@ -34,6 +33,8 @@ export default function Atribuciones () {
                 <li>&quot;Randy Couture at the 2008 Tribeca Film Festival.JPG&quot; de <b>David Shankbone</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Fedor Emelianenko Dec 2015.jpg&quot; de <b>Bruno Massami</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 {/* Peleadores */}
+                <li>&quot;Sean O&apos;Malley 2018.png&quot; de <b>Optic Gaming</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;Belal Muhammad UFC.jpg&quot; de <b>Inaquout</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
                 <li>&quot;Alexander Volkanovski at UFC 232.jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Alexandre Pantoja.png&quot; de <b>Sexto Round</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Alex Pereira UFC 300.png&quot; de <b>Chamatkar Sandhu</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
@@ -77,6 +78,7 @@ export default function Atribuciones () {
                 <li>&quot;Khabib Nurmagomedov 2.png&quot; de <b>BattleBeetle</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Tony Ferguson 2019.jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 {/* Noticias */}
+                <li>&quot;Khalil Rountree, Jr.. (cropped).jpg&quot; de <b>Slsinc</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
                 <li>&quot;Topuria shocks Volkanovski to win UFC featherweight title | FMT&quot; de <b>unknown</b>, disponible en Free Malasysia Today bajo la licencia Creative Commons Attribution 4.0 International</li>
                 <li>&quot;UFC 189 World Tour Aldo vs. McGregor London 2015 (18776759002).jpg&quot; de <b>Andrius Petrucenia</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 4.0 International</li>
                 <li>&quot;Drake and Future 2016 Summer Sixteen Tour.jpg&quot; de <b>The Come Up Show</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>

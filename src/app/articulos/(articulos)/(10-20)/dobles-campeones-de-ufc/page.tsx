@@ -8,10 +8,10 @@ import hero from '@/assets/articulos/10-20/dobles-campeones.jpg'
 
 export const metadata: Metadata = {
     title: 'Dobles Campeones de UFC',
-    description: '',
+    description: 'Desde su creación en 1993, la UFC ha sido el epicentro del deporte de las artes marciales mixtas (MMA), por lo que convertirse en campeón de cualquiera de las divisiones de esta compañía te pone en una posición diferente del resto de peleadores, requiere de una cálidad muy distinguida por sobre los demás luchadores para conseguir tal logro. Por lo tanto aún más difícil es el covertirse en campeón no de 1, sino de 2 divisiones diferentes. Por eso hoy vamos a repasar la lista de todos los 9 dobles campeones de la UFC. ',
     openGraph: {
         title: 'Dobles Campeones de UFC',
-        description: '',
+        description: 'Desde su creación en 1993, la UFC ha sido el epicentro del deporte de las artes marciales mixtas (MMA), por lo que convertirse en campeón de cualquiera de las divisiones de esta compañía te pone en una posición diferente del resto de peleadores, requiere de una cálidad muy distinguida por sobre los demás luchadores para conseguir tal logro. Por lo tanto aún más difícil es el covertirse en campeón no de 1, sino de 2 divisiones diferentes. Por eso hoy vamos a repasar la lista de todos los 9 dobles campeones de la UFC.',
         url: 'https://fullmma.org/articulos/dobles-campeones-de-ufc'
     }
 }
