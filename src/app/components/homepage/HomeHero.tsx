@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc309'>
                 <Image className={styles.homehero__bigArticle__img} src={ufc309} alt='' />
-                <h2 className={styles.home__title}>UFC 309: ¡Jon Jones vs Stipe Miocic Por El Campeonato de Peso Pesado!</h2>
+                <h2 className={styles.home__title}>UFC 309: ¡Jon Jones Noquea a Stipe Miocic en el Tercer Asalto en su Primer Defensa del Título! ¡Charles Oliveira Derrota a Michael Chandler por Decisión en La Pelea de la Noche!</h2>
                 <span>¡Bo Nical derrota a Paul Craig y mantiene su invicto de 7-0! Además el brasileño Mauricio Ruffy vence al peruano James Llontop por decisión en su segunda pelea en la UFC.</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/shara-magomedov-ojo'>
