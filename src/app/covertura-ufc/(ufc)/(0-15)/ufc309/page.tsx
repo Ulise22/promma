@@ -28,8 +28,9 @@ export default function UFC309 () {
                     <p>El #9 de la división de peso pesado, <b>Marcin Tybura</b> logra una victoria por TKO en el segundo asalto ante el brasileño <b>Jhonatan Diniz</b>, luego de que estando montado por encima de su rival, conectará unos codos a la cabeza que generaron cortes en ambos ojos, que le impidieron estar en condiciones de seguir peleando a los ojos del médico. </p>
                     <p>Durante la pelea, pareció al inicio de esta que el brasileño podría llevarse la victoria por nocaut, dado que mientras la pelea estuvo de pie, consiguió conectar unos golpes que cerca de noquear estuvieron. Sin embargo, Tybura consiguió concretar un derribo tanto en el primer como en el segundo asalto, que le aseguraron una cómoda victoria, dado que Diniz no supo como defender dichos derribos, ni como ponerse de pie una vez derribado.</p>
                     <p>De esta manera el polaco, que había aceptado la pelea en corto aviso, logra volver a la senda de la victoria, dado que venía de una derrota por sumisión ante Spivac.</p>
-                    {/* <h2>David Onama vs Roberto Romero</h2>
-                    <p></p> */}
+                    <h2>David Onama Derrota a Roberto Romero Por Decisión</h2>
+                    <p>El luchador de Uganda <b>David Onama</b> derrotó por decisión al mexicano <b>Roberto Romero</b>, quien estaba haciendo su debut en la UFC. Con un primer asalto que probablemente fue lo mejor que vimos hasta ahora en este UFC309, en donde el debutante mexicano se vió bastante bien, conectando muchos golpes potentes que cerca estuvieron de noquear a su rival, a medida que fue pasando la pelea, el de Uganda fue de menos a más, terminando por dominar completamente la pelea en el final del tercer asalto, con un Ground & Pound que le garantizaron la victoria. De esta forma Onama extiende su récord profesional a 13-2, acumulando una racha de 3 victorias consecutivas.</p>
+                    <p>Por su parte el mexicano hizo un debut bastante digno, dando la que fue de las peleas más entretenidas de la noche, y demostrando que tiene cálidad de sobra para estar en la UFC. </p>
                     {/* <h2>Jim Miller vs Damon Jackson</h2>
                     <p></p> */}
                     {/* <h2>Mauricio Ruffy vs James Llontop</h2>
