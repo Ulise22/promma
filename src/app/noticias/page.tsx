@@ -13,9 +13,7 @@ import proxRivalDuPlessis from '@/assets/noticias/0-10/chimaev_or_strickland.jpg
 /* 0 - 10 */
 import conor from '@/assets/peleadores__images/0-10/conor-mcgregor/mcgregor-card.jpg'
 import dwt2 from '@/assets/noticias/0-10/dwt2.jpeg'
-import poirierVsMakhachev from '@/assets/noticias/0-10/poirier-vs-makhachev.jpg'
 import rivalsIlia from '@/assets/noticias/0-10/ilia_prox_rival.jpg'
-import ortegaLopes from '@/assets/noticias/0-10/ortega-vs-lopes.jpg'
 import cucuyRetiro from '@/assets/noticias/0-10/ferguson_retiro.jpg'
 /* 10 - 20 */
 import volkNextFight from '@/assets/peleadores__images/0-10/alexander-volkanovski/volkanovski.jpg'
