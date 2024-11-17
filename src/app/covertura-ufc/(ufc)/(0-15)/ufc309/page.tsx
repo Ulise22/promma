@@ -42,8 +42,8 @@ export default function UFC309 () {
                     <p>La pelea no fue para nada cerrada, puesto que el brasileño conectó los mejores golpes y dominó la pelea durante los 3 asaltos. Manteniendo el combate de pie durante la mayor parte del tiempo, y estando cerca de noquear al peruano, Ruffy es capaz de llevarse una clara victoria que extiende su récord a 11-1. </p>
                     <h2>Viviane Araújo Derrota a Karine Silva Por Decisión</h2>
                     <p>En la pela femenina que chocaba a 2 peleadoras brasileñas, quien se terminó llevando la victoria es <b>Viviane Araujo</b>, que al hacer un muy buen primer y tercer asalto, le alcanzó para ganar la pelea y por ende, para acabar con el récord invicto que llevaba <b>Karine Silva</b> en la UFC. De esta forma, la veterana de 37 años, Viviana Araujo, extiende su récord a 13-6, y mantiene su posición en los rankings de la UFC.</p>
-                    {/* <h2>Bo Nickal vs Paul Craig</h2>
-                    <p></p> */}
+                    <h2>Bo Nickal Derrota a Paul Craig Por Decisión</h2>
+                    <p>El estadounidense <b>Bo Nickal</b> protege su invicto, extendiendo su récord a 7-0, luego de obtener una merecida victoria por decisión. El joven luchador sorprendió al no hacer su uso de implacable lucha, sin intentar ni siquiera un derribo, manteniendo la pelea en todo tiempo en el terreno del striking, logrando conectar los volados con izquierda en varias oportunidades, a los que el veterano <b>Paul Craig</b> no pudo esquivar, probablemente porque estuvo durante los 3 asaltos bastante preocupado por los posibles derribos que podría haber intentado Nickal, que finalmente no ocurrió. </p>
                     {/* <h2>Charles Oliveira vs Michael Chandler</h2>
                     <p></p> */}
                     {/* <h2>Jon Jones vs Stipe Miocic</h2>
