@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function UFC309 () {
     return(
         <main>
-            <ArticleHero title="UFC 309: ¡Jon Jones vs Stipe Miocic Por El Campeonato de Peso Pesado!" subtitle='Evento de UFC con la pelea por el título de peso pesado entre Jon Jones y la leyenda de la división Stipe Miocic. Además, pelea a 5 asaltos en peso ligero entre Charles Oliveira y Michael Chandler.' image={hero} date='2024-11-16' author={null} updatedDate='2024-11-17' />
+            <ArticleHero title="UFC 309: ¡Charles Oliveira Derrota a Michael Chandler por Decisión en La Pelea de la Noche!" subtitle='¡Bo Nical derrota a Paul Craig y mantiene su invicto de 7-0! Además el brasileño Mauricio Ruffy vence al peruano James Llontop por decisión en su segunda pelea en la UFC. ' image={hero} date='2024-11-16' author={null} updatedDate='2024-11-17' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos un tremendo evento de UFC en el Madison Square Garden con la pelea por el campeonato de peso pesado de la compañia, entre el GOAT de la <Link href='/articulos/ufc'>UFC</Link> <Link href='/peleadores/jon-jones'>Jon Jones</Link> y la leyenda de los pesos pesados <b>Stipe Miocic</b>. Además, acompañando la cartelera estarán <Link href='/peleadores/charles-oliveira'>Charles Oliveira</Link> y <Link href='/peleadores/michael-chandler'>Michael Chandler</Link> como evento coestelar, en una pelea a 5 asaltos que posiblemente definirá al próximo contendiente al título de la división de peso ligero. </p>
@@ -44,8 +44,9 @@ export default function UFC309 () {
                     <p>En la pela femenina que chocaba a 2 peleadoras brasileñas, quien se terminó llevando la victoria es <b>Viviane Araujo</b>, que al hacer un muy buen primer y tercer asalto, le alcanzó para ganar la pelea y por ende, para acabar con el récord invicto que llevaba <b>Karine Silva</b> en la UFC. De esta forma, la veterana de 37 años, Viviana Araujo, extiende su récord a 13-6, y mantiene su posición en los rankings de la UFC.</p>
                     <h2>Bo Nickal Derrota a Paul Craig Por Decisión</h2>
                     <p>El estadounidense <b>Bo Nickal</b> protege su invicto, extendiendo su récord a 7-0, luego de obtener una merecida victoria por decisión. El joven luchador sorprendió al no hacer su uso de implacable lucha, sin intentar ni siquiera un derribo, manteniendo la pelea en todo tiempo en el terreno del striking, logrando conectar los volados con izquierda en varias oportunidades, a los que el veterano <b>Paul Craig</b> no pudo esquivar, probablemente porque estuvo durante los 3 asaltos bastante preocupado por los posibles derribos que podría haber intentado Nickal, que finalmente no ocurrió. </p>
-                    {/* <h2>Charles Oliveira vs Michael Chandler</h2>
-                    <p></p> */}
+                    <h2>Charles Oliveira Derrota a Michael Chandler Por Decisión Unánime en una Tremenda Pelea</h2>
+                    <p>En un tremendo espectáculo, el brasileño excampeón de peso ligero <Link href='/peleadores/charles-oliveira'>Charles Oliveira</Link>, logra llevarse la victoria por decisión unánime ante el estadounidense <Link href='/peleadores/michael-chandler'>Michael Chandler</Link>, luego de dominar 4 de los 5 asaltos que duró la pelea coestelar, conectando muy buenos golpes, y amenzando en todo momento con una sumisión al luchador americano.</p>
+                    <p>Seguramente esta será elegida la Pelea de la Noche, puesto que hubo un vaivén de emociones, dado que el brasileño había conseguido dominar la mayor parte de la pelea, hasta que en el último asalto, ya sin nada que perder, Michael Chandler consiguió conectar una serie de golpes que cerca estuvieron de noquear a Charles, en lo que hubiera sido una locura de haberse concretado. Finalmente, Oliveira logró ponerse por encima de su rival, para evitar seguir sufriendo daño y de esta forma asegurarse la victoria. </p>
                     {/* <h2>Jon Jones vs Stipe Miocic</h2>
                     <p></p> */}
                 </article>

@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc309'>
                 <Image className={styles.homehero__bigArticle__img} src={ufc309} alt='' />
                 <h2 className={styles.home__title}>UFC 309: ¡Jon Jones vs Stipe Miocic Por El Campeonato de Peso Pesado!</h2>
-                <span>Evento de UFC con la pelea por el título de peso pesado entre Jon Jones y la leyenda de la división Stipe Miocic. Además, pelea a 5 asaltos en peso ligero entre Charles Oliveira y Michael Chandler.</span>
+                <span>¡Bo Nical derrota a Paul Craig y mantiene su invicto de 7-0! Además el brasileño Mauricio Ruffy vence al peruano James Llontop por decisión en su segunda pelea en la UFC.</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/shara-magomedov-ojo'>
                 <Image className={styles.homehero__article__img} src={magomedovOjo} alt='' />
