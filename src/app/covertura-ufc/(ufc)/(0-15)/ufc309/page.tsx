@@ -34,6 +34,9 @@ export default function UFC309 () {
                     <h2>¡Jim Miller Somete a Damon Jackson en el Primer Asalto!</h2>
                     <p>El estadounidense <Link href='/articulos/jim-miller-historia'>Jim Miller</Link>, que con sus 41 años ya es el luchador con más peleas en la UFC, consigue una nueva victoria al conectar una guillotina que somete a su rival en el primer asalto del combate. Con esta pelea alcanza las 38 victorias en su carrera, siendo el peleador con más victorias en la historia de la UFC con 27, siendo un peleador histórico en la compañía.</p>
                     <p>Esta es su segunda pelea en el año, dado que había competido en el <Link href='/covertura-ufc/ufc300-main-event'>UFC 300</Link>, enfrentando a <b>Bobby Green</b>, donde lamentablemente caería derrotado, pero alcanzaría el hito de haber participado en el UFC 100, UFC 200 y el UFC 300. </p>
+                    <h2>Marcus Mcghee Derrota a Jonathan Martinez por Decisión y se Mete al Ranking de Peso Gallo</h2>
+                    <p>El estadounidense <b>Marcus Mcghee</b>, luego de dominar completamente durante los 2 primeros asaltos a su compatriota ranqueado #13, <b>Jonathan Martinez</b>, logra llevarse una merecida victoria por decisión de los jueces. </p>
+                    <p>Durante el tercer asalto vimos la posibilidad de que cambiara el resultado de la pelea, cuando unas patadas en la pierna por parte de Martinez, dejaron muy lastimado a McGhee, quien apenas si se pudo mantener de pie durante el tercer asalto. Sin embargo,Marcus aguantó como un guerrero, y se llevó la pelea por decisión unánime, con todos los jueces dando un 29-28 a la pelea. </p>
                     {/* <h2>Mauricio Ruffy vs James Llontop</h2>
                     <p></p> */}
                     {/* <h2>Viviane Araújo vs Karine Silva</h2>
