@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function UFC309 () {
     return(
         <main>
-            <ArticleHero title="UFC 309: ¡Jon Jones vs Stipe Miocic Por El Campeonato de Peso Pesado!" subtitle='Evento de UFC con la pelea por el título de peso pesado entre Jon Jones y la leyenda de la división Stipe Miocic. Además, pelea a 5 asaltos en peso ligero entre Charles Oliveira y Michael Chandler.' image={hero} date='2024-11-16' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 309: ¡Jon Jones vs Stipe Miocic Por El Campeonato de Peso Pesado!" subtitle='Evento de UFC con la pelea por el título de peso pesado entre Jon Jones y la leyenda de la división Stipe Miocic. Además, pelea a 5 asaltos en peso ligero entre Charles Oliveira y Michael Chandler.' image={hero} date='2024-11-16' author={null} updatedDate='2024-11-17' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos un tremendo evento de UFC en el Madison Square Garden con la pelea por el campeonato de peso pesado de la compañia, entre el GOAT de la <Link href='/articulos/ufc'>UFC</Link> <Link href='/peleadores/jon-jones'>Jon Jones</Link> y la leyenda de los pesos pesados <b>Stipe Miocic</b>. Además, acompañando la cartelera estarán <Link href='/peleadores/charles-oliveira'>Charles Oliveira</Link> y <Link href='/peleadores/michael-chandler'>Michael Chandler</Link> como evento coestelar, en una pelea a 5 asaltos que posiblemente definirá al próximo contendiente al título de la división de peso ligero. </p>
@@ -40,8 +40,8 @@ export default function UFC309 () {
                     <h2>Mauricio Ruffy Derrota a James Llontop Por Decisión</h2>
                     <p>El brasileño <b>Mauricio Ruffy</b> logra una victoria por decisión unánime ante el peruano <b>James Llontop</b>, que había tomado la pelea en corto aviso. </p>
                     <p>La pelea no fue para nada cerrada, puesto que el brasileño conectó los mejores golpes y dominó la pelea durante los 3 asaltos. Manteniendo el combate de pie durante la mayor parte del tiempo, y estando cerca de noquear al peruano, Ruffy es capaz de llevarse una clara victoria que extiende su récord a 11-1. </p>
-                    {/* <h2>Viviane Araújo vs Karine Silva</h2>
-                    <p></p> */}
+                    <h2>Viviane Araújo Derrota a Karine Silva Por Decisión</h2>
+                    <p>En la pela femenina que chocaba a 2 peleadoras brasileñas, quien se terminó llevando la victoria es <b>Viviane Araujo</b>, que al hacer un muy buen primer y tercer asalto, le alcanzó para ganar la pelea y por ende, para acabar con el récord invicto que llevaba <b>Karine Silva</b> en la UFC. De esta forma, la veterana de 37 años, Viviana Araujo, extiende su récord a 13-6, y mantiene su posición en los rankings de la UFC.</p>
                     {/* <h2>Bo Nickal vs Paul Craig</h2>
                     <p></p> */}
                     {/* <h2>Charles Oliveira vs Michael Chandler</h2>
