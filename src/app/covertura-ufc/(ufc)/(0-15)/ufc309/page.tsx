@@ -31,8 +31,9 @@ export default function UFC309 () {
                     <h2>David Onama Derrota a Roberto Romero Por Decisión</h2>
                     <p>El luchador de Uganda <b>David Onama</b> derrotó por decisión al mexicano <b>Roberto Romero</b>, quien estaba haciendo su debut en la UFC. Con un primer asalto que probablemente fue lo mejor que vimos hasta ahora en este UFC309, en donde el debutante mexicano se vió bastante bien, conectando muchos golpes potentes que cerca estuvieron de noquear a su rival, a medida que fue pasando la pelea, el de Uganda fue de menos a más, terminando por dominar completamente la pelea en el final del tercer asalto, con un Ground & Pound que le garantizaron la victoria. De esta forma Onama extiende su récord profesional a 13-2, acumulando una racha de 3 victorias consecutivas.</p>
                     <p>Por su parte el mexicano hizo un debut bastante digno, dando la que fue de las peleas más entretenidas de la noche, y demostrando que tiene cálidad de sobra para estar en la UFC. </p>
-                    {/* <h2>Jim Miller vs Damon Jackson</h2>
-                    <p></p> */}
+                    <h2>¡Jim Miller Somete a Damon Jackson en el Primer Asalto!</h2>
+                    <p>El estadounidense <Link href='/articulos/jim-miller-historia'>Jim Miller</Link>, que con sus 41 años ya es el luchador con más peleas en la UFC, consigue una nueva victoria al conectar una guillotina que somete a su rival en el primer asalto del combate. Con esta pelea alcanza las 38 victorias en su carrera, siendo el peleador con más victorias en la historia de la UFC con 27, siendo un peleador histórico en la compañía.</p>
+                    <p>Esta es su segunda pelea en el año, dado que había competido en el <Link href='/covertura-ufc/ufc300-main-event'>UFC 300</Link>, enfrentando a <b>Bobby Green</b>, donde lamentablemente caería derrotado, pero alcanzaría el hito de haber participado en el UFC 100, UFC 200 y el UFC 300. </p>
                     {/* <h2>Mauricio Ruffy vs James Llontop</h2>
                     <p></p> */}
                     {/* <h2>Viviane Araújo vs Karine Silva</h2>
