@@ -3,16 +3,16 @@ import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import magomedovOjo from '@/assets/articulos/30-40/shara_magomedov_ojo.png'
-import ufc308 from '@/assets/covertura_ufc/ufc/0-15/ufc308.jpg'
+import ufc309 from '@/assets/covertura_ufc/ufc/0-15/ufc309.jpg'
 import iliaPeleador2024 from '@/assets/noticias/0-10/ilia_peleador_2024.jpg'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc308'>
-                <Image className={styles.homehero__bigArticle__img} src={ufc308} alt='' />
-                <h2 className={styles.home__title}>UFC 308: ¡Ilia Topuria Noquea a Max Holloway en el Tercer Asalto! ¡Khamzat Chimaev Somete a Robert Whittaker en el Primer Asalto!</h2>
-                <span>Tenemos un tremendo evento que además cuenta con el regreso al octágono de Shara Magomedov, con la pelea de Dan Ige y Lerone Murphy, y la pelea entre Ankalaev y Rakic acompañando la cartelera estelar.</span>
+            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc309'>
+                <Image className={styles.homehero__bigArticle__img} src={ufc309} alt='' />
+                <h2 className={styles.home__title}>UFC 309: ¡Jon Jones vs Stipe Miocic Por El Campeonato de Peso Pesado!</h2>
+                <span>Evento de UFC con la pelea por el título de peso pesado entre Jon Jones y la leyenda de la división Stipe Miocic. Además, pelea a 5 asaltos en peso ligero entre Charles Oliveira y Michael Chandler.</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/shara-magomedov-ojo'>
                 <Image className={styles.homehero__article__img} src={magomedovOjo} alt='' />
