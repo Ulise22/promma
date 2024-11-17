@@ -37,8 +37,9 @@ export default function UFC309 () {
                     <h2>Marcus Mcghee Derrota a Jonathan Martinez por Decisión y se Mete al Ranking de Peso Gallo</h2>
                     <p>El estadounidense <b>Marcus Mcghee</b>, luego de dominar completamente durante los 2 primeros asaltos a su compatriota ranqueado #13, <b>Jonathan Martinez</b>, logra llevarse una merecida victoria por decisión de los jueces. </p>
                     <p>Durante el tercer asalto vimos la posibilidad de que cambiara el resultado de la pelea, cuando unas patadas en la pierna por parte de Martinez, dejaron muy lastimado a McGhee, quien apenas si se pudo mantener de pie durante el tercer asalto. Sin embargo,Marcus aguantó como un guerrero, y se llevó la pelea por decisión unánime, con todos los jueces dando un 29-28 a la pelea. </p>
-                    {/* <h2>Mauricio Ruffy vs James Llontop</h2>
-                    <p></p> */}
+                    <h2>Mauricio Ruffy Derrota a James Llontop Por Decisión</h2>
+                    <p>El brasileño <b>Mauricio Ruffy</b> logra una victoria por decisión unánime ante el peruano <b>James Llontop</b>, que había tomado la pelea en corto aviso. </p>
+                    <p>La pelea no fue para nada cerrada, puesto que el brasileño conectó los mejores golpes y dominó la pelea durante los 3 asaltos. Manteniendo el combate de pie durante la mayor parte del tiempo, y estando cerca de noquear al peruano, Ruffy es capaz de llevarse una clara victoria que extiende su récord a 11-1. </p>
                     {/* <h2>Viviane Araújo vs Karine Silva</h2>
                     <p></p> */}
                     {/* <h2>Bo Nickal vs Paul Craig</h2>
