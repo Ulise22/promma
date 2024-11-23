@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function MoicanoSaintDenis () {
     return(
         <main>
-            <ArticleHero title='UFC CHINA: ¡Petr Yan vs Deiveson Figueiredo! ¡Yan Xiaonan vs Tabatha Ricci!' subtitle='' image={hero} date='2024-11-23' author={null} updatedDate={null} />
+            <ArticleHero title='UFC CHINA: ¡Petr Yan vs Deiveson Figueiredo! ¡Yan Xiaonan vs Tabatha Ricci!' subtitle='Carlos Ulberg derrota a Vokan Oezdemir por decisión en una excelente actuación por su parte. ' image={hero} date='2024-11-23' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos noche de UFC en la región de Macao en China, con una obvia presencia de luchadores del país asiático. Como evento estelar tenemos a 2 de los mayores contendientes al título de la división de peso gallo como lo son <b>Petr Yan</b> y <b>Deiveson Figueiredo</b>, que se enfrentarán en una pelea a 5 asaltos. Además, como evento coestelar, tendremos el enfrentamiento femenino de peso paja entre la china <Link href='/mujeres/yan-xiaonan'>Yan Xianan</Link> y la brasileña <b>Tabatha Ricci</b>. </p>
@@ -30,8 +30,9 @@ export default function MoicanoSaintDenis () {
                     <h2>Carlos Ulberg Derrota a Vokan Oezdemir por Decisión</h2>
                     <p>En lo que es hasta el momento una de las mejores peleas de la noche, dando la sensación de que podía acabar en cualquier momento en el instante que uno de los 2 lograra conectar un golpe que llevara a la lona a su rival, quien terminó por llevarse la victoria fue <b>Carlos Ulberg</b>, quien a pesar de haber conectado menos golpes que su rival, fue quien más daño hizo cuando conectó, dando la sensación de que podría haber dejado KO en cualquier momento al suizo.</p>
                     <p>Fue una destacada actuación por parte de Ulberg, quien conectó los mejores golpes a lo largo del encuentro, y que en el tercer asalto fue capaz de defender todos los intentos de derribo de su rival, manteniendo la pelea de pie en todo momento, donde se lo veía más cómodo. </p>
-                    <h2>Wang Cong vs Gabriella Fernandes</h2>
-                    <p></p>
+                    <h2>Gabriella Fernandes Somete a Wang Cong en el Segundo Asalto</h2>
+                    <p>La brasileña <b>Gabriella Fernandes</b> da la sorpresa de la noche al conectar una mataleón para someter a la china <b>Wang Cong</b> en el segundo asalto de la pelea. </p>
+                    <p>En una pelea donde la china Cong, que venía invicta y que estaba dominando durante todo el combate, la pelea terminó por dar un giro inesperado, cuando la brasileña Gabriella fuera capaz primero, de conectar una patada a la cabeza que dejó tocada a su rival, y después un puño que la derribaría, aprovechando el momentum para ir en busca de una mataleón que conectaría de manera profunda, dejando inconsciente a su rival, para terminar llevándose la pelea y muy probablemente el bono de los 50k. </p>
                     <h2>Song Kenan vs Muslim Salikhov</h2>
                     <p></p>
                     <h2>Yan Xiaonan vs Tabatha Ricci</h2>
