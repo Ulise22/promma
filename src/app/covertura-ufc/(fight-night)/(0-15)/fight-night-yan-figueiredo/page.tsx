@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function MoicanoSaintDenis () {
     return(
         <main>
-            <ArticleHero title='UFC CHINA: ¡Petr Yan vs Deiveson Figueiredo! ¡Yan Xiaonan vs Tabatha Ricci!' subtitle='Carlos Ulberg derrota a Vokan Oezdemir por decisión en una excelente actuación por su parte. ' image={hero} date='2024-11-23' author={null} updatedDate={null} />
+            <ArticleHero title='UFC CHINA: ¡Petr Yan vs Deiveson Figueiredo! ¡Yan Xiaonan vs Tabatha Ricci!' subtitle='Carlos Ulberg derrota a Vokan Oezdemir por decisión en una excelente actuación por su parte. Gabriella Fernandes da la sorpresa y Somete a Wang Cong. Muslim Salikhov noquea a Song Kenan en el primer asalto.' image={hero} date='2024-11-23' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos noche de UFC en la región de Macao en China, con una obvia presencia de luchadores del país asiático. Como evento estelar tenemos a 2 de los mayores contendientes al título de la división de peso gallo como lo son <b>Petr Yan</b> y <b>Deiveson Figueiredo</b>, que se enfrentarán en una pelea a 5 asaltos. Además, como evento coestelar, tendremos el enfrentamiento femenino de peso paja entre la china <Link href='/mujeres/yan-xiaonan'>Yan Xianan</Link> y la brasileña <b>Tabatha Ricci</b>. </p>
@@ -33,8 +33,9 @@ export default function MoicanoSaintDenis () {
                     <h2>Gabriella Fernandes Somete a Wang Cong en el Segundo Asalto</h2>
                     <p>La brasileña <b>Gabriella Fernandes</b> da la sorpresa de la noche al conectar una mataleón para someter a la china <b>Wang Cong</b> en el segundo asalto de la pelea. </p>
                     <p>En una pelea donde la china Cong, que venía invicta y que estaba dominando durante todo el combate, la pelea terminó por dar un giro inesperado, cuando la brasileña Gabriella fuera capaz primero, de conectar una patada a la cabeza que dejó tocada a su rival, y después un puño que la derribaría, aprovechando el momentum para ir en busca de una mataleón que conectaría de manera profunda, dejando inconsciente a su rival, para terminar llevándose la pelea y muy probablemente el bono de los 50k. </p>
-                    <h2>Song Kenan vs Muslim Salikhov</h2>
-                    <p></p>
+                    <h2>Muslim Salikhov Deja KO a Song Kenan en el Primer Asalto</h2>
+                    <p>Tremenda victoria del luchador de Daguestán <b>Muslim Salikhov</b>, que conectó una patada giratoria con su pierna derecha para dejar KO al luchador chino <b>Song Kenan</b> que estaba de local. </p>
+                    <p>Esta es la segunda victoria consecutiva del daguestaní, que venía de una victoria por decisión ante el luchador argentino <Link href='/peleadores/santiago-ponzinibbio'>Santiago Ponzinibbio</Link> este mismo año. </p>
                     <h2>Yan Xiaonan vs Tabatha Ricci</h2>
                     <p></p>
                     <h2>Petr Yan vs Deiveson Figueiredo</h2>
