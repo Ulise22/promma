@@ -20,15 +20,16 @@ export const metadata: Metadata = {
 export default function MoicanoSaintDenis () {
     return(
         <main>
-            <ArticleHero title='UFC CHINA: ¡Petr Yan vs Deiveson Figueiredo! ¡Yan Xiaonan vs Tabatha Ricci!' subtitle='Noche de UFC en China donde tenemos un montón de peleas espectaculares, que incluyen la pelea entre Oezdemir contra Carlos Ulberg, y la de Song Kenan contra Muslim Salikhov.' image={hero} date='2024-11-23' author={null} updatedDate={null} />
+            <ArticleHero title='UFC CHINA: ¡Petr Yan vs Deiveson Figueiredo! ¡Yan Xiaonan vs Tabatha Ricci!' subtitle='' image={hero} date='2024-11-23' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos noche de UFC en la región de Macao en China, con una obvia presencia de luchadores del país asiático. Como evento estelar tenemos a 2 de los mayores contendientes al título de la división de peso gallo como lo son <b>Petr Yan</b> y <b>Deiveson Figueiredo</b>, que se enfrentarán en una pelea a 5 asaltos. Además, como evento coestelar, tendremos el enfrentamiento femenino de peso paja entre la china <Link href='/mujeres/yan-xiaonan'>Yan Xianan</Link> y la brasileña <b>Tabatha Ricci</b>. </p>
                     <h2>Zhang Mingyang Noquea a Ozzy Diaz en el Primer Asalto</h2>
                     <p>En la primera pelea de la cartelera estelar, el peleador chino <b>Zhang Mingyan</b>, quien esta en su segunda pelea en la UFC, luego de lo que fue su debut en el <Link href='/covertura-ufc/ufc298'>UFC 298</Link>, continua sin decepcionar, consiguiendo una nueva victoria por la vía del nocaut en el primer asalto de la pelea. </p>
-                    <p>Se pudo ver a un Mingyang bastante tranquilo al inicio de la pelea, que con paciencia supo esperar el momento adecuado para atacar de la mejor manera, consiguiendo de esta manera su segunda victoria consecutiva por la vía del nocaut en sus 2 primeras peleas en la UFC. </p>
-                    <h2>Vokan Oezdemir vs Carlos Ulberg</h2>
-                    <p></p>
+                    <p>Se pudo ver a un Mingyang bastante tranquilo al inicio de la pelea, que con paciencia supo esperar el momento adecuado para atacar de la mejor manera, conectando un codo que derribó a su rival, consiguiendo de esta manera su segunda victoria consecutiva por la vía del nocaut en sus 2 primeras peleas en la UFC. </p>
+                    <h2>Carlos Ulberg Derrota a Vokan Oezdemir por Decisión</h2>
+                    <p>En lo que es hasta el momento una de las mejores peleas de la noche, dando la sensación de que podía acabar en cualquier momento en el instante que uno de los 2 lograra conectar un golpe que llevara a la lona a su rival, quien terminó por llevarse la victoria fue <b>Carlos Ulberg</b>, quien a pesar de haber conectado menos golpes que su rival, fue quien más daño hizo cuando conectó, dando la sensación de que podría haber dejado KO en cualquier momento al suizo.</p>
+                    <p>Fue una destacada actuación por parte de Ulberg, quien conectó los mejores golpes a lo largo del encuentro, y que en el tercer asalto fue capaz de defender todos los intentos de derribo de su rival, manteniendo la pelea de pie en todo momento, donde se lo veía más cómodo. </p>
                     <h2>Wang Cong vs Gabriella Fernandes</h2>
                     <p></p>
                     <h2>Song Kenan vs Muslim Salikhov</h2>
