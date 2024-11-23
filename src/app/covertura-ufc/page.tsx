@@ -19,6 +19,7 @@ import lewisVsNascimento from '@/assets/covertura_ufc/fight_night/0-15/lewis-vs-
 import cannonierVSimano from '@/assets/covertura_ufc/fight_night/0-15/fightnight-cannonier-imanov-preview.jpg'
 import sandhagenVSnurmagomedov from '@/assets/peleadores__images/30-40/umar-nurmagomedov/umar_nurmagomedov-card.jpg'
 import moicanoVSsaintdenis from '@/assets/covertura_ufc/fight_night/0-15/moicano_vs_saintdenis.jpg'
+import yanVSfigueiredo from '@/assets/covertura_ufc/fight_night/0-15/yan-vs-figueiredo.jpg'
 
 
 export default function CoverturaUFC () {
@@ -41,6 +42,7 @@ export default function CoverturaUFC () {
             </section>
             <h2 className={styles.covertura__subtitle}>UFC Fight Night</h2>
             <section className={styles.covertura__articles__container}>
+                <ArticlePreview img={yanVSfigueiredo} url='/covertura-ufc/fight-night-yan-figueiredo' title='UFC CHINA: ¡Petr Yan vs Deiveson Figueiredo! ¡Yan Xiaonan vs Tabatha Ricci!' author={null} text='Noche de UFC en China donde tenemos un montón de peleas espectaculares, que incluyen la pelea entre Oezdemir contra Carlos Ulberg, y la de Song Kenan contra Muslim Salikhov.' date='22/11/2024' />
                 <ArticlePreview img={moicanoVSsaintdenis} url='/covertura-ufc/fight-night-moicano-saintdenis' title='UFC FRANCIA: ¡Renato Moicano Derrota a Benoit Saint Denis TKO en el Segundo Asalto! ¡Imavov Derrota a Allen Por Decisión Unánime! ¡Ailín Pérez Somete en el Primer Asalto a Zhelezniakova!' author={null} text='Noche de UFC en Francia donde tuvimos la victoria de la argentina Ailín Pérez en el primer asalto por sumisión y la victoria del español Daniel Barez por decisión unánime.' date='28/09/2024' />
                 <ArticlePreview img={sandhagenVSnurmagomedov} url='/covertura-ufc/fight-night-sandhagen-nurmagomedov' title='UFC FIGHT NIGHT: ¡Umar Nurmagomedov Gana Por Decisión Unánime a Cory! ¡El Ecuatoriano Marlon Vera Cae Derrotado por el Brasileño Figueiredo Por Decisión Unánime!' author={null} text='Joel Álvarez gana por nocaut en el tercer asalto de la pelea. Tony Ferguson vuelve a perder una vez más, cayendo derrotado en esta ocasión ante Michael Chiesa, y dejando entrever su retiro. Shara Bullet gana por decisión unánime su tercer pelea en la UFC.' date='03/08/2024' />
                 <ArticlePreview img={whittakerVSaliskerov} url='/covertura-ufc/fight-night-whittaker-aliskerov' title='UFC Fight Night: ¡Whittaker Noquea en el Primer Asalto a Aliskerov! ¡Shara Bullet Noquea a su Rival en el Tercer Asalto!' author={null} text='Un evento donde contamos con emocionantes combates como el que tendran Johnny Walker y Volkan Oezdemir abriendo la cartelera principal, la pelea coestelar entre Sergei Pavlovich y Alexander Volkov, y el evento principal protagonizado por Robert Whittaker y Ikram Aliskerov.' date='22/06/2024' />

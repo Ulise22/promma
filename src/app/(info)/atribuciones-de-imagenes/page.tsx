@@ -11,6 +11,8 @@ export default function Atribuciones () {
                 <li>&quot;Renato Moicano 2024.png&quot; de <b>Show Me The Money</b>, disponible en Wikimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Benoit Saint Denis 2023.png&quot; de <b>ZACK</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Stipe Miocic (48086547846) (cropped).jpg&quot; de <b>Erik Drost</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
+                <li>&quot;Deiveson Figueiredo 2024.jpg&quot; de <b>Show Me The Money</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
+                <li>&quot;PetrYan.jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 {/* Mujeres */}
                 <li>&quot;Alexa Grasso 2023 03.png&quot; de <b>Alexa Lopez Col</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Kayla Harrison Rio 2016.jpg&quot; de <b>Agência Brasil Fotografias</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
