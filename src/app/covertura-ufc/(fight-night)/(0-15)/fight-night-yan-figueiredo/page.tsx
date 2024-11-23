@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function MoicanoSaintDenis () {
     return(
         <main>
-            <ArticleHero title='UFC CHINA: ¡Petr Yan vs Deiveson Figueiredo! ¡Yan Xiaonan vs Tabatha Ricci!' subtitle='Carlos Ulberg derrota a Vokan Oezdemir por decisión en una excelente actuación por su parte. Gabriella Fernandes da la sorpresa y Somete a Wang Cong. Muslim Salikhov noquea a Song Kenan en el primer asalto.' image={hero} date='2024-11-23' author={null} updatedDate={null} />
+            <ArticleHero title='UFC CHINA: ¡Yan Xiaonan Derrota a Tabatha Ricci!' subtitle='Carlos Ulberg derrota a Vokan Oezdemir por decisión en una excelente actuación por su parte. Gabriella Fernandes da la sorpresa y Somete a Wang Cong. Muslim Salikhov noquea a Song Kenan en el primer asalto.' image={hero} date='2024-11-23' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos noche de UFC en la región de Macao en China, con una obvia presencia de luchadores del país asiático. Como evento estelar tenemos a 2 de los mayores contendientes al título de la división de peso gallo como lo son <b>Petr Yan</b> y <b>Deiveson Figueiredo</b>, que se enfrentarán en una pelea a 5 asaltos. Además, como evento coestelar, tendremos el enfrentamiento femenino de peso paja entre la china <Link href='/mujeres/yan-xiaonan'>Yan Xianan</Link> y la brasileña <b>Tabatha Ricci</b>. </p>
@@ -36,8 +36,9 @@ export default function MoicanoSaintDenis () {
                     <h2>Muslim Salikhov Deja KO a Song Kenan en el Primer Asalto</h2>
                     <p>Tremenda victoria del luchador de Daguestán <b>Muslim Salikhov</b>, que conectó una patada giratoria con su pierna derecha para dejar KO al luchador chino <b>Song Kenan</b> que estaba de local. </p>
                     <p>Esta es la segunda victoria consecutiva del daguestaní, que venía de una victoria por decisión ante el luchador argentino <Link href='/peleadores/santiago-ponzinibbio'>Santiago Ponzinibbio</Link> este mismo año. </p>
-                    <h2>Yan Xiaonan vs Tabatha Ricci</h2>
-                    <p></p>
+                    <h2>Yan Xiaonan Derrota a Tabatha Ricci por Decisión Unánime</h2>
+                    <p>La peleadora china <Link href='/mujeres/yan-xiaonan'>Yan Xiaonan</Link> logra una estupenda victoria ante la brasileña <b>Tabatha Ricci</b> por decisión de los jueces, en lo que fue una actuación absolutamente dominante, conectando ampliamente más golpes que su rival, que nada pudo hacer ante una Yan, que supo usar a su favor la altura y la distancia, para conectar muchos golpes sin recibir daño practicamente. </p>
+                    <p>De esta manera la peleadora china que estaba peleando en casa, logra una importante victoria ante la #10 de los rankings de la división ante su gente. </p>
                     <h2>Petr Yan vs Deiveson Figueiredo</h2>
                     <p></p>
                 </article>
