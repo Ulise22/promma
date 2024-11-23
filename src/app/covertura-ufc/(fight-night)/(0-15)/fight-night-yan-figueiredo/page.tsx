@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function MoicanoSaintDenis () {
     return(
         <main>
-            <ArticleHero title='UFC CHINA: ¡Yan Xiaonan Derrota a Tabatha Ricci!' subtitle='Carlos Ulberg derrota a Vokan Oezdemir por decisión en una excelente actuación por su parte. Gabriella Fernandes da la sorpresa y Somete a Wang Cong. Muslim Salikhov noquea a Song Kenan en el primer asalto.' image={hero} date='2024-11-23' author={null} updatedDate={null} />
+            <ArticleHero title='UFC CHINA: ¡Yan Xiaonan Derrota a Tabatha Ricci! ¡Petr Yan Derrota a Deiveson Figueiredo en la Pelea de la Noche!' subtitle='Carlos Ulberg derrota a Vokan Oezdemir por decisión en una excelente actuación por su parte. Gabriella Fernandes da la sorpresa y Somete a Wang Cong. Muslim Salikhov noquea a Song Kenan en el primer asalto.' image={hero} date='2024-11-23' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos noche de UFC en la región de Macao en China, con una obvia presencia de luchadores del país asiático. Como evento estelar tenemos a 2 de los mayores contendientes al título de la división de peso gallo como lo son <b>Petr Yan</b> y <b>Deiveson Figueiredo</b>, que se enfrentarán en una pelea a 5 asaltos. Además, como evento coestelar, tendremos el enfrentamiento femenino de peso paja entre la china <Link href='/mujeres/yan-xiaonan'>Yan Xianan</Link> y la brasileña <b>Tabatha Ricci</b>. </p>
@@ -39,8 +39,10 @@ export default function MoicanoSaintDenis () {
                     <h2>Yan Xiaonan Derrota a Tabatha Ricci por Decisión Unánime</h2>
                     <p>La peleadora china <Link href='/mujeres/yan-xiaonan'>Yan Xiaonan</Link> logra una estupenda victoria ante la brasileña <b>Tabatha Ricci</b> por decisión de los jueces, en lo que fue una actuación absolutamente dominante, conectando ampliamente más golpes que su rival, que nada pudo hacer ante una Yan, que supo usar a su favor la altura y la distancia, para conectar muchos golpes sin recibir daño practicamente. </p>
                     <p>De esta manera la peleadora china que estaba peleando en casa, logra una importante victoria ante la #10 de los rankings de la división ante su gente. </p>
-                    <h2>Petr Yan vs Deiveson Figueiredo</h2>
-                    <p></p>
+                    <h2>¡Petr Yan Derrota a Deiveson Figueiredo en la Pelea de la Noche!</h2>
+                    <p>Tremenda exhibición de artes marciales mixtas que tuvimos el día de hoy con la pelea estelar de la cartelera, en un combate que tuvo de todo dada la capacidad creativa de ambos luchadores. Finalmente el ganador de es este combate sería el ruso <b>Petr Yan</b>, quien fue el claro dominador de la pelea, mostrando una creatividad que pocos tienen a la hora del striking, con un upper que entraba constantemente en la mandibula del brasileño, una excelente defensa de derribos y en general un desempeño como artista marcial mixto impecable. </p>
+                    <p>El brasileño Deiveson Figueiredo también tuvo sus momentos durante la pelea, llegando a conectar un knockdown en el cuarto asalto que podría haber puesto en muchos problemas a su rival. Sin embargo, el ruso supo reponerse y ambos luchadores terminaron por darnos un espectáculo, al que no queda otra cosa que hacer, más que ponerse de pie y aplaudir por lo dado por estos luchadores. </p>
+                    <p>Petr Yan no dudó en desafiar al campeón <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link> a una revancha, dado que este había dicho que Figueiredo el contendiente #1, y este acaba de ser vencido por el ruso.</p>
                 </article>
                 <AsideChamps />
             </section>
