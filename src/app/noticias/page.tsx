@@ -30,12 +30,12 @@ export default function NoticiasPage () {
         <section className={styles.noticiaspage__container}>
             <article className={styles.noticiasHero}>
                 <Link className={styles.noticiasHero__bigArticle} href='/noticias/quien-es-michael-morales'>
-                    <Image className={styles.noticiasHero__bigArticle__img} src={michaelMorales} alt='' />
+                    <Image className={styles.noticiasHero__bigArticle__img} loading="lazy" src={michaelMorales} alt='' />
                     <h2 className={styles.page__title}>¿Quién es Michael Morales? El Luchador Ecuatoriano de 25 Años que Está Invicto en la UFC</h2>
                     <p>La historia del ecuatoriano Michael Morales que recientemente acaba de entrar en el Ranking de peso wélter en la UFC.</p>
                 </Link>
                 <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/du-plessis-proxima-pelea-2025'>
-                    <Image className={styles.noticiasHero__article__img} src={proxRivalDuPlessis} alt='' />
+                    <Image className={styles.noticiasHero__article__img} loading="lazy" src={proxRivalDuPlessis} alt='' />
                     <article className={styles.noticiasHero__article__container}>
                         <h2 className={styles.noticiasHero__title}>Dricus Du Plessis Próxima Pelea 2025: ¿Strickland o Chimaev?</h2>
                         <p>¿Quién de los 2 merece más ir a pelear por el título de peso medio, Sean Strickland o Khamzat Chimaev?</p>
@@ -46,7 +46,7 @@ export default function NoticiasPage () {
                     </article>
                 </Link>
                 <Link className={`${styles.noticiasHero__article} ${styles.normal2}`} href='/noticias/porque-belal-es-odiado'>
-                    <Image className={styles.noticiasHero__article__img} src={belalOdiado} alt='' />
+                    <Image className={styles.noticiasHero__article__img} loading="lazy" src={belalOdiado} alt='' />
                     <article className={styles.noticiasHero__article__container}>
                         <h2 className={styles.noticiasHero__title}>¿Por qué Belal es Tan Odiado?</h2>
                         <p>El peleador palestino ha demostrado ser uno de los mejores peso wélter de la UFC, entonces ¿por qué genera tanta antipatía entre los fans?</p>

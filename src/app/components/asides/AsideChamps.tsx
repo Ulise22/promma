@@ -14,27 +14,27 @@ export default function AsideChamps () {
         <aside className={styles.campeones__container}>
             <h3 className={styles.campones__title}>Campeones de la UFC</h3>
             <Link href='/peleadores/ilia-topuria' className={styles.campeones}>
-                <Image className={styles.campeones__image} src={topuria} alt='Ilia Topuria' />
+                <Image className={styles.campeones__image} loading="lazy" src={topuria} alt='Ilia Topuria' />
                 <h4 className={styles.campeones__name}>Ilia Topuria</h4>
             </Link>
             <Link href='/peleadores/islam-makhachev' className={styles.campeones}>
-                <Image className={styles.campeones__image} src={makhachev} alt='Islam Makhachev' />
+                <Image className={styles.campeones__image} loading="lazy" src={makhachev} alt='Islam Makhachev' />
                 <h4 className={styles.campeones__name}>Islam Makhachev</h4>
             </Link>
             <Link href='/peleadores/du-plessis' className={styles.campeones}>
-                <Image className={styles.campeones__image} src={duPlessis} alt='Dricus Du Plessis' />
+                <Image className={styles.campeones__image} loading="lazy" src={duPlessis} alt='Dricus Du Plessis' />
                 <h4 className={styles.campeones__name}>Dricus Du Plessis</h4>
             </Link>
             <Link href='/peleadores/merab-dvalishvili' className={styles.campeones}>
-                <Image className={styles.campeones__image} src={dvalishvili} alt='Merab Dvalishvili' />
+                <Image className={styles.campeones__image} loading="lazy" src={dvalishvili} alt='Merab Dvalishvili' />
                 <h4 className={styles.campeones__name}>Merab Dvalishvili</h4>
             </Link>
             <Link href='/peleadores/alex-pereira' className={styles.campeones}>
-                <Image className={styles.campeones__image} src={pereira} alt='Sean O&apos;Malley' />
+                <Image className={styles.campeones__image} loading="lazy" src={pereira} alt='Sean O&apos;Malley' />
                 <h4 className={styles.campeones__name}>Alex Pereira</h4>
             </Link>
             <Link href='/peleadores/belal-muhammad' className={styles.campeones}>
-                <Image className={styles.campeones__image} src={belal} alt='Belal Muhammad' />
+                <Image className={styles.campeones__image} loading="lazy" src={belal} alt='Belal Muhammad' />
                 <h4 className={styles.campeones__name}>Belal Muhammad</h4>
             </Link>
         </aside>

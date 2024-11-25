@@ -110,7 +110,7 @@
     }
 
     .noticiasHero__bigArticle__img {
-        height: 550px;
+        height: 300px;
     }
 
     .noticiasHero__container {
@@ -146,6 +146,8 @@
     }
 
     .noticiasHero__article__img {
+        height: 200px;
+        object-position: top;
         width: 100%;
     }
 

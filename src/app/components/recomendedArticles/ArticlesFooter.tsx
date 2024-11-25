@@ -17,35 +17,35 @@ export default function ArticlesFooter () {
             <h2 className={styles.articlesFooter__title}>Artículos Recomendados</h2>
             <article className={styles.articlesPreview__container}>
                 <Link className={styles.articlePreview} href='/articulos/shara-magomedov-ojo'>
-                    <Image className={styles.articlePreview__image} src={magomedovOjo} alt='' />
+                    <Image className={styles.articlePreview__image} loading="lazy" src={magomedovOjo} alt='' />
                     <h3 className={styles.articlePreview__title}>¿Qué le Pasó en el Ojo a Shara Magomedov?</h3>
                 </Link>
                 <Link className={styles.articlePreview} href='/articulos/yoel-romero-genetica'>
-                    <Image className={styles.articlePreview__image} src={yoelgenetica} alt='' />
+                    <Image className={styles.articlePreview__image} loading="lazy" src={yoelgenetica} alt='' />
                     <h3 className={styles.articlePreview__title}>La Genética de Yoel Romero</h3>
                 </Link>
                 <Link className={styles.articlePreview} href='/articulos/alexander-emelianenko'>
-                    <Image className={styles.articlePreview__image} src={alexanderEmelianenko} alt='Alexander Emelianenko' />
+                    <Image className={styles.articlePreview__image} loading="lazy" src={alexanderEmelianenko} alt='Alexander Emelianenko' />
                     <h3 className={styles.articlePreview__title}>Alexander Emelianenko: El Hermano de Fedor Emelianenko y su Relación con la Mafia Rusa</h3>
                 </Link>
                 <Link className={styles.articlePreview} href='/articulos/most-ppv'>
-                    <Image className={styles.articlePreview__image} src={mostPPV} alt='Dustin Poirier vs Conor McGregor' />
+                    <Image className={styles.articlePreview__image} loading="lazy" src={mostPPV} alt='Dustin Poirier vs Conor McGregor' />
                     <h3 className={styles.articlePreview__title}>Las 5 Peleas más Vistas en la Historia de la UFC</h3>
                 </Link>
                 <Link className={styles.articlePreview} href='/articulos/mejores-peleadoras-ufc'>
-                    <Image className={styles.articlePreview__image} src={GoatFemUfc} alt='' />
+                    <Image className={styles.articlePreview__image} loading="lazy" src={GoatFemUfc} alt='' />
                     <h3 className={styles.articlePreview__title}>Las Mejores Peleadoras de la Historia de la UFC</h3>
                 </Link>
                 <Link className={styles.articlePreview} href='/articulos/top5-mejores-peleadores'>
-                    <Image className={styles.articlePreview__image} src={top5} alt='Jon Jones, George St-Pierre, Anderson Silva' />
+                    <Image className={styles.articlePreview__image} loading="lazy" src={top5} alt='Jon Jones, George St-Pierre, Anderson Silva' />
                     <h3 className={styles.articlePreview__title}>TOP5: Mejores Peleadores de la Historia de la UFC</h3>
                 </Link>
                 <Link className={styles.articlePreview} href='/articulos/lee-murray'>
-                    <Image className={styles.articlePreview__image} src={LeeMurray} alt='Khabib vs ferguson' />
+                    <Image className={styles.articlePreview__image} loading="lazy" src={LeeMurray} alt='Khabib vs ferguson' />
                     <h3 className={styles.articlePreview__title}>Lee Murray: El Luchador de UFC Que Realizó el Mayor Robo en Reino Unido</h3>
                 </Link>
                 <Link className={styles.articlePreview} href='/articulos/que-paso-con-pride-fc'>
-                    <Image className={styles.articlePreview__image} src={pridefc} alt='Pride FC' />
+                    <Image className={styles.articlePreview__image} loading="lazy" src={pridefc} alt='Pride FC' />
                     <h3 className={styles.articlePreview__title}>¿Qué Pasó con Pride FC?</h3>
                 </Link>
             </article>

@@ -14,27 +14,27 @@ export default function AsideFighter () {
         <aside className={styles.campeones__container}>
             <h3 className={styles.campones__title}>Peleadores Populares de UFC</h3>
             <Link href='/peleadores/conor-mcgregor' className={styles.campeones}>
-                <Image className={styles.campeones__image} src={mcgregor} alt='Conor Mcgregor' />
+                <Image className={styles.campeones__image} loading="lazy" src={mcgregor} alt='Conor Mcgregor' />
                 <h4 className={styles.campeones__name}>Conor McGregor</h4>
             </Link>
             <Link href='/peleadores/khamzat-chimaev' className={styles.campeones}>
-                <Image className={styles.campeones__image} src={chimaev} alt='Khamzat Chimaev' />
+                <Image className={styles.campeones__image} loading="lazy" src={chimaev} alt='Khamzat Chimaev' />
                 <h4 className={styles.campeones__name}>Khamzat Chimaev</h4>
             </Link>
             <Link href='/peleadores/justin-gaethje' className={styles.campeones}>
-                <Image className={styles.campeones__image} src={gaethje} alt='Justin Gaethje' />
+                <Image className={styles.campeones__image} loading="lazy" src={gaethje} alt='Justin Gaethje' />
                 <h4 className={styles.campeones__name}>Justin Gaethje</h4>
             </Link>
             <Link href='/peleadores/dustin-poirier' className={styles.campeones}>
-                <Image className={styles.campeones__image} src={poirier} alt='Dustin Poirier' />
+                <Image className={styles.campeones__image} loading="lazy" src={poirier} alt='Dustin Poirier' />
                 <h4 className={styles.campeones__name}>Dustin Poirier</h4>
             </Link>
             <Link href='/peleadores/colby-covington' className={styles.campeones}>
-                <Image className={styles.campeones__image} src={colby} alt='Colby Covington' />
+                <Image className={styles.campeones__image} loading="lazy" src={colby} alt='Colby Covington' />
                 <h4 className={styles.campeones__name}>Colby Covington</h4>
             </Link>
             <Link href='/peleadores/alexander-volkanovski' className={styles.campeones}>
-                <Image className={styles.campeones__image} src={volkanovski} alt='Alexander Volkanovski' />
+                <Image className={styles.campeones__image} loading="lazy" src={volkanovski} alt='Alexander Volkanovski' />
                 <h4 className={styles.campeones__name}>Alexander Volkanovski</h4>
             </Link>
         </aside>
