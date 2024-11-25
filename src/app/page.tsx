@@ -35,9 +35,9 @@ export default function Home () {
           <Link href='/peleadores/jon-jones' className={`${styles.peleadores__card} ${styles.peleadores__card_jones}`}>
             <h3 className={styles.peleadores__card__name}>Jon Jones</h3>
           </Link>
-          <Link href='/peleadores' className={`${styles.peleadores__card__plus}`}>
+          {/* <Link href='/peleadores' className={`${styles.peleadores__card__plus}`}>
             <Image src={plus} alt=''/>
-          </Link>
+          </Link> */}
         </div>
       </section>
       <Noticias />
@@ -53,9 +53,9 @@ export default function Home () {
           <Link href='/peleadores/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
             <h3 className={styles.peleadores__card__name}>Sean Strickland</h3>
           </Link>
-          <Link href='/peleadores' className={`${styles.peleadores__card__plus}`}>
+          {/* <Link href='/peleadores' className={`${styles.peleadores__card__plus}`}>
             <Image src={plus} alt=''/>
-          </Link>
+          </Link> */}
         </div>
       </section>
       <ArticulosContainer />
@@ -71,9 +71,9 @@ export default function Home () {
           <Link href='/leyendas/anderson-silva' className={`${styles.peleadores__card} ${styles.peleadores__card_anderson}`}>
               <h3 className={styles.peleadores__card__name}>Anderson Silva</h3>
           </Link>
-          <Link href='/leyendas' className={`${styles.peleadores__card__plus__gray}`}>
+          {/* <Link href='/leyendas' className={`${styles.peleadores__card__plus__gray}`}>
             <Image src={plus} alt=''/>
-          </Link>
+          </Link> */}
         </div>
       </section>
       <CoverturaUFC />
@@ -89,9 +89,9 @@ export default function Home () {
           <Link href='/mujeres/julianna-pena' className={`${styles.peleadores__card} ${styles.peleadores__card_julianna}`}>
               <h3 className={styles.peleadores__card__name}>Julianna Peña</h3>
           </Link>
-          <Link href='/mujeres' className={`${styles.peleadores__card__plus}`}>
+          {/* <Link href='/mujeres' className={`${styles.peleadores__card__plus}`}>
             <Image src={plus} alt=''/>
-          </Link>
+          </Link> */}
         </div>
       </section>
     </main>
