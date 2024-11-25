@@ -12,7 +12,7 @@ export default function Menu () {
     return(
         <nav className={styles.menu}>
             <Link className={styles.menu__logo} href='/'>
-                <Image className={styles.menu__logo__img} src={logo} alt='ProMMA' />
+                <Image className={styles.menu__logo__img} src={logo} alt='FULLMMA' />
             </Link>
 
             <div onClick={() => setIsOpen(!isOpen)} className={styles.menu__icon}>
