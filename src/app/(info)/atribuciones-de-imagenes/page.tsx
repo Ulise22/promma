@@ -86,6 +86,7 @@ export default function Atribuciones () {
                 <li>&quot;Drake and Future 2016 Summer Sixteen Tour.jpg&quot; de <b>The Come Up Show</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 2.0</li>
                 <li>&quot;2022-01-22 at 8.20.51 PM.png&quot; de <b>Fgytf</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
                 <li>&quot;Ilia Topuria at the Orbeliani Palace.jpg&quot; de <b>საქართველოს პრეზიდენტის ადმინისტრაცია</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 4.0</li>
+                <li>&quot;Kai Asakura 2023.png&quot; de <b>ホタテマン0010</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 4.0</li>
             </ul>
         </main>
     )

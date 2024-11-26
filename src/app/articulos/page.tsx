@@ -30,7 +30,7 @@ import palhares from '@/assets/articulos/30-40/rousimar_palhares.jpg'
 import pridefc from '@/assets/articulos/30-40/pridefc.jpg'
 import ginaCarano from '@/assets/articulos/30-40/gina_carano.jpg'
 import boxeadorVsMMA from '@/assets/articulos/30-40/boxeador_vs_mma.jpg'
-import magomedovOjo from '@/assets/articulos/30-40/shara_magomedov_ojo.jpg'
+import magomedovOjo from '@/assets/articulos/30-40/shara_magomedov_ojo.png'
 import divisionGoats from '@/assets/articulos/30-40/division_goats.jpg'
 import daveBautista from '@/assets/articulos/30-40/dave_bautista.jpg'
 import jorgeMasvidal from '@/assets/articulos/30-40/jorge_masvidal.png'
@@ -57,7 +57,6 @@ export default function Articulos () {
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
-                {/* <ArticlePreview img={magomedovOjo} url='/articulos/shara-magomedov-ojo' title='¿Qué le Pasó en el Ojo a Shara Magomedov?' author={null} text='Una de las mayores promesas de la UFC y cómo es capaz de pelear a pesar de haber perdido la visión en uno de sus ojos.' date='22/06/2024' /> */}
                 <ArticlePreview img={bestMAForMMA} url='/articulos/mejores-artes-marciales-para-mma' title='Las Mejores Artes Marciales Para MMA Según un Peleador Profesional' author={null} text='Repasamos cuáles son las mejores artes marciales para una pelea de MMA, según el luchador profesional Jeff Chan.' date='23/09/2024' />
                 <ArticlePreview img={titovsdana} url='/articulos/dana-white-vs-tito-ortiz' title='La Pelea de Boxeo Entre Dana White y Tito Ortiz que Finalmente no Ocurrió' author={null} text='La historia de rivalidad entre Tito Ortiz y Dana White, y la pelea de boxeo entre estos 2 que se llegó a pactar pero que nunca se dió.' date='14/09/2024' />
                 <ArticlePreview img={popek} url='/articulos/popek-monster-mma' title='Popek: El Rapero y Pelador Polaco de MMA Más Loco del Mundo' author={null} text='La historia del rapero polaco Popek Monster, el caótico estilo de vida que lleva y su carrera en las artes marciales mixtas.' date='10/09/2024' />
@@ -80,6 +79,7 @@ export default function Articulos () {
                 <ArticlePreview img={jorgeMasvidal} url='/articulos/jorge-masvidal-historia' title='La Biografía de Jorge Masvidal' author={null} text='La historia de uno de los peleadores favoritos de los fans, que llegó a pelear 2 veces por el título y es recordado como el primer BMF de la UFC.' date='04/07/2024' />
                 <ArticlePreview img={daveBautista} url='/articulos/dave-bautista-mma' title='Cuando el Actor de Hollywood Dave Bautista Hizo su Debut en MMA' author={null} text='El día en que se dió la pelea en MMA de Dave Bautista ante Vince Lucero.' date='28/06/2024' />
                 <ArticlePreview img={divisionGoats} url='/articulos/mejores-peleadores-por-division-ufc' title='Los Mejores Peleadores de la Historia de Cada Division de UFC' author={null} text='La lista del mejor peleador histórico de cada división de la UFC' date='27/06/2024' />
+                <ArticlePreview img={magomedovOjo} url='/articulos/shara-magomedov-ojo' title='¿Qué le Pasó en el Ojo a Shara Magomedov?' author={null} text='Una de las mayores promesas de la UFC y cómo es capaz de pelear a pesar de haber perdido la visión en uno de sus ojos.' date='22/06/2024' />
                 <ArticlePreview img={boxeadorVsMMA} url='/articulos/boxeador-vs-mma' title='Boxeador vs MMA: Las Peleas Entre Boxeo y MMA' author={null} text='Los enfrentamientos entre luchadores de MMA y boxeadores que se han dado en boxeo.' date='20/06/2024' />
                 <ArticlePreview img={ginaCarano} url='/articulos/gina-carano-historia' title='Gina Carano: La Primera Estrella Femenina de las MMA' author={null} text='La historia de una de las mujeres más importantes en la historia de las MMA, que pasó de ser una de las procursoras de las MMA femeninas a una estrella de cine.' date='20/06/2024' />
                 <ArticlePreview img={bispingOjo} url='/articulos/michael-bisping-ojo' title='Michael Bisping: El Luchador Inglés de UFC Que Perdió un Ojo Peleando' author={null} date='13/06/2024' text='La historia de cómo el peleador de Reino Unido perdió su ojo durante una pelea de UFC, y cómo a pesar de eso logró ser campeón.' />
