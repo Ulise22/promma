@@ -2,9 +2,20 @@ import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
+import type { Metadata } from 'next'
 /* Images */
 import hero from '@/assets/noticias/0-10/kai_asakura.jpg'
 import Image from 'next/image'
+
+export const metadata: Metadata = {
+    title: '¿Quién es Kai Asakura?',
+    description: 'Kai Asakura el próximo sábado hará su debut en la UFC, y para ello no hará nada menos que disputar el título de la división de peso mosca ante el brasileño Alexandre Pantoja, de forma inédita, dado que no es común ver luchadores ir a pelear por el título en su primer combate en la compañía. Pero entonces, ¿quién es este luchador y cuál es su historia para llegar hasta donde está ahora?',
+    openGraph: {
+        title: '¿Quién es Kai Asakura?',
+        description: 'Kai Asakura el próximo sábado hará su debut en la UFC, y para ello no hará nada menos que disputar el título de la división de peso mosca ante el brasileño Alexandre Pantoja, de forma inédita, dado que no es común ver luchadores ir a pelear por el título en su primer combate en la compañía. Pero entonces, ¿quién es este luchador y cuál es su historia para llegar hasta donde está ahora?',
+        url: 'https://fullmma.org/noticias/quien-es-kai-asakura'
+    }
+}
 
 export default function ProximosRivalesTopuria () {
     return(
