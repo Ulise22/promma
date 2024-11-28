@@ -7,6 +7,7 @@ import ArticlePreview from '../articulos/components/ArticlePreview';
 import michaelMorales from '@/assets/noticias/10-20/michael_morales.jpg'
 import belalOdiado from '@/assets/noticias/10-20/belal_odiado.jpg'
 import campeonesViejosUFC from '@/assets/noticias/0-10/campeones_viejos_ufc.jpg'
+import espUFC2025 from '@/assets/noticias/0-10/peleadores_espanoles_ufc.jpg'
 import argUFC2024 from '@/assets/noticias/20-30/argentinos2024.jpg'
 import sharaBulletFeb2025 from '@/assets/noticias/0-10/shara_bullet_feb_2025.jpg'
 import proxRivalDuPlessis from '@/assets/noticias/0-10/chimaev_or_strickland.jpg'
@@ -58,13 +59,14 @@ export default function NoticiasPage () {
                 </Link>
             </article>
             <article className={styles.noticiasHero__container}>
+                <ArticlePreview img={espUFC2025} url='/noticias/luchadores-espanoles-en-ufc' title='Los 5 Peleadores Españoles Actuales de UFC en 2024' author={null} text='Los luchadores españoles de UFC que compiten actualmente en la compañía más grande de MMA del mundo.' date='28/11/2024' />
                 <ArticlePreview img={campeonesViejosUFC} url='/noticias/5-campeones-mas-viejos-ufc' title='Los 5 Campeones Más Viejos de la UFC: La Lista a la que se Puede Sumar Stipe Miocic' author={null} text='El próximo sábado, el luchador estadounidense de 42 años, peleará por el cinturón de peso pesado ante Jon Jones, donde podría convertirse en uno de los campeones más añejos de la historia.' date='11/11/2024' />
                 <ArticlePreview img={sharaBulletFeb2025} url='/noticias/shara-bullet-pelea-febrero-2025' title='¿Shara Magomedov vs Paulo Costa Para Febrero de 2025?' author={null} text='¿Cuál será el próximo rival de Shara Bullet en febrero del 2025? ¿Israel Adesanya? ¿Paulo Costa? ¿Michael Venom Page?' date='04/11/2024' />
                 <ArticlePreview img={argUFC2024} url='/noticias/peleadores-de-ufc-argentinos-2024' title='Los 5 Peleadores de UFC Argentinos Que Compiten en 2024' author={null} text='Con la llegada de Kevin Vallejos a la UFC, ya son 5 los argentinos que compiten en la UFC. Quiénes son y cómo les va.' date='26/09/2024' />
-                <ArticlePreview img={khalil} url='/noticias/khalil-rountree' title='¿Quién es Khalil Rountree? El Próximo Rival de Alex Pereira en el UFC 307' author={null} text='La historia de Khalil Rountree Jr. y de cómo paso de de pesar 300lbs a ser el peleador de UFC que va a pelear por el título de los semipesados.' date='16/09/2024' />
             </article>
             <h2 className={styles.noticiasPage__subtitle}>Todas Las Noticias</h2>
             <article className={styles.noticias}>
+                <ArticlePreview img={khalil} url='/noticias/khalil-rountree' title='¿Quién es Khalil Rountree? El Próximo Rival de Alex Pereira en el UFC 307' author={null} text='La historia de Khalil Rountree Jr. y de cómo paso de de pesar 300lbs a ser el peleador de UFC que va a pelear por el título de los semipesados.' date='16/09/2024' />
                 <ArticlePreview img={iliaPromissKOHolloway} url='/noticias/ilia-promete-ko-a-holloway' title='Ilia Promete KO en el Primer Asalto Contra Holloway' author={null} text='Ilia Topuria habló de su pelea con Max Holloway, en la cual promote noquear en el primer asalto, además habló de la llegada de su hermano a la UFC, futuras peleas, Islam Makhachev, Volkanovski, Sean O&apos;Malley, Diego Lopes, etc.' date='22/08/2024' />
                 <ArticlePreview img={drakeApuesta} url='/noticias/drake-apuesta-ufc' title='¡Drake es Mufa! Todas Las Apuestas Perdidas de Drake en UFC' author={null} text='"La maldición de Drake" y todos los peleadores que sufrieron de esta con las apuestas del cantante estadounidense' date='19/08/2024' />
                 <ArticlePreview img={danHookerTattoos} url='/noticias/dan-hooker-tattoos' title='Los tatuajes de Dan Hooker y su significado' author={null} text='Cómo la estrella de la UFC Dan Hooker pasó de no tener ningún tatuaje a llenarse el cuerpo de tinta y el significado detrás de sus tatuajes.' date='17/08/2024' />
