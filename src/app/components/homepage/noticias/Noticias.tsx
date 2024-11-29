@@ -3,6 +3,7 @@ import styles from './noticias.module.css'
 import Image from 'next/image'
 import HomeArticle from './HomeArticle'
 /* IMAGES */
+import espUFC2025 from '@/assets/noticias/0-10/peleadores_espanoles_ufc.jpg'
 import campeonesViejosUFC from '@/assets/noticias/0-10/campeones_viejos_ufc.jpg'
 import sharaBulletFeb2025 from '@/assets/noticias/0-10/shara_bullet_feb_2025.jpg'
 import proxRivalDuPlessis from '@/assets/noticias/0-10/chimaev_or_strickland.jpg'
@@ -17,6 +18,7 @@ export default function Noticias () {
         <section className={styles.noticias}>
             <h2 className={styles.noticias__title}>Últimas Noticias</h2>
             <article className={styles.noticias__container}>
+                <HomeArticle img={espUFC2025} author='FULLMMA' date='28/11/2024' link='/noticias/luchadores-espanoles-en-ufc' title='Los 5 Peleadores Españoles Actuales de UFC en 2024' description='Los luchadores españoles de UFC que compiten actualmente en la compañía más grande de MMA del mundo.'/>
                 <HomeArticle img={campeonesViejosUFC} author='FULLMMA' date='11/11/2024' link='/noticias/5-campeones-mas-viejos-ufc' title='Los 5 Campeones Más Viejos de la UFC: La Lista a la que se Puede Sumar Stipe Miocic' description='El próximo sábado, el luchador estadounidense de 42 años, peleará por el cinturón de peso pesado ante Jon Jones, donde podría convertirse en uno de los campeones más añejos de la historia.'/>
                 <HomeArticle img={sharaBulletFeb2025} author='FULLMMA' date='04/11/2024' link='/noticias/shara-bullet-pelea-febrero-2025' title='¿Shara Magomedov vs Paulo Costa Para Febrero de 2025?' description='¿Cuál será el próximo rival de Shara Bullet en febrero del 2025? ¿Israel Adesanya? ¿Paulo Costa? ¿Michael Venom Page?'/>
                 <HomeArticle img={proxRivalDuPlessis} author='FULLMMA' date='30/10/2024' link='/noticias/du-plessis-proxima-pelea-2025' title='Dricus Du Plessis Próxima Pelea 2025: ¿Strickland o Chimaev?' description='¿Quién de los 2 merece más ir a pelear por el título de peso medio, Sean Strickland o Khamzat Chimaev?'/>
