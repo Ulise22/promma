@@ -35,4 +35,8 @@
     .articleHero__subtitle {
         font-size: 18px;
     }
+
+    .articleHero__info {
+        flex-wrap: wrap;
+    }
 }
