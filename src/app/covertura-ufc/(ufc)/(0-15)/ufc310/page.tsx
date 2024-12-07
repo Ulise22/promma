@@ -27,8 +27,9 @@ export default function UFC309 () {
                     <h2>Kennedy Nzechukwu Noquea a Lukasz Brzeski en la Primera Pelea de la Noche</h2>
                     <p>Increíble manera de comenzar la cartelera, con el nigeriano Nzechukwu consigue una gran victoria por la vía del nocaut al conectar un gancho con la mano derecha que tumbó a su rival, consiguiendo la segunda victoria de su carrera en la UFC, dado que viene de una victoria por TKO ante el español <b>Chris Bernett</b> en el <Link href='/covertura-ufc/ufc308'>UFC 308</Link>. </p>
                     <p>Por su parte, el luchador polaco Lukasz Brzeski parece estar despidiendo de la compañía, dado que con esta nueva derrota, suma 5 peleas perdiendo de 6. </p>
-                    {/* <h2>Clay Guida vs Chase Hooper</h2>
-                    <p></p> */}
+                    <h2>Chase Hooper Somete a Clay Guida en el Primer Asalto</h2>
+                    <p>El joven luchador estadounidense de apenas 25 años, es capaz de conseguir su cuarta victoria consecutiva en la compañía al someter con una palanca de brazo en el primer asalto a su rival. Esta además es la tercer victoria consecutiva de Hooper por la vía de la sumisión. </p>
+                    <p>Por su parte, el veterano luchador de 42 años Clay Guida, obtiene su tercer derrota consecutiva en sus más de 36 peleas en la UFC. </p>
                     {/* <h2>Michael Chiesa vs Max Griffin</h2>
                     <p></p> */}
                     {/* <h2>Cody Durden vs Joshua Van</h2>
