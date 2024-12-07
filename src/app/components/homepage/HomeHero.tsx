@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc309 from '@/assets/covertura_ufc/ufc/0-15/ufc309.jpg'
+import ufc310 from '@/assets/covertura_ufc/ufc/0-15/ufc310.jpg'
 import iliaPeleador2024 from '@/assets/noticias/0-10/ilia_peleador_2024.jpg'
 import kaiAsakura from '@/assets/noticias/0-10/kai_asakura.jpg'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc309'>
-                <Image className={styles.homehero__bigArticle__img} src={ufc309} alt='' />
-                <h2 className={styles.home__title}>UFC 309: ¡Jon Jones Noquea a Stipe Miocic en el Tercer Asalto en su Primer Defensa del Título! ¡Charles Oliveira Derrota a Michael Chandler por Decisión en La Pelea de la Noche!</h2>
-                <span>¡Bo Nical derrota a Paul Craig y mantiene su invicto de 7-0! Además el brasileño Mauricio Ruffy vence al peruano James Llontop por decisión en su segunda pelea en la UFC.</span>
+            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc310'>
+                <Image className={styles.homehero__bigArticle__img} src={ufc310} alt='' />
+                <h2 className={styles.home__title}>UFC 310: ¡Alexandre Pantoja vs Kai Asakura por el Campeonato de Peso Mosca de UFC! ¡Shavkat Rakhmonov vs Ian Garry!</h2>
+                <span>Noche de UFC tremenda que además nos trae la pelea de pesado entre Ciryl Gane y Alexander Volkov. </span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/quien-es-kai-asakura'>
                 <Image className={styles.homehero__article__img} loading='lazy' src={kaiAsakura} alt='' />

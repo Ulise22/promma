@@ -13,6 +13,7 @@ import ufc305 from '@/assets/covertura_ufc/ufc/0-15/ufc305.jpg'
 import ufc306 from '@/assets/covertura_ufc/ufc/0-15/ufc306.jpg'
 import ufc307 from '@/assets/covertura_ufc/ufc/0-15/ufc307.jpg'
 import ufc308 from '@/assets/covertura_ufc/ufc/0-15/ufc308.jpg'
+import ufc309 from '@/assets/covertura_ufc/ufc/0-15/ufc309.jpg'
 /* UFC FIGHT NIGHT IMAGES */
 import whittakerVSaliskerov from '@/assets/covertura_ufc/fight_night/0-15/whittaker-vs-aliskerov.jpg'
 import lewisVsNascimento from '@/assets/covertura_ufc/fight_night/0-15/lewis-vs-nascimento-preview.jpg'
@@ -27,6 +28,7 @@ export default function CoverturaUFC () {
         <main className={styles.covertura__container}>
             <h2 className={styles.covertura__subtitle}>UFC Numerado</h2>
             <section className={styles.covertura__articles__container}>
+                <ArticlePreview img={ufc309} url='/covertura-ufc/ufc309' title='UFC 309: ¡Jon Jones Noquea a Stipe Miocic en el Tercer Asalto en su Primer Defensa del Título! ¡Charles Oliveira Derrota a Michael Chandler por Decisión en La Pelea de la Noche!' author={null} text='¡Bo Nical derrota a Paul Craig y mantiene su invicto de 7-0! Además el brasileño Mauricio Ruffy vence al peruano James Llontop por decisión en su segunda pelea en la UFC.' date='16/11/2024' />
                 <ArticlePreview img={ufc308} url='/covertura-ufc/ufc308' title='UFC 308: ¡Ilia Topuria Noquea a Max Holloway en el Tercer Asalto! ¡Khamzat Chimaev Somete a Robert Whittaker en el Primer Asalto!' author={null} text='Tenemos un tremendo evento que además cuenta con el regreso al octágono de Shara Magomedov, con la pelea de Dan Ige y Lerone Murphy, y la pelea entre Ankalaev y Rakic acompañando la cartelera estelar.' date='26/10/2024' />
                 <ArticlePreview img={ufc307} url='/covertura-ufc/ufc307' title='UFC 307: ¡Alex Pereira Noquea a Khalil Rountree En El Cuarto Asalto y Sigue Siendo Campeón! ¡Julianna Peña es Nueva Campeona de UFC al Derrotar a Raquel Pennington!' author={null} text='Kayla Harrison gana luego de una actuación dominante en su pelea por decisión unánime. Roman Dolidze gana por parada médica luego de una lesión de Kevin Holland. Mario Bautista gana su pelea contra José Aldo por decisión dividida.' date='05/10/2024' />
                 <ArticlePreview img={ufc306} url='/covertura-ufc/ufc306' title='UFC 306: ¡Merab Dvalisvhili Nuevo Campeón de Peso Gallo! ¡Valentina Shevchenko Vuelve a Ser Campeona al Derrotar Por Decisión a Alexa Grasso!  ¡Esteban Ribovics Gana en un Peleón al Mexicano Daniel Zellhuber!' author={null} text='¡Ronaldo Rodríguez Gana por Decisión ante Ode Osbourne! ¡Diego Lopes Derrota a Brian Ortega por Decisión Unánime! ¡Raúl Rosas Jr. Logra La Primer Victoria de la Noche en La Esfera!' date='15/09/2024' />
