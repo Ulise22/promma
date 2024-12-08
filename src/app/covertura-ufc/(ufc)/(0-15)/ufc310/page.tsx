@@ -37,8 +37,9 @@ export default function UFC309 () {
                     <p>Espectacular pelea por parte de estos 2 luchadores de peso mosca, donde el joven luchador de 23 años, Joshua Van, consiguió una increíble victoria por la vía de la decisión que lo coloca en el ranking de la división. </p>
                     <p>El primer asalto nos había traído a un Cody Durden que fue capaz de controlar a su joven rival contra la reja. Sin embargo, todo el esfuerzo necesario para mantener a raya a su contrincante, terminó por cansarlo durante los siguientes asaltos, que llevó a Van a defender de mejor manera todos los intentos de derribo, y a conectar los mejores golpes que iban con una potencia increíble a la cabeza de su rival, que ya cansado, se le hacía difícil mantener la guardia en alto. </p>
                     <p>Es un milagro que la pelea no haya terminado por nocaut, dado que a tal punto llegó el dominió de Joshua, que terminó por conectar más de 160 golpes significativos al final de la pelea. De esta forma, en su segunda victoria consecutiva luego de haber ganado su combate en el <Link href='/covertura-ufc/ufc306'>UFC 306</Link>, el joven luchador americano se mete en los rankings de la división. </p>
-                    {/* <h2>Chris Weidman vs Eryk Anders</h2>
-                    <p></p> */}
+                    <h2>Eryk Anders Derrota por TKO a Chris Weidman en el Segundo Asalto</h2>
+                    <p>En un combate donde el veterano excampeón de peso mediano <b>Chris Weidman</b> parecía haber ganado el primer asalto, terminó por perder la pelea al ser noqueado en el segundo. </p>
+                    <p>Anders estuvo practicamente la totalidad del segundo round por encima de su rival, castigándolo con el ground & pound a un Chris que pareció ido durante casi todo el asalto. Finalmente el árbitro terminó por parar la pelea a 10 segundos de que terminé el asalto al no ver respuesta por parte del excampeón. </p>
                     {/* <h2>¡Randy Brown vs Bryan Battle!</h2>
                     <p></p> */}
                     {/* <h2>Movsar Evloev vs Aljamain Sterling!</h2>
