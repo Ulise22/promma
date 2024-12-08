@@ -53,8 +53,9 @@ export default function UFC310 () {
                     <p>De esta manera el luchador de 34 años sigue en racha de victoria luego de su tiempo de inactividad que se tomó desde 2022. Por su lado, Anthony Smith se retiró el día de hoy, siendo esta su última pelea como profesional, dejando detrás un legado enorme con 59 peleas profesionales, y un récord de 38-21. </p>
                     <h2>Dooho Choi Gana por TKO a Nate Landwehr en la Primer Pelea Estelar de la Noche</h2>
                     <p>El surcoreano logra una excelente victoria ante el estadounidense <b>Nate Landwehr</b>, a quien fue capaz de dominar completamente durante la totalidad del combate, castigándolo mucho en el striking, y logrando finalizar cuando dejó a su rival en un crucifijo, del cual no podía defenderse y sólo le tocaba recibir daño. Finalmente, con un muy buen criterio, el árbitro vió innecesario que el estadounidense reciba más castigo, parando la pelea para que Dooho Choi se quede con la victoria. </p>
-                    {/* <h2>Bryce Mitchel vs Kron Gracie</h2>
-                    <p></p> */}
+                    <h2>Bryce Mitchel Noquea a Kron Gracie en el Tercer Asalto</h2>
+                    <p>El estadounidense <b>Bryce Mitchel</b> logra derrotar al brasileño <b>Kron Gracie</b> por la vía del nocaut, luego de que este último jalara guardia, y de que el Bryce aprovechara la posición en la que quedó para dar codazos desde arriba a su rival, que le terminó dando la victoria por finalización. </p>
+                    <p>De esta forma, Bryce Mitchel logra reponerse de su última pelea que acabó en derrota por nocaut ante <b>Josh Emmett</b>, además de la derrota que había sufrido hacía 2 combates ante el ahora campeón de la división, <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link>. </p>
                     {/* <h2>Ciryl Gane vs Alexander Volkov</h2>
                     <p></p> */}
                     {/* <h2>Shavkat Rakhmonov vs Ian Machado Garry</h2>
