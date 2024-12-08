@@ -43,8 +43,9 @@ export default function UFC310 () {
                     <h2>¡Bryan Battle Derrota a Randy Brown Por Decisión Dividida!</h2>
                     <p>El estadounidense <b>Bryan Battle</b> logra llevarse la victoria por la mínima ante el jamaiquino <b>Randy Brown</b> en un combate bastante cerrado, en el que Bryan logró sacar la diferencia en el intercambio de golpes en el clinch, conectando varios rodillazos contra la reja. </p>
                     <p>Vimos la mejor versión de Randy Brown cuando la pelea se mantuvo a la distancia, aprovechando el alcance que este tiene para conectar a su rival, que sin duda sintió el poder que llevaban sus manos. Sin embargo, Bryan Battle se dió cuenta de esto, y llevó la pelea al clinch siempre que pudo. </p>
-                    {/* <h2>Movsar Evloev vs Aljamain Sterling!</h2>
-                    <p></p> */}
+                    <h2>¡Movsar Evloev Le Gana Aljamain Sterling y Sigue Invicto!</h2>
+                    <p>El peleador ruso supo enfrentar a un complicadísimo rival como el excampeón de peso gallo <b>Aljamain Sterling</b>, a quien luego de 3 asaltos fue capaz de derrotar por decisión unánime, teniendo un segundo y tercer asalto muy buenos, que seguramente fueron los que le dieron la victoria a los ojos de los jueces.</p>
+                    <p>Evloev supo tener un muy buen striking durante la pelea, conectando un par de golpes que su rival sintió, y también fue bueno en la lucha, donde supo salir de los enrredos en los que lo metía su rival, además de ser capaz de completar exitosamente sus intentos de derribos. De esta manera supo defender su invicto, y pareciera que una posible pelea por el título está cada vez más cerca. </p>
                     {/* <h2>Vicente Luque vs Themba Gorimbo</h2>
                     <p></p> */}
                     {/* <h2>¡Dominck Reyes vs Anthony Smith!</h2>
