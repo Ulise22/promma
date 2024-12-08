@@ -9,10 +9,10 @@ import hero from '@/assets/covertura_ufc/ufc/0-15/ufc310.jpg'
 
 export const metadata: Metadata = {
     title: 'UFC 310',
-    description: "",
+    description: "Evento de UFC con la pelea entre Alexandre Pantoja y Kai Asakura por el cinturón de peso mosca como evento titular. Además tenemos a invicto contra invicto de pelea coestelar, con Shavkat Rakhmonov vs Ian Garry poniendo en juego su 0...",
     openGraph: {
         title: 'UFC 310',
-        description: "",
+        description: "Evento de UFC con la pelea entre Alexandre Pantoja y Kai Asakura por el cinturón de peso mosca como evento titular. Además tenemos a invicto contra invicto de pelea coestelar, con Shavkat Rakhmonov vs Ian Garry poniendo en juego su 0...",
         url: 'https://fullmma.org/covertura-ufc/ufc310'
     }
 }
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function UFC310 () {
     return(
         <main>
-            <ArticleHero title="UFC 310: ¡Alexandre Pantoja vs Kai Asakura por el Campeonato de Peso Mosca de UFC! ¡Shavkat Rakhmonov vs Ian Garry!" subtitle='Movsar Evloev Gana su Pelea por Decisión. Vicente Luque Logra una Victoria por Sumisión en el Primer Asalto. Además Dominick Reyes Derrota a Anthony Smith por TKO en el Segundo Asalto' image={hero} date='2024-12-07' author={null} updatedDate='2024-12-08' />
+            <ArticleHero title="UFC 310: ¡Ciryl Gane Derrota a Volkov por Decisión!" subtitle='Movsar Evloev Gana su Pelea por Decisión. Vicente Luque Logra una Victoria por Sumisión en el Primer Asalto. Además Dominick Reyes Derrota a Anthony Smith por TKO en el Segundo Asalto' image={hero} date='2024-12-07' author={null} updatedDate='2024-12-08' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Último evento de PPV del año con el UFC 310, que nos trae como evento principal la pelea por el cinturón de peso mosca de la UFC entre el actual campeón <Link href='/peleadores/alexandre-pantoja'>Alexandre Pantoja</Link>, y el debutante japonés de 31 años que peleará por primera vez en la compañía <Link href='/noticias/quien-es-kai-asakura'>Kai Asakura</Link>. Además como evento coestelar tendremos la pelea eliminatoria del título de peso wélter entre los 2 invictos de la división, el luchador de Kazajistán <Link href='/peleadores/shavkat-rakhmonov'>Shakvat Rakhmonov</Link> y el irlandés <Link href='/peleadores/ian-garry'>Ian Garry</Link>. </p>
