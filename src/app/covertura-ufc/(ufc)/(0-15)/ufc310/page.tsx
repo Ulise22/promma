@@ -51,8 +51,8 @@ export default function UFC310 () {
                     <h2>¡Dominck Reyes Derrota a Anthony Smith por TKO en el Segundo Asalto!</h2>
                     <p>Dominick Reyes consigue su segunda victoria consecutiva en el año ante el veterano de 36 años <b>Anthony Smith</b>, a quien dominó completamente castigando desde el piso a su rival, conectando en sólo 2 asaltos más de 125 golpes significantes, rompiendo su marca anterior. </p>
                     <p>De esta manera el luchador de 34 años sigue en racha de victoria luego de su tiempo de inactividad que se tomó desde 2022. Por su lado, Anthony Smith se retiró el día de hoy, siendo esta su última pelea como profesional, dejando detrás un legado enorme con 59 peleas profesionales, y un récord de 38-21. </p>
-                    <h2>Nate Landwehr vs Dooho Choi</h2>
-                    <p></p>
+                    <h2>Dooho Choi Gana por TKO a Nate Landwehr en la Primer Pelea Estelar de la Noche</h2>
+                    <p>El surcoreano logra una excelente victoria ante el estadounidense <b>Nate Landwehr</b>, a quien fue capaz de dominar completamente durante la totalidad del combate, castigándolo mucho en el striking, y logrando finalizar cuando dejó a su rival en un crucifijo, del cual no podía defenderse y sólo le tocaba recibir daño. Finalmente, con un muy buen criterio, el árbitro vió innecesario que el estadounidense reciba más castigo, parando la pelea para que Dooho Choi se quede con la victoria. </p>
                     {/* <h2>Bryce Mitchel vs Kron Gracie</h2>
                     <p></p> */}
                     {/* <h2>Ciryl Gane vs Alexander Volkov</h2>
