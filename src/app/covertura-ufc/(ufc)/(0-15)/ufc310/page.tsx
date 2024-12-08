@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function UFC310 () {
     return(
         <main>
-            <ArticleHero title="UFC 310: ¡Alexandre Pantoja vs Kai Asakura por el Campeonato de Peso Mosca de UFC! ¡Shavkat Rakhmonov vs Ian Garry!" subtitle='Noche de UFC que ya nos trajó las victorias de Bryan Battle y de Movsar Evloev por decisión. ' image={hero} date='2024-12-07' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 310: ¡Alexandre Pantoja vs Kai Asakura por el Campeonato de Peso Mosca de UFC! ¡Shavkat Rakhmonov vs Ian Garry!" subtitle='Noche de UFC que ya nos trajó las victorias de Bryan Battle y de Movsar Evloev por decisión. Además Vicente Luque Logra una Victoria por Sumisión en el primer asalto.' image={hero} date='2024-12-07' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Último evento de PPV del año con el UFC 310, que nos trae como evento principal la pelea por el cinturón de peso mosca de la UFC entre el actual campeón <Link href='/peleadores/alexandre-pantoja'>Alexandre Pantoja</Link>, y el debutante japonés de 31 años que peleará por primera vez en la compañía <Link href='/noticias/quien-es-kai-asakura'>Kai Asakura</Link>. Además como evento coestelar tendremos la pelea eliminatoria del título de peso wélter entre los 2 invictos de la división, el luchador de Kazajistán <Link href='/peleadores/shavkat-rakhmonov'>Shakvat Rakhmonov</Link> y el irlandés <Link href='/peleadores/ian-garry'>Ian Garry</Link>. </p>
@@ -48,8 +48,9 @@ export default function UFC310 () {
                     <p>Evloev supo tener un muy buen striking durante la pelea, conectando un par de golpes que su rival sintió, y también fue bueno en la lucha, donde supo salir de los enrredos en los que lo metía su rival, además de ser capaz de completar exitosamente sus intentos de derribos. De esta manera supo defender su invicto, y pareciera que una posible pelea por el título está cada vez más cerca. </p>
                     <h2>¡Vicente Luque Somete a Themba Gorimbo En el Primer Asalto!</h2>
                     <p>El brasileño Vicente Luque consigue una impresionante victoria ante todo pronóstico, logrando conectar una anaconda que dejó inconsciente a su rival en menos de un minuto, logrando una nueva victoria que muy seguramente le hará ganar el bono a la Actuación de la Noche. </p>
-                    {/* <h2>¡Dominck Reyes vs Anthony Smith!</h2>
-                    <p></p> */}
+                    <h2>¡Dominck Reyes Derrota a Anthony Smith por TKO en el Segundo Asalto!</h2>
+                    <p>Dominick Reyes consigue su segunda victoria consecutiva en el año ante el veterano de 36 años <b>Anthony Smith</b>, a quien dominó completamente castigando desde el piso a su rival, conectando en sólo 2 asaltos más de 125 golpes significantes, rompiendo su marca anterior. </p>
+                    <p>De esta manera el luchador de 34 años sigue en racha de victoria luego de su tiempo de inactividad que se tomó desde 2022. Por su lado, Anthony Smith se retiró el día de hoy, siendo esta su última pelea como profesional, dejando detrás un legado enorme con 59 peleas profesionales, y un récord de 38-21. </p>
                     {/* <h2>Nate Landwehr vs Dooho Choi</h2>
                     <p></p> */}
                     {/* <h2>Bryce Mitchel vs Kron Gracie</h2>
