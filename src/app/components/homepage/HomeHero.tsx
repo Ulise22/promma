@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc310'>
                 <Image className={styles.homehero__bigArticle__img} src={ufc310} alt='' />
                 <h2 className={styles.home__title}>UFC 310: ¡Alexandre Pantoja vs Kai Asakura por el Campeonato de Peso Mosca de UFC! ¡Shavkat Rakhmonov vs Ian Garry!</h2>
-                <span>Noche de UFC tremenda que además nos trae la pelea de pesado entre Ciryl Gane y Alexander Volkov. </span>
+                <span>Noche de UFC que ya nos trajó las victorias de Bryan Battle y de Movsar Evloev por decisión. </span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/quien-es-kai-asakura'>
                 <Image className={styles.homehero__article__img} loading='lazy' src={kaiAsakura} alt='' />
