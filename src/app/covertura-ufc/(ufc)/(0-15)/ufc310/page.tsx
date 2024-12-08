@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function UFC310 () {
     return(
         <main>
-            <ArticleHero title="UFC 310: ¡Ciryl Gane Derrota a Volkov por Decisión!" subtitle='Movsar Evloev Gana su Pelea por Decisión. Vicente Luque Logra una Victoria por Sumisión en el Primer Asalto. Además Dominick Reyes Derrota a Anthony Smith por TKO en el Segundo Asalto' image={hero} date='2024-12-07' author={null} updatedDate='2024-12-08' />
+            <ArticleHero title="UFC 310: ¡Rakhmonov Derrota a Ian Garry Por Decisión! ¡Ciryl Gane Derrota a Volkov por Decisión!" subtitle='Movsar Evloev Gana su Pelea por Decisión. Vicente Luque Logra una Victoria por Sumisión en el Primer Asalto. Además Dominick Reyes Derrota a Anthony Smith por TKO en el Segundo Asalto' image={hero} date='2024-12-07' author={null} updatedDate='2024-12-08' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Último evento de PPV del año con el UFC 310, que nos trae como evento principal la pelea por el cinturón de peso mosca de la UFC entre el actual campeón <Link href='/peleadores/alexandre-pantoja'>Alexandre Pantoja</Link>, y el debutante japonés de 31 años que peleará por primera vez en la compañía <Link href='/noticias/quien-es-kai-asakura'>Kai Asakura</Link>. Además como evento coestelar tendremos la pelea eliminatoria del título de peso wélter entre los 2 invictos de la división, el luchador de Kazajistán <Link href='/peleadores/shavkat-rakhmonov'>Shakvat Rakhmonov</Link> y el irlandés <Link href='/peleadores/ian-garry'>Ian Garry</Link>. </p>
@@ -59,8 +59,9 @@ export default function UFC310 () {
                     <h2>Ciryl Gane Derrota a Alexander Volkov Por Decisión Dividida</h2>
                     <p>En una pelea sin mucha acción, quien finalmente se quedó con la victoria fue el luchador francés <Link href='/peleadores/ciryl-gane'>Ciryl Gane</Link> en lo que fue una decisión dividida bastante controversial, dado que al menos yo en lo personal ví ganar al peleador ruso <b>Alexander Volkov</b>. Aunque de igual forma el combate fue bastante cerrado, con ambos peleadores sorprendiendo al llevar este al terreno de la lucha y el jiu-jitsu, donde ninguno fue capaz de finalizar, pero donde se vió a Volkov dominar gran parte de la pelea cuando se estuvo en este terreno. </p>
                     <p>Luego de la pelea, Ciryl Gane estuvo a punto de irse sin dar la entrevista post pelea, confesando después que esto fue a que se lesionó en el primer asalto en el pie, y a que, pese a la victoria, no estuvo contento con la pelea. </p>
-                    {/* <h2>Shavkat Rakhmonov vs Ian Machado Garry</h2>
-                    <p></p> */}
+                    <h2>Shavkat Rakhmonov Derrota a Ian Machado Garry Por Decisión</h2>
+                    <p>En una muy buena pelea, el luchador de Kazajistán, <Link href='/peleadores/shavkat-rakhmonov'>Shavkat Rakhmonov</Link> se lleva la pelea por decisión, siendo esta la primera de sus peleas en terminar todos los asaltos. Supo dominar gran parte del combate, ganando a mi juicio 3 de los 5 asaltos, que le fueron suficiente para llevarse la victoria, manteniendo su invicto, y extendiéndolo a 19-0. </p>
+                    <p>Por su parte, hay que destacar la actuación de <Link href='/peleadores/ian-garry'>Ian Gary</Link>, que pese a perder el combate, demostró ser muchísimo mejor peleador de lo que muchos creían, estando bastante cerca de la victoria incluso en el último asalto, cuando estuvo a nada de conectar un mataleón que podría haber sometido a Rakhmonov. El irlandés hoy perdió su invicto, pero ha demostrado ser un excelente peleador que no está muy lejos de obtener una pelea titular. </p>
                     {/* <h2>Alexandre Pantoja vs Kai Asakura</h2>
                     <p></p> */}
                 </article>
