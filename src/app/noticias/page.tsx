@@ -5,13 +5,14 @@ import Image from 'next/image';
 import ArticlePreview from '../articulos/components/ArticlePreview';
 /* HERO IMAGES */
 import michaelMorales from '@/assets/noticias/10-20/michael_morales.jpg'
-import belalOdiado from '@/assets/noticias/10-20/belal_odiado.jpg'
+import evloevPeleaTopuria from '@/assets/noticias/20-30/evloev_postfight.jpeg'
 import campeonesViejosUFC from '@/assets/noticias/0-10/campeones_viejos_ufc.jpg'
 import espUFC2025 from '@/assets/noticias/0-10/peleadores_espanoles_ufc.jpg'
 import argUFC2024 from '@/assets/noticias/20-30/argentinos2024.jpg'
 import sharaBulletFeb2025 from '@/assets/noticias/0-10/shara_bullet_feb_2025.jpg'
 import proxRivalDuPlessis from '@/assets/noticias/0-10/chimaev_or_strickland.jpg'
 /* 0 - 10 */
+import belalOdiado from '@/assets/noticias/10-20/belal_odiado.jpg'
 import conor from '@/assets/peleadores__images/0-10/conor-mcgregor/mcgregor-card.jpg'
 import dwt2 from '@/assets/noticias/0-10/dwt2.jpeg'
 import rivalsIlia from '@/assets/noticias/0-10/ilia_prox_rival.jpg'
@@ -46,14 +47,14 @@ export default function NoticiasPage () {
                         </div>
                     </article>
                 </Link>
-                <Link className={`${styles.noticiasHero__article} ${styles.normal2}`} href='/noticias/porque-belal-es-odiado'>
-                    <Image className={styles.noticiasHero__article__img} loading="lazy" src={belalOdiado} alt='' />
+                <Link className={`${styles.noticiasHero__article} ${styles.normal2}`} href='/noticias/evloev-sobre-pelea-con-ilia-topuria'>
+                    <Image className={styles.noticiasHero__article__img} loading="lazy" src={evloevPeleaTopuria} alt='' />
                     <article className={styles.noticiasHero__article__container}>
-                        <h2 className={styles.noticiasHero__title}>¿Por qué Belal es Tan Odiado?</h2>
-                        <p>El peleador palestino ha demostrado ser uno de los mejores peso wélter de la UFC, entonces ¿por qué genera tanta antipatía entre los fans?</p>
+                        <h2 className={styles.noticiasHero__title}>Movsar Evloev Cree Poder Ganarle a Ilia Topuria y Pide Pelear por el Cinturón</h2>
+                        <p>El luchador ruso Movsar Evloev, dijo tener lo necesario para derrotar al campeón español Ilia Topuria, luego de vencer al estadounidense Aljamain Sterling en el UFC 310</p>
                         <div className={styles.noticiasHero__article__info}>
                             <h4>FULLMMA</h4>
-                            <p>06/07/2024</p>
+                            <p>08/12/2024</p>
                         </div>
                     </article>
                 </Link>
@@ -73,6 +74,7 @@ export default function NoticiasPage () {
                 <ArticlePreview img={cucuyRetiro} url='/noticias/tony-ferguson-retiro' title='¿Tony Ferguson Se Retira Luego de su Pelea con Michael Chiesa?' author={null} text='El Cucuy se enfrentará al estadounidense Michael Chiesa en agosto, pero ¿será esta su última pelea?' date='27/07/2024' />
                 <ArticlePreview img={jonesEvitaAspinall} url='/noticias/jones-esquiva-aspinall' title='¿Jon Jones Está Evitando a Tom Aspinall?' author={null} text='El actual campeón de peso pesado de UFC Jon Jones, ha rechazado pelear con el campeón interino Tom Aspinall a la espera de combatir en su lugar a Stipe Miocic.' date='16/07/2024' />
                 <ArticlePreview img={volkNextFight} url='/noticias/proxima-pelea-volkanovski' title='¿Volkanovski en Peso Ligero o Revancha Contra Ilia Topuria? Próxima Pelea de Alexander Volkanovski' author={null} text='¿Cuál va a ser la próxima pelea de Alexander Volkanovski? ¿Obtendrá una revancha por el título ante Ilia Topuria, o pasará página y se movera a la división de peso ligero para enfrentar a los otros contendientes?' date='08/07/2024' />
+                <ArticlePreview img={belalOdiado} url='/noticias/porque-belal-es-odiado' title='¿Por qué Belal es Tan Odiado?' author={null} text='El peleador palestino ha demostrado ser uno de los mejores peso wélter de la UFC, entonces ¿por qué genera tanta antipatía entre los fans?' date='06/07/2024' />
                 <ArticlePreview img={chandlerEspera} url='/noticias/michael-chandler-espera-mcgregor' title='¿Tiene Sentido Para Michael Chandler Esperar a McGregor?' author={null} text='Michael Chandler lleva sin pelear desde noviembre de 2022, a la espera de una pelea con Conor McGregor, pero ¿Por qué lo espera tanto?' date='25/06/2024' />
                 <ArticlePreview img={amandaVuelve} url='/noticias/vuelve-amanda-nunes' title='¿Amanda Nunes Vuelve a Pelear?' author={null} text='La mejor peleadora de la historia de las MMA está retirada, pero ¿Volverá Amanda Nunes al Octagono?' date='25/06/2024' />
                 <ArticlePreview img={conor} url='/noticias/mcgregor-cancela-pelea' title='Conor McGregor vs Chandler: ¿McGregor Cancela la Pelea?' author={null} text='A poco tiempo de que se celebre el UFC 303, McGregor canceló la rueda de prensa que estaba prevista para promocionar el evento, muchas cosas extrañas han sucedido desde entonces que desperteron todo tipo de rumores, ¿pero qué está pasando realmente?' date='07/06/2024' />
