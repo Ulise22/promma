@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     }
 }
 
-export default function UFC309 () {
+export default function UFC310 () {
     return(
         <main>
             <ArticleHero title="UFC 310: ¡Alexandre Pantoja vs Kai Asakura por el Campeonato de Peso Mosca de UFC! ¡Shavkat Rakhmonov vs Ian Garry!" subtitle='Noche de UFC tremenda que además nos trae la pelea de pesado entre Ciryl Gane y Alexander Volkov. ' image={hero} date='2024-12-07' author={null} updatedDate={null} />
@@ -40,8 +40,9 @@ export default function UFC309 () {
                     <h2>Eryk Anders Derrota por TKO a Chris Weidman en el Segundo Asalto</h2>
                     <p>En un combate donde el veterano excampeón de peso mediano <b>Chris Weidman</b> parecía haber ganado el primer asalto, terminó por perder la pelea al ser noqueado en el segundo. </p>
                     <p>Anders estuvo practicamente la totalidad del segundo round por encima de su rival, castigándolo con el ground & pound a un Chris que pareció ido durante casi todo el asalto. Finalmente el árbitro terminó por parar la pelea a 10 segundos de que terminé el asalto al no ver respuesta por parte del excampeón. </p>
-                    {/* <h2>¡Randy Brown vs Bryan Battle!</h2>
-                    <p></p> */}
+                    <h2>¡Bryan Battle Derrota a Randy Brown Por Decisión Dividida!</h2>
+                    <p>El estadounidense <b>Bryan Battle</b> logra llevarse la victoria por la mínima ante el jamaiquino <b>Randy Brown</b> en un combate bastante cerrado, en el que Bryan logró sacar la diferencia en el intercambio de golpes en el clinch, conectando varios rodillazos contra la reja. </p>
+                    <p>Vimos la mejor versión de Randy Brown cuando la pelea se mantuvo a la distancia, aprovechando el alcance que este tiene para conectar a su rival, que sin duda sintió el poder que llevaban sus manos. Sin embargo, Bryan Battle se dió cuenta de esto, y llevó la pelea al clinch siempre que pudo. </p>
                     {/* <h2>Movsar Evloev vs Aljamain Sterling!</h2>
                     <p></p> */}
                     {/* <h2>Vicente Luque vs Themba Gorimbo</h2>
