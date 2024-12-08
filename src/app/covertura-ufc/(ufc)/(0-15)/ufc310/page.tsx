@@ -30,8 +30,9 @@ export default function UFC309 () {
                     <h2>Chase Hooper Somete a Clay Guida en el Primer Asalto</h2>
                     <p>El joven luchador estadounidense de apenas 25 años, es capaz de conseguir su cuarta victoria consecutiva en la compañía al someter con una palanca de brazo en el primer asalto a su rival. Esta además es la tercer victoria consecutiva de Hooper por la vía de la sumisión. </p>
                     <p>Por su parte, el veterano luchador de 42 años Clay Guida, obtiene su tercer derrota consecutiva en sus más de 36 peleas en la UFC. </p>
-                    {/* <h2>Michael Chiesa vs Max Griffin</h2>
-                    <p></p> */}
+                    <h2>Michael Chiesa Somete a Max Griffin en el Tercer Asalto</h2>
+                    <p>El luchador estadounidense consigue una gran victoria por la vía de la sumisión ante <b>Max Griffin</b>, en un combate que dominó completamente de principio a fin. Pese a dominar en el suelo, no había intentado realizar una sumisión hasta el último asalto de la pelea, cuando finalmente consiguió conectar una sumisión por mataleón ante su rival.</p>
+                    <p>De esta manera, el luchador veterano de 37 años consigue su segunda victoria consecutiva, dado que venía someter a nadie menos que <Link href='/peleadores/tony-ferguson'>Tony Ferguson</Link> en el <Link href='/covertura-ufc/fight-night-sandhagen-nurmagomedov'>UFC Fight Night: Sandhagen vs Nurmagomedov</Link></p>
                     {/* <h2>Cody Durden vs Joshua Van</h2>
                     <p></p> */}
                     {/* <h2>Chris Weidman vs Eryk Anders</h2>
