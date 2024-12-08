@@ -56,8 +56,9 @@ export default function UFC310 () {
                     <h2>Bryce Mitchel Noquea a Kron Gracie en el Tercer Asalto</h2>
                     <p>El estadounidense <b>Bryce Mitchel</b> logra derrotar al brasileño <b>Kron Gracie</b> por la vía del nocaut, luego de que este último jalara guardia, y de que el Bryce aprovechara la posición en la que quedó para dar codazos desde arriba a su rival, que le terminó dando la victoria por finalización. </p>
                     <p>De esta forma, Bryce Mitchel logra reponerse de su última pelea que acabó en derrota por nocaut ante <b>Josh Emmett</b>, además de la derrota que había sufrido hacía 2 combates ante el ahora campeón de la división, <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link>. </p>
-                    {/* <h2>Ciryl Gane vs Alexander Volkov</h2>
-                    <p></p> */}
+                    <h2>Ciryl Gane Derrota a Alexander Volkov Por Decisión Dividida</h2>
+                    <p>En una pelea sin mucha acción, quien finalmente se quedó con la victoria fue el luchador francés <Link href='/peleadores/ciryl-gane'>Ciryl Gane</Link> en lo que fue una decisión dividida bastante controversial, dado que al menos yo en lo personal ví ganar al peleador ruso <b>Alexander Volkov</b>. Aunque de igual forma el combate fue bastante cerrado, con ambos peleadores sorprendiendo al llevar este al terreno de la lucha y el jiu-jitsu, donde ninguno fue capaz de finalizar, pero donde se vió a Volkov dominar gran parte de la pelea cuando se estuvo en este terreno. </p>
+                    <p>Luego de la pelea, Ciryl Gane estuvo a punto de irse sin dar la entrevista post pelea, confesando después que esto fue a que se lesionó en el primer asalto en el pie, y a que, pese a la victoria, no estuvo contento con la pelea. </p>
                     {/* <h2>Shavkat Rakhmonov vs Ian Machado Garry</h2>
                     <p></p> */}
                     {/* <h2>Alexandre Pantoja vs Kai Asakura</h2>
