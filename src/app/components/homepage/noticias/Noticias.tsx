@@ -3,6 +3,7 @@ import styles from './noticias.module.css'
 import Image from 'next/image'
 import HomeArticle from './HomeArticle'
 /* IMAGES */
+import evloevPeleaTopuria from '@/assets/noticias/20-30/evloev_postfight.jpeg'
 import espUFC2025 from '@/assets/noticias/0-10/peleadores_espanoles_ufc.jpg'
 import campeonesViejosUFC from '@/assets/noticias/0-10/campeones_viejos_ufc.jpg'
 import sharaBulletFeb2025 from '@/assets/noticias/0-10/shara_bullet_feb_2025.jpg'
@@ -18,6 +19,7 @@ export default function Noticias () {
         <section className={styles.noticias}>
             <h2 className={styles.noticias__title}>Últimas Noticias</h2>
             <article className={styles.noticias__container}>
+                <HomeArticle img={evloevPeleaTopuria} author='FULLMMA' date='08/12/2024' link='/noticias/evloev-sobre-pelea-con-ilia-topuria' title='Movsar Evloev Cree Poder Ganarle a Ilia Topuria y Pide Pelear por el Cinturón' description='El luchador ruso Movsar Evloev, dijo tener lo necesario para derrotar al campeón español Ilia Topuria, luego de vencer al estadounidense Aljamain Sterling en el UFC 310'/>
                 <HomeArticle img={espUFC2025} author='FULLMMA' date='28/11/2024' link='/noticias/luchadores-espanoles-en-ufc' title='Los 5 Peleadores Españoles Actuales de UFC en 2024' description='Los luchadores españoles de UFC que compiten actualmente en la compañía más grande de MMA del mundo.'/>
                 <HomeArticle img={campeonesViejosUFC} author='FULLMMA' date='11/11/2024' link='/noticias/5-campeones-mas-viejos-ufc' title='Los 5 Campeones Más Viejos de la UFC: La Lista a la que se Puede Sumar Stipe Miocic' description='El próximo sábado, el luchador estadounidense de 42 años, peleará por el cinturón de peso pesado ante Jon Jones, donde podría convertirse en uno de los campeones más añejos de la historia.'/>
                 <HomeArticle img={sharaBulletFeb2025} author='FULLMMA' date='04/11/2024' link='/noticias/shara-bullet-pelea-febrero-2025' title='¿Shara Magomedov vs Paulo Costa Para Febrero de 2025?' description='¿Cuál será el próximo rival de Shara Bullet en febrero del 2025? ¿Israel Adesanya? ¿Paulo Costa? ¿Michael Venom Page?'/>
