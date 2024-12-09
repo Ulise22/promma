@@ -18,14 +18,14 @@ export const metadata: Metadata = {
 export default function Pantoja () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={pantoja} w={28} l={5} d={0} nombre='Alexandre Pantoja' apodo='THE CANNIBAL' categoria='Peso Mosca' />
+            <PeleadoresHero peleadoresImage={pantoja} w={29} l={5} d={0} nombre='Alexandre Pantoja' apodo='THE CANNIBAL' categoria='Peso Mosca' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Pantoja ufc</h2>
                     <p className={styles.peleador__article__text}>Alexandre Pantoja es un peleador de mma brasileño y el actual campeón de Peso Mosca en la <Link href='/articulos/ufc'>UFC</Link>, cosa que logró luego de ganarle al peleador mexicano <b>Brandom Moreno</b>, por decisión dividida en el UFC 290, evento que se organizó en las vegas.</p>
                     <p className={styles.peleador__article__text}>Pantoja hizo su debut en la UFC el 28 de enero de 2017, donde luchó y derrotó al estadounidense Eric Shelton. Desde entonces, peleó en 13 combates, ganando 10 de estos y perdiendo tan sólo 3. Además supo destacar en julio de 2023 al ganarle al campeón de Peso Mosca hasta ese momento, <b>Brandom Moreno</b>, a quien ya había derrotado en mayo de 2018 por decisión unánime. </p>
                     <h2 className={styles.peleador__article__title}>Alexandre Pantoja record</h2>
-                    <p className={styles.peleador__article__text}>Alexandre Pantoja tiene un record de 28-5-0, siendo 8 de sus 27 victorias por nocaut, 10 por sumisión y 10 por decisión. Mientras que todas sus 5 derrotas fueron por decisión.</p>
+                    <p className={styles.peleador__article__text}>Alexandre Pantoja tiene un record de 29-5-0, siendo 8 de sus 27 victorias por nocaut, 11 por sumisión y 10 por decisión. Mientras que todas sus 5 derrotas fueron por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Pantoja mma</h2>
                     <p className={styles.peleador__article__text}>Alexandre Pantoja es un peleador profesional de mma desde 2007, habiendo tenido un largo historial de peleas en su país de origen hasta que en mayo de 2016 la UFC lo anunció como uno de los 16 concursantes del TUF (The Ultimate Fighter: Tournament of Champions), competición en la que participaría como parte del equipo de Henry Cejudo.</p>
                     <p className={styles.peleador__article__text}>Desde sus inicios en las mma, Pantoja mantiene un estilo de pelea típico de los peleadores de Brasil, el Jiu Jitsu Brasileño.</p>

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function Rakhmonov () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={18} l={0} d={0} nombre='Shavkat Rakhmonov' apodo='NOMAD' categoria='Peso Wélter' />
+            <PeleadoresHero peleadoresImage={fighter} w={19} l={0} d={0} nombre='Shavkat Rakhmonov' apodo='NOMAD' categoria='Peso Wélter' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Shavkat Rakhmonov UFC</h2>
@@ -26,7 +26,7 @@ export default function Rakhmonov () {
                     <p className={styles.peleador__article__text}>Es de los peleadores que más entusiasmo genera, dado que pareciera tener el potencial para ser de esos campeones dominantes que marcan época, estando aún invicto, y justificando la totalidad de sus victorias por finalización, es un peleador que es todo menos aburrido. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/vh9I68QLdZY?si=_gl_NvIBekpJHQ8q" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <h2 className={styles.peleador__article__title}>Shavkat Rakhmonov Récord</h2>
-                    <p className={styles.peleador__article__text}>Shavkat Rakhmonov posee un récord invicto de 18-0. Siendo todas sus victorias por finalización, con 8 siendo por la vía del nocaut y 10 siendo por sumisión.</p>
+                    <p className={styles.peleador__article__text}>Shavkat Rakhmonov posee un récord invicto de 19-0. Siendo 8 de estas victorias por la vía del nocaut, 10 por la vía de la sumisión y sólo 1 de sus victorias fue por decisión. </p>
                     <h2 className={styles.peleador__article__title}>Shavkat Rakhmonov Biografía</h2>
                     <p className={styles.peleador__article__text}>Shavkat Bakhtibayuly Rakhmonov nació el 23 de octubre de 1994 en la República de Kazajistán. A los 16 años él y su familia fueron relocados a una ciudad nueva, cosa que hizo que comenzaran a sufrir financieramente, lo que llevó a nuestro protagonista a que a esa edad comenzara a trabajar para ayudar a su familia, fue durante este mismo tiempo que comenzó a asistir a un club deportivo local para entrenar <b>Comat Sambo</b>.</p>
                     <p className={styles.peleador__article__text}>A los 18 años comenzaría su carrera amateur como luchador de MMA, compitiendo en la federación <b>WMMA</b> en el año 2013. Durante su carrera como amateur cosecharía un récord de 11-2. Shavkat sería capaz de compaginar su carrera en el deporte con sus estudios universitarios, dado que a los 19 años sería aceptado en la universidad y comenzaría sus estudios de educación física.</p>
