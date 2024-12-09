@@ -19,6 +19,7 @@ import bestMAForMMA from '@/assets/articulos/10-20/best_ma_for_mma.jpg'
 import mostProFights from '@/assets/articulos/10-20/most_pro_fights.jpg'
 import allDoubleChamps from '@/assets/articulos/10-20/dobles-campeones.jpg'
 import mariusz from '@/assets/articulos/10-20/mariusz_pudzianowski.jpg'
+import fightingNerds from '@/assets/articulos/10-20/fighting_nerds.jpg'
 /* 20-30 */
 import jimMiller from '@/assets/articulos/20-30/jim-miller.jpg'
 import ufc from '@/assets/articulos/20-30/ufc.jpg'
@@ -32,13 +33,11 @@ import ginaCarano from '@/assets/articulos/30-40/gina_carano.jpg'
 import boxeadorVsMMA from '@/assets/articulos/30-40/boxeador_vs_mma.jpg'
 import magomedovOjo from '@/assets/articulos/30-40/shara_magomedov_ojo.png'
 import divisionGoats from '@/assets/articulos/30-40/division_goats.jpg'
-import daveBautista from '@/assets/articulos/30-40/dave_bautista.jpg'
 import jorgeMasvidal from '@/assets/articulos/30-40/jorge_masvidal.png'
 import jonesEscondido from '@/assets/articulos/30-40/jones_se_esconde.jpg'
 /* 40-50 */
 import mmaVsBoxPeligro from '@/assets/articulos/40-50/box_vs_mma_danger.jpg'
 import LeeMurray from '@/assets/articulos/40-50/lee_murray.jpg'
-import khabibPierde from '@/assets/articulos/40-50/khabib_pierde.jpeg'
 import gspAliens from '@/assets/articulos/40-50/gsp_aliens.jpg'
 import helwaniVsWhite from '@/assets/articulos/40-50/ariel_helwani_vs_dana_white.jpeg'
 import bestFight from '@/assets/articulos/40-50/bestfight.jpeg'
@@ -57,13 +56,14 @@ export default function Articulos () {
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
+                <ArticlePreview img={fightingNerds} url='/articulos/fighting-nerds' title='¿Quiénes son los Fighting Nerds? El Mejor Equipo de MMA que Arrasa en la UFC' author={null} text='La historia del equipo Fighting Nerds, quiénes son, su filosofía, y cómo llegaron hasta lo más alto de las MMA, dominando por completo la UFC.' date='09/12/2024' />
                 <ArticlePreview img={bestMAForMMA} url='/articulos/mejores-artes-marciales-para-mma' title='Las Mejores Artes Marciales Para MMA Según un Peleador Profesional' author={null} text='Repasamos cuáles son las mejores artes marciales para una pelea de MMA, según el luchador profesional Jeff Chan.' date='23/09/2024' />
                 <ArticlePreview img={titovsdana} url='/articulos/dana-white-vs-tito-ortiz' title='La Pelea de Boxeo Entre Dana White y Tito Ortiz que Finalmente no Ocurrió' author={null} text='La historia de rivalidad entre Tito Ortiz y Dana White, y la pelea de boxeo entre estos 2 que se llegó a pactar pero que nunca se dió.' date='14/09/2024' />
                 <ArticlePreview img={popek} url='/articulos/popek-monster-mma' title='Popek: El Rapero y Pelador Polaco de MMA Más Loco del Mundo' author={null} text='La historia del rapero polaco Popek Monster, el caótico estilo de vida que lleva y su carrera en las artes marciales mixtas.' date='10/09/2024' />
-                <ArticlePreview img={hollywood} url='/articulos/peleadores-de-ufc-en-peliculas' title='Top 5 Peleadores de UFC que Aparecieron en Películas de Hollywood' author={null} text='La Lista de 5 Campeones de UFC que aparecieron en el cine y televisión, teniendo una actuacion destacada.' date='10/09/2024' />
             </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={hollywood} url='/articulos/peleadores-de-ufc-en-peliculas' title='Top 5 Peleadores de UFC que Aparecieron en Películas de Hollywood' author={null} text='La Lista de 5 Campeones de UFC que aparecieron en el cine y televisión, teniendo una actuacion destacada.' date='10/09/2024' />
                 <ArticlePreview img={butterbean} url='/articulos/biografia-de-eric-butterbean' title='¿Quién fue Eric Butterbean y por qué era tan famoso?' author={null} text='La historia de vida de Eric Butterbean, quien paso de ser un luchador aficionado en concursos de boxeo a convertirse en una estrella internacional en el mundo del boxeo y, eventualmente, en las artes marciales mixtas.' date='08/09/2024' />
                 <ArticlePreview img={kimboSlice} url='/articulos/kimbo-slice-historia' title='Kimbo Slice: El rey de los luchadores web' author={null} text='La historia de Kevin Ferguson, mejor conocido como Kimbo Slice, y su historia de superación que lo llevó de ser guardia de seguridad de un club nocturno, a ser un luchador profesional.' date='05/09/2024' />
                 <ArticlePreview img={nicoMontano} url='/articulos/que-paso-con-nicco-montano' title='¿Qué Pasó con Nico Montaño? La Primer Campeona de Peso Mosca de UFC que Fue Despojada de su Título' author={null} text='La historia de la primer campeona de peso mosca en la UFC, y como esta fue maltratada por la compañía, siendo despojada de su título.' date='03/09/2024' />
