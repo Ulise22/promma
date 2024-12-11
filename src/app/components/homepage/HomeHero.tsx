@@ -4,7 +4,7 @@ import Image from 'next/image'
 /* IMAGES */
 import ufc310 from '@/assets/covertura_ufc/ufc/0-15/ufc310.jpg'
 import iliaPeleador2024 from '@/assets/noticias/0-10/ilia_peleador_2024.jpg'
-import kaiAsakura from '@/assets/noticias/0-10/kai_asakura.jpg'
+import bestEventsUFC2024 from '@/assets/noticias/20-30/best_ufc_events.jpg'
 
 export default function HomeHero () {
     return(
@@ -14,14 +14,14 @@ export default function HomeHero () {
                 <h2 className={styles.home__title}>UFC 310: ¡Alexandre Pantoja vs Kai Asakura por el Campeonato de Peso Mosca de UFC! ¡Shavkat Rakhmonov vs Ian Garry!</h2>
                 <span>Movsar Evloev Gana su Pelea por Decisión. Vicente Luque Logra una Victoria por Sumisión en el Primer Asalto. Además Dominick Reyes Derrota a Anthony Smith por TKO en el Segundo Asalto</span>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/quien-es-kai-asakura'>
-                <Image className={styles.homehero__article__img} loading='lazy' src={kaiAsakura} alt='' />
+            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/mejores-eventos-ufc-2024'>
+                <Image className={styles.homehero__article__img} loading='lazy' src={bestEventsUFC2024} alt='' />
                 <article className={styles.homehero__article__container}>
-                    <h2 className={styles.homehero__title}>¿Quién es Kai Asakura? La Estrella Japonesa Que Debutará Peleando Por el Tïtulo de UFC en el UFC 310 en Diciembre</h2>
-                    <p>El luchador japonés Kai Asakura de 31 años que peleará por el Campeonato de Peso Mosca en su debut en la UFC.</p>
+                    <h2 className={styles.homehero__title}>Los Mejores Eventos de UFC 2024</h2>
+                    <p>La lista de los eventos y carteleras de UFC numerados que marcaron este 2024. </p>
                     <div className={styles.homehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>26/11/2024</p>
+                        <p>10/12/2024</p>
                     </div>
                 </article>
             </Link>
