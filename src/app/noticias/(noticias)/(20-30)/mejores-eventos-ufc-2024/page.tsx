@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function MejoresEventosUFC2024 () {
     return(
         <main>
-            <ArticleHero title='Los Mejores Eventos de UFC 2024' subtitle="La lista de los eventos y carteleras de UFC numerados que marcaron este 2024. " image={hero} date='2024-12-10' author={null} updatedDate={null} />
+            <ArticleHero title='Los Mejores Eventos de UFC 2024' subtitle="La lista de los eventos y carteleras de UFC numerados que marcaron este 2024. " image={hero} date='2024-12-10' author={null} updatedDate='2024-12-11' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Estamos en condiciones de decir que el 2024 fue un gran año en lo que respecta a la UFC, que nos brindó carteleras y eventos fantásticos a lo largo del año. Por eso hoy queremos repasar los mejores eventos y carteleras de la UFC del 2024. </p>
