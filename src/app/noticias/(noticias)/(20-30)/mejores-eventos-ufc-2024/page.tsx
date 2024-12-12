@@ -9,10 +9,10 @@ import hero from '@/assets/noticias/20-30/best_ufc_events.jpg'
 
 export const metadata: Metadata = {
     title: 'Los Mejores Eventos de UFC 2024',
-    description: "",
+    description: "Estamos en condiciones de decir que el 2024 fue un gran año en lo que respecta a la UFC, que nos brindó carteleras y eventos fantásticos a lo largo del año. Por eso hoy queremos repasar los mejores eventos y carteleras de la UFC del 2024.",
     openGraph: {
         title: 'Los Mejores Eventos de UFC 2024',
-        description: "",
+        description: "Estamos en condiciones de decir que el 2024 fue un gran año en lo que respecta a la UFC, que nos brindó carteleras y eventos fantásticos a lo largo del año. Por eso hoy queremos repasar los mejores eventos y carteleras de la UFC del 2024.",
         url: 'https://fullmma.org/noticias/mejores-eventos-ufc-2024'
     }
 }

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function ProximosRivalesTopuria () {
     return(
         <main>
-            <ArticleHero title='¿Quién es Kai Asakura? La Estrella Japonesa Que Debutará Peleando Por el Tïtulo de UFC en el UFC 310 en Diciembre' subtitle='El luchador japonés Kai Asakura de 31 años que peleará por el Campeonato de Peso Mosca en su debut en la UFC.' image={hero} date='26/11/2024' author={null} updatedDate={null} />
+            <ArticleHero title='¿Quién es Kai Asakura? La Estrella Japonesa Que Debutará Peleando Por el Título de UFC en el UFC 310 en Diciembre' subtitle='El luchador japonés Kai Asakura de 31 años que peleará por el Campeonato de Peso Mosca en su debut en la UFC.' image={hero} date='26/11/2024' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Kai Asakura el próximo sábado hará su debut en la <Link href='/articulos/ufc'>UFC</Link>, y para ello no hará nada menos que disputar el título de la división de peso mosca ante el brasileño <Link href='/peleadores/alexandre-pantoja'>Alexandre Pantoja</Link>, de forma inédita, dado que no es común ver luchadores ir a pelear por el título en su primer combate en la compañía. Pero entonces, ¿quién es este luchador y cuál es su historia para llegar hasta donde está ahora?</p>
