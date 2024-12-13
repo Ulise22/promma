@@ -166,5 +166,10 @@ export const data = [
         name: 'Esteban Ribovics',
         url: '/peleadores/esteban-ribovics',
         fighterClass: 'peleadores__card_ribovics'
+    },
+    {
+        name: 'Renato Moicano',
+        url: '/peleadores/renato-moicano',
+        fighterClass: 'peleadores__card_moicano'
     }
 ]
