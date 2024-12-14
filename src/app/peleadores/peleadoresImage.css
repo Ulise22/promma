@@ -217,3 +217,8 @@
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/40-60/renato-moicano/moicano_card.jpg');
     background-position: center;  
 }
+
+.peleadores__card_buckley {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/40-60/joaquin-buckley/buckley_card.jpg');
+    background-position: center;  
+}

@@ -171,5 +171,10 @@ export const data = [
         name: 'Renato Moicano',
         url: '/peleadores/renato-moicano',
         fighterClass: 'peleadores__card_moicano'
+    },
+    {
+        name: 'Joaquin Buckley',
+        url: '/peleadores/joaquin-buckley',
+        fighterClass: 'peleadores__card_buckley'
     }
 ]
