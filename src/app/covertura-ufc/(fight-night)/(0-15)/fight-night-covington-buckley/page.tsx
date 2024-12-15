@@ -9,10 +9,10 @@ import hero from '@/assets/covertura_ufc/fight_night/0-15/covington-vs-buckley.j
 
 export const metadata: Metadata = {
     title: 'Colby Covington vs Joaquin Buckley',
-    description: '',
+    description: 'Noche de UFC en la ciudad de Tampa, Florida, que nos trae el regreso de Colby Covinton al octágono junto a Joquin Buckley...',
     openGraph: {
         title: 'Colby Covington vs Joaquin Buckley',
-        description: '',
+        description: 'Noche de UFC en la ciudad de Tampa, Florida, que nos trae el regreso de Colby Covinton al octágono junto a Joquin Buckley...',
         url: 'https://fullmma.org/covertura-ufc/fight-night-colvington-buckley'
     }
 }
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function MoicanoSaintDenis () {
     return(
         <main>
-            <ArticleHero title='UFC TAMPA: ¡Colby Covington vs Joquin Buckley!' subtitle='Noche de UFC en la ciudad de Tampa, Florida, que nos trae el regreso de Colby Covinton al octágono junto a Joquin Buckley' image={hero} date='2024-12-14' author={null} updatedDate={null} />
+            <ArticleHero title='UFC TAMPA: ¡Colby Covington vs Joquin Buckley! ¡Joel Álvarez Noquea a Drakkar Klose!' subtitle='Noche de UFC en la ciudad de Tampa, Florida, que nos trae el regreso de Colby Covinton al octágono junto a Joquin Buckley' image={hero} date='2024-12-14' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos el último evento de UFC en el año, que nos trae como protagonistas al excampeón interino de peso wélter <Link href='/peleadores/colby-covington'>Colby Covington</Link> ante el estadounidense <Link href='/peleadores/joaquin-buckley'>Joaquin Buckley</Link>, que viene de 3 victorias este año, siendo la última ante <b>Wonderboy Thompson</b> en el <Link href='/covertura-ufc/ufc307'>UFC 307</Link>. </p>
@@ -33,8 +33,9 @@ export default function MoicanoSaintDenis () {
                     <p>En un enfrentamiento donde se veía a los 2 rivales golpeándose de lo lindo, siendo ambos capaces de conectarse mutuamente, fue finalmente Woodson quien consiguió quedarse con la victoria, al ser capaz de golpear más limpio en la cabeza de su rival, que poco hizo por esquivar o por bloquear los golpes del luchador americano. </p>
                     <h2>Joel Álvarez Noquea a Drakkar Klose en el Primer Asalto</h2>
                     <p>El español logra una impresionante victoria por nocaut en el primer asalto de la pelea, conectando unos buenos golpes, culminando con un rodillazo en la cabeza que parece ser el golpe que durmió a Klose. Joel sostuvo del cuello a su rival, castigándolo con puñetazos, hasta que finalmente el árbitro los separó, dándole la victoria al español <Link href='/peleadores/joel-alvarez'>Joel Álvarez</Link>, que sigue pudiendo decir que absolutamente todas sus victorias fueron por finalización. </p>
-                    {/* <h2>Michael Johnson vs Ottman Azaitar</h2>
-                    <p></p> */}
+                    <h2>¡Michael Johnson Deja KO a Ottman Azaitar en el Segundo Asalto!</h2>
+                    <p>El veterano luchador de 38 años logra una impresionante victoria por nocaut ante <b>Azaitar</b>, luego de conectar un derechazo que mandó a la lona a su rival inmediatamente. </p>
+                    <p>Esta actuación seguramente termine en un bono por parte de Johnson, debido a lo espectacular del golpe que tumbó al marroquí. Y esta terminar por ser el tercer nocaut de la noche, en lo que es la última pelea de las preliminares. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Navajo Stirling vs Tuco Tokkos</h2>
                     <p></p> */}
