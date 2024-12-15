@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc310 from '@/assets/covertura_ufc/ufc/0-15/ufc310.jpg'
+import ufcTampa from '@/assets/covertura_ufc/fight_night/0-15/covington-vs-buckley.jpg'
 import iliaPeleador2024 from '@/assets/noticias/0-10/ilia_peleador_2024.jpg'
 import bestEventsUFC2024 from '@/assets/noticias/20-30/best_ufc_events.jpg'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc310'>
-                <Image className={styles.homehero__bigArticle__img} src={ufc310} alt='' />
-                <h2 className={styles.home__title}>UFC 310: ¡Alexandre Pantoja vs Kai Asakura por el Campeonato de Peso Mosca de UFC! ¡Shavkat Rakhmonov vs Ian Garry!</h2>
-                <span>Movsar Evloev Gana su Pelea por Decisión. Vicente Luque Logra una Victoria por Sumisión en el Primer Asalto. Además Dominick Reyes Derrota a Anthony Smith por TKO en el Segundo Asalto</span>
+            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-covington-buckley'>
+                <Image className={styles.homehero__bigArticle__img} src={ufcTampa} alt='' />
+                <h2 className={styles.home__title}>UFC TAMPA: ¡Colby Covington vs Joquin Buckley!</h2>
+                <span>Noche de UFC en la ciudad de Tampa, Florida, que nos trae el regreso de Colby Covinton al octágono junto a Joquin Buckley</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/mejores-eventos-ufc-2024'>
                 <Image className={styles.homehero__article__img} loading='lazy' src={bestEventsUFC2024} alt='' />
