@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     }
 }
 
-export default function MoicanoSaintDenis () {
+export default function CovingtonBuckley () {
     return(
         <main>
-            <ArticleHero title='UFC TAMPA: ¡Colby Covington vs Joquin Buckley! ¡Joel Álvarez Noquea a Drakkar Klose!' subtitle='Noche de UFC en la ciudad de Tampa, Florida, que nos trae el regreso de Colby Covington al octágono junto a Joquin Buckley' image={hero} date='2024-12-14' author={null} updatedDate={null} />
+            <ArticleHero title='UFC TAMPA: ¡Colby Covington vs Joquin Buckley! ¡Joel Álvarez Noquea a Drakkar Klose!' subtitle='Noche de UFC en la ciudad de Tampa, Florida, que nos trae el regreso de Colby Covington al octágono junto a Joquin Buckley' image={hero} date='2024-12-14' author={null} updatedDate='2024-12-15' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos el último evento de UFC en el año, que nos trae como protagonistas al excampeón interino de peso wélter <Link href='/peleadores/colby-covington'>Colby Covington</Link> ante el estadounidense <Link href='/peleadores/joaquin-buckley'>Joaquin Buckley</Link>, que viene de 3 victorias este año, siendo la última ante <b>Wonderboy Thompson</b> en el <Link href='/covertura-ufc/ufc307'>UFC 307</Link>. </p>
@@ -44,8 +44,8 @@ export default function MoicanoSaintDenis () {
                     <p>Fue una pelea en la que ambos luchadores intercambiaron golpes, siendo sin duda una de las mejores peleas que vimos esta noche. El peruano no dudó en pedir una pelea ante la leyenda <Link href='/leyendas/jose-aldo'>José Aldo</Link>, en busca de finalmente entrar al ranking de la división de peso gallo. </p>
                     <h2>¡Dustin Jacoby Noquea a Vitor Petrino en el Tercer Asalto!</h2>
                     <p>El estadounidense consigue una increíble victoria por KO en el tercer asalto, en lo que parecía ser una pelea que hasta el momento estaba perdiendo, recibiendo bastantes golpes a la cabeza por parte del brasileño <b>Vitor Petrino</b>, nos sorprendió a todos en el tercer asalto cuando encontró a su rival con una mano derecha que mandó a la lona al brasileño, en lo que es una de las mayores sorpresas de la noche, y que seguramente terminen significándole un bono de $50k a Dustin Jacoby. </p>
-                    {/* <h2>Manel Kape vs Bruno Silva</h2>
-                    <p></p> */}
+                    <h2>¡Manel Kape Vence por TKO a Bruno Silva en el Tercer Asalto!</h2>
+                    <p>El luchador de Angola, <b>Manel Kape</b>, logra una increíble victoria por la vía del nocaut en el tercer asalto de la pelea, luego de dominar por completo el combate. En una pelea que por cierto, vale comentar, fue parada en hasta 3 ocasiones, debido a los golpes bajos que recibió el angoleño por parte del luchador de Brasil. </p>
                     {/* <h2>Cub Swanson vs Billy Quarantillo</h2>
                     <p></p> */}
                     {/* <h2>Colby Covington vs Joaquin Buckley</h2>
