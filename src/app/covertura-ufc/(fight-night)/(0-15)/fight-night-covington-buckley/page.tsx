@@ -42,8 +42,8 @@ export default function MoicanoSaintDenis () {
                     <h2>Daniel Marcos Derrota a Adrian Yanez por Decisión Dividida</h2>
                     <p>En una tremenda pelea, que fue bastante cerrada, quien finalmente se la llevó por decisión dividida fue el peruano <b>Daniel Marcos</b>, quien mantiene su invicto y extendiente su récord profesional a 17-0, siendo uno de los peleadores que más victorias lleva en la división de peso gallo de la UFC. </p>
                     <p>Fue una pelea en la que ambos luchadores intercambiaron golpes, siendo sin duda una de las mejores peleas que vimos esta noche. El peruano no dudó en pedir una pelea ante la leyenda <Link href='/leyendas/jose-aldo'>José Aldo</Link>, en busca de finalmente entrar al ranking de la división de peso gallo. </p>
-                    {/* <h2>Vitor Petrino vs Dustin Jacoby</h2>
-                    <p></p> */}
+                    <h2>¡Dustin Jacoby Noquea a Vitor Petrino en el Tercer Asalto!</h2>
+                    <p>El estadounidense consigue una increíble victoria por KO en el tercer asalto, en lo que parecía ser una pelea que hasta el momento estaba perdiendo, recibiendo bastantes golpes a la cabeza por parte del brasileño <b>Vitor Petrino</b>, nos sorprendió a todos en el tercer asalto cuando encontró a su rival con una mano derecha que mandó a la lona al brasileño, en lo que es una de las mayores sorpresas de la noche, y que seguramente terminen significándole un bono de $50k a Dustin Jacoby. </p>
                     {/* <h2>Manel Kape vs Bruno Silva</h2>
                     <p></p> */}
                     {/* <h2>Cub Swanson vs Billy Quarantillo</h2>
