@@ -11,8 +11,8 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-covington-buckley'>
                 <Image className={styles.homehero__bigArticle__img} src={ufcTampa} alt='' />
-                <h2 className={styles.home__title}>UFC TAMPA: ¡Colby Covington vs Joquin Buckley!</h2>
-                <span>Noche de UFC en la ciudad de Tampa, Florida, que nos trae el regreso de Colby Covinton al octágono junto a Joquin Buckley</span>
+                <h2 className={styles.home__title}>UFC TAMPA: ¡Joaquin Buckley Gana a Colby Covington por TKO! ¡Joel Álvarez Noquea a Drakkar Klose!</h2>
+                <span>Manel Kape logra una victoria por Nocaut en el tercer asalto de la pelea. Cub Swanson derrota a Billy Quarantillo por nocaut en el tercer asalto en la pelea de la noche. </span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/mejores-eventos-ufc-2024'>
                 <Image className={styles.homehero__article__img} loading='lazy' src={bestEventsUFC2024} alt='' />
