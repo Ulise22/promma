@@ -36,9 +36,9 @@ export default function MoicanoSaintDenis () {
                     <h2>¡Michael Johnson Deja KO a Ottman Azaitar en el Segundo Asalto!</h2>
                     <p>El veterano luchador de 38 años logra una impresionante victoria por nocaut ante <b>Azaitar</b>, luego de conectar un derechazo que mandó a la lona a su rival inmediatamente. </p>
                     <p>Esta actuación seguramente termine en un bono por parte de Johnson, debido a lo espectacular del golpe que tumbó al marroquí. Y esta terminar por ser el tercer nocaut de la noche, en lo que es la última pelea de las preliminares. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2>Navajo Stirling vs Tuco Tokkos</h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Navajo Stirling Gana a Tuco Tokkos por Decisión Unánime</h2>
+                    <p>Tremendo debut del luchador de 27 de Nueva Zelanda, <b>Navajo Stirling</b>, quien en su sexta pelea profesional, y en su primer pelea en la UFC, logró una gran victoria ante un muy buen luchador como lo es <b>Tuco Tokkos</b>, dominando completamente la pelea en el striking, conectando con potencia en varias oportunidades a su rival, al punto que incluso dió la sensación de que Stirling podía noquear en el primer asalto. Sin embargo, Tokkos demostró tener un alto instinto de supervivencia, y tener una mandibula envidiable, resistiendo las embestidas de su rival, que no fue capaz de finalizarlo. </p>
                     {/* <h2>Adrian Yanez vs Daniel Marcos</h2>
                     <p></p> */}
                     {/* <h2>Vitor Petrino vs Dustin Jacoby</h2>
