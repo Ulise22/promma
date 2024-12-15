@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function MoicanoSaintDenis () {
     return(
         <main>
-            <ArticleHero title='UFC TAMPA: ¡Colby Covington vs Joquin Buckley! ¡Joel Álvarez Noquea a Drakkar Klose!' subtitle='Noche de UFC en la ciudad de Tampa, Florida, que nos trae el regreso de Colby Covinton al octágono junto a Joquin Buckley' image={hero} date='2024-12-14' author={null} updatedDate={null} />
+            <ArticleHero title='UFC TAMPA: ¡Colby Covington vs Joquin Buckley! ¡Joel Álvarez Noquea a Drakkar Klose!' subtitle='Noche de UFC en la ciudad de Tampa, Florida, que nos trae el regreso de Colby Covington al octágono junto a Joquin Buckley' image={hero} date='2024-12-14' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos el último evento de UFC en el año, que nos trae como protagonistas al excampeón interino de peso wélter <Link href='/peleadores/colby-covington'>Colby Covington</Link> ante el estadounidense <Link href='/peleadores/joaquin-buckley'>Joaquin Buckley</Link>, que viene de 3 victorias este año, siendo la última ante <b>Wonderboy Thompson</b> en el <Link href='/covertura-ufc/ufc307'>UFC 307</Link>. </p>
@@ -39,8 +39,9 @@ export default function MoicanoSaintDenis () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Navajo Stirling Gana a Tuco Tokkos por Decisión Unánime</h2>
                     <p>Tremendo debut del luchador de 27 de Nueva Zelanda, <b>Navajo Stirling</b>, quien en su sexta pelea profesional, y en su primer pelea en la UFC, logró una gran victoria ante un muy buen luchador como lo es <b>Tuco Tokkos</b>, dominando completamente la pelea en el striking, conectando con potencia en varias oportunidades a su rival, al punto que incluso dió la sensación de que Stirling podía noquear en el primer asalto. Sin embargo, Tokkos demostró tener un alto instinto de supervivencia, y tener una mandibula envidiable, resistiendo las embestidas de su rival, que no fue capaz de finalizarlo. </p>
-                    {/* <h2>Adrian Yanez vs Daniel Marcos</h2>
-                    <p></p> */}
+                    <h2>Daniel Marcos Derrota a Adrian Yanez por Decisión Dividida</h2>
+                    <p>En una tremenda pelea, que fue bastante cerrada, quien finalmente se la llevó por decisión dividida fue el peruano <b>Daniel Marcos</b>, quien mantiene su invicto y extendiente su récord profesional a 17-0, siendo uno de los peleadores que más victorias lleva en la división de peso gallo de la UFC. </p>
+                    <p>Fue una pelea en la que ambos luchadores intercambiaron golpes, siendo sin duda una de las mejores peleas que vimos esta noche. El peruano no dudó en pedir una pelea ante la leyenda <Link href='/leyendas/jose-aldo'>José Aldo</Link>, en busca de finalmente entrar al ranking de la división de peso gallo. </p>
                     {/* <h2>Vitor Petrino vs Dustin Jacoby</h2>
                     <p></p> */}
                     {/* <h2>Manel Kape vs Bruno Silva</h2>
