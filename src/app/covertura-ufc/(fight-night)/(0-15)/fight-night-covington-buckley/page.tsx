@@ -31,8 +31,8 @@ export default function MoicanoSaintDenis () {
                     <h2>Sean Woodson Noquea a Fernando Padilla en el Primer Asalto</h2>
                     <p>El estadounidense logra una increíble victoria por nocaut en el primer asalto, a 2 segundos de que termine, ante el mexicano <b>Fernando Padilla</b>, siendo este el primer nocaut de la noche. </p>
                     <p>En un enfrentamiento donde se veía a los 2 rivales golpeándose de lo lindo, siendo ambos capaces de conectarse mutuamente, fue finalmente Woodson quien consiguió quedarse con la victoria, al ser capaz de golpear más limpio en la cabeza de su rival, que poco hizo por esquivar o por bloquear los golpes del luchador americano. </p>
-                    {/* <h2>Joel Álvarez vs Drakkar Klose</h2>
-                    <p></p> */}
+                    <h2>Joel Álvarez Noquea a Drakkar Klose en el Primer Asalto</h2>
+                    <p>El español logra una impresionante victoria por nocaut en el primer asalto de la pelea, conectando unos buenos golpes, culminando con un rodillazo en la cabeza que parece ser el golpe que durmió a Klose. Joel sostuvo del cuello a su rival, castigándolo con puñetazos, hasta que finalmente el árbitro los separó, dándole la victoria al español <Link href='/peleadores/joel-alvarez'>Joel Álvarez</Link>, que sigue pudiendo decir que absolutamente todas sus victorias fueron por finalización. </p>
                     {/* <h2>Michael Johnson vs Ottman Azaitar</h2>
                     <p></p> */}
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
