@@ -19,14 +19,14 @@ export const metadata: Metadata = {
 export default function JoaquinBuckley () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={20} l={6} d={0} categoria='Peso Wélter' nombre='Joaquin Buckley' apodo='NEW MANSA' />
+            <PeleadoresHero peleadoresImage={fighter} w={21} l={6} d={0} categoria='Peso Wélter' nombre='Joaquin Buckley' apodo='NEW MANSA' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Joaquin Buckley MMA</h2>
                     <p className={styles.peleador__article__text}>Joaquin Buckley es un peleador estadounidense de MMA que compite en la división de peso wélter de la UFC desde el 8 de agosto de 2020, cuando haría su debut ante <b>Kevin Holland</b> en el <b>UFC Fight Night: Lewis vs. Oleinik</b>. </p>
                     <p className={styles.peleador__article__text}>Inició su paso por la UFC compitiendo en la división de peso medio, sin embargo, luego de unas cuantas peleas en las que acumuló un récord de 5-4, notó que le estaba costando competir y dar el nivel en una categoría de peso tan pesada para él, por lo que optó por bajar a la división de peso wélter, en donde vimos su mejor versión hasta el momento. Como peleador es bastante sólido, y ha gando cierta notoriedad con los highlights que ha sido capaz de lograr, con victorias por nocaut que impulsaron el reconcimiento recibido por este peleador. </p>
                     <h2 className={styles.peleador__article__title}>Joaquin Buckley Récord</h2>
-                    <p className={styles.peleador__article__text}>Joaquin Buckley posee un récord profesional de MMA de 20-6. Con 14 de sus victorias siendo por la vía del nocaut, y sólo 6 siendo por la vía de la decisión. Mientras que de sus 6 derrotas, 4 fueron por la vía del nocaut, y sólo 2 por la vía de la decisión. </p>
+                    <p className={styles.peleador__article__text}>Joaquin Buckley posee un récord profesional de MMA de 21-6. Con 15 de sus victorias siendo por la vía del nocaut, y sólo 6 siendo por la vía de la decisión. Mientras que de sus 6 derrotas, 4 fueron por la vía del nocaut, y sólo 2 por la vía de la decisión. </p>
                     <h2 className={styles.peleador__article__title}>Joaquin Buckley Historia</h2>
                     <p className={styles.peleador__article__text}>Joaquín Yuconri Buckley nació el día 27 de abril de 1994 en la ciudad de San Luis, ubicada en el Estado de los Estados Unidos, Misuri. Creció con un padre ausente, viviendo junto a su madre en la casa de su abuela durante la mayor parte de su juventud. Por si fuera poco el no contar con la presencia de su padre, su madre falleció cuando Buckley estaba en sexto grado, debido a problemas del corazón. Crecería practicando lucha en la escuela e interesándose por las artes marciales desde muy joven, de las que terminaría haciendo una profesión. </p>
                     <p className={styles.peleador__article__text}>De esta manera haría su debut profesional en las MMA a los 20 años, debutando el día 13 de septiembre de 2014 ante su compatriota <b>Wesley Sullivan</b> en la promotora <b>Shamrock FC</b>, consiguiendo una victoria por TKO en el primer asalto de la pelea. </p>
