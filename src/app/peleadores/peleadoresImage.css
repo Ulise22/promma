@@ -222,3 +222,8 @@
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/40-60/joaquin-buckley/buckley_card.jpg');
     background-position: center;  
 }
+
+.peleadores__card_borralho {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/40-60/caio-borralho/borralho_card.jpg');
+    background-position: center;  
+}

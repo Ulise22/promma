@@ -176,5 +176,10 @@ export const data = [
         name: 'Joaquin Buckley',
         url: '/peleadores/joaquin-buckley',
         fighterClass: 'peleadores__card_buckley'
+    },
+    {
+        name: 'Caio Borralho',
+        url: '/peleadores/caio-borralho',
+        fighterClass: 'peleadores__card_borralho'
     }
 ]
