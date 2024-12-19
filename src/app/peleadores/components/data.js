@@ -181,5 +181,10 @@ export const data = [
         name: 'Caio Borralho',
         url: '/peleadores/caio-borralho',
         fighterClass: 'peleadores__card_borralho'
+    },
+    {
+        name: 'Carlos Prates',
+        url: '/peleadores/carlos-prates',
+        fighterClass: 'peleadores__card_prates'
     }
 ]
