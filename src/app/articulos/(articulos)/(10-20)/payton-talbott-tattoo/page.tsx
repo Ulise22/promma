@@ -8,10 +8,10 @@ import hero from '@/assets/articulos/10-20/payton_talbott_tattoo.jpg'
 
 export const metadata: Metadata = {
     title: 'Payton Talbott Tattoo',
-    description: '',
+    description: 'Descubre el significado y el simbolismo detrás de los tatuajes del peleador de UFC Payton Talbott.',
     openGraph: {
         title: 'Payton Talbott Tattoo',
-        description: '',
+        description: 'Descubre el significado y el simbolismo detrás de los tatuajes del peleador de UFC Payton Talbott.',
         url: 'https://fullmma.org/articulos/payton-talbott-tattoo'
     }
 }
