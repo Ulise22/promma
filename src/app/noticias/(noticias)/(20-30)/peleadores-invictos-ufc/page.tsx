@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function PeleadoresInvictosUFC2025 () {
     return(
         <main>
-            <ArticleHero title='Los Peleadores Invictos de UFC en 2025' subtitle="Los luchadores de UFC que terminaron el 2024 invictos y quienes serán capaces de mantenerlo en el 2025." image={hero} date='2024-12-23' author={null} updatedDate={null} />
+            <ArticleHero title='Los Peleadores Invictos de UFC en 2025' subtitle="Los luchadores de UFC que terminaron el 2024 invictos y quienes serán capaces de mantenerlo en el 2025." image={hero} date='2024-12-26' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Como se termina el año y ya no hay eventos de UFC hasta dentro de unas semanas, decidí repasar a todos los peleadores ranqueados de la UFC que terminaron el 2024 y llegan al 2025 como invictos. Aunque en las MMA no le solemos dar tanta importancia al &quot;0&quot; de los peleadores como en otros deportes de contacto, me pareció interesante destacar a quienes siendo peleadores ranqueados en el top15 de sus divisiones, cuentan con el logro de jamás haber sido derrotados, repasando un poco de la carrera de cada uno de ellos, y debatiendo quienes serán capaces de mantener el próximo 2025 el invicto, y quienes son los peleadores que tienen más probabilidades de perderlo. </p>
