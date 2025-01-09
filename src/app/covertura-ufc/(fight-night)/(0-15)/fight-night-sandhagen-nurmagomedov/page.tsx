@@ -5,7 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
-import hero from '@/assets/peleadores__images/30-40/umar-nurmagomedov/umar_nurmagomedov-card.jpg'
+import hero from '@/assets/peleadores__images/0-100/30-40/umar-nurmagomedov/umar_nurmagomedov-card.jpg'
 
 export const metadata: Metadata = {
     title: 'Sandhagen vs Nurmavomedov',

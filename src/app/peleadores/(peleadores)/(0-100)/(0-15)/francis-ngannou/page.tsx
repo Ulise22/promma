@@ -1,6 +1,6 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import ngannou from '@/assets/peleadores__images/0-100/10-20/francis-ngannou/ngannou.png'
-import ngannoutyoson from '@/assets/peleadores__images/10-20/francis-ngannou/ngannou&tyson2.jpg'
+import ngannoutyoson from '@/assets/peleadores__images/0-100/10-20/francis-ngannou/ngannou&tyson2.jpg'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Image from 'next/image'
 import Link from 'next/link'

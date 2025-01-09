@@ -19,7 +19,7 @@ import ufc310 from '@/assets/covertura_ufc/ufc/0-15/ufc310.jpg'
 import whittakerVSaliskerov from '@/assets/covertura_ufc/fight_night/0-15/whittaker-vs-aliskerov.jpg'
 import lewisVsNascimento from '@/assets/covertura_ufc/fight_night/0-15/lewis-vs-nascimento-preview.jpg'
 import cannonierVSimano from '@/assets/covertura_ufc/fight_night/0-15/fightnight-cannonier-imanov-preview.jpg'
-import sandhagenVSnurmagomedov from '@/assets/peleadores__images/30-40/umar-nurmagomedov/umar_nurmagomedov-card.jpg'
+import sandhagenVSnurmagomedov from '@/assets/peleadores__images/0-100/30-40/umar-nurmagomedov/umar_nurmagomedov-card.jpg'
 import moicanoVSsaintdenis from '@/assets/covertura_ufc/fight_night/0-15/moicano_vs_saintdenis.jpg'
 import yanVSfigueiredo from '@/assets/covertura_ufc/fight_night/0-15/yan-vs-figueiredo.jpg'
 
