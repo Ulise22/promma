@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/10-20/michael_morales.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Quien es Michael Morales',
@@ -37,6 +38,7 @@ export default function ProximaPeleaVolkanovski () {
                     <p>Luego de aquellas peleas el ecuatoriano seguiría ganando, peleando 2 veces a lo largo del 2023, siendo el primer combate el día 1 de julio ante <b>Max Griffin</b>, donde conseguiría llevarse la victoria por decisión unánime. Y siendo la segunda pelea ante el australiano <b>Jake Matthews</b>, a quien enfrentó el día 18 de noviembre, consiguiendo una nueva victora por decisión unánime. </p>
                     <p>Con su más reciente victoria ante el estadounidense <b>Neil Magny</b>, a quien logró desplazar del puesto #12 de los rankings, el futuro luce prometedor para el ecuatoriano, a quien todavía no le conocemos su techo, y quien ahora mismo posee un récord perfecto de 17-0 que todavía nadie pudo romper. Luego de su última victoria, se ganó incluso el reconocimiento de su compatriota y luchador de la división de peso gallo de la UFC, <Link href='/peleadores/marlon-vera'>Marlon Vera</Link>, quien en su cuenta de X lo felicitó por la victoria conseguida.</p>
                     <blockquote className={`${styles.article__twitter__quote} twitter-tweet`}><p lang="es" dir="ltr">Bien Micheal buena pelea ! Sigue así</p>&mdash; C H🖕🏽T O🇪🇨V E R A (@chitoveraUFC) <a href="https://twitter.com/chitoveraUFC/status/1827540340242616385?ref_src=twsrc%5Etfw">August 25, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" ></script>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

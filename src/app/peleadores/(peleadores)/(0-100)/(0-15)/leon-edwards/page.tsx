@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import AsideChamps from '@/app/components/asides/AsideChamps'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Leon Edwards',
@@ -58,6 +59,7 @@ export default function LeonEdwards () {
                     <h3>Leon Edwards pierde el cinturón con Belal</h3>
                     <p className={styles.peleador__article__text}>La tercer defensa del campeón jamaiquino, sería una revancha ante el lucchador de origen palestino <Link href='/peleadores/belal-muhammad'>Belal Muhamamd</Link>, quien al igual que Edwards, llevaba una amplia racha de peleas sin ver la derrota.</p>
                     <p className={styles.peleador__article__text}>Dicho enfrentamiento se programaría para el 27 de julio de 2024 en el <Link href='/covertura-ufc/ufc304'>UFC 304</Link>, organizada en la ciudad de Manchester, donde tanto Leon como Belal protagonizarían la pelea cabeza del evento. Lamentablemente para nuestro protagonista, pese a hacer &quot;de local&quot; en Inglaterra, terminaría por caer derrotado por decisión unánime, viéndose superado por su rival que lo dominó durante la totalidad del combate. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

@@ -15,7 +15,7 @@ import ufc303 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc303-preview.jpg'
 export default function CoverturaUFC () {
     return(
         <section className={styles.covertura}>
-            <h2 className={styles.covertura__title}>Covertura de UFC</h2>
+            <h2 className={styles.covertura__title}>Cobertura de UFC</h2>
             <article className={styles.covertura__container}>
                 <HomeArticle img={ufc310} author='FULLMMA' date='09/12/2024' link='/covertura-ufc/ufc310' title='UFC 310: ¡Alexandre Pantoja vs Kai Asakura por el Campeonato de Peso Mosca de UFC! ¡Shavkat Rakhmonov vs Ian Garry!' description='Movsar Evloev Gana su Pelea por Decisión. Vicente Luque Logra una Victoria por Sumisión en el Primer Asalto. Además Dominick Reyes Derrota a Anthony Smith por TKO en el Segundo Asalto'/>
                 <HomeArticle img={ufc309} author='FULLMMA' date='16/11/2024' link='/covertura-ufc/ufc309' title='UFC 309: ¡Jon Jones Noquea a Stipe Miocic en el Tercer Asalto en su Primer Defensa del Título! ¡Charles Oliveira Derrota a Michael Chandler por Decisión en La Pelea de la Noche!' description='¡Bo Nical derrota a Paul Craig y mantiene su invicto de 7-0! Además el brasileño Mauricio Ruffy vence al peruano James Llontop por decisión en su segunda pelea en la UFC.'/>
@@ -29,3 +29,4 @@ export default function CoverturaUFC () {
         </section>
     )
 }
+

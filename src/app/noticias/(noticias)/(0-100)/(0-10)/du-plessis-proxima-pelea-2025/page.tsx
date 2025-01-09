@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/0-10/chimaev_or_strickland.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Du Plessis Próxima Pelea',
@@ -36,6 +37,7 @@ export default function ProximaPeleaDuPlessis2025 () {
                     <p>Sin embargo, lo que creo que va a suceder, es que le van a terminar dando la pelea por el título a Sean para enero o para febrero, y que el ganador va a enfrentarse a Chimaev unos meses después. Creo que es lo que van a hacer, primero porque es lo que parecen haberle prometido a Strickland, quien después de haber demostrado ser un hombre de compañía merece un reconocimiento de este estilo, y segundo porque me da la sensación de que a Chimaev tampoco le molesta esperar para pelear, y que, si tiene que hacerlo para disputar el cinturón, lo va a hacer.</p>
                     <p>De hecho, este es un gran factor que no vi a muchos mencionar, y es la gran inactividad que viene teniendo el checheno en el último tiempo, habiendo peleado sólo una vez este año, y solo una vez el pasado 2023. Por lo que no sería de extrañar que Khamzat estaría hasta encantado de esperar hasta octubre del año que viene para pelear, en caso de necesitarlo, además de que parece ser un peleador dispuesto a pelear con cualquiera, por lo que le debe dar igual si va a enfrentar a Strickland o a Du Plessis. </p>
                     <p>Por otro lado, especialmente si quien terminara ganando es Sean, no sería de extrañar que aceptara hacer su primer defensa de inmediato, 3 o 4 meses después de la pelea, como de hecho ya lo hizo luego de ser campeón ante Adesanya, enfrentando menos de 4 meses después al mismo Du Plessis. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

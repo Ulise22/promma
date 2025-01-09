@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Robert Whittaker',
@@ -50,6 +51,7 @@ export default function Whittaker () {
                     <p className={styles.peleador__article__text}>Robert volvería a pelear ese año, esta vez ante el italiano <b>Marvin Vettori</b>, consiguiendo otra victoria por decisión unánime. Un año después, el 8 de julio de 2023, tendría la oportunidad de pelear ante el sudafricano <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link>, en lo que sería una pelea eliminatoria titular, donde el ganador tendría la oportunidad de disputar el título, aunque sorprendetemente Whittaker no sería capaz de salir victorioso del combate, cayendo noqueado en el segundo asalto del combate</p>
                     <p className={styles.peleador__article__text}>A pesar de todo, el australiano se ha mantenido muy activo durante su carrera, teniendo hasta el momento 2 peleas en lo que va del 2024, ante el brasileño <b>Paulo Costa</b>, a quien enfrentó y venció en febrero de 2024 en el <Link href='/covertura-ufc/ufc298'>UFC 298</Link>; y ante el ruso <b>Ikram Aliskerov</b>, a quien enfrentó en un <Link href='/covertura-ufc/fight-night-whittaker-aliskerov'>Fight Night</Link> encabezado por él, donde logró lucirse consiguiendo una victoria por KO en el primer asalto, ganando un bono a la actuación de la noche.</p>
                     <p className={styles.peleador__article__text}>En lo que sería la última pelea del año, se lo reprogramaría otra vez para enfrentar a <Link href='/peleadores/khamzat-chimaev'>Khamzat Chimaev</Link>, a quien debía enfrentar en su último combate, siendo este cancelado por problemas de salud del checheno, el día 26 de octubre en el <Link href='/covertura-ufc/ufc308'>UFC 308</Link>, en busca por parte de ambos peleadores, de ganarse una oportunidad de disputar el título de las 185lb. En esta ocasión, lamentablemente para nuestro protagonista caería derrotado en el primer asalto por la vía de la sumisión, siendo esta la primera vez que sometían al peleador australiano. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

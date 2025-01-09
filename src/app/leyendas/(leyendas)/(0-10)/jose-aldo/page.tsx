@@ -3,6 +3,7 @@ import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import AldoHero from './AldoHero'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'José Aldo',
@@ -41,6 +42,7 @@ export default function Aldo () {
                     <iframe className={styles.leyenda__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/JUXuzqbxlkw?si=8BkzLk2BztpJIoj-" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.leyenda__article__text}>Luego de esto, José Aldo decidiría bajar de división para pelear por el campeonato de Peso Gallo. Allí se pelearía contra el brasileño <b>Marlon Moraes</b>, esperando que el ganador de ese combate sea el siguiente contendiente al título. Sin embargo en una pelea bastante cerrada, Moraes se llevó la victoría por decisión dividida. Pese a esta derrota, el 11 de julio de 2020, Aldo tendría la oportunidad de pelear por el cinturón de Peso Gallo contra el ruso <b>Petr Yan</b>, pero en el quinto asalto perdería por nocaut técnico. Luego de eso, tendría 3 combates más en la división que ganaría de forma consecutiva por decisión unánime, contra el ecuatoriano <Link href='/peleadores/marlon-vera'>Marlon Vera</Link>, contra <b>Pedro Munhoz</b> y contra <b>Rob Font</b>. </p>
                     <p className={styles.leyenda__article__text}>Su última pelea como profesional en la UFC sería contra el georgiano <b>Merab Dvalishvili</b> en UFC 278, quien luego de los 5 asaltos lo vencería por decisión unánime. José Aldo colgaría los guantes luego de la pelea, dejando atrás un récord de 31-8, con un glorioso legado, siendo seguramente <b>el mejor peso pluma de la historia de UFC</b>.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

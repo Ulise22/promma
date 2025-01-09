@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/peleadores__images/peleadores__hero.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Qué Pasó Entre Conor y Khabib',
@@ -36,6 +37,7 @@ export default function KhabibVsConor () {
                     <p>Además agregó: &quot;Después de que terminó la pelea yo obviamente estaba en shock. Conor es uno de mis amigos más cercanos, mi compañero de entrenamiento y lo aprecio mucho. Yo simplemente estaba ahí sentado tras ver perder a mi amigo. Entonces sentí alguien golpeándome en la espalda y pensé que era la comisión tratando de entrar a la jaula. Al voltear vi que era él (Rizvan Magomedov), y entonces lo confronté. Al voltear vi a Khabib lanzar el protector bucal y me salpicó de saliva. Entonces le dije, ‘venga, ven acá.’ Él terminó saltando la malla y pasó lo que pasó. Fue una locura, simplemente pasó&quot;.</p>
                     <p>Además de este enfrentamiento entre Khabib y Dillon Danis, Conor también se peleó con gente de la esquina del ruso, concretamente con su primo <b>Abubakar Nurmagomedov</b>, dandole un golpe que le sería devuelto.</p>
                     <p>Producto de esto, el pago de la pelea a Khabib le fue retenido por la Comisión de Atlética del Estado de Nevada, que presentaría una queja formal contra ambos peleadores, recibiendo prohibiciones indefinidas hasta la audiencia oficial que tuvo lugar en diciembre de 2018. Finalmente la NSAC votaría la moción para aprobar la mitad del pago a Nurmagomedov por la pelea, equivalente a 2 millones de dolares, además suspenderían durante 6 meses a McGregor y le darían un multa de $50.000.</p>
+                    <EndArticle/> 
                 </article>
                 <AsideChamps />
             </section>

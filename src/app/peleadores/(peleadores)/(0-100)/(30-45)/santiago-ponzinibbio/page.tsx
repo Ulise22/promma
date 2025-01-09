@@ -8,6 +8,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Santiago Ponzinibbio',
@@ -62,6 +63,7 @@ export default function Ponzinibbio () {
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/KePnDjnGbFQ?si=kKAC4-gBJ-IiMpIb" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>En el 2023 sólo pelearía una vez, enfrentándose el día 8 de abril en el UFC 287 ante el estadounidense <b>Kevin Holland</b>, contra quien sufriría una dolorosa derrota por KO en el tercer asalto de la pelea. </p>
                     <p className={styles.peleador__article__text}>Santiago Ponzinibbio volvería a subirse al octágono el 13 de julio de 2024 para enfrentar al luchador daguestaní <b>Muslim Salikhov</b>, en un enfrentamiento que se extendería hasta los 3 asaltos, y en lo que fue una pelea bastante cerrada terminaría por perder nuevamente por decisión dividida. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

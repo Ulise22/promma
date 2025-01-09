@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/30-40/boxeador_vs_mma.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Todas Las Peleas de Luchadores de MMA en Boxeo',
@@ -46,6 +47,7 @@ export default function BoxeoVsMMA () {
                     <p>Si con la actuación de Ngannou ante Fury, creíamos que quizás podía hacerse de una carrera exitosa también en boxeo, la pelea que este tuvo contra <b>Anthony Joshua</b> fue como un baño de agua fría. </p>
                     <p>Organizada este año el 8 de marzo de 2024, también en Arabia Saudita, el peleador de MMA no tuvo nada que hacer ante un Joshua que fue muy superior, logrando dejar KO en el segundo asalto al excampeón de UFC.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/6ugN3fZQjyU?si=RLEPpQqKmyra9oGq" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

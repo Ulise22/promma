@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc310.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'UFC 310',
@@ -66,6 +67,7 @@ export default function UFC310 () {
                     <p>Por su parte, hay que destacar la actuación de <Link href='/peleadores/ian-garry'>Ian Gary</Link>, que pese a perder el combate, demostró ser muchísimo mejor peleador de lo que muchos creían, estando bastante cerca de la victoria incluso en el último asalto, cuando estuvo a nada de conectar un mataleón que podría haber sometido a Rakhmonov. El irlandés hoy perdió su invicto, pero ha demostrado ser un excelente peleador que no está muy lejos de obtener una pelea titular. </p>
                     <h2>Alexandre Pantoja Somete a Kai Asakura en el Segundo Asalto</h2>
                     <p>El brasileño <Link href='/peleadores/alexandre-pantoja'>Alexandre Pantoja</Link> completa su tercera defensa exitosa del cinturón a someter con un mataleón al japonés <Link href='/noticias/quien-es-kai-asakura'>Kai Asakura</Link>. En lo que fue una pelea bastante intensa, con un debutante que fue explosivo y conectó durísimos golpes, se terminó por resolver en el momento en que el campeón hizo valer su cinturón negro de jiu-jitsu, concretando un derribo y controlando la espalda de su rival, para someterlo y así seguir siendo el campeón reinante. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

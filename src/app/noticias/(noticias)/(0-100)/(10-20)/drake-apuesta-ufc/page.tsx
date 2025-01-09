@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/10-20/drake_apuesta.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Drake Apuesta UFC',
@@ -46,6 +47,7 @@ export default function DrakeApuestaUFC () {
                     <h3>La apuesta a favor de Gathje contra Charles Oliveira</h3>
                     <p>El 7 de mayo de 2022, el brasileño <Link href='/peleadores/charles-oliveira'>Charles Oliveira</Link> y el estadounidense <Link href='/peleadores/justin-gaethje'>Justin Gaethje</Link> se enfrentarían en una pelea por el título de peso ligero de la UFC. Drake apostaría $550,000 a favor de Gaethje para quedarse con el título, sin embargo el brasileño sería capaz de someterlo en el primer asalto, llevándose la pelea, y haciendo perder otra apuesta más al cantante estadounidense.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/5sX_HzPNPoM?si=vkPRt_NnNaV7GpQG" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

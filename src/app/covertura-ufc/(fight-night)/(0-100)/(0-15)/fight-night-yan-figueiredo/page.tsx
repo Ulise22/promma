@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/covertura_ufc/fight_night/0-100/0-15/yan-vs-figueiredo.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Petr Yan vs Deiveson Figueiredo ',
@@ -43,6 +44,7 @@ export default function MoicanoSaintDenis () {
                     <p>Tremenda exhibición de artes marciales mixtas que tuvimos el día de hoy con la pelea estelar de la cartelera, en un combate que tuvo de todo dada la capacidad creativa de ambos luchadores. Finalmente el ganador de es este combate sería el ruso <b>Petr Yan</b>, quien fue el claro dominador de la pelea, mostrando una creatividad que pocos tienen a la hora del striking, con un upper que entraba constantemente en la mandibula del brasileño, una excelente defensa de derribos y en general un desempeño como artista marcial mixto impecable. </p>
                     <p>El brasileño Deiveson Figueiredo también tuvo sus momentos durante la pelea, llegando a conectar un knockdown en el cuarto asalto que podría haber puesto en muchos problemas a su rival. Sin embargo, el ruso supo reponerse y ambos luchadores terminaron por darnos un espectáculo, al que no queda otra cosa que hacer, más que ponerse de pie y aplaudir por lo dado por estos luchadores. </p>
                     <p>Petr Yan no dudó en desafiar al campeón <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link> a una revancha, dado que este había dicho que Figueiredo el contendiente #1, y este acaba de ser vencido por el ruso.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

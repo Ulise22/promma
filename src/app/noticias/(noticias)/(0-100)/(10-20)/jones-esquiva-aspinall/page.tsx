@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/10-20/jones_evita_aspinall.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Jon Jones Evita a Tom Aspinall',
@@ -35,6 +36,7 @@ export default function JonesEsquivaAspinall () {
                     <p>Hace un par de meses, por ejemplo, Jones escribió un tweet en su cuenta personal donde mencionaba que entre Tom y Curtis no tenían ningún campeonato en sus espaldas, mientras que entre el mismo Jones y Miocic sumaban 20 cinturones de campeonato.</p>
                     <blockquote className={`${styles.article__twitter__quote} twitter-tweet`}><p lang="en" dir="ltr">Some Saturday math for everyone <br />Curtis 0 + Tom 0 championship belts = 0 <br />Jon 14 + Stipe 6 championship belts = 20 <br /><br />To be fair to Curtis and Tom, I didn’t count my interim title win either lol. But yeah, sure, you guys are fighting for the real belt. <a href="https://twitter.com/hashtag/Facts?src=hash&amp;ref_src=twsrc%5Etfw">#Facts</a></p>&mdash; BONY (@JonnyBones) <a href="https://twitter.com/JonnyBones/status/1791938634582487366?ref_src=twsrc%5Etfw">May 18, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js"></script>
                     <p>Desde este espacio creemos que Jon Jones es el mejor peleador de la historia, independientemente de si pierde su próximo combate ante el rival que sea. Sería raro pensar que un luchador como Jon Jones tenga miedo de enfrentar a quien sea, sin embargo, no es fácil observar que entre enfrentar a un joven Aspinall con una tremenda habilidad y con toda el hambre de gloria encima, y enfrentar a un luchador que está casi retirado, que hace años que no pelea, y que cuyo último combate fue una derrota, Jones está eligiendo enfrentar al segundo.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

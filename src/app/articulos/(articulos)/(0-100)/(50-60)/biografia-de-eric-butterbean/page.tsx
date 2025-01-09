@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/50-60/eric_butterbean.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Eric Butterbean Biografía',
@@ -55,6 +56,7 @@ export default function KimboSlice () {
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/uzYQufrnKWw?si=cAWBheM2HYEtrFYu" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>Luego de superar exitosamente su operación, Butterbean no escondió su deseo de volver a pelear una vez más en boxeo, habiendo recibido incluso ofertas para pelear con <b>Jake Paul</b> y con <b>Mike Tyson</b>. Aunque por el momento no existe nada oficial respecto a un posible regreso al boxeo por parte de nuestro protagonista, que dejó detrás de sí un legado que va más allá de sus victorias en el cuadrilátero o la jaula.</p>
                     <p>Su carrera, aunque marcada por logros deportivos impresionantes, es también un testimonio de perseverancia y fuerza de voluntad, logrando transformar su físico al perder peso y adoptar un estilo de vida más saludable. El legado de Butterbean es uno de lucha, superación y dedicación, tanto en el deporte como en su vida personal. Su historia es una inspiración no solo para los amantes del combate, sino para cualquiera que busque un ejemplo de cómo enfrentar las adversidades y salir victorioso, sin importar las circunstancias.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

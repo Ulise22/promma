@@ -5,6 +5,7 @@ import Link from 'next/link'
 /* Images */
 import hero from '@/assets/noticias/0-100/0-10/ilia_prox_rival.jpg'
 import Image from 'next/image'
+import EndArticle from '@/app/components/EndArticle'
 
 export default function ProximosRivalesTopuria () {
     return(
@@ -39,6 +40,7 @@ export default function ProximosRivalesTopuria () {
                     <p>Yair Rodríguez e Ilia Topuria han tenido su intercambio de palabras y sus respectivas provocaciones en redes sociales, y llamó la atención la última rueda de prensa de Yair previa a su pelea contra <b>Brian Ortega</b> en México, en la que varias veces fue consultado por Ilia Topuria, y luego de que finalizara, terminó de hablar con un &quot;Ilia Topuria me la pelas&quot;. </p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/idwjUEdocl4?si=T3MxGr4pfYbDN2Vf" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     <p>Tanto a nivel deportivo tiene sentido una pelea entre estos 2, especialmente si Yair vence a Brian Ortega, como a nivel mediático, dado que al crear una rivalidad entre un español y un mexicano, tendríamos una pelea fácil de vender. Además al ser los 2 de habla hispana, la rueda de prensa previa a la pelea y el &quot;trash talk&quot; que habría entre ambos, sería muy divertido de ver.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

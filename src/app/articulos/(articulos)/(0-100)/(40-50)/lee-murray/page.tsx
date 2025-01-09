@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/40-50/lee_murray.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Lee Murray',
@@ -51,6 +52,7 @@ export default function LeeMurray () {
                     <p>Unos días antes del robo, Murray se fue de fiesta en Londres, y allí estrelló su Ferrari, huyendo rápidamente del lugar, abandonó su coche y 2 teléfonos diferentes. En uno de esos teléfonos, Murray se había grabado accidentalmente hablando con otro de los complices del robo sobre cómo llevarían a cabo el plan. Esto fue clave para terminar atrapando a Murray, que menos de 4 meses después del asalto, fue detenido en Marruecos, donde se encontraba junto a su amigo y complice, Allen.</p>
                     <p>La policía de Reino Unido intentó extraditarlo desde Marruecos, pero al no existir tratado entre estos países, finalmente Murray se quedó en el país de su padre. El caso se llevó a juicio y nuestro protagonista fue condenado a 10 años de prisión ese mismo año. Pero la condena se extendió hasta los 25 años, luego de que Murray intentó escapar de prisión, siendo descubierto por unos compañeros de celda que intentaron robarle sus pertenencias en la celda. Los compañeros de Murray se reprocharon a la policía, que el inglés usó su dinero para contrabandear cosas hacia su celda, incluidas una computadora con acceso a internet, 5 kilos de drogas, y ropa costosa.</p>
                     <p>Murray estando en prisión terminó por divorciarse de su esposa, con quien había tenido su primer hija. Y estando preso fue padre por segunda vez en el año 2010. Actualmente sigue en prisión cumpliendo su condena en Marruecos.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

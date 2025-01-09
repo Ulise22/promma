@@ -3,6 +3,7 @@ import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import KhabibHero from './KhabibHero'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Khabib Nurmagomedov',
@@ -48,6 +49,7 @@ export default function Khabib () {
                     <p className={styles.leyenda__article__text}>El último combate en el que seríamos capaces de ver pelear a Khabib sería en el UFC 254 el 24 de octubre de 2020, en aquella ocasión contra el estadounidense <Link href='/peleadores/justin-gaethje'>Justin Gaethje</Link>, quien venía de una racha de 4 victorias consecutivas, siendo la última contra <Link href='/peleadores/tony-ferguson'>Tony Ferguson</Link> por el Campeonato Interino de Peso Ligero de UFC, a quien terminando el 5to y último asalto de la pelea logró noquear a golpes. Por su parte Khabib venía de defender el título hacía más de un año contra <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link>, a quien derrotó con una sumisión en el tercer asalto.</p>
                     <p className={styles.leyenda__article__text}>La pelea finalmente se la terminaría llevando el campeón ruso, quien con una sumisión en el segundo asalto terminaría por vencer a Gaethje. Terminando así, de retirarse de las Artes Marciales Mixtas con un récord de 29-0.</p>
                     <iframe className={styles.leyenda__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/XMJW1L9a-J4?si=zpBLzH0T4Vr76Kld" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

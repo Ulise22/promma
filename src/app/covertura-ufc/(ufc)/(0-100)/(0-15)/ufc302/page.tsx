@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc302-hero.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export default function UFC302 () {
     return(
@@ -23,6 +24,7 @@ export default function UFC302 () {
                     <p>En una pelea donde el claro dominador fue Sean Strickland, se terminó llevando la pelea por decisión dividida por parte de los jueces, de quienes sólo 1 vio ganar a Paulo Costa. El combate se dió siempre de pie, con ambos peleadores intercambiando golpes, con un Costa que buscaba hacer daño con las low-kicks pero que se encontró con un Strickland que siempre estuvo atento para defenderse bien. Sean controló el centro del octagono y fue quien más golpes significativos conectó, por lo que terminó siendo el justo ganador de la pelea.</p>
                     <h2>Islam Makhachev vs Dustin Poirier</h2>
                     <p>En lo que fue la pelea estelar y la más esperada de la noche, finalmente el ruso fue capaz de defender una vez más su título de forma exitosa, siendo capaz de someter al retador <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link> en el último asalto de la pelea. Con un Poirier al que se lo vió dar lo mejor de sí, siendo capaz de defender muchos de los intentos de derribo con los que molestaba Makhachev y conectando muchos golpes gracias a su excelente boxeo. También lo vimos más emotivo que de costumbre al finalizar el combate, posiblemente porque esta haya sido su última pelea en las MMA. Finalmente la pelea estelar se la terminó llevando Makhachev gracias al excelente trabajo que tiene de piso, que lo hizo ser capaz de someter a un cinturón negro en jiu-jitsu como Poirier.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

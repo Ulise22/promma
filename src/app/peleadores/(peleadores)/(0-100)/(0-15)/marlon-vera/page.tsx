@@ -5,6 +5,7 @@ import Image from 'next/image'
 import vera from '@/assets/peleadores__images/0-100/0-10/chito-vera/chito_vera.png'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Marlon Vera',
@@ -53,6 +54,7 @@ export default function Chito () {
                     <p className={styles.peleador__article__text}>En aquel UFC 292, sería cuando la división de peso gallo, en la que compite nuestro protagonista, coronaría como nuevo campeón al estadounidense <Link href='/peleadores/sean-omalley'>Sean O&apos;Malley</Link>, cuya única derrota sufrida había sido ante el mismo Marlon Vera. Debido a esto, es que al luchador ecuatoriano se le presentaría la oportunidad de discutirle el título al nuevo campeón, enfrentándolo el 9 de marzo de 2024 en el <Link href='/covertura-ufc/ufc299'>UFC 299</Link>, donde lastimosamente no sería capaz de coronar, cayendo derrotado por decisión unánime luego de 5 asaltos. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/YfppyiyE-Kk?si=NN5YLy1ub7LsoDs8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Ese mismo año volvería a pelear el 3 de agosto en el <Link href='/covertura-ufc/fight-night-sandhagen-nurmagomedov'>UFC on ABC: Sandhagen vs. Nurmagomedov</Link>, para luchar ante le brasileño excampeón de peso paja <b>Deiveson Figueiredo</b>, con quien nuevamente caería derrotado por decisión unánime. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

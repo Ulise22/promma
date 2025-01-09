@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/20-30/mejores_peleas_ufc.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Mejores Peleas de UFC Por Año',
@@ -70,6 +71,7 @@ export default function MejoresPeleasUFC () {
                     <h3>2023: Islam Makhachev vs Alexander Volkanovski en UFC 284</h3>
                     <p>Uno de los mejores combates en la historia reciente de la UFC sin dudas fue el que se dió en el duelo de campeones entre el ruso <Link href='/peleadores/islam-makhachev'>Islam Makhachev</Link> y el australiano <Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link>. En un contexto donde Islam venía recientemente de convertirse en campeón, luego de derrotar al brasileño <Link href='/peleadores/charles-oliveira'>Charles Oliveira</Link>, le tocó hacer su primera defensa en Australia contra un Volkanovski que venía de años de arrasar en su división, y ya sin contendientes que enfrentar en Peso pluma, decidió buscar el hito, al consagrarse como doble campeón venciendo a un luchador tan bueno como lo es Makhachev. La pelea completó los 5 asaltos y en lo que fue un combate bastante cerrado se terminó llevando la victoria el peleador ruso.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/h9oj6HEdZSI?si=NJo2PWUXFlFlQhSD" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

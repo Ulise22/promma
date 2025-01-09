@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Diego Lopes',
@@ -43,6 +44,7 @@ export default function DiegoLopes () {
                     <p className={styles.peleador__article__text}>Diego Lopes volvería a pelear en el <Link href='/covertura-ufc/ufc300-prelims'>UFC 300</Link> el 13 de abril de 2024, ante el nigeriano <b>Sodiq Yusuff</b>, contra quien lograría una victoria por TKO, nuevamente en minuto y medio de combate.</p>
                     <p className={styles.peleador__article__text}>Lopes estaba programado para pelear en el <Link href='/covertura-ufc/ufc303'>UFC 303</Link>, evento encabezado por <Link href='/peleadores/alex-pereira'>Alex Pereira</Link> y <Link href='/peleadores/jiri-prochazka'>Jiri Prochazka</Link>, ante el estadounidense <b>Brian Ortega</b>, sin embargo, su rival a pocas horas de que comience el combate no se encontró en condiciones para pelear. Esto llevo a que con muy pocas horas de anticipación, el peleador ranqueado <b>Dan Ige</b> llegara como reemplazo para pelear en peso pactado (165lbs). La pelea terminaría en una nueva victoria para el brasileño, en esta ocasión por decisión unánime.</p>
                     <p className={styles.peleador__article__text}>Luego de aquella victoria, esta vez si se reprogramaría su pelea contra <b>Brian Ortega</b> para el 14 de septiembre de 2024, en lo que sería el histórico <Link href='/covertura-ufc/ufc306'>UFC 306</Link>, organizado en <b>La Esfera</b> en Las Vegas, con motivo de celebración del Día de la Independencia de México. Aquella noche nuestro protagonista sería capaz de dominar completamente el combate, consiguiendo un knockdown en el primer asalto, y siendo capaz de controlar el resto de la pelea para llevarse una cómoda victoria por decisión unánime. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

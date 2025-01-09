@@ -3,6 +3,7 @@ import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import AmandaHero from './AmandaHero'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Amanda Nunes',
@@ -45,6 +46,7 @@ export default function AmandaNunes () {
                     <p className={styles.leyenda__article__text}>Recién volvería a ver la derrota cuando enfrentara a la estadounidense <Link href='/mujeres/julianna-pena'>Julianna Peña</Link>, con quien perdió en el segundo asalto, luego de ser sometida con un mataleón. Sin embargo, luego de 7 meses obtendría su revancha, en la que con una estrategia más inteligente, llevaría el resultado a mano de los jueces que la darían como vencedora por decisión unánime.</p>
                     <p className={styles.leyenda__article__text}>Pese a que se rumoreaba y se hablaba con fuerza de una tercera pelea entre Nunes y Peña, finalmente se programó una pelea entre Amanda Nunes y la mexicana <b>Irene Aldana</b>, a quien se le dió una oportunidad por el título. Dicho combate lo ganó Amanda Nunes por decisión unánime luego de haber dominado durante los 5 asaltos. Después de la pelea, Amanda se retiraría de las MMA, dejando atrás un legado impresionante y una carrera digna de admirar. </p>
                     <iframe className={styles.leyenda__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/nIuUo32Bq7w?si=v40jucI_RLWLZe-3" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

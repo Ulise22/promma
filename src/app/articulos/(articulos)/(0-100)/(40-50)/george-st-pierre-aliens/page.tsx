@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/40-50/gsp_aliens.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'George St-Pierre Aliens',
@@ -33,6 +34,7 @@ export default function GSPAliens () {
                     <p>En una conversación con el expeleador de MMA y excampeón de la UFC <b>Pat Miletich</b>, al ser consultado por su opinión, expresó que cree que el luchador canadiense puede estar sufriendo síntomas de un traumatismo craneoencefálico, ya que observa que la forma que tiene el excampeón de contar su experiencia es bastante similar a la que tienen las personas con esta enfremedad, especialmente con esos &quot;glitches&quot; temporales que afirmó sufrir, donde pueden pasar horas que él ni siquiera recuerda, o eventos como ir a hacer la compra y no tener recuerdo de haber hecho esto.</p>
                     <p>Para Rogan no es una coincidencia que algo así le suceda a una persona que sólo en su carrera en la UFC ha sufrido más de 800 golpes, sin contar con el daño que pudo haber sufrido las promotoras donde peleaba anteriormente, o el daño que pudo sufrir durante los entrenamientos y sparrings.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/M6Bwdp48OQM?si=o8amxQiMI845hAyJ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

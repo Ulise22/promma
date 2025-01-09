@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/20-30/nate_diaz.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export default function NateDiaz () {
     return(
@@ -30,6 +31,7 @@ export default function NateDiaz () {
                     <p>Nate es hermano menor del también ex-peleador profesional de MMA <b>Nick Diaz</b>, quienes son defensores del cannabis y con quien dirige una escuela de Jiu-Jitsu brasileño llamada <b>Nick Diaz Academy</b>. Además, aunque reconoce que come pescado de vez en cuando, es vegano desde los 18 años. </p>
                     <h2>Nate Diaz Récord</h2>
                     <p>Nate Diaz en las MMA, posee un récord de 21-13. Siendo 5 de sus 21 victorias por nocaut, 12 por sumisión y 4 por decisión. Mientras que de sus 13 derrotas, 2 son por nocuat, sólo 1 por sumisión y 10 por decisión.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

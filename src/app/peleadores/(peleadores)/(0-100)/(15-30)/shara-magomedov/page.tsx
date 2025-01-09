@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Shara Magomedov',
@@ -44,6 +45,7 @@ export default function SharaMagomedov () {
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/3s26XQ8rZts?si=6_N_Ux6cQTXsE4lP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>En su tercer pelea en la UFC, se enfrentaría al polaco <b>Michał Oleksiejczuk</b> en el <Link href='/covertura-ufc/fight-night-sandhagen-nurmagomedov'>UFC FIGHT NIGHT: Sandhagen vs Nurmagomedov</Link>. Esta pelea la ganaría por decisión unánime en lo que fue actuación destacada, ganándose su segundo bono en la compañía, esta vez a La Pelea de la Noche.</p>
                     <p className={styles.peleador__article__text}>Ese mismo año volvería a pelear en lo que es su cuarta pelea del 2024, enfrentando al armenio <b>Armen Petrosyan</b>, el día 26 de octubre en el <Link href='/covertura-ufc/ufc308'>UFC 308</Link>, que al igual que su anterior combate, había sido organizado en Abu Dhabi. En aquella pelea sería capaz de defender su invicto, al noquear al final del segundo asalto a su rival, con lo que personalmente, es uno de los nocaut más locos que ví en mi vida, que llegó al lanzar un doble spinning back fist que tumbaría a su rival. Por este desempeño, el daguestaní extendería su récord a 15-0, y se ganaría el bono a la Actuación de la Noche. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

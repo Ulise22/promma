@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/0-100/0-10/glover_teixeira.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Campeón Más Viejo de la UFC',
@@ -34,6 +35,7 @@ export default function CampeonViejoUFC () {
                     <p>Ya con casi 40 años era díficil verlo lograr algo más en la UFC, sin embargo, luego de su última derrota con <b>Corey Anderson</b>, Glover siguió entrenando y llegó a acumular una sorprendente racha de 5 victorias consecutivas, siendo la última contra el brasileño <b>Thiago Santos</b>, a quien sometió en el tercer asalto. Esto lo colocaba como el único contendiente serio al título, íncluso él comenzó a pedir otra oportunidad de pelear por el campeonato. </p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/ILlgifH9XiA?si=tE9R3S_4x2IwgN7n" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     <p>Esta oportunidad se le presentaría el día 30 de octubre de 2021, en Abu Dhabi por UFC 267, donde con 42 años se enfrentaría al entonces campeón, <b>Jan Blachowicz</b>, que venía de defender su título contra <Link href='/peleadores/israel-adesanya'>Israel Adensanya</Link>, y de acumular igualmente una racha de 5 victorias. Glover haría historia al someter en el segundo asalto al campeón y proclamarse él con el cinturón de Peso Semipesado de la UFC, convirtiéndose en el peleador más viejo en ganar un título por primera vez. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

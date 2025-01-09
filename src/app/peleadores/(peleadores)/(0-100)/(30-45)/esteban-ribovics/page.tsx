@@ -5,6 +5,7 @@ import fighter from '@/assets/peleadores__images/argentinos/esteban-ribovics/est
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Esteban Ribovics',
@@ -40,6 +41,7 @@ export default function Ribovics () {
                     <p className={styles.peleador__article__text}>Su primera victoria en la compañía llegaría el 8 de julio de 2023, cuando enfrentando al estadounidense <b>Kamuela Kirk</b> en el <b>UFC 290 (<Link href='/peleadores/alexander-volkanovski'>Volkanovski</Link> vs Rodríguez)</b>, lograría llevarse la pelea por decisión unánime.</p>
                     <p className={styles.peleador__article__text}>El 11 de mayo de 2024, en el <Link href='/covertura-ufc/fight-night-lewis-nascimento'>UFC on ESPN: Lewis vs Nascimento</Link>, Esteban se enfrentaría al estadounidense <b>Terrance McKinney</b>, contra quien lograría una hermosa victoria por KO, luego de conectar una patada en la cabeza que mandaría a dormir a su rival.</p>
                     <p className={styles.peleador__article__text}>Aunque lo más destacado de su carrera llegaría en el <Link href='/covertura-ufc/ufc306'>UFC 306</Link>, en donde protagonizaría la pelea de la noche de una de las carteleras más importantes en la historia de la UFC, siendo él parte de la cartelera estelar por primera vez, organizado en La Esfera en Las Vegas, con motivo de la celebración del día de la independencia de México, se enfrentaría al mexicano <b>Daniel Zellhuber</b>, en lo que fue una auténtica guerra, el argentino se terminaría llevando el combate por decisión dividida, y ganaría el primer bono de su carrera a la pelea de la noche.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

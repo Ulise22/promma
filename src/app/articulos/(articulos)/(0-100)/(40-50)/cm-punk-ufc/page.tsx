@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/40-50/cm_punk.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'El peor Luchador de la historia de UFC',
@@ -36,6 +37,7 @@ export default function ZabitMagomedsharipov () {
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/lucmpnj7yds?si=TviB9PTyZGJTZ8-b" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>La pelea finalmente quedaría sin resultado, debido a que su rival dió positivo por marihuana en un testeo. Pero ya estaba claro que CM Punk no daba el nivel para pelear como profesional en las MMA, por lo que la UFC anunciaría que el luchador estaba completamente desvinculado de la empresa en agosto de 2021. Cm Punk poco tiempo después volvería a dedicarse a la lucha libre en la WWE. </p>
                     <p>Para no ser tan duro con este luchador, pese a que se lo puede considerar de los peores luchadores que tuvo la compañía, especialmente entre los más mediáticos, quizás si hubiera intentado dedicarse a este deporte de más joven, y si hubiera tenido experiencia en algunas peleas amateur o de menor nivel que la UFC, podría haber dado un mejor desempeño del que se le vió dar en sus 2 peleas. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

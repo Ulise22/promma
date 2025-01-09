@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Alexander Volkanovski',
@@ -41,6 +42,7 @@ export default function Volkanovski () {
                     <p className={styles.peleador__article__text}>Poco después acepta una pelea contra un nuevo retador para su título en el <Link href='/covertura-ufc/ufc298'>UFC 298</Link>, el georgiano español <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link>, que luego de vencer a <b>Josh Emmett</b>, ranquado #5 en la división, se sentía listo para pelear por el título. La previa del combate estuvo plagada de mucho trash talk, donde entre la muchas cosas que le dijo Ilia Topuria a nuestro protagonista, lo trató de viejo y le dijo que era momento de retirarse. Volkanovski supo tomarse con humor estas declaraciones, subiendo un sketch donde interpreta a un anciano que responde a estas críticas.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/C2nsn2uzWog?si=kn2jaMV_zAnDR8DI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Tristemente para nuestro protagonista, para cuando llegó la pelea, luego de un primer asalto bastante cerrado donde Volk había logrado conectar varios jabs y parecía estar consiguiendo llevar la pelea hacia donde él quería, en una gran combinación de golpes por parte del español, una potente mano derecha conectó con la cabeza de Volkanovski dejándolo KO en el segundo asalto. Perdiendo su cinturón luego de casi 5 años consecutivos de defenderlo de manera exitosa.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

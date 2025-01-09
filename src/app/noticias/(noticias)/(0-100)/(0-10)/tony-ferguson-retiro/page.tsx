@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/0-10/ferguson_retiro.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Tony Ferguson Retiro',
@@ -38,6 +39,7 @@ export default function FergusonRetiro () {
                     <p>Independientemente de que luego de su última pelea con Paddy, Tony haya dejado ver que no planeaba retirarse, no sé que tanto sentido tenga para él y su equipo seguir compitiendo a esta altura del partido. Hasta el mismo Michael Chiesa reconoce que esta pelea es entre 2 peleadores que se encuentran en el ocaso de su carrera (siendo Chiesa 4 años más joven que Ferguson).</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/wrI0Y6WVuzY?si=yg7ghGhjUORrrIn9" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>A menos que se trate de una pelea mega mediática, que va a llenarle los bolsillos tanto a él como a su familia, como lo sería una hipotética pelea contra <Link href='/peleadores/conor-mcgregor'>Conor Mcgregor</Link>, Tony Ferguson no debería aceptar volver a pelear.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

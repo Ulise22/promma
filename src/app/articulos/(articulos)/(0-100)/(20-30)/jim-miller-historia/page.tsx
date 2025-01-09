@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/20-30/jim-miller.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Jim Miller Historia',
@@ -41,6 +42,7 @@ export default function JimMiller () {
                     <p>Jim Miller aún se encuentra activo, y recientemente participó de otra noche histórica en el UFC 300, al que llegaba luego de 2 victorias por finalización, una por KO y otra por sumisión, en las que también había ganado el premio a la actuación de la noche. Su rival para aquella noche fue <b>Bobby Green</b>, quien luego de sufrir el primer asalto, terminó por recomponerse en los siguientes 2 para ganarle a nuestro protagonista por decisión unánime. </p>
                     <p>Al día de la fecha, Jim Miller es el peleador con más peleas en la historia de la UFC; el peleador con más victorias en la UFC; es el peleador, junto a <b>Joe Lauzon</b>, con más bonos post-pelea en la historia de la UFC; es el segundo peleador con más finalizaciones y sumisiones en la historia de la UFC, en ambos récords por detrás de <Link href='/peleadores/charles/oliveira'>Charles Oliveira</Link>; ha recibido el premio a la pelea de la noche en 7 ocasiones, y en una ocasiones la suya fue elegida la pelea del año, en su victoria contra <b>Joe Lauzon</b>; ha sido premiado como la actuación de la noche en 3 oportunidades; y ha ganado en 3 oportunidades el premio ya extinto a la sumisión de la noche.</p>
                     <p>Sin duda, la suya es una carrera exitosa y que debe formar parte de los libros de historia de la UFC, y de las MMA.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

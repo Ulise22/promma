@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/0-10/campeones_viejos_ufc.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Los 5 Campeones Más Viejos de UFC',
@@ -44,6 +45,7 @@ export default function CampeonesMasViejosUFC () {
                     <p>Además, sería capaz de defender de forma exitosa el cinturón el día 25 de agosto de 2007, ya con 44 años recientemente cumplidos, al noquear en el tercer asalto al brasileño Gabriel Gonzaga. Hasta que posteriormente perdería el campeonato ante el estadounidense y expeleador de WWE <Link href='/leyendas/brock-lesnar'>Brock Lesnar</Link>, el 15 de noviembre de 2008, luego de ser noqueado en el segundo asalto, a una pelea a la que llegaría con la impresionante edad de 45 años. </p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/PV28qas35hA?si=3t04n_BPoL3TAvbj" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p><Link href='/leyendas/randy-couture'>Randy Couture</Link> seguiría peleando y por ende seguiría rompiendo récords de longevidad, siendo además el peleador más viejo en ganar una pelea en la historia de la UFC, luego de que el 14 de noviembre de 2009, fuera capaz de vencer a Brandon Vera por decisión unánime, con 46 años. Su última pelea en la compañía sería el 30 de abril de 2011 en el UFC 129, en una pelea a la que llegaría con casi 48 años (faltando 2 meses para cumplirlos), ante el brasileño Lyoto Machida, con quien caería derrotado por KO en el segundo asalto. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

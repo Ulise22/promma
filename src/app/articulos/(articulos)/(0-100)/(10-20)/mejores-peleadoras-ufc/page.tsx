@@ -6,6 +6,7 @@ import Link from 'next/link'
 /* Images */
 import hero from '@/assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_card.jpg'
 import Image from 'next/image'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Mejores Peleadoras de UFC',
@@ -44,6 +45,7 @@ export default function MejoresPeleadorasUFC () {
                     <p>Luego de pelear con la canadiense <b>Felicia Spencer</b>, a quien venció por decisión unánime, se fue de la compañía liderada por Dana White para competir por el Campeonato de Peso Pluma de Bellator, que le ganaría a <b>Julia Budd</b> por TKO en el cuarto asalto. Este título sería defendido en 4 ocasiones de forma exitosa.</p>
                     <p>Actualmente mantiene un récord de 26-2 (1). Siendo 20 de sus 26 victorias por nocaut, 1 por sumisión y 5 por decisión.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/QkLy3fUaGIE?si=8t-UyydKI__Sdttt" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

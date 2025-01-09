@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc307.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'UFC 307',
@@ -43,6 +44,7 @@ export default function UFC307 () {
                     <p>Que manera de terminar el evento de UFC, con una victoria por la vía del nocaut para <Link href='/peleadores/alex-pereira'>Alex Pereira</Link> en el cuarto asalto, que logra defender y retener su cinturón en lo que es su 3 defensa consecutiva del título en general y en lo que va de 2024. </p>
                     <p>En un combate en el que Rountree demostró tener más corazón y más habilidad de la que muchos se esperaban, con unos 2 primeros asaltos tremendos que pusieron en aprietos al campeón, se notó la falta de experiencia en combates de 5 asaltos, llegando bastante cansado al tercera y especialmente al cuarto. El cuarto asalto terminó siendo todo de Alex Pereira, conectando una combinación de golpes a la cabeza de su rival que parecían que estaban por tumbar a su rival en cualquier momento, hasta que finalmente los golpes al estómago fueron los que le dieron al victoria por nocaut, venciendo a quien hasta ahora fue su rival más complicado en la división.</p>
                     <p>De esta forma, Alex Pereira extiende su récord a 12-2, manteniendo el invicto en la división de peso semipesado en la UFC, reteniendo su cinturón de campeón indiscutido de la compañía.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

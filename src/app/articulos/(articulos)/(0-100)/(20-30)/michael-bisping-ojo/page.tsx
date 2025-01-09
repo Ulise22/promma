@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/20-30/michael_bisping_ojo.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Michael Bisping Ojo',
@@ -45,6 +46,7 @@ export default function MichaelBispingOjo () {
                     <p>Luego de aquella victoria comenzaría su carrera hacia el título, donde es verdad que perdería 2 combates en 2014, contra <b>Tim Kennedy</b> por decisión, y contra <b>Luke Rockhold</b> por sumisión, lo cierto es que también lograría vencer al americano <b>Cung Le</b> por TKO en el cuarto asalto de la pelea. Además, entre 2015 y 2016 hilaría 3 victorias consecutivas, siendo la última contra el mencionado histórico de la división, <b>Anderson Silva</b>, que lo habilitaría a pelear por el campeonato, enfrentado a un viejo conocido, <b>Luke Rockhold</b>.</p>
                     <p>En esta ocasión se enfrentaría el 4 de junio de 2016 por el <b>UFC 199</b> en el Estado de California. La pelea terminaría de excelente forma para Bisping, que lograría conectar dejar KO a base de golpes a Luke, vengando su anterior derrota contra este, obteniendo el bono a la actuación de la noche, y consiguiendo la gloria, al convertirse en el campeón de Peso Medio de UFC.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/BajbXMrA9-s?si=GnxUtddy0j9e3WUX" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

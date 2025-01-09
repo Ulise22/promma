@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/0-100/10-20/ufc_rankings.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Como Funciona el Ranking de UFC',
@@ -47,6 +48,7 @@ export default function ComoFuncionanRankingsUFC () {
                     </ul>
                     <p>Es teniendo en cuenta estos rankings que después la UFC organiza los combates entre peleadores, y busca al próximo contendiente del título de cada división, siendo teóricamente el #1 de la división el principal candidato a pelear por el título. Aunque como ya hemos visto este no es el único criterio, dado que la disponibilidad de cada peleador, los últimos resultados de sus peleas, y criterios subjetivos de la misma compañía influyen a la hora de elegir contendientes al cinturón. Como pudimos comprobar este mismo 2024, teniendo como último evento numerado al <Link href='/covertura-ufc/ufc310'>UFC 310</Link>, encabezado por el campeón de peso mosca <Link href='/peleadores/alexandre-pantoja'>Alexandre Pantoja</Link>, enfrentando al japonés Kai Asakura, quien al momento de la pelea ni siquiera estaba ranqueado, debido a que era un debutante en la compañía. O como ejemplo también sirve el caso de <Link href='/noticias/khalil-rountree'>Khalil Rountree</Link>, quien estando clasificado #8 en la división de peso semipesado, tuvo la oportunidad de enfrentarse por el cinturón al campeón <Link href='/peleadores/alex-pereira'>Alex Pereira</Link>, en el <Link href='/covertura-ufc/ufc307'>UFC 307</Link>, al ser de los pocos peleadores ranqueados disponibles para esa fecha que no vinieran de una derrota. </p>
                     <p>Por último, también existe un ranking que funciona de manera simbólica, como lo es el P4P (libra por libra), que toma en cuenta a todos los peleadores de la compañía, y es votado a criterio subjetivo de los miembros de los medios. Dado que, aunque en este ranking, esté Islam Makhachev como #1, y Alex Pereira como #2, es realmente imposible saber quién es mejor peleador, dado que estamos comparando luchadores de 2 divisiones super lejanas entre sí. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/20-30/best_ufc_events.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Los Mejores Eventos de UFC 2024',
@@ -48,6 +49,7 @@ export default function MejoresEventosUFC2024 () {
                     <p>Que nos trajo 3 peleas titulares, siendo el enfrentamiento por el cinturón de peso semipesado entre <Link href='/peleadores/alex-pereira'>Alex Pereira</Link> y <b>Jamahal Hill</b> el aperitivo estelar; con la pelea por el cinturón de peso paja femenino, entre las 2 luchadoras chinas, <Link href='/mujeres/zhang-weili'>Zhang Weili</Link>, y <Link href='/mujeres/yan-xiaonan'>Yan Xiaonan</Link>, como evento coestelar; y contando con la pelea estelar de los fanáticos, la que nos trajo al KO del año, en la pelea entre <Link href='/peleadores/max-holloway'>Max Holloway</Link> y <Link href='/peleadores/justin-gaethje'>Justin Gaethje</Link> por el cinturón del BMF. </p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/BTagozOQ7BU?si=kQ7_3ikRd-zP_-Tk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>Además, tuvimos a la pelea eliminatoria por el cinturón de peso ligero entre el excampeón <Link href='/peleadores/charles-oliveira'>Charles Oliveira</Link> y <Link href='/peladores/arman-tsarukyan'>Arman Tsarukyan</Link>. A la pelea que precedió la disputa por el título de <Link href='/peleadores/jiri-prochazka'>Jiri Prochazka</Link>. El debut de <Link href='/mujeres/kayla-harrison'>Kayla Harrison</Link> ante la histórica <Link href='/mujeres/holly-holm'>Holly Holm</Link>. El ingreso de <Link href='/peleadores/diego-lopes'>Diego Lopes</Link> a los rankings de peso pluma, al vencer por TKO a <b>Sodiq Yusuff</b>. Un tremendo comeback por parte de <b>Renato Moicano</b>, quien pareció caer nocaut en el primer asalto, pero que logró la victoria por TKO en el segundo. Y un largo etcétera de tremendas peleas que nos acompañaron aquella noche.  </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

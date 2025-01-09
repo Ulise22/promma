@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Renato Moicano',
@@ -49,6 +50,7 @@ export default function Moicano () {
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/TwEsq4qGP5g?si=HXeQbdvD5DiODAXV" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Pese a que en el 2023 no pelearía, teniendo que cancelar su pelea programada ante <Link href='/peleadores/arman-tsarukyan'>Arman Tsarukyan</Link> debido a una lesión, volvería a pelear en el 2024 más fuerte que nunca, teniendo un total de 3 combates a lo largo del año. El primero de estos sería ante Drew Dober, contra quien conseguiría una victoria por decisión unánime. La segunda pelea la tendría el día 13 de abril en el histórico <Link href='/covertura-ufc/ufc300-main-event'>UFC 300</Link>, ante el estadounidense <b>Jalin Turner</b>, donde tendría uno de los mejores comebacks vistos en la UFC, cuando casi cae noqueado en el primer asalto, sobreviviendo debido a que fue subestimado por su rival, y volviendo en el segundo asalto para ganar vía TKO, en lo que sin dudas fue una de las actuaciones destacadas de la noche. </p>
                     <p className={styles.peleador__article__text}>La última pelea del año la tendría en París, Francia, protagonizando el evento estelar junto con el peleador francés <b>Benoit Saint Denis</b>, en el <Link href='/covertura-ufc/fight-night-moicano-saintdenis'>UFC Fight Night: Moicano vs. Saint Denis</Link>. En esta pelea se vería una de las actuaciones más dominantes por parte de nuestro protagonista, teniendo un primer asalto que claramente se puede puntear como un 10-8, al conseguir rápidamente un derribo que aprovecharía para castigar con golpes en el suelo a su rival, dejando a este muy lastimado. El francés sólo podría pelear un asalto más, hasta que finalmente la pelea tuvo que ser intervenida por los médicos, quienes sentenciaron que Saint Denis no estab apto para seguir compitiendo, debido a los cortes y lo lastimado que quedó tras el primer asalto. De esta forma, Renato Moicano ganaría la pelea vía TKO en el segundo asalto, y acumularía una racha de 4 victorias consecutivas en la división. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

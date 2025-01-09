@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/0-100/0-10/ufc-goats.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Los Mejores Peleadores de la Historia de UFC',
@@ -51,6 +52,7 @@ export default function Top5 () {
                     <p>Actualmente, en más de 40 peleas profesionales, cuenta con un récord profesinal de 32-9, siendo 17 de sus victorias por la vía del nocaut, 1 por la vía de la sumisión y 14 por decisión. Manteniéndose activo aún hoy con sus 38 años en la división de peso gallo, donde solamente este año peleó en 2 ocasiones, con una victoria por decisión ante <b>Jonathan Martinez</b> en el <Link href='/covertura-ufc/ufc301'>UFC 301</Link> organizado en Brasil, y una controvertida derrota en su combate más reciente ante <b>Mario Bautista</b> en el <Link href='/covertura-ufc/ufc307'>UFC 307</Link>. </p>
                     <p>Sin duda, más allá de lo que siga haciendo o no con su carrera, el legado que deja es enorme y será recordado durante varios años como el mejor peso pluma que ha visto este deporte. </p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/L8oht5ZNwFM?si=lCoLUPKNSdIitL6Y" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

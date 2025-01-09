@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/0-100/10-20/dobles-campeones.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Dobles Campeones de UFC',
@@ -60,6 +61,7 @@ export default function PoirierVsMakhachev () {
                     <h2>9. Alex Peireira</h2>
                     <p>El caso más reciente de un peleador subiendo de división para conquistar un segundo cinturón es el del brasileño <Link href='/peleadores/alex-pereira'>Alex Pereira</Link>, que con sólo 7 peleas en la compañía lo conseguiría. Primero convirtiéndose en campeón de la división de peso medio, al derrotar al entonces campeón <b>Israel Adensanya</b> por TKO en el quinto y último asalto de la pelea. Y luego, un año después, el 11 de noviembre de 2023, cuando se enfrentaría al checo <b>Jiří Procházka</b> por el campeonato vacante de peso semipesado de UFC, a quien sería capaz de derrotar por TKO en el segundo asalto. Siendo de esta manera, el ejemplo más reciente de un peleador que es capaz de conquistar el campeonato de UFC en 2 divisiones diferentes.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/PeBV7IhzxIA?si=44gVVcAZDzAuMK_N" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

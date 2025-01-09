@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Paddy Pimblett',
@@ -42,6 +43,7 @@ export default function Pimblett () {
                     <p className={styles.peleador__article__text}>Su siguiente pelea sería el 10 de diciembre de 2022 ante <b>Jared Gordon</b> en el UFC 282, contra quien tuvo una victoria por decisión bastante cerrada, que generó controversia entre algunos fans, que vieron como ganador a Jared, tal y como puede verse en los comentarios de la entrevista postpelea que subió la UFC a su canal de Youtube.</p>
                     <p className={styles.peleador__article__text}>Un año después, el luchador inglés volvería al octágono para enfrentarse al histórico <Link href='/peleadores/tony-ferguson'>Tony Ferguson</Link>, quien venía de 5 derrotas consecutivas en su carrera, y que luego de enfrentarse a Paddy Pimblett y perder por decisión unánime, se convirtió en el peleador, junto a <b>BJ Penn</b>, con más derrotas consecutivas en la historia de la UFC.</p>
                     <p className={styles.peleador__article__text}>Al año siguiente, tendría la que sería la pelea más importante de su carrera hasta el momento, cuando se le presentaría la oportunidad de enfrentar a un top15 para entrar a los rankings de la división de peso ligero de la UFC. Dicha oportunidad se materializaría el 27 de julio de 2024, cuando en el <Link href='/covertura-ufc/ufc304'>UFC 304</Link> organizado en su país de origen, Inglaterra, en la ciudad de Manchester, se enfrentará al veterano estadounidense <b>King Green</b>, quien estaba ranqueado #15. Aquella noche, Paddy sería capaz de cerrar bocas y de sorprender a muchos al someter en el primer asalto de la pelea a su rival con un triangle choke, ganando por este desempeño un nuevo bono a la Actuación de la Noche. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

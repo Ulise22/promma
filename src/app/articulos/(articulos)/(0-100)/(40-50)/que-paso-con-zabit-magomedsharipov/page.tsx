@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/40-50/zabit.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Zabit Magomedsharipov',
@@ -44,6 +45,7 @@ export default function ZabitMagomedsharipov () {
                     <h2>¿Qué fue de la vida de Zabit Magomedsharipov?</h2>
                     <p>En parte otra de las razones por la que Zabit renunció, es porque no tiene ninguna necesidad económica de seguir peleando, dado que actualmente tiene una marca de ropa; una tienda de nutrición deportiva; colabora con la empresa <b>BUKA Boxing</b>, especializada en ropa y calzado; además de invertir en bienes raíces.</p>
                     <p>Actualmente tiene una vida tranquila, se embarcó en una carrera de medicina, entrena de vez en cuando para mantenerse en forma, se dedica a sus negocios, y vuelve a pelear especialmente para ayudar a su hermano <b>Khasan Magomedsharipov</b>, quien también es un peleador de MMA y de quien es uno de sus entrenadores principales, actualmente pelea en Bellator y tiene un récord de 10-0.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

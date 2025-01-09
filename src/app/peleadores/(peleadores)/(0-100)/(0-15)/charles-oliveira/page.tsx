@@ -8,6 +8,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Charles Oliveira',
@@ -63,6 +64,7 @@ export default function Oliveira () {
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/34Tk9Z3AOvo?si=pBtaPkUQVwuxC2YZ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Luego de aquella derrota, el brasileño volvería a pelear en junio de 2023, para enfrentar al estadounidense <b>Beneil Dariush</b>, a quien lograría vencer por TKO en el primer asalto, ganando el bono a la actuación de la noche, y rompiendo el récord por la mayor cantidad de bonos post-pelea en la historia de la UFC, con 19.</p>
                     <p className={styles.peleador__article__text}>El 13 de abril de 2024, participaría del <Link href='/covertura-ufc/ufc300-main-event'>UFC 300</Link> para enfrentar al armenio <b>Arman Tsarukyan</b>, en lo que sería una eliminatoria por el título. Sin embargo, luego de 3 asaltos, la pelea se la llevó su rival por decisión dividida.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

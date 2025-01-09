@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/50-60/kimbo_slice.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Kimbo Slice Historia',
@@ -52,6 +53,7 @@ export default function KimboSlice () {
                     <h2>Kimbo Slice récord</h2>
                     <p>Kimbo Slice terminó su carrera con un récord de 5-2 (1). Siendo 3 de sus victorias por nocaut, 1 por sumisión y 1 por decisión. Mientras que sus 2 derrotas fueron por la vía del nocaut. Además, tiene una pelea contra <b>Dhafir Harris</b> que originalmente había ganador por nocaut, pero que fue declarada sin resultado luego de que Kimbo dió positivo por nandrolona, una sustancia anabolizante. </p>
                     <p>Además tuvo una carrera profesional en el mundo del boxeo donde se retiró con un récord de 7-0. Siendo 6 de estas victorias por la vía del nocaut.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

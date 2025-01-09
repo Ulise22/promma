@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Sean Strickland',
@@ -62,6 +63,7 @@ export default function Strickland () {
                     <p className={styles.peleador__article__text}>Su primer defensa estaría programada para el 20 de enero de 2024 en el <Link href='/covertura-ufc/ufc297'>UFC 297</Link> ante el sudafricano <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link>, contra quien lamentablemente para él caería derrotado por decisión dividida, en lo que fue una pelea muy cerrada, y que le ganó el primer bono de su carrera a la Pelea de la Noche. </p>
                     <p className={styles.peleador__article__text}>Sean aceptaría encabezar la pelea coestelar del <Link href='/covertura-ufc/ufc302'>UFC 302</Link> ante el brasileño <b>Paulo Costa</b> el 1 de junio de 2024, en una pelea a 5 asaltos que dominaría de principio a fin y que se acabaría llevando por decisión. </p>
                     <p className={styles.peleador__article__text}>Luego de esto, alegando que su pelea ante Du Plessis la había ganado él en realidad, y debido a que esta fue lo suficientemente cerrada, es que pidió una revancha por el título, que pareciera tendrá lugar, pero sin ninguna confirmación oficial hasta el momento.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

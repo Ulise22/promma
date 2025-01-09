@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Jiri Prochazka',
@@ -50,6 +51,7 @@ export default function Prochazka () {
                     <p className={styles.peleador__article__text}>6 meses después volvería a pelear, para participar del <Link href='/covertura-ufc/ufc300-main-event'>UFC 300</Link>, en donde enfrentaría al austríaco <b>Aleksandar Rakic</b>, a quien vencería por TKO en el segundo asalto, ganando además el bono de actuación de la noche.</p>
                     <p className={styles.peleador__article__text}>Luego de aquella victoria, Jiri aceptaría tomar una pelea en corto aviso para protagonizar la cartelera estelar del <Link href='/covertura-ufc/ufc303'>UFC 303</Link>, luego de que la pelea estelar entre <Link href='/peleadores/conor-mcgregor'>Conor McGregor</Link> y <Link href='/peleadores/michael-chandler'>Michael Chandler</Link> fuera dada de baja. Para ello, se enfrentaría en una revancha al brasileño <Link href='/peleadores/alex-pereira'>Alex Pereira</Link> por el cinturón de peso semipesado. Esta revancha tenía un aliciente extra, dado que a los ojos de muchos fanáticos, e incluso del mismo Jiri Prochazka, la pelea anterior había sido parada antes de tiempo, dado que no se pudo apreciar que efectivamente haya estado KO el luchador checo. Finalmente se enfrentarían el día 29 de junio de ese mismo 2024, donde lamentablemente nuestro protagonista caería derrotado por nocaut luego de recibir una patada en la cabeza en el segundo asalto que lo derrumbaría al suelo. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/xhKMwGozbic?si=YjZqDe_gkxfe_OnQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

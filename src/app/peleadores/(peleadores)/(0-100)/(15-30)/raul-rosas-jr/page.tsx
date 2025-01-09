@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Raúl Rosas Jr.',
@@ -40,6 +41,7 @@ export default function RaulRosasJR () {
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/k1U3vN-Q1f0?si=ZtMKFfRvCeiYP0YZ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Su siguiente combate lo tendría el 8 de junio de 2024 en el <Link href='/covertura-ufc/fight-night-cannonier-imanov'>UFC Fight Night: Cannonier vs Imavov</Link>, ante <b>Ricky Turcios</b>, a quien vencería por sumisión en el segundo asalto. Ganando otro bono más por la actuación de la noche.</p>
                     <p className={styles.peleador__article__text}>Raúl volvería a pelear el 14 de septiembre de ese mismo año en el histórico <Link href='/covertura-ufc/ufc306'>UFC 306</Link>, o <b>UFC Noche</b>, organizado en La Esfera en Las Vegas, con motivo de celebración del Día de la Independencia de México, que al Raúl ser mexicano, se presuponía que tendría protagonista en este evento. Aquel día se vería cara a cara con el peleador chino <b>Aori Qileng</b>, a quien en una pelea en la que el mexicano fue muy dominante por sobre su rival, conseguiría llevarse la victoria por decisión unánime, extendiendo de esta manera su récord a 10-1. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

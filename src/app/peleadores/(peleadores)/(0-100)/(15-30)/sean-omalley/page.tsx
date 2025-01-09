@@ -5,6 +5,7 @@ import Image from 'next/image'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: "Sean O'Malley",
@@ -44,6 +45,7 @@ export default function Omalley () {
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/1oHw6Ghm96A?si=7wA_rRtJmnSQm6Ev" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Luego de aquella meritoria victoria, Sean haría su primera defensa del título contra el #6 ranqueado de la división, y contra el único peleador que hasta entonces había sido capaz de derrotarlo, <Link href='/peleadores/marlon-vera'>Chito Vera</Link>, a quien enfrentaría en el <Link href='/covertura-ufc/ufc299'>UFC 299</Link>. Omalley se llevaría la victoria merecidamente luego de 5 asaltos por decisión unánime, ganando nuevamente el bono a la actuación de la noche.</p>
                     <p className={styles.peleador__article__text}>Lamentablemente, el reinado del joven campeón estadounidense no sería uno largo. Dado que cuando se lo puso como cabeza de evento en el histórico <Link href='/covertura-ufc/ufc306'>UFC Noche</Link>, para defender su cinturón ante el contendiente #1 de la división <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link>, caería derrotado por decisión unánime ante el peleador georgiano, en lo que se vió como una derrota aplastante para él, que poco pudo hacer ante los derribo y la lucha de Merab que se impusó por sobre nuestro protagonista. </p>
+                    <EndArticle />
                 </article>
                 <AsideFighter />
             </section>

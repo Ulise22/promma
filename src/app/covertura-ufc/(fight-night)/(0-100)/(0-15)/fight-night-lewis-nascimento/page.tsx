@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/covertura_ufc/fight_night/0-100/0-15/lewis-vs-nascimento-preview.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export default function FightNightLewisNascimento () {
     return(
@@ -28,6 +29,7 @@ export default function FightNightLewisNascimento () {
                     <h2>Derrick Lewis Noquea a Nascimento en el Tercer Asalto</h2>
                     <p>El evento principal no decepcionó y nos mostró a un dominante Derrick Lewis, quien era favorito a priori, sabiendo ponerse de pie cuando fue derribado y logrando conectar una buena combinación de golpes en el tercer asalto que terminó con la finalización que le daría la victoria al estadounidense por sobre el brasileño.</p>
                     <p>Con este nuevo nocaut, Derrick Lewis alarga su récord de 15 victorias por nocaut en la UFC, siendo el peleador con más victorias por esta vía en la UFC, lo que lo convierte en un hombre histórico de la compañía.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/30-40/rousimar_palhares.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'El Peleador Más Sucio de la UFC',
@@ -50,6 +51,7 @@ export default function PeleadorMasSucioUFC () {
                     <p>Desde entonces la carrera de Palhares sólo iría en caída libre. Perdiendo su siguiente combate por el título de otra promotora contra <b>Emil Weber Meek</b>, quien lo dejó KO en 45 segundos.</p>
                     <p>Para peor, unos meses después tendría otro combate que perdería por KO contra el polaco <b>Michał Materla</b>. Desde su salida de WSOF, sólo ganaría una pelea, conseguiría empatar 1, y perdería 6 combates, siendo todas sus derrotas desde entonces por nocaut.</p>
                     <p>Pese a su muy sucio estilo de pelea, que podría haber acabado con la carrera de varios de sus compañeros de MMA, y que de milagro no ocasionó ninguna lesión de gravedad, lo cierto es que la historia Palhares también ser usada como ejemplo y como inspiración, dado que supo sobreponerse a sus durísimos origenes, siendo capaz de salir de la extrema pobreza en sudamérica para competir en un deporte tan complicado como lo son las MMA.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

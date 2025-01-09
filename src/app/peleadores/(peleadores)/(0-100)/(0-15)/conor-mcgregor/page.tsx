@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Conor Mcgregor',
@@ -63,6 +64,7 @@ export default function Mcgregor () {
                     <p className={styles.peleador__article__text}>Se programaría una revancha inmediata para que volviera a enfrentar a Poirier el día 10 de julio de ese mismo año, encabezando el UFC 264. Sin embargo, aquella noche volvería a caer derrotado por TKO, aunque en esta ocasión debido a una parada média, dado que cuando estaba finalizando el primer asalto de la pelea, nuestro protagonista de manera completamente accidental, se rompería la pierna al dar un paso atrás, quedando de esta manera imposibilitado de seguir peleando.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/G6ymIhvWQug?si=sZzv0rGgVyZGjEHV" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>En parte por esta lesión es que después pasaríamos por la étapa de inactividad más larga hasta ahora en la carrera de Conor, sin pelear en lo que quedó de 2021, sin pelear durante todo el 2022, sin pelear durante el 2023 y sin pisar un octágono durante el 2024, pese a que tenía programada una pelea para julio ante <Link href='/peleadores/michael-chandler'>Michael Chandler</Link> que terminaría cancelando debido a una lesión. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

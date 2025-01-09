@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/peleadores__images/0-100/10-20/michael-chandler/michael_chandler.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Michael Chandler Espera a McGregor',
@@ -32,6 +33,7 @@ export default function ChandlerEsperaMcgregor () {
                     <blockquote className={`${styles.article__twitter__quote} twitter-tweet`}><p lang="en" dir="ltr">Chandler is getting paid 10x of what his contract states for other fights. Meaning he would need to fight 10 fights to make what he would make in this one. I’m The One.</p>&mdash; Conor McGregor (@TheNotoriousMMA) <a href="https://twitter.com/TheNotoriousMMA/status/1804197703456329860?ref_src=twsrc%5Etfw">June 21, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js"></script>
                     <p>Luego en otro post, escribió que: &quot;<b>Para aquellos que dicen que ya podría haber peleado 2 o 3 veces, etc. Necesitaría 10 para emparejar con este cheque</b>&quot;.</p>
                     <p>Es difícil saber cuáles son los verdaderos números detrás de este combate. Lo cierto es que Conor sigue siendo una super estrella en este mundo, que la gente todavía quiere verlo pelear, y que Chandler, de enfrentarse a él, recibiría un pago multimillonario. Pero esta todo supeditado a que Mcgregor vuelva al octágono, por eso decimos que Chandler está haciendo una apuesta, porque en caso de que la pelea finalmente se dé, va a terminar consiguiendo lo que quería, pero si no, habrá tirado 2 años o más de su carrera a la basura.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

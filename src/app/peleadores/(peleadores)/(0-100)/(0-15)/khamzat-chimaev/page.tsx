@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Khamzat Chimaev',
@@ -53,6 +54,7 @@ export default function Khamzat () {
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/4wfriSQAmaA?si=jKmcah9Ssn0BHrfi" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Se lo programaría para enfrentar al excampeón de peso mediano <Link href='/peleadores/robert-whittaker'>Robert Whittaker</Link> para el 22 de junio de 2024, encabezando un fight night en Abu Dhabi, pero lamentablemente los problemas de salud de Khamzat se volvieron a poner en medio, bajándose de la pelea y siendo reemplazado por un viejo rival con <b>Aliskerov</b>, en el <Link href='/covertura-ufc/fight-night-whittaker-aliskerov'>UFC on ABC: Whittaker vs Aliskerov</Link>.</p>
                     <p className={styles.peleador__article__text}>De igual forma, quien debía ser su rival fue capaz de noquear en el primer asalto, y la pelea entre Whittaker y Chimaev fue reprogramada para el 26 de octubre de 2024 en el <Link href='/covertura-ufc/ufc308'>UFC 308</Link>, donde estos 2 peleadores protagonizarían el evento coestelar, que además tenía como evento principal la pelea por el título de peso pluma entre <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> y <Link href='/peleadores/max-holloway'>Max Holloway</Link>. En aquel combate, nuestro protagonista sería capaz de defender su invicto, al conseguir lo que hasta ese momento nadie había conseguido, al someter en el primer asalto a su rival, que jamás había perdido por esta vía. Debido a su desempeño durante este combate, Khamzat se llevaría el bono a la Actuación de la Noche. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

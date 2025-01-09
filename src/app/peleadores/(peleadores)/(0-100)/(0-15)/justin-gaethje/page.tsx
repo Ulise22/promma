@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Justin Gaethje',
@@ -61,6 +62,7 @@ export default function Gaethje () {
                     <p className={styles.peleador__article__text}>El título terminó siendo para Justin Gaethje que luego de darle una patada en la cabeza a <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link> que lo dejaría KO, ganaría la pelea y su quinto premio a la actuación de la noche en UFC.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/2UhTcnCRueY?si=ogBfnX4wk4IvsaRE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Además, Justin Gaethje sería el primer peleador en defender este cinturón, ya que Masvidal no lo había hecho. Poniéndolo en juego en el <Link href='/covertura-ufc/ufc300-main-event'>UFC 300</Link> contra luchador de una división inferior y excampeón de la misma <Link href='/peleadores/max-holloway'>Max Holloway</Link>. Para aquel evento especial, Dana White había prometido elevar el bono a La Pelea de la Noche hasta lo $300k para quienes den la mejor pelea, y como no podía ser de otra forma, el combate que fue elegido es el que tenía a Gaethje como uno de los protagonistas. Aunque lastimosamente para él, sería en una pelea que tendría su derrota, al ser noqueado en el último segundo de la pelea, luego de haber intercambiado golpes como loco con Holloway durante los últimos 10 segundos, en un momento que los fans jamás olvidaremos en nuestra vida. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import GspHero from './GspHero'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'George St-Pierre',
@@ -45,6 +46,7 @@ export default function GSP () {
                     <p className={styles.leyenda__article__text}>Michael Bisping venía de consagrarse consagrarse luego de que una victoria contra <Link href='/leyendas/anderson-silva'>Anderson Silva</Link> le hiciera ganarse la pelea por el título de Peso medio contra <b>Luke Rockhold</b>, que ganaría por KO en el primer asalto y que luego defendería de manera exitosa contra <b>Dan Henderson</b> por decisión unánime luego de los 5 asaltos.</p>
                     <p className={styles.leyenda__article__text}>Este combate se lo terminaría llevando el canadiense por sumisión en el tercer asalto, convirtiendose de esta manera en doble campeón de la UFC en su glorioso regreso. Lamentablemente por una enfermedad, producto de la dieta que hizo para subir de peso, nunca pudo defender el título, dejándolo de esta manera vacante.</p>
                     <iframe className={styles.leyenda__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/drN7gYW84w8?si=KxDaeZifPDVKlzHG" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_card.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: '¿Vuelve Amanda Nunes a Pelear?',
@@ -33,6 +34,7 @@ export default function VuelveAmandaNunes () {
                     <p>Nuestra predicción es que si Kayla Harrison consigue arrebatarle el cinturón a Raquel para este año, Amanda Nunes va a salir del retiro para enfrentar a quien también debe ser considerada una de las peleadoras más importantes en la historia de las MMA. Este sería sin duda un tremendo combate femenino que serviría para que Amanda agrande aún más su legado como luchadora.</p>
                     <p>De hecho, la misma Kayla se refirió a esta posibilidad en una entrevista que dió después de su debut para <b>TMZ</b>, en la que dijo: &quot;<b>Y si Amanda quiere volver después de que yo gane el título, la recibiré con los brazos abiertos. Y no me quejaré ni refunfuñaré si se salta la fila, puede ir directo al frente. Ven aquí, cariño</b>&quot;</p>
                     <p>Además, el mismo Dana White en la conferencia de prensa posterior al <Link href='/covertura-ufc/ufc300-main-event'>UFC 300</Link> confesó que estaría encantado de organizar esta super pelea femenina. Además creemos, que si finalmente Kayla Harrison termina quedándose con el cinturón de la división, una defensa ante la excampeona sería bastante más emocionante que cualquiera de las otras posibilidades que hay.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

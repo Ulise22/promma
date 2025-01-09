@@ -6,6 +6,7 @@ import Image from 'next/image'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Julianna Peña',
@@ -45,6 +46,7 @@ export default function JuliannaPena () {
                     <p className={styles.peleador__article__text}>El título vacante se lo disputarían <Link href='/mujeres/raquel-pennington'>Raquel Pennignton</Link> y <Link href='/mujeres/mayra-bueno-silva'>Mayra Bueno Silva</Link> en el <Link href='/covertura-ufc/ufc297'>UFC 297</Link>, terminando con una Raquel Pennington como nueva campeona. Es entonces que se gesta la vuelta de nuestra protagonista, que luego de 2 años de inactividad, con una lesión de por medio, volvería a subirse al octágono para enfrentar a la nueva campeona de la división. </p>
                     <p className={styles.peleador__article__text}>La pelea entre Raquel Pennington y Julianna Peña tendría lugar el 5 de octubre de 2024 en el <Link href='/covertura-ufc/ufc307'>UFC 307</Link> en Salt Lake City, Utah. Y veríamos como la venezolana, luego de 5 asaltos, sería capaz de recuperar el cinturón por decisión dividida en lo que fue un combate muy cerrado, pero que le sirvió a Peña para coronarse nuevamente como campeona.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/6P2o2KKlJ28?si=6eaMSI46gX0PoWwk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideFighter />
             </section>

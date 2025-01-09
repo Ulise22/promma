@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/0-100/0-10/mostppv.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: '5 Combates que Más PPV Vendieron',
@@ -40,6 +41,7 @@ export default function MostPPV () {
                     <h3>1. McGregor vs Khabib</h3>
                     <p>Finalmente, la que al menos hasta ahora es la pelea más vista de la historia de la UFC, es la de <Link href='/articulos/conor-vs-khabib'>Khabib vs McGregor</Link> en el UFC 229, organizado el 6 de octubre de 2018, en la que luego de que <Link href='/leyendas/khabib-nurmagomedov'>Khabib</Link> ganara el campeonato de Peso Ligero contra el estadounidense <b>Al Iaquinta</b>, defendería el título contra un Conor McGregor que venía de tomarse un tiempo de las MMA para competir en boxeo contra <b>Floyd Mayweather</b>. La previa de la pelea estuvo cargada de mucha polémica entre ambos, principalmente por la forma en que tiene McGregor de confrontar a sus rivales en las previas, hablando mierda y metiendose hasta con la familia del oponente. El combate finalmente terminaría en una victoria por sumisión para <Link href='/leyendas/khabib-nurmagomedov'>Khabib</Link> en el cuarto asalto, y se convertiría en la pelea que más PPV vendería con un total de 2,400.000.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/JuBBIJ7adjM?si=18R4CY1lI_jsVocm" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

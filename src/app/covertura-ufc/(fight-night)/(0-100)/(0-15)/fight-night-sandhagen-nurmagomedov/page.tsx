@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/peleadores__images/0-100/30-40/umar-nurmagomedov/umar_nurmagomedov-card.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Sandhagen vs Nurmavomedov',
@@ -41,6 +42,7 @@ export default function SandhagenNurmagomedov () {
                     <h2>Umar Nurmagomedov Gana Por Decisión a Cory Sandhagen</h2>
                     <p>Umar Nurmagomedov, el primo de <Link href='/leyendas/khabib-nurmagomedov'>Khabib</Link>, con quien contaba en su esquina, logra una victoria por decisión unánime ante el #2 de la división de peso gallo <b>Cory Sandhagen</b>, a quien logró dominar tanto de pie como en el suelo, obteniendo una merecida victoria.</p>
                     <p>De esta manera, con esta victoria Umar logra mantener su récord invicto, ampliándolo a 18-0, y logrando escalar hasta el top5 de los rankings. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

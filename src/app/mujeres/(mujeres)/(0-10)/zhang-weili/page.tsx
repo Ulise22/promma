@@ -7,6 +7,7 @@ import Image from 'next/image'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Zhang Weili',
@@ -49,6 +50,7 @@ export default function ZhangWeili () {
                     <p className={styles.peleador__article__text}>De esta manera Zhang Weili volvería a pelear por el cinturón de la división el 12 de noviembre de 2022 en el UFC 281, en esta ocasión ante la estadounidense <b>Carla Esparza</b>, que acababa de ganárselo a Rose Namajunas. Nuevamente daría una muestra de categoría, al derrotar a su rival por sumisión con un mataleón en el segundo asalto de la pelea, volviendo a ganar el bono a la Actuación de la Noche. </p>
                     <p className={styles.peleador__article__text}>En su primera defensa del cinturón se enfrentaría a la brasileña <b>Amanda Lemos</b>, que llegaba a la pelea con un récord de 13-2-1, y en aquella noche de agosto de 2023, volvería a dar una clase de MMA, en una actuación super dominante por su parte, extendiendo la pelea hasta los 5 asaltos y rompiendo el récord del mayor diferencial de golpeo total en una pelea de mujeres de la UFC. Reteniendo su cinturón al llevarse la pelea por decisión unánime. </p>
                     <p className={styles.peleador__article__text}>Zhang Weili participaría en la pelea coestelar del <Link href='/covertura-ufc/ufc300-main-event'>UFC 300</Link>, organizado el 13 de abril de 2024, en donde debería enfrentar a su compatriota <Link href='/mujeres/yan-xiaonan'>Yan Xiaonan</Link>, en lo que fue una pelea disputada pero en donde finalmente nuestra protagonista pudo imponerse por sobre su contrincante, llevándose la victoria por decisión unánime. </p>
+                    <EndArticle />
                 </article>
                 <AsideFighter />
             </section>

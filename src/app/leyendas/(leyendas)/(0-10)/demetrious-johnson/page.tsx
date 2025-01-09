@@ -3,6 +3,7 @@ import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import DemetriousHero from './DemetriousHero'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Demetrious Johnson',
@@ -46,6 +47,7 @@ export default function Demetrious () {
                     <p className={styles.leyenda__article__text}>Este intercambio a quien más terminó beneficiando especialmente a nuestro protagonista, que en ONE, encontró un lugar donde es mejor pagado, mejor tratado y donde recibe el respeto que merece alguien de la trayectoria y carrera de él.</p>
                     <p className={styles.leyenda__article__text}>Hoy en día se mantiene como un peleador activo en la compañía ONE, donde fue campeón en el torneo en formato de eliminatoria en Peso Mosca, y donde ganó el Campeonato Peso Mosca de ONE, luego de vencer en su revancha al brasileño <b>Adriano Moraes</b>, a quien noqueó en el cuarto asalto de la pelea.</p>
                     <iframe className={styles.leyenda__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/TW9e4sy1dbY?si=dis8IiqXtOK2cTC2" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

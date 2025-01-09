@@ -1,0 +1,35 @@
+.endArticle {
+    margin-top: 30px;
+}
+
+.endArticle__container {
+    border-top: 1px solid #ccc;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.endArticle__socials__container {
+    display: flex;
+    gap: 20px;
+}
+
+.endArticle__socials {
+    text-decoration: none;
+}
+
+.donation__btn {
+    background-color: #e3c729;
+    padding: 15px;
+    border-radius: 15px;
+    color: #0c8aeb;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.donation__btn:hover {
+    background-color: #0c70eb;
+    color: #e3c729;
+}

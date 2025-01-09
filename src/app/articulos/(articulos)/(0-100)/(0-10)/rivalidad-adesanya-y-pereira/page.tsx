@@ -6,6 +6,7 @@ import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/0-100/0-10/izzy_vs_pereira.jpg'
 import Image from 'next/image'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Rivalidad Pereira vs Adesanya',
@@ -42,6 +43,7 @@ export default function IzzyVsPereira () {
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/IVXgOlEOF-Q?si=pTowuAXa7IFsvUZI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     <p>Luego de la pelea, Adesanya aprovecharía para vengarse, imitando primero el clásico movimiento de Alex, que simula estar disparando un arco y flecha, y luego burlándose del movimiento que hizo el hijo de Alex Pereira en su momento (cuando el brasileño había noqueado al nigeriano), simulando caer noqueado al piso.</p>
                     <p>De esta manera su conflicto termina en un 3-1 a favor de Pereira, pero en un 1-1 en cuanto a MMA. Así que no debería de extrañar, y sería interesante ver, de hecho, una tercer pelea en UFC, para dar cierre a su rivalidad y para poder saber con más claridad, quién de los 2 es un mejor peleador.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

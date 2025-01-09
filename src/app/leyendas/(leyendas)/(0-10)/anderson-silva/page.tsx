@@ -3,6 +3,7 @@ import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import AndersonHero from './AndersonHero'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Anderson Silva',
@@ -41,6 +42,7 @@ export default function Anderson () {
                     <iframe className={styles.leyenda__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/EYSM44kwlUM?si=f3zrw8Tvjs-XhVVA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     <p className={styles.leyenda__article__text}>Hasta este punto, pese a perder 5 de sus últimas 7 peleas, Anderson venía haciendo un papel digno, puesto que sus derrotas se debían a circuntancias específicas, y habían sido contra rivales sumamente difíciles. Pero lo que terminó de dar por acabada su carrera, fueron sus derrotas contra <b>Jared Cannonier</b> por decisión TKO en 2019, y su derrota contra <b>Uriah Hall</b>, también por TKO en 2020. Desde aquel último combate, Anderson Silva no ha vuelto a combatir en las MMA.</p>
                     <p className={styles.leyenda__article__text}>Luego de su carrera en las Artes Marciales Mixtas, ha tenido un par de combates en boxeo, entre ellos, uno contra el ex campeón Julio César Chávez Jr. a quien venció por decisión dividida.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

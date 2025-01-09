@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc304.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'UFC 304',
@@ -40,6 +41,7 @@ export default function UFC304 () {
                     <h2>Belal es nuevo campeón de Peso Wélter</h2>
                     <p>Tenemos nuevo campeón en la división de peso wélter, con un <Link href='/peleadores/belal-muhammad'>Belal Muhammad</Link> que a pesar de pelear &quot;de visitante&quot;, logró imponerse por sobre <Link href='/peleadores/leon-edwards'>Leon Edwards</Link>, cortando la racha de 13 victorias consecutivas que este llevaban encima.</p>
                     <p>La pelea llegó a los 5 asaltos y finalmente, por decisión unánime de los jueces, Belal es nuevo campeón de UFC, logrando la increíble cantidad de 9 derribos en una misma pelea, que rompe su récord personal de 7 derribos conseguidos en un mismo combate. Es una merecida victoria para un Belal que salvo por el tercer asalto, fue absolutamente dominante en todo el combate.</p>
+                    <EndArticle/>
                 </article>
                 <AsideChamps />
             </section>

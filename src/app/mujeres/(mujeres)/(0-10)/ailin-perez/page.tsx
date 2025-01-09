@@ -7,6 +7,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Ailín Pérez',
@@ -49,6 +50,7 @@ export default function AilinPerez () {
                     <p className={styles.peleador__article__text}>Aunque Josely Edwards tiene su propia versión de lo que había sucedido previo a su pelea, que dista bastante de lo que contaba la argentina, declarando para <a target='_Blank' href='https://www.mmamania.com/'>MMMAMania</a>: <b>&quot;Mientras estábamos peleando, su coach me atacó por la espalda. Él me estaba estrangulando para que Ailin pudiera pegarme. Su coach me atacó. Prácticamente tuve que pelear con ambos. Él no protegió a nadie, él empezó la pelea. Él fue quien calentó las cosas para que la pelea sucediera. Y luego él me atacó y me estaba estrangulando. Después, cuando ya me habían separado de Ailin, él me seguía estrangulando y no me soltaba. Él no separó la pelea, él me atacó mientras ella me atacaba.&quot;</b></p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/VUvS_7585WA?si=QTGV1SkZIqe_oijW" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Luego de aquella pelea, y antes de que pudiera tener su siguiente combate en la UFC, Ailín sería agregada a los rankings de su división en la UFC, siendo posicionada en el puesto #15, convirtiéndose en la primera peleadora argentina en estar ranqueada en la UFC, y siendo la segunda argentina en general después de <Link href='/peleadores/santiago-ponzinibbio'>Santiago Ponzinibbio</Link>. Por lo que, ya siendo una luchadora ranqueada, se enfrentaría a la rusa <b>Daria Zhelezniakova</b> el 28 de septiembre de 2024, nuevamente en el <Link href='/covertura-ufc/fight-night-moicano-saintdenis'>UFC Francia</Link>, donde conseguiría su primer finalización en la UFC, al someter en el primer asalto a su rival. Esta actuación posteriormente la haría subir un puesto en los rankings de la compañía, estando posicionada #14.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

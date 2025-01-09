@@ -3,6 +3,7 @@ import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import LiddellHero from './LiddellHero'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Chuck Lidell',
@@ -49,6 +50,7 @@ export default function ChuckLiddell () {
                     <p className={styles.leyenda__article__text}>Con más de 40 años y una amplia trayectoria encima, no tenía sentido para Chuck seguir compitiendo a este nivel, menos con la cantidad de duras derrotas que estaba comenzando a recibir. Seguir peleando sólo significaría poner en riesgo su salud, de hecho, el mismo <b>Dana White</b> quien era promotor de la UFC y amigo de Chuck Liddell, le aconsejó que se retirará, por lo que su pelea ante Franklin sería la última de su carrera, anunciando su retiro luego de aquella derrota.</p>
                     <p className={styles.leyenda__article__text}>Sin embargo, en noviembre de 2018, Chuck Liddell con casi 50 años aceptó pelear nuevamente ante <b>Tito Ortiz</b>, en una trilogía que pocos pedían y que no parecía tener mucho sentido, puesto que Iceman había ganado los 2 combates anteriores por KO. Aún así, se presentaría al combate y caería derrotado por KO, en lo que ahora sí, sería la última pelea de su carrera.</p>
                     <iframe className={styles.leyenda__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/vqdSwkTUtsc?si=_DBCsIo1bY8hlLAO" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

@@ -6,6 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Alexa Grasso',
@@ -44,6 +45,7 @@ export default function AlexaGrasso () {
                     <p className={styles.peleador__article__text}>Como no podía ser de otra forma, se programaría una revancha para el 16 de septiembre de 2023, con fecha para el día de la independencia de mexico, ambas peleadoras encabezarían el evento, en lo que sería una pelea muy cerrada que se extendería hasta los 5 asaltos, y que finalmente terminaría en empate dividido a los ojos de los jueces. Dicha decisión causó algo de polémica entre los que habían visto ganar a una o a otra, pero la pelea había estado lo suficientemente cerrada como para que uno de los jueces viera a ganar a Alexa por 48-47, otro a Valentina también por 48-47, y para que finalmente el tercer juez viera un empate en el enfrentamiento entre ambas. El punto es que el empate le servía de igual forma a la mexicana para retener el cinturón, y concretar una defensa exitosa de su título. </p>
                     <p className={styles.peleador__article__text}>De igual forma, la historia de Alexa Grasso y Valentina Shevchenko no terminaría acá, y la suya sería una rivalidad para los libros de historia de las MMA. Tanto Alexa como Valentina serían las encargadas de protagonizar la temporada 32 de <b>The Ultimate Fighter</b>, el reality de televisión de la UFC, como coachs de sus respectivos equipos, con la idea de finalizar todo en una tercera pelea entre las 2, que se convertiría en la primer trilogía femenina en tener lugar en la UFC. </p>
                     <p className={styles.peleador__article__text}>Finalmente se volverían a ver de nuevo el 14 de septiembre de 2024, de nuevo, por la proximidad de las fechas, con motivo de la celebración del Día de la Independencia de México, en un evento organizado en <b>La Esfera</b> de Las Vegas, en el <Link href='/covertura-ufc/ufc306'>UFC Noche</Link>. Ambas luchadoras protagonizarían la pelea coestelar del evento, y aquella noche la pelea volvería a extenderse a los 5 asaltos, aunque esta vez con una Valentina Shevchenko siendo una dominadora más clara del combate, llevándose la pelea por decisión unánime, arrebatándole lamentablemente para nuestra protagonista, el cinturón de las 125lbs. </p>
+                    <EndArticle />
                 </article>
                 <AsideFighter />
             </section>

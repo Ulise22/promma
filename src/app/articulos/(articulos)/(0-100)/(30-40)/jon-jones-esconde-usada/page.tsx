@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/30-40/jones_se_esconde.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'El Día Que Jon Jones se Escondió en Un Octagono Para No Ser Testeado',
@@ -32,6 +33,7 @@ export default function JonJonesSeEscondeDeUsada () {
                     <p>La respuesta de Jon Jones fue la siguiente: <b>&quot;Hermano explica tu pezon. Yo me estaba escondiendo de la Comisión Atlética de Nevada, no de USADA y eso fue hace años. Sólo me había fumado un porro y tenía miedo de fallar mi test por marihuana, esa es la verdad.&quot;</b></p>
                     <blockquote className={`${styles.article__twitter__quote} twitter-tweet`}><p lang="en" dir="ltr">Brother explain your titty 🥴 I was hiding from Nevada state Athletic Commission, not USADA and that was years ago.. I had just smoked a blunt and was afraid I would fail my test for weed 🤷🏾‍♂️ that’s the actual truth 😁Now everyone knows everyone</p>&mdash; BONY (@JonnyBones) <a href="https://twitter.com/JonnyBones/status/1314431706108108800?ref_src=twsrc%5Etfw">October 9, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" ></script>
                     <p>Entonces, según la versión de Jon, sí se escondió debajo de un ring para no ser testeado, pero no porque usara anabólicos, sino porque había fumado marihuana y temía que por eso fallara la prueba. Además afirma que quienes lo estaban por testear, no eran miembros de USADA, sino miembros de la Comisión Atlética de Nevada. Sin embargo, esto a personas como el mismo <b>Daniel Cormier</b> les suena raro, dado que de ser así, no hubiera sido tan grave el castigo en caso de dar positivo por marihuana (recordemos que luego de dar positivo en su pelea contra DC, la pelea quedó anulada y Jones fue despojado de su título, pero este ni de cerca hubiera sido el mismo caso), deja la pregunta en caso de ser cierto, ¿en serio valía la pena esconderse durante horas si sólo era ese el motivo por el que no quería ser testeado?</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

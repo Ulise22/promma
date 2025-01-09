@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/0-100/10-20/payton_talbott_skateboard.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Payton Talbott Skateboard',
@@ -34,6 +35,7 @@ export default function PaytonTalbottTattoo () {
                     <h2>Payton Talbott y Tony Hawk</h2>
                     <p>Esta pasión por el Skate y su explosión en la UFC, posicionándose como una posible futura estrella, lo llevó a conocer a quien es uno de sus ídolos, especialmente en esta disciplina, como lo es la leyenda de la patineta <b>Tony Hawk</b>, a quien conoció pocas semanas antes de su pelea en el <Link href='/covertura-ufc/ufc303'>UFC 303</Link>. Según Payton comentó: <b>&quot;De hecho fue él quien inició todo, quería hacer algo para los medios durante un periodo de 3 semanas, pero iba a estar super ocupado, así que voló hasta mi depósito para que puedieramos patinar. En un momento lo suficientemente alejado de mi pelea para que no nos tuvieramos que preocupar demasiado&quot;</b>.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/xE46tZld2AM?si=ydwcE47uwh2uMGOc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

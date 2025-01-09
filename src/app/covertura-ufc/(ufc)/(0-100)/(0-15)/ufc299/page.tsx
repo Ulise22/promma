@@ -5,6 +5,7 @@ import Link from 'next/link'
 /* Images */
 import hero from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc299.jpg'
 import Image from 'next/image'
+import EndArticle from '@/app/components/EndArticle'
 
 export default function UFC299 () {
     return(
@@ -28,6 +29,7 @@ export default function UFC299 () {
                     <p>Empieza fuerte la cartelera estelar con un tremendo combate entre el ruso Petr Yan y el chino Song Yadong, en el que ambos nos dieron un espectáculo al no especular tanto durante el combate e ir a buscarse. Parecía que el peleador oriental podía ser quien se llevara la pelea, dado que comenzó de buena manera en el primer asalto, dominando a su rival, sin embargo, Petr Yan, que venía de 3 derrotas consecutivas, supo reponerse rápido, ganando los 2 siguientes asaltos y por consiguiente llevándose el combate.</p>
                     <h2>Curtis Blaydes Noquea a Jailton Almeida</h2>
                     <p>En la última pelea de la cartelera preliminar, el estadounidense <b>Curis Blaydes</b> logra reponerse de su última pelea que acabo por derrota al enfrentar a <b>Sergei Pavlovich</b>, quien lo noqueó en el primer asalto. En esta ocasión, sería el luchador americano el que lograría noquear primero en el segundo asalto ante el brasileño <b>Jailton Almeida</b>, quien venía de 15 victorias consecutivas, y quien en este combate sufre su primer derrota en la UFC. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

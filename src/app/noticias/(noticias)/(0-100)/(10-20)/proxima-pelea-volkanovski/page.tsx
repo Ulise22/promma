@@ -8,6 +8,7 @@ import Image from 'next/image'
 import hero from '@/assets/peleadores__images/0-100/0-10/alexander-volkanovski/volkanovski.jpg'
 import oliveira from '@/assets/peleadores__images/0-100/0-10/charles-oliveira/charles_oliveira.jpg'
 import poirier from '@/assets/peleadores__images/0-100/0-10/dustin-poirier/poirier.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Proxima Pelea Volkanovski',
@@ -38,6 +39,7 @@ export default function ProximaPeleaVolkanovski () {
                     <p>La otra opción que también sería muy interesante y que además yo veo más probable, es una pelea ente el brasileño <Link href='/peleadores/charles-oliveira'>Charles Oliveira</Link> quien viene de una derrota por decisión ante <Link href='/peleadores/arman-tsarukyan'>Arman Tsarukyan</Link> en el <b>UFC 300</b>. Sería muy interesante ver a estos 2 peleadores enfrentarse, que además son de los más queridos por los fanáticos. Además, salvo que Oliveira esté pensando en subir a la categoría de peso wélter, es difícil encontrarle otra pelea que no sea esta, ya que enfrentó a practicamente toda la división, y teniendo en cuenta que su última derrota lo deja en una posición complicada para volver a pelear por el título, en caso de querer olver a pelear otra vez este año, ¿qué otra opción tendría además de Volkanovski?</p>
                     <Image className={styles.article__image} src={oliveira} alt='' />
                     <p>En conclusión, aunque para alguien de la jerarquía de Volkanovski la opción con más lógica es la de esperar a una revancha por el título ante Topuria, si de verdad piensa mantenerse activo es de esperar que suba de división para enfrentar a alguien ahí. Honestamente verlo enfrentar a cualquiera del top5 de peso ligero sería bastante interesante.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

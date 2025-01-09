@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Magomed Ankalaev',
@@ -46,6 +47,7 @@ export default function MagomedAnkalaev () {
                     <p className={styles.peleador__article__text}>Por esto mismo es que se organizó una revancha entre los peleadores para el 13 de enero de 2024, donde esta vez sí, Ankalaev lograría derrotar a su rival por TKO en el segundo asalto, ganando nuevamente el bono a la actuación de la noche.</p>
                     <iframe className={styles.peleador__article__video} width="560" height="315" src="https://www.youtube.com/embed/j9wnN3YGThw?si=A_uo6MZ_dhe52fFG" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Ese mismo año volvería a pelear el día 26 de octubre en el <Link href='/covertura-ufc/ufc308'>UFC 308</Link> ante el luchador austríaco <b>Aleksandar Rakic</b>, con quien buscaría tener una actuación destacada para ganarse una oportunidad de pelear por el título. Aquella noche finalmente tendría un combate que se extendería hasta los 3 asaltos, terminando con una victoria para nuestro protagonista por decisión unánime. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

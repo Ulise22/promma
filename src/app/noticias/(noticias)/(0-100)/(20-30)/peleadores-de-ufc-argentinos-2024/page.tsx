@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/20-30/argentinos2024.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Peleadores Argentinos de UFC',
@@ -46,6 +47,7 @@ export default function PeleadoresArgentinosUFC () {
                     <p>El último argentino en incorporarse a la UFC, es el jovensísimo <b>Kevin Vallejos</b>, quien con 22 años compite en la categoría de peso pluma y logró firmar un contrato luego de su victora por nocaut ante <b>Cam Teague</b> en el <b>Dana White&apos;s Contender Series</b>. Posee un récord profesional de 13-1, y está a la espera de hacer su debut en la compañía.</p>
                     <p>Ya había intentado ingresar a la UFC por la misma vía el año pasado, cuando tuvo un combate contra el brasileño <b>Jean Silva</b>, sin embargo allí sufriría la primera y hasta ahora única derrota de su carrera, por decisión unánime. Pese a que perdió este combate, de igual forma llamó la atención de Dana White, quien elogió el desempeño del joven argentino, y que un año más tarde le volvería a dar la chance de pelear por un contrato. </p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/ZIV6ahzuVv8?si=At-4l1uFo6GkUCrQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

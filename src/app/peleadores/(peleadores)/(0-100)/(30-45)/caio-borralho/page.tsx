@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Caio Borralho',
@@ -48,6 +49,7 @@ export default function CaioBorralho () {
                     <p className={styles.peleador__article__text}>Para el 4 de mayo de 2024 se le presentaría una de las peleas más importantes de su carrera, teniendo la posibilidad de abril la cartelera del <Link href='/covertura-ufc/ufc301'>UFC 301</Link>, organizada en su país natal Brasil, ante el escocés <b>Paul Craig</b>, en una pelea que de ganar, lo posicionaría en los rankings de la división. Caio Borralho aprovecharía de sobremanera esta oportunidad, dejando KO a su rival en el segundo asalto de la pelea, ganando por esto el bono a la Actuación de la Noche. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/6w7PBewENZs?si=YjrXjtX7MRLMnTVN" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Luego de esto, se le daría la oportunidad de protagonizar su primera cartelera, enfrentando en el evento estelar al veterano estadounidense <b>Jared Cannonier</b>, a quien de ganarle, lo pondría en el top5 de la división. Nuevamente el brasileño no decepcionaría, obteniendo una victoria por decisión unánime, en la que sería elegida como La Pelea de la Noche, ganando por tercera vez en su carrera, el bono de $50k. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

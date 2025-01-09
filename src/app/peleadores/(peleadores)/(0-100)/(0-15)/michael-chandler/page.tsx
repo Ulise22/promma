@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Michael Chandler',
@@ -59,6 +60,7 @@ export default function Chandler () {
                     <p className={styles.peleador__article__text}>Volvería a la senda de la victoria en el año 2022, dado que se le programaría una pelea para el 7 de mayo de 2022, para luchar en el UFC 274 ante una de las leyendas de la división <Link href='/peleadores/tony-ferguson'>Tony Ferguson</Link>, a quien en el segundo asalto de la pelea sería capaz de conectar una sorprendente patada frontal que dejaría KO al instante a su rival, ganando por tremendo desempeño nuevamente el bono a la Actuación de la Noche. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/Boa0BC_AA_s?si=I2TjtFIxARfD8PF6" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Pelearía una vez en el año 2022, enfrentando a otro estadounidense en el UFC 281, organizado el 12 de noviembre, compartiendo la cartelera estelar con <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link>, en un combate en el que ambos es conectaron muy buenos golpes, pero en el que pese a llegar al tercer asalto, terminaría en el momento que Poirier fuera capaz de finalizar a nuestro protagonista con un mataleón. De igual forma y pese a perder, volvería a ganar un bono a la Pelea de la Noche. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

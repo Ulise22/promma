@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 /* Images */
 import hero from '@/assets/articulos/0-100/20-30/alexander_emelianenko.jpg'
 import tatoos from '@/assets/articulos/insideArticle/alexander-tatuajes.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Alexander Emelianenko',
@@ -37,6 +38,7 @@ export default function AlexanderEmelianenko () {
                     <Image className={styles.article__image} src={tatoos} alt='' />
                     <p>El hecho de llevar estos tatuajes en los hombros, indican que se es alguien disciplinado, seguidor de las tradiciones y de honor que ostenta un alto rango en la familia mafiosa, que quizás se ha ganado acabando con la vida de algún rival. Sin embargo, han sido varias las ocasiones en las que Alexander ha negado haber pertenecido a algún grupo criminal y haber sido un alto mando en la mafia rusa, no dejan de ser varios los que sostienen que algún vinculo debía tener.</p>
                     <p>Como se puede apreciar en fotos más recientes de Alexander, este se ha tapado las estrellas que tenía tatuadas, y sobre el por qué existen diversas teorías. Hay quienes sostienen que lo hizo porque en realidad nunca se las había ganado, por lo que fue convencido de tapárselos, otros dicen que lo hizo porque ya no forma parte de estas organizaciones, y otros creen que simplemente se tapó los tatuajes para que la gente deje de hablar de este tema, y se dejen de escribir artículos como este. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

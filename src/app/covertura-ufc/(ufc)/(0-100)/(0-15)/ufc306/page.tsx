@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc306.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'UFC 306',
@@ -41,6 +42,7 @@ export default function UFC306 () {
                     <h2>Sean O&apos;Malley Cae Derrotado Ante Merab Dvalishvili</h2>
                     <p>Tenemos nuevo campeón en las 135lbs, luego de que el campeón <Link href='/peleadores/sean-omalley'>Sean O&apos;Malley</Link> cayera derrotado por decisión ante el georgiano <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link>. </p>
                     <p>La pelea se la lleva claramente un Merab, que a base de derribos, ground & pound, y una constante presión que el estadounidense no pudo contrarrestar, se convirtió en el nuevo campeón de la división peso gallo. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

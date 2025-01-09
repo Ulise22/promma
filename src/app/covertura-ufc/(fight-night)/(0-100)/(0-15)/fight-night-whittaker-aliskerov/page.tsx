@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/covertura_ufc/fight_night/0-100/0-15/whittaker-vs-aliskerov.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export default function FightNightWhittakerAliskerov () {
     return(
@@ -27,6 +28,7 @@ export default function FightNightWhittakerAliskerov () {
                     <h2>Johnny Walker Cae KO Ante Volkan Oezdemir</h2>
                     <p>La primera pelea de la cartelera estelar también nos trajó el primer KO de la noche, que en este caso benefició al suizo que le conectó un tremenedo nocaut al brasileño <b>Johny Walker</b>, que con este recibió el segundo consecutivo luego de haber caído derrotado ante <Link href='/peleadores/magomed-ankalaev'>Ankalaev</Link>, y que luego de recibir un derechazo no tuvo que hacer. De esta manera Oezdemir seguramente escale en la división, dado que al momento de hacer la pelea estaba ranqueado #9, enfrentándose ante un peleador ranqueado #7.</p>
                     <iframe className={styles.article__video} width="560" height="315" src="https://www.youtube.com/embed/1dnL3xNbXKU?si=Oz7iVEO-OF9WmCxU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

@@ -28,6 +28,27 @@
     font-weight: 600;
 }
 
+/* Donation */
+
+.donation__container {
+    max-width: 300px;
+}
+
+.donation__btn {
+    background-color: #e3c729;
+    padding: 15px;
+    border-radius: 15px;
+    color: #0c8aeb;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.donation__btn:hover {
+    background-color: #0c70eb;
+    color: #e3c729;
+}
+
 @media screen and (max-width: 920px) {
     .campeones__container {
         display: none;

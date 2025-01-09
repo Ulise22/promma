@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Yan Xiaonan',
@@ -39,6 +40,7 @@ export default function YanXiaonan () {
                     <p className={styles.peleador__article__text}>Durante el año 2023 sólo pelearía en una ocasión, haciendo esto el día 6 de mayo en el UFC 288 ante la brasileña <b>Jéssica Andrade</b>. En este combate lograría una de las actuaciones más destacadas de su carrera, al ser capaz de derrotar por KO en el primer asalto a su rival, siendo esta la primera victoria de nuestro protagonista por esta vía en la UFC, cosa que le haría merecedora del bono a la Actuación de la Noche. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/P8j2g1ulC1Q?si=69EZzIfnZiPUFsQc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Luego de aquella meritoria victoria, se ganaría la oportunidad de por fin disputar el cinturón de la división, que ostentaba su compatriota <Link href='/mujeres/zhang-weili'>Zhang Weili</Link>. Dicho combate tendría lugar el día 13 de abril de 2024, en lo que sería la pelea coestelar del histórico <Link href='/covertura-ufc/ufc300-main-event'>UFC 300</Link>, aunque lamentablemente para nuestra protagonista, luego de 5 asaltos en lo que fue una digna actuación por parte Xiaonan, caería derrotada por decisión unánime. </p>
+                    <EndArticle />
                 </article>
                 <AsideFighter />
             </section>

@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Joel Álvarez',
@@ -41,6 +42,7 @@ export default function JoelAlvarez () {
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/v6c_KMa49KM?si=r2v1_J2UkkQStRE-" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Más de un año después, volvería a pelear para enfrentarse al congoleño <b>Marc Diakiese</b> en el <b>UFC Fight Night: <Link href='/peleadores/tom-aspinall'>Aspinall</Link> vs Tybura</b>. El español ganaría esta pelea por sumisión en el segundo asalto.</p>
                     <p className={styles.peleador__article__text}>Volvería a pelear el 3 de agosto de 2024 ante el brasileño <b>Elves Brener</b> en el <Link href='/covertura-ufc/fight-night-sandhagen-nurmagomedov'>UFC Fight Night: Sandhagen vs Nurmagomedov</Link>, a quien vencería por TKO en el tercer asalto, logrando su primer bono en la compañía a la actuación de la noche, y cumpliendo con una finalización al igual que todas las victorias de su carrera.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

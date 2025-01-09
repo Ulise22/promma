@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Kamaru Usman',
@@ -53,6 +54,7 @@ export default function Usman () {
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/egNhnzfX6VU?si=okvJLz6fYJXPE9AQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__video}>Debido a la larga trayectoria y a la excelente carrera que había conseguido hasta el momento es que se programaría una revancha inmediata, teniendo nuestro protagonista la oportunidad de recuperar su cinturón. Dicha combate se pactaría para el 18 de marzo de 2023 en el UFC 286, donde lamentablemente el nigeriano volvería a caer derrotado, esta vez por decisión mayoritaria. </p>
                     <p className={styles.peleador__article__video}>Tiempo después Usman aceptaría pelear con poco tiempo de anticipación para enfrentar al checheno <Link href='/peleadores/khamzat-chimaev'>Khamzat Chimaev</Link>, en reemplazo del brasileño <b>Paulo Costa</b> que se bajó por una lesión, el 21 de octubre de 2023 en el UFC 294. Este sería el debut en peso mediano de nuestro protagonista, en el que yendo de menos a más, terminaría por perder la pelea por decisión mayoritaria. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

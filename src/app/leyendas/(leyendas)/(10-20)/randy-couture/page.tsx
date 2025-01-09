@@ -3,6 +3,7 @@ import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import CoutureHero from './CoutureHero'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Randy Couture',
@@ -46,6 +47,7 @@ export default function RandyCouture () {
                     <p className={styles.leyenda__article__text}>Lamentablemente su última pelea como profesional en la UFC sería contra el brasileño <b>Lyoto Machida</b> el 30 de abril de 2011, quien con una patada frontal lo dejaría KO, y haría que con casi 48 años, Couture decidiera colgar los guantes.</p>
                     <p className={styles.leyenda__article__text}>Más allá de su vida como peleador profesional de MMA, tuvo una destacada carrera como actor de hollywood, interpretando papeles secundarios y de extra desde el 2003, y obteniendo un papel importante como miembro del equipo de <b>The Expendables</b> (o Los Indestructibles en español), donde comparte pantalla con estrellas del calibre de <b>Sylvester Stallone</b>, <b>Jason Statham</b> y <b>Dolph Lundgren</b>. Esta debe ser la serie de cintas más destacadas de la que formó parte, teniendo una participación en cada una de las 4 películas, siendo la última estrenada en 2023.</p>
                     <p className={styles.leyenda__article__text}>Respecto a su vida personal, estuvo casado en 3 ocasiones, habiéndose divorciado en cada matrimonio, actualmente se encuentra en pareja con la estrella de televisión <b>Melinda Lynn Robinson</b>. Además tiene 3 hijos, entre ellos uno llamado <b>Ryan Couture</b>, quien también fue peleador profesional de MMA y que llegó a competir en la UFC en 2013, y que ya terminó su carrera, retirándose con un récord de 12-6.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/30-40/pridefc.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: '¿Qué Pasó con Pride FC?',
@@ -36,6 +37,7 @@ export default function PeleadorMasSucioUFC () {
                     <p>La estrecha relación que tenían la organización criminal de Japón y la promotora de artes marciales se volvía cada vez más evidente, llevando a que se comiencen a realizar investigaciones. Esto generaría que televisoras dieran de baja los contratos que tenían con la promotora, representando una alta pérdida de ingresos para PRIDE FC. Finalmente esto terminó en que su fundador decidiera vender los derechos de la compañía en 2007, siendo comprados por la empresa dueña de <Link href='/articulos/ufc'>UFC</Link>, manejada por los hermanos Fertitta.</p>
                     <p>Lorenzo Fertitta intentó rescatar a la compañía organizando un par de eventos más en Japón, con la idea de que ocasionalmente peeladores de esta promotora se enfrentaran a luchadores de UFC, pero no hubo caso, el escándalo con los Yakuza era tan grande que la imagen de la compañía había quedado bastante manchada a los ojos de los japones. Debido a esto, la empresa terminó siendo absorbida en su totalidad por UFC, y no pudimos ver otro evento organizado por la que quizás sea, la mayor promotora de MMA de la historia. En su honor, comparto la mejor pelea que pude ver de esta compañía, que la que se dió entre <b>Don Frye</b> y <b>Yoshihiro Takayama</b>.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/W3vbBQWs7yc?si=YekzSPrnx9nfs0n_" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

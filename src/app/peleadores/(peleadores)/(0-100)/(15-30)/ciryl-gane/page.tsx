@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Ciryl Gane',
@@ -42,6 +43,7 @@ export default function CirylGane () {
                     <p className={styles.peleador__article__text}>Unos meses después, el 3 de septiembre de 2022 tendría la oportunidad de recuperarse de su derrota en un evento encabezado por él en su país natal, Francia, al enfrentarse al entonces ranquedao #3 en la división, <b>Tai Tuivasa</b>. Ciryl Gane terminaría por ganar la pelea en el tercer asalto consiguiendo un KO, que le haría ganador del bono a la pelea de la noche.</p>
                     <p className={styles.peleador__article__text}>El entonces campeón Francis Ngannou, terminó por abandonar la compañía, siendo despojado del título y por tanto dejándolo vacante. Esto llevó a que se organice una pelea entre nuestro protagonista, y el excampeón de peso semipesado <Link href='/peleadores/jon-jones'>Jon Jones</Link> por el campeonato vacante de la división. Se enfrentarían el 4 de marzo de 2023 en el UFC 285, y la pelea terminaría en una victoria para Jones, quien sometería a nuestro protagonista a los 2 minutos del primer asalto.</p>
                     <p className={styles.peleador__article__text}>En septiembre de 2023, Ciryl volvería a pelear en su país, encabezando un evento ante el oriundo de Moldavia <b>Sergey Spivak</b>. El francés haría valer la localía consiguiendo vencere por TKO en el segundo asalto, y volviendo a ganar un bono a la actuación de la noche.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/0-10/ilia_peleador_2024.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Ilia Topuria Peleador del Año 2024',
@@ -40,6 +41,7 @@ export default function IliaPeleadorDel2024 () {
                     <p>El brasileño también supo aprovechar este año al máximo, convirtiéndose en uno de los favoritos de los fans. Concretando 3 defensas de su título, desde que lo supo conseguir el año pasado ante <Link href='/peleadores/jiri-prochazka'>Jiri Prochazka</Link>, completando defensas ante <b>Jamahal Hill</b> en el <Link href='/covertura-ufc/ufc300-main-event'>UFC 300</Link>, contra el mencionado <b>Jiri Prochazka</b> en el <Link href='/covertura-ufc/ufc303'>UFC 303</Link>, y contra <Link href='/noticias/khalil-rountree'>Khalil Rountree</Link> en el <Link href='/covertura-ufc/ufc307'>UFC 307</Link>, consiguiendo en todas estas peleas, en las que practicamente no tuvo tiempo de preparse con mucho tiempo de anticipación, victorias por KOs espectaculares. </p>
                     <p>No me parece necesario demeritar lo que hizo Alex Pereira para saber apreciar la locura de Ilia, la actividad que tuvo el campeón brasileño es algo que esta fuera de este mundo, y es algo que terminó por salvarle varias carteleras a la UFC que de otra manera hubieran pasado desapercibidas. Pero lo de Ilia Topuria no tiene ningún sentido. A cualquier fan si el año pasado le afirmabas que este luchador georgiano iba no sólo a vencer, sino que a noquear a los 2 mejores peso plumas de la historia (junto a <Link href='/leyendas/jose-aldo'>Aldo</Link>), uno tras otro, no lo hubieran creído, porque justamente era inpensado, hasta que fue Ilia y lo hizo. </p>
                     <p>Por eso, no sólo por lo conseguido, sino por la forma en que lo consiguió, y ante a quien lo consiguió, nos parece que Ilia Topuria es sin dudas el peleador del año. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

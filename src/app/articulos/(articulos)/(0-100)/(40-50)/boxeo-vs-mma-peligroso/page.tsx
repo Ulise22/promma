@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/40-50/box_vs_mma_danger.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Boxeo vs MMA: ¿Cuál Es Más Peligroso?',
@@ -34,6 +35,7 @@ export default function BoxeoVSMMAPeligroso () {
                     <p>Esto es sólo teniendo en cuenta el daño que se puede sufrir durante una pelea, pero a esto habría que sumarle el daño sufrido durante los entrenamientos, por ejemplo cuando se hace sparring. Dado que de nuevo, por la naturaleza del deporte, los boxeadores son mayormente vícitimas de sufrir golpes a la cabeza que pueden terminar dañandoles el cerebro. De hecho, en las MMA existen peleadores que han llegado lejos a sus carreras y que ni siquiera hacen sparring, como es el caso de <Link href='/peleadores/max-holloway'>Max Holloway</Link>, quien es el actual campeón del BMF en la <Link href='/articulos/ufc'>UFC</Link> y quien supo ser campeón de la división de peso pluma. Max afirma que aunque cree que en el principio de su carrera fue muy importante hacer sparring antes de sus peleas, a esta altura, con el nivel que ya ha ganado, sólo le serviría para provocarse un daño innecesario.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/yF8ZecTVM_E?si=dhHnNUW8BHchmYe_&amp;start=332" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>En conclusión, aunque está demostrado que son más frecuentes las lesiones sufridas por los luchadores de MMA, las lesiones que sufren los boxeadores, al estar concentrado todo el daño que reciben en la cabeza y por tanto afectan al cerebro, tienden a ser más graves.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

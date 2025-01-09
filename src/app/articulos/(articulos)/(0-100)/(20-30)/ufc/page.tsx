@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/20-30/ufc.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'UFC',
@@ -36,6 +37,7 @@ export default function UFC () {
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/ub5gm00KNZk?si=7YfEKpsblGfn9t-p" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>Fue por esta razón que los dueños de UFC comenzaron a considerar seriamente vender la compañía. Esta información se comenzó a esparcir como un rumor que llegó a los oídos de un joven <b>Dana White</b>, que en aquel momento trabajaba como representante de algunos peleadores de la compañía, y que a esta altura ya tenía contactos que le habían habilitado esta información. </p>
                     <p>Dana White todavía no contaba con el capital necesario para afrontar una compra de una empresa por sí solo, por lo que convenció a sus amigos empresarios, los hermanos Fertitta, <b>Lorenzo y Frank Fertitta</b>, de que confiaran en él para dirigir la compañía y se hicieran cargo de la compra. Sin duda fue un acierto por parte de estos empresarios el confiar en Dana, puesto que la compra se terminó oficializando en 2 Millones de dolares, contando hoy, según publico Forbes en abril de 2024, con un valor de 11.300 millones de dólares, siendo por lejos la compañía de deportes de combate mejor valuada.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

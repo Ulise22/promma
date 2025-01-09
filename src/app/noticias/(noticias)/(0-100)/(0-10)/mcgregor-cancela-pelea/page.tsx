@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/peleadores__images/0-100/0-10/conor-mcgregor/mcgregor-card.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export default function McGregorCancelaPelea () {
     return(
@@ -23,6 +24,7 @@ export default function McGregorCancelaPelea () {
                     <h2>McGregor Sparring</h2>
                     <p>Sin embargo, el día de hoy Conor ha sorprendido a más de uno subiendo un total de 10 videos a su cuenta de Instagram haciendo sparring, como queriendo apagar los rumores con esto. Lo cierto es que no sabemos de cuándo son estos vídeos, dado que son un total de 10 grabados en diferentes locaciones y en diferentes momentos, pero se entiendo que Conor quiere dar a entender que son recientes, por lo que pese a que en sí no sabemos que va a suceder con la pelea programada para el 29 de junio, esta publicación de Conor realizada en su cuenta de Instagram, dan motivos para ilusionarse con que el combate se terminará dando.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/j6MNPXgJaMY?si=OE7bPvLdCYZLRHAV" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

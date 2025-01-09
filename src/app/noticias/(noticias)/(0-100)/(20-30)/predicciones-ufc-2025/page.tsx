@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/20-30/campeones_ufc2025.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Predicciones de UFC 2025',
@@ -53,6 +54,7 @@ export default function PrediccionesUFC2025 () {
                     <p>Por último, creo que el nuevo campeón de peso pesado será el actual campeón interino <Link href='/peleadores/tom-aspinall'>Tom Aspinall</Link>.</p>
                     <p>Tanto Dana White, como el mismo Tom Aspinall, afirmaron que en el 2025 se va a hacer la pelea para unificar el cinturón de peso pesado con <Link href='/peleadores/jon-jones'>Jon Jones</Link>. Por lo que yo veo 2 posibilidades: o Jon Jones se niega a pelear contra Aspinall y se retira dejando vacante el cinturón, que trae como resultado que Tom sea el campeón, o finalmente acepta pelear y termina perdiendo, dando como resultado que Tom sea el campeón.</p>
                     <p>Pese a que considero a Jon Jones como el mejor de toda la historia, me parece que en peso pesado quien tiene las de ganar es el inglés, y esta es una de esas situaciones en las que, si Tom Aspinall no gana, entonces nadie le puede ganar Jones. El peleador inglés cuenta con la ventaja de que es rápido, es más joven, es más grande, y es uno de los luchadores con menos tiempo dentro del octágono, debido a lo rápido que finaliza a sus rivales. Es bueno en striking, es bueno en el piso, es un luchador super completo por cualquier vía puede terminar finalizando a quien seguramente es el GOAT del deporte. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

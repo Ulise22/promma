@@ -6,6 +6,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Valentina Shevchenko',
@@ -59,6 +60,7 @@ export default function Valentina () {
                     <p className={styles.peleador__article__text}>Debido a lo polémico que le pareció el empate a muchos fanáticos, incluidos la misma Valentina que se vió ganadora de la pelea, y que afirmaba que el estar peleando el día de la independencia de México ante una mexicana, influyo en la decisión de los jueces (como cuenta esta nota de <a target='_Blank' href='https://www.infobae.com/mexico/2023/09/18/valentina-shevchenko-relaciona-la-victoria-de-alexa-grasso-con-la-celebracion-del-dia-de-la-independencia/'>Infobae</a>), es que se programó una tercer pelea entre ambas, convirtiéndose la rivalidad entre Alexa Grasso y Valentina Shevchenko, la primera en llegar a una trilogía en la historia de las MMA femeninas en la UFC. </p>
                     <p className={styles.peleador__article__text}>La tercer pelea entre estas luchadoras se daría el 14 de septiembre de 2024 (nuevamente con una proximidad a la fecha festiva de México), en el <Link href='/covertura-ufc/ufc306'>UFC 306</Link>, que contaba con la peculiaridad de ser organizado en <b>La Esfera en Las Vegas</b>. Aquella noche, Valentina se encargaría de dar vuelta la historia, recuperando el cinturón que tantos años le perteneció, al derrotar por decisión unánime a su rival, en lo que fue una actuación muy dominante de su parte, que no dejaban dudas sobre la ganadora del encuentro.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/vWRif1_1My8?si=WxUoHbX5iAGNelvW" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideFighter />
             </section>

@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc301-preview.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export default function UFC301 () {
     return(
@@ -25,6 +26,7 @@ export default function UFC301 () {
                     <p>A tal grado fue la dominación por parte de la leyenda brasileña, que entre los jueces no hubo ningún tipo de duda, otorgándole todos una puntuación de 30-27 a José Aldo, siendo el claro ganador no sólo de la pelea, sino que de los 3 asaltos que duró esta. </p>
                     <h2>¡Alexandre Pantoja retiene su título por decisión unánime!</h2>
                     <p>En una pelea donde parecía que se le estaba por complicar al campeón, este fue capaz de terminar mostrando su mejor cara en el combate, logrando defender por segunda vez su título obtenido en aquella victoria contra <b>Brandon Moreno</b>, manteniendo el cinturón por decisión unánime al retador australiano ranqueado en la posición #10 de la división.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

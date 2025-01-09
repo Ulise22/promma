@@ -4,6 +4,7 @@ import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import CormierHero from './CormierHero'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Daniel Cormier',
@@ -40,6 +41,7 @@ export default function Cormier () {
                     <iframe className={styles.leyenda__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/nDSExJhv7XE?si=uRez74WpXYh1Rsty" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.leyenda__article__text}>Luego de una defensa más contra <b>Volkan Oezdemir</b>, a quien derrotaría por TKO en el segundo asalto, DC decidiría subir de división en busca de ser doble campeón. Peleando contra <b>Stipe Miocic</b>, a quien vencería por KO en el primer asalto, ganando además el premio a la actuación de la noche. Luego de una defensa exitosa contra <b>Derrick Lewis</b> a quien sometería en el segundo asalto, se volvería a enfrentar a Stipe Miocic. En esta ocasión, Miocic se llevaría el combate por TKO en el cuarto asalto.</p>
                     <p className={styles.leyenda__article__text}>El conflicto por el cinturón de Peso Pesado se resolvería en una trilogía otra vez entre los 2 un año después. Se enfrentarían nuevamente el 15 de agosto de 2020 en UFC 252, terminando el combate nuevamente en una victoria para Stipe Miocic que luego de 5 asaltos se llevaría la pelea por decisión unánime. Luego de aquel combate, Daniel Cormier se retiraría de las artes marciales mixtas, dejando atrás un legado inmenso tanto en la UFC, como en las artes marciales mixtas.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

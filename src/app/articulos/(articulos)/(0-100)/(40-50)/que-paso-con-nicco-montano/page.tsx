@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/40-50/nicco_montano.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Nicco Montaño',
@@ -36,6 +37,7 @@ export default function ZabitMagomedsharipov () {
                     <p>Ver como se darrolló todo este caso en el 2024 se siente bastante extraño. Porque es fácil de entender que la compañía quiera que las divisiones estén activas y que no se pase mucho tiempo sin que el campeón defienda su título, dado que es lo mismo que queremos los fanáticos. Pero también es fácil notar que se tiene un nivel de paciencia diferente dependiendo del peleador, porque existen muchísimos casos (actuales incluso), en donde el campeón de cierta división no defiende el título, y aún cuando pasa más de un año, su cinturón no se le es arrebatado.</p>
                     <p>Como ejemplos están el caso de <Link href='/peleadores/jon-jones'>Jon Jones</Link> en los pesos pesados, quien desde que ganó el cinturón ante <Link href='/peleadores/ciryl-gane'>Ciryl Gane</Link> en marzo de 2023 que no defiende su título, llevando más de 600 días sin defender. Este caso en partícular dejó tan estancada a la división, que incluso el campeón interino <Link href='/peleadores/tom-aspinall'>Tom Aspinall</Link> terminó por defender su cinturón antes que Jones. Yendo a las divisiones femeninas, la china <Link href='/mujeres/zhang-weili'>Zhang Weili</Link> es una campeona muy inactiva, habiendo defendido su cinturón sólo 1 vez en 2023, y sólo 1 vez en 2024, sin ninguna novedad ni noticias que nos hagan pensar que volvera pelear en este último tramo del año. O, irónicamente, quien hoy en día es campeona de la división de peso mosca femenino, <Link href='/mujeres/alexa-grasso'>Alexa Grasso</Link>, no defiende su cinturón desde septiembre del año pasado, es decir hace 12 meses.</p>
                     <p>El caso es que luego de esto, la carrera de Nicco Montaño fue en picada, teniendo que subir de categoría para sufrir menos durante los cortes de peso, a la categoría de peso gallo. Allí, sólo consiguió un combate ante <b>Julianna Peña</b>, contra quien cayó derrotada por decisión unánime. Esta sería su última pelea profesional, dado que luego se la programarían varias peleas en varias ocasiones con diferentes rivales, pero siempre, por alguna razón u otra (principalmente por sufrir a la hora de bajar de peso) terminarían por cancelarse. Debido a esto, la UFC daría de baja su contrato en agosto de 2021, y Nicco no volvería a subirse a un octágono desde entonces, quedando con un récord de 4-3 en su carrera, pero siendo recordada en los libros de historia de las MMA, como la primer campeona de peso mosca de la UFC.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

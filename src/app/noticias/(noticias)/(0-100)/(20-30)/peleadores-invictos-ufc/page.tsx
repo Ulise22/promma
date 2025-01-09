@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/20-30/invictos_ufc_2025.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Peleadores Invictos de UFC en 2025',
@@ -112,6 +113,7 @@ export default function PeleadoresInvictosUFC2025 () {
                     <p>Después existen otros peleadores que quizás puedan mantener el invicto durante el año, pero ya es más díficil saber, ya sea porque todavía no vimos lo suficiente de dichos peleadores para saber donde está su techo, o ya sea porque las peleas más difíciles de su carrera son las que están por venir. </p>
                     <h2>Peso Pluma: La División con Más Invictos de UFC</h2>
                     <p>La división entre todas que más ha destacado, es la de peso pluma, que cuenta con la mayor cantidad de invictos entre sus filas, con 3, incluyendo al campeón de la misma, <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link>. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

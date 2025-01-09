@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/10-20/khalil.webp'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Khalil Rountree',
@@ -33,6 +34,7 @@ export default function KhalilRountree () {
                     <p>Su historia se haría especialmente conocida luego de una conferencia de prensa posterior a su pelea con <b>Karl Roberson</b>, en la que venció por nocaut y ganó el bono a la actuación de la noche, donde estando hasta emocionado, contaría mucho de lo que tuvo que pasar y de lo que aún debe enfrentar. Afirmando que aún tiene que luchar con ese chico de 300lbs que fue para ponerse a entrenar todos los días. Khalil Rountree afirma que desea que su historia, y que él pueda servir de inspiración y motivación para ayudar a las demás personas a salir de las situaciones complicadas en las que puedan estar y prosperar. Ante una pregunta hecha por un periodista dijo: <b>&quot;Moriría feliz en mi tumba si nunca toco un cinturón de campeón, pero sabiendo que toqué la vida de 2 mil personas, de 1 millón de personas [...] Preferiría haber ayudado a la gente, y ayudarlas a ser mejor que ser campeón&quot;</b>.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/N4-xuQRt9pk?si=R0iSmCxQIJ5YXTvd" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>Actualmente Khalil posee un récord profesional de 13-5 (1), y lleva una racha de 5 victorias consecutivas, siendo su última victoria ante el estadounidense <b>Anthony Smith</b>, a quien logró darle un impresionante KO, que le hizo merecer el bono a la actuación de la noche. Ahora, luego de que se cancelara su pelea ante <b>Jamahall Jill</b> por una suspención, a Khalil se le dió la chance de disputarle el cinturón de campeón al brasileño <Link href='/peleadores/alex-pereira'>Alex Pereira</Link>, en octubre de este año. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

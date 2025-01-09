@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/30-40/division_goats.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'GOATS de Cada División de la UFC',
@@ -54,6 +55,7 @@ export default function PeleadorMasSucioUFC () {
                     <h2>Stipe Miocic: El Mejor Peso Pesado de la Historia de UFC</h2>
                     <p>Con 4 defensas del título y 6 victorias por el campeonato, <b>Stipe Miocic</b> es considerado por muchos el mejor de la historia de los pesos pesados, habiendo defendido ante peleadores complicadísimos como <Link href='/peleadores/francis-ngannou'>Francis Ngannou</Link>, <b>Alistair Overeem</b>, o el mismo <b>Daniel Cormier</b>, acumulando un sin fín de victorias por nocaut, Stipe se gana el merecido reconocimiento como el mejor peso pesado de la historia.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/Jm4Qdx-RhJE?si=-AJRQ8oC-_jHDZqF" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

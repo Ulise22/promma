@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/noticias/0-100/0-10/dwt2.jpeg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Dogfight Wild Tournament 2',
@@ -55,6 +56,7 @@ export default function DWT2 () {
                     <p>En el evento estelar que nos trajó a Eduardo Riego contra 3 peleadores, vimos una de las mayores locuras de la historia de las MMA. A puro corazón y Jiu-Jitsu, Eduardo emocionó a todo el público presente y virtual al lograr lo que parecía imposible, vencer a 3 peleadores contra los que peleaba simultaneamente, sometiendo a los 3.</p>
                     <p>La noche y el evento terminan de esta manera por todo lo alto, pese a que era el deseo de muchos que este sea el final, muy pocos hubieran apostado su dinero a que esto acabaría de esta forma, sin embargo, logrando sobrevivir el primer asalto, Eduardo demostró que es un crack y que todo es posible.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/6eD8lXTb0Xs?si=1398kzdc0jIkvwkD" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

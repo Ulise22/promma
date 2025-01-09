@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 /* Images */
 import hero from '@/assets/noticias/0-100/0-10/kai_asakura.jpg'
 import Image from 'next/image'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: '¿Quién es Kai Asakura?',
@@ -41,6 +42,7 @@ export default function ProximosRivalesTopuria () {
                     <h2>Kai Asakura Debut en UFC</h2>
                     <p>Como mencionamos anteriormente, el luchador japonés va a ser uno de esos raros casos en los que un luchador va a pelear por el cinturón de la compañía en su debut en la empresa. Esto se hará el día sábado 7 de diciembre de 2024 en el UFC 310, ante el campeón de peso mosca brasileño <Link href='/peleadores/alexandre-pantoja'>Alexandre Pantoja</Link>, que viene de defender su cinturón en el <Link href='/covertura-ufc/ufc301'>UFC 301</Link> en Brasil, donde consiguió llevarse la victoria por decisión unánime ante el australiano <b>Steve Erceg</b>, concretando la segunda defensa exitosa de su cinturón. </p>
                     <p>Son muchas las expectativas puestas en este peleador, que cuenta con el potencial para ser una estrella, para ponerle emoción y para mover la división de 125lbs masculina. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

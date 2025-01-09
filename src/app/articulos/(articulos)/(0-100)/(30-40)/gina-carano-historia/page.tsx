@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/30-40/gina_carano.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Gina Carano: La Primera Estrella Femenina de las MMA',
@@ -50,6 +51,7 @@ export default function GinaCaranoHistoria () {
                     <p>Lamentablemente para Gina, en el año 2021, producto de sus declaraciones y expresiones políticas en redes sociales sería despedida de Disney. Más allá de las muchas declaraciones que había tenido en el pasado, la publicación por la que terminó siendo despedida era la siguiente: </p>
                     <p>&quot;<b>Como la historia se altera, la mayoría de la gente no se da cuenta de que para llegar al punto en que los soldados nazis pudieran arrestar fácilmente a miles de judíos, el gobierno provocó antes que sus propios vecinos los odiaran simplemente por ser judíos. ¿En qué se diferencia eso de odiar a alguien por sus opiniones políticas?</b>&quot;</p>
                     <p>Actualmente la actriz, modelo y exluchadora de MMA se encuentra en una demanda contra Disney y Lucasfilm por discriminación y despido improcedente. Dicha demanda recibió el apoyo del empresario <b>Elon Musk</b> que se encargó de financiar esta misma.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Israel Adesanya',
@@ -56,6 +57,7 @@ export default function Prochazka () {
                     <p className={styles.peleador__article__text}>Debido a esto, se buscó a un reemplazo de último momento, y quien terminó aceptando pelear fue <Link href='/peleadores/sean-strickland'>Sean Strickland</Link>, quien en ese momento estaba ranqueado #5 y que había peleado hacía un mes para cuando le avisaron que tenía que pelear de nuevo. Para sorpresa de todos, el retador lograría dominar de principio a fin a un campeón que durante años parecía invencible, teniendo como resultado que luego de los 5 asaltos que duró el combate, Sean Strickland ganara por decisión unánime convirtiéndose en el neuvo campeón.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/m3jNtOxIyDA?si=WBS-rrUAHLe61REL" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Pese a la derrota, menos de un año después, el día 18 de agosto de 2024 en el <Link href='/covertura-ufc/ufc305'>UFC 305</Link> organizado nuevamente en Australia, se lo programaría para volver a pelear por el título de la división de peso medio de la UFC, esta vez, ante el nuevo campeón <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link>. Pero lamentablemente para nuestro protagonista, en lo que estaba siendo una buena pelea para Adesanya, terminó por caer derrotado al ser sometido en el cuarto asalto de la pelea por el sudafricano. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

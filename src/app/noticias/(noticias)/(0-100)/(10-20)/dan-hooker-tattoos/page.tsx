@@ -7,6 +7,7 @@ import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/10-20/dan_hooker_tattoos.jpg'
 import legsTattoos from '@/assets/noticias/insideArticle/dan_hooker_tattoos/hooker_leg_tattoo.jpeg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Dan Hooker Tattoos',
@@ -36,6 +37,7 @@ export default function DanHookerTattoos () {
                     <Image className={styles.article__image} src={legsTattoos} alt='' />
                     <p>A Hooker le parecía que se veía estúpido tener tatuada sólo una de sus piernas, por lo que decidió tatuarse la otra también. Esto es algo parecidio a lo que le sucedió con sus brazos, dado que en un inicio sólo se tatuó uno, pero vió necesario tatuarse el otro también por la misma razón. De esta forma pasó de no tener ningún tatuaje en su cuerpo a ir llenándose de estos en muy poco tiempo.</p>
                     <p>Para quien tenga curiosidad de saber cómo le fue en su carrera deportiva desde que comenzó a tatuar su cuerpo, sólo ha tenido una pelea y fue la que tuvo lugar en el <b>UFC 290</b> ante el estadounidense <b>Jalín Turner</b>, obteniendo una victoria por decisión dividida. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

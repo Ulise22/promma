@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/0-10/shara_bullet_feb_2025.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Shara Magomedov Pelea Febrero 2025',
@@ -44,6 +45,7 @@ export default function SharaBulletPeleaFebrero2025 () {
                     <h3>Conclusión</h3>
                     <p>En resumen, creo que van a hacer pelear a Shara en febrero. Dudo que sea para enfrentar a Israel Adesanya, aunque quien sabe. Y me parece que los rivales más probables son Paulo Costa o Michael Venom Page, quienes cuentan con una trayectoria mayor a la Magomedov, pero que vienen de una derrota, por lo que necesitan pelear con un prospecto como Shara para recuperar el estatus que poseían. </p>
                     <p>Seguramente también haya nombres que se me estén pasando, pero creo que estos son los más relevantes. Además de que dudo que a esta altura emparejen al daguestaní con algún peleador por fuera de los rankings. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

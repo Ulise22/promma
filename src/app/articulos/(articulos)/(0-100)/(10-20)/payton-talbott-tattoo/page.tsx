@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/0-100/10-20/payton_talbott_tattoo.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Payton Talbott Tattoo',
@@ -31,6 +32,7 @@ export default function PaytonTalbottTattoo () {
                     <h2>Payton Talbott Tattoo Significado</h2>
                     <p>Pero este no es el único tatuaje que posee un cuerpo, dado que en el lateral izquierdo de su torzo posee un tattoo que está muy relacionado con la cultura japonesa. Dado que tiene tatuado una <b>Mascara Hannya</b>, que es una máscara utilizada en el teatro japonés, con un diseño reconocible caracterizado por poseer 2 cuernos afilados como los de un toro, ojos metálicos y una boca lasciva.</p>
                     <p>Esta mascara representa a un demonio celoso, retratando las almas de las mujeres que se han convertido en demonios debido a la obsesión o a los celos. Aunque también, más allá de representar los espíritus de las mujeres celosas en la cultura tradicional japonesa, también son vistos como un símbolo de buena suerte y como un talisman contra la negatividad y los espiritus malignos. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

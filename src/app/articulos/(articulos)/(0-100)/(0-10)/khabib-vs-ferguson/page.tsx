@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/0-100/0-10/khabibVferguson.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Khabib vs Ferguson',
@@ -45,6 +46,7 @@ export default function KhabibVsFerguson () {
                     <p>Por su parte, Khabib después se enfrentaría a Gaethje para unificar el título, derrotandolo por sumisión en el segundo asalto y retirandose en esa misma pelea. Dado que durante el la pandemia, había perdido a su padre y sin él no quería seguir peleando.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/dGWDT3iyrdw?si=B-KinrIPLEi9kXBJ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>Es por esto que parece que finalmente nunca veremos pelear al &quot;Cucuy&quot; contra Khabib, tanto por la retirada de las MMA del ruso, como por la racha negativa en la que entró Tony Ferguson, que hace muy difícil verlos enfrentarse en un octagono al mayor nivel de competición.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

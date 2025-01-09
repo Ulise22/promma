@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Arman Tsarukyan',
@@ -43,6 +44,7 @@ export default function Tsarukyan () {
                     <p className={styles.peleador__article__text}>Se programaría a Tsarukyan para encabezar un evento de UFC Fight Night ante el estadounidense <b>Beneil Dariush</b>, a quien enfrentaría el 2 diciembre de ese mismo año. Aquella noche, Arman conseguiría destacar con una victoria impresionante, en la que dejaría KO a su rival en el primer asalto de la pelea, ganando una vez más el bono a la Actuación de la Noche. </p>
                     <p className={styles.peleador__article__text}>Es entonces que llegaría la que quizás sea la pelea más importante de su carrera hasta ese momento, cuando sería participe de la cartelera estelar del <Link href='/covertura-ufc/ufc300-main-event'>UFC 300</Link> para enfrentar al excampeón de la división <Link href='/peleadores/charles-oliveira'>Charles Oliveira</Link>, en lo que la UFC anunció como una eliminatoria titular, por lo que de ganar podría enfrentar en una revancha al ahora campeón <Link href='/peleadores/islam-makachev'>Islam Makhachev</Link>. Aquella noche del 13 de abril de 2024, Arman sería capaz de derrotar al brasileño en lo que fue una pelea bastante cerrada, logrando llevarse la pelea por decisión dividida. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/EBbKU3F7SoA?si=CHtAGC8nhFBbo6e3" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/0-100/10-20/most_pro_fights.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Travis Fulton',
@@ -37,6 +38,7 @@ export default function MasPeleasProfesionales () {
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/G-5UotiLwc8?si=HE6Mfr4fP_S6FKs_" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>Su historia daría un giro bastante turbio luego de haberse retirado, dado que en febrero de 2021, Travis Fulton fue encarcelado, luego de ser acusado y condenado por poseer material inapropiado de menores de 18 años, además de otros delitos. Todo esto cuando aún tenía pendiente un juicio por violencia doméstica.</p>
                     <p>Fulton, fue encontrado sin vida a sus 44 años en su celda un día después de declararse culpable de los cargos en su contra. La prisión en donde estaba encerrado, habría detallado lo siguiente en un comunicado: <b>&quot;Mientras realizaba una revisión de celda de rutina, el personal del Centro Correccional del Condado de Linn encontró a un recluso en su celda que no respondía. Se cree que el recluso, un hombre blanco de mediana edad, se habría ahorcado&quot;. &quot;El personal del Correccional del Condado de Linn inmediatamente comenzó a tomar medidas urgentes para salvar vidas, incluido el RCP. La ambulancia llegó en minutos y le brindó atención médica avanzada antes de trasladarlo al Mercy Medical Center, donde fue declarado fallecido a las 5 de la mañana. Por razones de seguridad, no se dará a conocer el método exacto del presunto ahorcamiento. Esta es una investigación en curso y el médico forense estatal realizará una autopsia&quot;</b>.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

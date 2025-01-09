@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/covertura_ufc/fight_night/0-100/0-15/moicano_vs_saintdenis.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Moicano vs Saint Denis',
@@ -38,6 +39,7 @@ export default function MoicanoSaintDenis () {
                     <h2>Renato Moicano Gana a Benoit Saint Denis Por Parada Médica</h2>
                     <p>El brasileño logra imponerse de visitante al francés, luego de un primer asalto en el que dominó de principio a fin a su rival, terminó por ocasionarle un corte en el ojo derecho de Saint Denis que le terminó por pasar factura. </p>
                     <p>El francés pudo continuar un asalto más, pero una vez finalizado el segundo asalto, al ser revisado por el médico de la UFC, este decidió que el peleador no se encontraba en condiciones óptimas para seguir luchando, por lo que la pelea se la terminó llevando el brasileño <b>Renato Moicano</b>. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

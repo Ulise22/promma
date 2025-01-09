@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Umar Nurmagomedov',
@@ -40,6 +41,7 @@ export default function UmarNurmagomedov () {
                     <p className={styles.peleador__article__text}>Por suerte para nuestro protagonista, en su siguiente combate pasaría de enfrentar a un debutante, a encabezar su primer evento en el <Link href='/covertura-ufc/fight-night-sandhagen-nurmagomedov'>UFC on ABC: Sandhagen vs. Nurmagomedov</Link> el día 3 de agosto de 2024, enfrentando al #2 de la división <b>Cory Sandhagen</b> en lo que sería una eliminatoria títular, teniendo al ganador de este combate enfrentándose en un futuro ante quien resulte ganador de la pelea entre <Link href='/peleadores/sean-omalley'>Sean O&apos;malley</Link> y <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link>.</p>
                     <p className={styles.peleador__article__text}>Aquel combate se extendería hasta los 5 asaltos, teniendo a un Umar al que se lo vió sufrir por primera vez, pero que sin embargo no tuvo problemas para dominar el combate, logrando llevarse una merecida victoria por decisión unánime.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/PPGst_a2UfU?si=YzMf2I8izYLNr6LP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

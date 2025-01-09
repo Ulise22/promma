@@ -7,6 +7,7 @@ import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Franco Tenaglia',
@@ -42,6 +43,7 @@ export default function Tenaglia () {
                     <p className={styles.peleador__article__text}>Franco Tenaglia peleó en el polémico evento de <b>King Of The Streets</b>, quienes en su canal de Youtube tienen más de un millón de seguidores, y que en el video de su pelea acumula también más de un millón de reproducciones. &quot;Son eventos cerrados, de poco público. Va gente de mucho dinero que se emborracha, toma merca y empieza a apostar. Se pelean como perros de batalla. Hice un par de peleas y los chechenos se enamoraron de mí&quot;, contó.</p>
                     <p className={styles.peleador__article__text}>Aquellos combates suelen hacerse en la marginalidad, a los peleadores se los suele llevar al lugar del combate con los ojos vendados y entre otros países se suelen organizar en Polonia, Suecia y Hungría. Franco contó: &quot;Uno de los lugares al que fui era un garaje en el medio de las montañas y había hasta nieve. Los tipos están armados con AK-47, no es ninguna joda. Están todos con máscaras y no es por show. Si se pelean hooligans o barrabravas de la mafia de Polonia contra los de Serbia, si se arma un quilombo en el evento se pueden disparar y apuñalar. Son todos tipos re locos. Entonces, tenés que tener gente que organiza que sea potente. Hay gente que terminaba muy mal. Yo peleé en piso de concreto. Las rejas del octágono son de metal. Podés morder al tipo, meterle los dedos en los ojos: es lo más violento de lo más violento&quot;</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/vRIiHYKgZQY?si=4DrQq-D0TlnnJpYW" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

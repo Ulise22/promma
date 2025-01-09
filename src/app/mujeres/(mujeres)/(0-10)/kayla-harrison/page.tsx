@@ -5,6 +5,7 @@ import Link from 'next/link'
 import harrison from '@/assets/peleadores__images/mujeres/0-10/kayla-harrison/kayla_harrison.png'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Kayla Harrison',
@@ -42,6 +43,7 @@ export default function Harrison () {
                     <p className={styles.peleador__article__text}>Luego de aquel combate, Kayla volvería a pelear en la UFC unos pocos meses después, para enfrentar a la #2 de la división de peso gallo <b>Ketlen Vieira</b> en el <Link href='/covertura-ufc/ufc307'>UFC 307</Link> el 5 de octubre de 2024. La pelea terminaría en una victoria por decisión unánime a favor de nuestra protagonista, que durante los 3 asaltos que duró el combate se mostró muy dominante, imponiéndose por sobre una muy difícil rival que pudo meter en aprietos a Harrison, quien reconoció que la brasileña Vieira fue la primera en hacerla sangrar durante una pelea. </p>
                     <p className={styles.peleador__article__text}>Esta victoria pondría a Kayla Harrison en una posición muy ventajosa para pedir pelear por el título de la división, que parece ser la siguiente pelea más lógica para ella. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/7nYlLR7P6MM?si=4_mTaVzeR3lUROeF" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideFighter />
             </section>

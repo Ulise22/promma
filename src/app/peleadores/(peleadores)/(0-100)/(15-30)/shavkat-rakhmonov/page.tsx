@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Shavkat Rakhmonov',
@@ -40,6 +41,7 @@ export default function Rakhmonov () {
                     <p className={styles.peleador__article__text}>Rakhmonov volvería a pelear en febrero de 2023 en el <b>UFC 285</b> (encabezado por <Link href='/peleadores/jon-jones'>Jon Jones</Link> y <Link href='/peleadores/ciryl-gane'>Ciryl Gane</Link>), enfrentado al estadounidense <b>Geoff Neal</b> en una pelea a peso pactado (175lbs) debido a que su rival no pudo dar el peso. Shavkat terminaría por ganar el combate con una sumisión en el tercer asalto de la pelea, ganando otro bono, esta vez a la pelea de la noche.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/4NE-sNPxT9I?si=DeQHvmKrReTmChla" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>La pelea más reciente de Rakhmonov sería en diciembre de 2023 en el UFC 296, evento que tuvo como pelea estelar una disputa del título de peso wélter justamente, entre <Link href='/peleadores/leon-edwards'>Leon Edwards</Link> y <Link href='/peleadores/colby-covington'>Colby Covington</Link>. Rakhmonov se enfrentaría a <b>Stephen Thompson</b>, a quien sometería en el segundo asalto, obteniendo la victoria número 18 de su carrera, donde siempre ganó finalizando a sus oponentes. Con esta victoria se posicionó como uno de los principales contendientes al título de las 170lbs.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/30-40/jorge_masvidal.png'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Jorge Masvidal Biografía',
@@ -51,6 +52,7 @@ export default function JorgeMasvidalHistoria () {
                     <p>Luego de la pelea ante Colby Covinton, Masvidal sería programado para pelear ante el brasileño <b>Gilbert Burns</b> el 8 de abril de 2023 en el UFC 287, encabezado por <Link href='/peleadores/israel-adesanya'>Israel Adesanya</Link> y <Link href='/peleadores/alex-pereira'>Alex Pereira</Link>. Antes del combate ya se había dejado caer la posibilidad de que esta sea la pelea del retiro, especialmente si terminaba perdiendo. </p>
                     <p>La pelea finalmente se extendió a los 3 asaltos, con una clara victoria por decisión unánime para el brasileño. Al terminar la pelea, Jorge confirmaría que esta era su última pelea luego de 20 años de competir profesionalmente, agradeciendo a todos los fans allí presentes, mostrando su gratitud al afirmar que: &quot;Ahora soy un multimillonario y no tenía nada cuando comencé&quot;.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/4X4A6-HqL9Y?si=n4t_MXSDtYWEcOv5" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

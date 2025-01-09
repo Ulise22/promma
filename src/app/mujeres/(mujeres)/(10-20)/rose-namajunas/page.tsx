@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Rose Namajunas',
@@ -42,6 +43,7 @@ export default function RoseNamajunas () {
                     <p className={styles.peleador__article__text}>Rose se tomaría un año para regresar, aunque esta vez lo haría para competir en la división de Peso Mosca, donde primeramente enfrentaría el 2 de septiembre de 2023 a la francesa <b>Manon Fiorot</b>, contra quien caería derrotada por decisión unánime. Sin embargo unos meses después volvería para encabezar el evento <b>UFC on ESPN: Ribas vs. Namajunas</b>, el 23 de marzo de 2024, donde enfrentaría a la brasileña <b>Amanda Ribas</b>, a quien luego de 5 asaltos vencería por decisión unánime.</p>
                     <p className={styles.peleador__article__text}>El 13 de junio de ese mismo año, se la programaría para encabezar una cartelera en la que enfrentaría a la estadounidense <b>Maycee Barber</b>, pero esta pelea no se terminaría dando, dado que su rival se daría de baja de dicho combate por razones que no fueron reveladas. En su lugar se enfrentaría a la luchadora americana <b>Tracy Cortez</b>, a quien luego de 5 asaltos sería capaz de derrotar por decisión unánime. </p>
                     <p className={styles.peleador__article__text}>El 2 de noviembre de ese mismo 2024 se enfrentaría a su compatriota <b>Erin Blanchfield</b>, en una pelea a 5 asaltos en el evento coestelar de UFC organizado en Canadá. Lamentablemente para nuestra protagonista, en lo que sería la tercer pelea del año, caería derrotada por decisión unánime ante su rival, a pesar de haber ganado 2 de los 5 asaltos a los ojos de los jueces. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

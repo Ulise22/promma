@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/0-10/peleadores_espanoles_ufc.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Luchadores Españoles en UFC 2025',
@@ -48,6 +49,7 @@ export default function PeleadoresEspanolesUFC () {
                     <p>Barnett viviría en esta zona hasta los 6 años, cuando se mudaría a los Estados Unidos, donde viviría desde entonces. </p>
                     <p>Posee un récord profesional de 23-9, siendo 18 de sus victorias por la vía del nocaut y 5 por la vía de la decisión. Hizo su debut en la UFC en mayo de 2021, cayendo derrotado por sumisión ante <b>Ben Rothwell</b>. Desde entonces pelearía 5 combates en la compañía, perdiendo 3 y ganando 2, siendo la más reciente de sus peleas la que tuvo en el <Link href='/covertura-ufc/ufc308'>UFC 308</Link> en octubre de este año, enfrentando al nigeriano <b>Kennedy Nzechukwu</b>, contra quien caería derrotado por TKO en el primer asalto. </p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/7U5-KsT6_EA?si=mEIBs2EflqxYOita" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

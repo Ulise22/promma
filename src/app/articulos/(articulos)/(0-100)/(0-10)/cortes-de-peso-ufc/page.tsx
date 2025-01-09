@@ -5,6 +5,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 /* Images */
 import hero from '@/assets/articulos/0-100/0-10/corte-peso.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Cortes de Peso UFC',
@@ -31,6 +32,7 @@ export default function CortesPeso () {
                     <p>Ilia describe esta experiencia como <b>&quot;Vivir en el infierno en la vida real&quot;</b>, producto de la dureza que esto implica para el cuerpo. Además explica que es doloroso el tener a la gente cercana sufriendo por uno, haciéndolos participes de su sufrimiento. Sin embargo también reconoce que lo que viene después <b>&quot;son momentos buenos, y no hay gloria sin dolor&quot;</b>.</p>
                     <p>Una vez terminado este proceso y de haber completado con éxito el pesaje, para recuperar fuerzas lo primero que se hace es hidratarse con cosas que te dan los médicos y nutricionistas, hasta que llega el momento en que se vuelve a orinar con normalidad, y es en este momento en el que se vuelve a introducir la alimentación poco a poco. Con este proceso, el viernes a la mañana, Ilia Topuria en este caso, estaría pesando 66 kilos, sin embargo, cuando llegue la hora de pelear el sábado pasaría a pesar 78 kilos. Es decir, de un día a otro se llega a la pelea habiendo rebotado 12 kilos.</p>
                     <p>Pese a lo díficil y sufrido que es el proceso para llegar a pesar lo que indica cada división, Ilia cuenta que el día de la pelea se llega en una forma espectacular, dado que ya le ha dado tiempo a descansar, a hacer su sesión de fisioterapia y a prepararse mentalmente para el enfrentamiento. Según sus propias palabras, cuando llega el día del combate <b>&quot;Me siento muy peligroso.[...] Es como si te tuvieran atado 3 meses y de repente te soltaran la correa&quot;</b>.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

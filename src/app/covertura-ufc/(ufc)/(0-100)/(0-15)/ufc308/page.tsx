@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc308.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'UFC 308',
@@ -51,6 +52,7 @@ export default function UFC308 () {
                     <h2>Ilia Topuria Hace Historia y Noquea a Max Holloway</h2>
                     <p>El campeón hispano <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> hace historia al convertirse en el primer luchador en noquear a <Link href='/peleadores/max-holloway'>Max Holloway</Link> en el tercer asalto de la pelea, completando de esta manera su primer defensa exitosa del título. </p>
                     <p>Tal y como lo prometió, consiguió llevarse la victoria por la vía del nocaut, siendo el primero que consigue esto ante el luchador hawaiano. Una completa locura lo conseguido por el georgiano. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

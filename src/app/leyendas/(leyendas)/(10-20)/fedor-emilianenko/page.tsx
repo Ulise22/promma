@@ -3,6 +3,7 @@ import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import EmelianenkoHero from './EmelianenkoHero'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Fedor Emelianenko',
@@ -49,6 +50,7 @@ export default function FedorEmelianenko () {
                     <p className={styles.leyenda__article__text}>Pero Fedor volvería inmediatamente a la victoria, al enfrentarse al estadounidense <b>Quinton Jackson</b>, a quien sería capaz de dejar KO en el primer asalto. Y volvería a ganar cuando enfrentó a <b>Timothy Johnson</b>, a quien también dejaría KO en el primer asalto en un evento celebrado en Moscú el 23 de octubre de 2023. Obteniendo esta última victoria además, con la edad de 45 años, siendo una absoluta bestia a pesar de edad. </p>
                     <p className={styles.leyenda__article__text}>Aparentamente por un error en la traducción de sus palabras, mucha gente creyó que luego de aquel combate Emelianenko se había retirado, pero lejos de ser así, volvería a pelear una vez más en una revancha contra <b>Ryan Bader</b>, por el título mundial de peso pesado de Bellator. Lamentablemente volvería a perder por TKO en el primer asalto, y esta vez sí de forma definitiva, se retiraría de las artes marciales mixtas, rodeado de otras leyendas que estuvieron presentes para despedir su sobresaliente carrera en el deporte. </p>
                     <iframe className={styles.leyenda_article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/JA3eAY9GtUA?si=fGrvcI5y-LBYqZ88" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

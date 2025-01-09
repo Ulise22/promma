@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/20-30/evloev_postfight.jpeg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Movsar Evloev Sobre Ganarle a Ilia Topuria',
@@ -32,6 +33,7 @@ export default function MovsarEvloevSobrePeleaConTopuria () {
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/W8t9B_j2Qc8?si=6z5hSf-6Bi3WVn7p" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <h2>Evloev sobre Ilia Topuria peleando contra Islam Makhachev</h2>
                     <p>Fue consultado por uno de los periodistas, sobre cómo vería una pelea entre el español y su compatriota campeón actual de la división de peso ligero, Islam Makhachev, concretamente sobre las declaraciones de Ilia en las que dijo que podría someterlo, a lo que Movsar declaró: &quot;No creo que respecto a Islam su wrestling sea lo suficientemente bueno, pero puede vencer a muchos peleadores de peso ligero, porque no es un peso pluma pequeño, y es lo suficientemente fuerte. Por ejemplo, cuando yo subí de la división de peso gallo a la división de peso pluma, muchos creían que no sería lo suficientemente fuerte, y ahora muchos creen que soy el más fuerte de esta división. A veces cuando subís tenés el suficiente poder, y sabemos que él carga mucho peso, por lo que puede pelear en peso ligero. Pero antes de que suba, que pelee conmigo&quot;. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

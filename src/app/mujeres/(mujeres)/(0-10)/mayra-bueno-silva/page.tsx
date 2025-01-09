@@ -6,6 +6,7 @@ import mayra from '@/assets/peleadores__images/mujeres/0-10/mayra-bueno-silva/ma
 import careo from '@/assets/peleadores__images/mujeres/0-10/mayra-bueno-silva/mayra_careo.jpg'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Mayra Bueno Silva',
@@ -44,6 +45,7 @@ export default function Mayra () {
                     <p className={styles.peleador__article__text}>De igual manera esto no impediría que el rendimiento de Silva sea bien valorado por la UFC, dado que en su siguiente combate, con fecha para el 20 de enero de 2024 en el <Link href='/covertura-ufc/ufc297'>UFC 297</Link>, se pondría a pelear por el título vacante de la división, que había quedado sin dueño luego del retiro de <Link href='/leyendas/amanda-nunes'>Amanda Nunes</Link>. Para esto, se enfrentaría a la luchadora estadounidense <Link href='/mujeres/raquel-pennington'>Raquel Pennington</Link>, contra quien lamentablemente caería derrotada luego de finalizados los 5 asaltos por decisión unánime. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/CYiyIWA4gJs?si=7JS7rHqlW2lKArZV" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>La brasileña volvería a pelear el 29 de junio de ese mismo año en el <Link href='/covertura-ufc/ufc303'>UFC 303</Link>, para enfrentar a la luchadora americana <b>Macy Chiasson</b>, contra quien lamentablemente volvería a caer derrotada por TKO, luego de que un corte en la ceja llevara a los médicos a parar la pelea en el segundo asalto del combate. </p>
+                    <EndArticle />
                 </article>
                 <AsideFighter />
             </section>

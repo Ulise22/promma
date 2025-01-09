@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/20-30/ilia_topuria_georgia.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Ilia Topuria Sube a Peso Ligero',
@@ -33,6 +34,7 @@ export default function MovsarEvloevSobrePeleaConTopuria () {
                     <p>Para sumar a esto que acabo de decir, recordemos que en su estrevista con La COPE, también mencionó querer retirarse a los 30 años, por lo que sabemos que sus intenciones no son las de ser un luchador como <Link href='/leyendas/jose-aldo'>José Aldo</Link>, con más de 5 defensas y que luego de casi 10 años de su derrota con <Link href='/peleadores/conor-mcgregor'>Conor McGregor</Link> sigue peleando. Es más, por el contrario, pareciera querer seguir los pasos de Conor en este sentido, que luego de ganar el cinturón de 145lbs, sin haber defendido, subió a las 170lbs para pelear con Nate Diaz 2 veces, y luego bajó para ganar el cinturón de 155lbs, convirtiéndose en doble campeón. </p>
                     <blockquote className={`${styles.article__twitter__quote} twitter-tweet`}><p lang="en" dir="ltr">🗣️ “I&#39;m 27… I hope to be out by 30.”<br /><br />- Ilia Topuria via <a href="https://twitter.com/partidazocope?ref_src=twsrc%5Etfw">@partidazocope</a> 🇪🇸 <a href="https://t.co/eIpsH2VMfD">pic.twitter.com/eIpsH2VMfD</a></p>&mdash; MMA Orbit (@mma_orbit) <a href="https://twitter.com/mma_orbit/status/1866271232640843840?ref_src=twsrc%5Etfw">December 9, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js"></script>
                     <p>En conclusión, es difícil saber que pensará o que hará la UFC respecto a lo planteado por <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link>, pero puede que haya algo de lógica detrás de los movimientos que se está planteando el luchador georgiano. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

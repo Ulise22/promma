@@ -7,6 +7,7 @@ import fight from '@/assets/peleadores__images/mujeres/0-10/raquel-pennington/ra
 import pennington from '@/assets/peleadores__images/mujeres/0-10/raquel-pennington/raquel_penington.jpg'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Raquel Pennington',
@@ -46,6 +47,7 @@ export default function Raquel () {
                     <p className={styles.peleador__article__text}>Finalmente, la pelea organizada en Canadá se extendería hasta los 5 asaltos, terminando con Raquel Pennigton siendo elegida como la ganadora por decisión unánime, convirtiéndose en la nueva campeona de la división de peso gallo femenino.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/CYiyIWA4gJs?si=b8YSzrAaHUIKxgU0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Se programaría la primera defensa del título de la estadounidense para el 5 de octubre de 2024 en el <Link href='/covertura-ufc/ufc307'>UFC 307</Link>, ante la excampeona y #1 del ranking, <Link href='/mujeres/julianna-pena'>Julianna Peña</Link>, quien había peleado por última vez en 2022, perdiendo ante Amanda Nunes. Finalmente el combate se extendería hasta los 5 asaltos, y cuando llegó a la decisión de los jueces, dieron como ganadaro a Julianna Peña por decisión dividida, en lo que fue una pelea cerrada que terminó con la perdida del cinturón de nuestra protagonista, y en la primera derrota en UFC desde enero de 2020. </p>
+                    <EndArticle />
                 </article>
                 <AsideFighter />
             </section>

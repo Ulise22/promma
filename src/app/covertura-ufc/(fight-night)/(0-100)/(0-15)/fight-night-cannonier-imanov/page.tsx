@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/covertura_ufc/fight_night/0-100/0-15/fightnight-cannonier-imanov-hero.png'
+import EndArticle from '@/app/components/EndArticle'
 
 export default function FightNightLewisNascimento () {
     return(
@@ -24,6 +25,7 @@ export default function FightNightLewisNascimento () {
                     <h2>¡Jared Cannonier cae por nocaut contra Nassourdine Imanov!</h2>
                     <p>Finalmente la pelea estelar terminó con un Imanov logrando la victoria por nocaut en el cuarto asalto, luego de que en una combinación de golpes el árbitro interpretara que la pelea ya estaba definida, y que no era necesario para Cannonier seguir recibiendo tanto castigo. Por ser la pelea en territorio americano, el francés sintió lo poco amistoso del público, que no estuvo contento con la decisión del árbitro, pero que sin embargo es más que entendible. Durante los 4 asaltos se vió un combate parejo, donde ambos peleadores intercambiaron varios golpes, pero donde parecía que el estadounidense estaba buscando neutralizar al francés, llevándolo contra la reja de pie para evitar recibir tanto daño.</p>
                     <p>Luego de la pelea, que sin dudas mete a Imanov en el TOP5 de la división, el francés no dudo en retar al excampeón de la división y actual contendiente #1, <Link href='/peleadores/sean-strickland'>Sean Strickland</Link> a enfrentarse en Paris.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

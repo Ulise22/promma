@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/10-20/ilia_promissko_holloway.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Ilia Topuria Promete Noquear a Holloway',
@@ -48,6 +49,7 @@ export default function IliaPrometeKOHolloway () {
                     <p>Afirma que podría haber intentado pelear en peso ligero contra <Link href='/peleadores/islam-makhachev'>Makhachev</Link> luego de su pelea con Volkanovski pero que decidió quedarse a defender su título. En caso de noquear a Holloway y recibir un llamado para pelear contra el Daguestaní no tendría problema en aceptar la pelea.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/CuN2kRgh8vs?si=oyZnM6uSDYQlgpnM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>Luego declaró: <b>&quot;Respeto a todos, respeto a O&apos;Malley, a Holloway, a Makhachev, entiendo todo lo que se necesita para entrar en ese octágono, todos los sacrificios que hay que hacer. Por lo que los respeto, pero hay niveles, siento que represento la nueva generación de las MMA, traigo un estilo de pelea que nadie tiene y nadie tuvo. Estoy mejorando el juego, soy la nueva cara del juego, y es cuestión de tiempo para que todos se den cuenta&quot;</b>.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

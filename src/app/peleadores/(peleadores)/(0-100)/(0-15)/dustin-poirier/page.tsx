@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Dustin Poirier',
@@ -62,6 +63,7 @@ export default function Poirier () {
                     <p className={styles.peleador__article__text}>Luego de aquella dolorosa derrota, debía recupera el sendero de la victoria si quería tener alguna oportunidad de volver a disputar el cinturón de la división, por lo que aceptó pelear el 9 de marzo de 2024 en el <Link href='/covertura-ufc/ufc299'>UFC 299</Link> en el evento coestelar ante quien era uno de los mayores prospecto de la división, como lo es el peleador francés <b>Benoit Saint Denis</b>, quien venía en pleno ascenso y ya llevaba acumuladas 5 victorias consecutivas. Sin embargo, Poirier hizo valer su experiencia y su calidad, logrando una increíble victoria por KO en el segundo asalto, que le haría ganar no solo la pelea, sino que también su noveno bono a La Pelea de la Noche. </p>
                     <p className={styles.peleador__article__text}>Luego de aquella increíble victoria, recibiría la última oportunidad de disputar el campeonato de la división, que se daría el 1 de junio de 2024, cuando enfrentaría al campeón <Link href='/peleadores/islam-makhachev'>Islam Makhachev</Link> en el <Link href='/covertura-ufc/ufc302'>UFC 302</Link>, en un combate donde Dustin dió todo lo que tenía para llevarse el cinturón por fin, terminó por perder la pelea en el quinto asalto por sumisión. Derrota que es especialmente dolorosa, dado que con sus 35 años, ya se ve muy difícil volver a ver al &quot;Diamante&quot; volver a disputar el cinturón. Además, luego del combate, dejó entrever que aquella podía ser la última pelea de su carrera.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/GNiOhJfG1qE?si=10Zm-cBuBNSGcTaf" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

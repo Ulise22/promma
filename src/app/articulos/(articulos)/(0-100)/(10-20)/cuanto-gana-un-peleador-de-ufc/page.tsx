@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/0-100/10-20/salarios_ufc.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Cuanto Gana Un Peleador de UFC',
@@ -48,6 +49,7 @@ export default function CuantoPagaUFC () {
                     <h2>Cosas a tener en cuenta y conclusión</h2>
                     <p>Es importante tener en cuenta que todas las cifras que di son brutas, es decir, no desconté los impuestos que luego los peleadores tienen que pagar, que varían dependiendo de la ubicación en la que se hagan los combates, ni los diferentes gastos extras que pueden tener, como lo son el gimnasio, el manager, u otros. </p>
                     <p>Tampoco tuve en cuenta los gastos que la UFC sí que cubre, como lo son los cortes de peso, o el seguro médico donde te cubren gran parte del tratamiento en caso de haber sufrido una lesión costosa. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

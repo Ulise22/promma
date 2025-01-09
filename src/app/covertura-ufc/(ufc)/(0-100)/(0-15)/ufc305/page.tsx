@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc305.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'UFC 305',
@@ -40,6 +41,7 @@ export default function UFC305 () {
                     <h2>Dricus Du Plessis Somete con un Mataleón a Israel Adesanya en el Cuarto Asalto</h2>
                     <p>En una pelea espectacular cerramos la noche de la mejor forma, con el actual campeón de peso medio <Link href='/peleadores/du-plessis'>Du Plessis</Link> siendo capaz de defender su título con un mataleón conseguido en el cuarto asalto.</p>
                     <p>En una pelea que parecía estar llevándose <Link href='/peleadores/israel-adesanya'>Adesanya</Link>, siendo él quien más y mejores golpes conectó a lo largo del combate, Du Plessis hizo gala de su chapa de campeón, conectando unos golpes que dejaron mareado al nigeriano, aprovechando esto para derribar a su rival, y ya en el piso conectar el mataleón que le daría la victoria. De esta manera, el sudafricano sigue invicto en la UFC, y esperará probablemente para enfrentar al excampeón <Link href='/peleadores/sean-strickland'>Sean Strickland</Link> en su próximo combate.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

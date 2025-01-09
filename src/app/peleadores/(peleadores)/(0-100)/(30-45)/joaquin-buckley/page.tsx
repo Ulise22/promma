@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Joaquin Buckley',
@@ -50,6 +51,7 @@ export default function JoaquinBuckley () {
                     <p className={styles.peleador__article__text}>El 2024 se convertiría en un año muy activo para nuestro protagonista, quien tendría un total de 4 combates a lo largo del año. Siendo el primero de estos el enfrentamiento ante el brasileño <b>Vicente Luque</b>, a quien sería capaz de vencer por TKO en el segundo asalto el día 30 de marzo. </p>
                     <p className={styles.peleador__article__text}>Posterior a esto, le seguiría su combate en el <Link href='/covertura-ufc/fight-night-lewis-nascimento'>UFC on ESPN: Lewis vs. Nascimento</Link>, con fecha para el 11 de mayo, donde se enfrentaría al luchador de Uzbekistán <b>Nursulton Ruziboev</b>, a quien sería capaz de vencer por decisión unánime. A esta victoria le seguiría su pelea en el <Link href='/covertura-ufc/ufc307'>UFC 307</Link>, enfrentando al veterano <b>Stephen Thompson</b>, el día 9 de octubre, cuando conseguiría una gran victoria por KO en el tercer asalto del combate. </p>
                     <p className={styles.peleador__article__text}>Finalmente, la última pelea del año y la que quizás sea la más importante de su carrera, lo tiene protagonizando su primera cartelera, enfrentando al multimples veces retador del título, y excampeón interino de peso wélter, <Link href='/peleadores/colby-covington'>Colby Covington</Link>, con quien encabezaría la última cartelera del año en el <b>UFC on ESPN: Covington vs. Buckley</b>, el 14 de diciembre de 2024. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

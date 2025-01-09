@@ -4,6 +4,7 @@ import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc300.jpeg'
+import EndArticle from '@/app/components/EndArticle'
 
 export default function UFC300MainEvent () {
     return(
@@ -35,6 +36,7 @@ export default function UFC300MainEvent () {
                     <p>¡<Link href='/mujeres/zhang-weili'>Zhang Weili</Link> gana por decisión unánime y retiene el cinturón de peso paja femenino! En una pelea que llegó a los 5 asaltos, la actual campeona de la división de peso paja femenino retuvo su título luego de llevarse la pelea por decisión unánime, en un combate que pudo acabar en cualquier momento, con la retadora <Link href='/mujeres/yan-xiaonan'>Yan Xiaonan</Link> consiguiendo knockdowns en un par de ocasiones, y con una campeona que en el primer asalto estuvo cerca de finalizar a su compatriota con un mataleón.</p>
                     <h2>Alex Pereira vs Jamahal Hill</h2>
                     <p>¡Alex Pereira noquea en el primer asalto a Jamahal Hill en su primer defensa del título! En lo que sería la primer defensa del título de peso semipesado de <Link href='/peleadores/alex-pereira'>Alex Pereira</Link>, haría una vez más, una desmotración de lo potente que es su mano izquierda, consiguiendo otra victoria por nocaut luego de conseguir conectar un gancho con la zurda. De esta manera terminamos la noche especial del UFC 300 con un nocaut en el primer asalto, con un Pereira que que con tan sólo 12 peleas ya comienza a hacerse un nombre importante en la historia de las MMA, acumulando un récord de 10-2.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

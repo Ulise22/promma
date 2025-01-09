@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Ian Garry',
@@ -39,6 +40,7 @@ export default function IanGarry () {
                     <p className={styles.peleador__article__text}>Luego de su victoria ante Rodriguez, Garry pelearía en el <b>UFC 292: Sterling vs. <Link href='/peleadores/sean-omalley'>O&apos;Malley</Link></b>, para enfrentar a <b>Neil Magny</b>, a quien luego de 3 asaltos vencería por decisión unánime.</p>
                     <p className={styles.peleador__article__text}>Pelearía en el <Link href='/covertura-ufc/ufc298'>UFC 298</Link>, para enfrentar al estadounidense <b>Geoff Neal</b>, con la esperanza de que en el caso de conseguir una victoria, pudiera meterse en el top #10 de la división. En lo que fue una pelea bastante cerrada y con polémica para algunos fanáticos, Ian Garry consiguió llevarse la victoria y mantener su invicto por decisión dividida.</p>
                     <p className={styles.peleador__article__text}>Volveríamos a ver a Garry subirse al octágono en el <Link href='/covertura-ufc/ufc303'>UFC 303</Link>, cuando el 29 de junio de 2024 se enfrentaría al inglés <b>Michael &quot;Venom&quot; Page</b>, a quien luego de 3 asaltos, en una pelea donde sorprendió por su nivel de jiu-jitsu (que consiguió luego de pasar tiempo entrenando con el excampeón de peso ligero <Link href='/peleadores/charles-oliveira'>Charles Oliveira</Link>), estando cerca de someter a su rival en el primer asalto, se terminó llevando por decisión unánime. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

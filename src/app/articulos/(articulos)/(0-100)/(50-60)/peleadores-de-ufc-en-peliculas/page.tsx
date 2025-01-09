@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/50-60/ufc_hollywood.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Peleadores en Hollywood',
@@ -44,6 +45,7 @@ export default function KimboSlice () {
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/Y0ZsLudtfjI?si=09699CT0F0SJ4dVW" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>En esta película estrenada en marzo de 2024 en Amazon Prime, Conor interpreta al villano principal de la cinta, haciendo un sorprendente muy buen papel, en lo que era su debut actoral en el cine. Aunque teniendo en cuenta que está interpretando a un irlandés medio loco, algo muy parecido a lo que es él, no es de extrañar que este haya sido el caso.</p>
                     <p>Todavía es pronto para saber si este es el inicio de una carrera actoral para la principal estrella de la UFC, pero en caso de serlo, he de decir que Conor empezó con el pie derecho. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

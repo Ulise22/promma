@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/0-100/10-20/mariusz_pudzianowski.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Luchador de MMA 5 Veces El Hombre Más Fuerte del Mundo',
@@ -37,6 +38,7 @@ export default function MariuszPudzianowski () {
                     <p>Lamentablemente para él, sus última 2 peleas terminaron en derrota, ambas por TKO, contra <b>Mamed Khalidov</b> y la última contra <b>Artur Szpilka</b>, en junio de 2023. Hoy tiene 47 años y no hay información oficial sobre si planea seguir peleando.</p>
                     <p>Mariusz ha demostrado ser una persona activa y polifacética, dado que en este artículo hemos hablado de su etapa como Strongman y como peleador de MMA, pero dejamos de lado que también es un jugador amateur de rugby, que en su país cuenta con el status de celebridad, dado que además de toda su carrera como deportista, formó parte del reality &quot;Bailando con las Estrellas&quot;, donde avanzó hasta la final del programa, quedando en segundo lugar. Además de que tiene una pequeña carrera musical, habiendo formado parte de una banda musical llamada <b>Pudzian Band</b>, fundada por su hermano en la que participa como cantante invitado en ocasiones. </p>
                     <p>En alguna entrevista ha confesado que ve al deporte como un hobby, dado que cobra y cobró relativamente poco como Strongman y como peleador de MMA, asegurando que la mayor parte de sus ingresos vienen de una exitosa compañía que fundó, una escuela para guardias de seguridad, de otra empresa de la que es dueño llamada <b>Pudzianowski Transport</b> y de sus inversiones en bienes raíces.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

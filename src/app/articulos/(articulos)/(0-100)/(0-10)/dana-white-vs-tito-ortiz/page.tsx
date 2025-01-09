@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/0-10/dana_vs_ortiz.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Dana White vs Tito Ortiz',
@@ -41,6 +42,7 @@ export default function DanaVsOrtiz () {
                     <p>Hubiera sido bastante curioso ver cómo terminaba esta pelea, y me apena que finalmente no se haya dado, porque no es común ver a un promotor o presidente de una compañía pelearse en un ring con quien es (al menos en ese momento), una de las mayores estrellas que tenía. </p>
                     <p>Hoy en día la relación entre ambos ha mejorado bastante, y aunque no es la relación de amistad que parecían tener en el pasado, es bastante mejor que la que llegaron a tener en el momento más caldeado entre ambos. Aún así, hay un clip de Dana White tratando de tonto a Tito Ortiz, por ser <b>&quot;el tipo de persona que pasa por encima de un dólar para recoger una moneada de 10 cetavos&quot;</b>, además de lamentar que, según él, Tito haya destruido la relación que pudo haber tenido con la UFC.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/5rE7b1nDaVk?si=q9lUTNFs21xgItLU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

@@ -5,6 +5,7 @@ import colby from '@/assets/peleadores__images/0-100/0-10/colby-covington/colby_
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Colby Covington',
@@ -50,6 +51,7 @@ export default function Covington () {
                     <p className={styles.peleador__article__text}>Su siguiente pelea sería ante el BMF de la compañía, <Link href='/articulos/jorge-masvidal-historia'>Jorge Masvidal</Link>, a quie enfrentaría el 5 de marzo de 2022, encabezando el UFC 272. Esta pelea en partícular tenía su historia y trasfondo, dado que siendo más jovenes ambos luchadores eran amigos muy cercanos, que por cuestiones personales se terminaron distanciando, convirtiendo en lo que alguna vez fue una linda amistad, en una enemistad de lo más grande en la historia moderna de la UFC, llegando a exceder con incidentes posteriores a la pelea, lo deportivo. Nuestro protagonista lograría llevarse la pelea aquella noche por decisión unánime, ganando nuevamente el bono a la Pelea de la Noche. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/QWswc8oJuEA?si=C-L4h1PCpUEueoEW" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Luego de aquella victoria, por tercera vez en su carrera, Colby se ganaría la oportunidad de disputar el cinturón de la compañía, enfrentando para ello al nuevo campeón <Link href='/peleadores/leon-edwards'>Leon Edwards</Link>, con quien se vería cara a cara el 16 de noviembre de 2023, encabezando el UFC 296. Aquel combate terminaría de la misma forma que el que tuvo en su momento con Usman, cayendo derrotado por decisión unánime luego de finalizados los 5 asaltos. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

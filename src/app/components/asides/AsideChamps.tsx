@@ -37,6 +37,10 @@ export default function AsideChamps () {
                 <Image className={styles.campeones__image} loading="lazy" src={belal} alt='Belal Muhammad' />
                 <h4 className={styles.campeones__name}>Belal Muhammad</h4>
             </Link>
+            <article className={styles.donation__container}>
+                <h3 className={styles.campones__title}>¡Recuerda que puedes colaborar con este proyecto mediante una donación a Paypal!</h3>
+                <a className={styles.donation__btn} href="https://paypal.me/uliMontenegro" target="_Blank">Donar</a>
+            </article>
         </aside>
     )
 }

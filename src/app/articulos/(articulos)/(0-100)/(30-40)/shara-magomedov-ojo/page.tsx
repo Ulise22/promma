@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/30-40/shara_magomedov_ojo.png'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Shara Bullet Ojo',
@@ -34,6 +35,7 @@ export default function SharaMagomedovOjo () {
                     <p>Algo que sin duda llama la atención a los fanáticos la primera vez que ven a este luchador, es que el ojo derecho de Magomedov está como nublado y carece de movilidad. Esto se debe a una lesión que sufrió hace varios años, en el 2016, que le quitó la visión de este ojo, sobre esto Shara contó que: &quot;<b>Las operaciones fueron costosas, en ese momento me encontraba en el cuidado de mis padres. Fue una situación muy difícil para mí, llegué a no entrenar por dos años</b>&quot;.</p>
                     <p>Lo triste es que debido a la falta de atención que se le dedicó a este ojo, su condición empeoro considerablemente, requieriendo atravesar por 8 cirujías en un corto periodo de tiempo.</p>
                     <p>Sin embargo esto no lo detuvo de continuar con su carrera como artista marcial, ya que, aunque el mismo Shara Magomedov reconoció que hay un antes y un después en su carrea luego de esa herida, lo cierto es que su carrera en las MMA comenzó luego de aquella lesión, y no sólo no ha perdido ninguna de sus peleas desde entonces, sino que consiguió que 10 de sus 12 victorias, fueran por la vía del nocaut.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

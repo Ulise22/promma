@@ -6,6 +6,7 @@ import Link from 'next/link'
 /* Images */
 import hero from '@/assets/articulos/0-100/0-10/campeon_mas_joven.jpg'
 import Image from 'next/image'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Campeón Más Joven de la UFC',
@@ -33,6 +34,7 @@ export default function PeleadorMasJoven () {
                     <p>A pesar de esto, Jon Jones no dejó de ganar en ningún momento, y acumuló 3 victorias al hilo, donde fue capaz de finalizar en las 3. Venciendo por TKO a <b>Brandon Vera</b> en el primer asalto, por TKO a <b>Vladimir Matyushenko</b> también en el primer asalto, y por sumisión a <b>Ryan Bader</b> en el segundo asalto. Ya con un récord de 11-1, Jones se gana el derecho a pelear por el título con tan sólo 23 años.</p>
                     <p>Finalmente el 19 de marzo de 2011, en el UFC 128, Jon Jones se enfrenta al brasileño Maurício &quot;Shogun&quot; Rua, en Newark, Nueva Jersey. En donde, llegados al tercer asalto, luego de una letal combinación de golpes en el suelo por parte del joven estadounidense, conecta otro zurdaso al cuerpo que tira al suelo a su rival. Logrando hacer historia aquel día, convirtiéndose en el peleador más joven de la historia en convertirse campeón de la UFC. Récord que difilmente podamos ver romperse en el futuro cercano.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/xjseqRSfBTc?si=GyEcLUg8ASThkfLV" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

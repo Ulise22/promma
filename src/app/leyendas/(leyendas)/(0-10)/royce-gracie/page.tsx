@@ -3,6 +3,7 @@ import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import GracieHero from './GracieHero'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Royce Gracie',
@@ -44,6 +45,7 @@ export default function RoyceGracie () {
                     <iframe className={styles.leyenda__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/S7edm6aZyFI?si=6ICDdAcudP-cCzRX" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     <p className={styles.leyenda__article__text}>Luego de su vuelta a la UFC, Royce tendría un combate contra el japonés <b>Kazushi Sakuraba</b> en la promotora <b>Dynamite!!</b>, donde ganaría por decisión unánime luego de 3 asaltos. Luego de aquella pelea daría positivo por anabolizantes, y se tomaría un largo tiempo de descanso hasta volver a pelear.</p>
                     <p className={styles.leyenda__article__text}>El 19 de febrero de 2016, casi 10 años después de su última pelea, y ya con 50 años, Royce Gracie vuelve para un último combate, esta vez en la compañía <b>BELLATOR</b>, para finalizar con una trilogía su vieja rivalidad con el estadounidense <b>Ken Shamrock</b>. Dicho combate lo terminaría ganando el brasileño por TKO en el primer asalto, siendo esta la única pelea que ganó por nocaut. Luego de la pelea se retiraría definitivamente de las MMA.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

@@ -5,6 +5,7 @@ import Link from 'next/link'
 /* Images */
 import hero from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc297.jpg'
 import Image from 'next/image'
+import EndArticle from '@/app/components/EndArticle'
 
 export default function UFC297 () {
     return(
@@ -28,6 +29,7 @@ export default function UFC297 () {
                     <p>En un combate en el que el estadounidense hacía de visitante, enfrentando al canadiense <b>Marc-André Barriault</b>, lograría llevarse la pelea por decisión dividida, aunque sería algo controversial la visión del juez que lo vió perder, puesto que los otros 2 jueces que lo dieron de ganador, lo vieron ganar y dominar los 3 asaltos que que duró la pelea. De esta manera, con esta victoria el luchador americano logra extender su récord a 31-10 (1), cortando con una racha de 2 peleas sin lograr la victoria. </p>
                     <h2>Evloev Derrota a Arnold Allen</h2>
                     <p>El luchador ruso <b>Movsar Evloev</b> es capaz de mantener el invicto al conseguir que una pelea que se extendió hasta los 3 asaltos, siendo bastante cerrada, se la acabaran dando los jueces por decisión unánime, derrotando al peleador inglés <b>Arnold Allen</b>, logrando extender su récord profesional de esta manera a 18-0. Con esta victoria, ya son 8 las que suma en total en la UFC, siendo la última la conseguida ante el brasileño <Link href='/peleadores/diego-lopes'>Diego Lopes</Link>. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

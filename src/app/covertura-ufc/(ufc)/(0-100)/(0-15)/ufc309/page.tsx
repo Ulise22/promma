@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc309.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'UFC 309',
@@ -50,6 +51,7 @@ export default function UFC309 () {
                     <h2>Jon Jones Noquea a Stipe Miocic en el Tercer Asalto</h2>
                     <p><Link href='/peleadores/jon-jones'>Jon Jones</Link> completa su primer defensa del título ante el histórico campeón de los pesos pesados <b>Stipe Miocic</b>, al noquear a este en el tercer asalto de la pelea, luego de conectar una patada al abdomen que derribaría al suelo a su rival, para después con golpes llevar al árbitro a parar la pelea para darle la victoria por TKO.</p>
                     <p>Jones había sido dominante durante todo el combate, dando la sensación de que de llevarse a la decisión, los jueces hubieran dado los 3 primeros asaltos al campeón. Pero eso no fue necesario, dado que el GOAT de las MMA finalizó el combate antes de que eso sea necesario. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

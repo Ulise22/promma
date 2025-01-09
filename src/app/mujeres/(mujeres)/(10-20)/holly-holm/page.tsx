@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Holly Holm',
@@ -44,6 +45,7 @@ export default function HollyHolm () {
                     <p className={styles.peleador__article__text}>Aunque luego de su dolorosa derrota contra Amanda Nunes, sumaría 2 victorias más a su carrera, la primera en su revancha contra la estadounidense <Link href='/mujeres/raquel-pennington'>Raquel Pennington</Link>, a quien vencería por decisión unánime. Y la segunda victoria vendría al enfrentar a la mexicana <b>Irene Aldana</b> el 3 de octubre de 2020, a quien luego de 5 asaltos vencería por decisión unánime.</p>
                     <p className={styles.peleador__article__text}>A pesar de que durante el año 2021 Holm estuvo inactiva, lo cierto es que siguió peleando con resultados irregulares. Siendo la hasta ahora última pelea, la que tuvo lugar en el <Link href='/covertura-ufc/ufc300-prelims'>UFC 300</Link> organizado el 13 de abril de 2024, cuando enfrentaría a la recién llegada <Link href='/mujeres/kayla-harrison'>Kayla Harrison</Link>, contra quien caería derrotada por una sumisión el segundo asalto.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/NT1SzkBIu0U?si=XNsNbucAORfBou17" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

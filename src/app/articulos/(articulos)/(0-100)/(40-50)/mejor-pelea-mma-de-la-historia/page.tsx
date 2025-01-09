@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/40-50/bestfight.jpeg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Mejor Pelea de la Historia',
@@ -42,6 +43,7 @@ export default function MejorPeleaMMA () {
                     <p>Aunque durante una pelea en una compañía de lucha libre llamada <b>DDT</b> en 2017, mientras intentaba hacer un movimiento sufriría una gravísima lesión, que le haría caer de cabeza y lo dejaría paralizado del cuello para abajo. Don Frye al enterarse de esto viajaría en avión hasta Japón para reecontrarse con su antiguo rival. Ambos luchadores conversarían, intercambiando historias de vida.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/7vIMXu1CwPo?si=Ta2gr9sVhizop7-2" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>Finalmente debido a su parálisis, Takayama se retiraría del mundo del Wrestling en 2018. Don Frye le dedicó unas hermosas palabras al enterarse: <b>&quot;Takayama-san. Dios me dió el mejor oponente que nadie podría pedir, vos. Vos hiciste la mejor pelea que el mundo ha visto nunca. (...) Sos el guerrero que todos buscamos ser.&quot;</b></p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

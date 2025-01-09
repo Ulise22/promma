@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/40-50/ariel_helwani_vs_dana_white.jpeg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Ariel Helwani vs Dana White',
@@ -36,6 +37,7 @@ export default function HelwaniVSWhite () {
                     <p>El comentarista de la UFC y conductor del podcast más escuchado del mundo, <b>Joe Rogan</b>, dió su opinión sobre este tema, pudiendo ver la situación desde los ojos de la UFC. Dado que aparentemente desde la compañía le habían advertido al periodista que no querían que filtrara la información, ya que querían ser ellos quienes anunciaran el bombazo que era la vuelta de Lesnar. Además le habían informado que revelar dicha información podría dejar sin trabajo al miembro de la UFC que le haya filtrado esto.</p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/TIQaA-ZsAJE?si=2Uvn-ZgqakIf4S3t" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>Joe Rogan da un buen punto al mencionar que no es que Helwani estaba filtrando una información secreta que nunca se iba a anunciar eventualmente, y que esto no se trataba de un trabajo periodístico donde se revelaban secretos oscuros que Dana White no quería que salgan a la luz. Simplemente era el anuncio de una pelea que la UFC como empresa quería hacer por sí misma, y que Ariel Helwani filtró el anuncio simplemente para ser el primero en hacerlo y en tener la primicia.</p>
+                    <EndArticle/>
                 </article>
                 <AsideChamps />
             </section>

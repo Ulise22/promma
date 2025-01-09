@@ -37,6 +37,10 @@ export default function AsideFighter () {
                 <Image className={styles.campeones__image} loading="lazy" src={volkanovski} alt='Alexander Volkanovski' />
                 <h4 className={styles.campeones__name}>Alexander Volkanovski</h4>
             </Link>
+            <article className={styles.donation__container}>
+                <h3 className={styles.campones__title}>¡Recuerda que puedes colaborar con este proyecto mediante una donación a Paypal!</h3>
+                <a className={styles.donation__btn} href="https://paypal.me/uliMontenegro" target="_Blank">Donar</a>
+            </article>
         </aside>
     )
 }

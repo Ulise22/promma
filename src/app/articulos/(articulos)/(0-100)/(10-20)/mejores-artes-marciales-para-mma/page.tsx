@@ -13,6 +13,7 @@ import wrestling from '@/assets/articulos/insideArticle/martial-arts/wrestle.jpg
 import muaythai from '@/assets/articulos/insideArticle/martial-arts/muay_thai.jpg'
 import lethwei from '@/assets/articulos/insideArticle/martial-arts/lethwei.jpg'
 import Image from 'next/image'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Mejores Artes Marciales Para MMA',
@@ -63,6 +64,7 @@ export default function BestMAForMMA () {
                     <h3>Lethwei</h3>
                     <p>Considerado junto al Muay Thai como una de las artes marciales más peligrosas del mundo, estando prohido la mayor parte del mundo, con excepción de algunos pocos países (entre los que NO se encuentra ningún país latinoaméricano), este arte marcial se practica sin guantes, y según cuenta Jeff Chan, quien tuvo la oportunidad de entrenar con luchadores de elite en esta disciplina, quienes saben pelear en esta modalidad son muy peligrosos y no tendrían ningún problema en transicionar a las MMA siendo igual de efectivos. </p>
                     <Image className={styles.article__image} src={lethwei} alt='Lethwei' />
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

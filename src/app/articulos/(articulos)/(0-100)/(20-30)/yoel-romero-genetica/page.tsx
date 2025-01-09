@@ -7,6 +7,7 @@ import type { Metadata } from 'next'
 /* Images */
 import hero from '@/assets/articulos/0-100/20-30/yoel_romero_genetica.jpg'
 import joelAndJones from '@/assets/articulos/insideArticle/yoel-romero-genetica/romero-and-jones.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'La Génetica de Yoel Romero',
@@ -37,6 +38,7 @@ export default function YoelRomeroGenetica () {
                     <p><b>&quot;Yo digo “¿Qué pasó?” Él me dice: “¡Tu cuello!”. Sentí poco dolor, pero no tenía idea de qué era.”¡Tienes que ir al médico!” Cuando fui a la ducha, sentí que no podía moverme, mis manos se entumecieron, no podía mover mi cabeza. Mi C4 cuarta vértebra cervical estaba rota. Y mis trapecios son muy grandes. Eso fue lo que me salvó.&quot;</b></p>
                     <Image className={styles.article__image} src={joelAndJones} alt='' />
                     <p>Es que exactamente como lo relata Yoel, según el médico que lo atendió, estuvo cerca de la muerte producto de la rotura de su vértebra cervical, sin embargo fue el tamaño de sus trapecios lo que lo salvó. Pese a que varios especialistas veían la carrera de Romero como terminada, el cubano no se quedaría con eso, visitando profesionales que lo ayudaron a ir mejorando en su proceso de rehabilitación, que le permitieron seguir con su carrera, llegar a la UFC, y pelear por el título en 2 ocasiones. Posicionándose, seguramente, como el mejor luchador cubano de MMA de la historia.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

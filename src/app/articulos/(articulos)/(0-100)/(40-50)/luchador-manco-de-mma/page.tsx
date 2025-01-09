@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/40-50/nick_newell.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'El manco de las MMA',
@@ -41,6 +42,7 @@ export default function MancoMMA () {
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/FfBdoSotlII?si=w4YV9UbIKN4cyXfC" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>Sin embargo, luego de una victoria más por sumisión ante un luchador llamado <b>Antonio Castillo Jr.</b> en 2019, se ganaría un contrato con la competencia de la UFC, <b>Bellator</b>, en donde debutaría el día 24 de agosto de 2019 ante <b>Corey Browning</b>, contra quien lograría una victoria por sumisión en el primer asalto.</p>
                     <p>Lamentablemente sus últimas 2 peleas en Bellator terminarían en derrotas por decisión dividida, siendo la última en junio de 2021 ante <b>Bobby King</b>, retirándose del octágono luego del combate. La historia de Nick Newell es un ejemplo inspirador de cómo la determinación y el coraje pueden superar cualquier obstáculo. Su carrera es una prueba viviente de que las limitaciones físicas no son barreras insuperables, sino desafíos que pueden ser vencidos con perseverancia y pasión. Nick Newell ha demostrado que los verdaderos campeones no se miden solo por sus victorias en la jaula, sino por su capacidad de inspirar a otros a nunca rendirse, independientemente de las circunstancias. Su legado en las MMA es, sin duda, una lección de vida y una fuente de inspiración para todos.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

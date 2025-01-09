@@ -6,6 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Francis Ngannou',
@@ -67,6 +68,7 @@ export default function Ngannou () {
                     <h2 className={styles.peleador__article__title}>Francis Ngannou PFL</h2>
                     <p className={styles.peleador__article__text}>Después de marcharse de la UFC, y de una negociación con <b>ONE Championship</b> que no terminó llegando a buen puerto, Francis Ngannou aceptó unirse a <b>PFL</b>. Habría aceptado cobrar un contrato de 7 cifras, además de aceptar convertirse en el presidente de PFL África.</p>
                     <p className={styles.peleador__article__text}>De esta forma haría su debut en la nueva compañía el 19 de noviembre de 2024, luego de sus 2 combates de boxeo. Enfrentando para ello al entonces campeón de la división en la compañía, <b>Renan Ferreira</b>, a quien sería capaz de derrotar por KO en el primer asalto de la pelea, convirtiéndose en el nuevo campeón de Peso Pesado de PFL, en su debut en la compañía. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Tony Ferguson',
@@ -48,6 +49,7 @@ export default function Ferguson () {
                     <p className={styles.peleador__article__text}>Tony Ferguson encadenaría una racha de 7 derrotas consecutivas en la UFC, empatando el poco honroso récord de <b>BJ PENN</b>. Luego de perder con Gaethje, encadenando derrotas contra: <Link href='/peleadores/charles-oliveira'>Charles Oliveira</Link> por decisión unánime; contra el iraní <b>Beneil Dariush</b> por decisión unánime; contra <Link href='/peleadores/michael-chandler'>Michael Chandler</Link> por KO en el segundo asalto, luego de espectacular patada en la cabeza por parte de su rival; por sumisión contra <Link href='/articulos/nate-diaz-historia'>Nate Diaz</Link> en el cuarto asalto, en una pelea en Peso Wélter; por sumisión nuevamente contra <b>Bobby Green</b> cerca de finalizar el tercer asalto; y contra el inglés <Link href='/peleadores/paddy-pimblett'>Paddy Pimblett</Link>, quien se llevaría la pelea por decisión unánime.</p>
                     <p className={styles.peleador__article__text}>En su más reciente pelea ante su compatriota <b>Michael Chiesa</b> pactada en peso wélter en el <Link href='/covertura-ufc/fight-night-sandhagen-nurmagomedov'>UFC on ABC: Sandhagen vs. Nurmagomedov</Link>, volvería a encontrarse con la derrota al ser sometido en el primer asalto de la pelea. Con esta siendo su octava derrota consecutiva, se convertiría en el peleador con más derrotas consecutivas en la historia de la UFC. Luego de aquel combate sin embargo, daría a entender que se estaba retirando, en una escena conmovedora, explicando que no lo quería hacer, dejando sólo 1 guante en el octágono, y dejando en claro que esto significaba que estaba dispuesto y abierto a volver a pelear en el futuro próximo. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/te8PIvPMs0A?si=JYopZycPej6Flizt" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

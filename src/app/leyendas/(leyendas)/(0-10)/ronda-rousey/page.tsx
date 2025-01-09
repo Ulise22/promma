@@ -3,6 +3,7 @@ import Link from 'next/link'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import RouseyHero from './RouseyHero'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Ronda Rousey',
@@ -42,6 +43,7 @@ export default function RondaRousey () {
                     <p className={styles.leyenda__article__text}>Su última derrota contra Holly Holm, le caería fatal a Ronda Rousey, es por eso que necesitó de un año entero para volver a sentirse en condiciones de seguir compitiendo. Su vuelta al octagono lo haría para enfrentarse a la brasileña Amanda Nunes, que en ese entonces tenía un récord de 17-4 y era la vigente campeona del peso gallo femenino. Desafortunadamente, esta pelea no terminó bien para nuestra protagonista, que fue noqueada a los 48 segundos del primer asalto.</p>
                     <p className={styles.leyenda__article__text}>Luego de esta derrota, con un récord de 12-2, y habiendo defendido el título exitosamente un total de 6 veces, Ronda decidió retirarse del deporte, dejando atrás un glorioso legado. </p>
                     <iframe className={styles.leyenda__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/qwPBPiUzgag?si=ENZplBopanPsriia" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

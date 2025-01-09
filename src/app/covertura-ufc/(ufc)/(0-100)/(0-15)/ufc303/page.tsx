@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc303-hero.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'UFC 303: Alex Pereira Noquea a Jiri Prochazka',
@@ -37,6 +38,7 @@ export default function UFC303 () {
                     <h2>Alex Pereira Noquea a Jiri Procházka De una Patada</h2>
                     <p>El actual campeón de peso semipesado <Link href='/peleadores/alex-pereira'>Alex Pereira</Link> retiene su título ante <Link href='/peleadores/jiri-prochazka'>Jiri Prochazka</Link> con otra actuación sobresaliente en la que estando a punto de noquear al checo en el último segundo del primer asalto, logró finalizar lo que ya había empezado en el inicio del segundo asalto, conectando una patada a la cabeza de su rival que lo dejó en el suelo. </p>
                     <p>Luego de aquella patada Pereira sólo tuvo que lanzarse a tirar golpes a su rival para asegurar la victoria por nocaut técnico. Las posibilidades para Alex ahora son casi infinitas, luego de haber salvado esta cartelera que debía ser protagonizada por <Link href='/peleadores/conor-mcgregor'>Conor Mcgregor</Link>, aceptando una pelea en corto aviso donde ponía en riesgo su cinturón, lo que queda para el Poatan deben ser sólo cosas buenas. Sería interesante verlo intentar conseguir la hazaña de ser el primer triple-campeón en la historia de la UFC, que si lo consiguiera derrotando a alguien como <Link href='/peleadores/jon-jones'>Jon Jones</Link> por ejemplo, lo catapultaría como una estrella y como una leyenda absoluta, más de lo que ya lo es.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

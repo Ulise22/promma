@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/covertura_ufc/fight_night/0-100/0-15/covington-vs-buckley.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Colby Covington vs Joaquin Buckley',
@@ -51,6 +52,7 @@ export default function CovingtonBuckley () {
                     <h2>¡Joaquin Buckley Vence por TKO a Colby Covington en el Tercer Asalto!</h2>
                     <p>El joven peleador <Link href='/peleadores/joaquin-buckley'>Joaquin Buckley</Link> consigue una tremenda victoria en la que posiblemente sea la pelea más importante de su carrera hasta el momento. Consiguiendo una victoria con una actuación super dominante ante un rival tan díficil como lo era <Link href='/peleadores/colby-covington'>Colby Covington</Link>, que pese a que intentó derribar a Buckley, sólo lo logró en una ocasión, y nada pudo hacer con el striking de su compatriota. </p>
                     <p>Aunque la victoria no terminó con un nocaut espectacular, Joaquin dominó por completo a Colby, generándole un corte en la ceja en el primer asalto de la pelea, que a medida que pasaba el combate solo empeoraba, terminando con el médico teniendo que intervenir, para dar por finalizado el combate, proclamando a Joaquin Buckley como el ganador de la pelea. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

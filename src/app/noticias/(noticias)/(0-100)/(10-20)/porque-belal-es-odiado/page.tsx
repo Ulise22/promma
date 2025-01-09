@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/10-20/belal_odiado.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: '¿Por qué Belal es Tan Odiado?',
@@ -36,6 +37,7 @@ export default function PorqueBelalEsOdiado () {
                     <h2>Belal Muhammad vs Sean Brady</h2>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/8CSI43PVL-E?si=aKCF2zHyNg23qyM4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>Quizás la única excepción sobre el rendimiento deportivo de Belal, sea su pelea contra <b>Sean Brady</b> en el UFC 280. En aquella ocasión contó en su esquina con la presencia de <Link href='/leyendas/khabib-nurmagomedov'>Khabib Nurmagomedov</Link>, quien seguramente influenció y mucho en la mentalidad que tenía Belal a la hora de pelear, dado que en este combate se lo vió más atrevido, sin miedo de ir para adelante a los golpes con su rival, logrando de esta manera una victoria por TKO en el segundo asalto (además del bono a la actuación de la noche), siendo este uno de los único 2 nocauts que consiguió en la UFC.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

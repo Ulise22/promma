@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Carlos Prates',
@@ -50,6 +51,7 @@ export default function CarlosPrates () {
                     <p className={styles.peleador__article__text}>Un par de meses después, el 17 de agosto en el <Link href='/covertura-ufc/ufc305'>UFC 305</Link>, se enfrentaría al peleador chino <b>Li Jingliang</b>, a quien conseguiría derrotar por KO en el segundo asalto de la pelea, ganando por este desempeño otro bono a la Actuación de la Noche. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/1EH02xXy-gM?si=I-Zb_BgRH_Wv5dz5" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Por último, para finalizar el año, a Carlos Prates se le presentaría la oportunidad de protagonizar su primer cartelera de la UFC, ya en su cuarta pelea en la compañía, enfrentando al veterano luchador estadounidense <b>Neil Magny</b>, a quien en caso de ganar, lo llevaría a entrar a los rankings de la división de peso wélter, ya en su primer año. Se enfrentarían el 9 de noviembre, y Prates sería capaz de finalizar a su rival nuevamente por la vía del KO en el primer asalto, ganando otra vez el bono a la Actuación de la Noche. Cerrando el 2024 con 4 peleas, 4 victorias por KO y 4 bonos por desempeño. </p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

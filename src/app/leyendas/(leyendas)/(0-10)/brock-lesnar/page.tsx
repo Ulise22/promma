@@ -4,6 +4,7 @@ import Image from 'next/image'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import LesnarHero from './LesnarHero'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Brock Lesnar',
@@ -40,6 +41,7 @@ export default function Cormier () {
                     <p className={styles.leyenda__article__text}>Luego de perder su cinturón, tendría una pelea más contra el neerlandés <b>Alistair Overeem</b> en UFC 141, donde perdería por TKO en el primer asalto. Al finalizar dicho combate, Lesnar anunciaría su retiro de las Artes Marciales Mixtas, debido a una Diverticulitis.</p>
                     <iframe className={styles.leyenda__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/DyvjV3Lt8Pw?si=tRNkJgT6uxN6dXJR" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.leyenda__article__text}>Sin embargo, pese a haber anunciado su retiro, Brock Lesnar volvería a pelear en UFC 200 contra <b>Mark Hunt</b>, a quien luego de 3 asaltos vencería por decisión unánime. Sin embargo, poco tiempo después, USADA reportó que Lesnar había fallado 2 text antidopaje, por lo que se tomó la decisión de supenderlo durante un año y dejar su último combate sin resultado.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

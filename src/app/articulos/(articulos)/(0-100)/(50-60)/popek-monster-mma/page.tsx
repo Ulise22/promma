@@ -6,6 +6,7 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 /* Images */
 import hero from '@/assets/articulos/0-100/50-60/popek_monster.jpg'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Popek Monster',
@@ -43,6 +44,7 @@ export default function KimboSlice () {
                     <p>Su hasta ahora última pelea la tendría ante el irlandés, ex luchador de la <Link href='/articulos/ufc'>UFC</Link> <b>Norman Parke</b>, el día 26 de marzo de 2022, contra quien lamentablemente sufriría una lesión en la mano al intentar lanzar un golpe, que le impediría continuar con el combate, sumando una derrota más a su récord. </p>
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/ODHBw_JBiAA?si=myY1ByJXi_hudih_" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>De esta forma, con sus hoy en día 45 años, Popek no ha vuelto a sacar un nuevo album desde el 2013, cuando saco un album en solitario, ni ninguna canción indidual desde el 2016. Tampoco ha vuelto a pelear desde aquel combate en 2022, por lo que su curiosa carrera en las MMA, se mantiene con un récord negativo de 4-5.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>
