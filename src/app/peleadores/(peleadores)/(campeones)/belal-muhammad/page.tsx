@@ -1,5 +1,5 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
-import belal from '@/assets/peleadores__images/20-30/belal-muhammad/belal-muhammad.png'
+import belal from '@/assets/peleadores__images/0-100/20-30/belal-muhammad/belal-muhammad.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import type { Metadata } from 'next'
 import Link from 'next/link'

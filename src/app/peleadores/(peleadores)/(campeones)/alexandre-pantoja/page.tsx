@@ -1,5 +1,5 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
-import pantoja from '@/assets/peleadores__images/0-10/alexandre-pantoja/pantoja.png'
+import pantoja from '@/assets/peleadores__images/0-100/0-10/alexandre-pantoja/pantoja.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import AsideFighter from '@/app/components/asides/AsideFighter'

@@ -3,8 +3,8 @@ import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import ufcTampa from '@/assets/covertura_ufc/fight_night/0-15/covington-vs-buckley.jpg'
-import iliaPeleador2024 from '@/assets/noticias/0-10/ilia_peleador_2024.jpg'
-import bestEventsUFC2024 from '@/assets/noticias/20-30/best_ufc_events.jpg'
+import iliaPeleador2024 from '@/assets/noticias/0-100/0-10/ilia_peleador_2024.jpg'
+import bestEventsUFC2024 from '@/assets/noticias/0-100/20-30/best_ufc_events.jpg'
 
 export default function HomeHero () {
     return(

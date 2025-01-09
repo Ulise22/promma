@@ -2,12 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from './asideChamps.module.css'
 /* IMAGES */
-import makhachev from '@/assets/peleadores__images/10-20/islam-makhachev/islam__makhachev.jpg'
-import duPlessis from '@/assets/peleadores__images/0-10/dricus-du-plessis/du-plessis_card.jpg'
-import dvalishvili from '@/assets/peleadores__images/20-30/merab-dvalishvili/merab_dvalishvili-card.jpg'
-import pereira from '@/assets/peleadores__images/0-10/alex-pereira/pereira_sparring2.jpg'
-import belal from '@/assets/peleadores__images/20-30/belal-muhammad/belal-card.jpg'
-import topuria from '@/assets/peleadores__images/10-20/ilia-topuria/illia__topuria.jpg'
+import makhachev from '@/assets/peleadores__images/0-100/10-20/islam-makhachev/islam__makhachev.jpg'
+import duPlessis from '@/assets/peleadores__images/0-100/0-10/dricus-du-plessis/du-plessis_card.jpg'
+import dvalishvili from '@/assets/peleadores__images/0-100/20-30/merab-dvalishvili/merab_dvalishvili-card.jpg'
+import pereira from '@/assets/peleadores__images/0-100/0-10/alex-pereira/pereira_sparring2.jpg'
+import belal from '@/assets/peleadores__images/0-100/20-30/belal-muhammad/belal-card.jpg'
+import topuria from '@/assets/peleadores__images/0-100/10-20/ilia-topuria/illia__topuria.jpg'
 
 export default function AsideChamps () {
     return(

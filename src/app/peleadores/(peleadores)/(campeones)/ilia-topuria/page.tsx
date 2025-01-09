@@ -1,5 +1,5 @@
 import Image from "next/image";
-import topuria from '@/assets/peleadores__images/10-20/ilia-topuria/topuria.png'
+import topuria from '@/assets/peleadores__images/0-100/10-20/ilia-topuria/topuria.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import PeleadoresHero from "@/app/peleadores/components/PeleadoresHero";
 import Link from "next/link";

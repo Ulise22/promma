@@ -2,9 +2,9 @@ import Link from 'next/link'
 import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import alexanderEmelianenko from '@/assets/articulos/20-30/alexander_emelianenko.jpg'
-import bestfightsFem from '@/assets/articulos/30-40/mejores_peleas_mujeres.jpg'
-import yoelgenetica from '@/assets/articulos/20-30/yoel_romero_genetica.jpg'
+import alexanderEmelianenko from '@/assets/articulos/0-100/20-30/alexander_emelianenko.jpg'
+import bestfightsFem from '@/assets/articulos/0-100/30-40/mejores_peleas_mujeres.jpg'
+import yoelgenetica from '@/assets/articulos/0-100/20-30/yoel_romero_genetica.jpg'
 
 export default function PageHero () {
     return(

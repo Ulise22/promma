@@ -1,5 +1,5 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
-import fighter from '@/assets/peleadores__images/20-30/merab-dvalishvili/merab_dvalishvili.png'
+import fighter from '@/assets/peleadores__images/0-100/20-30/merab-dvalishvili/merab_dvalishvili.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'

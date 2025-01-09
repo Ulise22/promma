@@ -1,16 +1,14 @@
 import styles from './articulosContainer.module.css'
 import HomeArticle from './noticias/HomeArticle'
 /* IMAGES */
-import bestMAForMMA from '@/assets/articulos/10-20/best_ma_for_mma.jpg'
-import mmaMedieval from '@/assets/articulos/10-20/mma_medieval.jpeg'
-import carJiujitsu from '@/assets/articulos/10-20/car_jiujitsu.jpg'
-import titovsdana from '@/assets/articulos/0-10/dana_vs_ortiz.jpg'
-import popek from '@/assets/articulos/50-60/popek_monster.jpg'
-import hollywood from '@/assets/articulos/50-60/ufc_hollywood.jpg'
-import butterbean from '@/assets/articulos/50-60/eric_butterbean.jpg'
-import kimboSlice from '@/assets/articulos/50-60/kimbo_slice.jpg'
-import cmpunk from '@/assets/articulos/40-50/cm_punk.jpg'
-import nicoMontano from '@/assets/articulos/40-50/nicco_montano.jpg'
+import bestMAForMMA from '@/assets/articulos/0-100/10-20/best_ma_for_mma.jpg'
+import titovsdana from '@/assets/articulos/0-100/0-10/dana_vs_ortiz.jpg'
+import popek from '@/assets/articulos/0-100/50-60/popek_monster.jpg'
+import hollywood from '@/assets/articulos/0-100/50-60/ufc_hollywood.jpg'
+import butterbean from '@/assets/articulos/0-100/50-60/eric_butterbean.jpg'
+import kimboSlice from '@/assets/articulos/0-100/50-60/kimbo_slice.jpg'
+import cmpunk from '@/assets/articulos/0-100/40-50/cm_punk.jpg'
+import nicoMontano from '@/assets/articulos/0-100/40-50/nicco_montano.jpg'
 
 export default function ArticulosContainer () {
     return(

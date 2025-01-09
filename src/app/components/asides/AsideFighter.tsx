@@ -2,12 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from './asideChamps.module.css'
 /* IMAGES */
-import mcgregor from '@/assets/peleadores__images/0-10/conor-mcgregor/conor.jpg'
-import chimaev from '@/assets/peleadores__images/10-20/khamzat-chimaev/khamzat_post2.jpg'
-import gaethje from '@/assets/peleadores__images/10-20/justin-gaethje/gaethje_card.jpg'
-import poirier from '@/assets/peleadores__images/0-10/dustin-poirier/poirier__card.jpg'
-import colby from '@/assets/peleadores__images/0-10/colby-covington/colby.jpg'
-import volkanovski from '@/assets/peleadores__images/0-10/alexander-volkanovski/volkanovski.jpg'
+import mcgregor from '@/assets/peleadores__images/0-100/0-10/conor-mcgregor/conor.jpg'
+import chimaev from '@/assets/peleadores__images/0-100/10-20/khamzat-chimaev/khamzat_post2.jpg'
+import gaethje from '@/assets/peleadores__images/0-100/10-20/justin-gaethje/gaethje_card.jpg'
+import poirier from '@/assets/peleadores__images/0-100/0-10/dustin-poirier/poirier__card.jpg'
+import colby from '@/assets/peleadores__images/0-100/0-10/colby-covington/colby.jpg'
+import volkanovski from '@/assets/peleadores__images/0-100/0-10/alexander-volkanovski/volkanovski.jpg'
 
 export default function AsideFighter () {
     return(

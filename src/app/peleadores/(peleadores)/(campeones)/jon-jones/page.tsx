@@ -1,5 +1,5 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
-import jones from '@/assets/peleadores__images/10-20/jon-jones/jon_jones.png'
+import jones from '@/assets/peleadores__images/0-100/10-20/jon-jones/jon_jones.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import Link from 'next/link'
