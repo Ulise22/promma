@@ -3,6 +3,8 @@ import styles from './covertura.module.css'
 import Image from 'next/image'
 import HomeArticle from '../noticias/HomeArticle'
 /* IMAGES */
+import ufc310 from '@/assets/covertura_ufc/ufc/0-15/ufc310.jpg'
+import ufc309 from '@/assets/covertura_ufc/ufc/0-15/ufc309.jpg'
 import ufc308 from '@/assets/covertura_ufc/ufc/0-15/ufc308.jpg'
 import ufc307 from '@/assets/covertura_ufc/ufc/0-15/ufc307.jpg'
 import ufc306 from '@/assets/covertura_ufc/ufc/0-15/ufc306.jpg'
@@ -15,6 +17,8 @@ export default function CoverturaUFC () {
         <section className={styles.covertura}>
             <h2 className={styles.covertura__title}>Covertura de UFC</h2>
             <article className={styles.covertura__container}>
+                <HomeArticle img={ufc310} author='FULLMMA' date='09/12/2024' link='/covertura-ufc/ufc310' title='UFC 310: ¡Alexandre Pantoja vs Kai Asakura por el Campeonato de Peso Mosca de UFC! ¡Shavkat Rakhmonov vs Ian Garry!' description='Movsar Evloev Gana su Pelea por Decisión. Vicente Luque Logra una Victoria por Sumisión en el Primer Asalto. Además Dominick Reyes Derrota a Anthony Smith por TKO en el Segundo Asalto'/>
+                <HomeArticle img={ufc309} author='FULLMMA' date='16/11/2024' link='/covertura-ufc/ufc309' title='UFC 309: ¡Jon Jones Noquea a Stipe Miocic en el Tercer Asalto en su Primer Defensa del Título! ¡Charles Oliveira Derrota a Michael Chandler por Decisión en La Pelea de la Noche!' description='¡Bo Nical derrota a Paul Craig y mantiene su invicto de 7-0! Además el brasileño Mauricio Ruffy vence al peruano James Llontop por decisión en su segunda pelea en la UFC.'/>
                 <HomeArticle img={ufc308} author='FULLMMA' date='26/10/2024' link='/covertura-ufc/ufc308' title='UFC 308: ¡Ilia Topuria Noquea a Max Holloway en el Tercer Asalto! ¡Khamzat Chimaev Somete a Robert Whittaker en el Primer Asalto!' description='Tenemos un tremendo evento que además cuenta con el regreso al octágono de Shara Magomedov, con la pelea de Dan Ige y Lerone Murphy, y la pelea entre Ankalaev y Rakic acompañando la cartelera estelar.'/>
                 <HomeArticle img={ufc307} author='FULLMMA' date='05/10/2024' link='/covertura-ufc/ufc307' title='UFC 307: ¡Alex Pereira Noquea a Khalil Rountree En El Cuarto Asalto y Sigue Siendo Campeón! ¡Julianna Peña es Nueva Campeona de UFC al Derrotar a Raquel Pennington!' description='Kayla Harrison gana luego de una actuación dominante en su pelea por decisión unánime. Roman Dolidze gana por parada médica luego de una lesión de Kevin Holland. Mario Bautista gana su pelea contra José Aldo por decisión dividida.'/>
                 <HomeArticle img={ufc306} author='FULLMMA' date='15/09/2024' link='/covertura-ufc/ufc306' title='UFC 306: ¡Merab Dvalisvhili Nuevo Campeón de Peso Gallo! ¡Valentina Shevchenko Vuelve a Ser Campeona al Derrotar Por Decisión a Alexa Grasso!  ¡Esteban Ribovics Gana en un Peleón al Mexicano Daniel Zellhuber!' description='¡Ronaldo Rodríguez Gana por Decisión ante Ode Osbourne! ¡Diego Lopes Derrota a Brian Ortega por Decisión Unánime! ¡Raúl Rosas Jr. Logra La Primer Victoria de la Noche en La Esfera!'/>
