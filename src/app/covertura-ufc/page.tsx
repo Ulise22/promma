@@ -1,27 +1,28 @@
 import styles from './coverturaUFC.module.css'
 import ArticlePreview from '../articulos/components/ArticlePreview'
 /* UFC IMAGES */
-import ufc297 from '@/assets/covertura_ufc/ufc/0-15/ufc297.jpg'
-import ufc298 from '@/assets/covertura_ufc/ufc/0-15/ufc298_preview.jpg'
-import ufc299 from '@/assets/covertura_ufc/ufc/0-15/ufc299.jpg'
-import ufc300MainEvent from '@/assets/covertura_ufc/ufc/0-15/ufc300.jpeg'
-import ufc301 from '@/assets/covertura_ufc/ufc/0-15/ufc301-preview.jpg'
-import ufc302 from '@/assets/covertura_ufc/ufc/0-15/ufc302-preview.jpg'
-import ufc303 from '@/assets/covertura_ufc/ufc/0-15/ufc303-preview.jpg'
-import ufc304 from '@/assets/covertura_ufc/ufc/0-15/ufc304.jpg'
-import ufc305 from '@/assets/covertura_ufc/ufc/0-15/ufc305.jpg'
-import ufc306 from '@/assets/covertura_ufc/ufc/0-15/ufc306.jpg'
-import ufc307 from '@/assets/covertura_ufc/ufc/0-15/ufc307.jpg'
-import ufc308 from '@/assets/covertura_ufc/ufc/0-15/ufc308.jpg'
-import ufc309 from '@/assets/covertura_ufc/ufc/0-15/ufc309.jpg'
-import ufc310 from '@/assets/covertura_ufc/ufc/0-15/ufc310.jpg'
+import ufc297 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc297.jpg'
+import ufc298 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc298_preview.jpg'
+import ufc299 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc299.jpg'
+import ufc300MainEvent from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc300.jpeg'
+import ufc301 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc301-preview.jpg'
+import ufc302 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc302-preview.jpg'
+import ufc303 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc303-preview.jpg'
+import ufc304 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc304.jpg'
+import ufc305 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc305.jpg'
+import ufc306 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc306.jpg'
+import ufc307 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc307.jpg'
+import ufc308 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc308.jpg'
+import ufc309 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc309.jpg'
+import ufc310 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc310.jpg'
 /* UFC FIGHT NIGHT IMAGES */
-import whittakerVSaliskerov from '@/assets/covertura_ufc/fight_night/0-15/whittaker-vs-aliskerov.jpg'
-import lewisVsNascimento from '@/assets/covertura_ufc/fight_night/0-15/lewis-vs-nascimento-preview.jpg'
-import cannonierVSimano from '@/assets/covertura_ufc/fight_night/0-15/fightnight-cannonier-imanov-preview.jpg'
+import whittakerVSaliskerov from '@/assets/covertura_ufc/fight_night/0-100/0-15/whittaker-vs-aliskerov.jpg'
+import lewisVsNascimento from '@/assets/covertura_ufc/fight_night/0-100/0-15/lewis-vs-nascimento-preview.jpg'
+import cannonierVSimano from '@/assets/covertura_ufc/fight_night/0-100/0-15/fightnight-cannonier-imanov-preview.jpg'
 import sandhagenVSnurmagomedov from '@/assets/peleadores__images/0-100/30-40/umar-nurmagomedov/umar_nurmagomedov-card.jpg'
-import moicanoVSsaintdenis from '@/assets/covertura_ufc/fight_night/0-15/moicano_vs_saintdenis.jpg'
-import yanVSfigueiredo from '@/assets/covertura_ufc/fight_night/0-15/yan-vs-figueiredo.jpg'
+import moicanoVSsaintdenis from '@/assets/covertura_ufc/fight_night/0-100/0-15/moicano_vs_saintdenis.jpg'
+import yanVSfigueiredo from '@/assets/covertura_ufc/fight_night/0-100/0-15/yan-vs-figueiredo.jpg'
+import ufcTampa from '@/assets/covertura_ufc/fight_night/0-100/0-15/covington-vs-buckley.jpg'
 
 
 export default function CoverturaUFC () {
@@ -46,6 +47,7 @@ export default function CoverturaUFC () {
             </section>
             <h2 className={styles.covertura__subtitle}>UFC Fight Night</h2>
             <section className={styles.covertura__articles__container}>
+                <ArticlePreview img={ufcTampa} url='/covertura-ufc/fight-night-covington-buckley' title='UFC TAMPA: ¡Joaquin Buckley Gana a Colby Covington por TKO! ¡Joel Álvarez Noquea a Drakkar Klose!' author={null} text='Manel Kape logra una victoria por Nocaut en el tercer asalto de la pelea. Cub Swanson derrota a Billy Quarantillo por nocaut en el tercer asalto en la pelea de la noche. ' date='14/12/2024' />
                 <ArticlePreview img={yanVSfigueiredo} url='/covertura-ufc/fight-night-yan-figueiredo' title='UFC CHINA: ¡Yan Xiaonan Derrota a Tabatha Ricci! ¡Petr Yan Derrota a Deiveson Figueiredo en la Pelea de la Noche!' author={null} text='Carlos Ulberg derrota a Vokan Oezdemir por decisión en una excelente actuación por su parte. Gabriella Fernandes da la sorpresa y Somete a Wang Cong. Muslim Salikhov noquea a Song Kenan en el primer asalto.' date='23/11/2024' />
                 <ArticlePreview img={moicanoVSsaintdenis} url='/covertura-ufc/fight-night-moicano-saintdenis' title='UFC FRANCIA: ¡Renato Moicano Derrota a Benoit Saint Denis TKO en el Segundo Asalto! ¡Imavov Derrota a Allen Por Decisión Unánime! ¡Ailín Pérez Somete en el Primer Asalto a Zhelezniakova!' author={null} text='Noche de UFC en Francia donde tuvimos la victoria de la argentina Ailín Pérez en el primer asalto por sumisión y la victoria del español Daniel Barez por decisión unánime.' date='28/09/2024' />
                 <ArticlePreview img={sandhagenVSnurmagomedov} url='/covertura-ufc/fight-night-sandhagen-nurmagomedov' title='UFC FIGHT NIGHT: ¡Umar Nurmagomedov Gana Por Decisión Unánime a Cory! ¡El Ecuatoriano Marlon Vera Cae Derrotado por el Brasileño Figueiredo Por Decisión Unánime!' author={null} text='Joel Álvarez gana por nocaut en el tercer asalto de la pelea. Tony Ferguson vuelve a perder una vez más, cayendo derrotado en esta ocasión ante Michael Chiesa, y dejando entrever su retiro. Shara Bullet gana por decisión unánime su tercer pelea en la UFC.' date='03/08/2024' />

@@ -3,14 +3,14 @@ import styles from './covertura.module.css'
 import Image from 'next/image'
 import HomeArticle from '../noticias/HomeArticle'
 /* IMAGES */
-import ufc310 from '@/assets/covertura_ufc/ufc/0-15/ufc310.jpg'
-import ufc309 from '@/assets/covertura_ufc/ufc/0-15/ufc309.jpg'
-import ufc308 from '@/assets/covertura_ufc/ufc/0-15/ufc308.jpg'
-import ufc307 from '@/assets/covertura_ufc/ufc/0-15/ufc307.jpg'
-import ufc306 from '@/assets/covertura_ufc/ufc/0-15/ufc306.jpg'
-import ufc305 from '@/assets/covertura_ufc/ufc/0-15/ufc305.jpg'
-import ufc304 from '@/assets/covertura_ufc/ufc/0-15/ufc304.jpg'
-import ufc303 from '@/assets/covertura_ufc/ufc/0-15/ufc303-preview.jpg'
+import ufc310 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc310.jpg'
+import ufc309 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc309.jpg'
+import ufc308 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc308.jpg'
+import ufc307 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc307.jpg'
+import ufc306 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc306.jpg'
+import ufc305 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc305.jpg'
+import ufc304 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc304.jpg'
+import ufc303 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc303-preview.jpg'
 
 export default function CoverturaUFC () {
     return(
