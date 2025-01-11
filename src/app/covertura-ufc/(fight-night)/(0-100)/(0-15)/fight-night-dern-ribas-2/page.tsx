@@ -10,10 +10,10 @@ import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Mackenzie Dern vs Amanda Ribas 2',
-    description: '',
+    description: 'Primer evento de UFC en el UFC APEX, que nos trae la vuelta de Santiago Ponzinibbio, y la pelea estelar entre Mackenzie Dern y Amanda Ribas, que se enfrentarán en una revancha luego de su combate en el 2019.',
     openGraph: {
         title: 'Mackenzie Dern vs Amanda Ribas 2',
-        description: '',
+        description: 'Primer evento de UFC en el UFC APEX, que nos trae la vuelta de Santiago Ponzinibbio, y la pelea estelar entre Mackenzie Dern y Amanda Ribas, que se enfrentarán en una revancha luego de su combate en el 2019.',
         url: 'https://fullmma.org/covertura-ufc/fight-night-dern-ribas-2'
     }
 }
@@ -33,21 +33,21 @@ export default function DernRibas2 () {
                     <h2>Thiago Moises Derrota a Trey Ogden Por Decisión</h2>
                     <p>El brasileño Thiago Moises logra una contundente victoria por decisión, en un combate donde fue de menos a más, utilizando el primer asalto especialmente para castigar a su rival con leg-kicks, en una estrategia que le dió frutos en el segundo asalto, puesto que para ese punto la pierna de Trey Ogden estaba destrozada. De esta manera el brasileño logra recomponerse de su última derrota ante <b>Ludovit Klein</b>, y extiende su récord a 19-8. </p>
                     {/* <h2>Marco Tulio vs Ihor Potieria</h2>
-                    <p></p>
-                    <h2>Joe Johnson vs Felipe Bunes</h2>
-                    <p></p>
-                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <p></p> */}
+                    {/* <h2>Joe Johnson vs Felipe Bunes</h2>
+                    <p></p> */}
+                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Punahele Soriano vs Uros Medic</h2>
-                    <p></p>
-                    <h2>Christian Rodriguez vs Austin Bashi</h2>
-                    <p></p>
-                    <h2>Chirs Curtis vs Roman Kopylov</h2>
-                    <p></p>
-                    <h2>Cesar Almeida vs Abdul Razak Alhassan</h2>
-                    <p></p>
-                    <h2>Santiago Ponzinibbio vs Carlston Harris</h2>
-                    <p></p>
-                    <h2>Mackenzie Dern vs Amanda Ribas</h2>
+                    <p></p> */}
+                    {/* <h2>Christian Rodriguez vs Austin Bashi</h2>
+                    <p></p> */}
+                    {/* <h2>Chirs Curtis vs Roman Kopylov</h2>
+                    <p></p> */}
+                    {/* <h2>Cesar Almeida vs Abdul Razak Alhassan</h2>
+                    <p></p> */}
+                    {/* <h2>Santiago Ponzinibbio vs Carlston Harris</h2>
+                    <p></p> */}
+                    {/* <h2>Mackenzie Dern vs Amanda Ribas</h2>
                     <p></p> */}
                     <EndArticle />
                 </article>
