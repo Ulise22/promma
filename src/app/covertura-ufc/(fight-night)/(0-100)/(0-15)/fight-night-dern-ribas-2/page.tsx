@@ -35,8 +35,8 @@ export default function DernRibas2 () {
                     <h2>Marco Tulio Noquea a Ihor Potieria en el Primer Asalto</h2>
                     <p>El prospecto brasileño se lleva la victoria por la vía del nocaut en el primer asalto. Luego de que la pelea estuviera parada alrededor de un minuto, debido a un rodillazo en las zonas bajas accidental por parte del brasileño, logró conectar un golpe espectácular que llevó a su rival al suelo.</p>
                     <p>Luego de tener que luchar para poder seguir conectando golpes, castigando con el ground and pound, el brasileño fue capaz de conectar el golpe que dejaría KO a su rival <b>Ihor Potieria</b>. De esta forma, este se convierte en el tercer KO/TKO de la noche. </p>
-                    {/* <h2>Joe Johnson vs Felipe Bunes</h2>
-                    <p></p> */}
+                    <h2>Felipe Bunes Somete a Joe Johnson en el Primer Asalto</h2>
+                    <p>El brasileño Felipe Bunes logra una increíble victoria, cuando parecía que estaba sufriendo mucho en el striking, fue capaz de concretar un derribo que fue convirtiendo poco a poco en lo que sería una finalización por sumisión, al conectar un armbar que obligó a su rival <b>Jose Johnson</b> a tapear. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Punahele Soriano vs Uros Medic</h2>
                     <p></p> */}
