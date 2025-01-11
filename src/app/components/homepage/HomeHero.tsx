@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufcTampa from '@/assets/covertura_ufc/fight_night/0-100/0-15/covington-vs-buckley.jpg'
+import ufcVegas101 from '@/assets/covertura_ufc/fight_night/0-100/0-15/fight-night-dern-ribas-2.jpg'
 import iliaPeleador2024 from '@/assets/noticias/0-100/0-10/ilia_peleador_2024.jpg'
 import bestEventsUFC2024 from '@/assets/noticias/0-100/20-30/best_ufc_events.jpg'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-covington-buckley'>
-                <Image className={styles.homehero__bigArticle__img} src={ufcTampa} alt='' />
-                <h2 className={styles.home__title}>UFC TAMPA: ¡Joaquin Buckley Gana a Colby Covington por TKO! ¡Joel Álvarez Noquea a Drakkar Klose!</h2>
-                <span>Manel Kape logra una victoria por Nocaut en el tercer asalto de la pelea. Cub Swanson derrota a Billy Quarantillo por nocaut en el tercer asalto en la pelea de la noche. </span>
+            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-dern-ribas-2'>
+                <Image className={styles.homehero__bigArticle__img} src={ufcVegas101} alt='' />
+                <h2 className={styles.home__title}>UFC VEGAS 101: ¡Mackenzie Dern vs Amanda Ribas! Santiago Ponzinibbio vs Carlston Harris!</h2>
+                <span>Primer evento de UFC del año con presencia Argentina en una nueva pelea de Santiago Ponzinibbio, y con Brasil como protagonista en una pelea en peso paja femenino.</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/mejores-eventos-ufc-2024'>
                 <Image className={styles.homehero__article__img} loading='lazy' src={bestEventsUFC2024} alt='' />
