@@ -28,7 +28,7 @@ export default function DernRibas2 () {
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2>Ernest Kareckaité vs Nicolle Caliari</h2>
                     <p>En un combate bastante entretenido, la peleadora de Lituania, <b>Ernest Kareckaité</b> se llevó la victoria por decisión dividida en una pelea que no era fácil de puntuar. La brasileña Nicolle Caliari intentó en varias ocasiones concretar un derribo contra su rival, y recién en el tercer asalto lo consiguió, pero no sirvió de mucho, puesto que Ernest ya había sumado los puntos necesarios, mediante el striking, para llevarse la victoria cómodamente. </p>
-                    <h2>Preston Parsons vs Jacobe Smith</h2>
+                    {/* <h2>Preston Parsons vs Jacobe Smith</h2>
                     <p></p>
                     <h2>Thiago Moises vs Trey Ogden</h2>
                     <p></p>
@@ -48,7 +48,7 @@ export default function DernRibas2 () {
                     <h2>Santiago Ponzinibbio vs Carlston Harris</h2>
                     <p></p>
                     <h2>Mackenzie Dern vs Amanda Ribas</h2>
-                    <p></p>
+                    <p></p> */}
                     <EndArticle />
                 </article>
                 <AsideChamps />
