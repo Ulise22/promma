@@ -32,8 +32,9 @@ export default function DernRibas2 () {
                     <p>Jacobe Smith se lleva la victoria en su debut con un espectacular KO en el primer asalto, luego de conectar un gancho de izquierda que tumbó a su rival de inmediato. De esta manera el estadounidese se mantiene invicto y extiende su récord invicto a 10-0, dando una impresionante actuación en su presentación como luchador de la UFC. </p>
                     <h2>Thiago Moises Derrota a Trey Ogden Por Decisión</h2>
                     <p>El brasileño Thiago Moises logra una contundente victoria por decisión, en un combate donde fue de menos a más, utilizando el primer asalto especialmente para castigar a su rival con leg-kicks, en una estrategia que le dió frutos en el segundo asalto, puesto que para ese punto la pierna de Trey Ogden estaba destrozada. De esta manera el brasileño logra recomponerse de su última derrota ante <b>Ludovit Klein</b>, y extiende su récord a 19-8. </p>
-                    {/* <h2>Marco Tulio vs Ihor Potieria</h2>
-                    <p></p> */}
+                    <h2>Marco Tulio Noquea a Ihor Potieria en el Primer Asalto</h2>
+                    <p>El prospecto brasileño se lleva la victoria por la vía del nocaut en el primer asalto. Luego de que la pelea estuviera parada alrededor de un minuto, debido a un rodillazo en las zonas bajas accidental por parte del brasileño, logró conectar un golpe espectácular que llevó a su rival al suelo.</p>
+                    <p>Luego de tener que luchar para poder seguir conectando golpes, castigando con el ground and pound, el brasileño fue capaz de conectar el golpe que dejaría KO a su rival <b>Ihor Potieria</b>. De esta forma, este se convierte en el tercer KO/TKO de la noche. </p>
                     {/* <h2>Joe Johnson vs Felipe Bunes</h2>
                     <p></p> */}
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
