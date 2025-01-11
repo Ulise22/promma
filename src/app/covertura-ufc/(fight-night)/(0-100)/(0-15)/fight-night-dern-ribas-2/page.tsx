@@ -26,11 +26,11 @@ export default function DernRibas2 () {
                 <article className={styles.article}>
                     <p>Primer evento del año de UFC en el UFC APEX Arena, con un montón de peleas que nos trae como evento estelar el combate entre las brasileñas <Link href='/mujeres/mackenzie-dern'>Mackenzie Dern</Link> y <b>Amanda Ribas</b>, en su revancha luego de lo que fue su combate en 2019, que terminó con Amanda Ribas siendo la vencedora por decisión unánime. Además, como presencias destacadas tenemos la vuelta del argentino <Link href='/peleadores/santiago-ponzinibbio'>Santiago Ponzinibbio</Link>, quien en la pelea coestelar enfrentará al luchador de Guyana <b>Carlston Harris</b>. También contamos con la presencia del ex peleador de kickboxing, <b>Cesar Almeida</b>, quien en su carrera supo vencer en una ocasión a <Link href='/peleadores/alex-pereira'>Alex Pereira</Link>, y quien buscara reponerse de lo que fue su última derrota ante el ruso <b>Roman Koplov</b>, quien también estará hoy presente enfrentando a <b>Chris Curtis</b>. </p>
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
-                    <h2>Ernest Kareckaité vs Nicolle Caliari</h2>
+                    <h2>Ernest Kareckaité Derrota a Nicolle Caliari Por Decisión Dividida</h2>
                     <p>En un combate bastante entretenido, la peleadora de Lituania, <b>Ernest Kareckaité</b> se llevó la victoria por decisión dividida en una pelea que no era fácil de puntuar. La brasileña Nicolle Caliari intentó en varias ocasiones concretar un derribo contra su rival, y recién en el tercer asalto lo consiguió, pero no sirvió de mucho, puesto que Ernest ya había sumado los puntos necesarios, mediante el striking, para llevarse la victoria cómodamente. </p>
-                    {/* <h2>Preston Parsons vs Jacobe Smith</h2>
-                    <p></p>
-                    <h2>Thiago Moises vs Trey Ogden</h2>
+                    <h2>Jacobe Smith Noquea a Preston Parsons En el Primer Asalto</h2>
+                    <p>Jacobe Smith se lleva la victoria en su debut con un espectacular KO en el primer asalto, luego de conectar un gancho de izquierda que tumbó a su rival de inmediato. De esta manera el estadounidese se mantiene invicto y extiende su récord invicto a 10-0, dando una impresionante actuación en su presentación como luchador de la UFC. </p>
+                    {/* <h2>Thiago Moises vs Trey Ogden</h2>
                     <p></p>
                     <h2>Marco Tulio vs Ihor Potieria</h2>
                     <p></p>
