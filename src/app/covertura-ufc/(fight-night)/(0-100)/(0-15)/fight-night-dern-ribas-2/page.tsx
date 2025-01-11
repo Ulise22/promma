@@ -30,9 +30,9 @@ export default function DernRibas2 () {
                     <p>En un combate bastante entretenido, la peleadora de Lituania, <b>Ernest Kareckaité</b> se llevó la victoria por decisión dividida en una pelea que no era fácil de puntuar. La brasileña Nicolle Caliari intentó en varias ocasiones concretar un derribo contra su rival, y recién en el tercer asalto lo consiguió, pero no sirvió de mucho, puesto que Ernest ya había sumado los puntos necesarios, mediante el striking, para llevarse la victoria cómodamente. </p>
                     <h2>Jacobe Smith Noquea a Preston Parsons En el Primer Asalto</h2>
                     <p>Jacobe Smith se lleva la victoria en su debut con un espectacular KO en el primer asalto, luego de conectar un gancho de izquierda que tumbó a su rival de inmediato. De esta manera el estadounidese se mantiene invicto y extiende su récord invicto a 10-0, dando una impresionante actuación en su presentación como luchador de la UFC. </p>
-                    {/* <h2>Thiago Moises vs Trey Ogden</h2>
-                    <p></p>
-                    <h2>Marco Tulio vs Ihor Potieria</h2>
+                    <h2>Thiago Moises Derrota a Trey Ogden Por Decisión</h2>
+                    <p>El brasileño Thiago Moises logra una contundente victoria por decisión, en un combate donde fue de menos a más, utilizando el primer asalto especialmente para castigar a su rival con leg-kicks, en una estrategia que le dió frutos en el segundo asalto, puesto que para ese punto la pierna de Trey Ogden estaba destrozada. De esta manera el brasileño logra recomponerse de su última derrota ante <b>Ludovit Klein</b>, y extiende su récord a 19-8. </p>
+                    {/* <h2>Marco Tulio vs Ihor Potieria</h2>
                     <p></p>
                     <h2>Joe Johnson vs Felipe Bunes</h2>
                     <p></p>
