@@ -43,8 +43,8 @@ export default function DernRibas2 () {
                     <h2>Christian Rodriguez Derrota a Austin Bashi En Un Choque de Estilos</h2>
                     <p><b>Christian Rodriguez</b> se lleva la victoria ante el debutante <b>Austin Bashi</b>, quien pierde el invicto en su debut en la UFC, en una pelea que fue un claro choque de estilos, con Rodriguez siendo un striker que fue capaz de defender practicamente todos los intentos de derribo de Bashi, quien tiene mucha experiencia en la lucha, y que llegaba a este combate como invicto. </p>
                     <p>De esta manera, Christian extiende su récord a 12-2, habiendo ganado 5 de sus últimas 6 victorias. El luchador no dudó en pedir una pelea en México, que está próxima a hacerse, hablando en un perfecto español. </p>
-                    {/* <h2>Chirs Curtis vs Roman Kopylov</h2>
-                    <p></p> */}
+                    <h2>Roman Kopylov Noquea a Chirs Curtis Falta un Segundo Para que Termine la Pelea</h2>
+                    <p>Tremenda pelea la que nos regalaron estos 2 luchadores, a los que sólo hace falta verles las caras luego del combate para entender que lo que vivieron fue una absoluta guerra. Finalmente quien se terminó llevando la victoria fue el ruso, quien conectó una patada a pocos segundos de que termine la pelea, para que el árbitro parara la pelea faltando un segundo para que termine el combate, terminando en una victoria por KO para Kopylov. </p>
                     {/* <h2>Cesar Almeida vs Abdul Razak Alhassan</h2>
                     <p></p> */}
                     {/* <h2>Santiago Ponzinibbio vs Carlston Harris</h2>
