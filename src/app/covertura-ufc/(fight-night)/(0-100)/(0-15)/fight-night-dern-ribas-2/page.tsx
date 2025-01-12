@@ -37,9 +37,9 @@ export default function DernRibas2 () {
                     <p>Luego de tener que luchar para poder seguir conectando golpes, castigando con el ground and pound, el brasileño fue capaz de conectar el golpe que dejaría KO a su rival <b>Ihor Potieria</b>. De esta forma, este se convierte en el tercer KO/TKO de la noche. </p>
                     <h2>Felipe Bunes Somete a Joe Johnson en el Primer Asalto</h2>
                     <p>El brasileño Felipe Bunes logra una increíble victoria, cuando parecía que estaba sufriendo mucho en el striking, fue capaz de concretar un derribo que fue convirtiendo poco a poco en lo que sería una finalización por sumisión, al conectar un armbar que obligó a su rival <b>Jose Johnson</b> a tapear. De esta manera damos por terminada la cartelera preliminar con 4 finalizaciones en total, siendo esta la primera sumisión del año en la UFC.</p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2>Punahele Soriano vs Uros Medic</h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Punahele Soriano Noquea a Uros Medic en el Primer Asalto</h2>
+                    <p>El estadounidense logra una estupenda victoria por la vía del nocuat ante el serbio <b>Uros Medic</b>, luego de que una mano derecha que fue directo al mentón noqueara completamente a su rival. De esta manera, el luchador de peso wélter, consigue la quinta finalización de la noche, dejando un trabajo muy difícil para Dana White, que tendrá que determinar qué peleadores ganaran un bono. Sin dudas Soriano es uno de los principales candidatos luego de lo que fue un nocaut muy estético. </p>
                     {/* <h2>Christian Rodriguez vs Austin Bashi</h2>
                     <p></p> */}
                     {/* <h2>Chirs Curtis vs Roman Kopylov</h2>
