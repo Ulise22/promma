@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function DernRibas2 () {
     return(
         <main>
-            <ArticleHero title='UFC VEGAS 101: ¡Mackenzie Dern vs Amanda Ribas! Santiago Ponzinibbio vs Carlston Harris!' subtitle='Primer evento de UFC del año con presencia Argentina en una nueva pelea de Santiago Ponzinibbio, y con Brasil como protagonista en una pelea en peso paja femenino.' image={hero} date='2025-01-11' author={null} updatedDate={null} />
+            <ArticleHero title='UFC VEGAS 101: ¡Mackenzie Dern vs Amanda Ribas! ¡Santiago Ponzinibbio vs Carlston Harris!' subtitle='Roman Kapylov noquea a Chris Curtis faltando un segundo para que termine la pelea. ¡Cesar Almeida deja KO a su rival en el primer asalto!' image={hero} date='2025-01-11' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Primer evento del año de UFC en el UFC APEX Arena, con un montón de peleas que nos trae como evento estelar el combate entre las brasileñas <Link href='/mujeres/mackenzie-dern'>Mackenzie Dern</Link> y <b>Amanda Ribas</b>, en su revancha luego de lo que fue su combate en 2019, que terminó con Amanda Ribas siendo la vencedora por decisión unánime. Además, como presencias destacadas tenemos la vuelta del argentino <Link href='/peleadores/santiago-ponzinibbio'>Santiago Ponzinibbio</Link>, quien en la pelea coestelar enfrentará al luchador de Guyana <b>Carlston Harris</b>. También contamos con la presencia del ex peleador de kickboxing, <b>Cesar Almeida</b>, quien en su carrera supo vencer en una ocasión a <Link href='/peleadores/alex-pereira'>Alex Pereira</Link>, y quien buscara reponerse de lo que fue su última derrota ante el ruso <b>Roman Koplov</b>, quien también estará hoy presente enfrentando a <b>Chris Curtis</b>. </p>
@@ -45,8 +45,8 @@ export default function DernRibas2 () {
                     <p>De esta manera, Christian extiende su récord a 12-2, habiendo ganado 5 de sus últimas 6 victorias. El luchador no dudó en pedir una pelea en México, que está próxima a hacerse, hablando en un perfecto español. </p>
                     <h2>Roman Kopylov Noquea a Chirs Curtis Falta un Segundo Para que Termine la Pelea</h2>
                     <p>Tremenda pelea la que nos regalaron estos 2 luchadores, a los que sólo hace falta verles las caras luego del combate para entender que lo que vivieron fue una absoluta guerra. Finalmente quien se terminó llevando la victoria fue el ruso, quien conectó una patada a pocos segundos de que termine la pelea, para que el árbitro parara la pelea faltando un segundo para que termine el combate, terminando en una victoria por KO para Kopylov. </p>
-                    {/* <h2>Cesar Almeida vs Abdul Razak Alhassan</h2>
-                    <p></p> */}
+                    <h2>Cesar Almeida Noquea a Abdul Razak Alhassan En el Primer Asalto</h2>
+                    <p>El brasileño logra una victoria que sin dudas le dará el bono de $50k a la actuación de la noche, luego de que fuera capaz de reponerse de una pelea que estaba perdiendo, habiendo recibido un knockdown que lo tiró al piso. Sin embargo, Cesar Almeida fue capaz de ponerse de pie, y, cuando parecía que estaba recibiendo más golpes de los que estaba dando, conectó un gancho de izquierda que mandó a dormir a su rival. Sin dudas, una de las actuaciones de la noche. </p>
                     {/* <h2>Santiago Ponzinibbio vs Carlston Harris</h2>
                     <p></p> */}
                     {/* <h2>Mackenzie Dern vs Amanda Ribas</h2>
