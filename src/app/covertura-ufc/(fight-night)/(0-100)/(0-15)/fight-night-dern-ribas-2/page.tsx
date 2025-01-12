@@ -47,8 +47,8 @@ export default function DernRibas2 () {
                     <p>Tremenda pelea la que nos regalaron estos 2 luchadores, a los que sólo hace falta verles las caras luego del combate para entender que lo que vivieron fue una absoluta guerra. Finalmente quien se terminó llevando la victoria fue el ruso, quien conectó una patada a pocos segundos de que termine la pelea, para que el árbitro parara la pelea faltando un segundo para que termine el combate, terminando en una victoria por KO para Kopylov. </p>
                     <h2>Cesar Almeida Noquea a Abdul Razak Alhassan En el Primer Asalto</h2>
                     <p>El brasileño logra una victoria que sin dudas le dará el bono de $50k a la actuación de la noche, luego de que fuera capaz de reponerse de una pelea que estaba perdiendo, habiendo recibido un knockdown que lo tiró al piso. Sin embargo, Cesar Almeida fue capaz de ponerse de pie, y, cuando parecía que estaba recibiendo más golpes de los que estaba dando, conectó un gancho de izquierda que mandó a dormir a su rival. Sin dudas, una de las actuaciones de la noche. </p>
-                    {/* <h2>Santiago Ponzinibbio vs Carlston Harris</h2>
-                    <p></p> */}
+                    <h2>Santiago Ponzinibbio Gana por TKO Carlston Harris en el Tercer Asalto</h2>
+                    <p>Tremendo combate por parte del argentino <Link href='/peleadores/santiago-ponzinibbio'>Santiago Ponzinibbio</Link>, que ante un difícil rival que lo puso en aprietos en más de una ocasión, fue capaz de reponerse y lograr una tremenda victoria por la vía del TKO en el tercer asalto, luego de castigar mucho con esa mano derecha a su rival. De esta manera tienen un tremendo inicio las MMA en Argentina y Latinoamérica, que comienzan el año con la victoria de Ponzinibbio por TKO, que llega luego de 2 derrotas consecutivas. </p>
                     {/* <h2>Mackenzie Dern vs Amanda Ribas</h2>
                     <p></p> */}
                     <EndArticle />
