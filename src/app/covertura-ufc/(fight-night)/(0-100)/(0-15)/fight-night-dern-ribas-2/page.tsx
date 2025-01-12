@@ -40,8 +40,9 @@ export default function DernRibas2 () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Punahele Soriano Noquea a Uros Medic en el Primer Asalto</h2>
                     <p>El estadounidense logra una estupenda victoria por la vía del nocuat ante el serbio <b>Uros Medic</b>, luego de que una mano derecha que fue directo al mentón noqueara completamente a su rival. De esta manera, el luchador de peso wélter, consigue la quinta finalización de la noche, dejando un trabajo muy difícil para Dana White, que tendrá que determinar qué peleadores ganaran un bono. Sin dudas Soriano es uno de los principales candidatos luego de lo que fue un nocaut muy estético. </p>
-                    {/* <h2>Christian Rodriguez vs Austin Bashi</h2>
-                    <p></p> */}
+                    <h2>Christian Rodriguez Derrota a Austin Bashi En Un Choque de Estilos</h2>
+                    <p><b>Christian Rodriguez</b> se lleva la victoria ante el debutante <b>Austin Bashi</b>, quien pierde el invicto en su debut en la UFC, en una pelea que fue un claro choque de estilos, con Rodriguez siendo un striker que fue capaz de defender practicamente todos los intentos de derribo de Bashi, quien tiene mucha experiencia en la lucha, y que llegaba a este combate como invicto. </p>
+                    <p>De esta manera, Christian extiende su récord a 12-2, habiendo ganado 5 de sus últimas 6 victorias. El luchador no dudó en pedir una pelea en México, que está próxima a hacerse, hablando en un perfecto español. </p>
                     {/* <h2>Chirs Curtis vs Roman Kopylov</h2>
                     <p></p> */}
                     {/* <h2>Cesar Almeida vs Abdul Razak Alhassan</h2>
