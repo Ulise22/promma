@@ -23,6 +23,7 @@ import sandhagenVSnurmagomedov from '@/assets/peleadores__images/0-100/30-40/uma
 import moicanoVSsaintdenis from '@/assets/covertura_ufc/fight_night/0-100/0-15/moicano_vs_saintdenis.jpg'
 import yanVSfigueiredo from '@/assets/covertura_ufc/fight_night/0-100/0-15/yan-vs-figueiredo.jpg'
 import ufcTampa from '@/assets/covertura_ufc/fight_night/0-100/0-15/covington-vs-buckley.jpg'
+import ufcVegas101 from '@/assets/covertura_ufc/fight_night/0-100/0-15/fight-night-dern-ribas-2.jpg'
 
 
 export default function CoverturaUFC () {
@@ -47,6 +48,7 @@ export default function CoverturaUFC () {
             </section>
             <h2 className={styles.covertura__subtitle}>UFC Fight Night</h2>
             <section className={styles.covertura__articles__container}>
+                <ArticlePreview img={ufcVegas101} url='/covertura-ufc/fight-night-dern-ribas-2' title='UFC VEGAS 101: ¡Mackenzie Dern Somete a Amanda Ribas al Final del Tercer Asalto! ¡Santiago Ponzinibbio Vence Por TKO a Carlston Harris en el Tercer Asalto!' author={null} text='Roman Kapylov noquea a Chris Curtis faltando un segundo para que termine la pelea. ¡Cesar Almeida deja KO a su rival en el primer asalto!' date='11/01/2025' />
                 <ArticlePreview img={ufcTampa} url='/covertura-ufc/fight-night-covington-buckley' title='UFC TAMPA: ¡Joaquin Buckley Gana a Colby Covington por TKO! ¡Joel Álvarez Noquea a Drakkar Klose!' author={null} text='Manel Kape logra una victoria por Nocaut en el tercer asalto de la pelea. Cub Swanson derrota a Billy Quarantillo por nocaut en el tercer asalto en la pelea de la noche. ' date='14/12/2024' />
                 <ArticlePreview img={yanVSfigueiredo} url='/covertura-ufc/fight-night-yan-figueiredo' title='UFC CHINA: ¡Yan Xiaonan Derrota a Tabatha Ricci! ¡Petr Yan Derrota a Deiveson Figueiredo en la Pelea de la Noche!' author={null} text='Carlos Ulberg derrota a Vokan Oezdemir por decisión en una excelente actuación por su parte. Gabriella Fernandes da la sorpresa y Somete a Wang Cong. Muslim Salikhov noquea a Song Kenan en el primer asalto.' date='23/11/2024' />
                 <ArticlePreview img={moicanoVSsaintdenis} url='/covertura-ufc/fight-night-moicano-saintdenis' title='UFC FRANCIA: ¡Renato Moicano Derrota a Benoit Saint Denis TKO en el Segundo Asalto! ¡Imavov Derrota a Allen Por Decisión Unánime! ¡Ailín Pérez Somete en el Primer Asalto a Zhelezniakova!' author={null} text='Noche de UFC en Francia donde tuvimos la victoria de la argentina Ailín Pérez en el primer asalto por sumisión y la victoria del español Daniel Barez por decisión unánime.' date='28/09/2024' />
