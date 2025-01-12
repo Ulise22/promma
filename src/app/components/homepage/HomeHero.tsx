@@ -11,8 +11,8 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-dern-ribas-2'>
                 <Image className={styles.homehero__bigArticle__img} src={ufcVegas101} alt='' />
-                <h2 className={styles.home__title}>UFC VEGAS 101: ¡Mackenzie Dern vs Amanda Ribas! Santiago Ponzinibbio vs Carlston Harris!</h2>
-                <span>Primer evento de UFC del año con presencia Argentina en una nueva pelea de Santiago Ponzinibbio, y con Brasil como protagonista en una pelea en peso paja femenino.</span>
+                <h2 className={styles.home__title}>UFC VEGAS 101: ¡Mackenzie Dern Somete a Amanda Ribas al Final del Tercer Asalto! ¡Santiago Ponzinibbio Vence Por TKO a Carlston Harris en el Tercer Asalto!</h2>
+                <span>Roman Kapylov noquea a Chris Curtis faltando un segundo para que termine la pelea. ¡Cesar Almeida deja KO a su rival en el primer asalto!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/mejores-eventos-ufc-2024'>
                 <Image className={styles.homehero__article__img} loading='lazy' src={bestEventsUFC2024} alt='' />

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function DernRibas2 () {
     return(
         <main>
-            <ArticleHero title='UFC VEGAS 101: ¡Mackenzie Dern vs Amanda Ribas! ¡Santiago Ponzinibbio Vence Por TKO a Carlston Harris en el Tercer Asalto!' subtitle='Roman Kapylov noquea a Chris Curtis faltando un segundo para que termine la pelea. ¡Cesar Almeida deja KO a su rival en el primer asalto!' image={hero} date='2025-01-11' author={null} updatedDate={null} />
+            <ArticleHero title='UFC VEGAS 101: ¡Mackenzie Dern Somete a Amanda Ribas al Final del Tercer Asalto! ¡Santiago Ponzinibbio Vence Por TKO a Carlston Harris en el Tercer Asalto!' subtitle='Roman Kapylov noquea a Chris Curtis faltando un segundo para que termine la pelea. ¡Cesar Almeida deja KO a su rival en el primer asalto!' image={hero} date='2025-01-11' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Primer evento del año de UFC en el UFC APEX Arena, con un montón de peleas que nos trae como evento estelar el combate entre las brasileñas <Link href='/mujeres/mackenzie-dern'>Mackenzie Dern</Link> y <b>Amanda Ribas</b>, en su revancha luego de lo que fue su combate en 2019, que terminó con Amanda Ribas siendo la vencedora por decisión unánime. Además, como presencias destacadas tenemos la vuelta del argentino <Link href='/peleadores/santiago-ponzinibbio'>Santiago Ponzinibbio</Link>, quien en la pelea coestelar enfrentará al luchador de Guyana <b>Carlston Harris</b>. También contamos con la presencia del ex peleador de kickboxing, <b>Cesar Almeida</b>, quien en su carrera supo vencer en una ocasión a <Link href='/peleadores/alex-pereira'>Alex Pereira</Link>, y quien buscara reponerse de lo que fue su última derrota ante el ruso <b>Roman Koplov</b>, quien también estará hoy presente enfrentando a <b>Chris Curtis</b>. </p>
@@ -49,8 +49,9 @@ export default function DernRibas2 () {
                     <p>El brasileño logra una victoria que sin dudas le dará el bono de $50k a la actuación de la noche, luego de que fuera capaz de reponerse de una pelea que estaba perdiendo, habiendo recibido un knockdown que lo tiró al piso. Sin embargo, Cesar Almeida fue capaz de ponerse de pie, y, cuando parecía que estaba recibiendo más golpes de los que estaba dando, conectó un gancho de izquierda que mandó a dormir a su rival. Sin dudas, una de las actuaciones de la noche. </p>
                     <h2>Santiago Ponzinibbio Gana por TKO Carlston Harris en el Tercer Asalto</h2>
                     <p>Tremendo combate por parte del argentino <Link href='/peleadores/santiago-ponzinibbio'>Santiago Ponzinibbio</Link>, que ante un difícil rival que lo puso en aprietos en más de una ocasión, fue capaz de reponerse y lograr una tremenda victoria por la vía del TKO en el tercer asalto, luego de castigar mucho con esa mano derecha a su rival. De esta manera tienen un tremendo inicio las MMA en Argentina y Latinoamérica, que comienzan el año con la victoria de Ponzinibbio por TKO, que llega luego de 2 derrotas consecutivas. </p>
-                    {/* <h2>Mackenzie Dern vs Amanda Ribas</h2>
-                    <p></p> */}
+                    <h2>Mackenzie Dern Somete a Amanda Ribas en el Tercer Asalto</h2>
+                    <p><Link href='/mujeres/mackenzie-dern'>Mackenzie Dern</Link> logra una increíble victoria por sumisión en el tercer asalto de la primer pelea estelar del año, al ser capaz de conectar un armbar cuando el asalto estaba por terminar, consigueindo algo inédito, dado que hasta al momento ninguna peleadora había sido capaz de someter a Amanda Ribas.</p>
+                    <p>De esta manera, Dern consigue vengar su derrota de 2019 ante la brasileña, y cierra de la mejor manera lo que ha sido una tremenda cartelera para iniciar el año, con 9 finalizaciones en la noche, con 2 de ellas siendo por sumisión y 7 por la vía del nocaut. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
