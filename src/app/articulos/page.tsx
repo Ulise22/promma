@@ -25,6 +25,7 @@ import talbottSkateboard from '@/assets/articulos/0-100/10-20/payton_talbott_ska
 import salariosUFC from '@/assets/articulos/0-100/10-20/salarios_ufc.jpg'
 import rankingsUFC from '@/assets/articulos/0-100/10-20/ufc_rankings.jpg'
 /* 20-30 */
+import luchadoresFamososUFC from '@/assets/articulos/0-100/20-30/luchadores_ufc_mas_famosos.jpg'
 import requisitosEntrarUFC from '@/assets/articulos/0-100/20-30/requisitos_entrar_ufc.jpg'
 import jimMiller from '@/assets/articulos/0-100/20-30/jim-miller.jpg'
 import ufc from '@/assets/articulos/0-100/20-30/ufc.jpg'
@@ -61,13 +62,14 @@ export default function Articulos () {
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
+                <ArticlePreview img={luchadoresFamososUFC} url='/articulos/luchadores-ufc-mas-famosos' title='¿Quienes son los Peleadores de UFC Más Famosos? La lista de los 10 Peleadores con Más Seguidos' author={null} text='Compartiremos la lista de los 10 peleadores de UFC con más seguidores en Instagram. Que nos ayudará a descubrir quién es el peleador más famoso de todos en la UFC.' date='13/01/2024' />
                 <ArticlePreview img={requisitosEntrarUFC} url='/articulos/requisitos-para-entrar-a-ufc' title='¿Cómo ser peleador de la UFC? Las 5 formas de entrar a la UFC siendo peleador de MMA.' author={null} text='Los requisitos para entrar a la UFC y ser reclutado por la compañía. Las 5 vías por las que Dana White contrata peleadores profesionales.' date='12/01/2024' />
                 <ArticlePreview img={rankingsUFC} url='/articulos/como-funciona-el-ranking-ufc' title='Cómo Funciona el Ranking de la UFC: Qué significa ser el #1 de la UFC' author={null} text='Te explico cómo funcionan los rankings en la UFC, cuándo se actualizan y cómo se hacen, explicando quienes hacen los rankings y que tienen en cuenta. ' date='31/12/2024' />
                 <ArticlePreview img={salariosUFC} url='/articulos/cuanto-gana-un-peleador-de-ufc' title='¿Cuánto le pagan a un peleador de UFC? Los salarios de los peleadores más importantes de MMA' author={null} text='Cuánto ganan los peleadores de UFC, desde los novatos, un peleador promedio, un campeón, y cómo sus resultados influyen en el sueldo. ' date='27/12/2024' />
-                <ArticlePreview img={talbottSkateboard} url='/articulos/payton-talbott-skateboard' title='Payton Talbott: Cómo el Skateboard Influye en su Carrera en la UFC' author={null} text='La influencia que puede tener el skate, junto con otros hobbies, en un peleador de UFC como Payton Talbott. Además te contamos la historia de cómo Payton Talbott conoció a la leyenda del skateboard, Tony Hawk.' date='26/12/2024' />
             </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={talbottSkateboard} url='/articulos/payton-talbott-skateboard' title='Payton Talbott: Cómo el Skateboard Influye en su Carrera en la UFC' author={null} text='La influencia que puede tener el skate, junto con otros hobbies, en un peleador de UFC como Payton Talbott. Además te contamos la historia de cómo Payton Talbott conoció a la leyenda del skateboard, Tony Hawk.' date='26/12/2024' />
                 <ArticlePreview img={talbottTattoo} url='/articulos/payton-talbott-tattoo' title='¿Qué significan los tatuajes de Payton Talbott?' author={null} text='El significado de los tatuajes del peleador de la UFC Payton Talbott. ' date='21/12/2024' />
                 <ArticlePreview img={fightingNerds} url='/articulos/fighting-nerds' title='¿Quiénes son los Fighting Nerds? El Mejor Equipo de MMA que Arrasa en la UFC' author={null} text='La historia del equipo Fighting Nerds, quiénes son, su filosofía, y cómo llegaron hasta lo más alto de las MMA, dominando por completo la UFC.' date='09/12/2024' />
                 <ArticlePreview img={bestMAForMMA} url='/articulos/mejores-artes-marciales-para-mma' title='Las Mejores Artes Marciales Para MMA Según un Peleador Profesional' author={null} text='Repasamos cuáles son las mejores artes marciales para una pelea de MMA, según el luchador profesional Jeff Chan.' date='23/09/2024' />
