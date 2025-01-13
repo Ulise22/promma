@@ -6,7 +6,7 @@ export default function Atribuciones () {
             <h1>Atribuciones de Imagenes Utilizadas en el Sitio Web:</h1>
             <ul>
                 {/* <li>"Título de la obra" de [Autor], disponible en [Fuente], bajo la licencia [Tipo de Licencia].</li> */}
-                {/* Covertura UFC */}
+                {/* Cobertura UFC */}
                 <li>&quot;Derrick Lewis after UFC 239.jpg&quot; de <b>MMAnytt</b>, disponible en Wikimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Renato Moicano 2024.png&quot; de <b>Show Me The Money</b>, disponible en Wikimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
                 <li>&quot;Benoit Saint Denis 2023.png&quot; de <b>ZACK</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
@@ -68,6 +68,8 @@ export default function Atribuciones () {
                 <li>&quot;Santiago Ponzinibbio.jpg&quot; de <b>MMAnytt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
                 <li>&quot;Renato Moicano 2024.png&quot; de <b>Show Me The Money</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share 3.0</li>
                 <li>&quot;Joaquin Buckley.jpg&quot; de <b>Brockmlesnarladf</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
+                <li>&quot;Brandon Moreno with the UFC Flyweight Championship belt at UFC 290.png&quot; de <b>EKapp42</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 4.0</li>
+                <li>&quot;Brandon Moreno February 2021.jpg&quot; de <b>DiarioMMA</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
                 {/* Artículos */}
                 <li>&quot;Glover Teixeira, November 2021.jpg&quot; de <b>Apsanibel</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution-Share Alike 4.0</li>
                 <li>&quot;UFC 257 Conor McGregor vs Dustin Poirier 2 by WWESlashrocker54 on DeviantArt&quot; de <b>DevianArt</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
