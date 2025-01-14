@@ -92,6 +92,7 @@ export default function Atribuciones () {
                 <li>&quot;Ilia Topuria at the Orbeliani Palace.jpg&quot; de <b>საქართველოს პრეზიდენტის ადმინისტრაცია</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 4.0</li>
                 <li>&quot;Kai Asakura 2023.png&quot; de <b>ホタテマン0010</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 4.0</li>
                 <li>&quot;Salome Zourabichvili awards Ilia Topuria with the Order of Honor.jpg&quot; de <b>Unknown author</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 4.0</li>
+                <li>&quot;JiriProchazkaBelt2022.png&quot; de <b>Show Jana Krause</b>, disponible en Wimedia Commons bajo la licencia Creative Commons Attribution 3.0</li>
             </ul>
         </main>
     )
