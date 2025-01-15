@@ -13,7 +13,7 @@ export default function EndArticle () {
                 </div>
             </article>
             <article className={styles.endArticle__container}>
-                <h3>¡Recuerda que este proyecto es posible gracias tus donaciones!</h3>
+                <h3>¡Recuerda que este proyecto es posible gracias a tus donaciones!</h3>
                 <a className={styles.donation__btn} href="https://paypal.me/uliMontenegro" target="_Blank">PayPal</a>
             </article>
         </section>
