@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     }
 }
 
-export default function SharaMagomedovOjo () {
+export default function MejorArteMarcialJoeRogan () {
     return(
         <main>
             <ArticleHero title='La Mejor Arte Marcial Para Una Pelea Callejera Según Joe Rogan' subtitle='El comentarista de la UFC Joe Rogan confirma cuál es para él la mejor arte marcial para peleas callejeras. ' image={hero} date='2025-01-17' author={null} updatedDate={null} />
