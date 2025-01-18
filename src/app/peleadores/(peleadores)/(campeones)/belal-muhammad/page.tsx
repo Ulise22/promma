@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import AsideFighter from '@/app/components/asides/AsideFighter'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Belal Muhammad',
@@ -41,6 +42,7 @@ export default function BelalMuhammad () {
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/8CSI43PVL-E?si=FGom3i-k7gUwZy_y" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>El 6 de mayo de 2023, Belal aceptaría una pelea en corto aviso, donde se enfrentaría al brasileño <b>Gilbert Burns</b> en la pelea coestelar del UFC 288, en un combate organizado a 5 asaltos que terminó por llegar a la decisión de los jueces que dieron como ganador a Belal por decisión unánime.</p>
                     <p className={styles.peleador__article__text}>Luego de poco más de un año, viniendo de una racha de 10 peleas sin perder, con 9 victorias en el camino, y con un récord de 23-3 (1), Belal se ganaría la oportunidad de su vida, dado que podría enfrentar en una revancha al campeón de la división de peso wélter <Link href='/peleadores/leon-edwards'>Leon Edwards</Link>, para disputarle el título el día 27 de julio de 2024 en el <Link href='/covertura-ufc/ufc304'>UFC 304</Link>, organizado en la ciudad inglesa de Manchester. Aquella noche, nuestro protagonista sería capaz de hacer historia, derrotando al campeón inglés, luego de 5 asaltos de pura dominación que le darían la victoria por decisión unánime. </p>
+                    <EndArticle />
                 </article>
                 <AsideFighter />
             </section>

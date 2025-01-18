@@ -5,6 +5,7 @@ import Image from 'next/image'
 import duPlessis from '@/assets/peleadores__images/0-100/0-10/dricus-du-plessis/du-plessis.png'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Dricus Du Plessis',
@@ -51,6 +52,7 @@ export default function DuPlessis () {
                     <p className={styles.peleador__article__text}>De esta forma, se programaría su pelea por el título ante el campeón estadounidense <Link href='/peleadores/sean-strickland'>Sean Strickland</Link> en el <Link href='/covertura-ufc/ufc297'>UFC 297</Link> organizado el 20 de enero de 2024. Aquella noche, en lo que fue una pelea muy cerrada y que se definiría por decisión dividida, nuestro protagonista conseguiría convertirse en el nuevo campeón de las 185lbs, ganando además el bono a La Pelea de la Noche. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/RCw6lEJVsss?si=H1UKut80E3VDqLSz" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Ya como campeón, se organizaría su primer defensa del cinturón para el 18 de agosto de ese mismo año, enfrentando para ello al histórico campeón <Link href='/peleadores/israel-adesanya'>Israel Adesanya</Link>, con quien encabezaría el <Link href='/covertura-ufc/ufc305'>UFC 305</Link> organizado en Australia. Aquella noche, Du Plessi sería capaz de defender exitosamente su cinturón, cuando en el cuarto asalto de la pelea sometería al nigeriano, concretando de forma exitosa su primera defensa.</p>
+                    <EndArticle />
                 </article>
                 <AsideFighter />
             </section>

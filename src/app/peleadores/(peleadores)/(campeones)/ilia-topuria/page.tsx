@@ -5,6 +5,7 @@ import PeleadoresHero from "@/app/peleadores/components/PeleadoresHero";
 import Link from "next/link";
 import AsideFighter from "@/app/components/asides/AsideFighter";
 import type { Metadata } from 'next'
+import EndArticle from "@/app/components/EndArticle";
 
 export const metadata: Metadata = {
     title: 'Ilia Topuria',
@@ -40,6 +41,7 @@ export default function Illia () {
                     <p className={styles.peleador__article__text}>Al vencer a Emmett, Topuria se sentía listo para pelear por el título, por lo que no dudo en llamar al entonces campeón <Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link>, que en una previa donde Ilia se dedicó a hablar hasta por los codos, afirmando que podría noquear al campeón de la división. Terminó respaldando sus palabras con hechos en el <Link href='/covertura-ufc/ufc298'>UFC 298</Link>, al propinarle un KO en el segundo asalto a Volkanovski, el 17 de febrero de 2024, consagrándose así, como nuevo campeón de Peso Pluma de UFC.</p>
                     <iframe className={styles.peleador__article__video} loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/EQL0U5F6JKA?si=BBA7WaSRpKbjwKCh" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Si ya de por sí lo conseguido al obtener el título de la división ante el peleador que parecía invencible era algo impresionante, aún más lo sería lo conseguido en su primer defensa del título, cuando enfrentaría al reciente ganador del <b>BMF</b>, excampeón de la división y contendiente #1 de los peso pluma <Link href='/peleadores/max-holloway'>Max Holloway</Link>, a quien enfrentaría el 26 de octubre de 2024 en el <Link href='/covertura-ufc/ufc308'>UFC 308</Link> organizado en Abu Dhabi. Aquella noche, Ilia sería capaz de noquear en el tercer asalto al luchador que jamás había sido noqueado hasta ese momento, tal y como había prometido en la previa del combate, ganándose por ello el bono a la Actuación de la Noche. </p>
+                    <EndArticle />
                 </article>
                 <AsideFighter />
             </section>

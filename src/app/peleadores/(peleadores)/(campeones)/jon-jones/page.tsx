@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Jon Jones',
@@ -61,6 +62,7 @@ export default function JonJones () {
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/ub8_c-X9mh0?si=H-piyNPwQCpjt7lM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Luego de aquel combate, Jones tomaría una decisión en pos de su legado agigantar aún más su inmenso legado. Optaría por dejar vacante su cinturón en la división de peso semipesado, para tomarse su tiempo para preparse y finalmente subir a los pesos pesados, en busca del doble campeonato, habiendo enfrentando ya a todos los rivales y a los mejores luchadores que la división de 205lbs, era momento de buscar un nuevo reto más difícil que lo hasta entonces conseguido. </p>
                     <p className={styles.peleador__article__text}>Por eso, luego de aquella última pelea en 2020, no lo volveríamos regresar hasta marzo del 2023, cuando en el UFC 285 haría su regreso para enfrentar al francés y principal contendiente al título <Link href='/peleadores/ciryl-gane'>Ciryl Gane</Link>, con quien se disputaría el cinturón de los pesos pesados de la UFC. En aquella ocasión, Jones demostraría porqué es el mejor de todos los tiempos, al en sólo 2 minutos de la pelea, someter con una guillotina a quien debía ser el hombre más peligroso de la compañía, convirtiéndose en el octavo doble-campeón de la UFC, y ganando además el bono a la Actuación de la Noche. </p>
+                    <EndArticle />
                 </article>
                 <AsideFighter />
             </section>

@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Alexandre Pantoja',
@@ -42,6 +43,7 @@ export default function Pantoja () {
                     <iframe className={styles.peleador__article__video}  loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/gYbvounjwEA?si=hfv_21DEcHcuhWPs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Luego de convertirse en campeón, volvería al octagono a defender su título el 16 de diciembre de 2023, en lo que sería una revancha contra el estadounidense <b>Brandon Royval</b>, a quien luego de 5 asaltos, terminaría por vencer por decisión unánime.</p>
                     <p className={styles.peleador__article__text}>Su segunda defensa del título tendría lugar nada más y nada menos que en su casa, en Brasil, donde encabezando el <Link href='/covertura-ufc/ufc301'>UFC 301</Link>, organizado el 4 de mayo de 2024, enfrentaría al australiano <b>Steve Erceg</b>, a quien vencería por decisión unánime.</p>
+                    <EndArticle />
                 </article>
                 <AsideFighter />
             </section>

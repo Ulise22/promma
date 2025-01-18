@@ -5,6 +5,7 @@ import aspinall from '@/assets/peleadores__images/0-100/0-10/tom-aspinall/tom_as
 import Image from 'next/image'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Tom Aspinall',
@@ -45,6 +46,7 @@ export default function Aspinall () {
                     <p className={styles.peleador__article__text}>La pelea se llevaría a cabo como evento coestelar del UFC 295, organizado el 11 de noviembre de 2023. Aquella noche, Aspinall conseguiría llevarse la victoria al derrotar por KO en el primer asalto a su rival, ganando de esta forma el Campeonato Interino de Peso Pesado de UFC, además del sexto bono de su carrera a la Actuación de la Noche. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/dx9z0t4ZOzY?si=WD7Y-zvBDY4rhbWu" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>De forma un tanto inédita, como contamos más a detalle en <Link href='/noticias/jones-esquiva-aspinall'>este artículo</Link>, no se pondría a Tom Aspinall a enfrentar Jon Jones, como es costumbre cuando hay un campeón indiscutido y un campeón interino, sino que debido a la inactividad del estadounidense, se pondría al luchador inglés a defender el cinturón interino, para mantener movida la división y que esta no quede estancada. Para ello, en el <Link href='/covertura-ufc/ufc304'>UFC 304</Link> que se organizó en la ciudad inglesa de Manchester, se lo pondría a enfrentar en una revancha ante el americano <b>Curtis Blaydes</b>, contra quien había caído derrotado de forma accidental, consiguiendo esta vez vengar su derrota al derrotar por TKO en el primer asalto de la pelea a su rival, defendiendo de esta maenra su cinturón de forma exitosa.</p>
+                    <EndArticle />
                 </article>
                 <AsideFighter />
             </section>

@@ -4,6 +4,7 @@ import styles from '@/app/peleadores/components/peleador.module.css'
 import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Merab Dvalishvili',
@@ -42,6 +43,7 @@ export default function Dvalishvili () {
                     <p className={styles.peleador__article__text}>Posteriormente tendría una pelea el 17 de febrero de 2024 en el <Link href='/covertura-ufc/ufc298'>UFC 298</Link>, evento que encabezaría su compatriota <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link>, enfrentando por el título al entonces campeón <Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link>. Esa noche se pelearía contra el también excampeón de la división <b>Henry Cejudo</b>. Obteniendo una merecida victoria por decisión unánime, que lo pondría en línea como el contendiente #1 de la división para enfrentar al campeón <b>Sean O&apos;malley</b>.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/EV3CyO-2xGU?si=YfsYcQd9JP3oEAZj" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Con 10 victorias consecutivas en la compañía, habiendo derrotado a 3 excampeones de la UFC, Merab Dvalishvili se ganó con total justicia una oportunidad de disputarle el título a <Link href='/peleadores/sean-omalley'>Sean O&apos;malley</Link>, quien sólo ha tenido una defensa del título ante el ecuatoriano <Link href='/peleadores/marlon-vera'>Marlon Vera</Link>. Cosa que haría el 14 de septiembre de ese mismo año, siendo protagonista del histórico evento con motivo de celebración del Día de la Independencia de México <Link href='/covertura-ufc/ufc306'>UFC 306</Link>, en el que conseguiría luego de una actuación más que dominante, llevarse la victoria por decisión unánime, convrtiéndose en el nuevo campeón de las 135lbs.</p>
+                    <EndArticle />
                 </article>
                 <AsideChamps />
             </section>

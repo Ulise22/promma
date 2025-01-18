@@ -6,6 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import AsideFighter from '@/app/components/asides/AsideFighter'
 import type { Metadata } from 'next'
+import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Islam Makhachev',
@@ -54,6 +55,7 @@ export default function Makhachev () {
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/SbGbEw0My4U?si=W2M9ToxPxmuQ0Kbq" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>El 1 de junio de 2024 volvería a defender su título en el <Link href='/covertura-ufc/ufc302'>UFC 302</Link>, siendo el retador un <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link>, que venía de una victoria por nocaut en el <Link href='/covertura-ufc/ufc299'>UFC 299</Link> ante el francés <b>Benoit Saint-Denis</b>, y que al estar en sus 35 años, veía este combate como su última oportunidad para ser campeón. En una pelea donde el retador dió todo, nuestro protagonista supo demostrar de lo que está hecho, sometiendo en el quinto asalto a Poirier, concretando de esta manera su tercera defensa del cinturón, empatando con quien ahora forma parte de su esquina, <Link href='/leyendas/khabib-nurmagomedov'>Khabib Nurmagomedov</Link>, quien también se retiró con 3 defensas exitosas. Además, esa noche ganaría los bonos a la Actuación de la Noche y a la Pelea de la Noche.</p>
                     </article>
+                    <EndArticle />
                 <AsideFighter />
             </section>
         </main>
