@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function UFC311 () {
     return(
         <main>
-            <ArticleHero title="UFC 311: ¡Islam Makhachev vs Renato Moicano Por el Campeonato de Peso Ligero! ¡Merab Dvalishvili vs Umar Nurmagomedov Por el Cinturón de Peso Gallo!" subtitle='Ailín Pérez logra una victoria por decisión unánime ante Karol Rosa y se Mete en el top 10.' image={hero} date='2025-01-18' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 311: ¡Islam Makhachev vs Renato Moicano Por el Campeonato de Peso Ligero! ¡Merab Dvalishvili vs Umar Nurmagomedov Por el Cinturón de Peso Gallo!" subtitle='Ailín Pérez logra una victoria por decisión unánime ante Karol Rosa y se Mete en el top 10. Jailton Almeida gana por nocaut a Spivac' image={hero} date='2025-01-18' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Primer evento numerado del año 2025 en el UFC 311, organizado en California en el Intuit Dome, con la pelea estelar por el cinturón de peso ligero entre el actual campeón <Link href='/peleadores/islam-makhachev'>Islam Makhachev</Link> y el retador brasileño <Link href='/peleadores/renato-moicano'>Renato Moicano</Link>, quien aceptó pelear con el campeón con un día de anticipación, luego de que <Link href='/peleadores/arman-tsarukyan'>Arman Tsarukyan</Link> se bajara del combate por una lesión en la espalda, cancelando de esta forma su combate con <b>Beneil Dariush</b>. Además, tenemos otra pelea títular como evento coestelar en el enfrentamiento entre el actual campeón de peso gallo <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link>, y el retador del título, <Link href='/peleadores/umar-nurmagomedov'>Umar Nurmagomedov</Link>, primo de <Link href='/leyendas/khabib-nurmagomedov'>Khabib Nurmagomedov</Link>, quien estará en su esquina ayudándolo. </p>
@@ -50,8 +50,8 @@ export default function UFC311 () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Reinier de Ridder Somete a Kevin Holland en el Primer Asalto</h2>
                     <p>Abrimos la cartelera estelar con una impresionante victoria por parte neerlandés <b>Reinier de Ridder</b>, quien fue capaz de someter al luchador americano <b>Kevin Holland</b> en el primer asalto, luego de conectar un mataleón que obligaría al de Estados Unidos a tapear. De esta forma, el de Países Bajos logra la victoria en su segunda pelea en la UFC.</p>
-                    {/* <h2>Jailton Almeida vs Serghei Spivac</h2>
-                    <p></p> */}
+                    <h2>Jailton Almeida Noquea a Serghei Spivac en el Primer Asalto</h2>
+                    <p>El brasileño logra una victoria por la vía del nocuat en el primer asalto de la pelea, luego de ser derribado y de sufrir un poco de castigo por parte de su rival, Serghei Spivac, fue capaz de dar la vuelta al combate, acabando por encima y golpeando la cabeza de su rival hasta que el árbitro los separó y le otorgó la victoria a Jailton Almedia por nocaut. </p>
                     {/* <h2>Jiri Prochazka vs Jamahal Hill</h2>
                     <p></p> */}
                     {/* <h2>Merab Dvalishvili vs Umar Nurmagomedov</h2>
