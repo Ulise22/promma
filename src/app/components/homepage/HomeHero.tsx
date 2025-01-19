@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc311'>
                 <Image className={styles.homehero__bigArticle__img} src={ufc311} alt='' />
                 <h2 className={styles.home__title}>UFC 311: ¡Islam Makhachev vs Renato Moicano Por el Campeonato de Peso Ligero! ¡Merab Dvalishvili vs Umar Nurmagomedov Por el Cinturón de Peso Gallo!</h2>
-                <span>Evento numerado de PPV que además nos trae la pelea de Ailín Pérez vs Karol Rosa, la pelea de Payton Talbott, y el combate entre Jiri Prochazka y Jamahal Hill.</span>
+                <span>Ailín Pérez logra una victoria por decisión unánime ante Karol Rosa y se Mete en el top 10. Jailton Almeida gana por nocaut a Spivac. Jiri Prochazka Noquea a Jamahal Hill.</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/mejores-eventos-ufc-2024'>
                 <Image className={styles.homehero__article__img} loading='lazy' src={bestEventsUFC2024} alt='' />
