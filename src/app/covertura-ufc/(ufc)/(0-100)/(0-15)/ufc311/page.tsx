@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function UFC311 () {
     return(
         <main>
-            <ArticleHero title="UFC 311: ¡Islam Makhachev vs Renato Moicano Por el Campeonato de Peso Ligero! ¡Merab Dvalishvili Derrota a Umar Nurmagomedov y Retiene Cinturón de Peso Gallo!" subtitle='Ailín Pérez logra una victoria por decisión unánime ante Karol Rosa y se Mete en el top 10. Jailton Almeida gana por nocaut a Spivac. Jiri Prochazka Noquea a Jamahal Hill.' image={hero} date='2025-01-18' author={null} updatedDate='2025-01-19' />
+            <ArticleHero title="UFC 311: ¡Islam Makhachev Somete a Renato Moicano en el Primer Asalto! ¡Merab Dvalishvili Derrota a Umar Nurmagomedov y Retiene Cinturón de Peso Gallo!" subtitle='Ailín Pérez logra una victoria por decisión unánime ante Karol Rosa y se Mete en el top 10. Jailton Almeida gana por nocaut a Spivac. Jiri Prochazka Noquea a Jamahal Hill.' image={hero} date='2025-01-18' author={null} updatedDate='2025-01-19' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Primer evento numerado del año 2025 en el UFC 311, organizado en California en el Intuit Dome, con la pelea estelar por el cinturón de peso ligero entre el actual campeón <Link href='/peleadores/islam-makhachev'>Islam Makhachev</Link> y el retador brasileño <Link href='/peleadores/renato-moicano'>Renato Moicano</Link>, quien aceptó pelear con el campeón con un día de anticipación, luego de que <Link href='/peleadores/arman-tsarukyan'>Arman Tsarukyan</Link> se bajara del combate por una lesión en la espalda, cancelando de esta forma su combate con <b>Beneil Dariush</b>. Además, tenemos otra pelea títular como evento coestelar en el enfrentamiento entre el actual campeón de peso gallo <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link>, y el retador del título, <Link href='/peleadores/umar-nurmagomedov'>Umar Nurmagomedov</Link>, primo de <Link href='/leyendas/khabib-nurmagomedov'>Khabib Nurmagomedov</Link>, quien estará en su esquina ayudándolo. </p>
@@ -57,8 +57,9 @@ export default function UFC311 () {
                     <h2>Merab Dvalishvili Derrota a Umar Nurmagomedov</h2>
                     <p>El georgiano <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link> retiene el cinturón de peso gallo, luego de derrotar a <Link href='/peleadores/umar-nurmagomedov'>Umar Nurmagomedov</Link> en lo que fue un peleón.</p>
                     <p>A simple vista Umar ganó los 2 primeros asaltos, pero el cardio de Merab es de otro planeta, sosteniendo un nivel de pelea y de actividad muy alto que cansó a su rival para el tercer asalto, mientras que el de Georgia se mantenía como si recién hubiera comenzado el combate. De esta forma, Merab fue capaz de conectar un montón de golpes y de derribar en varias ocasiones a su rival, consiguiendo la victoria por decisión y completando la primer defensa exitosa de su cinturón. </p>
-                    {/* <h2>Islam Makhachev vs Renato Moicano</h2>
-                    <p></p> */}
+                    <h2>Islam Makhachev Somete a Renato Moicano en el Primer Asalto</h2>
+                    <p>El campeón de peso ligero <Link href='/peleadores/islam-makhachev'>Islam Makhachev</Link> es capaz de defender su título ante <Link href='/peleadores/renato-moicano'>Renato Moicano</Link>, luego de concretar un derribo en el primer asalto que tendría como desenlace la sumisión que le daría la victoria. </p>
+                    <p>Con esta victoria, Islam alcanza las 4 defensas consecutivas del título, convirtiéndose en el campeón de peso ligero con más defensas consecutivas del cinturón, superando a <b>B.J. Penn</b> y a Khabib Nurmagomedov, quienes llegaron a defender exitosamente el cinturon en 3 ocasiones. Además, alcanzó las 15 victorias consecutivas en la UFC, estando a sólo 1 de alcanzar el récord de <Link href='/leyendas/anderson-silva'>Anderson Silva</Link>. ¡Histórico lo alcanzado por Makhachev esta noche!</p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
