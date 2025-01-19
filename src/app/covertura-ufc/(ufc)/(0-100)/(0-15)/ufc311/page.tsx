@@ -47,9 +47,9 @@ export default function UFC311 () {
                     <p>El luchador ruso que estaba haciendo su debut en corto aviso en la UFC, consiguió lo que fue una gran victoria por la vía del nocaut en el primer asalto, luego de ser capaz de derribar a su rival y castigarlo a golpes, hasta que finalmente una de esas manos que estaban penetrando la cabeza de su rival lo mandaron a dormir, llevando al árbitro a parar la pelea para coronar a Bekoev como ganador, y como el autor del primer nocaut de la noche. </p>
                     <h2>Payton Talbott Pierde el Invicto ante Raoni Barcelos</h2>
                     <p>El luchador estadounidense <b>Payton Talbott</b> cae derrotado sorprendentemente ante el brasileño <b>Raoni Barcelos</b>, quien fue capaz de quitarle el invicto a Payton, en lo que era la pelea más dispareja según las casas de apuestas, que daban al estadounidense como claro favorito. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2> */}
-                    {/* <h2>Kevin Holland vs Reinier de Ridder</h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Reinier de Ridder Somete a Kevin Holland en el Primer Asalto</h2>
+                    <p>Abrimos la cartelera estelar con una impresionante victoria por parte neerlandés <b>Reinier de Ridder</b>, quien fue capaz de someter al luchador americano <b>Kevin Holland</b> en el primer asalto, luego de conectar un mataleón que obligaría al de Estados Unidos a tapear. De esta forma, el de Países Bajos logra la victoria en su segunda pelea en la UFC.</p>
                     {/* <h2>Jailton Almeida vs Serghei Spivac</h2>
                     <p></p> */}
                     {/* <h2>Jiri Prochazka vs Jamahal Hill</h2>
