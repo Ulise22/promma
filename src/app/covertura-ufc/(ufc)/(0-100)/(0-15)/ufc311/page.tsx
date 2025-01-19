@@ -41,8 +41,8 @@ export default function UFC311 () {
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2>Grant Dawson Derrota a Diego Ferreira</h2>
                     <p>El estadounidense logra una victoria dominante ante el brasileño <b>Diego Ferreira</b>, luego de ser capaz de derribarlo en repetidas ocasiones, castigándolo a ras de lona durante todos los 3 asaltos, consiguiendo una merecida victoria por decisión unánime, que lo acerca bastante al top 15 de la división de peso ligero. </p>
-                    {/* <h2>Bogdan Guskov vs Billy Elekana</h2>
-                    <p></p> */}
+                    <h2>Bogdan Guskov Somete a Billy Elekana en el Segundo Asalto</h2>
+                    <p>En un confuso episodio, luego de que Elekana dominara, estando cerca de finalizar, durante el primer asalto. El luchador nanqueado #13 en la división de peso semipesado <b>Bogdan Guskov</b>, fue capaz de darle vuelta a la tortilla, golpeando hasta el cansancio a su rival en el segundo asalto, y siendo finalmente capaz de someterlo con una guillotina en el segundo asalto, consiguiendo la primera finalización de la noche. </p>
                     {/* <h2>Zachary Reese vs Azamat Bekoev</h2>
                     <p></p> */}
                     {/* <h2>Payton Talbott vs Raoni Barcelos</h2>
