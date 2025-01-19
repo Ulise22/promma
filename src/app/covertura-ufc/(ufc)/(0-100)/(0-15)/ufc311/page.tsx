@@ -38,9 +38,9 @@ export default function UFC311 () {
                     <h2>Ailín Pérez Derrota a Karol Rosa y se Mete en el top10</h2>
                     <p>La argentina <Link href='/mujeres/ailin-perez'>Ailín Pérez</Link> logra una importantísima victoria por decisión unánime, luego de dominar especialmente los primeros 2 asaltos de la pelea ante la brasileña, siendo capaz de concretar un derribo en ambos asaltos, y de mantener en el suelo a Karol Rosa que fue incapaz de ponerse de pie cuando la argentina la derribó. </p>
                     <p>El tercer asalto se jugó principalmente de pie en striking, donde se vió la mejor cara de la brasileña, que sin embargo ya había perdido los primeros 2 asaltos, y que de igual manera se encontró con una Ailín Pérez que mejoró muchísimo en este aspecto, siendo capaz de resistir los golpes de Rosa, y de conectar ella misma algunos buenos golpes.</p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2> */}
-                    {/* <h2>Grant Dawson vs Diego Ferreira</h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
+                    <h2>Grant Dawson Derrota a Diego Ferreira</h2>
+                    <p>El estadounidense logra una victoria dominante ante el brasileño <b>Diego Ferreira</b>, luego de ser capaz de derribarlo en repetidas ocasiones, castigándolo a ras de lona durante todos los 3 asaltos, consiguiendo una merecida victoria por decisión unánime, que lo acerca bastante al top 15 de la división de peso ligero. </p>
                     {/* <h2>Bogdan Guskov vs Billy Elekana</h2>
                     <p></p> */}
                     {/* <h2>Zachary Reese vs Azamat Bekoev</h2>
