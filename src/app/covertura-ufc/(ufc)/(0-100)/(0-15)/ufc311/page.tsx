@@ -32,8 +32,9 @@ export default function UFC311 () {
                     <h2>Ricky Turcios Cae Derrotado ante Barnardo Sopaj</h2>
                     <p>El luchador de Albania consigue su primer victoria en la UFC por decisión unánime ante el luchador con ascendencia de El Salvador, <b>Ricky Turcios</b>, quien además venía de una derrota ante el mexicano <Link href='/peleadores/raul-rosas-jr'>Raul Rosas Jr.</Link>. </p>
                     <p>En lo que fue una pelea que Sopaj dominó constantemente, estando cerca en más de una ocasión de la finalización vía KO/TKO, fue incapaz de acabar con su rival quien resistió como un campeón todo lo que le tiró. De igual forma, cuando la pelea fue a las tarjetas, Bernardo Sopaj se llevó la victoria en lo que fue una increíble pelea. </p>
-                    {/* <h2>Rinya Nakamura vs Muin Gafurov</h2>
-                    <p></p> */}
+                    <h2>Rinya Nakamura Pierde el Invicto Ante Muin Gafurov</h2>
+                    <p>El luchador de Tayikistán, logró una increíble victoria ante el japonés <b>Rinya Nakamura</b>, quien partía como favorito al inicio de la pelea, siendo capaz de quitarle el invicto a su rival en lo que fue una tremenda pelea.</p>
+                    <p>Dominando en todas las aritstas de la pelea a su rival, y estando cerca de noquear en más de una ocasión, con golpes que conectaron de lleno y tiraron al suelo al japonés, Muin Gafurov logró hacerse con la victoria por decisión unánime, luego de vencer en todos los asaltos al japonés. </p>
                     {/* <h2>Ailín Pérez vs Karol Rosa</h2>
                     <p></p> */}
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2> */}
