@@ -54,8 +54,9 @@ export default function UFC311 () {
                     <p>El brasileño logra una victoria por la vía del nocuat en el primer asalto de la pelea, luego de ser derribado y de sufrir un poco de castigo por parte de su rival, Serghei Spivac, fue capaz de dar la vuelta al combate, acabando por encima y golpeando la cabeza de su rival hasta que el árbitro los separó y le otorgó la victoria a Jailton Almedia por nocaut. </p>
                     <h2>Jiri Prochazka Noquea a Jamahal Hill en el Tercer Asalto</h2>
                     <p>El peleador de República Checa logra una espectacular victoria por nocaut en el tercer asalto luego de lo que fue una auténtica exhibición de striking por parte de <Link href='/peleadores/jiri-prochazka'>Jiri Prochazka</Link>. Que aunque no dominó por completo a Jamahal Hill, que recordemos es un excampeón muy bueno en striking, sí fue superior, trasladando esa superioridad al resultado, esquivando un golpe de su rival, para después conectar 2 golpes de izquierda y derecha que tumbarían en el suelo al estadounidense. </p>
-                    {/* <h2>Merab Dvalishvili vs Umar Nurmagomedov</h2>
-                    <p></p> */}
+                    <h2>Merab Dvalishvili Derrota a Umar Nurmagomedov</h2>
+                    <p>El georgiano <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link> retiene el cinturón de peso gallo, luego de derrotar a <Link href='/peleadores/umar-nurmagomedov'>Umar Nurmagomedov</Link> en lo que fue un peleón.</p>
+                    <p>A simple vista Umar ganó los 2 primeros asaltos, pero el cardio de Merab es de otro planeta, sosteniendo un nivel de pelea y de actividad muy alto que cansó a su rival para el tercer asalto, mientras que el de Georgia se mantenía como si recién hubiera comenzado el combate. De esta forma, Merab fue capaz de conectar un montón de golpes y de derribar en varias ocasiones a su rival, consiguiendo la victoria por decisión y completando la primer defensa exitosa de su cinturón. </p>
                     {/* <h2>Islam Makhachev vs Renato Moicano</h2>
                     <p></p> */}
                     <EndArticle />
