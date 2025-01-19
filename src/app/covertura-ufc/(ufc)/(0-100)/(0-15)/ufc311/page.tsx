@@ -45,8 +45,8 @@ export default function UFC311 () {
                     <p>En un confuso episodio, luego de que Elekana dominara, estando cerca de finalizar, durante el primer asalto. El luchador nanqueado #13 en la división de peso semipesado <b>Bogdan Guskov</b>, fue capaz de darle vuelta a la tortilla, golpeando hasta el cansancio a su rival en el segundo asalto, y siendo finalmente capaz de someterlo con una guillotina en el segundo asalto, consiguiendo la primera finalización de la noche. </p>
                     <h2>Azamat Bekoev Noquea a Zachary Reese en el Primer Asalto</h2>
                     <p>El luchador ruso que estaba haciendo su debut en corto aviso en la UFC, consiguió lo que fue una gran victoria por la vía del nocaut en el primer asalto, luego de ser capaz de derribar a su rival y castigarlo a golpes, hasta que finalmente una de esas manos que estaban penetrando la cabeza de su rival lo mandaron a dormir, llevando al árbitro a parar la pelea para coronar a Bekoev como ganador, y como el autor del primer nocaut de la noche. </p>
-                    {/* <h2>Payton Talbott vs Raoni Barcelos</h2>
-                    <p></p> */}
+                    <h2>Payton Talbott Pierde el Invicto ante Raoni Barcelos</h2>
+                    <p>El luchador estadounidense <b>Payton Talbott</b> cae derrotado sorprendentemente ante el brasileño <b>Raoni Barcelos</b>, quien fue capaz de quitarle el invicto a Payton, en lo que era la pelea más dispareja según las casas de apuestas, que daban al estadounidense como claro favorito. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2> */}
                     {/* <h2>Kevin Holland vs Reinier de Ridder</h2>
                     <p></p> */}
