@@ -7,7 +7,7 @@ import ArticlePreview from '../articulos/components/ArticlePreview';
 import predicciones2025 from '@/assets/noticias/0-100/20-30/campeones_ufc2025.jpg'
 import ufcBillonario from '@/assets/noticias/0-100/20-30/ufc_busca_millonada.jpg'
 import iliaTopuriaLigero from '@/assets/noticias/0-100/20-30/ilia_topuria_georgia.jpg'
-import evloevPeleaTopuria from '@/assets/noticias/0-100/20-30/evloev_postfight.jpeg'
+import dariushPelea2025 from '@/assets/noticias/0-100/20-30/dariush_pelea2025.jpg'
 import previaUFC311 from '@/assets/noticias/0-100/20-30/previa_ufc311.jpg'
 import entrenamientoProchazka from '@/assets/noticias/0-100/20-30/prochazka_training.png'
 import invictosUFC from '@/assets/noticias/0-100/20-30/invictos_ufc_2025.jpg'
@@ -33,6 +33,7 @@ import drakeApuesta from '@/assets/noticias/0-100/10-20/drake_apuesta.jpg'
 import iliaPromissKOHolloway from '@/assets/noticias/0-100/10-20/ilia_promissko_holloway.jpg'
 import michaelMorales from '@/assets/noticias/0-100/10-20/michael_morales.jpg'
 /* 20 - 30 */
+import evloevPeleaTopuria from '@/assets/noticias/0-100/20-30/evloev_postfight.jpeg'
 import argUFC2024 from '@/assets/noticias/0-100/20-30/argentinos2024.jpg'
 
 
@@ -56,14 +57,14 @@ export default function NoticiasPage () {
                         </div>
                     </article>
                 </Link>
-                <Link className={`${styles.noticiasHero__article} ${styles.normal2}`} href='/noticias/evloev-sobre-pelea-con-ilia-topuria'>
-                    <Image className={styles.noticiasHero__article__img} loading="lazy" src={evloevPeleaTopuria} alt='' />
+                <Link className={`${styles.noticiasHero__article} ${styles.normal2}`} href='/noticias/beneil-dariush-proxima-pelea-2025'>
+                    <Image className={styles.noticiasHero__article__img} loading="lazy" src={dariushPelea2025} alt='' />
                     <article className={styles.noticiasHero__article__container}>
-                        <h2 className={styles.noticiasHero__title}>Movsar Evloev Cree Poder Ganarle a Ilia Topuria y Pide Pelear por el Cinturón</h2>
-                        <p>El luchador ruso Movsar Evloev, dijo tener lo necesario para derrotar al campeón español Ilia Topuria, luego de vencer al estadounidense Aljamain Sterling en el UFC 310</p>
+                        <h2 className={styles.noticiasHero__title}>Próxima Pelea de Beneil Dariush Después del UFC 311</h2>
+                        <p>Luego de una caótica serie de eventos, con su pelea siendo cancelada, nos preguntamos: ¿Contra quien va a pelear Beneil Dariush Después del UFC 311? </p>
                         <div className={styles.noticiasHero__article__info}>
                             <h4>FULLMMA</h4>
-                            <p>08/12/2024</p>
+                            <p>21/01/2025</p>
                         </div>
                     </article>
                 </Link>
@@ -76,7 +77,8 @@ export default function NoticiasPage () {
             </article>
             <h2 className={styles.noticiasPage__subtitle}>Todas Las Noticias</h2>
             <article className={styles.noticias}>
-                <ArticlePreview img={espUFC2025} url='/noticias/luchadores-espanoles-en-ufc' title='Los 5 Peleadores Españoles Actuales de UFC en 2024' author={null} text='Los luchadores españoles de UFC que compiten actualmente en la compañía más grande de MMA del mundo.' date='28/11/2024' />
+                <ArticlePreview img={evloevPeleaTopuria} url='/noticias/evloev-sobre-pelea-con-ilia-topuria' title='Movsar Evloev Cree Poder Ganarle a Ilia Topuria y Pide Pelear por el Cinturón' author={null} text='El luchador ruso Movsar Evloev, dijo tener lo necesario para derrotar al campeón español Ilia Topuria, luego de vencer al estadounidense Aljamain Sterling en el UFC 310' date='28/11/2024' />
+                <ArticlePreview img={espUFC2025} url='/noticias/luchadores-espanoles-en-ufc' title='Los 5 Peleadores Españoles Actuales de UFC en 2024' author={null} text='Los luchadores españoles de UFC que compiten actualmente en la compañía más grande de MMA del mundo.' date='08/12/2024' />
                 <ArticlePreview img={kaiAsakura} url='/noticias/quien-es-kai-asakura' title='¿Quién es Kai Asakura? La Estrella Japonesa Que Debutará Peleando Por el Título de UFC en el UFC 310 en Diciembre' author={null} text='El luchador japonés Kai Asakura de 31 años que peleará por el Campeonato de Peso Mosca en su debut en la UFC.' date='26/11/2024' />
                 <ArticlePreview img={campeonesViejosUFC} url='/noticias/5-campeones-mas-viejos-ufc' title='Los 5 Campeones Más Viejos de la UFC: La Lista a la que se Puede Sumar Stipe Miocic' author={null} text='El próximo sábado, el luchador estadounidense de 42 años, peleará por el cinturón de peso pesado ante Jon Jones, donde podría convertirse en uno de los campeones más añejos de la historia.' date='11/11/2024' />
                 <ArticlePreview img={sharaBulletFeb2025} url='/noticias/shara-bullet-pelea-febrero-2025' title='¿Shara Magomedov vs Paulo Costa Para Febrero de 2025?' author={null} text='¿Cuál será el próximo rival de Shara Bullet en febrero del 2025? ¿Israel Adesanya? ¿Paulo Costa? ¿Michael Venom Page?' date='04/11/2024' />
