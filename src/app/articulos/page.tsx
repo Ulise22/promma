@@ -55,6 +55,7 @@ import zabit from '@/assets/articulos/0-100/40-50/zabit.jpg'
 import cmpunk from '@/assets/articulos/0-100/40-50/cm_punk.jpg'
 import nicoMontano from '@/assets/articulos/0-100/40-50/nicco_montano.jpg'
 /* 50-60 */ 
+import llegarAUFC5Pasos from '@/assets/articulos/0-100/50-60/llegar_a_ufc_5pasos.jpg'
 import kimboSlice from '@/assets/articulos/0-100/50-60/kimbo_slice.jpg'
 import butterbean from '@/assets/articulos/0-100/50-60/eric_butterbean.jpg'
 import hollywood from '@/assets/articulos/0-100/50-60/ufc_hollywood.jpg'
@@ -65,13 +66,14 @@ export default function Articulos () {
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
+                <ArticlePreview img={llegarAUFC5Pasos} url='/articulos/como-llegar-a-la-ufc-5-pasos' title='Descubre como llegar a pelear en la UFC en 5 pasos' author={null} text='Convierte tu sueño en realidad: Sigue estos 5 pasos para llegar a la UFC y ser un peleador profesional' date='24/01/2025' />
                 <ArticlePreview img={mikheilKajaia} url='/articulos/mikheil-kajaia' title='¿Quién es Mikheil Kajaia? El luchador olímpico georgiano de 97 kilos y de aspecto más aterrador que existe' author={null} text='La historia detrás del luchador grecorromano nacido en Georgia y nacionalizado serbio. ' date='22/01/2025' />
                 <ArticlePreview img={joeRoganMA} url='/articulos/mejor-arte-marcial-para-pelea-callejera-joe-rogan' title='La Mejor Arte Marcial Para Una Pelea Callejera Según Joe Rogan' author={null} text='El comentarista de la UFC Joe Rogan confirma cuál es para él la mejor arte marcial para peleas callejeras. ' date='17/01/2025' />
                 <ArticlePreview img={movimientosProhibidosUFC} url='/articulos/movimientos-prohibidos-de-la-ufc' title='Todos Los Movimientos que Están Prohibidos en la UFC: Lo Que Jamás Verás en un Combate' author={null} text='La lista de los 28 golpes y movimientos que están prohibidos dentro de la UFC y que por lo tanto jamás verás realizarse, o al menos no deberías ver realizarse. ' date='15/01/2025' />
-                <ArticlePreview img={luchadoresFamososUFC} url='/articulos/luchadores-ufc-mas-famosos' title='¿Quienes son los Peleadores de UFC Más Famosos? La lista de los 10 Peleadores con Más Seguidos' author={null} text='Compartiremos la lista de los 10 peleadores de UFC con más seguidores en Instagram. Que nos ayudará a descubrir quién es el peleador más famoso de todos en la UFC.' date='13/01/2025' />
             </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={luchadoresFamososUFC} url='/articulos/luchadores-ufc-mas-famosos' title='¿Quienes son los Peleadores de UFC Más Famosos? La lista de los 10 Peleadores con Más Seguidos' author={null} text='Compartiremos la lista de los 10 peleadores de UFC con más seguidores en Instagram. Que nos ayudará a descubrir quién es el peleador más famoso de todos en la UFC.' date='13/01/2025' />
                 <ArticlePreview img={requisitosEntrarUFC} url='/articulos/requisitos-para-entrar-a-ufc' title='¿Cómo ser peleador de la UFC? Las 5 formas de entrar a la UFC siendo peleador de MMA.' author={null} text='Los requisitos para entrar a la UFC y ser reclutado por la compañía. Las 5 vías por las que Dana White contrata peleadores profesionales.' date='12/01/2025' />
                 <ArticlePreview img={rankingsUFC} url='/articulos/como-funciona-el-ranking-ufc' title='Cómo Funciona el Ranking de la UFC: Qué significa ser el #1 de la UFC' author={null} text='Te explico cómo funcionan los rankings en la UFC, cuándo se actualizan y cómo se hacen, explicando quienes hacen los rankings y que tienen en cuenta. ' date='31/12/2024' />
                 <ArticlePreview img={salariosUFC} url='/articulos/cuanto-gana-un-peleador-de-ufc' title='¿Cuánto le pagan a un peleador de UFC? Los salarios de los peleadores más importantes de MMA' author={null} text='Cuánto ganan los peleadores de UFC, desde los novatos, un peleador promedio, un campeón, y cómo sus resultados influyen en el sueldo. ' date='27/12/2024' />
