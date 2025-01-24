@@ -10,10 +10,10 @@ import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Mikheil Kajaia',
-    description: '',
+    description: 'La historia de uno de los luchadores georgianos más intimidantes de la historia de la lucha grecorromana. ',
     openGraph: {
         title: 'Mikheil Kajaia',
-        description: '',
+        description: 'La historia de uno de los luchadores georgianos más intimidantes de la historia de la lucha grecorromana. ',
         url: 'https://fullmma.org/articulos/mikheil-kajaia'
     }
 }
