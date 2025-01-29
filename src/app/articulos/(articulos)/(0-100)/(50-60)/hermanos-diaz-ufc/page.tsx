@@ -10,10 +10,10 @@ import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Los Hermanos Diaz UFC',
-    description: '',
+    description: 'La insparadora historia de los hermanos Nate y Nick Diaz, quienes críados en la adversidad llegaron hasta el estrellato de la UFC, volviéndose íconos del deporte de las MMA. ',
     openGraph: {
         title: 'Los Hermanos Diaz UFC',
-        description: '',
+        description: 'La insparadora historia de los hermanos Nate y Nick Diaz, quienes críados en la adversidad llegaron hasta el estrellato de la UFC, volviéndose íconos del deporte de las MMA. ',
         url: 'https://fullmma.org/articulos/hermanos-diaz-ufc'
     }
 }
