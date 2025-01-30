@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Makhachev () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={makhachev} w={26} l={1} d={0} nombre='Islam Makhachev' apodo={null} categoria='Peso Ligero' />
+            <PeleadoresHero peleadoresImage={makhachev} w={27} l={1} d={0} nombre='Islam Makhachev' apodo={null} categoria='Peso Ligero' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>UFC Makhachev</h2>
@@ -29,7 +29,7 @@ export default function Makhachev () {
                     <p className={styles.peleador__article__text}>Su estilo de pelea es típico de los luchadores de la zona rusa de Daguestán, donde son expertos en la lucha y en Sambo, teniendoo una alta efectividad en los derribos, y consiguiendo que la mayor parte de sus victorias vengan por la vía de la sumisión. En este sentido, aún con sus diferencias y sus matices, es un peleador parecido a su amigo y miembro de su esquina <Link href='/leyendas/khabib-nurmagomedov'>Khabib Nurmagomedov</Link>, quien con su estilo de lucha supo marcar la difencia por sobre los demás peleadores, convirtiéndose en un histórico campeón de la división de 155lbs. </p>
                     <p className={styles.peleador__article__text}>Destacaría especialmente en la compañía el día 22 de octubre de 2022, cuando en el <b>UFC 280</b> se enfrentaría al brasileño <Link href='/peleadores/charles-oliveira'>Charles Oliveira</Link> por el campeonato de peso ligero de la UFC, logrando una victoria por sumisión en el segundo asalto que lo convertiría en el nuevo campeón de peso ligero en la compañía. </p>
                     <h2 className={styles.peleador__article__title}>Makhachev Record</h2>
-                    <p className={styles.peleador__article__text}>Islam Makhacev posee un récord profesional de 26-1. Siendo 5 de sus victorias por la vía del nocaut, siendo 12 por sumisión y siendos 9 de sus victorias por decisión. Mientras que la hasta ahora única derrota de su carrera fue por la vía del KO.</p>
+                    <p className={styles.peleador__article__text}>Islam Makhacev posee un récord profesional de 27-1. Siendo 5 de sus victorias por la vía del nocaut, siendo 13 por sumisión y siendos 9 de sus victorias por decisión. Mientras que la hasta ahora única derrota de su carrera fue por la vía del KO.</p>
                     <h2 className={styles.peleador__article__title}>Islam Makhachev & Khabib Nurmagomédov</h2>
                     <p className={styles.peleador__article__text}>Nacido el 27 de octubre de 1991, Majachkala, Duguestán (Rusia). A los 11 años de edad, en la escuela, conoce a Abubakar, sobrino de Abdulmanap Nurmagomedov, exmilitar y exjudoca ruso. Abubakar entrenaba con Khabib, hijo de Abdulmanap, de esta forma comienza la amistad entre Khabib e Islam (menor por dos años)</p>
                     <Image className={styles.peleador__article__image} src={khabib} alt='Islam Makhachev junto a Khabib Numagomédov y el padre de Khabib'/>
