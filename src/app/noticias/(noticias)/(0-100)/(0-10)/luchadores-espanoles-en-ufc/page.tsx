@@ -10,10 +10,10 @@ import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Luchadores Españoles en UFC 2025',
-    description: "Las MMA es un deporte en ascenso en España, especialmente desde la irrupción de Ilia Topuria, que llevó la popularidad del deporte a otro nivel en el país europeo, por eso hoy vamos a hablar de los 5 luchadores de UFC que compiten actualmente en la compañía.",
+    description: "La lista de los 5 peleadores de MMA españoles que compiten en la UFC hoy en día en el 2025. ",
     openGraph: {
         title: 'Luchadores Españoles en UFC 2025',
-        description: "Las MMA es un deporte en ascenso en España, especialmente desde la irrupción de Ilia Topuria, que llevó la popularidad del deporte a otro nivel en el país europeo, por eso hoy vamos a hablar de los 5 luchadores de UFC que compiten actualmente en la compañía.",
+        description: "La lista de los 5 peleadores de MMA españoles que compiten en la UFC hoy en día en el 2025. ",
         url: 'https://fullmma.org/noticias/luchadores-espanoles-en-ufc'
     }
 }
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function PeleadoresEspanolesUFC () {
     return(
         <main>
-            <ArticleHero title='Los 5 Peleadores Españoles Actuales de UFC en 2024' subtitle="Los luchadores españoles de UFC que compiten actualmente en la compañía más grande de MMA del mundo." image={hero} date='2024-11-28' author={null} updatedDate={null} />
+            <ArticleHero title='Los 5 Peleadores Españoles Actuales de UFC en 2025' subtitle="Los luchadores españoles de UFC que compiten actualmente en la compañía más grande de MMA del mundo." image={hero} date='2024-11-28' author={null} updatedDate='2025-01-30' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <h2>¿Quiénes son los luchadores españoles de UFC actualmente y cómo les va?</h2>
