@@ -4,9 +4,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import ArticlePreview from '../articulos/components/ArticlePreview';
 /* HERO IMAGES */
+import DWT3 from '@/assets/noticias/0-100/30-40/dwt3.jpg'
 import terranceMcKinney from '@/assets/noticias/0-100/30-40/terrance_mckinney.jpg'
 import viniciusOliveira from '@/assets/noticias/0-100/30-40/vinicius_oliveira.jpg'
-import predicciones2025 from '@/assets/noticias/0-100/20-30/campeones_ufc2025.jpg'
 import ufcBillonario from '@/assets/noticias/0-100/20-30/ufc_busca_millonada.jpg'
 import dariushPelea2025 from '@/assets/noticias/0-100/20-30/dariush_pelea2025.jpg'
 import previaUFC311 from '@/assets/noticias/0-100/20-30/previa_ufc311.jpg'
@@ -33,6 +33,7 @@ import drakeApuesta from '@/assets/noticias/0-100/10-20/drake_apuesta.jpg'
 import iliaPromissKOHolloway from '@/assets/noticias/0-100/10-20/ilia_promissko_holloway.jpg'
 import michaelMorales from '@/assets/noticias/0-100/10-20/michael_morales.jpg'
 /* 20 - 30 */
+import predicciones2025 from '@/assets/noticias/0-100/20-30/campeones_ufc2025.jpg'
 import invictosUFC from '@/assets/noticias/0-100/20-30/invictos_ufc_2025.jpg'
 import iliaTopuriaLigero from '@/assets/noticias/0-100/20-30/ilia_topuria_georgia.jpg'
 import evloevPeleaTopuria from '@/assets/noticias/0-100/20-30/evloev_postfight.jpeg'
@@ -44,10 +45,10 @@ export default function NoticiasPage () {
     return(
         <section className={styles.noticiaspage__container}>
             <article className={styles.noticiasHero}>
-                <Link className={styles.noticiasHero__bigArticle} href='/noticias/predicciones-ufc-2025'>
-                    <Image className={styles.noticiasHero__bigArticle__img} loading="lazy" src={predicciones2025} alt='' />
-                    <h2 className={styles.page__title}>Predicción UFC: Todos los campeones del 2025</h2>
-                    <p>Una predicción sobre quienes creo que serán los nuevos campeones para el final del año 2025</p>
+                <Link className={styles.noticiasHero__bigArticle} href='/noticias/dogfight-wild-tournament-3'>
+                    <Image className={styles.noticiasHero__bigArticle__img} loading="lazy" src={DWT3} alt='' />
+                    <h2 className={styles.page__title}>Dogfight Wild Torunament 3: ¡Battle Royal 10 Peleadores Todos Contra Todos!</h2>
+                    <p>Vuelve el evento más loco del mundo, Dogfight Wild Tournament, en su tercera edición organizaodo por Jordi Wild. Con un 2vs2, pelea femenina sin reglas, pelea en un coche y una pelea medieval.</p>
                 </Link>
                 <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
                     <Image className={styles.noticiasHero__article__img} loading="lazy" src={ufcBillonario} alt='' />
@@ -80,6 +81,7 @@ export default function NoticiasPage () {
             </article>
             <h2 className={styles.noticiasPage__subtitle}>Todas Las Noticias</h2>
             <article className={styles.noticias}>
+                <ArticlePreview img={predicciones2025} url='/noticias/predicciones-ufc-2025' title='Predicción UFC: Todos los campeones del 2025' author={null} text='Una predicción sobre quienes creo que serán los nuevos campeones para el final del año 2025' date='31/12/2024' />
                 <ArticlePreview img={invictosUFC} url='/noticias/peleadores-invictos-ufc' title='Los Peleadores Invictos de UFC en 2025' author={null} text='Los luchadores de UFC que terminaron el 2024 invictos y quienes serán capaces de mantenerlo en el 2025.' date='26/12/2024' />
                 <ArticlePreview img={iliaTopuriaLigero} url='/noticias/ilia-topuria-sube-a-peso-ligero' title='¡Ilia Topuria Abandona la División de Peso Pluma para Pelear en Peso Ligero! ¿Tiene Sentido que Busque Pelear en Peso Ligero Ahora?' author={null} text='El campeón español Ilia Topuria afirma que quizás vimos su última pelea en peso pluma, y que busca pelear en peso ligero contra Charles Oliveira' date='10/12/2024' />
                 <ArticlePreview img={evloevPeleaTopuria} url='/noticias/evloev-sobre-pelea-con-ilia-topuria' title='Movsar Evloev Cree Poder Ganarle a Ilia Topuria y Pide Pelear por el Cinturón' author={null} text='El luchador ruso Movsar Evloev, dijo tener lo necesario para derrotar al campeón español Ilia Topuria, luego de vencer al estadounidense Aljamain Sterling en el UFC 310' date='28/11/2024' />
