@@ -51,8 +51,10 @@ export default function DWT3 () {
                     <h3>Final: Alberto vs Hugo</h3>
                     <p>De manera inmediata, teniendo los peleadores apenas unos minutos para descansar, comienza el tercer combate y final de esta serie de peleas. </p>
                     <p>El combate termina yendo a la decisión de los jueces, luego de que finalizados los 5 minutos, ninguno fuera capaz de finalizar a su oponente. Quien terminaría por llevarse la victoria sería Alberto, quien fue el más dominante durante el combate, especialmente al inicio de este, cuando fue capaz de conectar un par de rodillazos a la cabeza de Hugo super potentes. De esta menera quien gana la final y por ende el torneo de lucha de coches es Alberto, quien además fue el único en finalizar a su rival en el primer combate. </p>
-                    {/* <h2>Battle Royale (10 Peleadores)</h2>
-                    <p></p> */}
+                    <h2>Battle Royale (10 Peleadores)</h2>
+                    <p>En un combate caótico, The Killer, quien ya había participado de una edición anterior del DWT, fue quien finalmente se quedó con la victoria por encima de sus 9 rivales. </p>
+                    <p>La pelea fue un tanto caótica, como era de esperar de un enfrentamiento que nos traía a 10 peleadores enfrentándose todos contra todos.</p>
+                    <p>Finalmente, hubieron 3 peleadores que se pusieron de acuerdo para hacer equipo entre ellos, en una estrategia que fue exitosa, dado que fueron ellos los últimos 3 luchadores que quedaron de pie. Goliat, quien parecía el favorito debido a la diferencia de tamaño, terminó siendo expulsado del centro de pelea por uno de sus compañeros. Y finalmente The Killer se quedó con la victoria al someter rápidamente a su rival con una sumisión al estilo <Link href='/peleadores/islam-makhachev'>Makhachev</Link>. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
