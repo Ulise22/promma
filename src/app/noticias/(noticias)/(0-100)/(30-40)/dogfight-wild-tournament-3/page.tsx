@@ -42,9 +42,16 @@ export default function DWT3 () {
                     <h2>Extreme Fight (Pelea de Leyendas Sin Reglas)</h2>
                     <p>¡Abner Skullman Lloveras somete a Felipe Maia! La leyenda española fue capaz de someter al brasileño Felipe Maia luego de 10 minutos de combate. </p>
                     <p>En lo que fue una pelea bastante técnica, donde no vimos mucho del striking de ambos luchadores, quien fue capaz de sobreponerse por sobre su rival fue el español, a pesar de que en el transcurso del combate la historia fue diferente, con Felipe Maia dominando gran parte del combate en el suelo a su rival. Sin embargo, el veterano español supo darle la vuelta a la pelea, ganándole la espalda y siendo capaz de conectar un mataleón para derrotar a su rival. </p>
-                    {/* <h2>Car Fight</h2>
-                    <p></p>
-                    <h2>Battle Royale (10 Peleadores)</h2>
+                    <h2>Car Fight</h2>
+                    <p>En otro de los combates locos que nos regala Jordi Wild, tendremos un torneo de pelea en el coche, donde 2 peleadores deberán enfrentarse en un auto descapotable en una pelea que durará 5 minutos. Habrá 2 enfrentamientos, donde el ganador de cada uno se enfrentará en una final, </p>
+                    <h3>Hugo Derrota a Héctor y avanza a la final</h3>
+                    <p>En el primer combate de este torneo, Hugo fue capaz de derrotar a su rival Héctor, luego de dominarlo durante los 5 minutos que duró este, al ganarle la espalda y castigarlo desde atrás. </p>
+                    <h3>Alberto Derrota a Izan al lanzarlo fuera del coche</h3>
+                    <p>Alberto ha ganado el combate, luego de que en unos pocos minutos haya sido capaz de lanzar fuera del coche, consiguiendo la victoria de esta vía, y siendo el primero en ganar su combate de esta manera. </p>
+                    <h3>Final: Alberto vs Hugo</h3>
+                    <p>De manera inmediata, teniendo los peleadores apenas unos minutos para descansar, comienza el tercer combate y final de esta serie de peleas. </p>
+                    <p>El combate termina yendo a la decisión de los jueces, luego de que finalizados los 5 minutos, ninguno fuera capaz de finalizar a su oponente. Quien terminaría por llevarse la victoria sería Alberto, quien fue el más dominante durante el combate, especialmente al inicio de este, cuando fue capaz de conectar un par de rodillazos a la cabeza de Hugo super potentes. De esta menera quien gana la final y por ende el torneo de lucha de coches es Alberto, quien además fue el único en finalizar a su rival en el primer combate. </p>
+                    {/* <h2>Battle Royale (10 Peleadores)</h2>
                     <p></p> */}
                     <EndArticle />
                 </article>
