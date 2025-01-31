@@ -39,12 +39,12 @@ export default function DWT3 () {
                     <h3>Aitor vs Zdravko</h3>
                     <p>Jordi Wild sorprende y se vuelve loco con la regla especial, al anunciar que los ganadores del combate 2 vs 2 se enfrentaría entre sí, dándonos la tercer pelea entre Zdravko y Aitor, luego de lo que fueron sus combates anteriores en el DWT 1 y 2. </p>
                     <p>Zdravko sería el que terminó llevándose esta locura de combate, consiguiendo noquear rápidamente y convirtiéndose en el ganador de la trilogía contra Aitor. </p>
-                    <h2>Extreme Fight (Pelea de Leyendas Sin Reglas)</h2>
+                    {/* <h2>Extreme Fight (Pelea de Leyendas Sin Reglas)</h2>
                     <p></p>
                     <h2>Car Fight</h2>
                     <p></p>
                     <h2>Battle Royale (10 Peleadores)</h2>
-                    <p></p>
+                    <p></p> */}
                     <EndArticle />
                 </article>
                 <AsideChamps />
