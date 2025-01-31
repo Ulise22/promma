@@ -33,16 +33,18 @@ export default function DWT3 () {
                     <p>En una pelea donde la mexicana Yess Castro comenzó dominando claramente el combate, conectando patadas a todos el cuerpo de su rival, usando estas patadas para mantener la distancias y mantener lejos a Yamila, Castro fue capaz de dominar todo el combate en las diferentes facetas que tuvo este. </p>
                     <p>El momento en que la argentina Yamila Sánchez mejor estuvo, fue cuando estuvo cerca de conectar una guillotina que podría haber sometido a su rival. Sin embargo, Yess Castro fue capaz de defender muy bien este intento de sumisión, aprovechando cuando quedó por encima en la lucha en el suelo, para castigar a su rival con ground & pound del que Yamila no pudo escapar. Terminando de esta manera el combate con 8 minutos muy dominantes por parte de la mexicana que fue muy superior a su rival.</p>
                     <p>De esta manera, la pelea que duró un total de 15 minutos, sin descansos, todo a un solo asaltos, llegó a la mano de los jueces que merecidamente le dieron la victoria a la mexicana Yess Castro en lo que fue un tremenedo combate que tuvo de todo. </p>
-                    {/* <h2>Pelea Medieval</h2>
-                    <p></p>
                     <h2>2v2 Especial Rules</h2>
-                    <p></p>
+                    <p>El equipo rojo, que era el favorito de los fanáticos, debido a que ambos participaron de las anteriores ediciones del DWT, fue el que terminó venciendo por encima del equipo azul.</p>
+                    <p>Luego de que uno de los Aitor fuera capaz de someter a su rival a los pocos minutos de iniciado el combate, ayudando de esta forma a su compañero a noquear al peleador restante del equipo azul. </p>
+                    <h3>Aitor vs Zdravko</h3>
+                    <p>Jordi Wild sorprende y se vuelve loco con la regla especial, al anunciar que los ganadores del combate 2 vs 2 se enfrentaría entre sí, dándonos la tercer pelea entre Zdravko y Aitor, luego de lo que fueron sus combates anteriores en el DWT 1 y 2. </p>
+                    <p>Zdravko sería el que terminó llevándose esta locura de combate, consiguiendo noquear rápidamente y convirtiéndose en el ganador de la trilogía contra Aitor. </p>
                     <h2>Extreme Fight (Pelea de Leyendas Sin Reglas)</h2>
                     <p></p>
                     <h2>Car Fight</h2>
                     <p></p>
                     <h2>Battle Royale (10 Peleadores)</h2>
-                    <p></p> */}
+                    <p></p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
