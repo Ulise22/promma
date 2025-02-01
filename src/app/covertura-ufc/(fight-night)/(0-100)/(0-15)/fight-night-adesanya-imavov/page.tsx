@@ -41,10 +41,10 @@ export default function CovingtonBuckley () {
                     <h2>Muhammad Naimov Derrota a Kaan Ofli</h2>
                     <p>El luchador de Tayikistán, Muhammad Naimov, se lleva la victoria por decisión unánime ante Kaan Ofli, haciendo valer su favortismo en un combate que dominó completamente. Usando el último asalto para asegurar la victoria, al dominar la posición desde su espalda en el suelo, castigando lentamente a su rival con golpes desde la posición. </p>
                     <p>De esta forma Naimov se lleva la victoria en la última pelea de la cartelera preliminar, dando inicio a la cartelera estelar. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2>Fares Ziam vs Mike Davis</h2>
-                    <p></p>
-                    <h2>Said Nurmagomedov vs Vinicius Oliveira</h2>
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Fares Ziam Derrota a Mike Davis</h2>
+                    <p>El francés Fares Ziam se queda con la victoria por decisión unánime, luego de que fue una clara actuación dominante por su parte, llegando incluso a provocarle un grave corte a su rival que lo dejó sangrando un montón en el segundo asalto. Consiguiendo de esta manera corta la racha de 4 victorias consecutivas en la que estaba su rival, Mike Davis, y llegando él a su quinta victoria consecutiva en la UFC de esta forma. </p>
+                    {/* <h2>Said Nurmagomedov vs Vinicius Oliveira</h2>
                     <p></p>
                     <h2>Sergei Pavlovich vs Jairzinho Rozenstruik</h2>
                     <p></p>
