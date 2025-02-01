@@ -32,8 +32,9 @@ export default function CovingtonBuckley () {
                     <p>El debutante Grad, logra una impresionante victoria en su primer pelea en la UFC, al ser capaz de vencer por TKO al brasileño Lucas Alexander en el segundo asalto de la pelea. En lo que estaba siendo un debut complicado para el luchador de Rumania, con un primer asalto en el que fue dominado por el brasileño, fue capaz de darle la vuelta a la pelea, castigando a su rival con ground and pound, para llevarse la victoria por la vía del nocaut en el segundo round. </p>
                     <h2>Jasmine Jasudavicius Derrota a Mayra Bueno Silva</h2>
                     <p>Jasmine se lleva una merecida victoria por decisión unánime, luego de dominar por completo a la brasileña <Link href='/mujeres/mayra-bueno-silva'>Mayra Bueno Silva</Link> en la totalidad de los asaltos. Con los 2 primeros siendo en el terreno del striking, en donde vimos como la canadiense destacó por encima de la brasileña, conectando más y mejores golpes. Y en el último, Jasmine decidió no arriesgar de más, sabiendo que tenía la pelea en el bolsillo, y concretó un derribo para dominar desde arriba a su rival y llevarse una cómoda victoria, ante una Mayra Bueno Silva a la que no le sentó bien moverse de división para pelear en peso mosca. </p>
-                    {/* <h2>Terrance McKinney vs Damir Hadzovic</h2>
-                    <p></p> */}
+                    <h2>Terrance McKinney Noquea a Damir Hadzovic en el Primer Asalto</h2>
+                    <p>El estadounidense <Link href='/noticias/terrance-mckinney'>Terrance McKinney</Link> logra una increíble victoria por la vía del nocaut en el primer asalto, luego de arrancar super agresivo la pelea, logrando conectar varios golpes a su rival que le hicieron mucho daño. Una vez encontró una posición comoda, el estadounidense castigó a su rival con golpes desde arriba de los que no se pudo defender, llevando al árbitro a parar la pelea para darle la victoria por TKO en el primer asalto. </p>
+                    <p>De esta forma McKinney es capaz de reponerse de una última derrota bastante dolorosa por KO ante el argentino <Link href='/peleadores/esteban-ribovics'>Esteban Ribovics</Link>. </p>
                     {/* <h2>Shamil Gaziev vs Thomas Petersen</h2>
                     <p></p> */}
                     {/* <h2>Muhammad Naimov vs Kaan Ofli</h2>
