@@ -51,9 +51,10 @@ export default function CovingtonBuckley () {
                     <h2>Sergei Pavlovich Se Lleva la Victoria Ante Jairzinho Rozenstruik</h2>
                     <p>El luchador ruso Sergei Pavlovich se lleva la victoria por decisión unánime, luego de dominar por completo a su rival en los 3 asaltos en lo que es la última pelea de peso pesado de la noche.</p>
                     <p>Habiendo tenido 3 asaltos que fueron un calco el uno del otro, con Pavlovich siendo capaz de conectar golpes potentes a Jairzinho que lo llevaron al piso, y con el ruso aprovechando esto para castigar a golpes a su rival desde arriba, el resultado de la pelea por parte de los jueces era más que predecible, otorgándole la victoria por decisión unánime a Sergei Pavlovich. </p>
-                    {/* <h2>Shara Magomedov vs Michael Page</h2>
-                    <p></p>
-                    <h2>Israel Adesanya vs Nassourdine Imavov</h2>
+                    <h2>Michael Page Vence y Domina a Shara Magomedov</h2>
+                    <p>¡El peleador inglés se encarga de quitarle el invicto al pirata! Michael Venom Page obtiene una importantísima victoria ante <Link href='/peleadores/shara-magomedov'>Shara Magomedov</Link>, luego de dominarlo en el striking durante los 3 asaltos que duró el combate, al ser capaz de conectar varios golpes, con un manejo de la distancia magistral, que evitó que Shara Bullet pudiera conectarlo. </p>
+                    <p>De esta manera termina la pelea coestelar de la noche, con una victoria para el inglés Michael Page, que le quita el invicto de 15-0 a su rival.</p>
+                    {/* <h2>Israel Adesanya vs Nassourdine Imavov</h2>
                     <p></p> */}
                     <EndArticle />
                 </article>
