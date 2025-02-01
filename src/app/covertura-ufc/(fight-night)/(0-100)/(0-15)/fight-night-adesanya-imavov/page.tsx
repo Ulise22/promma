@@ -35,8 +35,9 @@ export default function CovingtonBuckley () {
                     <h2>Terrance McKinney Noquea a Damir Hadzovic en el Primer Asalto</h2>
                     <p>El estadounidense <Link href='/noticias/terrance-mckinney'>Terrance McKinney</Link> logra una increíble victoria por la vía del nocaut en el primer asalto, luego de arrancar super agresivo la pelea, logrando conectar varios golpes a su rival que le hicieron mucho daño. Una vez encontró una posición comoda, el estadounidense castigó a su rival con golpes desde arriba de los que no se pudo defender, llevando al árbitro a parar la pelea para darle la victoria por TKO en el primer asalto. </p>
                     <p>De esta forma McKinney es capaz de reponerse de una última derrota bastante dolorosa por KO ante el argentino <Link href='/peleadores/esteban-ribovics'>Esteban Ribovics</Link>. </p>
-                    {/* <h2>Shamil Gaziev vs Thomas Petersen</h2>
-                    <p></p> */}
+                    <h2>¡Shamil Gaziev Noquea a Thomas Petersen En El Primer Asalto!</h2>
+                    <p>El nacido en Daguestán consigue una espectacular victoria por la vía del nocaut en el primer asalto luego de conectar una potentísima mano derecha que tumbó a su rival. </p>
+                    <p>De esta manera, en lo que estaba siendo una pelea sin un claro dominador, pero donde Thomas Petersen venía haciendo un papel digno, conectando varios golpes a su rival, y siendo capaz de concretar un derribo, a pesar de que este no es su fuerte, nada pudo hacer cuando recibió el golpe de mano derecha de Gaziev que lo tumbó inmediatamente. </p>
                     {/* <h2>Muhammad Naimov vs Kaan Ofli</h2>
                     <p></p> */}
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
