@@ -44,9 +44,11 @@ export default function CovingtonBuckley () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Fares Ziam Derrota a Mike Davis</h2>
                     <p>El francés Fares Ziam se queda con la victoria por decisión unánime, luego de que fue una clara actuación dominante por su parte, llegando incluso a provocarle un grave corte a su rival que lo dejó sangrando un montón en el segundo asalto. Consiguiendo de esta manera corta la racha de 4 victorias consecutivas en la que estaba su rival, Mike Davis, y llegando él a su quinta victoria consecutiva en la UFC de esta forma. </p>
-                    {/* <h2>Said Nurmagomedov vs Vinicius Oliveira</h2>
-                    <p></p>
-                    <h2>Sergei Pavlovich vs Jairzinho Rozenstruik</h2>
+                    <h2>¡Vinicius Oliveira Derrota a Said Nurmagomedov!</h2>
+                    <p>El brasileño <Link href='/noticias/vinicius-oliveira-ufc'>Vinicius Oliveira</Link> se queda con la victoria en lo que fue un tremendo combate, super emocionante y que tuvo de todo. </p>
+                    <p>Habiendo perdido claramente el primer asalto ante Said Nurmagomedov, el brasileño fue capaz de leer junto a su equipo que su rival se había desgastado demasiado, poniendo el pie sobre el acelerador, para conectar los mejores golpes en el striking, y ser capaz de dominar en el suelo tambien, concretando exitosamente sus intentos de derribo y defendiendo los de su rival. De esta manera, con unos excelentes segundo y tercer asalto, el brasileño se queda con la victoria de manera merecida por decisión unánime. </p>
+                    <p>Después de la pelea Vinicius habló sobre como llegó a esta pelea con una lesión en la costilla que llevaba arrastrando hacía meses, siendo capaz de pelear aún en estas condiciones. Además, no dudó en desafiar para su próximo combate a <Link href='/peleadores/umar-nurmagomedov'>Umar Nurmagomedov</Link>, quien peleó en el último evento en el <Link href='/covertura-ufc/ufc311'>UFC 311</Link> ante <Link href='/peleadores/merab-dvalishvili'>Merab Dvalisvhili</Link> por el cinturón. </p>
+                    {/* <h2>Sergei Pavlovich vs Jairzinho Rozenstruik</h2>
                     <p></p>
                     <h2>Shara Magomedov vs Michael Page</h2>
                     <p></p>
