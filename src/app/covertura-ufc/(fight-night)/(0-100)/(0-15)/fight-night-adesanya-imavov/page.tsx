@@ -48,9 +48,10 @@ export default function CovingtonBuckley () {
                     <p>El brasileño <Link href='/noticias/vinicius-oliveira-ufc'>Vinicius Oliveira</Link> se queda con la victoria en lo que fue un tremendo combate, super emocionante y que tuvo de todo. </p>
                     <p>Habiendo perdido claramente el primer asalto ante Said Nurmagomedov, el brasileño fue capaz de leer junto a su equipo que su rival se había desgastado demasiado, poniendo el pie sobre el acelerador, para conectar los mejores golpes en el striking, y ser capaz de dominar en el suelo tambien, concretando exitosamente sus intentos de derribo y defendiendo los de su rival. De esta manera, con unos excelentes segundo y tercer asalto, el brasileño se queda con la victoria de manera merecida por decisión unánime. </p>
                     <p>Después de la pelea Vinicius habló sobre como llegó a esta pelea con una lesión en la costilla que llevaba arrastrando hacía meses, siendo capaz de pelear aún en estas condiciones. Además, no dudó en desafiar para su próximo combate a <Link href='/peleadores/umar-nurmagomedov'>Umar Nurmagomedov</Link>, quien peleó en el último evento en el <Link href='/covertura-ufc/ufc311'>UFC 311</Link> ante <Link href='/peleadores/merab-dvalishvili'>Merab Dvalisvhili</Link> por el cinturón. </p>
-                    {/* <h2>Sergei Pavlovich vs Jairzinho Rozenstruik</h2>
-                    <p></p>
-                    <h2>Shara Magomedov vs Michael Page</h2>
+                    <h2>Sergei Pavlovich Se Lleva la Victoria Ante Jairzinho Rozenstruik</h2>
+                    <p>El luchador ruso Sergei Pavlovich se lleva la victoria por decisión unánime, luego de dominar por completo a su rival en los 3 asaltos en lo que es la última pelea de peso pesado de la noche.</p>
+                    <p>Habiendo tenido 3 asaltos que fueron un calco el uno del otro, con Pavlovich siendo capaz de conectar golpes potentes a Jairzinho que lo llevaron al piso, y con el ruso aprovechando esto para castigar a golpes a su rival desde arriba, el resultado de la pelea por parte de los jueces era más que predecible, otorgándole la victoria por decisión unánime a Sergei Pavlovich. </p>
+                    {/* <h2>Shara Magomedov vs Michael Page</h2>
                     <p></p>
                     <h2>Israel Adesanya vs Nassourdine Imavov</h2>
                     <p></p> */}
