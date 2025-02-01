@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function CovingtonBuckley () {
     return(
         <main>
-            <ArticleHero title='UFC SAUDI ARABIA: ¡Isreal Adesanya vs Nassourdine Imavov!' subtitle='Noche de UFC en Arabia Saudita, que además nos trae la pelea entre Shara Magomedov y Michael Venom Page, y la pelea de peso pesado entre Pavlovich y Jairzinho' image={hero} date='2025-02-01' author={null} updatedDate={null} />
+            <ArticleHero title='UFC SAUDI ARABIA: ¡Nassourdine Imavov Noquea a Israel Adesanya en el Segundo Asalto! ¡Michael Venom Page le Quita el Invicto a Shara Bullet!' subtitle='Noche de UFC en Arabia Saudita, que además nos trae la pelea entre Shara Magomedov y Michael Venom Page, y la pelea de peso pesado entre Pavlovich y Jairzinho' image={hero} date='2025-02-01' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Noche de UFC en Arabia Saudita, con la una tremenda pelea como aperitivo estelear, entre el excampeón de la división de peso medio <Link href='/peleadores/israel-adesanya'>Israel Adesanya</Link> contra el #5 de la división, <b>Nassourdine Imavov</b>. Además, tendremos el enfrentamiento entre <Link href='/peleadores/shara-magomedov'>Shara &quot;Bullet&quot; Magomedov</Link>, quien está invicto 15-0, y enfrentará al inglés <b>Michael &quot;Venom&quot; Page</b>. </p>
@@ -54,8 +54,9 @@ export default function CovingtonBuckley () {
                     <h2>Michael Page Vence y Domina a Shara Magomedov</h2>
                     <p>¡El peleador inglés se encarga de quitarle el invicto al pirata! Michael Venom Page obtiene una importantísima victoria ante <Link href='/peleadores/shara-magomedov'>Shara Magomedov</Link>, luego de dominarlo en el striking durante los 3 asaltos que duró el combate, al ser capaz de conectar varios golpes, con un manejo de la distancia magistral, que evitó que Shara Bullet pudiera conectarlo. </p>
                     <p>De esta manera termina la pelea coestelar de la noche, con una victoria para el inglés Michael Page, que le quita el invicto de 15-0 a su rival.</p>
-                    {/* <h2>Israel Adesanya vs Nassourdine Imavov</h2>
-                    <p></p> */}
+                    <h2>¡Nassourdine Imavov Noquea a Israel Adesanya en el Segundo Asalto!</h2>
+                    <p>El luchador francés <b>Nassourdine Imavov</b> logra una impresionante victoria por la vía del nocaut ante el excampeón <Link href='/peleadores/israel-adesanya'>Israel Adesanya</Link>, para posicionarse como un claro candidato al título de las 185lbs, al alcanzar con esta, su cuarta victoria consecutiva en la división de peso medio. </p>
+                    <p>Por su parte, el excampeón nigeriano alcanza con esta pelea su tercer derrota consecutiva, luego de perder por sumisión ante <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link> y por decisión ante <Link href='/peleadores/sean-strickland'>Sean Strickland</Link>, en lo que vienen siendo unas últimas peleas bastante dolorosas para el campeón Adesanya. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />

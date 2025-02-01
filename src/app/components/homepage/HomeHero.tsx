@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-adesanya-imavov'>
                 <Image className={styles.homehero__bigArticle__img} src={ufcSaudiArabia} alt='' />
-                <h2 className={styles.home__title}>UFC SAUDI ARABIA: ¡Isreal Adesanya vs Nassourdine Imavov!</h2>
+                <h2 className={styles.home__title}>UFC SAUDI ARABIA: ¡Nassourdine Imavov Noquea a Israel Adesanya en el Segundo Asalto! ¡Michael Venom Page le Quita el Invicto a Shara Bullet!</h2>
                 <span>Noche de UFC en Arabia Saudita, que además nos trae la pelea entre Shara Magomedov y Michael Venom Page, y la pelea de peso pesado entre Pavlovich y Jairzinho</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/mejores-eventos-ufc-2024'>
