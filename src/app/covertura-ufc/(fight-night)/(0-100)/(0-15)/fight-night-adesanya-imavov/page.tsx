@@ -30,8 +30,8 @@ export default function CovingtonBuckley () {
                     <p>El egipcio Abdelwahab se lleva la victoria por decisión de los jueces, luego de dominar completamente durante el primer asalto, y luego de tener otros 2 asaltos más cerrados, pero que a los ojos de los jueces terminó ganando, recompensando su actitud de ir hacia adelante y buscar a su rival. De esta manera, Hamdy es el primer ganador de la noche, el día de hoy. </p>
                     <h2>Bogdon Grad Noquea a Lucas Alexander En el Segundo Asalto</h2>
                     <p>El debutante Grad, logra una impresionante victoria en su primer pelea en la UFC, al ser capaz de vencer por TKO al brasileño Lucas Alexander en el segundo asalto de la pelea. En lo que estaba siendo un debut complicado para el luchador de Rumania, con un primer asalto en el que fue dominado por el brasileño, fue capaz de darle la vuelta a la pelea, castigando a su rival con ground and pound, para llevarse la victoria por la vía del nocaut en el segundo round. </p>
-                    {/* <h2>Jasmine Jasudavicius vs Mayra Bueno Silva</h2>
-                    <p></p> */}
+                    <h2>Jasmine Jasudavicius Derrota a Mayra Bueno Silva</h2>
+                    <p>Jasmine se lleva una merecida victoria por decisión unánime, luego de dominar por completo a la brasileña <Link href='/mujeres/mayra-bueno-silva'>Mayra Bueno Silva</Link> en la totalidad de los asaltos. Con los 2 primeros siendo en el terreno del striking, en donde vimos como la canadiense destacó por encima de la brasileña, conectando más y mejores golpes. Y en el último, Jasmine decidió no arriesgar de más, sabiendo que tenía la pelea en el bolsillo, y concretó un derribo para dominar desde arriba a su rival y llevarse una cómoda victoria, ante una Mayra Bueno Silva a la que no le sentó bien moverse de división para pelear en peso mosca. </p>
                     {/* <h2>Terrance McKinney vs Damir Hadzovic</h2>
                     <p></p> */}
                     {/* <h2>Shamil Gaziev vs Thomas Petersen</h2>
