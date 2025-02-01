@@ -38,8 +38,9 @@ export default function CovingtonBuckley () {
                     <h2>¡Shamil Gaziev Noquea a Thomas Petersen En El Primer Asalto!</h2>
                     <p>El nacido en Daguestán consigue una espectacular victoria por la vía del nocaut en el primer asalto luego de conectar una potentísima mano derecha que tumbó a su rival. </p>
                     <p>De esta manera, en lo que estaba siendo una pelea sin un claro dominador, pero donde Thomas Petersen venía haciendo un papel digno, conectando varios golpes a su rival, y siendo capaz de concretar un derribo, a pesar de que este no es su fuerte, nada pudo hacer cuando recibió el golpe de mano derecha de Gaziev que lo tumbó inmediatamente. </p>
-                    {/* <h2>Muhammad Naimov vs Kaan Ofli</h2>
-                    <p></p> */}
+                    <h2>Muhammad Naimov Derrota a Kaan Ofli</h2>
+                    <p>El luchador de Tayikistán, Muhammad Naimov, se lleva la victoria por decisión unánime ante Kaan Ofli, haciendo valer su favortismo en un combate que dominó completamente. Usando el último asalto para asegurar la victoria, al dominar la posición desde su espalda en el suelo, castigando lentamente a su rival con golpes desde la posición. </p>
+                    <p>De esta forma Naimov se lleva la victoria en la última pelea de la cartelera preliminar, dando inicio a la cartelera estelar. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Fares Ziam vs Mike Davis</h2>
                     <p></p>
