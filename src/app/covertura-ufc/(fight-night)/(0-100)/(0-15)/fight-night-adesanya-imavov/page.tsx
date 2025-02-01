@@ -21,15 +21,15 @@ export const metadata: Metadata = {
 export default function CovingtonBuckley () {
     return(
         <main>
-            <ArticleHero title='UFC SAUDI ARABIA: ¡Isreal Adesanya vs Nassourdine Imavov!' subtitle='' image={hero} date='2025-02-01' author={null} updatedDate={null} />
+            <ArticleHero title='UFC SAUDI ARABIA: ¡Isreal Adesanya vs Nassourdine Imavov!' subtitle='Noche de UFC en Arabia Saudita, que además nos trae la pelea entre Shara Magomedov y Michael Venom Page, y la pelea de peso pesado entre Pavlovich y Jairzinho' image={hero} date='2025-02-01' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Noche de UFC en Arabia Saudita, con la una tremenda pelea como aperitivo estelear, entre el excampeón de la división de peso medio <Link href='/peleadores/israel-adesanya'>Israel Adesanya</Link> contra el #5 de la división, <b>Nassourdine Imavov</b>. Además, tendremos el enfrentamiento entre <Link href='/peleadores/shara-magomedov'>Shara &quot;Bullet&quot; Magomedov</Link>, quien está invicto 15-0, y enfrentará al inglés <b>Michael &quot;Venom&quot; Page</b>. </p>
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2>Hamdy Abdelwahab Derrota a Jamal Pogues Por Decisión Dividida</h2>
                     <p>El egipcio Abdelwahab se lleva la victoria por decisión de los jueces, luego de dominar completamente durante el primer asalto, y luego de tener otros 2 asaltos más cerrados, pero que a los ojos de los jueces terminó ganando, recompensando su actitud de ir hacia adelante y buscar a su rival. De esta manera, Hamdy es el primer ganador de la noche, el día de hoy. </p>
-                    {/* <h2>Bogdon Grad vs Lucas Alexander </h2>
-                    <p></p> */}
+                    <h2>Bogdon Grad Noquea a Lucas Alexander En el Segundo Asalto</h2>
+                    <p>El debutante Grad, logra una impresionante victoria en su primer pelea en la UFC, al ser capaz de vencer por TKO al brasileño Lucas Alexander en el segundo asalto de la pelea. En lo que estaba siendo un debut complicado para el luchador de Rumania, con un primer asalto en el que fue dominado por el brasileño, fue capaz de darle la vuelta a la pelea, castigando a su rival con ground and pound, para llevarse la victoria por la vía del nocaut en el segundo round. </p>
                     {/* <h2>Jasmine Jasudavicius vs Mayra Bueno Silva</h2>
                     <p></p> */}
                     {/* <h2>Terrance McKinney vs Damir Hadzovic</h2>
