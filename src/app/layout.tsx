@@ -8,6 +8,7 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import Menu from './components/Menu'
 import Link from 'next/link'
+import Script from 'next/script'
 config.autoAddCss = false
 
 const inter = Inter({ subsets: ['latin'] })
@@ -29,6 +30,22 @@ export default function RootLayout({
         <meta name="google-adsense-account" content="ca-pub-9270621638584149" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9270621638584149"
      crossOrigin="anonymous"></script>
+      {/* Google Analytics Script */}
+      <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-5FLC9WWZD8"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-5FLC9WWZD8');
+            `,
+          }} />
 
       </head>
       <body className={inter.className}>
