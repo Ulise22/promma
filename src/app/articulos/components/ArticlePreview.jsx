@@ -9,7 +9,7 @@ export default function ArticlePreview ({title, img, url, text, author, date}) {
             <h3 className={styles.articlePreview__title}> {title} </h3>
             <p> {text} </p>
             <div className={styles.articlePreview__info__container}>
-                <h4> {author && author || 'FULMMA'} </h4>
+                <h4> {author && author || 'FULLMMA'} </h4>
                 {date && <p> {date} </p>}
             </div>
         </Link>
