@@ -19,14 +19,14 @@ export const metadata: Metadata = {
 export default function Prochazka () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={adesanya} w={24} l={4} d={0} nombre='Israel Adesanya' apodo='The Last Stylebender' categoria='Peso Medio' />
+            <PeleadoresHero peleadoresImage={adesanya} w={24} l={5} d={0} nombre='Israel Adesanya' apodo='The Last Stylebender' categoria='Peso Medio' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Israel Adesanya UFC</h2>
                     <p className={styles.peleador__article__text}>Israel Adesanya es un luchador nacido en Nigeria que compite en la <Link href='/articulos/ufc'>UFC</Link> y es sin duda uno de los mejores luchadores de la historia de los peso medio de la compañía desde que llegara e hiciera su debut en febrero de 2018, cuando venció por TKO al australiano <b>Rob Wilkinson</b>. </p>
                     <p className={styles.peleador__article__text}>Su gran trayectoria en el kickboxing han marcado lo que es su estilo en las MMA, siendo de los mejores strikers que ha visto la UFC. Fue uno de los campeones más dominantes que han exisitido en la división de peso medio de la compañía, cosa que sumado a su personalidad, lo han posicionado como uno de los peleadores más mediáticos de la década. </p>
                     <h2 className={styles.peleador__article__title}>Israel Adesanya Récord</h2>
-                    <p className={styles.peleador__article__text}>Israel Adesanya en sus 28 peleas como profesional ha cosechado un récord de 24-4. Siendo 16 de sus victorias por la vía del nocaut, mientras que 8 de sus victorias fueron por decisión. Mientras que de sus 4 derrotas, 1 fue por nocaut, 1 fue por sumisión y 2 fueron por decisión.</p>
+                    <p className={styles.peleador__article__text}>Israel Adesanya en sus 28 peleas como profesional ha cosechado un récord de 24-5. Siendo 16 de sus victorias por la vía del nocaut, mientras que 8 de sus victorias fueron por decisión. Mientras que de sus 5 derrotas, 2 fueron por nocaut, 1 fue por sumisión y 2 fueron por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Israel Adesanya Biografía</h2>
                     <p className={styles.peleador__article__text}>Israel Mobolaji Temitayo Odunayo Oluwafemi Owolabi Adesanya nació el 22 de julio de 1989 en la ciudad de Nigeria, Lagos. Es el mayor de 5 hermanos y desde muy pequeño comenzó a entrenar Taewkwondo, hasta que su madre lo obligó a dejar este deporte cuando sufrió una lesión. Durante su niñez se trasladó un tiempo a Ghana, pero como sus padres querían que recibiera una buena educación, cuando Israel tenía 10 años se mudaron a Nueva Zelanda. </p>
                     <p className={styles.peleador__article__text}>Pese a esa corta experiencia que Adesanya había tenido entrenando Taekwondo, lo cierto es que nunca estuvo muy interesado en las artes marciales, sino más bien disfrutaba de ver anime, con series como <b>Death Note</b> o <b>Naruto</b>. Durante su secundaria fue víctima de bullyng, factor que él mismo atribuye que lo inspiró a entrenar artes marciales, comenzando a practicar kickboxing a los 18 años.</p>
