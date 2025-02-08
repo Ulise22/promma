@@ -51,24 +51,6 @@ export default function ComoSerPeleadorProfesionalMMA () {
                     <p>La segunda forma de ganar experiencia es simplemente compitiendo a nivel amateur en MMA. Es posible que existan varios torneos regionales por tu zona, por lo que no dudes en anotarte y participar en todas las peleas que puedas. El ir ganando minutos dentro del octágono, e ir sumando un récord positivo, aunque sea de forma amateur, te ayudará en tu camino a ser profesional, y también servirá de guía para conocer tu nivel como peleador, así también como para entender en que aspectos debes mejorar y poner más tu atención. </p>
                     <h2>Pelear de Forma Profesional</h2>
                     <p>Cumpliendo con todos los puntos anteriores ya estás listo para tener tu primera pelea profesional y para desarrollar tu carrera de la mejor forma que puedas. Recuerda rodearte de un buen equipo con un ambiente sano, que sepan guiarte y llevarte por el camino adecuado para que puedas sacar lo mejor de ti. </p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
                     <EndArticle />
                 </article>
                 <AsideChamps />

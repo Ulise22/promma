@@ -1,32 +1,32 @@
 import styles from './articulosContainer.module.css'
 import HomeArticle from './noticias/HomeArticle'
 /* IMAGES */
+import luchadorProfesionalMMA from '@/assets/articulos/0-100/60-70/ser_peleador_mma.jpg'
+import luchagoresMasVictoriasUFC from '@/assets/articulos/0-100/50-60/10_peleadores_mas_victorias.jpg'
+import luchadoresDaguestan from '@/assets/articulos/0-100/50-60/luchadores_daguestan.jpg'
+import hermanosDiaz from '@/assets/articulos/0-100/50-60/hermanos_diaz.jpg'
+import khabibDisciplina from '@/assets/articulos/0-100/50-60/khabib_disciplina.jpg'
+import hermanosUFC from '@/assets/articulos/0-100/50-60/hermanos_ufc.jpg'
+import llegarAUFC5Pasos from '@/assets/articulos/0-100/50-60/llegar_a_ufc_5pasos.jpg'
 import joeRoganMA from '@/assets/articulos/0-100/30-40/joe_rogan_bestMA.jpeg'
 import movimientosProhibidosUFC from '@/assets/articulos/0-100/20-30/movimientos_prohibidos_ufc.jpg'
 import luchadoresFamososUFC from '@/assets/articulos/0-100/20-30/luchadores_ufc_mas_famosos.jpg'
-import requisitosEntrarUFC from '@/assets/articulos/0-100/20-30/requisitos_entrar_ufc.jpg'
-import rankingsUFC from '@/assets/articulos/0-100/10-20/ufc_rankings.jpg'
-import salariosUFC from '@/assets/articulos/0-100/10-20/salarios_ufc.jpg'
-import talbottSkateboard from '@/assets/articulos/0-100/10-20/payton_talbott_skateboard.jpg'
-import talbottTattoo from '@/assets/articulos/0-100/10-20/payton_talbott_tattoo.jpg'
-import bestMAForMMA from '@/assets/articulos/0-100/10-20/best_ma_for_mma.jpg'
-import titovsdana from '@/assets/articulos/0-100/0-10/dana_vs_ortiz.jpg'
 
 export default function ArticulosContainer () {
     return(
         <section className={styles.articulos}>
             <h2 className={styles.articulos__title}>Últimos Artículos</h2>
             <article className={styles.articulos__container}>
+                <HomeArticle img={luchadorProfesionalMMA} link='/articulos/como-ser-un-peleador-de-mma-profesional' title='Como Ser un Peleador Profesional de MMA' author={null} description='Ayuda y consejos para las personas que quieran convertirse en peleadores profesionales y que quieran saber cómo pelear en MMA.' date='07/02/2025' />
+                <HomeArticle img={luchagoresMasVictoriasUFC} link='/articulos/luchadores-ufc-con-mas-victorias' title='Los 10 Peleadores Con Más Victorias en la Historia de la UFC' author={null} description='Los Luchadores de UFC Con Más Victorias en la Historia de la Compañía.' date='05/02/2025' />
+                <HomeArticle img={luchadoresDaguestan} link='/articulos/luchadores-de-daguestan-ufc' title='Los Luchadores Más Destacados de Daguestán en la UFC' author={null} description='Todos los luchadores de Daguestán que compiten actualmente en la UFC' date='31/01/2025' />
+                <HomeArticle img={hermanosDiaz} link='/articulos/hermanos-diaz-ufc' title='La Historia de Nick y Nate Diaz, Los Hermanos Más Famosos de la UFC' author={null} description='Los hermanos Diaz en la UFC, una historia de resiliencia y lealtad por parte de la pareja de hermanos más reconocida y querida por los fans.' date='28/01/2025' />
+                <HomeArticle img={khabibDisciplina} link='/articulos/khabib-disciplina' title='Las 3 Claves de la disciplina de Khabib Nurmagomedov' author={null} description='Los secreto detrás del arrollador éxito y disciplina espectacular de Khabib que supo trasladar a todo su equipo.' date='28/01/2025' />
+                <HomeArticle img={hermanosUFC} link='/articulos/hermanos-ufc' title='Hermanos Que Pelearon en la UFC' author={null} description='La lista de las mejores parejas de hermanos que pelearon en la UFC ' date='26/01/2025' />
+                <HomeArticle img={llegarAUFC5Pasos} link='/articulos/como-llegar-a-la-ufc-5-pasos' title='Descubre como llegar a pelear en la UFC en 5 pasos' author={null} description='Convierte tu sueño en realidad: Sigue estos 5 pasos para llegar a la UFC y ser un peleador profesional' date='24/01/2025' />
                 <HomeArticle author='FULLMMA' date='17/01/2025' img={joeRoganMA} link='/articulos/mejor-arte-marcial-para-pelea-callejera-joe-rogan' title='La Mejor Arte Marcial Para Una Pelea Callejera Según Joe Rogan' description='El comentarista de la UFC Joe Rogan confirma cuál es para él la mejor arte marcial para peleas callejeras. ' />
                 <HomeArticle author='FULLMMA' date='15/01/2025' img={movimientosProhibidosUFC} link='/articulos/movimientos-prohibidos-de-la-ufc' title='Todos Los Movimientos que Están Prohibidos en la UFC: Lo Que Jamás Verás en un Combate' description='La lista de los 28 golpes y movimientos que están prohibidos dentro de la UFC y que por lo tanto jamás verás realizarse, o al menos no deberías ver realizarse. ' />
                 <HomeArticle author='FULLMMA' date='12/01/2025' img={luchadoresFamososUFC} link='/articulos/luchadores-ufc-mas-famosos' title='¿Quienes son los Peleadores de UFC Más Famosos? La lista de los 10 Peleadores con Más Seguidos' description='Compartiremos la lista de los 10 peleadores de UFC con más seguidores en Instagram. Que nos ayudará a descubrir quién es el peleador más famoso de todos en la UFC. ' />
-                <HomeArticle author='FULLMMA' date='12/01/2025' img={requisitosEntrarUFC} link='/articulos/requisitos-para-entrar-a-ufc' title='¿Cómo ser peleador de la UFC? Las 5 formas de entrar a la UFC siendo peleador de MMA.' description='Los requisitos para entrar a la UFC y ser reclutado por la compañía. Las 5 vías por las que Dana White contrata peleadores profesionales.' />
-                <HomeArticle author='FULLMMA' date='31/12/2024' img={rankingsUFC} link='/articulos/como-funciona-el-ranking-ufc' title='Cómo Funciona el Ranking de la UFC: Qué significa ser el #1 de la UFC' description='Te explico cómo funcionan los rankings en la UFC, cuándo se actualizan y cómo se hacen, explicando quienes hacen los rankings y que tienen en cuenta. ' />
-                <HomeArticle author='FULLMMA' date='27/12/2024' img={salariosUFC} link='/articulos/cuanto-gana-un-peleador-de-ufc' title='¿Cuánto le pagan a un peleador de UFC? Los salarios de los peleadores más importantes de MMA' description='Cuánto ganan los peleadores de UFC, desde los novatos, un peleador promedio, un campeón, y cómo sus resultados influyen en el sueldo. ' />
-                <HomeArticle author='FULLMMA' date='26/12/2024' img={talbottSkateboard} link='/articulos/payton-talbott-skateboard' title='Payton Talbott: Cómo el Skateboard Influye en su Carrera en la UFC' description='La influencia que puede tener el skate, junto con otros hobbies, en un peleador de UFC como Payton Talbott. Además te contamos la historia de cómo Payton Talbott conoció a la leyenda del skateboard, Tony Hawk.' />
-                <HomeArticle author='FULLMMA' date='21/12/2024' img={talbottTattoo} link='/articulos/payton-talbott-tattoo' title='¿Qué significan los tatuajes de Payton Talbott?' description='El significado de los tatuajes del peleador de la UFC Payton Talbott. ' />
-                <HomeArticle author='FULLMMA' date='23/09/2024' img={bestMAForMMA} link='/articulos/mejores-artes-marciales-para-mma' title='Las Mejores Artes Marciales Para MMA Según un Peleador Profesional' description='Repasamos cuáles son las mejores artes marciales para una pelea de MMA, según el luchador profesional Jeff Chan.' />
-                <HomeArticle author='FULLMMA' date='14/09/2024' img={titovsdana} link='/articulos/dana-white-vs-tito-ortiz' title='La Pelea de Boxeo Entre Dana White y Tito Ortiz que Finalmente no Ocurrió' description='La historia de rivalidad entre Tito Ortiz y Dana White, y la pelea de boxeo entre estos 2 que se llegó a pactar pero que nunca se dió.' />
             </article>
         </section>
     )
