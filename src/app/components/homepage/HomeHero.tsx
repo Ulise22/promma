@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufcSaudiArabia from '@/assets/covertura_ufc/fight_night/0-100/0-15/adesanya_imavov.jpg'
+import ufc312 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc312.jpg'
 import iliaPeleador2024 from '@/assets/noticias/0-100/0-10/ilia_peleador_2024.jpg'
 import bestEventsUFC2024 from '@/assets/noticias/0-100/20-30/best_ufc_events.jpg'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-adesanya-imavov'>
-                <Image className={styles.homehero__bigArticle__img} src={ufcSaudiArabia} alt='' />
-                <h2 className={styles.home__title}>UFC SAUDI ARABIA: ¡Nassourdine Imavov Noquea a Israel Adesanya en el Segundo Asalto! ¡Michael Venom Page le Quita el Invicto a Shara Bullet!</h2>
-                <span>Noche de UFC en Arabia Saudita, que además nos trae la pelea entre Shara Magomedov y Michael Venom Page, y la pelea de peso pesado entre Pavlovich y Jairzinho</span>
+            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc312'>
+                <Image className={styles.homehero__bigArticle__img} src={ufc312} alt='' />
+                <h2 className={styles.home__title}>UFC 312: ¡Dricus Du Plessis vs Sean Strickland!</h2>
+                <span>UFC 312 en Australia que además nos trae el ¡Zhang Weili vs Tatiana Suarez por el Título de Peso Paja de la UFC!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/mejores-eventos-ufc-2024'>
                 <Image className={styles.homehero__article__img} loading='lazy' src={bestEventsUFC2024} alt='' />
