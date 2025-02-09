@@ -36,7 +36,7 @@ export default function UFC312 () {
                     <p>De esta manera, el australiano Micallef consigue un debut excelente al obtener la victoria ante un complicado rival como lo era Jousset. Además, logró extender su récord profesional a 8-1. </p>
                     <h2>Rongzhu vs Kody Steele</h2>
                     <p>Tremenda pelea la que nos regalaron estos 2 peleadores, con un primer asalto en el que se dieron de lo lindo entre los 2, con golpes viniendo de ambos lados pero con una ligera superioridad por parte del chino, quien fue capaz de conectar las mejores convinaciones y los golpes más peligrosos. </p>
-                    <p>Finalmente en el segundo y tercer asalto el peleador chino Rongzhu sería capaz de mostrar su dominio de manera más clara, logrando evitar la mayoría de los golpes de su rival, conectando mucho más y mejor, llevándose la victoria en esta pelea por decisión unánime con los jueces puntuando esta pelea 30-27, dándolo ganador de todos los asaltos y quitándole el invicto al australiano que contaba con el apoyo del público. </p>
+                    <p>Finalmente en el segundo y tercer asalto el peleador chino Rongzhu sería capaz de mostrar su dominio de manera más clara, logrando evitar la mayoría de los golpes de su rival, conectando mucho más y mejor, llevándose la victoria en esta pelea por decisión unánime con los jueces puntuando esta pelea 30-27, dándolo ganador de todos los asaltos y quitándole el invicto al debutante Kody Steele. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2>Colby Thicknesse vs Aleksandre Topuria</h2>
                     <p></p> */}
