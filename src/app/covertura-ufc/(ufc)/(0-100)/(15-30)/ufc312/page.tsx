@@ -51,8 +51,9 @@ export default function UFC312 () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Jake Matthews Derrota a Francisco Prado Por Decisión Unánime</h2>
                     <p>El australiano se queda con la victoria en la primer pelea estelar de la noche ante el argentino <b>Francisco Prado</b>. En lo que fue un combate con un primer asalto especialmente más parejo, con ambos luchadores conectando casi la misma cantidad de golpes, fue Jake Matthews quien se terminó imponiendo por sobre su rival, al tener un gran manejo de la distancia que le permitió conectar más golpes de los que recibió, y salir siempre bien parado de todos los intercambios en los que entraba con Francisco, que le sirvió para finalmente llevarse la victoria por decisión de los jueces que puntuaron de forma unánime el combate 30-27. </p>
-                    {/* <h2>Jimmy Crute vs Rodolfo Bellato</h2>
-                    <p></p> */}
+                    <h2>Empate en el Jimmy Crute vs Rodolfo Bellato</h2>
+                    <p>En un resultado honestamente confuso, ambos peleadores terminan por empatar su pelea luego de 3 asaltos, en lo que parecía un primer asalto claramente dominado por el australiano Jimmy Crute, quien debería haber sido puntuado como 10-8 por lo hecho en ese round, dominando desde el suelo durante más de 3 minutos, y estando muy cerca de noquear a su rival en el striking. </p>
+                    <p>Finalmente en los otros 2 asaltos el brasileño Rodolfo Bellato fue más competitivo y logró que 2 de los 3 jueces dieran la pelea por empatada, mientras que uno vió ganador a Jimmy Crute, dando como resultado un empate por decisión mayoritaria. </p>
                     {/* <h2>Justin Tafa vs Tallison Teixeira</h2>
                     <p></p> */}
                     {/* <h2>Zhang Weili vs Tatia Suarez</h2>
