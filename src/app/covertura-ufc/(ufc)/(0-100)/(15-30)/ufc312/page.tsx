@@ -48,9 +48,9 @@ export default function UFC312 () {
                     <h2>¡Gabriel Santos Somete a Jack Jenkins en el Tercer Asalto!</h2>
                     <p>El brasileño consigue una espectacular victoria ante el australiano, en una actuación épica que posiblemente le haga merecedor de un bono. </p>
                     <p>Luego de estar cerca de ser noqueado por su rival a comienzos del primer asalto, al recibir una patada en la cabeza que lo tumbó al suelo, Gabriel fue capaz de sobrevivir lo que duró el primer asalto del combate para poco a poco ir dándole la vuelta a la historia. Con un segundo asalto en el que mostró una mejor cara y donde podría decirse que ganó dicho round, y con un tercero en el que fue capaz de conectar un mataleón para someter a su rival y llevarse de esta manera la victoria en la última pelea preliminar de la noche. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2>Jake Matthews vs Francisco Prado</h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Jake Matthews Derrota a Francisco Prado Por Decisión Unánime</h2>
+                    <p>El australiano se queda con la victoria en la primer pelea estelar de la noche ante el argentino <b>Francisco Prado</b>. En lo que fue un combate con un primer asalto especialmente más parejo, con ambos luchadores conectando casi la misma cantidad de golpes, fue Jake Matthews quien se terminó imponiendo por sobre su rival, al tener un gran manejo de la distancia que le permitió conectar más golpes de los que recibió, y salir siempre bien parado de todos los intercambios en los que entraba con Francisco, que le sirvió para finalmente llevarse la victoria por decisión de los jueces que puntuaron de forma unánime el combate 30-27. </p>
                     {/* <h2>Jimmy Crute vs Rodolfo Bellato</h2>
                     <p></p> */}
                     {/* <h2>Justin Tafa vs Tallison Teixeira</h2>
