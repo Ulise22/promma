@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function UFC312 () {
     return(
         <main>
-            <ArticleHero title="UFC 312: ¡Dricus Du Plessis vs Sean Strickland!" subtitle='UFC 312 en Australia que además nos trae el ¡Zhang Weili vs Tatiana Suarez por el Título de Peso Paja de la UFC!' image={hero} date='2025-02-08' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 312: ¡Dricus Du Plessis vs Sean Strickland!" subtitle='¡Aleksandre Topuria debuta con victoria ante ante Colby Thicknesse!¡Zhang Weili derrota a Tatiana Suarez y retiene su cinturón!' image={hero} date='2025-02-08' author={null} updatedDate='2025-02-09' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos evento de UFC en Australia, con el UFC 312 encabezado por la pelea titular de peso medio entre el actual campeón sudafricano <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link> y el retador, excampeón de la división <Link href='/peleadores/sean-strickland'>Sean Strickland</Link>, en lo que será una revancha, luego de lo que fue su primer combate titular en el <Link href='/covertura-ufc/ufc297'>UFC 297</Link> en enero de 2024. </p>
@@ -56,8 +56,10 @@ export default function UFC312 () {
                     <p>Finalmente en los otros 2 asaltos el brasileño Rodolfo Bellato fue más competitivo y logró que 2 de los 3 jueces dieran la pelea por empatada, mientras que uno vió ganador a Jimmy Crute, dando como resultado un empate por decisión mayoritaria. </p>
                     <h2>Tallison Teixeira Noquea a Justin Tafa En el Primer Asalto</h2>
                     <p>El brasileño Tallison Teixeira debuta en la UFC con victoria por la vía del nocaut ante el australiano <b>Justin Tafa</b> en el primer asalto, en tan solo 35 segundos de iniciado el combate. Logrando de esta manera mantener el invicto, y extender su récord profesional en las artes marciales mixtas a 8-0. </p>
-                    {/* <h2>Zhang Weili vs Tatia Suarez</h2>
-                    <p></p> */}
+                    <h2>Zhang Weili Derrota a Tatiana Suarez Por Decisión Unánime</h2>
+                    <p>La campeona asiática <Link href='/mujeres/zhang-weili'>Zhang Weili</Link> se queda con la pelea coestelar de este evento por decisión unánime luego de dominar totalmente a su rival. </p>
+                    <p>Pese a que la estadounidense <b>Tatiana Suarez</b> había sido capaz de darnos un muy buen primer asalto, ganando este, lo cierto es que la campeona no tardó nada en comenzar demostrar porque es ella quien posee el cinturón. Dominando cada faceta del juego, defendiendo todos los intentos de derribo, dominando en el striking, de pie, en el suelo, concretando derribos y siendo capaz de castigar desde arriba cuando la pelea iba al piso. </p>
+                    <p>En resumen, una gran actuación por parte de Zhang Weili, que retiene el cinturón y le quita el invicto a la #1 de la división, demostrando porque es ella la campeona y la mejor peleadora de toda la división de peso paja femenino. </p>
                     {/* <h2>Dricus Du Plessis vs Sean Strickland</h2>
                     <p></p> */}
                     <EndArticle />
