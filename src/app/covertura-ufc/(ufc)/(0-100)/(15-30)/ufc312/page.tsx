@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function UFC312 () {
     return(
         <main>
-            <ArticleHero title="UFC 312: ¡Dricus Du Plessis vs Sean Strickland!" subtitle='¡Aleksandre Topuria debuta con victoria ante ante Colby Thicknesse!¡Zhang Weili derrota a Tatiana Suarez y retiene su cinturón!' image={hero} date='2025-02-08' author={null} updatedDate='2025-02-09' />
+            <ArticleHero title="UFC 312: ¡Dricus Du Plessis Derrota a Sean Strickland y Retiene el Cinturón de Peso Mediano!" subtitle='¡Aleksandre Topuria debuta con victoria ante ante Colby Thicknesse!¡Zhang Weili derrota a Tatiana Suarez y retiene su cinturón!' image={hero} date='2025-02-08' author={null} updatedDate='2025-02-09' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos evento de UFC en Australia, con el UFC 312 encabezado por la pelea titular de peso medio entre el actual campeón sudafricano <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link> y el retador, excampeón de la división <Link href='/peleadores/sean-strickland'>Sean Strickland</Link>, en lo que será una revancha, luego de lo que fue su primer combate titular en el <Link href='/covertura-ufc/ufc297'>UFC 297</Link> en enero de 2024. </p>
@@ -60,8 +60,9 @@ export default function UFC312 () {
                     <p>La campeona asiática <Link href='/mujeres/zhang-weili'>Zhang Weili</Link> se queda con la pelea coestelar de este evento por decisión unánime luego de dominar totalmente a su rival. </p>
                     <p>Pese a que la estadounidense <b>Tatiana Suarez</b> había sido capaz de darnos un muy buen primer asalto, ganando este, lo cierto es que la campeona no tardó nada en comenzar demostrar porque es ella quien posee el cinturón. Dominando cada faceta del juego, defendiendo todos los intentos de derribo, dominando en el striking, de pie, en el suelo, concretando derribos y siendo capaz de castigar desde arriba cuando la pelea iba al piso. </p>
                     <p>En resumen, una gran actuación por parte de Zhang Weili, que retiene el cinturón y le quita el invicto a la #1 de la división, demostrando porque es ella la campeona y la mejor peleadora de toda la división de peso paja femenino. </p>
-                    {/* <h2>Dricus Du Plessis vs Sean Strickland</h2>
-                    <p></p> */}
+                    <h2>Dricus Du Plessis Derrota a Sean Strickland por Decisión Unánime</h2>
+                    <p>El campeón sudafricano <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link> es capaz de retener su cinturón ante <Link href='/peleadores/sean-strickland'>Sean Strickland</Link>, luego de una actuación totalmente dominante por su parte, siendo ampliamente superior al retador, y logrando por consecuencia una victoria por decisión unánime. </p>
+                    <p>En el cuarto asalto fue cuando más cerca pareció del nocaut, al romper la nariz de su rival y presionar más de lo usual en busca del nocaut, aunque Strickland fue capaz de esquivar los golpes más duros de este y sobrevivir hasta el final. De esta manera seguimos teniendo a Du Plessis como campeón de mediano, a la espera de ver quien será su próximo rival entre <b>Imavov</b> y <Link href='/peleadores/khamzat-chimaev'>Khamzat Chimaev</Link>. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
