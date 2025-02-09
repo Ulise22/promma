@@ -10,10 +10,10 @@ import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'UFC 312',
-    description: "",
+    description: "UFC 312 en Australia con la pelea entre Dricus Du Plessis y Sean Strickland como evento estelar. Además del evento coestelar protagonizado por la campeona de peso paja femenino Zhang Weili y su retadora Tatiana Suarez.",
     openGraph: {
         title: 'UFC 312',
-        description: "",
+        description: "UFC 312 en Australia con la pelea entre Dricus Du Plessis y Sean Strickland como evento estelar. Además del evento coestelar protagonizado por la campeona de peso paja femenino Zhang Weili y su retadora Tatiana Suarez.",
         url: 'https://fullmma.org/covertura-ufc/ufc312'
     }
 }
@@ -30,8 +30,10 @@ export default function UFC312 () {
                     <h2 className={styles.article__fightsHierarchy}>Primeros Preliminares</h2>
                     <h2>¡Quillan Salkilld Noquea a Anshul Jubli en Menos de 20 Segundos!</h2>
                     <p>En un combate que no dió tiempo a nada, en menos de 20 segundos del combate, el local australiano <b>Quillan Salkilld</b> noquea al peleador indio <b>Anshul Jubli</b>, con una tremenda mano derecha que conecta en la oreja que tumbó inmediatamente a su rival. </p>
-                    {/* <h2>Jonathan Micallef vs Kevin Jousset</h2>
-                    <p></p> */}
+                    <h2>¡Jonathan Micallef Derrota a Kevin Jousset Por Decisión!</h2>
+                    <p>En una pelea que nos traía el debut de Micallef en la UFC ante el francés Jousset, tuvimos un primer asalto en el que el australiano fue capaz de dominar completamente, conectando con su pierna izquierda una gran cantidad de patadas al higado de su rival, que fueron preparando el terreno para que su rival baje la guardia un poco y entonces pudiera conectar patadas a la cabeza que por poco noquean a su oponente. </p>
+                    <p>Con un segundo asalto que tuvo algo más de lo mismo, con el australiano y sus excelentes patadas siendo las protagonistas,m el desenlace del combate lo veríamos luego de finalizado el último asalto, en donde el francés mejoró bastante su desempeño y la imagen dada, en parte por mérito propio, y en parte porque de tanto dar patadas, Micallef terminó por cansarse debido al alto esfuerzo que esta estrategia requirió. </p>
+                    <p>De esta manera, el australiano Micallef consigue un debut excelente al obtener la victoria ante un complicado rival como lo era Jousset. Además, logró extender su récord profesional a 8-1. </p>
                     {/* <h2>Rongzhu vs Kody Steele</h2>
                     <p></p> */}
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
