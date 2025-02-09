@@ -34,8 +34,9 @@ export default function UFC312 () {
                     <p>En una pelea que nos traía el debut de Micallef en la UFC ante el francés Jousset, tuvimos un primer asalto en el que el australiano fue capaz de dominar completamente, conectando con su pierna izquierda una gran cantidad de patadas al higado de su rival, que fueron preparando el terreno para que su rival baje la guardia un poco y entonces pudiera conectar patadas a la cabeza que por poco noquean a su oponente. </p>
                     <p>Con un segundo asalto que tuvo algo más de lo mismo, con el australiano y sus excelentes patadas siendo las protagonistas,m el desenlace del combate lo veríamos luego de finalizado el último asalto, en donde el francés mejoró bastante su desempeño y la imagen dada, en parte por mérito propio, y en parte porque de tanto dar patadas, Micallef terminó por cansarse debido al alto esfuerzo que esta estrategia requirió. </p>
                     <p>De esta manera, el australiano Micallef consigue un debut excelente al obtener la victoria ante un complicado rival como lo era Jousset. Además, logró extender su récord profesional a 8-1. </p>
-                    {/* <h2>Rongzhu vs Kody Steele</h2>
-                    <p></p> */}
+                    <h2>Rongzhu vs Kody Steele</h2>
+                    <p>Tremenda pelea la que nos regalaron estos 2 peleadores, con un primer asalto en el que se dieron de lo lindo entre los 2, con golpes viniendo de ambos lados pero con una ligera superioridad por parte del chino, quien fue capaz de conectar las mejores convinaciones y los golpes más peligrosos. </p>
+                    <p>Finalmente en el segundo y tercer asalto el peleador chino Rongzhu sería capaz de mostrar su dominio de manera más clara, logrando evitar la mayoría de los golpes de su rival, conectando mucho más y mejor, llevándose la victoria en esta pelea por decisión unánime con los jueces puntuando esta pelea 30-27, dándolo ganador de todos los asaltos y quitándole el invicto al australiano que contaba con el apoyo del público. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2>Colby Thicknesse vs Aleksandre Topuria</h2>
                     <p></p> */}
