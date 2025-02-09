@@ -43,8 +43,8 @@ export default function UFC312 () {
                     <p>De esta manera el español consigue una victoria en su primer pelea en la UFC, quitándole el invicto al australiano Colby Thicknesse, que contaba con el excampeón <Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link> en su esquina. </p>
                     <h2>Wang Cong Derrota a Bruna Brasil Por Decisión Unánime</h2>
                     <p>La peleadora china Wang Cong logra hacerse con la victoria por decisión unánime ante la brasileña Bruna Brasil, luego de lo que fue una actuación completamente dominante por su parte, ganando todos los asaltos de la pelea, al ser capaz de conectar muchísimos golpes más que su rival, llevándose una cómoda y merecida victoria por decisión. </p>
-                    {/* <h2>Tom Nolan vs Viacheslav Borshchev</h2>
-                    <p></p> */}
+                    <h2>Tom Nolan Derrota a Viacheslav Borshchev Por Decisión Unánime</h2>
+                    <p>El australiano <b>Tom Nolan</b> hace valer la localía, y pese a no ser el favorito en las apuestas, obtiene una victoria por decisión de los jueces ante el ruso <b>Viacheslav Borschev</b>, consiguiendo de esta manera su tercer victoria consecutiva. </p>
                     {/* <h2>Jack Jenkins vs Gabriel Santos</h2>
                     <p></p> */}
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
