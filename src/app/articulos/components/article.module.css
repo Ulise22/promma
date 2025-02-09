@@ -33,4 +33,8 @@
         width: 85%;
         margin: 0 auto;
     }
+
+    .article__fightsHierarchy {
+        font-size: 40px;
+    }
 }
