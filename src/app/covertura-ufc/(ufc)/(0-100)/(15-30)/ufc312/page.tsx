@@ -54,8 +54,8 @@ export default function UFC312 () {
                     <h2>Empate en el Jimmy Crute vs Rodolfo Bellato</h2>
                     <p>En un resultado honestamente confuso, ambos peleadores terminan por empatar su pelea luego de 3 asaltos, en lo que parecía un primer asalto claramente dominado por el australiano Jimmy Crute, quien debería haber sido puntuado como 10-8 por lo hecho en ese round, dominando desde el suelo durante más de 3 minutos, y estando muy cerca de noquear a su rival en el striking. </p>
                     <p>Finalmente en los otros 2 asaltos el brasileño Rodolfo Bellato fue más competitivo y logró que 2 de los 3 jueces dieran la pelea por empatada, mientras que uno vió ganador a Jimmy Crute, dando como resultado un empate por decisión mayoritaria. </p>
-                    {/* <h2>Justin Tafa vs Tallison Teixeira</h2>
-                    <p></p> */}
+                    <h2>Tallison Teixeira Noquea a Justin Tafa En el Primer Asalto</h2>
+                    <p>El brasileño Tallison Teixeira debuta en la UFC con victoria por la vía del nocaut ante el australiano <b>Justin Tafa</b> en el primer asalto, en tan solo 35 segundos de iniciado el combate. Logrando de esta manera mantener el invicto, y extender su récord profesional en las artes marciales mixtas a 8-0. </p>
                     {/* <h2>Zhang Weili vs Tatia Suarez</h2>
                     <p></p> */}
                     {/* <h2>Dricus Du Plessis vs Sean Strickland</h2>
