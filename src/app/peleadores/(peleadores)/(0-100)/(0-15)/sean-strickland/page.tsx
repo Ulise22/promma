@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function Strickland () {
     return(
         <main> 
-            <PeleadoresHero peleadoresImage={strickland} w={29} l={6} d={0} nombre='Sean Strickland' categoria='Peso Medio' apodo={null} />
+            <PeleadoresHero peleadoresImage={strickland} w={29} l={7} d={0} nombre='Sean Strickland' categoria='Peso Medio' apodo={null} />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Sean Strickland UFC</h2>
@@ -29,7 +29,7 @@ export default function Strickland () {
                     <p className={styles.peleador__article__text}>Además tiene una personalidad bastante peculiar, siendo un personaje políticamente incorrecto, que no teme decir lo primero que le venga a la mente en sus entrevistas ni en las ruedas de prensa. Siendo además una persona bastante abierta respecto a sus creencias, y respecto a la difícil infancia que le tocó vivir. </p>
                     <p className={styles.peleador__article__text}>Pondría su nombre en los libros de historia de la compañía cuando en septiembre de 2023 consiguió ser campeón de la División de Peso Mediano de la UFC, al derrotar por decisión unánime al histórico campeón <Link href='/peleadores/israel-adesanya'>Israel Adesanya</Link>. </p>
                     <h2 className={styles.peleador__article__title}>Sean Strickland record</h2>
-                    <p className={styles.peleador__article__text}>Actualmente, Sean Strickland ostenta un record de 29-6. Ganando 11 de sus combates por la vía del nocaut, 4 por sumisión y 14 por decisión. Mientras que de sus 6 derrotas, 2 fueron por la vía del nocaut y las otras 4 fueron por decisión.</p>
+                    <p className={styles.peleador__article__text}>Actualmente, Sean Strickland ostenta un record de 29-7. Ganando 11 de sus combates por la vía del nocaut, 4 por sumisión y 14 por decisión. Mientras que de sus 7 derrotas, 2 fueron por la vía del nocaut y las otras 5 fueron por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Sean Strickland Historia</h2>
                     <p className={styles.peleador__article__text}>Sean Strickland nació el 27 de febrero de 1991, en Estados Unidos, en New Bern, Carolina del Norte. Sean en varias ocasiones habló de que tuvo una infancia difícil y un tanto traumatica. Debido a que creció en una familia pobre, con un padre alcoholico, violento, del cual él y su madre recibieron abusos, siendo críado en lo que en Estados Unidos se conoce como &quot;White Trash&quot;, o &quot;basura blanca&quot;.</p>
                     <p className={styles.peleador__article__text}>Este entornó familiar en el que creció le ocasionó problemas en la escuela de niño, ya que actuaba como un bully hacia aquellos que su padre le enseñó a odiar. Pero afortunadamente cuando el joven Sean tenía 14 años, fue anotado por su madre a clases de artes marciales mixtas, donde pudo canalizar sus emociones, y donde pudo relacionarse con personas de diferentes culturas que le enseñaron, en sus propias palabras, que lo que su papá le inculcó &quot;era pura mierda&quot;.</p>

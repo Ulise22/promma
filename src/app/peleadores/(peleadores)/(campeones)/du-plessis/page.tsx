@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function DuPlessis () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={duPlessis} w={22} l={2} d={0} nombre='Dricus Du Plessis' apodo='STILLKNOCKS' categoria='Peso Medio' />
+            <PeleadoresHero peleadoresImage={duPlessis} w={23} l={2} d={0} nombre='Dricus Du Plessis' apodo='STILLKNOCKS' categoria='Peso Medio' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Du Plessis</h2>
@@ -28,7 +28,7 @@ export default function DuPlessis () {
                     <p className={styles.peleador__article__text}>Es quizás de los peleadores menos ortodoxos en pelear en la UFC, con un estilo pelea que suele ser caótico, pero que hasta el momento le ha traído buenos resultados, ganando la mayoría de sus combates por finalización. </p>
                     <p className={styles.peleador__article__text}>Destacaría en esta al en enero de 2024, al convertirse en campeón de la división, luego de derrotar por decisión dividida al entonces campeón <Link href='/peleadores/sean-strickland'>Sean Strickland</Link> el 20 de enero de 2024 en el <Link href='/covertura-ufc/ufc297'>UFC 297</Link>. </p>
                     <h2 className={styles.peleador__article__title}>Du Plessis Récord</h2>
-                    <p className={styles.peleador__article__text}>Dricus Du Plessis, luego de participar en un total de 24 peleas, posee un récord de 22-2, siendo 9 de sus 22 victorias por la vía del nocaut, 11 por sumisión y 2 por decisión. Mientras que de sus 2 derrotas, 1 fue por la vía del nocaut y 1 por la vía de la sumisión.</p>
+                    <p className={styles.peleador__article__text}>Dricus Du Plessis, luego de participar en un total de 24 peleas, posee un récord de 23-2, siendo 9 de sus 22 victorias por la vía del nocaut, 11 por sumisión y 3 por decisión. Mientras que de sus 2 derrotas, 1 fue por la vía del nocaut y 1 por la vía de la sumisión.</p>
                     <h2 className={styles.peleador__article__title}>Du Plessis Historia</h2>
                     <p className={styles.peleador__article__text}>Dricus Du Plessis nació el 14 de enero de 1994 en la ciudad de Pretoria, ubicada en Sudáfrica. Tan sólo a la edad de 5 años comenzó a entrenar judo, a los 12 comenzaría a entrenar lucha libre, y posteriormente kickboxing con 14 años. Una vez en sus años escolares empezaría a jugar Rugby a la par que entreneba artes marciales, volviendose partidario del equipo nacional de rugby de Sudáfrica, los Spingboks.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/jcRN2K5cp7o?si=lI62oYSQbM-mhRhv" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
