@@ -9,22 +9,22 @@ import hero from '@/assets/articulos/0-100/40-50/mikheil_kajaia.jpg'
 import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
-    title: 'Mikheil Kajaia',
+    title: 'Mihail Kajaia',
     description: 'La historia de uno de los luchadores georgianos más intimidantes de la historia de la lucha grecorromana. ',
     openGraph: {
-        title: 'Mikheil Kajaia',
+        title: 'Mihail Kajaia',
         description: 'La historia de uno de los luchadores georgianos más intimidantes de la historia de la lucha grecorromana. ',
         url: 'https://fullmma.org/articulos/mikheil-kajaia'
     }
 }
 
-export default function MikheilKajaia () {
+export default function MihailKajaia () {
     return(
         <main>
-            <ArticleHero title='¿Quién es Mikheil Kajaia? El luchador olímpico georgiano de 97 kilos y de aspecto más aterrador que existe' subtitle='La historia detrás del luchador grecorromano nacido en Georgia y nacionalizado serbio. ' image={hero} date='2025-01-22' author={null} updatedDate={null} />
+            <ArticleHero title='¿Quién es Mihail Kajaia? El luchador olímpico georgiano de 97 kilos y de aspecto más aterrador que existe' subtitle='La historia detrás del luchador grecorromano, Mihail Kajaia, nacido en Georgia y nacionalizado serbio. ' image={hero} date='2025-01-22' author={null} updatedDate='2025-02-10' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
-                    <p>Hoy vamos a hablar de uno de los luchadores olímpicos de aspecto más intimidante con el que uno se encuentra en internet. Sobre el serbio Mihail Kejaia, quien supo competir en los últimos 2 juegos olímpicos, y que supo ganar 5 medallas a lo largo de su carrera. </p>
+                    <p>Hoy vamos a hablar de uno de los luchadores olímpicos de aspecto más intimidante con el que uno se encuentra en internet. Sobre el georgiano, nacionalizado serbio, Mihail Kejaia, quien supo competir en los últimos 2 juegos olímpicos, y que supo ganar 5 medallas a lo largo de su carrera. </p>
                     <p>Mikheil Kajaia nació en la ciudad de Tskaltubo, en la antigua Georgia soviética, el día 21 de julio de 1989. </p>
                     <p>Comenzó su carrera como luchador grecorromano representando a su natal Georgia en el <b>2013 Summer Universiade</b>. Un campeonato universitario, organizado en la ciudad de Kazan, en Rusia, donde más de 10400 universidades de 162 países diferentes participaron en diferentes deportes, entre los que estaban incluídos la lucha grecorromana. En aquel campeonato nuestro protagonista ya comenzó a demostrar la habilidad con la que contaba al ganar la medalla de bronce en el evento de 96 kilos. </p>
                     <p>Formó parte del equipo de lucha de Georgia en los Juegos Europeos de 2015, donde lamentablemente perdería ante el italiano Daigoro Timoncini en los octavos de final. </p>
