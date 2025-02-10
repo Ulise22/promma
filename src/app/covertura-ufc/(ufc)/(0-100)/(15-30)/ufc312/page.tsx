@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function UFC312 () {
     return(
         <main>
-            <ArticleHero title="UFC 312: ¡Dricus Du Plessis Derrota a Sean Strickland y Retiene el Cinturón de Peso Mediano!" subtitle='¡Aleksandre Topuria debuta con victoria ante ante Colby Thicknesse!¡Zhang Weili derrota a Tatiana Suarez y retiene su cinturón!' image={hero} date='2025-02-08' author={null} updatedDate='2025-02-09' />
+            <ArticleHero title="UFC 312: ¡Dricus Du Plessis Derrota a Sean Strickland y Retiene el Cinturón de Peso Mediano!" subtitle='¡Aleksandre Topuria debuta con victoria ante ante Colby Thicknesse! ¡Zhang Weili derrota a Tatiana Suarez y retiene su cinturón!' image={hero} date='2025-02-08' author={null} updatedDate='2025-02-09' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos evento de UFC en Australia, con el UFC 312 encabezado por la pelea titular de peso medio entre el actual campeón sudafricano <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link> y el retador, excampeón de la división <Link href='/peleadores/sean-strickland'>Sean Strickland</Link>, en lo que será una revancha, luego de lo que fue su primer combate titular en el <Link href='/covertura-ufc/ufc297'>UFC 297</Link> en enero de 2024. </p>
