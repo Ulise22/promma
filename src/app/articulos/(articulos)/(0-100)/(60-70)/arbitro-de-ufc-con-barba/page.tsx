@@ -10,11 +10,11 @@ import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Árbitro de UFC con Barba',
-    description: '',
+    description: 'La historia y vida de Mike Beltrán, el árbitro de UFC con trenzas en la barba. ',
     openGraph: {
         title: 'Árbitro de UFC con Barba',
-        description: '',
-        url: 'https://fullmma.org/articulos/'
+        description: 'La historia y vida de Mike Beltrán, el árbitro de UFC con trenzas en la barba. ',
+        url: 'https://fullmma.org/articulos/arbitro-de-ufc-con-barba'
     }
 }
 
