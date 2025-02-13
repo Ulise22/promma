@@ -10,11 +10,11 @@ import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'La Mentalidad de Ilia Topuria',
-    description: '',
+    description: 'La mentalidad de campeón que llevó al español Ilia Topuria a lo más alto de la UFC.',
     openGraph: {
         title: 'La Mentalidad de Ilia Topuria',
-        description: '',
-        url: 'https://fullmma.org/articulos/'
+        description: 'La mentalidad de campeón que llevó al español Ilia Topuria a lo más alto de la UFC.',
+        url: 'https://fullmma.org/articulos/la-mentalidad-de-ilia-topuria'
     }
 }
 

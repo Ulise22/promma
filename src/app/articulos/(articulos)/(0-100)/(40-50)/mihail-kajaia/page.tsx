@@ -25,7 +25,7 @@ export default function MihailKajaia () {
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Hoy vamos a hablar de uno de los luchadores olímpicos de aspecto más intimidante con el que uno se encuentra en internet. Sobre el georgiano, nacionalizado serbio, Mihail Kejaia, quien supo competir en los últimos 2 juegos olímpicos, y que supo ganar 5 medallas a lo largo de su carrera. </p>
-                    <p>Mikheil Kajaia nació en la ciudad de Tskaltubo, en la antigua Georgia soviética, el día 21 de julio de 1989. </p>
+                    <p>MIhail Kajaia nació en la ciudad de Tskaltubo, en la antigua Georgia soviética, el día 21 de julio de 1989. </p>
                     <p>Comenzó su carrera como luchador grecorromano representando a su natal Georgia en el <b>2013 Summer Universiade</b>. Un campeonato universitario, organizado en la ciudad de Kazan, en Rusia, donde más de 10400 universidades de 162 países diferentes participaron en diferentes deportes, entre los que estaban incluídos la lucha grecorromana. En aquel campeonato nuestro protagonista ya comenzó a demostrar la habilidad con la que contaba al ganar la medalla de bronce en el evento de 96 kilos. </p>
                     <p>Formó parte del equipo de lucha de Georgia en los Juegos Europeos de 2015, donde lamentablemente perdería ante el italiano Daigoro Timoncini en los octavos de final. </p>
                     <p>En el año 2017 abandonó la representación de su país, para comenzar a representar a Serbia en su lugar. De esta manera formó parte del equipo nacional en el campeonato de lucha europeo en 2017, donde caería derrotado ante el campeón olímpico Artur Aleksanyan en el segundo round. </p>
