@@ -66,6 +66,7 @@ import butterbean from '@/assets/articulos/0-100/50-60/eric_butterbean.jpg'
 import hollywood from '@/assets/articulos/0-100/50-60/ufc_hollywood.jpg'
 import popek from '@/assets/articulos/0-100/50-60/popek_monster.jpg'
 /* 60-70 */ 
+import derrotaAnkalaev from '@/assets/articulos/0-100/60-70/ankalaev_derrota.jpg'
 import mikeBeltran from '@/assets/articulos/0-100/60-70/mike_beltran.jpg'
 import mentalidadTopuria from '@/assets/articulos/0-100/60-70/mentalidad_topuria.jpg'
 import luchadorProfesionalMMA from '@/assets/articulos/0-100/60-70/ser_peleador_mma.jpg'
@@ -75,13 +76,14 @@ export default function Articulos () {
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
+                <ArticlePreview img={derrotaAnkalaev} url='/articulos/magomed-ankalaev-derrota' title='La Única Derrota de Magomed Ankalaev' author={null} text='¿Contra quien perdió Ankalaev? La historia de la única derrota de Magomed Ankalaev contra Paul Craig.' date='14/02/2025' />
                 <ArticlePreview img={mikeBeltran} url='/articulos/arbitro-de-ufc-con-barba' title='Mike Beltrán: El Árbitro de UFC con Barba' author={null} text='La historia de Mike Beltrán, el árbitro de UFC con trenzas en la barba y uno de los más reconocidos en su profesión.' date='13/02/2025' />
                 <ArticlePreview img={mentalidadTopuria} url='/articulos/la-mentalidad-de-ilia-topuria' title='La Mentalidad de Ilia Topuria: ¡Los Campeones se Hacen!' author={null} text='La mentalidad de Topuria que lo llevó a ser campeón de la división de peso pluma de la UFC y a cumplir todos sus sueños y objetivos. ' date='11/02/2025' />
                 <ArticlePreview img={luchadorProfesionalMMA} url='/articulos/como-ser-un-peleador-de-mma-profesional' title='Como Ser un Peleador Profesional de MMA' author={null} text='Ayuda y consejos para las personas que quieran convertirse en peleadores profesionales y que quieran saber cómo pelear en MMA.' date='07/02/2025' />
-                <ArticlePreview img={luchagoresMasVictoriasUFC} url='/articulos/luchadores-ufc-con-mas-victorias' title='Los 10 Peleadores Con Más Victorias en la Historia de la UFC' author={null} text='Los Luchadores de UFC Con Más Victorias en la Historia de la Compañía.' date='05/02/2025' />
             </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={luchagoresMasVictoriasUFC} url='/articulos/luchadores-ufc-con-mas-victorias' title='Los 10 Peleadores Con Más Victorias en la Historia de la UFC' author={null} text='Los Luchadores de UFC Con Más Victorias en la Historia de la Compañía.' date='05/02/2025' />
                 <ArticlePreview img={luchadoresDaguestan} url='/articulos/luchadores-de-daguestan-ufc' title='Los Luchadores Más Destacados de Daguestán en la UFC' author={null} text='Todos los luchadores de Daguestán que compiten actualmente en la UFC' date='31/01/2025' />
                 <ArticlePreview img={hermanosDiaz} url='/articulos/hermanos-diaz-ufc' title='La Historia de Nick y Nate Diaz, Los Hermanos Más Famosos de la UFC' author={null} text='Los hermanos Diaz en la UFC, una historia de resiliencia y lealtad por parte de la pareja de hermanos más reconocida y querida por los fans.' date='28/01/2025' />
                 <ArticlePreview img={khabibDisciplina} url='/articulos/khabib-disciplina' title='Las 3 Claves de la disciplina de Khabib Nurmagomedov' author={null} text='Los secreto detrás del arrollador éxito y disciplina espectacular de Khabib que supo trasladar a todo su equipo.' date='28/01/2025' />
