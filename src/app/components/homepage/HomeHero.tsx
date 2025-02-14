@@ -4,7 +4,7 @@ import Image from 'next/image'
 /* IMAGES */
 import ufc312 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc312.jpg'
 import iliaPeleador2024 from '@/assets/noticias/0-100/0-10/ilia_peleador_2024.jpg'
-import bestEventsUFC2024 from '@/assets/noticias/0-100/20-30/best_ufc_events.jpg'
+import ufcBillonario from '@/assets/noticias/0-100/20-30/ufc_busca_millonada.jpg'
 
 export default function HomeHero () {
     return(
@@ -14,14 +14,14 @@ export default function HomeHero () {
                 <h2 className={styles.home__title}>UFC 312: ¡Dricus Du Plessis Derrota a Sean Strickland y Retiene el Cinturón de Peso Mediano!</h2>
                 <span>¡Aleksandre Topuria debuta con victoria ante ante Colby Thicknesse! ¡Zhang Weili derrota a Tatiana Suarez y retiene su cinturón!</span>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/mejores-eventos-ufc-2024'>
-                <Image className={styles.homehero__article__img} loading='lazy' src={bestEventsUFC2024} alt='' />
+            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
+                <Image className={styles.homehero__article__img} loading='lazy' src={ufcBillonario} alt='' />
                 <article className={styles.homehero__article__container}>
-                    <h2 className={styles.homehero__title}>Los Mejores Eventos de UFC 2024</h2>
-                    <p>La lista de los eventos y carteleras de UFC numerados que marcaron este 2024. </p>
+                    <h2 className={styles.homehero__title}>La UFC Busca un Contrato Multimillonario de Mil Millones, Según Bloomberg, Por Sus Derechos Televisivos</h2>
+                    <p>Este año 2025 expira el contrato actual de la UFC con ESPN, por lo que la empresa de MMA más grande del planeta estaría buscando aumentar su contrato actual a uno de 10 cifras. </p>
                     <div className={styles.homehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>10/12/2024</p>
+                        <p>15/01/2025</p>
                     </div>
                 </article>
             </Link>

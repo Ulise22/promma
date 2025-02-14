@@ -33,6 +33,7 @@ import drakeApuesta from '@/assets/noticias/0-100/10-20/drake_apuesta.jpg'
 import iliaPromissKOHolloway from '@/assets/noticias/0-100/10-20/ilia_promissko_holloway.jpg'
 import michaelMorales from '@/assets/noticias/0-100/10-20/michael_morales.jpg'
 /* 20 - 30 */
+import bestEventsUFC2024 from '@/assets/noticias/0-100/20-30/best_ufc_events.jpg'
 import predicciones2025 from '@/assets/noticias/0-100/20-30/campeones_ufc2025.jpg'
 import invictosUFC from '@/assets/noticias/0-100/20-30/invictos_ufc_2025.jpg'
 import iliaTopuriaLigero from '@/assets/noticias/0-100/20-30/ilia_topuria_georgia.jpg'
@@ -50,14 +51,14 @@ export default function NoticiasPage () {
                     <h2 className={styles.page__title}>Dogfight Wild Torunament 3: ¡Battle Royal 10 Peleadores Todos Contra Todos!</h2>
                     <p>Vuelve el evento más loco del mundo, Dogfight Wild Tournament, en su tercera edición organizaodo por Jordi Wild. Con un 2vs2, pelea femenina sin reglas, pelea en un coche y una pelea medieval.</p>
                 </Link>
-                <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
-                    <Image className={styles.noticiasHero__article__img} loading="lazy" src={ufcBillonario} alt='' />
+                <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/mejores-eventos-ufc-2024'>
+                    <Image className={styles.noticiasHero__article__img} loading="lazy" src={bestEventsUFC2024} alt='' />
                     <article className={styles.noticiasHero__article__container}>
-                        <h2 className={styles.noticiasHero__title}>La UFC Busca un Contrato Multimillonario de Mil Millones, Según Bloomberg, Por Sus Derechos Televisivos</h2>
-                        <p>Este año 2025 expira el contrato actual de la UFC con ESPN, por lo que la empresa de MMA más grande del planeta estaría buscando aumentar su contrato actual a uno de 10 cifras. </p>
+                        <h2 className={styles.noticiasHero__title}>Los Mejores Eventos de UFC 2024</h2>
+                        <p>La lista de los eventos y carteleras de UFC numerados que marcaron este 2024. </p>
                         <div className={styles.noticiasHero__article__info}>
                             <h4>FULLMMA</h4>
-                            <p>15/01/2024</p>
+                            <p>10/12/2024</p>
                         </div>
                     </article>
                 </Link>
@@ -77,14 +78,16 @@ export default function NoticiasPage () {
                 <ArticlePreview img={terranceMcKinney} url='/noticias/terrance-mckinney' title='Conoce a Terrance McKinney: El luchador estadounidense que estuvo cerca de morir y que terminó noqueando a un peleador en 7 segundos en su debut en UFC' author={null} text='Una de las historias más inspiradoras de las MMA, sobre cómo Terrance McKinney fue capaz de sobrevivir a una experiencia traumática, para convertirse en el peleador de UFC que fue capaz de noquear a su rival en 7 segundos. ' date='30/01/2025' />
                 <ArticlePreview img={viniciusOliveira} url='/noticias/vinicius-oliveira-ufc' title='¿Quién es Vinicius Oliveira? El brasileño con KOs espectaculares en la UFC' author={null} text='La historia y carrera del peleador de UFC brasileño Vinicius Oliveira.' date='29/01/2025' />
                 <ArticlePreview img={entrenamientoProchazka} url='/noticias/como-entrena-jiri-prochazka' title='¿Cómo Entrena Jiri Prochazka? El entrenamiento y preparación mental de Jiri Prochazka que incluye golpear 500 veces un árbol y 3 días encerrado sin luz ni comida para confrontar sus demonios. ' author={null} text='El loco y salvaje régimen de entrenamiento al que se somete el excampeón de peso semipesado, con su famosa preparación mental que incluye pasar 3 días encierrado a oscuras en una habitación con sólo agua. ' date='14/01/2025' />
-                <ArticlePreview img={previaUFC311} url='/noticias/previa-ufc-311' title='Previa UFC 311: Arman Tsarukyan Busca el Título de Peso Ligero en su Revancha Ante Islam Makhachev' author={null} text='¡El equipo Khabib protagonista! En una noche donde los cinturones de peso gallo y peso ligero estarán en juego en el UFC 311, con Merab Dvalishvi haciendo su primer defensa del título ante Umar Nurmagomedov' date='10/01/2025' />
+                <ArticlePreview img={ufcBillonario} url='/noticias/la-ufc-busca-contrato-billonario' title='La UFC Busca un Contrato Multimillonario de Mil Millones, Según Bloomberg, Por Sus Derechos Televisivos' author={null} text='Este año 2025 expira el contrato actual de la UFC con ESPN, por lo que la empresa de MMA más grande del planeta estaría buscando aumentar su contrato actual a uno de 10 cifras. ' date='15/01/2025' />
             </article>
             <h2 className={styles.noticiasPage__subtitle}>Todas Las Noticias</h2>
             <article className={styles.noticias}>
+                <ArticlePreview img={previaUFC311} url='/noticias/previa-ufc-311' title='Previa UFC 311: Arman Tsarukyan Busca el Título de Peso Ligero en su Revancha Ante Islam Makhachev' author={null} text='¡El equipo Khabib protagonista! En una noche donde los cinturones de peso gallo y peso ligero estarán en juego en el UFC 311, con Merab Dvalishvi haciendo su primer defensa del título ante Umar Nurmagomedov' date='10/01/2025' />
                 <ArticlePreview img={predicciones2025} url='/noticias/predicciones-ufc-2025' title='Predicción UFC: Todos los campeones del 2025' author={null} text='Una predicción sobre quienes creo que serán los nuevos campeones para el final del año 2025' date='31/12/2024' />
                 <ArticlePreview img={invictosUFC} url='/noticias/peleadores-invictos-ufc' title='Los Peleadores Invictos de UFC en 2025' author={null} text='Los luchadores de UFC que terminaron el 2024 invictos y quienes serán capaces de mantenerlo en el 2025.' date='26/12/2024' />
                 <ArticlePreview img={iliaTopuriaLigero} url='/noticias/ilia-topuria-sube-a-peso-ligero' title='¡Ilia Topuria Abandona la División de Peso Pluma para Pelear en Peso Ligero! ¿Tiene Sentido que Busque Pelear en Peso Ligero Ahora?' author={null} text='El campeón español Ilia Topuria afirma que quizás vimos su última pelea en peso pluma, y que busca pelear en peso ligero contra Charles Oliveira' date='10/12/2024' />
                 <ArticlePreview img={evloevPeleaTopuria} url='/noticias/evloev-sobre-pelea-con-ilia-topuria' title='Movsar Evloev Cree Poder Ganarle a Ilia Topuria y Pide Pelear por el Cinturón' author={null} text='El luchador ruso Movsar Evloev, dijo tener lo necesario para derrotar al campeón español Ilia Topuria, luego de vencer al estadounidense Aljamain Sterling en el UFC 310' date='28/11/2024' />
+                <ArticlePreview img={bestEventsUFC2024} url='/noticias/mejores-eventos-ufc-2024' title='Los Mejores Eventos de UFC 2024' author={null} text='La lista de los eventos y carteleras de UFC numerados que marcaron este 2024. ' date='10/12/2024' />
                 <ArticlePreview img={espUFC2025} url='/noticias/luchadores-espanoles-en-ufc' title='Los 5 Peleadores Españoles Actuales de UFC en 2024' author={null} text='Los luchadores españoles de UFC que compiten actualmente en la compañía más grande de MMA del mundo.' date='08/12/2024' />
                 <ArticlePreview img={kaiAsakura} url='/noticias/quien-es-kai-asakura' title='¿Quién es Kai Asakura? La Estrella Japonesa Que Debutará Peleando Por el Título de UFC en el UFC 310 en Diciembre' author={null} text='El luchador japonés Kai Asakura de 31 años que peleará por el Campeonato de Peso Mosca en su debut en la UFC.' date='26/11/2024' />
                 <ArticlePreview img={campeonesViejosUFC} url='/noticias/5-campeones-mas-viejos-ufc' title='Los 5 Campeones Más Viejos de la UFC: La Lista a la que se Puede Sumar Stipe Miocic' author={null} text='El próximo sábado, el luchador estadounidense de 42 años, peleará por el cinturón de peso pesado ante Jon Jones, donde podría convertirse en uno de los campeones más añejos de la historia.' date='11/11/2024' />
