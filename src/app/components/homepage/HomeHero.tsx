@@ -3,8 +3,8 @@ import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import ufc312 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc312.jpg'
-import iliaPeleador2024 from '@/assets/noticias/0-100/0-10/ilia_peleador_2024.jpg'
 import ufcBillonario from '@/assets/noticias/0-100/20-30/ufc_busca_millonada.jpg'
+import pimblettNextFight2025 from '@/assets/noticias/0-100/30-40/pimblett_nextfight2025.jpg'
 
 export default function HomeHero () {
     return(
@@ -25,14 +25,14 @@ export default function HomeHero () {
                     </div>
                 </article>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/ilia-topuria-peleador-del-2024'>
-                <Image className={styles.homehero__article__img} loading='lazy' src={iliaPeleador2024} alt='' />
+            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/paddy-pimblett-proxima-pelea-2025'>
+                <Image className={styles.homehero__article__img} loading='lazy' src={pimblettNextFight2025} alt='' />
                 <article className={styles.homehero__article__container}>
-                    <h2 className={styles.homehero__title}>Opinión: Ilia Topuria es el Peleador del Año 2024 en UFC</h2>
-                    <p>Luego de lo realizado en el UFC 308, al Ilia Topuria noquear a Max Holloway, no quedan dudas de que Ilia Topuria es el peleador del año 2024.</p>
+                    <h2 className={styles.homehero__title}>Próxima Pelea de Paddy Pimblett 2025: ¿Paddy Pimblett vs Michael Chandler?</h2>
+                    <p>Se acrecientan los rumores sobre la próxima pelea de Paddy Pimblett, con 2 rivales y 2 posibles ubicaciones para él, ¿Gamrot o Chandler? ¿UFC 314 o UFC 317 en el International Fight Week?</p>
                     <div className={styles.homehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>27/10/2024</p>
+                        <p>15/02/2025</p>
                     </div>
                 </article>
             </Link>
