@@ -42,6 +42,9 @@ export default function CannonierRodrigues () {
                     <h2>Angela Hill Derrota a Ketlan Souza Por Decisión Dividida</h2>
                     <p>Espectacular pelea la que nos dieron estas 2 guerreras, que terminó decantándose a favor de la veterana de 40 años Angela Hill, quien había arrancado muy bien el combate, conectando los mejores golpes y estando muy activa durante el primer asalto. </p>
                     <p>Sin embargo a medida que transcurría el combate comenzó a emparejarse y la imagen que dió la brasileña mejoró bastante respecto al primer asalto. De igual manera esto no le alcanzó a la sudamericana, dado que cuando la pelea llegó a las tarjetas, los jueces terminaron dando como ganador a la estadounidense <b>Angela Hill</b>. </p>
+                    <h2>Jose Miguel Delgado vs Connor Matthews</h2>
+                    <p>Debut con victoria por nocaut en el primer asalto para Jose Migue Delgado en la UFC, que luego de conectar una mano derecho que derribaría al suelo a su rival, sería capaz de finalizar a su rival castigándolo con golpes en el suelo. </p>
+                    <p>De esta manera el estadounidense extiende su récord a 9-1, con la particularidad de que todas sus victorias serían por finalización, con 5 siendo por nocaut y 4 por sumisisón. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
