@@ -39,6 +39,9 @@ export default function CannonierRodrigues () {
                     <h2>Rafael Estevam Derrota a Jesus Aguilar por Decisión Unánime</h2>
                     <p>Tremendo el combate el que nos dieron los peleadores sudamericanos, que terminó con la victoria a favor del brasileño <b>Rafael Estevam</b>, quien fue capaz de dominar la mayor parte del combate gracias a su lucha, concretando los derribos que intentó y buscando todo el tiempo la forma de someter a su rival en los primeros 2 asaltos. </p>
                     <p>Lo mejor del mexicano Jesus Aguilar lo vimos en el tercer asalto, cuando todo el esfuerzo realizado empezó a penalizar a Estevam, quien llegó cansado al último asalto y recibió el castigo de los golpes de Aguilar. Sin embargo, pese a que el mexicano lo intentó, no fue capaz de noquear y terminó perdiendo la pelea por decisión unánime. </p>
+                    <h2>Angela Hill Derrota a Ketlan Souza Por Decisión Dividida</h2>
+                    <p>Espectacular pelea la que nos dieron estas 2 guerreras, que terminó decantándose a favor de la veterana de 40 años Angela Hill, quien había arrancado muy bien el combate, conectando los mejores golpes y estando muy activa durante el primer asalto. </p>
+                    <p>Sin embargo a medida que transcurría el combate comenzó a emparejarse y la imagen que dió la brasileña mejoró bastante respecto al primer asalto. De igual manera esto no le alcanzó a la sudamericana, dado que cuando la pelea llegó a las tarjetas, los jueces terminaron dando como ganador a la estadounidense <b>Angela Hill</b>. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
