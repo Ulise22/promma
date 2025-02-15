@@ -10,10 +10,10 @@ import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'UFC Vegas 102: ¡Cannonier vs Rodrigues!',
-    description: '',
+    description: 'Noche de UFC en Las Vegas con la pelea de Gregory Rodrigues y Jared Cannonier como evento estelar. ',
     openGraph: {
         title: 'UFC Vegas 102: ¡Cannonier vs Rodrigues!',
-        description: '',
+        description: 'Noche de UFC en Las Vegas con la pelea de Gregory Rodrigues y Jared Cannonier como evento estelar. ',
         url: 'https://fullmma.org/covertura-ufc/fight-night-cannonier-rodrigues'
     }
 }
@@ -29,6 +29,8 @@ export default function CannonierRodrigues () {
                     <h2>¡Jacqueline Cavalcanti Derrota a Julia Avila Por Decisión Unánime!</h2>
                     <p>Cómoda victoria para la nacida en Brasil <b>Jacqueline Cavalcanti</b>, que partía como favorita por mucho en este combate y demostró el porqué, con un claro dominio durante los 3 asaltos, haciendo buen uso de su ventaja en la altura y el alcance, controlando el centro del octágono para conectar muchos más golpes que su rival durante el combate. De esta manera alcanza su cuarta victoria consecutiva en la división de peso gallo femenino, y sube puestos en los rankings. </p>
                     <p>Por su parte su rival, <b>Julia Avila</b>, sólo pudo limitarse a conectar patadas a la pierna de su rival y a concretar un sólo derribo que no pudo capitalizar. Para colmo, al final del segundo asalto recibió un corte en la ceja y en la nariz que la hicieron sangrar. Esto no fue un problema para que la estadounidense siguiera peleando, dado que pudo terminar el combate, pero de igual forma acabaría por perder por decisión unánime y anunciaría su retiro al finalizar el combate, dejando detrás un récord de profesional de 9-4 con sus 34 años. </p>
+                    <h2>Valter Walker Somete a Don&apos;tale Mayes En El Primer Asalto</h2>
+                    <p>El brasileño Valter Walker, quien contaba con su hermano <b>Johny Walker</b> en su esquina, consigue una espectacular victoria en el primer asalto de la pelea, de manera rápida, luego de conectar un derribo en el primer minuto de combate, para posteriormente buscar la pierna de su rival y conseguir la sumisión que lo pondrá en el ranking de los pesos pesados. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
