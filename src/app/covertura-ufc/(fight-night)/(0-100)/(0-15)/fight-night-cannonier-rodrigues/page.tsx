@@ -34,6 +34,8 @@ export default function CannonierRodrigues () {
                     <h2>Elijah Smith Derrota a Vince Morales por Decisión Unánime</h2>
                     <p>Tremenda pelea la que le dieron estos 2 luchadores, que terminó con la victoria para el joven debutante de 22 años <b>Elijah Smith</b>, donde se mostró muy dominante especialmente durante el primer y tercer asalto, en los que demostró tener talento en el strking, conectando muy buenos golpes, incluso haciendo daño en la nariz de su rival que estuvo sangrando al final de la pelea. </p>
                     <p>Además demostró tener buena lucha, consiguiendo todos los derribos que intentó, y siendo capaz de defender los intentos de sumisión de su rival, quien es un peleador bastante más experimentado. De esta forma, con las tarjetas dando 29-28, Elijah Smith se queda con la victoria por decisión unánime. </p>
+                    <h2>Gabriel Bonfim Somete a Khaos Williams en el Segundo Asalto</h2>
+                    <p>Brutal sumisión del brasileño Gabriel Bonfim al estadounidense Khaos Williams. En una pelea que el brasileño dominó completamente el combate de pie y en el suelo, moviéndose constantemente alrededor del octágono para evitar ser conectado por su rival, siendo capaz de acertar varios golpes en la cabeza y patadas en la pierna. Finalmente, el destino de la pelea se decidiría en el segundo asalto, cuando Bonfim derribaría a Williams, y conseguiría la finalización por la vía de la sumisión al conectar un D&apos;arce Choke hermoso que mandaría a dormir al luchador americano. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
