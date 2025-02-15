@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     }
 }
 
-export default function CovingtonBuckley () {
+export default function AdesanyaImavov () {
     return(
         <main>
             <ArticleHero title='UFC SAUDI ARABIA: ¡Nassourdine Imavov Noquea a Israel Adesanya en el Segundo Asalto! ¡Michael Venom Page le Quita el Invicto a Shara Bullet!' subtitle='Noche de UFC en Arabia Saudita, que además nos trae la pelea entre Shara Magomedov y Michael Venom Page, y la pelea de peso pesado entre Pavlovich y Jairzinho' image={hero} date='2025-02-01' author={null} updatedDate={null} />

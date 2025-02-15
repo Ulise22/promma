@@ -34,10 +34,6 @@ export default function MagomedAnkalaevDerrota () {
                     <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/xRZDPYpXzQo?si=rdrRbDM9EXwM6DJI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p>Parece hasta de película lo que fue esta pelea, pero por muy difícil de creer que suene, la única derrota que sufrió el luchador de Daguestán en su carrera, fue por sumisión en el tercer asalto de la pelea, en el minuto 4:59. </p>
                     <p>Quien se robó el show aquella noche obviamente fue <b>Paul Craig</b>, que al encima estar en Londres, que guarda una gran cercanía con su país natal, tuvo al público a favor en todo momento, festejando con la gente al final y declarando:<b> &quot;¿Escuchaste a los fans? No fue mi noche en Glasgow (Escocia, donde había tenido su última pelea que terminó en derrota), pero poder conseguir la finalización para los fans de Escocia fue algo especial. Escucha, la gente dice que los fans de Irlanda son los mejores, pero los fans de Escocia son muy ruidosos y nos apoyan mucho&quot;</b>. </p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
                     <EndArticle />
                 </article>
                 <AsideChamps />

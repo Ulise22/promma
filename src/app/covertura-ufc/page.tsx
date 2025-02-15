@@ -26,6 +26,7 @@ import yanVSfigueiredo from '@/assets/covertura_ufc/fight_night/0-100/0-15/yan-v
 import ufcTampa from '@/assets/covertura_ufc/fight_night/0-100/0-15/covington-vs-buckley.jpg'
 import ufcVegas101 from '@/assets/covertura_ufc/fight_night/0-100/0-15/fight-night-dern-ribas-2.jpg'
 import ufcSaudiArabia from '@/assets/covertura_ufc/fight_night/0-100/0-15/adesanya_imavov.jpg'
+import ufcVegas102 from '@/assets/covertura_ufc/fight_night/0-100/0-15/cannonier_rodrigues.jpg'
 
 
 export default function CoverturaUFC () {
@@ -51,6 +52,7 @@ export default function CoverturaUFC () {
             </section>
             <h2 className={styles.covertura__subtitle}>UFC Fight Night</h2>
             <section className={styles.covertura__articles__container}>
+                <ArticlePreview img={ufcVegas102} url='/covertura-ufc/fight-night-cannonier-rodrigues' title='UFC VEGAS 102: ¡Jared Cannonier vs Gregory Rodrigues!' author={null} text='Noche de UFC en Las Vegas que además nos trae el enfrentamiento entre Calvin Kattar y el marroquí Youssef Zalal' date='15/02/2025' />
                 <ArticlePreview img={ufcSaudiArabia} url='/covertura-ufc/fight-night-adesanya-imavov' title='UFC SAUDI ARABIA: ¡Nassourdine Imavov Noquea a Israel Adesanya en el Segundo Asalto! ¡Michael Venom Page le Quita el Invicto a Shara Bullet!' author={null} text='Noche de UFC en Arabia Saudita, que además nos trae la pelea entre Shara Magomedov y Michael Venom Page, y la pelea de peso pesado entre Pavlovich y Jairzinho' date='01/02/2025' />
                 <ArticlePreview img={ufcVegas101} url='/covertura-ufc/fight-night-dern-ribas-2' title='UFC VEGAS 101: ¡Mackenzie Dern Somete a Amanda Ribas al Final del Tercer Asalto! ¡Santiago Ponzinibbio Vence Por TKO a Carlston Harris en el Tercer Asalto!' author={null} text='Roman Kapylov noquea a Chris Curtis faltando un segundo para que termine la pelea. ¡Cesar Almeida deja KO a su rival en el primer asalto!' date='11/01/2025' />
                 <ArticlePreview img={ufcTampa} url='/covertura-ufc/fight-night-covington-buckley' title='UFC TAMPA: ¡Joaquin Buckley Gana a Colby Covington por TKO! ¡Joel Álvarez Noquea a Drakkar Klose!' author={null} text='Manel Kape logra una victoria por Nocaut en el tercer asalto de la pelea. Cub Swanson derrota a Billy Quarantillo por nocaut en el tercer asalto en la pelea de la noche. ' date='14/12/2024' />
