@@ -45,6 +45,9 @@ export default function CannonierRodrigues () {
                     <h2>Jose Miguel Delgado vs Connor Matthews</h2>
                     <p>Debut con victoria por nocaut en el primer asalto para Jose Migue Delgado en la UFC, que luego de conectar una mano derecho que derribaría al suelo a su rival, sería capaz de finalizar a su rival castigándolo con golpes en el suelo. </p>
                     <p>De esta manera el estadounidense extiende su récord a 9-1, con la particularidad de que todas sus victorias serían por finalización, con 5 siendo por nocaut y 4 por sumisisón. </p>
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Andrei Petroski Derrota por Decisión Unánime a Rodolfo Vieira</h2>
+                    <p>Muy buena pelea por parte del brasileño y el estadounidense, que terminó por decantarse a favor de Andrei Petroski por decisión unánime, quien fue capaz de ganar 2 asaltos de 3, destacando especialmente en el último que fue de los más cerrados. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
