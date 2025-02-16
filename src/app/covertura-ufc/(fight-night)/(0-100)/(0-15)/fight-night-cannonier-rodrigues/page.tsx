@@ -50,6 +50,8 @@ export default function CannonierRodrigues () {
                     <p>Muy buena pelea por parte del brasileño y el estadounidense, que terminó por decantarse a favor de Andrei Petroski por decisión unánime, quien fue capaz de ganar 2 asaltos de 3, destacando especialmente en el último que fue de los más cerrados. </p>
                     <h2>Nazim Sadykhov Gana Por TKO a Ismael Bonfim</h2>
                     <p>El luchador de Azerbaiyán se lleva la victoria por TKO ante un complicado rival, luego de conectar una patada en la cabeza que le rompería el pómulo a su rival. Luego de finalizado el primer asalto, los médicos revisarían al brasileño <b>Ismael Bonfim</b>, y al no verlo en las mejores condiciones para seguir peleando dieron por terminado el combate. De esta manera Sadykhov consigue su cuarta victoria consecutiva en la división de peso ligero de la UFC, estando invicto en la compañía. </p>
+                    <h2>Edmen Shahbazyan Noquea a Dylan Budka en el Primer Asalto</h2>
+                    <p>Tremendo nocaut por parte de Shahbazyan a Budka, quien con su mano derecha fue capaz de conectar un golpe que tumbaría inmediatamente a su rival en el primer asalto, consiguiendo la victoria por la vía del nocaut, y muy probablemente el bono a la Actuación de la Noche por la tremenda finalización conseguida en esta cartelera. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
