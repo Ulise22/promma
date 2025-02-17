@@ -1,6 +1,7 @@
 import styles from './coverturaUFC.module.css'
 import ArticlePreview from '../articulos/components/ArticlePreview'
 /* UFC IMAGES */
+/* 0-15 */
 import ufc297 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc297.jpg'
 import ufc298 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc298_preview.jpg'
 import ufc299 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc299.jpg'
