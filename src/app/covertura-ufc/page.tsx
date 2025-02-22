@@ -28,6 +28,7 @@ import ufcTampa from '@/assets/covertura_ufc/fight_night/0-100/0-15/covington-vs
 import ufcVegas101 from '@/assets/covertura_ufc/fight_night/0-100/0-15/fight-night-dern-ribas-2.jpg'
 import ufcSaudiArabia from '@/assets/covertura_ufc/fight_night/0-100/0-15/adesanya_imavov.jpg'
 import ufcVegas102 from '@/assets/covertura_ufc/fight_night/0-100/0-15/cannonier_rodrigues.jpg'
+import ufcSeattle from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_seattle.jpg'
 
 
 export default function CoverturaUFC () {
@@ -53,6 +54,7 @@ export default function CoverturaUFC () {
             </section>
             <h2 className={styles.covertura__subtitle}>UFC Fight Night</h2>
             <section className={styles.covertura__articles__container}>
+                <ArticlePreview img={ufcSeattle} url='/covertura-ufc/fight-night-cejudo-song' title='UFC Seattle: ¡Henry Cejudo vs Song Yadong!' author={null} text='¡Brendan Allen vs Anthony Hernandez! ¡Jean Silva vs Melsik Baghdasaryan!' date='22/02/2025' />
                 <ArticlePreview img={ufcVegas102} url='/covertura-ufc/fight-night-cannonier-rodrigues' title='UFC VEGAS 102: ¡Jared Cannonier Noquea a Gregory Rodrigues en el Cuarto Asalto!' author={null} text='Noche de UFC en Las Vegas: ¡Youssef Zalal derrota a Calvin Kattar y se mete en los rankings de la UFC!' date='15/02/2025' />
                 <ArticlePreview img={ufcSaudiArabia} url='/covertura-ufc/fight-night-adesanya-imavov' title='UFC SAUDI ARABIA: ¡Nassourdine Imavov Noquea a Israel Adesanya en el Segundo Asalto! ¡Michael Venom Page le Quita el Invicto a Shara Bullet!' author={null} text='Noche de UFC en Arabia Saudita, que además nos trae la pelea entre Shara Magomedov y Michael Venom Page, y la pelea de peso pesado entre Pavlovich y Jairzinho' date='01/02/2025' />
                 <ArticlePreview img={ufcVegas101} url='/covertura-ufc/fight-night-dern-ribas-2' title='UFC VEGAS 101: ¡Mackenzie Dern Somete a Amanda Ribas al Final del Tercer Asalto! ¡Santiago Ponzinibbio Vence Por TKO a Carlston Harris en el Tercer Asalto!' author={null} text='Roman Kapylov noquea a Chris Curtis faltando un segundo para que termine la pelea. ¡Cesar Almeida deja KO a su rival en el primer asalto!' date='11/01/2025' />
