@@ -10,10 +10,10 @@ import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Entrenar Todos Los Días Alex Pereira',
-    description: '',
+    description: 'Alex Pereira explica el secreto detrás de su confianza para pelear, que radica en entrenar todos los días de su vida. ',
     openGraph: {
         title: 'Entrenar Todos Los Días Alex Pereira',
-        description: '',
+        description: 'Alex Pereira explica el secreto detrás de su confianza para pelear, que radica en entrenar todos los días de su vida. ',
         url: 'https://fullmma.org/articulos/entrenar-todos-los-dias-alex-pereira'
     }
 }
