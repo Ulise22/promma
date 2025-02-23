@@ -29,6 +29,9 @@ export default function CejudoSong () {
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2>¡Nursulton Ruziboev Noquea a Eric McConico en el Segundo Asalto!</h2>
                     <p>Luego de un primer asalto que realmente tuvo muy poco acción, tuvimos lo mejor de la pelea en el segundo, cuando el luchador de Uzbekistán, Ruziboev, saldría con todo en busca de la finalización, alcanzando esta al noquear a su rival a los 33 segundos del asalto. El uzbeko logra de esta manera recuperarse de su última derrota sufrida ante <Link href='/peleadores/joaquin-buckley'>Joaquin Buckley</Link>. </p>
+                    <h2>¡Austin Vanderford Noquea a Nikolay Veretennikov en el Segundo Asalto!</h2>
+                    <p>Debut con nocaut para el estadounidense Vanderford ante el luchador de Kazajistán <b>Nikolay Veretennikov</b>, en un combate que dominó completamente. </p>
+                    <p>Consiguiendo dominar en el suelo a su rival en el primer asalto, castigándolo desde arriba e intentando una sumisión que cerca estuvo de concretarse. En el segundo asalto hubo más de lo mismo, solamente que esta vez los golpes a su rival estaban siendo demasiado castigo, llevando al árbitro a parar la pelea para proclamar como ganador al luchador de 34 años <b>Austin Vanderford</b>, quien estaba debutando en la UFC. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
