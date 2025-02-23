@@ -37,6 +37,8 @@ export default function CejudoSong () {
                     <h2>¡Mansur Abdul-Malik Noquea a Nick Klein!</h2>
                     <p>Tremenda victoria del estadounidense Mansul Abdul-Malik, quien fue capaz de darle la vuelta a un combate que se le había complicado mucho en el primer asalto, con un golpe que lo complicó, dejándolo mareado, cerca de ser finalizado. </p>
                     <p>Sin embargo, pese al complicado inicio, Abdul-Malik fue capaz, casi que a base de fuerza bruta, de dar vuelta la pelea al conectar unos durísimos golpes, llevando al suelo a su rival de un empujon, y castigándolo hasta que el árbitro puso fin a la paliza que estaba sufriendo Nick Klein. De esta forma, Mansur alcanza un récord profesional invicto de 8-0, con 2 victorias en la UFC, y con todas sus victorias siendo por finalización. </p>
+                    <h2>¡Melquizael Costa Somete con una Guillotina a Andre Fili!</h2>
+                    <p>Tremenda victoria del brasileño Melquizael Costa ante el estadounidense nacido en Seattle Andre Fili. En una pelea que Costa estaba dominando y estaba ganando claramente, conectando varias patadas a su rival, terminaría siendo derribado por el estadounidense, pero sabría aprovechar esta oportunidad para conectar una guillotina ante su rival, que lo haría tapear y le daría la victoria por la vía de la sumisión en el primer asalto, concretando de esta forma la primer sumisión de la noche. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
