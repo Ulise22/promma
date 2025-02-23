@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function CejudoSong () {
     return(
         <main>
-            <ArticleHero title='UFC Seattle: ¡Henry Cejudo vs Song Yadong!' subtitle='¡Brendan Allen vs Anthony Hernandez! ¡Jean Silva vs Melsik Baghdasaryan!' image={hero} date='2025-02-22' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Seattle: ¡Henry Cejudo vs Song Yadong!' subtitle='¡Jean Silva Noquea a Melsik Baghdasaryan en el Primer Asalto!¡Brendan Allen vs Anthony Hernandez! ' image={hero} date='2025-02-22' author={null} updatedDate='2025-02-23' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos noche de UFC en Seattle, que será encabezada por el ex doble campeón de la compañía, <b>Henry Cejudo</b>, quien ostentó los cinturones de peso mosca y peso gallo simultáneamente, y quien buscará recuperarse de su última derrota ante <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link> enfrentando al luchador chino <b>Song Yadong</b>. </p>
@@ -48,6 +48,9 @@ export default function CejudoSong () {
                     <p>Lo que tuvimos como primer combate de la cartelera estelar fue un primer asalto muy activo por parte de ambos luchadores, pero que no pudieron dar el 100% durante toda la pelea, debido a que para el segundo asalto ambos ya estaban muy cansados. De igual forma, Menifield conectó los mejores golpes y por eso 2 de los jueces lo vieron como el ganador de la pelea. </p>
                     <h2>¡Jean Silva Noquea a Melsik Baghdasaryan en el Primer Asalto!</h2>
                     <p>Tremendo lo conseguid por el brasileño <b>Jean Silva</b>, quien con la inteligencia que caracteriza a su equipo, supo esperar y tener paciencia a lo largo del primer asalto, esquivando más golpes de los que daba, para finalmente presionar en el último minuto del primer asalto, cuando conectaría 2 manos a la cabeza de su rival que lo tumbarían al suelo. De ser por el brasileño la cosa hubiera terminado ahí, pero al árbitro no parar la pelea, necesitó de castigar un poco más a su rival para que finalmente le den la victoria, a este peleador que hasta el momento ha ganado todas sus peleas en la UFC, y quien parece tener un futuro brillante en la división de peso pluma. </p>
+                    <h2>Rob Font Derrota a Jean Matsumoto por Decisión Dividida</h2>
+                    <p>Espectacular pelea la que nos dieron estos 2 peleadores, siendo de las mejores que nos trajó esta noche. El combate fue bastante cerrado y podría haber ido para cualquier lado, pero finalmente el ganandor fue el veterano Rob Font por decisión dividida, siendo el peleador que claramente ganó el tercer asalto, donde vimos la mejor cara del puertoriqueño, quien con un codazo cerca del final le provocó un corte a su rival que le permitió desplegar todo su striking para asegurar el asalto. Fue el segundo asalto el más cerrado de todos, y el que seguramente haya generado polémica entre los jueces, con 2 de ellos dándoselo a Rob Font para ganar la pelea y conseguir su segunda victoria consecutiva. </p>
+                    <p>De igual forma el brasileño Jean Matsumoto hizo un muy buen papel, en un combate que aceptó con 2 semanas de anticipación, logró ganar sin dudas el primer asalto de la pelea, conectando un montón de derribos, y dando espectáculo para los fanaticos que lo vimos esta noche. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
