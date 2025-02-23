@@ -17,6 +17,8 @@ import ufc308 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc308.jpg'
 import ufc309 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc309.jpg'
 import ufc310 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc310.jpg'
 import ufc311 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc311.jpg'
+/* 15-30 */
+import ufc312 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc312.jpg'
 /* UFC FIGHT NIGHT IMAGES */
 import whittakerVSaliskerov from '@/assets/covertura_ufc/fight_night/0-100/0-15/whittaker-vs-aliskerov.jpg'
 import lewisVsNascimento from '@/assets/covertura_ufc/fight_night/0-100/0-15/lewis-vs-nascimento-preview.jpg'
@@ -36,6 +38,7 @@ export default function CoverturaUFC () {
         <main className={styles.covertura__container}>
             <h2 className={styles.covertura__subtitle}>UFC Numerado</h2>
             <section className={styles.covertura__articles__container}>
+                <ArticlePreview img={ufc312} url='/covertura-ufc/ufc312' title='UFC 312: ¡Dricus Du Plessis Derrota a Sean Strickland y Retiene el Cinturón de Peso Mediano!' author={null} text='¡Aleksandre Topuria debuta con victoria ante ante Colby Thicknesse! ¡Zhang Weili derrota a Tatiana Suarez y retiene su cinturón!' date='08/02/2025' />
                 <ArticlePreview img={ufc311} url='/covertura-ufc/ufc311' title='UFC 311: ¡Islam Makhachev Somete a Renato Moicano en el Primer Asalto! ¡Merab Dvalishvili Derrota a Umar Nurmagomedov y Retiene Cinturón de Peso Gallo!' author={null} text='Ailín Pérez logra una victoria por decisión unánime ante Karol Rosa y se Mete en el top 10. Jailton Almeida gana por nocaut a Spivac. Jiri Prochazka Noquea a Jamahal Hill.' date='18/01/2025' />
                 <ArticlePreview img={ufc310} url='/covertura-ufc/ufc310' title='UFC 310: ¡Alexandre Pantoja vs Kai Asakura por el Campeonato de Peso Mosca de UFC! ¡Shavkat Rakhmonov vs Ian Garry!' author={null} text='Movsar Evloev Gana su Pelea por Decisión. Vicente Luque Logra una Victoria por Sumisión en el Primer Asalto. Además Dominick Reyes Derrota a Anthony Smith por TKO en el Segundo Asalto' date='09/12/2024' />
                 <ArticlePreview img={ufc309} url='/covertura-ufc/ufc309' title='UFC 309: ¡Jon Jones Noquea a Stipe Miocic en el Tercer Asalto en su Primer Defensa del Título! ¡Charles Oliveira Derrota a Michael Chandler por Decisión en La Pelea de la Noche!' author={null} text='¡Bo Nical derrota a Paul Craig y mantiene su invicto de 7-0! Además el brasileño Mauricio Ruffy vence al peruano James Llontop por decisión en su segunda pelea en la UFC.' date='16/11/2024' />

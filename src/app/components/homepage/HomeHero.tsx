@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc312 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc312.jpg'
+import ufcSeattle from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_seattle.jpg'
 import ufcBillonario from '@/assets/noticias/0-100/20-30/ufc_busca_millonada.jpg'
 import pimblettNextFight2025 from '@/assets/noticias/0-100/30-40/pimblett_nextfight2025.jpg'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc312'>
-                <Image className={styles.homehero__bigArticle__img} src={ufc312} alt='' />
-                <h2 className={styles.home__title}>UFC 312: ¡Dricus Du Plessis Derrota a Sean Strickland y Retiene el Cinturón de Peso Mediano!</h2>
-                <span>¡Aleksandre Topuria debuta con victoria ante ante Colby Thicknesse! ¡Zhang Weili derrota a Tatiana Suarez y retiene su cinturón!</span>
+            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-cejudo-song'>
+                <Image className={styles.homehero__bigArticle__img} src={ufcSeattle} alt='' />
+                <h2 className={styles.home__title}>UFC Seattle: ¡Henry Cejudo vs Song Yadong!</h2>
+                <span>¡Brendan Allen vs Anthony Hernandez! ¡Jean Silva vs Melsik Baghdasaryan!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
                 <Image className={styles.homehero__article__img} loading='lazy' src={ufcBillonario} alt='' />
