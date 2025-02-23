@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function CejudoSong () {
     return(
         <main>
-            <ArticleHero title='UFC Seattle: ¡Henry Cejudo vs Song Yadong!' subtitle='¡Jean Silva Noquea a Melsik Baghdasaryan en el Primer Asalto! !Anthony Hernandez Derrota a Brendan Allen por Decisión Unánime! ' image={hero} date='2025-02-22' author={null} updatedDate='2025-02-23' />
+            <ArticleHero title='UFC Seattle: ¡Song Yadong Derrota a Henry Cejudo Por Decisión Técnica Luego de Parada Médica!' subtitle='¡Jean Silva Noquea a Melsik Baghdasaryan en el Primer Asalto! !Anthony Hernandez Derrota a Brendan Allen por Decisión Unánime! ' image={hero} date='2025-02-22' author={null} updatedDate='2025-02-23' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos noche de UFC en Seattle, que será encabezada por el ex doble campeón de la compañía, <b>Henry Cejudo</b>, quien ostentó los cinturones de peso mosca y peso gallo simultáneamente, y quien buscará recuperarse de su última derrota ante <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link> enfrentando al luchador chino <b>Song Yadong</b>. </p>
@@ -53,6 +53,9 @@ export default function CejudoSong () {
                     <p>De igual forma el brasileño Jean Matsumoto hizo un muy buen papel, en un combate que aceptó con 2 semanas de anticipación, logró ganar sin dudas el primer asalto de la pelea, conectando un montón de derribos, y dando espectáculo para los fanaticos que lo vimos esta noche. </p>
                     <h2>¡Anthony Hernandez Derrota a Brendan Allen!</h2>
                     <p>Esta pelea arbitrada por <Link href='/articulos/arbitro-de-ufc-con-barba'>Mike Beltrán</Link> se la termina llevando Anthony Hernandez, luego de un sufrido primer asalto para él, supo darle la vuelta al combate, concretando varios derribos, y rompiendo récords históricos en este aspecto, para lograr ganarle la posición constantemente a Brendan Allen que nada pudo hacer ante la lucha de Hernandez. Con esta victoria, Anthony Hernandez consigue su séptima victoria consecutiva en la UFC</p>
+                    <h2>¡Song Yadong Derrota a Henry Cejudo Por Decisión Técnica!</h2>
+                    <p>Final anticlimático en Seattle, con la pelea terminando luego de un piquete de ojos a Henry Cejudo que no lo dejó ver nada, llevando tanto al médico, al propio peleador, y al árbitro a dar por terminada la pelea. </p>
+                    <p>De igual forma, al haberse peleado los primeros 3 asaltos, la pelea terminó con resultado, luego de puntuar estos, el ganador sería el luchador chino <b>Song Yadong</b>, quien por decisión técnica se lleva la victoria. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />

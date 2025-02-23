@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-cejudo-song'>
                 <Image className={styles.homehero__bigArticle__img} src={ufcSeattle} alt='' />
-                <h2 className={styles.home__title}>UFC Seattle: ¡Henry Cejudo vs Song Yadong!</h2>
+                <h2 className={styles.home__title}>UFC Seattle: ¡Song Yadong Derrota a Henry Cejudo Por Decisión Técnica Luego de Parada Médica!</h2>
                 <span>¡Jean Silva Noquea a Melsik Baghdasaryan en el Primer Asalto! !Anthony Hernandez Derrota a Brendan Allen por Decisión Unánime! </span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
