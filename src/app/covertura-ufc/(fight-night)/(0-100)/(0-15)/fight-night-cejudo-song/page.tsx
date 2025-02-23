@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function CejudoSong () {
     return(
         <main>
-            <ArticleHero title='UFC Seattle: ¡Henry Cejudo vs Song Yadong!' subtitle='¡Jean Silva Noquea a Melsik Baghdasaryan en el Primer Asalto!¡Brendan Allen vs Anthony Hernandez! ' image={hero} date='2025-02-22' author={null} updatedDate='2025-02-23' />
+            <ArticleHero title='UFC Seattle: ¡Henry Cejudo vs Song Yadong!' subtitle='¡Jean Silva Noquea a Melsik Baghdasaryan en el Primer Asalto! !Anthony Hernandez Derrota a Brendan Allen por Decisión Unánime! ' image={hero} date='2025-02-22' author={null} updatedDate='2025-02-23' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos noche de UFC en Seattle, que será encabezada por el ex doble campeón de la compañía, <b>Henry Cejudo</b>, quien ostentó los cinturones de peso mosca y peso gallo simultáneamente, y quien buscará recuperarse de su última derrota ante <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link> enfrentando al luchador chino <b>Song Yadong</b>. </p>
@@ -51,6 +51,8 @@ export default function CejudoSong () {
                     <h2>Rob Font Derrota a Jean Matsumoto por Decisión Dividida</h2>
                     <p>Espectacular pelea la que nos dieron estos 2 peleadores, siendo de las mejores que nos trajó esta noche. El combate fue bastante cerrado y podría haber ido para cualquier lado, pero finalmente el ganandor fue el veterano Rob Font por decisión dividida, siendo el peleador que claramente ganó el tercer asalto, donde vimos la mejor cara del puertoriqueño, quien con un codazo cerca del final le provocó un corte a su rival que le permitió desplegar todo su striking para asegurar el asalto. Fue el segundo asalto el más cerrado de todos, y el que seguramente haya generado polémica entre los jueces, con 2 de ellos dándoselo a Rob Font para ganar la pelea y conseguir su segunda victoria consecutiva. </p>
                     <p>De igual forma el brasileño Jean Matsumoto hizo un muy buen papel, en un combate que aceptó con 2 semanas de anticipación, logró ganar sin dudas el primer asalto de la pelea, conectando un montón de derribos, y dando espectáculo para los fanaticos que lo vimos esta noche. </p>
+                    <h2>¡Anthony Hernandez Derrota a Brendan Allen!</h2>
+                    <p>Esta pelea arbitrada por <Link href='/articulos/arbitro-de-ufc-con-barba'>Mike Beltrán</Link> se la termina llevando Anthony Hernandez, luego de un sufrido primer asalto para él, supo darle la vuelta al combate, concretando varios derribos, y rompiendo récords históricos en este aspecto, para lograr ganarle la posición constantemente a Brendan Allen que nada pudo hacer ante la lucha de Hernandez. Con esta victoria, Anthony Hernandez consigue su séptima victoria consecutiva en la UFC</p>
                     <EndArticle />
                 </article>
                 <AsideChamps />

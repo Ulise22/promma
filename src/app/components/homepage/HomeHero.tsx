@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-cejudo-song'>
                 <Image className={styles.homehero__bigArticle__img} src={ufcSeattle} alt='' />
                 <h2 className={styles.home__title}>UFC Seattle: ¡Henry Cejudo vs Song Yadong!</h2>
-                <span>¡Jean Silva Noquea a Melsik Baghdasaryan en el Primer Asalto!¡Brendan Allen vs Anthony Hernandez! </span>
+                <span>¡Jean Silva Noquea a Melsik Baghdasaryan en el Primer Asalto! !Anthony Hernandez Derrota a Brendan Allen por Decisión Unánime! </span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
                 <Image className={styles.homehero__article__img} loading='lazy' src={ufcBillonario} alt='' />
