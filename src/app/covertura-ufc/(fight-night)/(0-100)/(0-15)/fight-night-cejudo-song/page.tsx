@@ -32,6 +32,8 @@ export default function CejudoSong () {
                     <h2>¡Austin Vanderford Noquea a Nikolay Veretennikov en el Segundo Asalto!</h2>
                     <p>Debut con nocaut para el estadounidense Vanderford ante el luchador de Kazajistán <b>Nikolay Veretennikov</b>, en un combate que dominó completamente. </p>
                     <p>Consiguiendo dominar en el suelo a su rival en el primer asalto, castigándolo desde arriba e intentando una sumisión que cerca estuvo de concretarse. En el segundo asalto hubo más de lo mismo, solamente que esta vez los golpes a su rival estaban siendo demasiado castigo, llevando al árbitro a parar la pelea para proclamar como ganador al luchador de 34 años <b>Austin Vanderford</b>, quien estaba debutando en la UFC. </p>
+                    <h2>¡Tremendo KO de Ricky Simon a Javid Basharat en el Primer Asalto!</h2>
+                    <p>Espectacular KO del estadounidense Ricky Simon, que estaba teniendo un buen combate, logrando un derribo ante su rival, y que pese a estar conectando menos golpes, conectó los que importan, dado que fue su mano la que mandó a la lona a Basharat. De esta manera, Ricky Simon logra terminar con una racha negativa de 3 derrotas consecutivas, volviendo a ganar un combate, cosa que no hacía desde 2022. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
