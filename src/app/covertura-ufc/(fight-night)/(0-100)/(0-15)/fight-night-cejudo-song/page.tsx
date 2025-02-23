@@ -42,9 +42,12 @@ export default function CejudoSong () {
                     <h2>¡Ion Cutelaba Somete a Ibo Aslam en el Primer Asalto!</h2>
                     <p>Tremenda pelea la que nos dieron estos 2 peleadores en el último combate de las preliminares, que siendo bastante caótico, con golpes yendo para ambos lados, quien finalmente se hizo con la victoria es el luchador de Moldavia, <b>Ion Cutelaba</b>, quien fue capaz de primer conectar un derribo, para posteriormente capitalizar este, al ser capaz de someter a su rival en el primer asalto. </p>
                     <p>De esta forma, terminamos todas las peleas preliminares con 7 finalizaciones en 7 peleas, con 5 de estas siendo por nocaut, y con 2 siendo por sumisión. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>¡Alonso Menifield Derrota al Debutante Julius Walker!</h2>
+                    <p>Tremenda pelea entre el debutante Julius Walker, y el ranqueado #15 de la división de peso semipesado Alonso Menifield, que termina decantándose a favor del luchador más experimentado, que luego de 3 asaltos es capaz de hacerse con la victoria por decisión dividida, quitándole el invicto de 6-0 a su rival. </p>
+                    <p>Lo que tuvimos como primer combate de la cartelera estelar fue un primer asalto muy activo por parte de ambos luchadores, pero que no pudieron dar el 100% durante toda la pelea, debido a que para el segundo asalto ambos ya estaban muy cansados. De igual forma, Menifield conectó los mejores golpes y por eso 2 de los jueces lo vieron como el ganador de la pelea. </p>
+                    <h2>¡Jean Silva Noquea a Melsik Baghdasaryan en el Primer Asalto!</h2>
+                    <p>Tremendo lo conseguid por el brasileño <b>Jean Silva</b>, quien con la inteligencia que caracteriza a su equipo, supo esperar y tener paciencia a lo largo del primer asalto, esquivando más golpes de los que daba, para finalmente presionar en el último minuto del primer asalto, cuando conectaría 2 manos a la cabeza de su rival que lo tumbarían al suelo. De ser por el brasileño la cosa hubiera terminado ahí, pero al árbitro no parar la pelea, necesitó de castigar un poco más a su rival para que finalmente le den la victoria, a este peleador que hasta el momento ha ganado todas sus peleas en la UFC, y quien parece tener un futuro brillante en la división de peso pluma. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
