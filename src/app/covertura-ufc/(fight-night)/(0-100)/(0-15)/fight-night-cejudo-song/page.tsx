@@ -34,6 +34,9 @@ export default function CejudoSong () {
                     <p>Consiguiendo dominar en el suelo a su rival en el primer asalto, castigándolo desde arriba e intentando una sumisión que cerca estuvo de concretarse. En el segundo asalto hubo más de lo mismo, solamente que esta vez los golpes a su rival estaban siendo demasiado castigo, llevando al árbitro a parar la pelea para proclamar como ganador al luchador de 34 años <b>Austin Vanderford</b>, quien estaba debutando en la UFC. </p>
                     <h2>¡Tremendo KO de Ricky Simon a Javid Basharat en el Primer Asalto!</h2>
                     <p>Espectacular KO del estadounidense Ricky Simon, que estaba teniendo un buen combate, logrando un derribo ante su rival, y que pese a estar conectando menos golpes, conectó los que importan, dado que fue su mano la que mandó a la lona a Basharat. De esta manera, Ricky Simon logra terminar con una racha negativa de 3 derrotas consecutivas, volviendo a ganar un combate, cosa que no hacía desde 2022. </p>
+                    <h2>¡Mansur Abdul-Malik Noquea a Nick Klein!</h2>
+                    <p>Tremenda victoria del estadounidense Mansul Abdul-Malik, quien fue capaz de darle la vuelta a un combate que se le había complicado mucho en el primer asalto, con un golpe que lo complicó, dejándolo mareado, cerca de ser finalizado. </p>
+                    <p>Sin embargo, pese al complicado inicio, Abdul-Malik fue capaz, casi que a base de fuerza bruta, de dar vuelta la pelea al conectar unos durísimos golpes, llevando al suelo a su rival de un empujon, y castigándolo hasta que el árbitro puso fin a la paliza que estaba sufriendo Nick Klein. De esta forma, Mansur alcanza un récord profesional invicto de 8-0, con 2 victorias en la UFC, y con todas sus victorias siendo por finalización. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
