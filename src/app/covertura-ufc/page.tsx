@@ -31,6 +31,7 @@ import ufcVegas101 from '@/assets/covertura_ufc/fight_night/0-100/0-15/fight-nig
 import ufcSaudiArabia from '@/assets/covertura_ufc/fight_night/0-100/0-15/adesanya_imavov.jpg'
 import ufcVegas102 from '@/assets/covertura_ufc/fight_night/0-100/0-15/cannonier_rodrigues.jpg'
 import ufcSeattle from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_seattle.jpg'
+import ufcVegas103 from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufcvegas103.jpeg'
 
 
 export default function CoverturaUFC () {
@@ -57,6 +58,7 @@ export default function CoverturaUFC () {
             </section>
             <h2 className={styles.covertura__subtitle}>UFC Fight Night</h2>
             <section className={styles.covertura__articles__container}>
+                <ArticlePreview img={ufcVegas103} url='/covertura-ufc/fight-night-kape-almabayev' title='UFC Vegas 103: ¡Manel Kape vs Asu Almabayev!' author={null} text='¡Esteban Ribovics vs Nashrat Haqparast! ' date='01/03/2025' />
                 <ArticlePreview img={ufcSeattle} url='/covertura-ufc/fight-night-cejudo-song' title='UFC Seattle: ¡Song Yadong Derrota a Henry Cejudo Por Decisión Técnica Luego de Parada Médica!' author={null} text='¡Jean Silva Noquea a Melsik Baghdasaryan en el Primer Asalto! !Anthony Hernandez Derrota a Brendan Allen por Decisión Unánime! ' date='22/02/2025' />
                 <ArticlePreview img={ufcVegas102} url='/covertura-ufc/fight-night-cannonier-rodrigues' title='UFC VEGAS 102: ¡Jared Cannonier Noquea a Gregory Rodrigues en el Cuarto Asalto!' author={null} text='Noche de UFC en Las Vegas: ¡Youssef Zalal derrota a Calvin Kattar y se mete en los rankings de la UFC!' date='15/02/2025' />
                 <ArticlePreview img={ufcSaudiArabia} url='/covertura-ufc/fight-night-adesanya-imavov' title='UFC SAUDI ARABIA: ¡Nassourdine Imavov Noquea a Israel Adesanya en el Segundo Asalto! ¡Michael Venom Page le Quita el Invicto a Shara Bullet!' author={null} text='Noche de UFC en Arabia Saudita, que además nos trae la pelea entre Shara Magomedov y Michael Venom Page, y la pelea de peso pesado entre Pavlovich y Jairzinho' date='01/02/2025' />
