@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function KapeAlmabayev () {
     return(
         <main>
-            <ArticleHero title='UFC Vegas 103: ¡Manel Kape vs Asu Almabayev!' subtitle='¡Esteban Ribovics Cae Derrotado ante Nashrat Haqparast Por Decisión Dividida! ¡Cody Brundage Gana por TKO a Julian Marquez en el Primer Asalto!' image={hero} date='2025-03-01' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Vegas 103: ¡Manel Kape Gana por TKO a Asu Almabayev en el Tercer Asalto!' subtitle='¡Esteban Ribovics Cae Derrotado ante Nashrat Haqparast Por Decisión Dividida! ¡Cody Brundage Gana por TKO a Julian Marquez en el Primer Asalto!' image={hero} date='2025-03-01' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos noche de MMA en el UFC APEX en Las Vegas, que será encabezado por el luchador portugués, ranqueado #6 en la división de peso mosca, <b>Manel Kape</b>, quien se enfrentará al luchador de Kazajistán <b>Asu Almabayev</b>, quien aceptó pelear en corto aviso luego de que el rival original de Kape, <b>Brandon Royval</b> se diera de baja pocos días antes del evento. </p>
@@ -36,6 +36,8 @@ export default function KapeAlmabayev () {
                     <p>Si la pelea anterior había parecido una guerra, esto es algo más. En lo que fue un absoluto espectáculo, como lo es toda pelea en la que está el argentino <Link href='/peleadores/esteban-ribovics'>Esteban Ribovics</Link>, vimos un combate bastante cerrado entre ambos, que finalmente se terminó decidiendo en las tarjetas de los jueces, quienes por decisión dividida dieron por ganador al luchador marroquí Nasrat Haqparast. </p>
                     <h2>¡Cody Brundage Noquea a Julian Marquez en el Primer Asalto!</h2>
                     <p>Cody logra una increíble victoria por TKO en el primer asalto, en lo que pese a haber durado menos de 5 minutos, fue una pelea espectacular, que en apenas un asalto tuvo de todo, con momentos en los que la pelea podría haber ido para cualquiera de los 2, ya que se dieron tantos golpes entre ellos, que ambos terminaron perdiendo sus bucales en medio del combate. </p>
+                    <h2>¡Manel Kape Se Lleva La Victoria por TKO ante Asu Almabayev!</h2>
+                    <p>El nacido en Angola y nacionalizado portugués, <b>Manel Kape</b>, se lleva la victoria en el evento estelar por la vía del nocaut en el tercer asalto de la pelea, luego de dominar por completo el combate durante los 3 asaltos que este duró. Quedará por ver si esta contudente victoria por parte Kape será suficiente para ganarse una oportunidad titular ante el actual campeón de peso mosca <Link href='/peleadores/alexandre-pantoja'>Alexandre Pantoja</Link>. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
