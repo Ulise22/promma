@@ -27,8 +27,11 @@ export default function KapeAlmabayev () {
                     <p>Tenemos noche de MMA en el UFC APEX en Las Vegas, que será encabezado por el luchador portugués, ranqueado #6 en la división de peso mosca, <b>Manel Kape</b>, quien se enfrentará al luchador de Kazajistán <b>Asu Almabayev</b>, quien aceptó pelear en corto aviso luego de que el rival original de Kape, <b>Brandon Royval</b> se diera de baja pocos días antes del evento. </p>
                     <p>Además tendremos como evento coestelar la pelea en peso medio entre <b>Cody Brundage</b> vs <b>Julian Marquez</b>. También tendremos en la cartelera estelar la pelea en peso ligero entre el argentino <Link href='/peleadores/esteban-ribovics'>Esteban Ribovics</Link>, quien viene de una espectacular victoria ante el mexicano <b>Daniel Zellhuber</b> en el <Link href='/covertura-ufc/ufc306'>UFC Noche</Link>, que le valió el bono a Pelea de la Noche, y el luchador marroquí <b>Nasrat Haqparast</b>, quien viene de una racha de 4 victorias consecutivas. </p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2>¡Sam Petterson Noquea a Danny Barlow en el Primer Asalto!</h2>
-                    <p>El inglés Sam Petterson abre esta cartelera estelar con una tremenda victoria por la vía del nocaut en el primer asalto, luego de conectar un gancho que hizo retroceder a su rival, para rematarlo con una mano derecha que lo tumba al suelo, castigándolo en el suelo para asegurar la victoria hasta que el árbitro los separó para darle la victoria a Petterson por TKO. </p>
+                    <h2>¡Sam Patterson Noquea a Danny Barlow en el Primer Asalto!</h2>
+                    <p>El inglés Sam Patterson abre esta cartelera estelar con una tremenda victoria por la vía del nocaut en el primer asalto, luego de conectar un gancho que hizo retroceder a su rival, para rematarlo con una mano derecha que lo tumba al suelo, castigándolo en el suelo para asegurar la victoria hasta que el árbitro los separó para darle la victoria a Patterson por TKO. </p>
+                    <h2>¡Hyder Amil Derrota a Williams Gomis por Decisión Dividida en la Pelea de la Noche!</h2>
+                    <p>Tremenda pelea la que nos dieron estos 2 guerreros, quienes protagonizaron la que sin dudas es una de las mejores peleas de la noche, con ambos luchadores dando una exhibición, en un combate que podría haberse ido para cualquiera de los dos.</p>
+                    <p>Finalmente el combate llegó a mano de los jueces que dieron como ganador a Hydir Amil por decisión dividida, quien mantiene el invicto y extiende su récord profesional a 11-0. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
