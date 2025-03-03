@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Magomed Ankalaev Derrota',
         description: 'La historia de la única derrota de Magomed Ankalaev en su carrera profesional en la UFC. ',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fankalaev_derrota.1bd75406.jpg&w=1080&q=75',
         url: 'https://fullmma.org/articulos/magomed-ankalaev-derrota'
     }
 }
