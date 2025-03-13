@@ -24,6 +24,7 @@ export default function MihailKajaia () {
             <ArticleHero title='¿Quién es Mihail Kajaia? El luchador olímpico georgiano de 97 kilos y de aspecto más aterrador que existe' subtitle='La historia detrás del luchador grecorromano, Mihail Kajaia, nacido en Georgia y nacionalizado serbio. ' image={hero} date='2025-01-22' author={null} updatedDate='2025-02-10' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
+                    <h2>Mihail Kajaia</h2>
                     <p>Hoy vamos a hablar de uno de los luchadores olímpicos de aspecto más intimidante con el que uno se encuentra en internet. Sobre el georgiano, nacionalizado serbio, Mihail Kejaia, quien supo competir en los últimos 2 juegos olímpicos, y que supo ganar 5 medallas a lo largo de su carrera. </p>
                     <p>MIhail Kajaia nació en la ciudad de Tskaltubo, en la antigua Georgia soviética, el día 21 de julio de 1989. </p>
                     <p>Comenzó su carrera como luchador grecorromano representando a su natal Georgia en el <b>2013 Summer Universiade</b>. Un campeonato universitario, organizado en la ciudad de Kazan, en Rusia, donde más de 10400 universidades de 162 países diferentes participaron en diferentes deportes, entre los que estaban incluídos la lucha grecorromana. En aquel campeonato nuestro protagonista ya comenzó a demostrar la habilidad con la que contaba al ganar la medalla de bronce en el evento de 96 kilos. </p>
