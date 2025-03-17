@@ -10,10 +10,10 @@ import EndArticle from '@/app/components/EndArticle'
 
 export const metadata: Metadata = {
     title: 'Árbitro de UFC con Barba',
-    description: 'La historia y vida de Mike Beltrán, el árbitro de UFC con trenzas en la barba. ',
+    description: 'Conoce la historia de vida de Mike Beltrán, el árbitro con la barba más icónica de la UFC. ',
     openGraph: {
         title: 'Árbitro de UFC con Barba',
-        description: 'La historia y vida de Mike Beltrán, el árbitro de UFC con trenzas en la barba. ',
+        description: 'Conoce la historia de vida de Mike Beltrán, el árbitro con la barba más icónica de la UFC. ',
         url: 'https://fullmma.org/articulos/arbitro-de-ufc-con-barba'
     }
 }
@@ -24,6 +24,7 @@ export default function ArbitroUFCBarba () {
             <ArticleHero title='Mike Beltrán: El Árbitro de UFC con Barba' subtitle='La historia de Mike Beltrán, el árbitro de UFC con trenzas en la barba y uno de los más reconocidos en su profesión.' image={hero} date='2025-02-13' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
+                    <h2>Historia de Mike Beltrán</h2>
                     <p>Mike Beltrán, el reconocido árbitro con trenzas en la barba de la <Link href='/articulos/ufc'>UFC</Link>, es de las figuras más reconocibles en el arbitraje de este deporte. Por eso, y porque en su área es una leyenda de las MMA, es que vamos a hablar de la vida e historia detrás de este mítico árbitro de la UFC. </p>
                     <p>Mike Beltrán nació el 31 de agosto de 1973, en el Este de Los Angeles, en Estados Unidos. A más de uno sorprenderá que Mike es de ascendencia mexicana, cosa que le permitió tener un excelente manejo del español, siendo este su primer idioma, con el inglés siendo el segundo. Esta ascendencia mexicana es lo que le transmitió una cultura de los deportes esencial para su carrera, siendo fanático del fútbol y siendo bastante fan del boxeo desde niño, comenzando a practicar desde los 10 años, inspirado por su fanatismo por el legendario boxeador mexicano, Julio Cesar Chaves, en una época en la que las artes marciales mixtas todavía no estaban presentes. </p>
                     <p>Comenzó además a entrenar jiu-jitsu brasileño en el año 2002, y siguió entrenando boxeo luego de unirse al ejército, perteneciendo a la infantería de los marines.</p>
