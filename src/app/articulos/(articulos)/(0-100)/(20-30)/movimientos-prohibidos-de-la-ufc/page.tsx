@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function MovimientosProhibidosUFC () {
     return(
         <main>
-            <ArticleHero title='Todos Los Movimientos que Están Prohibidos en la UFC: Lo Que Jamás Verás en un Combate' subtitle='La lista de los 28 golpes y movimientos que están prohibidos dentro de la UFC y que por lo tanto jamás verás realizarse, o al menos no deberías ver realizarse. ' image={hero} date='15/01/2025' author={null} updatedDate={null} />
+            <ArticleHero title='Todos Los Movimientos que Están Prohibidos en la UFC: Lo Que Jamás Verás en un Combate' subtitle='La lista de los 28 movimientos y golpes ilegales de la UFC y que por lo tanto jamás verás realizarse, o al menos no deberías ver realizarse. ' image={hero} date='15/01/2025' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Pese a que durante años las MMA se han hecho la fama de ser un deporte super peligroso y dañino, casi que un deporte para bárbaros, en donde a diferencia de otros deportes de combate, todo está permitido. Lo cierto es que hoy en día este es un deporte que ha evolucionado desde sus primeros eventos en la década del 90, y que lejos de ser así, es quizás, a la larga, un deporte bastante más seguro que otros deportes de contacto.</p>

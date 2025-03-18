@@ -10,12 +10,12 @@ export default function HomeHero () {
     return(
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-cejudo-song'>
-                <Image className={styles.homehero__bigArticle__img} src={ufcSeattle} alt='' />
+                <Image className={styles.homehero__bigArticle__img} priority={true} src={ufcSeattle} alt='UFC Seattle: Song Yadong vs Henry Cejudo' />
                 <h2 className={styles.home__title}>UFC Seattle: ¡Song Yadong Derrota a Henry Cejudo Por Decisión Técnica Luego de Parada Médica!</h2>
                 <span>¡Jean Silva Noquea a Melsik Baghdasaryan en el Primer Asalto! !Anthony Hernandez Derrota a Brendan Allen por Decisión Unánime! </span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
-                <Image className={styles.homehero__article__img} loading='lazy' src={ufcBillonario} alt='' />
+                <Image className={styles.homehero__article__img} src={ufcBillonario} alt='' />
                 <article className={styles.homehero__article__container}>
                     <h2 className={styles.homehero__title}>La UFC Busca un Contrato Multimillonario de Mil Millones, Según Bloomberg, Por Sus Derechos Televisivos</h2>
                     <p>Este año 2025 expira el contrato actual de la UFC con ESPN, por lo que la empresa de MMA más grande del planeta estaría buscando aumentar su contrato actual a uno de 10 cifras. </p>
@@ -26,7 +26,7 @@ export default function HomeHero () {
                 </article>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/paddy-pimblett-proxima-pelea-2025'>
-                <Image className={styles.homehero__article__img} loading='lazy' src={pimblettNextFight2025} alt='' />
+                <Image className={styles.homehero__article__img} src={pimblettNextFight2025} alt='' />
                 <article className={styles.homehero__article__container}>
                     <h2 className={styles.homehero__title}>Próxima Pelea de Paddy Pimblett 2025: ¿Paddy Pimblett vs Michael Chandler?</h2>
                     <p>Se acrecientan los rumores sobre la próxima pelea de Paddy Pimblett, con 2 rivales y 2 posibles ubicaciones para él, ¿Gamrot o Chandler? ¿UFC 314 o UFC 317 en el International Fight Week?</p>

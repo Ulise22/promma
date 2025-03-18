@@ -9,7 +9,7 @@ export default function ArticleHero ({title, subtitle, image, date, author, upda
         <section className={styles.articleHero}>
             <h1 className={styles.articleHero__title}> {title} </h1>
             <h2 className={styles.articleHero__subtitle}> {subtitle} </h2>
-            <Image className={styles.articleHero__image} src={image}  alt={title}/>
+            <Image className={styles.articleHero__image} priority={true} src={image}  alt={title}/>
             {date && <p className={styles.articleHero__info}> 
                 <b>{author || defaultAuthor }</b>,
                 <time dataTime={date}>{date}</time>

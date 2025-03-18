@@ -12,7 +12,7 @@ export default function Navbar () {
     return(
         <nav className={styles.navbar}>
             <Link className={styles.logo} href='/'>
-                <Image src={logo} alt='promma mma' />
+                <Image src={logo} priority={true} alt='promma mma' />
             </Link>
 
             <div onClick={() => setIsOpen(!isOpen)} className={styles.openMenu}>

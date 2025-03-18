@@ -10,12 +10,12 @@ export default function PageHero () {
     return(
         <section className={styles.pagehero}>
             <Link className={styles.pagehero__bigArticle} href='/articulos/yoel-romero-genetica'>
-                <Image className={styles.pagehero__bigArticle__img} loading="lazy" src={yoelgenetica} alt='' />
+                <Image className={styles.pagehero__bigArticle__img} priority={true} src={yoelgenetica} alt='La genética del peleador cubano de UFC Yoel Romero' />
                 <h2 className={styles.page__title}>La Genética de Yoel Romero</h2>
                 <p>Yoel Romero es un superhumano, el admirable prodigio genético que ha demostrado ser el luchador cubano para seguir activo con 47 años y para sorprender a los médicos con lo rápido de su recuperación.</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/articulos/alexander-emelianenko'>
-                <Image className={styles.pagehero__article__img} loading="lazy" src={alexanderEmelianenko} alt='' />
+                <Image className={styles.pagehero__article__img} src={alexanderEmelianenko} alt='' />
                 <article className={styles.pagehero__article__container}>
                     <h2 className={styles.pagehero__title}>Alexander Emelianenko: El Hermano de Fedor Emelianenko y su Relación con la Mafia Rusa</h2>
                     <p>Los tatuajes de Alexander Emelianenko y el significado que tienen, ¿De verdad formó parte de la mafia rusa?</p>
@@ -26,7 +26,7 @@ export default function PageHero () {
                 </article>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal2}`} href='/articulos/mejores-peleas-mujeres-ufc'>
-                <Image className={styles.pagehero__article__img} loading="lazy" src={bestfightsFem} alt='' />
+                <Image className={styles.pagehero__article__img} src={bestfightsFem} alt='' />
                 <article className={styles.pagehero__article__container}>
                     <h2 className={styles.pagehero__title}>Las Mejores Peleas de UFC de Mujeres de la Historia</h2>
                     <p>Los 5 mejores combates femeninos de la historia de UFC.</p>
