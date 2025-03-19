@@ -5,6 +5,7 @@ body {
     margin: 0;
     background-color: #1E1E1E;
     font-family: 'Noto Sans', sans-serif;
+    font-display: swap;
     color: #fff;
 }
 

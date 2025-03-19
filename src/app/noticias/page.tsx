@@ -48,12 +48,12 @@ export default function NoticiasPage () {
         <section className={styles.noticiaspage__container}>
             <article className={styles.noticiasHero}>
                 <Link className={styles.noticiasHero__bigArticle} href='/noticias/dogfight-wild-tournament-3'>
-                    <Image className={styles.noticiasHero__bigArticle__img} priority={true} src={DWT3} alt='' />
+                    <Image className={styles.noticiasHero__bigArticle__img} priority={true} quality={50} src={DWT3} alt='' />
                     <h2 className={styles.page__title}>Dogfight Wild Torunament 3: ¡Battle Royal 10 Peleadores Todos Contra Todos!</h2>
                     <p>Vuelve el evento más loco del mundo, Dogfight Wild Tournament, en su tercera edición organizaodo por Jordi Wild. Con un 2vs2, pelea femenina sin reglas, pelea en un coche y una pelea medieval.</p>
                 </Link>
                 <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/mejores-eventos-ufc-2024'>
-                    <Image className={styles.noticiasHero__article__img} src={bestEventsUFC2024} alt='' />
+                    <Image className={styles.noticiasHero__article__img} quality={50} src={bestEventsUFC2024} alt='' />
                     <article className={styles.noticiasHero__article__container}>
                         <h2 className={styles.noticiasHero__title}>Los Mejores Eventos de UFC 2024</h2>
                         <p>La lista de los eventos y carteleras de UFC numerados que marcaron este 2024. </p>
@@ -64,7 +64,7 @@ export default function NoticiasPage () {
                     </article>
                 </Link>
                 <Link className={`${styles.noticiasHero__article} ${styles.normal2}`} href='/noticias/beneil-dariush-proxima-pelea-2025'>
-                    <Image className={styles.noticiasHero__article__img} src={dariushPelea2025} alt='' />
+                    <Image className={styles.noticiasHero__article__img} quality={50} src={dariushPelea2025} alt='' />
                     <article className={styles.noticiasHero__article__container}>
                         <h2 className={styles.noticiasHero__title}>Próxima Pelea de Beneil Dariush Después del UFC 311</h2>
                         <p>Luego de una caótica serie de eventos, con su pelea siendo cancelada, nos preguntamos: ¿Contra quien va a pelear Beneil Dariush Después del UFC 311? </p>

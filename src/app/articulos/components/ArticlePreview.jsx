@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function ArticlePreview ({title, img, url, text, author, date}) {
     return(
         <Link className={styles.articlePreview} href={url}>
-            <Image className={styles.articlePreview__image} loading='lazy' src={img} alt={title} />
+            <Image className={styles.articlePreview__image} loading='lazy' quality={50} src={img} alt={title} />
             <h3 className={styles.articlePreview__title}> {title} </h3>
             <p> {text} </p>
             <div className={styles.articlePreview__info__container}>

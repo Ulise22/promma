@@ -34,6 +34,10 @@
         margin: 0 auto;
     }
 
+    .article__twitter__quote {
+        width: 85%;
+    }
+
     .article__fightsHierarchy {
         font-size: 40px;
     }
