@@ -1,12 +1,13 @@
 import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
-import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/noticias/0-100/0-10/kai_asakura.jpg'
-import Image from 'next/image'
-import EndArticle from '@/app/components/EndArticle'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: '¿Quién es Kai Asakura?',
