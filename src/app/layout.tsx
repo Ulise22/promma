@@ -6,7 +6,6 @@ import { Analytics } from "@vercel/analytics/react"
 import { GoogleAnalytics } from '@next/third-parties/google'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import Menu from './components/Menu'
-import Link from 'next/link'
 import Script from 'next/script'
 import dynamic from 'next/dynamic'
 config.autoAddCss = false

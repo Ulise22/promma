@@ -1,13 +1,15 @@
 import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
-import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import Image from 'next/image'
 import type { Metadata } from 'next'
+import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/articulos/0-100/20-30/yoel_romero_genetica.jpg'
 import joelAndJones from '@/assets/articulos/insideArticle/yoel-romero-genetica/romero-and-jones.jpg'
-import EndArticle from '@/app/components/EndArticle'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'La Génetica de Yoel Romero',
@@ -36,7 +38,7 @@ export default function YoelRomeroGenetica () {
                     <p>En la parte trasera del cuello de Yoel Romero puede apreciarse una cicatriz importante, esto se debe a una operación delicada que debió realizarse previo a su ingreso a la <Link href='/articulos/ufc'>UFC</Link>, operación que pese a tenerlo en un estado saludable hoy en día, limitan la movilidad que el cubano tiene el cuello.</p>
                     <p>Resulta ser que en un entrenamiento que Romero estaba teniendo en el Coconut Creek en el año 2011, mientras practicaban lucha se escuchó un &quot;click&quot;, que llevó a su entrenador a pedirle que descansara un momento. Sin embargo Romero no sentía nada raro ni creía que fuera grave lo que tenía, hasta que uno de sus compañeros le remarcó que tenía una joroba en el cuello, que hizo preocupar a sus maestros por lo que llevaron al médico de inmediato. Tiempo más tarde Yoel comenzaría a sentir mareos y tendría dificultad para moverse, según relata el mismo Yoel Romero: </p>
                     <p><b>&quot;Yo digo “¿Qué pasó?” Él me dice: “¡Tu cuello!”. Sentí poco dolor, pero no tenía idea de qué era.”¡Tienes que ir al médico!” Cuando fui a la ducha, sentí que no podía moverme, mis manos se entumecieron, no podía mover mi cabeza. Mi C4 cuarta vértebra cervical estaba rota. Y mis trapecios son muy grandes. Eso fue lo que me salvó.&quot;</b></p>
-                    <Image className={styles.article__image} src={joelAndJones} alt='' />
+                    <Image className={styles.article__image} loading='lazy' src={joelAndJones} alt='El peleador cubano de UFC Yoel Romero y Jon Jones' />
                     <p>Es que exactamente como lo relata Yoel, según el médico que lo atendió, estuvo cerca de la muerte producto de la rotura de su vértebra cervical, sin embargo fue el tamaño de sus trapecios lo que lo salvó. Pese a que varios especialistas veían la carrera de Romero como terminada, el cubano no se quedaría con eso, visitando profesionales que lo ayudaron a ir mejorando en su proceso de rehabilitación, que le permitieron seguir con su carrera, llegar a la UFC, y pelear por el título en 2 ocasiones. Posicionándose, seguramente, como el mejor luchador cubano de MMA de la historia.</p>
                     <EndArticle />
                 </article>
