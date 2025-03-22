@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-edwards-brady'>
                 <Image className={styles.homehero__bigArticle__img} priority={true} quality={50} src={ufcLondon} alt='UFC Seattle: Song Yadong vs Henry Cejudo' />
-                <h2 className={styles.home__title}>UFC London: ¡Leon Edwards vs Sean Brady!</h2>
+                <h2 className={styles.home__title}>UFC London: ¡Sean Brady Somete a Leon Edwards en el Cuarto Asalto!</h2>
                 <span>¡Carlos Ulberg Derrota a Jan Blachowicz Por Decisión y se Mete en el Top 5 de los Semipesados! ¡Kevin Holland Derrota a Gunnar Nelson por Decisión!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
