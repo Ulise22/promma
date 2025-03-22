@@ -46,9 +46,10 @@ export default function EdwardsBrady () {
                     <p>El combate fue sangriento y estuvo entretenido en todo momento, con el corte que recibió Kavanagh en la cabeza siendo el responsable de tanta sangre en el octágono. El luchador de 25 años se supo castigar en todo momento con el ground&pound, para sumar puntos, castigar a su rival y llevarse la victoria, extendiendo su invicto a 9-0. </p>
                     <h2>Chris Padilla Derrota a Jai Herbert por Decisión Dividida</h2>
                     <p>En la última pelea de la cartelera preliminar quien se terminó por llevar la victoria es el visitante, <b>Chris Padilla</b> por decisión dividida, en lo que fue un combate amargo y sin muchas emociones que podría haber ido para cualquiera de los 2. De esta manera damos por finalizada una cartelera preliminar que solamente tuvo una finalización. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Nathaniel Wood Derrota al Francés Morgan Charriere por Decisión Unánime</h2>
+                    <p>El luchador inglés <b>Nathaniel Wood</b> se lleva la victoria en la primer pelea de la cartelera estelra por la vía de la decisión, luego de ganar los 3 asaltos y dominar completamente al luchador francés <b>Morgan Charriere</b>. </p>
+                    <p>Wood estuvo cerca de finalizar a su rival por nocaut en el primer asalto, conectando un golpe a la cabeza que derribó al francés, sin embargo este último fue capaz de reponerse del golpe para tiempo después acabar por encima del inglés. Más allá de ese momento, hubo poca acción en esta pelea que merecidamente acabó ganando Nathaniel Wood. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
