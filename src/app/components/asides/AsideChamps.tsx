@@ -29,10 +29,10 @@ export default function AsideChamps () {
                 <Image className={styles.campeones__image} loading="lazy" src={dvalishvili} alt='Merab Dvalishvili' />
                 <h4 className={styles.campeones__name}>Merab Dvalishvili</h4>
             </Link>
-            <Link href='/peleadores/alex-pereira' className={styles.campeones}>
+            {/* <Link href='/peleadores/alex-pereira' className={styles.campeones}>
                 <Image className={styles.campeones__image} loading="lazy" src={pereira} alt='Sean O&apos;Malley' />
                 <h4 className={styles.campeones__name}>Alex Pereira</h4>
-            </Link>
+            </Link> */}
             <Link href='/peleadores/belal-muhammad' className={styles.campeones}>
                 <Image className={styles.campeones__image} loading="lazy" src={belal} alt='Belal Muhammad' />
                 <h4 className={styles.campeones__name}>Belal Muhammad</h4>

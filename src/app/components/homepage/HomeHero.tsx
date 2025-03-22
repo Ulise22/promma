@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufcSeattle from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_seattle.jpg'
+import ufcLondon from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_london.webp'
 import ufcBillonario from '@/assets/noticias/0-100/20-30/ufc_busca_millonada.jpg'
 import pimblettNextFight2025 from '@/assets/noticias/0-100/30-40/pimblett_nextfight2025.jpg'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-cejudo-song'>
-                <Image className={styles.homehero__bigArticle__img} priority={true} quality={50} src={ufcSeattle} alt='UFC Seattle: Song Yadong vs Henry Cejudo' />
-                <h2 className={styles.home__title}>UFC Seattle: ¡Song Yadong Derrota a Henry Cejudo Por Decisión Técnica Luego de Parada Médica!</h2>
-                <span>¡Jean Silva Noquea a Melsik Baghdasaryan en el Primer Asalto! !Anthony Hernandez Derrota a Brendan Allen por Decisión Unánime! </span>
+            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-edwards-brady'>
+                <Image className={styles.homehero__bigArticle__img} priority={true} quality={50} src={ufcLondon} alt='UFC Seattle: Song Yadong vs Henry Cejudo' />
+                <h2 className={styles.home__title}>UFC London: ¡Leon Edwards vs Sean Brady!</h2>
+                <span>¡Jan Blachowicz vs Carlos Ulberg! ¡Gunnar Nelson vs Kevin Holland!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
                 <Image className={styles.homehero__article__img} quality={50} src={ufcBillonario} alt='' />
