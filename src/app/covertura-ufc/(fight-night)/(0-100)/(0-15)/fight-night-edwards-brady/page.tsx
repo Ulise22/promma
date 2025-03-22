@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function EdwardsBrady () {
     return(
         <main>
-            <ArticleHero title='UFC London: ¡Leon Edwards vs Sean Brady!' subtitle='¡Jan Blachowicz vs Carlos Ulberg! ¡Gunnar Nelson vs Kevin Holland!' image={hero} date='2025-03-22' author={null} updatedDate={null} />
+            <ArticleHero title='UFC London: ¡Leon Edwards vs Sean Brady!' subtitle='¡Jan Blachowicz vs Carlos Ulberg! ¡Kevin Holland Derrota a Gunnar Nelson por Decisión!' image={hero} date='2025-03-22' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tremendo evento de UFC que tenemos esta noche en Londrés, con un montón de combates y muchos peleadores británicos de por medio. Con el evento estelar siendo encabezado por el excampeón de peso wélter <Link href='/peleadores/leon-edwards'>Leon Edwards</Link>, quien enfrentará el #5 de la división, <b>Sean Brady</b>. </p>
@@ -54,6 +54,9 @@ export default function EdwardsBrady () {
                     <p>El luchador escocés <b>Chris Duncan</b> es capaz de hacerse con la victoria ante el luchador inglés <b>Jordan Vucenic</b>, al someterlo con una guillotina en el segundo asalto. En un combate que estaba ganando, sabiendo causarle daño a su rival sin hacer demasiado, consiguió finalizar la pelea por sumisión en el segundo asalto, consiguiendo la primer finalización de la cartelera estelar, y la segunda de la noche. </p>
                     <h2>Alexia Thainara Somete en el Primer Asalto a Molly McCann</h2>
                     <p>La brasileña Alexia Thainara hace su debut en la UFC de la mejor manera, consiguiendo una espectacular victoria en Inglaterra ante la inglesa Molly McCann, luego de tan sólo 1 asalto en el que fue capaz de conectar los mejores golpes, de ganarle la espalda a su rival, y finalmente de someterla con una mataleón que obligó a tapear a la inglesa. </p>
+                    <h2>Kevin Holland Derrota a Gunnar Nelson por Decisión Unánime</h2>
+                    <p>Tremenda pelea la que nos regalaron estos 2 peleadores, que finalmente se la termina llevando Kevin Holland, al ser quien más golpes conectó por lejos, estando cerca de conseguir un nocat en el primer asalto, y logrando conectar mucho más que su rival. </p>
+                    <p>Pese a que durante la mayor parte de la pelea Gunnar Nelson estuvo por encima de Kevin Holland en el suelo, lo cierto es que Holland con la espalda en el suelo era muchísimo más peligroso que el luchador de Islandia, amenazando constantemente con intentos de sumisión de todo tipo, y conectando un montón de golpes con las piernas y las manos que pusieron en aprietos a su rival. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
