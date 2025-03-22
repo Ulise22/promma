@@ -37,6 +37,8 @@ export default function EdwardsBrady () {
                     <h2>Shauna Bannon Somete a Puja Tomar en el Segundo Asalto</h2>
                     <p>La luchadora irlandesa <b>Shauna Bannon</b> consigue una espectacular victoria en el momento en que peor estaba pasando la pelea. En un combate que Bannon estaba dominando ante la luchadora de la India <b>Puja Tomar</b>, con una patada delantera hacia todo el cuerpo que obligaba a su rival a retroceder constantemente. </p>
                     <p>En el segundo asalto, la luchadora india logró conectar una patada a la cabeza de su rival que a punto estuvo de dejarla KO, sin embargo, cuando esta quiso castigarla desde el suelo, Bannon fue capaz de conectar una llave al brazo de su rival que la terminó por someter. Consiguiendo de esta manera la primera sumisión de su carrera. </p>
+                    <h2>Leroy Duncan Derrota a Andrey Pulyaev por Decisión Unánime</h2>
+                    <p>En un combate sin muchas emociones, el luchador local <b>Christian Leroy Duncan</b> logra hacerse con la victoria por decisión unánime, luego de ser superior a su rival ruso <b>Andrey Pulyaev</b> durante los 3 asaltos de la pelea, consiguiendo de esta manera recuperarse de su última derrota sufrida ante el brasileño <b>Gregory &quot;Robocop&quot; Rodrigues</b>. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
