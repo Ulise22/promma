@@ -41,6 +41,9 @@ export default function EdwardsBrady () {
                     <p>En un combate sin muchas emociones, el luchador local <b>Christian Leroy Duncan</b> logra hacerse con la victoria por decisión unánime, luego de ser superior a su rival ruso <b>Andrey Pulyaev</b> durante los 3 asaltos de la pelea, consiguiendo de esta manera recuperarse de su última derrota sufrida ante el brasileño <b>Gregory &quot;Robocop&quot; Rodrigues</b>. </p>
                     <h2>Marcin Tybura Derrota a Mick Parkin y le Quita el Invicto</h2>
                     <p>El veterano luchador de Polonia <b>Marcin Tybura</b> fue capaz de ganar el primer y tercer asalto a los ojos de los jueces, y consiguió de esta manera quedarse con la victoria en territorio inglés, y logró de esta forma quitarle el invicto a su rival Parkin, quien hasta hoy era uno de los pocos <Link href='/noticias/peleadores-invictos-ufc'>luchadores invictos de la UFC</Link> que estaba ranqueados en la compañía. </p>
+                    <h2>Lone&apos;er Kavanagh Derrota a Felipe Dos Santos y Mantiene el Invicto</h2>
+                    <p>El luchador inglés hace valer la localía y derrota al brasileño <b>Felipe Dos Santos</b> por decisión unánime, luego de haber ganado 2 de los 3 asaltos, en lo que es hasta el momento la mejor pelea de la tarde. </p>
+                    <p>El combate fue sangriento y estuvo entretenido en todo momento, con el corte que recibió Kavanagh en la cabeza siendo el responsable de tanta sangre en el octágono. El luchador de 25 años se supo castigar en todo momento con el ground&pound, para sumar puntos, castigar a su rival y llevarse la victoria, extendiendo su invicto a 9-0. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
