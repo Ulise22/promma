@@ -52,6 +52,8 @@ export default function EdwardsBrady () {
                     <p>Wood estuvo cerca de finalizar a su rival por nocaut en el primer asalto, conectando un golpe a la cabeza que derribó al francés, sin embargo este último fue capaz de reponerse del golpe para tiempo después acabar por encima del inglés. Más allá de ese momento, hubo poca acción en esta pelea que merecidamente acabó ganando Nathaniel Wood. </p>
                     <h2>Chris Duncan Somete a Jordan Vucenic en el Segundo Asalto</h2>
                     <p>El luchador escocés <b>Chris Duncan</b> es capaz de hacerse con la victoria ante el luchador inglés <b>Jordan Vucenic</b>, al someterlo con una guillotina en el segundo asalto. En un combate que estaba ganando, sabiendo causarle daño a su rival sin hacer demasiado, consiguió finalizar la pelea por sumisión en el segundo asalto, consiguiendo la primer finalización de la cartelera estelar, y la segunda de la noche. </p>
+                    <h2>Alexia Thainara Somete en el Primer Asalto a Molly McCann</h2>
+                    <p>La brasileña Alexia Thainara hace su debut en la UFC de la mejor manera, consiguiendo una espectacular victoria en Inglaterra ante la inglesa Molly McCann, luego de tan sólo 1 asalto en el que fue capaz de conectar los mejores golpes, de ganarle la espalda a su rival, y finalmente de someterla con una mataleón que obligó a tapear a la inglesa. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
