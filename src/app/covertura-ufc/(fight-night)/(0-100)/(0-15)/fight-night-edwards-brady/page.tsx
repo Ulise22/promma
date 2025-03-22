@@ -50,6 +50,8 @@ export default function EdwardsBrady () {
                     <h2>Nathaniel Wood Derrota al Francés Morgan Charriere por Decisión Unánime</h2>
                     <p>El luchador inglés <b>Nathaniel Wood</b> se lleva la victoria en la primer pelea de la cartelera estelra por la vía de la decisión, luego de ganar los 3 asaltos y dominar completamente al luchador francés <b>Morgan Charriere</b>. </p>
                     <p>Wood estuvo cerca de finalizar a su rival por nocaut en el primer asalto, conectando un golpe a la cabeza que derribó al francés, sin embargo este último fue capaz de reponerse del golpe para tiempo después acabar por encima del inglés. Más allá de ese momento, hubo poca acción en esta pelea que merecidamente acabó ganando Nathaniel Wood. </p>
+                    <h2>Chris Duncan Somete a Jordan Vucenic en el Segundo Asalto</h2>
+                    <p>El luchador escocés <b>Chris Duncan</b> es capaz de hacerse con la victoria ante el luchador inglés <b>Jordan Vucenic</b>, al someterlo con una guillotina en el segundo asalto. En un combate que estaba ganando, sabiendo causarle daño a su rival sin hacer demasiado, consiguió finalizar la pelea por sumisión en el segundo asalto, consiguiendo la primer finalización de la cartelera estelar, y la segunda de la noche. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
