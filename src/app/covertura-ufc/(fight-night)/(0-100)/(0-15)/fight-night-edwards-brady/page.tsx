@@ -39,6 +39,8 @@ export default function EdwardsBrady () {
                     <p>En el segundo asalto, la luchadora india logró conectar una patada a la cabeza de su rival que a punto estuvo de dejarla KO, sin embargo, cuando esta quiso castigarla desde el suelo, Bannon fue capaz de conectar una llave al brazo de su rival que la terminó por someter. Consiguiendo de esta manera la primera sumisión de su carrera. </p>
                     <h2>Leroy Duncan Derrota a Andrey Pulyaev por Decisión Unánime</h2>
                     <p>En un combate sin muchas emociones, el luchador local <b>Christian Leroy Duncan</b> logra hacerse con la victoria por decisión unánime, luego de ser superior a su rival ruso <b>Andrey Pulyaev</b> durante los 3 asaltos de la pelea, consiguiendo de esta manera recuperarse de su última derrota sufrida ante el brasileño <b>Gregory &quot;Robocop&quot; Rodrigues</b>. </p>
+                    <h2>Marcin Tybura Derrota a Mick Parkin y le Quita el Invicto</h2>
+                    <p>El veterano luchador de Polonia <b>Marcin Tybura</b> fue capaz de ganar el primer y tercer asalto a los ojos de los jueces, y consiguió de esta manera quedarse con la victoria en territorio inglés, y logró de esta forma quitarle el invicto a su rival Parkin, quien hasta hoy era uno de los pocos <Link href='/noticias/peleadores-invictos-ufc'>luchadores invictos de la UFC</Link> que estaba ranqueados en la compañía. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
