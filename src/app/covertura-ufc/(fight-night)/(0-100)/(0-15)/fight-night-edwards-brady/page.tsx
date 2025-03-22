@@ -44,6 +44,8 @@ export default function EdwardsBrady () {
                     <h2>Lone&apos;er Kavanagh Derrota a Felipe Dos Santos y Mantiene el Invicto</h2>
                     <p>El luchador inglés hace valer la localía y derrota al brasileño <b>Felipe Dos Santos</b> por decisión unánime, luego de haber ganado 2 de los 3 asaltos, en lo que es hasta el momento la mejor pelea de la tarde. </p>
                     <p>El combate fue sangriento y estuvo entretenido en todo momento, con el corte que recibió Kavanagh en la cabeza siendo el responsable de tanta sangre en el octágono. El luchador de 25 años se supo castigar en todo momento con el ground&pound, para sumar puntos, castigar a su rival y llevarse la victoria, extendiendo su invicto a 9-0. </p>
+                    <h2>Chris Padilla Derrota a Jai Herbert por Decisión Dividida</h2>
+                    <p>En la última pelea de la cartelera preliminar quien se terminó por llevar la victoria es el visitante, <b>Chris Padilla</b> por decisión dividida, en lo que fue un combate amargo y sin muchas emociones que podría haber ido para cualquiera de los 2. De esta manera damos por finalizada una cartelera preliminar que solamente tuvo una finalización. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
