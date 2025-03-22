@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function EdwardsBrady () {
     return(
         <main>
-            <ArticleHero title='UFC London: ¡Leon Edwards vs Sean Brady!' subtitle='¡Jan Blachowicz vs Carlos Ulberg! ¡Kevin Holland Derrota a Gunnar Nelson por Decisión!' image={hero} date='2025-03-22' author={null} updatedDate={null} />
+            <ArticleHero title='UFC London: ¡Leon Edwards vs Sean Brady!' subtitle='¡Carlos Ulberg Derrota a Jan Blachowicz Por Decisión y se Mete en el Top 5 de los Semipesados! ¡Kevin Holland Derrota a Gunnar Nelson por Decisión!' image={hero} date='2025-03-22' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tremendo evento de UFC que tenemos esta noche en Londrés, con un montón de combates y muchos peleadores británicos de por medio. Con el evento estelar siendo encabezado por el excampeón de peso wélter <Link href='/peleadores/leon-edwards'>Leon Edwards</Link>, quien enfrentará el #5 de la división, <b>Sean Brady</b>. </p>
@@ -57,6 +57,9 @@ export default function EdwardsBrady () {
                     <h2>Kevin Holland Derrota a Gunnar Nelson por Decisión Unánime</h2>
                     <p>Tremenda pelea la que nos regalaron estos 2 peleadores, que finalmente se la termina llevando Kevin Holland, al ser quien más golpes conectó por lejos, estando cerca de conseguir un nocat en el primer asalto, y logrando conectar mucho más que su rival. </p>
                     <p>Pese a que durante la mayor parte de la pelea Gunnar Nelson estuvo por encima de Kevin Holland en el suelo, lo cierto es que Holland con la espalda en el suelo era muchísimo más peligroso que el luchador de Islandia, amenazando constantemente con intentos de sumisión de todo tipo, y conectando un montón de golpes con las piernas y las manos que pusieron en aprietos a su rival. </p>
+                    <h2>Carlos Ulberg Derrota a Jan Blachowicz por Decisión Unánime</h2>
+                    <p>Termina la pelea coestelar entre estos 2 luchadores de peso semipesado con una victoria para el de Nueva Zelanda <b>Carlos Ulberg</b>, quien alcanza la octava victoria consecutiva en la UFC y se mete de lleno en el top 5 de la división. </p>
+                    <p>En un combate que se dió de pie, bastante pareja, Ulberg fue capaz de puntuar a lo largo de los 3 asaltos para hacerse con una victoria ante el veterano <b>Jan Blachowicz</b>, quien volvió luego de 2 años de inactividad, con su última pelea siendo una derrota por decisión ante <Link href='/peleadores/alex-pereira'>Alex Pereira</Link>. En esta ocasión nuevamente caería derrota el polaco de más de 40 años quien no fue capaz de levantar cabeza ante Carlos Ulberg. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
