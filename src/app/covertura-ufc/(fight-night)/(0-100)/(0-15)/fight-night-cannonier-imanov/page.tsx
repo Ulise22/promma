@@ -1,11 +1,12 @@
 import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
-import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
-import Image from 'next/image'
+import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/covertura_ufc/fight_night/0-100/0-15/fightnight-cannonier-imanov-hero.png'
-import EndArticle from '@/app/components/EndArticle'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export default function FightNightLewisNascimento () {
     return(
