@@ -3,8 +3,10 @@ import edwards from '@/assets/peleadores__images/0-100/10-20/leon-edwards/edward
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import AsideChamps from '@/app/components/asides/AsideChamps'
-import EndArticle from '@/app/components/EndArticle'
+import dynamic from 'next/dynamic'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Leon Edwards',

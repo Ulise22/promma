@@ -5,9 +5,11 @@ import franco from '@/assets/peleadores__images/argentinos/franco-tenaglia/franc
 import FTenaglia from '@/assets/peleadores__images/argentinos/franco-tenaglia/franco_tenaglia.jpg'
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import Image from 'next/image'
-import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
-import EndArticle from '@/app/components/EndArticle'
+import dynamic from 'next/dynamic'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Franco Tenaglia',

@@ -2,9 +2,11 @@ import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import pantoja from '@/assets/peleadores__images/0-100/0-10/alexandre-pantoja/pantoja.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
-import AsideFighter from '@/app/components/asides/AsideFighter'
 import type { Metadata } from 'next'
-import EndArticle from '@/app/components/EndArticle'
+import dynamic from 'next/dynamic'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Alexandre Pantoja',
@@ -45,7 +47,7 @@ export default function Pantoja () {
                     <p className={styles.peleador__article__text}>Su segunda defensa del título tendría lugar nada más y nada menos que en su casa, en Brasil, donde encabezando el <Link href='/covertura-ufc/ufc301'>UFC 301</Link>, organizado el 4 de mayo de 2024, enfrentaría al australiano <b>Steve Erceg</b>, a quien vencería por decisión unánime.</p>
                     <EndArticle />
                 </article>
-                <AsideFighter />
+                <AsideChamps />
             </section>
         </main>
     )

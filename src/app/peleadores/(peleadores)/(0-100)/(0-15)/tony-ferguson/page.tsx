@@ -1,11 +1,12 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import ferguson from '@/assets/peleadores__images/0-100/20-30/tony-ferguson/ferguson.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
-import Image from 'next/image'
 import Link from 'next/link'
-import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
-import EndArticle from '@/app/components/EndArticle'
+import dynamic from 'next/dynamic'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Tony Ferguson',

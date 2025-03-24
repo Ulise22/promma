@@ -2,10 +2,11 @@ import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import aspinall from '@/assets/peleadores__images/0-100/0-10/tom-aspinall/tom_aspinall.png'
-import Image from 'next/image'
-import AsideFighter from '@/app/components/asides/AsideFighter'
 import type { Metadata } from 'next'
-import EndArticle from '@/app/components/EndArticle'
+import dynamic from 'next/dynamic'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Tom Aspinall',
@@ -48,7 +49,7 @@ export default function Aspinall () {
                     <p className={styles.peleador__article__text}>De forma un tanto inédita, como contamos más a detalle en <Link href='/noticias/jones-esquiva-aspinall'>este artículo</Link>, no se pondría a Tom Aspinall a enfrentar Jon Jones, como es costumbre cuando hay un campeón indiscutido y un campeón interino, sino que debido a la inactividad del estadounidense, se pondría al luchador inglés a defender el cinturón interino, para mantener movida la división y que esta no quede estancada. Para ello, en el <Link href='/covertura-ufc/ufc304'>UFC 304</Link> que se organizó en la ciudad inglesa de Manchester, se lo pondría a enfrentar en una revancha ante el americano <b>Curtis Blaydes</b>, contra quien había caído derrotado de forma accidental, consiguiendo esta vez vengar su derrota al derrotar por TKO en el primer asalto de la pelea a su rival, defendiendo de esta maenra su cinturón de forma exitosa.</p>
                     <EndArticle />
                 </article>
-                <AsideFighter />
+                <AsideChamps />
             </section>
         </main>
     )

@@ -1,11 +1,12 @@
-import Image from "next/image";
 import topuria from '@/assets/peleadores__images/0-100/10-20/ilia-topuria/topuria.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import PeleadoresHero from "@/app/peleadores/components/PeleadoresHero";
 import Link from "next/link";
-import AsideFighter from "@/app/components/asides/AsideFighter";
 import type { Metadata } from 'next'
-import EndArticle from "@/app/components/EndArticle";
+import dynamic from 'next/dynamic'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Ilia Topuria',
@@ -43,7 +44,7 @@ export default function Illia () {
                     <p className={styles.peleador__article__text}>Si ya de por sí lo conseguido al obtener el título de la división ante el peleador que parecía invencible era algo impresionante, aún más lo sería lo conseguido en su primer defensa del título, cuando enfrentaría al reciente ganador del <b>BMF</b>, excampeón de la división y contendiente #1 de los peso pluma <Link href='/peleadores/max-holloway'>Max Holloway</Link>, a quien enfrentaría el 26 de octubre de 2024 en el <Link href='/covertura-ufc/ufc308'>UFC 308</Link> organizado en Abu Dhabi. Aquella noche, Ilia sería capaz de noquear en el tercer asalto al luchador que jamás había sido noqueado hasta ese momento, tal y como había prometido en la previa del combate, ganándose por ello el bono a la Actuación de la Noche. </p>
                     <EndArticle />
                 </article>
-                <AsideFighter />
+                <AsideChamps />
             </section>
         </main>
     )

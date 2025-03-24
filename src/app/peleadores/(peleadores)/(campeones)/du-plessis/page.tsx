@@ -1,11 +1,12 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
-import Image from 'next/image'
 import duPlessis from '@/assets/peleadores__images/0-100/0-10/dricus-du-plessis/du-plessis.png'
-import AsideFighter from '@/app/components/asides/AsideFighter'
 import type { Metadata } from 'next'
-import EndArticle from '@/app/components/EndArticle'
+import dynamic from 'next/dynamic'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Dricus Du Plessis',
@@ -54,7 +55,7 @@ export default function DuPlessis () {
                     <p className={styles.peleador__article__text}>Ya como campeón, se organizaría su primer defensa del cinturón para el 18 de agosto de ese mismo año, enfrentando para ello al histórico campeón <Link href='/peleadores/israel-adesanya'>Israel Adesanya</Link>, con quien encabezaría el <Link href='/covertura-ufc/ufc305'>UFC 305</Link> organizado en Australia. Aquella noche, Du Plessi sería capaz de defender exitosamente su cinturón, cuando en el cuarto asalto de la pelea sometería al nigeriano, concretando de forma exitosa su primera defensa.</p>
                     <EndArticle />
                 </article>
-                <AsideFighter />
+                <AsideChamps />
             </section>
         </main>
     )

@@ -1,11 +1,12 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import omalley from '@/assets/peleadores__images/0-100/20-30/sean-omalley/omalley.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
-import Image from 'next/image'
-import AsideFighter from '@/app/components/asides/AsideFighter'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import EndArticle from '@/app/components/EndArticle'
+import dynamic from 'next/dynamic'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: "Sean O'Malley",
@@ -47,7 +48,7 @@ export default function Omalley () {
                     <p className={styles.peleador__article__text}>Lamentablemente, el reinado del joven campeón estadounidense no sería uno largo. Dado que cuando se lo puso como cabeza de evento en el histórico <Link href='/covertura-ufc/ufc306'>UFC Noche</Link>, para defender su cinturón ante el contendiente #1 de la división <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link>, caería derrotado por decisión unánime ante el peleador georgiano, en lo que se vió como una derrota aplastante para él, que poco pudo hacer ante los derribo y la lucha de Merab que se impusó por sobre nuestro protagonista. </p>
                     <EndArticle />
                 </article>
-                <AsideFighter />
+                <AsideChamps />
             </section>
         </main>
     )

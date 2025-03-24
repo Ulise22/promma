@@ -1,10 +1,12 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import jones from '@/assets/peleadores__images/0-100/10-20/jon-jones/jon_jones.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
-import AsideFighter from '@/app/components/asides/AsideFighter'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import EndArticle from '@/app/components/EndArticle'
+import dynamic from 'next/dynamic'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Jon Jones',
@@ -64,7 +66,7 @@ export default function JonJones () {
                     <p className={styles.peleador__article__text}>Por eso, luego de aquella última pelea en 2020, no lo volveríamos regresar hasta marzo del 2023, cuando en el UFC 285 haría su regreso para enfrentar al francés y principal contendiente al título <Link href='/peleadores/ciryl-gane'>Ciryl Gane</Link>, con quien se disputaría el cinturón de los pesos pesados de la UFC. En aquella ocasión, Jones demostraría porqué es el mejor de todos los tiempos, al en sólo 2 minutos de la pelea, someter con una guillotina a quien debía ser el hombre más peligroso de la compañía, convirtiéndose en el octavo doble-campeón de la UFC, y ganando además el bono a la Actuación de la Noche. </p>
                     <EndArticle />
                 </article>
-                <AsideFighter />
+                <AsideChamps />
             </section>
         </main>
     )

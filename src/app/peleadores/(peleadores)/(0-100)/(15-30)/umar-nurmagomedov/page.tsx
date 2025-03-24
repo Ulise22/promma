@@ -1,10 +1,12 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import fighter from '@/assets/peleadores__images/0-100/30-40/umar-nurmagomedov/umar_nurmagomedov.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
-import AsideChamps from '@/app/components/asides/AsideChamps'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import EndArticle from '@/app/components/EndArticle'
+import dynamic from 'next/dynamic'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Umar Nurmagomedov',

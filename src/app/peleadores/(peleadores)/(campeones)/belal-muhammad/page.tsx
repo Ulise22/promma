@@ -3,8 +3,10 @@ import belal from '@/assets/peleadores__images/0-100/20-30/belal-muhammad/belal-
 import styles from '@/app/peleadores/components/peleador.module.css'
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import AsideFighter from '@/app/components/asides/AsideFighter'
-import EndArticle from '@/app/components/EndArticle'
+import dynamic from 'next/dynamic'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Belal Muhammad',
@@ -44,7 +46,7 @@ export default function BelalMuhammad () {
                     <p className={styles.peleador__article__text}>Luego de poco más de un año, viniendo de una racha de 10 peleas sin perder, con 9 victorias en el camino, y con un récord de 23-3 (1), Belal se ganaría la oportunidad de su vida, dado que podría enfrentar en una revancha al campeón de la división de peso wélter <Link href='/peleadores/leon-edwards'>Leon Edwards</Link>, para disputarle el título el día 27 de julio de 2024 en el <Link href='/covertura-ufc/ufc304'>UFC 304</Link>, organizado en la ciudad inglesa de Manchester. Aquella noche, nuestro protagonista sería capaz de hacer historia, derrotando al campeón inglés, luego de 5 asaltos de pura dominación que le darían la victoria por decisión unánime. </p>
                     <EndArticle />
                 </article>
-                <AsideFighter />
+                <AsideChamps />
             </section>
         </main>
     )

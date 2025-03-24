@@ -1,11 +1,12 @@
 import styles from '@/app/peleadores/components/peleador.module.css'
 import conor from '@/assets/peleadores__images/0-100/0-10/conor-mcgregor/mcgregor.png'
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
-import Image from 'next/image'
+import dynamic from 'next/dynamic'
 import Link from 'next/link'
-import AsideChamps from '@/app/components/asides/AsideChamps'
 import type { Metadata } from 'next'
-import EndArticle from '@/app/components/EndArticle'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Conor Mcgregor',

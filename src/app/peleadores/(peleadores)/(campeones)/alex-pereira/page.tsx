@@ -4,9 +4,11 @@ import alexPereira from '@/assets/peleadores__images/0-100/0-10/alex-pereira/per
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import AsideFighter from '@/app/components/asides/AsideFighter'
 import type { Metadata } from 'next'
-import EndArticle from '@/app/components/EndArticle'
+import dynamic from 'next/dynamic'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Alex Pereira',
@@ -59,7 +61,7 @@ export default function AlexPereira () {
                     <p className={styles.peleador__article__text}>Aquella noche seríamos testigos de un tremendo espectáculo, dado que el rival de Pereira dió más pelea de la que muchos imaginaban, llegando a poner en serios aprietos a nuestro protagonista, a quien fue capaz de ganarle los 2 primeros asaltos, conectando muy buenos golpes que tranquilamente podrían haberlo noqueado. Sin embargo, el brasileño supo mantener la calma sin desesperarse, y para el cuarto asalto, cuando Rountree ya estaba más cansado, es que Alex supo conectar más y mejores golpes, dejando muy lastimado a su rival, hasta que finalmente los golpes al cuerpo de Pereira fueron los que derribaron a su rival, llevando al árbitro a separarlos y terminar la pelea, dando como ganador a nuestro protagonista que defendió exitosamente su cinturón por tercer ocasión consecutiva, rompiendo un récord, al ser quien menos días necesitó para defender en 3 oportunidades, habiéndolo hecho en un plazo de 175 días. Además, por la pelea que tanto él como su rival realizaron, se ganó el bono a La Pelea de la Noche.</p>
                     <EndArticle />
                 </article>
-                <AsideFighter />
+                <AsideChamps />
             </section>
         </main>
     )
