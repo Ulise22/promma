@@ -32,10 +32,6 @@ export default function RootLayout({
         <Script async strategy='afterInteractive' src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9270621638584149"
      crossOrigin="anonymous"></Script>
       {/* Google Analytics Script */}
-      <Script
-          strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=G-5FLC9WWZD8"
-        />
         <Script
           id="google-analytics"
           strategy="afterInteractive"
