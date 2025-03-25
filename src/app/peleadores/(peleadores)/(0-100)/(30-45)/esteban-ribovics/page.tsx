@@ -21,13 +21,13 @@ export const metadata: Metadata = {
 export default function Ribovics () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={14} l={1} d={0} nombre='Esteban Ribovics' apodo='EL GRINGO' categoria='Peso Ligero' />
+            <PeleadoresHero peleadoresImage={fighter} w={14} l={2} d={0} nombre='Esteban Ribovics' apodo='EL GRINGO' categoria='Peso Ligero' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Esteban Ribovics UFC</h2>
                     <p className={styles.peleador__article__text}>Esteban Ribovics es un peleador de MMA argentino que compite en la división de peso ligero en la <Link href='/articulos/ufc'>UFC</Link> desde que participó en el <b>Dana White&apos;s Contender Series 50</b> en agosto de 2022, donde enfrentando al inglés <b>Thomas Paull</b> consiguiendo una victoria por KO en el primer asalto que le ganó un contrato con la compañía.</p>
                     <h2 className={styles.peleador__article__title}>Esteban Ribovics Récord</h2>
-                    <p className={styles.peleador__article__text}>Esteban Ribovics posee un récord profesional de 14-1. Siendo 7 de sus victorias por la vía del nocaut, 5 por la vía de la sumisión y sólo 2 por decisión. Mientras que su única derrota profesional fue por decisión de los jueces.</p>
+                    <p className={styles.peleador__article__text}>Esteban Ribovics posee un récord profesional de 14-2. Siendo 7 de sus victorias por la vía del nocaut, 5 por la vía de la sumisión y sólo 2 por decisión. Mientras que sus 2 únicas derrotas profesionales fue por decisión de los jueces.</p>
                     <h2 className={styles.peleador__article__title}>Esteban Ribovics Historia</h2>
                     <p className={styles.peleador__article__text}>Esteban Ribovics Marijan nació el 27 de abril de 1996 en Tartagal, una ciudad ubicada en la provincia de Salta, Argentina. Comenzó a entrenar artes marciales a los 12 años, por influencia de un amigo que lo llevó a tener su primera clase.</p>
                     <p className={styles.peleador__article__text}>Al terminar la secundaria a los 17 años, se fue a vivir a Córdoba, donde comenzó a entrenar y perfeccionar otras disciplinas complementarias de las MMA, como el boxeo, el muay thai y el jiu-jitsu brasileño. Tan sólo un año después se converitiría en profesional.</p>

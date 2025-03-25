@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Gaethje () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={gaethje} w={25} l={5} d={0} nombre='Justin Gaethje' apodo='THE HIGHLIGHT' categoria='Peso Ligero' />
+            <PeleadoresHero peleadoresImage={gaethje} w={26} l={5} d={0} nombre='Justin Gaethje' apodo='THE HIGHLIGHT' categoria='Peso Ligero' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Gaethje UFC</h2>
@@ -29,7 +29,7 @@ export default function Gaethje () {
                     <p className={styles.peleador__article__text}>Es sin dudas uno de los peleadores favoritos de los fans, un auténtico BMF, quien, pese a no tener una personalidad estridente como otros de sus colegas, con lo que demuestra dentro del octágono le bastó para ganarse el respeto y el cariño de la gente, dado que gane o pierda, siempre da espectáculo al momento de pelear, no por nada es uno de los luchadores con la mayor cantidad de bonos a La Pelea de la Noche ganados en la compañía, con 7. </p>
                     <p className={styles.peleador__article__text}>Destacaría en la compañía al haber sostenido el cinturón interino de la división de peso ligero de la UFC, luego de vencer por TKO al &quot;Cucuy&quot; <Link href='/peleadores/tony-ferguson'>Tony Ferguson</Link> el 9 de mayo de 2020 en el evento estelar del UFC 249, en lo que además le haría ganador de los bonos a La Pelea de la Noche y a la Actuación de la Noche. Además de haber disputado el cinturón indiscutido de la división en 2 ocasiones, aunque no fuera capaz de ganarlo en ninguna de estas oportunidades. </p>
                     <h2 className={styles.peleador__article__title}>Justin Gaethje Récord</h2>
-                    <p className={styles.peleador__article__text}>Justin Gaethje tiene un record de 25-5. Siendo 20 de estas 25 victorias por nocaut, 4 por decisión y 1 por sumisión. Mientras que 3 de sus derrotas fueron por nocaut y 2 por sumisión.</p>
+                    <p className={styles.peleador__article__text}>Justin Gaethje tiene un record de 26-5. Siendo 20 de estas 26 victorias por nocaut, 5 por decisión y 1 por sumisión. Mientras que 3 de sus derrotas fueron por nocaut y 2 por sumisión.</p>
                     <h2 className={styles.peleador__article__title}>Justin Gaethje Biografía</h2>
                     <p className={styles.peleador__article__text}>Justin Ray Gaethje nació el 14 de noviembre de 1988 en Estados Unidos, en la ciudad de Safford, Arizona. Su madre es de ascendencia mexicana y su padre de ascendencia alemana (de donde sacó su apellido Gaethje que es de origen aleman). Su abuelo boxeaba mientras servía en el ejército de los Estados Unidos. Justin por su parte, se egresó con una licenciatura en Servicios Humanos en la Universidad del Norte de Colorado.</p>
                     <p className={styles.peleador__article__text}>Su inicio y su ingreos al mundo de las artes marciales mixtas se dió casi de forma accidental, puesto que pese a que Gaethje entrenó Wrestling desde pequeño, afirma nunca haber soñado con dedicarse a pelear, y que no había sido algo que le llamara la atención particularmente, tampoco se había envuelto en su vida en una pelea callejera, simplemente aceptó pelear de manera amateur en la universidad, consiguiendo 7 victorias consecutivas, llevándole a ser profesional una vez terminó sus estudios. </p>
