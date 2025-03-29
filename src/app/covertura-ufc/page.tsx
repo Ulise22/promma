@@ -32,6 +32,7 @@ import ufcSaudiArabia from '@/assets/covertura_ufc/fight_night/0-100/0-15/adesan
 import ufcVegas102 from '@/assets/covertura_ufc/fight_night/0-100/0-15/cannonier_rodrigues.jpg'
 import ufcSeattle from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_seattle.jpg'
 import ufcVegas103 from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufcvegas103.jpeg'
+import ufcLondon from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_london.webp'
 
 
 export default function CoverturaUFC () {
@@ -58,6 +59,7 @@ export default function CoverturaUFC () {
             </section>
             <h2 className={styles.covertura__subtitle}>UFC Fight Night</h2>
             <section className={styles.covertura__articles__container}>
+                <ArticlePreview img={ufcLondon} url='/covertura-ufc/fight-night-edwards-brady' title='UFC London: ¡Sean Brady Somete a Leon Edwards en el Cuarto Asalto!' author={null} text='¡Carlos Ulberg Derrota a Jan Blachowicz Por Decisión y se Mete en el Top 5 de los Semipesados! ¡Kevin Holland Derrota a Gunnar Nelson por Decisión!' date='22/03/2025' />
                 <ArticlePreview img={ufcVegas103} url='/covertura-ufc/fight-night-kape-almabayev' title='UFC Vegas 103: ¡Manel Kape Gana por TKO a Asu Almabayev en el Tercer Asalto!' author={null} text='¡Esteban Ribovics Cae Derrotado ante Nashrat Haqparast Por Decisión Dividida! ¡Cody Brundage Gana por TKO a Julian Marquez en el Primer Asalto!' date='01/03/2025' />
                 <ArticlePreview img={ufcSeattle} url='/covertura-ufc/fight-night-cejudo-song' title='UFC Seattle: ¡Song Yadong Derrota a Henry Cejudo Por Decisión Técnica Luego de Parada Médica!' author={null} text='¡Jean Silva Noquea a Melsik Baghdasaryan en el Primer Asalto! !Anthony Hernandez Derrota a Brendan Allen por Decisión Unánime! ' date='22/02/2025' />
                 <ArticlePreview img={ufcVegas102} url='/covertura-ufc/fight-night-cannonier-rodrigues' title='UFC VEGAS 102: ¡Jared Cannonier Noquea a Gregory Rodrigues en el Cuarto Asalto!' author={null} text='Noche de UFC en Las Vegas: ¡Youssef Zalal derrota a Calvin Kattar y se mete en los rankings de la UFC!' date='15/02/2025' />

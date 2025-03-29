@@ -33,6 +33,7 @@ export default function RootLayout({
         
 
         <Script
+        async
           id="google-analytics"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{

@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufcLondon from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_london.webp'
+import ufcMexico from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_mexico.webp'
 import ufcBillonario from '@/assets/noticias/0-100/20-30/ufc_busca_millonada.jpg'
 import pimblettNextFight2025 from '@/assets/noticias/0-100/30-40/pimblett_nextfight2025.jpg'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-edwards-brady'>
-                <Image className={styles.homehero__bigArticle__img} priority={true} quality={50} src={ufcLondon} alt='UFC Seattle: Song Yadong vs Henry Cejudo' />
-                <h2 className={styles.home__title}>UFC London: ¡Sean Brady Somete a Leon Edwards en el Cuarto Asalto!</h2>
-                <span>¡Carlos Ulberg Derrota a Jan Blachowicz Por Decisión y se Mete en el Top 5 de los Semipesados! ¡Kevin Holland Derrota a Gunnar Nelson por Decisión!</span>
+            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-moreno-erceg'>
+                <Image className={styles.homehero__bigArticle__img} priority={true} quality={75} src={ufcMexico} alt='UFC México: ¡Brandon Moreno vs Steve Erceg!' />
+                <h2 className={styles.home__title}>UFC México: ¡Brandon Moreno vs Steve Erceg!</h2>
+                <span>¡Manuel Torres vs Drew Dober! ¡Raúl Rosas Jr. vs Vince Morales!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
                 <Image className={styles.homehero__article__img} quality={50} src={ufcBillonario} alt='' />
