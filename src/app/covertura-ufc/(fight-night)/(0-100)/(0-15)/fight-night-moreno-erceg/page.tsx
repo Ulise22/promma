@@ -40,6 +40,8 @@ export default function MorenoErceg () {
                     <p>Habiendo dominado completamente el primer y segundo asalto, la mexicana sufrió un poco más en el tercer asalto, donde hubo un mayor intercambio de golpes, en el que ambas peleadoras dieron todo, regalándonos uno de los mejores asaltos vistos en una pelea femenina en mucho tiempo. </p>
                     <h2>Victoria para el Brasileño Melquizael Costa ante Christian Rodriguez</h2>
                     <p>El brasileño Melquizael Costa se lleva una controvertida victoria por decisión unánime ante el mexicano <b>Christian Rodriguez</b>, luego de que los 3 jueces puntuaran la pelea 29-28 a favor del de Brasil, logrando su segunda victoria en 35 días en lo que fue un combate muy cerrado y que tranquilamente podría haberse ido a favor del mexicano, quien tristemente cayó derrotado por decisión de los jueces. </p>
+                    <h2>Ateba Gautier Noquea a José Daniel Medina en el Primer Asalto</h2>
+                    <p>Excelente victoria del africano Ateba Gautier, quien de un rodillazo en la cabeza, logra noquear al luchador boliviano en el primer asalto, logrando una tremenda victoria en su debut en la UFC, propinándole además su primer derrota por nocaut a Medina, quien jamás había perdido por esta vía hasta hoy. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
