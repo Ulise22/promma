@@ -28,10 +28,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel='icon' href='/logo.png' />
-        <meta name="google-adsense-account" content="ca-pub-9270621638584149" />
+        <meta httpEquiv='Content-Security-Policy' name="google-adsense-account" content="ca-pub-9270621638584149" />
       {/* Google Analytics Script */}
-      <Script strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=G-5FLC9WWZD8" />
         
 
         <Script
@@ -53,6 +51,7 @@ export default function RootLayout({
         <GoogleAnalytics gaId="G-5FLC9WWZD8" />
         <Analytics />
         <Footer />
+        <Script async defer strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-5FLC9WWZD8" />
         <Script async strategy='afterInteractive' src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9270621638584149" crossOrigin="anonymous"></Script>
       </body>
     </html>
