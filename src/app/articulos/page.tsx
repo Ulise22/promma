@@ -69,7 +69,7 @@ import popek from '@/assets/articulos/0-100/50-60/popek_monster.jpg'
 import viacheslavDatsik from '@/assets/articulos/0-100/60-70/viacheslav-datsik.jpg'
 import entrenarAlexPereira from '@/assets/articulos/0-100/60-70/pereira_entrenar_todos_los_dias.jpg'
 import derrotaAnkalaev from '@/assets/articulos/0-100/60-70/ankalaev_derrota.jpg'
-import mikeBeltran from '@/assets/articulos/0-100/60-70/mike_beltran.jpg'
+import mikeBeltran from '@/assets/articulos/0-100/60-70/mike_beltran.webp'
 import mentalidadTopuria from '@/assets/articulos/0-100/60-70/mentalidad_topuria.jpg'
 import luchadorProfesionalMMA from '@/assets/articulos/0-100/60-70/ser_peleador_mma.jpg'
 
