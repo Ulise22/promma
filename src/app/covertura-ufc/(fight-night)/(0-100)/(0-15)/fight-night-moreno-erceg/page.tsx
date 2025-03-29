@@ -30,6 +30,8 @@ export default function MorenoErceg () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
                     <h2>Marquel Mederos Derrota a Austin Hubbard Por Decisión Dividida</h2>
                     <p>El estadounidense se lleva la victoria por la vía de la decisión, en lo que fue un combate muy competido, cosa que llevó a que ni siquiera los jueces se pusieran de acuerdo de forma unánime. De igual manera, a mi parecer, Marquel Maderos ganó el primer y tercer asalto de la pelea, conectando más golpes y logrando puntuar de esta forma, mientras que su rival Austin Hubbard ganó el segundo asalto, dominando la espalda de su rival en la lucha, estando cerca incluso de conectar un mataleón para someter a su rival. De esta forma, Marquel Mederos se convierte en el ganador de la primera pelea de la noche. </p>
+                    <h2>Jamall Emmers Noquea a Gabriel Miranda en el Primer Asalto</h2>
+                    <p>El estadounidense se impone sobre el brasileño en el primer asalto de la pelea, luego de escapar un intento de sumisión por parte de Miranda, logrando mostrar su supeioridad en la pelea de pie, con un striking muy superior al de su rival, logrando un knockdown que sentó a su rival, y consiguiendo el TKO unos pocos minutos después, cosa que le daría a Jamall Emmers la victoria y la primera finalización de la noche. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
