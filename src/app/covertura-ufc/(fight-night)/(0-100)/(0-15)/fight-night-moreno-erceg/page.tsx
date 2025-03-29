@@ -46,6 +46,8 @@ export default function MorenoErceg () {
                     <h2>Kevin Borjas Derrota a &quot;Lazy Boy&quot; Ronaldo Rodriguez</h2>
                     <p>El peruano Kevin Borjas consigue una espectacular victoria ante el mexicano Ronaldo Rodriguez, demostrando tener un gran poder en las manos, sentando varias veces a su rival con esa mano derecha que fue capaz de conectar cuando quiso. </p>
                     <p>Siendo el claro dominador de la pelea, Kevin Borjas ganó la pelea por decisión unánime, ganando los 3 asaltos que duró la pelea, atravesando varias adversidades, como el público en contra, un excelente rival que tenía en frente, y el handicap de pelear con un luchador que no dió el peso y que por ende llegaba con mayor ventaja a este enfrentamiento. Sin embargo, Kevin fue capaz de lidiar con todo llevándose su primer victoria en la UFC, merecídisima. </p>
+                    <h2>David Martinez Debuta Noqueando a Saimon Oliveira en el Primer Asalto</h2>
+                    <p>Tremenda victoria del mexicano David Martínez, quien consigue ganar en su debut en la UFC por la vía del nocaut en el primer asalto, luego de conectar un rodillazo a la cabeza de su rival, y de rematarlo a golpes para que el árbitro los separe y sellar de esta forma su victoria por TKO. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
