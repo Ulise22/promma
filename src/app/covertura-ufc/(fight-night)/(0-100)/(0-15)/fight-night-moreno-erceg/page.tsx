@@ -35,6 +35,9 @@ export default function MorenoErceg () {
                     <h2>Rafa García Derrota a Vinc Pichel Por Decisión Unánime</h2>
                     <p>Hermosa pelea la que nos dieron estos 2 peleadores. En un combate que tenía como protagonistas al primer mexicano de la cartelera, y al hombre más viejo de esta cartelera, quien terminó por llevarse la pelea fue Rafa García, quien por decisión unánime se convirtió en el ganador del encuentro. </p>
                     <p>Con un claro dominio por parte del mexicano, se mostró muy bien en la pelea de pie, donde supo conectar varias combinaciones de golpes muy vistosas ante su rival. Aunque con una ligera bajada de rendimiento en el segundo asalto, finalmente supo guardarse la pelea en el bolsillo, concretando un derribo en el último minuto del combate para castigar desde el suelo a Vinc Pichel. </p>
+                    <h2>Loopy Godinez Derrota a Julia Polastri por Decisión Unánime</h2>
+                    <p>Espectacular pelea la que nos dierons estas 2 luchadoras, que terminó en la victoria para la mexicana <b>Loopy Godinez</b> por sobre la brasileña, quien por decisión unánime se proclama ganadora y corta con una racha negativa de 2 derrotas consecutivas. </p>
+                    <p>Habiendo dominado completamente el primer y segundo asalto, la mexicana sufrió un poco más en el tercer asalto, donde hubo un mayor intercambio de golpes, en el que ambas peleadoras dieron todo, regalándonos uno de los mejores asaltos vistos en una pelea femenina en mucho tiempo. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
