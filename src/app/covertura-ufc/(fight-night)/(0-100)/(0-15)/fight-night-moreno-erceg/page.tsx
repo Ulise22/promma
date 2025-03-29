@@ -11,10 +11,10 @@ const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'UFC Mexico: ¡Brandon Moreno vs Steve Erceg!',
-    description: '',
+    description: 'Trmeneda cartelera tenemos acá en latinoamérica, en el la Arena CDMX, en México, encabezada por el excampeón de la UFC Brandon Moreno que se enfrentará al australiano Steve Erceg',
     openGraph: {
         title: 'UFC Mexico: ¡Brandon Moreno vs Steve Erceg!',
-        description: '',
+        description: 'Trmeneda cartelera tenemos acá en latinoamérica, en el la Arena CDMX, en México, encabezada por el excampeón de la UFC Brandon Moreno que se enfrentará al australiano Steve Erceg',
         url: 'https://fullmma.org/covertura-ufc/fight-night-moreno-erceg'
     }
 }
