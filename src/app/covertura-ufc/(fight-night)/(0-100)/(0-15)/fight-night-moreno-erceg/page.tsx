@@ -38,6 +38,8 @@ export default function MorenoErceg () {
                     <h2>Loopy Godinez Derrota a Julia Polastri por Decisión Unánime</h2>
                     <p>Espectacular pelea la que nos dierons estas 2 luchadoras, que terminó en la victoria para la mexicana <b>Loopy Godinez</b> por sobre la brasileña, quien por decisión unánime se proclama ganadora y corta con una racha negativa de 2 derrotas consecutivas. </p>
                     <p>Habiendo dominado completamente el primer y segundo asalto, la mexicana sufrió un poco más en el tercer asalto, donde hubo un mayor intercambio de golpes, en el que ambas peleadoras dieron todo, regalándonos uno de los mejores asaltos vistos en una pelea femenina en mucho tiempo. </p>
+                    <h2>Victoria para el Brasileño Melquizael Costa ante Christian Rodriguez</h2>
+                    <p>El brasileño Melquizael Costa se lleva una controvertida victoria por decisión unánime ante el mexicano <b>Christian Rodriguez</b>, luego de que los 3 jueces puntuaran la pelea 29-28 a favor del de Brasil, logrando su segunda victoria en 35 días en lo que fue un combate muy cerrado y que tranquilamente podría haberse ido a favor del mexicano, quien tristemente cayó derrotado por decisión de los jueces. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
