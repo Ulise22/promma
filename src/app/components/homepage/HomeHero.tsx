@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-moreno-erceg'>
                 <Image className={styles.homehero__bigArticle__img} priority={true} quality={75} src={ufcMexico} alt='UFC México: ¡Brandon Moreno vs Steve Erceg!' />
                 <h2 className={styles.home__title}>UFC México: ¡Brandon Moreno vs Steve Erceg!</h2>
-                <span>¡Manuel Torres vs Drew Dober! ¡Raúl Rosas Jr. vs Vince Morales!</span>
+                <span>¡Kevin Borjas Derrota a Ronaldo Rodriguez en una Excelente Pelea del Peruano!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
                 <Image className={styles.homehero__article__img} quality={50} src={ufcBillonario} alt='' />

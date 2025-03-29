@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function MorenoErceg () {
     return(
         <main>
-            <ArticleHero title='UFC México: ¡Brandon Moreno vs Steve Erceg!' subtitle='¡Manuel Torres vs Drew Dober! ¡Raúl Rosas Jr. vs Vince Morales!' image={hero} date='2025-03-29' author={null} updatedDate={null} />
+            <ArticleHero title='UFC México: ¡Brandon Moreno vs Steve Erceg!' subtitle='¡Kevin Borjas Derrota a Ronaldo Rodriguez en una Excelente Pelea del Peruano!' image={hero} date='2025-03-29' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tremenda cartelera tenemos en esta noche de UFC, que vuelve a Latinoamérica organizando un evento en la Ciudad de México en la Arena CDMX. Trayéndonos como evento estelar la pelea en peso mosca entre el excampeón mexicano <Link href='/peleadores/brandon-moreno'>Brandon Moreno</Link>, quien enfrentará al excontendiente <b>Steve Erceg</b>, que actualmente se encuentra ranqueado #8 en su división. </p>
@@ -42,9 +42,10 @@ export default function MorenoErceg () {
                     <p>El brasileño Melquizael Costa se lleva una controvertida victoria por decisión unánime ante el mexicano <b>Christian Rodriguez</b>, luego de que los 3 jueces puntuaran la pelea 29-28 a favor del de Brasil, logrando su segunda victoria en 35 días en lo que fue un combate muy cerrado y que tranquilamente podría haberse ido a favor del mexicano, quien tristemente cayó derrotado por decisión de los jueces. </p>
                     <h2>Ateba Gautier Noquea a José Daniel Medina en el Primer Asalto</h2>
                     <p>Excelente victoria del africano Ateba Gautier, quien de un rodillazo en la cabeza, logra noquear al luchador boliviano en el primer asalto, logrando una tremenda victoria en su debut en la UFC, propinándole además su primer derrota por nocaut a Medina, quien jamás había perdido por esta vía hasta hoy. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Kevin Borjas Derrota a &quot;Lazy Boy&quot; Ronaldo Rodriguez</h2>
+                    <p>El peruano Kevin Borjas consigue una espectacular victoria ante el mexicano Ronaldo Rodriguez, demostrando tener un gran poder en las manos, sentando varias veces a su rival con esa mano derecha que fue capaz de conectar cuando quiso. </p>
+                    <p>Siendo el claro dominador de la pelea, Kevin Borjas ganó la pelea por decisión unánime, ganando los 3 asaltos que duró la pelea, atravesando varias adversidades, como el público en contra, un excelente rival que tenía en frente, y el handicap de pelear con un luchador que no dió el peso y que por ende llegaba con mayor ventaja a este enfrentamiento. Sin embargo, Kevin fue capaz de lidiar con todo llevándose su primer victoria en la UFC, merecídisima. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
