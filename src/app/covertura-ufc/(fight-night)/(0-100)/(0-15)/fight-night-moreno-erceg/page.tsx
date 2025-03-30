@@ -50,6 +50,8 @@ export default function MorenoErceg () {
                     <p>Tremenda victoria del mexicano David Martínez, quien consigue ganar en su debut en la UFC por la vía del nocaut en el primer asalto, luego de conectar un rodillazo a la cabeza de su rival, y de rematarlo a golpes para que el árbitro los separe y sellar de esta forma su victoria por TKO. </p>
                     <h2>Raúl Rosas Jr. se Lleva la Victoria por Decisión ante Vince Morales</h2>
                     <p>En un combate donde el joven mexicano <Link href='/peleadores/raul-rosas-jr'>Raúl Rosas Jr.</Link> logró dominar los primeros 2 asaltos del combate, concretando sus derribos de forma exitosa y logrando dominar claramente el combate cuando este se dió en el suelo, solamente sufrió el último asalto, donde sufrió un derribo de su rival, que lo puso en aprietos en un par de ocasiones, cuando estuvo cerca de someterlo. Sin embargo, el luchador de México demostró tener corazón, pasando estos momentos en los que se complicó la pelea para finalmente llevarse la victoria por decisión unánime. </p>
+                    <h2>Edgar Chaires Somete a Cj Vergara en el Primer Asalto</h2>
+                    <p>El mexicano Edgar Chaires consigue una excelente victoria ante el estadounidense Cj Vergara, luego de conectar unos golpes durísimos que derribaron a su rival, aprovechando esto para buscar el cuello de su rival, consiguiendo la victoria por la vía de la sumisión con un mataleón. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
