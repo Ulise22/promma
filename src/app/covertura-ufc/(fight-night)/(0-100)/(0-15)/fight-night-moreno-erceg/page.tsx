@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function MorenoErceg () {
     return(
         <main>
-            <ArticleHero title='UFC México: ¡Brandon Moreno vs Steve Erceg!' subtitle='¡Kevin Borjas Derrota a Ronaldo Rodriguez en una Excelente Pelea del Peruano! ¡Raúl Rosas Jr. Gana su Pelea por Decisión Unánime ante Vince Morales!' image={hero} date='2025-03-29' author={null} updatedDate={null} />
+            <ArticleHero title='UFC México: ¡Brandon Moreno Derrota a Steve Erceg por Decisión Unánime!' subtitle='¡Kevin Borjas Derrota a Ronaldo Rodriguez en una Excelente Pelea del Peruano! ¡Raúl Rosas Jr. Gana su Pelea por Decisión Unánime ante Vince Morales!' image={hero} date='2025-03-29' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tremenda cartelera tenemos en esta noche de UFC, que vuelve a Latinoamérica organizando un evento en la Ciudad de México en la Arena CDMX. Trayéndonos como evento estelar la pelea en peso mosca entre el excampeón mexicano <Link href='/peleadores/brandon-moreno'>Brandon Moreno</Link>, quien enfrentará al excontendiente <b>Steve Erceg</b>, que actualmente se encuentra ranqueado #8 en su división. </p>
@@ -54,6 +54,8 @@ export default function MorenoErceg () {
                     <p>El mexicano Edgar Chaires consigue una excelente victoria ante el estadounidense Cj Vergara, luego de conectar unos golpes durísimos que derribaron a su rival, aprovechando esto para buscar el cuello de su rival, consiguiendo la victoria por la vía de la sumisión con un mataleón. </p>
                     <h2>Manuel Torres Noquea a Drew Dober en el Primer Asalto</h2>
                     <p>Espectacular victoria del mexicano <b>Manuel Torres</b>, quien fue capaz de noquear a un rival durísimo del peso ligero como <b>Drew Dober</b> en el primer asalto de la pelea. Consiguiendo ganar en su casa y reponerse de lo que fue su última pelea en el <Link href='/covertura-ufc/ufc306'>UFC 306</Link>, que acabó en derrota ante el chileno <b>Bahamondes</b>. </p>
+                    <h2>Brandon Moreno Derrota a Steve Erceg por Decisión Unánime</h2>
+                    <p>Termina el evento con esta pelea estelar que nos trae al excampeón mexicano <Link href='/peleadores/brandon-moreno'>Brandon Moreno</Link> llevándose la victoria por decisión unánime, luego de ganar y dominar los primeros 2 asaltos de la pelea, y de ganar de forma más apretada los últimos 2 asaltos. De esta manera, el bicampeón de peso mosca queda en una posición muy favorable para cumplir su objetivo de ser el 3 veces campeón de su división, haciendo méritos suficientes para disputarle el campeonato al actual campeón brasileño <Link href='/peleadores/alexandre-pantoja'>Alexandre Pantoja</Link>. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
