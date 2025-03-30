@@ -52,6 +52,8 @@ export default function MorenoErceg () {
                     <p>En un combate donde el joven mexicano <Link href='/peleadores/raul-rosas-jr'>Raúl Rosas Jr.</Link> logró dominar los primeros 2 asaltos del combate, concretando sus derribos de forma exitosa y logrando dominar claramente el combate cuando este se dió en el suelo, solamente sufrió el último asalto, donde sufrió un derribo de su rival, que lo puso en aprietos en un par de ocasiones, cuando estuvo cerca de someterlo. Sin embargo, el luchador de México demostró tener corazón, pasando estos momentos en los que se complicó la pelea para finalmente llevarse la victoria por decisión unánime. </p>
                     <h2>Edgar Chaires Somete a Cj Vergara en el Primer Asalto</h2>
                     <p>El mexicano Edgar Chaires consigue una excelente victoria ante el estadounidense Cj Vergara, luego de conectar unos golpes durísimos que derribaron a su rival, aprovechando esto para buscar el cuello de su rival, consiguiendo la victoria por la vía de la sumisión con un mataleón. </p>
+                    <h2>Manuel Torres Noquea a Drew Dober en el Primer Asalto</h2>
+                    <p>Espectacular victoria del mexicano <b>Manuel Torres</b>, quien fue capaz de noquear a un rival durísimo del peso ligero como <b>Drew Dober</b> en el primer asalto de la pelea. Consiguiendo ganar en su casa y reponerse de lo que fue su última pelea en el <Link href='/covertura-ufc/ufc306'>UFC 306</Link>, que acabó en derrota ante el chileno <b>Bahamondes</b>. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
