@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function MorenoErceg () {
     return(
         <main>
-            <ArticleHero title='UFC México: ¡Brandon Moreno vs Steve Erceg!' subtitle='¡Kevin Borjas Derrota a Ronaldo Rodriguez en una Excelente Pelea del Peruano!' image={hero} date='2025-03-29' author={null} updatedDate={null} />
+            <ArticleHero title='UFC México: ¡Brandon Moreno vs Steve Erceg!' subtitle='¡Kevin Borjas Derrota a Ronaldo Rodriguez en una Excelente Pelea del Peruano! ¡Raúl Rosas Jr. Gana su Pelea por Decisión Unánime ante Vince Morales!' image={hero} date='2025-03-29' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tremenda cartelera tenemos en esta noche de UFC, que vuelve a Latinoamérica organizando un evento en la Ciudad de México en la Arena CDMX. Trayéndonos como evento estelar la pelea en peso mosca entre el excampeón mexicano <Link href='/peleadores/brandon-moreno'>Brandon Moreno</Link>, quien enfrentará al excontendiente <b>Steve Erceg</b>, que actualmente se encuentra ranqueado #8 en su división. </p>
@@ -48,6 +48,8 @@ export default function MorenoErceg () {
                     <p>Siendo el claro dominador de la pelea, Kevin Borjas ganó la pelea por decisión unánime, ganando los 3 asaltos que duró la pelea, atravesando varias adversidades, como el público en contra, un excelente rival que tenía en frente, y el handicap de pelear con un luchador que no dió el peso y que por ende llegaba con mayor ventaja a este enfrentamiento. Sin embargo, Kevin fue capaz de lidiar con todo llevándose su primer victoria en la UFC, merecídisima. </p>
                     <h2>David Martinez Debuta Noqueando a Saimon Oliveira en el Primer Asalto</h2>
                     <p>Tremenda victoria del mexicano David Martínez, quien consigue ganar en su debut en la UFC por la vía del nocaut en el primer asalto, luego de conectar un rodillazo a la cabeza de su rival, y de rematarlo a golpes para que el árbitro los separe y sellar de esta forma su victoria por TKO. </p>
+                    <h2>Raúl Rosas Jr. se Lleva la Victoria por Decisión ante Vince Morales</h2>
+                    <p>En un combate donde el joven mexicano <Link href='/peleadores/raul-rosas-jr'>Raúl Rosas Jr.</Link> logró dominar los primeros 2 asaltos del combate, concretando sus derribos de forma exitosa y logrando dominar claramente el combate cuando este se dió en el suelo, solamente sufrió el último asalto, donde sufrió un derribo de su rival, que lo puso en aprietos en un par de ocasiones, cuando estuvo cerca de someterlo. Sin embargo, el luchador de México demostró tener corazón, pasando estos momentos en los que se complicó la pelea para finalmente llevarse la victoria por decisión unánime. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
