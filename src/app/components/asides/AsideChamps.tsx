@@ -12,7 +12,7 @@ import topuria from '@/assets/peleadores__images/0-100/10-20/ilia-topuria/illia_
 export default function AsideChamps () {
     return(
         <aside className={styles.campeones__container}>
-            <h3 className={styles.campones__title}>Campeones de la UFC</h3>
+            {/* <h3 className={styles.campones__title}>Campeones de la UFC</h3>
             <Link href='/peleadores/ilia-topuria' className={styles.campeones}>
                 <Image className={styles.campeones__image} loading="lazy" src={topuria} alt='Ilia Topuria' />
                 <h4 className={styles.campeones__name}>Ilia Topuria</h4>
@@ -28,15 +28,15 @@ export default function AsideChamps () {
             <Link href='/peleadores/merab-dvalishvili' className={styles.campeones}>
                 <Image className={styles.campeones__image} loading="lazy" src={dvalishvili} alt='Merab Dvalishvili' />
                 <h4 className={styles.campeones__name}>Merab Dvalishvili</h4>
-            </Link>
+            </Link> */}
             {/* <Link href='/peleadores/alex-pereira' className={styles.campeones}>
                 <Image className={styles.campeones__image} loading="lazy" src={pereira} alt='Sean O&apos;Malley' />
                 <h4 className={styles.campeones__name}>Alex Pereira</h4>
             </Link> */}
-            <Link href='/peleadores/belal-muhammad' className={styles.campeones}>
+            {/* <Link href='/peleadores/belal-muhammad' className={styles.campeones}>
                 <Image className={styles.campeones__image} loading="lazy" src={belal} alt='Belal Muhammad' />
                 <h4 className={styles.campeones__name}>Belal Muhammad</h4>
-            </Link>
+            </Link> */}
             {/* <article className={styles.donation__container}>
                 <h3 className={styles.campones__title}>¡Recuerda que puedes colaborar con este proyecto mediante una donación a Paypal!</h3>
                 <a className={styles.donation__btn} href="https://paypal.me/uliMontenegro" target="_Blank">Donar</a>
