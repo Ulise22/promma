@@ -24,7 +24,7 @@ export default function Home () {
         <ArticlePreview img={entrenarAlexPereira} url='/articulos/entrenar-todos-los-dias-alex-pereira' title='La Ventaja de Entrenar Todos Los Días Según Alex Pereira' author={null} text='El secreto detrás de la confianza de Alex Pereira, que radica en el entrenamiento diario. ' date='17/02/2025' />
       </section>
       <section className={styles.home__peleadores}>
-        <h2 className={styles.home__peleadores__title}>Peleadores Campeones de UFC</h2>
+        <h2 className={styles.home__peleadores__title}>Peleadores Campeones de la UFC</h2>
         <div className={styles.peleadores__container}>
           <Link href='/peleadores/ilia-topuria' className={`${styles.peleadores__card} ${styles.peleadores__card_illia}`}>
             <h3 className={styles.peleadores__card__name}>Ilia Topuria</h3>

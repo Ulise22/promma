@@ -52,8 +52,7 @@ export default function RootLayout({
         <GoogleAnalytics gaId="G-5FLC9WWZD8" />
         <Analytics />
         <Footer />
-        <Script async defer strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-5FLC9WWZD8" />
-        <Script async strategy='afterInteractive' src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9270621638584149" crossOrigin="anonymous"></Script>
+        <Script async defer strategy='afterInteractive' src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9270621638584149" crossOrigin="anonymous"></Script>
       </body>
     </html>
   )
