@@ -11,10 +11,10 @@ const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'UFC 314: ¡Alexander Volkanovski vs Diego Lopes!',
-    description: "",
+    description: "Tremenda noche de MMA en Miami esta noche con el UFC 314, encabezada por Alexander Volkanovski y Diego Lopes por el cinturón de peso pluma. ",
     openGraph: {
         title: 'UFC 314: ¡Alexander Volkanovski vs Diego Lopes!',
-        description: "",
+        description: "Tremenda noche de MMA en Miami esta noche con el UFC 314, encabezada por Alexander Volkanovski y Diego Lopes por el cinturón de peso pluma. ",
         url: 'https://fullmma.org/covertura-ufc/ufc314'
     }
 }
@@ -26,10 +26,12 @@ export default function UFC312 () {
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tremendo evento de UFC que tenemos esta noche en Miami, con la pelea por el título de peso pluma estelarizando la cartelera entre el excampeón <Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link> y el brasileño <Link href='/peleadores/diego-lopes'>Diego Lopes</Link>. </p>
-                    <p>Además tendremos tremendas peleas acompañando el evento principal, con la coestelar siendo encabezada por el luchador inglés de peso ligero <Link href='/peleadores/paddy-pimblett'>Paddy Pimblett</Link>, y el veterano estadounidense <Link href='/peleadores/michael-chandler'>Michael Chandler</Link>. </p>
+                    <p>Además tendremos tremendas peleas acompañando el evento principal, con la coestelar siendo encabezada por el luchador inglés de peso ligero <Link href='/peleadores/paddy-pimblett'>Paddy Pimblett</Link>, y el veterano estadounidense <Link href='/peleadores/michael-chandler'>Michael Chandler</Link>. Además, tendremos una tremenda pelea cargada de historia detrás y de beef entre el brasileño perteneciente a los <Link href='/articulos/fighting-nerds'>Fighting Nerds</Link>, <b>Jean Silva</b>, y el estadounidense ranqueado #13 en la división de peso pluma <b>Bryce Mitchell</b>. Finalmente contamos con otro enfrentamiento interesante de peso pluma, entre el luchador mexicano <b>Yair Rodríguez</b>, quien le dará la bienvenida al debutante en UFC e histórico campeón de Bellator, <b>Patricio Pitbull</b>. </p>
                     <h2 className={styles.article__fightsHierarchy}>Primeros Preliminares</h2>
                     <h2>Nora Cornolle Somete a Hailey Cowan en el Segundo Asalto</h2>
                     <p>La luchadora francesa ranqueada #13 en la división de peso gallo femenino, consigue una tremenda victoria por la vía de la sumisión en el segundo asalto, luego de ganarle la espalda a su rival y ser capaz de conectar un mataleón que le daría la victoria, iniciando esta cartelera de la mejor manera, al ya iniciar con una finalización este tremendo evento. </p>
+                    <h2>Marco Tulio Noquea a Tresean Gore en el segundo asalto de la pelea</h2>
+                    <p>El luchador brasileño Marco Tulio, luego de que fue una pelea espectacular, se lleva la victoria por la vía del nocaut en el segundo asalto, luego de haber dominado casi que por completo todo el combate. La pelea estuvo llena de emociones y nos dejaba espectantes, dado que pese a que el brasileño era el claro dominador de la pelea, con todo tipo de golpes que era capaz de conectar a su rival, Gore era capaz de conectar algún que otro golpe que claramente lastimaba al luchador de brasil. Sin embargo, todo acabaría en el segundo asalto, luego de que Tulio conectara una patada a la cabeza, seguida de una combinación de golpes que le terminaría por dar la victoria por TKO. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p> */}
