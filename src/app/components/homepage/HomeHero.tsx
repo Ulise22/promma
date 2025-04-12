@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufcMexico from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_mexico.webp'
+import ufc314 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc314.webp'
 import ufcBillonario from '@/assets/noticias/0-100/20-30/ufc_busca_millonada.jpg'
 import pimblettNextFight2025 from '@/assets/noticias/0-100/30-40/pimblett_nextfight2025.jpg'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/fight-night-moreno-erceg'>
-                <Image className={styles.homehero__bigArticle__img} priority={true} quality={75} src={ufcMexico} alt='UFC México: ¡Brandon Moreno vs Steve Erceg!' />
-                <h2 className={styles.home__title}>UFC México: ¡Brandon Moreno Derrota a Steve Erceg por Decisión Unánime!</h2>
-                <span>¡Kevin Borjas Derrota a Ronaldo Rodriguez en una Excelente Pelea del Peruano! ¡Raúl Rosas Jr. Gana su Pelea por Decisión Unánime ante Vince Morales!</span>
+            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc314'>
+                <Image className={styles.homehero__bigArticle__img} priority={true} quality={75} src={ufc314} alt='UFC México: ¡Brandon Moreno vs Steve Erceg!' />
+                <h2 className={styles.home__title}>UFC 314: ¡Alexander Volkanovski vs Diego Lopes!</h2>
+                <span>¡Paddy Pimblett Enfrenta a Michael Chandler! ¡Jean Silva vs Bryce Mitchell!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
                 <Image className={styles.homehero__article__img} quality={50} src={ufcBillonario} alt='' />
