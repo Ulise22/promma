@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function UFC312 () {
     return(
         <main>
-            <ArticleHero title="UFC 314: ¡Alexander Volkanovski vs Diego Lopes!" subtitle='¡Paddy Pimblett Enfrenta a Michael Chandler! ¡Jean Silva vs Bryce Mitchell!' image={hero} date='2025-04-12' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 314: ¡Alexander Volkanovski vs Diego Lopes!" subtitle='¡Paddy Pimblett Enfrenta a Michael Chandler! ¡Jean Silva Somete a Bryce Mitchell en el Segundo Asalto de la pelea!' image={hero} date='2025-04-12' author={null} updatedDate='2024-04-13' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tremendo evento de UFC que tenemos esta noche en Miami, con la pelea por el título de peso pluma estelarizando la cartelera entre el excampeón <Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link> y el brasileño <Link href='/peleadores/diego-lopes'>Diego Lopes</Link>. </p>
@@ -48,6 +48,8 @@ export default function UFC312 () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Dominick Reyes Noquea a Nikita Krylov en el Primer Asalto</h2>
                     <p>El estadounidense <b>Dominick Reyes</b> consigue una tremenda victoria por la vía del nocaut ante el ruso <b>Nikita Krylov</b>, luego de conectar una mano izquierda que mandaría a la lona de manera inmediata a su rival en el primer asalto, consiguiendo llevarse la pelea, abriendo la cartelera estelar de la mejor manera, y probablemente ganándose un bono de desempeño de $50k con esta actuación. </p>
+                    <h2>Jean Silva Somete a Bryce Mitchell en el Segundo Asalto</h2>
+                    <p>El brasileño consigue una victoria épica ante el estadounidense, luego de demostrar ser superior a su rival en todos los aspectos del juego, tanto en el striking como en la lucha, donde fue superior a Bryce Mitchell, logrando demostrarlo en el segundo asalto cuando sería capaz de someter a su rival, ganándose de esta forma su lugar en el top 15 en los rankings de peso pluma. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
