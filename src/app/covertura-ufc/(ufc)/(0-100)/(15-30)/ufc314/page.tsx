@@ -45,9 +45,9 @@ export default function UFC312 () {
                     <p>La brasileña Virna Jandiroba consigue una importantísima victoria por decisión unánime ante la luchadora china <Link href='/mujeres/yan-xiaonan'>Yan Xiaonan</Link>, luego de dominar completamente los 3 asaltos de la pelea, haciendo uso de su lucha para imponerse por sobre su rival. De esta manera, habiendo vencido a la #1 de la división, la brasileña hace meritos para ganarse una oportunidad de pelear por el título de la división. </p>
                     <h2>Dan Ige Noquea a Sean Woodson en el Tercer Asalto</h2>
                     <p>Espectacular victoria del #15 de la división de peso pluma, quien consiguió mantener su lugar en los rankings, al noquear en el tercer asalto a su complicadísimo rival, <b>Sean Woodson</b>, que aunque hizo una buena pelea, aprovechando su ventaja en cuanto a alcance y altura, nada pudo hacer ante el poder de su rival, que con buenos golpes fue capaz de llevarse la victoria por TKO, dando por finalizada la cartelera preliminar de este UFC 314. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Dominick Reyes Noquea a Nikita Krylov en el Primer Asalto</h2>
+                    <p>El estadounidense <b>Dominick Reyes</b> consigue una tremenda victoria por la vía del nocaut ante el ruso <b>Nikita Krylov</b>, luego de conectar una mano izquierda que mandaría a la lona de manera inmediata a su rival en el primer asalto, consiguiendo llevarse la pelea, abriendo la cartelera estelar de la mejor manera, y probablemente ganándose un bono de desempeño de $50k con esta actuación. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
