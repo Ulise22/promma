@@ -43,6 +43,8 @@ export default function UFC312 () {
                     <p>El joven luchador estadounidense de 25 años, Chase Hooper, consigue una muy buena victoria ante un luchador veterano como <Link href='/articulos/jim-miller-historia'>Jim Miller</Link>, a quien supo dominar totalmente, especialmente en los últimos 2 asaltos, donde hizo alarde de su alto nivel de grappling y jiu-jitsu, que pusieron en aprietos a su rival en todo momento, amenzando con todo tipo de sumisiones a lo largo de la pelea. </p>
                     <h2>Virna Jandiroba Derrota a Yan Xiaonan</h2>
                     <p>La brasileña Virna Jandiroba consigue una importantísima victoria por decisión unánime ante la luchadora china <Link href='/mujeres/yan-xiaonan'>Yan Xiaonan</Link>, luego de dominar completamente los 3 asaltos de la pelea, haciendo uso de su lucha para imponerse por sobre su rival. De esta manera, habiendo vencido a la #1 de la división, la brasileña hace meritos para ganarse una oportunidad de pelear por el título de la división. </p>
+                    <h2>Dan Ige Noquea a Sean Woodson en el Tercer Asalto</h2>
+                    <p>Espectacular victoria del #15 de la división de peso pluma, quien consiguió mantener su lugar en los rankings, al noquear en el tercer asalto a su complicadísimo rival, <b>Sean Woodson</b>, que aunque hizo una buena pelea, aprovechando su ventaja en cuanto a alcance y altura, nada pudo hacer ante el poder de su rival, que con buenos golpes fue capaz de llevarse la victoria por TKO, dando por finalizada la cartelera preliminar de este UFC 314. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
