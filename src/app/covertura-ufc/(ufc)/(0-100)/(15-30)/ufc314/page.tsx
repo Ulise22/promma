@@ -39,6 +39,8 @@ export default function UFC312 () {
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2>Julian Erosa Noquea a Darren Elkins en el Primer Asalto</h2>
                     <p>El luchador Julian Erosa logra una tremenda victoria por la vía del nocaut en el primer asalto, luego de dominar por completo el combate al conectar un montón de golpes que lastimaron y mucho a su rival, consiguió en el minuto minuto del asalto la victoria, luego de que el árbitro los separara, otorgándole la victoria por TKO. </p>
+                    <h2>Chase Hooper Derrota a Jim Miller por Decisión Unánime</h2>
+                    <p>El joven luchador estadounidense de 25 años, Chase Hooper, consigue una muy buena victoria ante un luchador veterano como <Link href='/articulos/jim-miller-historia'>Jim Miller</Link>, a quien supo dominar totalmente, especialmente en los últimos 2 asaltos, donde hizo alarde de su alto nivel de grappling y jiu-jitsu, que pusieron en aprietos a su rival en todo momento, amenzando con todo tipo de sumisiones a lo largo de la pelea. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
