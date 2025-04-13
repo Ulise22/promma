@@ -36,9 +36,9 @@ export default function UFC312 () {
                     <p>En buen combate, bastante cerrado que podría haber ido para cualquier lado, quien finalmente se hizo con la victoria por la vía de la decisión dividida, es el peleador chino <b>Sumudaerji</b>, quien partía ligeramente como favorito para este combate, y que con esta victoria es capaz de ponerle un freno a su racha negativa de 3 derrotas consecutivas. </p>
                     <h2>Michal Oleksiejczuk Noquea a Sedriques Dumas en el Primer Asalto</h2>
                     <p>El polaco consigue una tremenda victoria por la vía del nocaut en el primer asalto, logrando cortar con una racha de 3 derrotas consecutivas, siendo la última ante el daguestaní <Link href='/peleadores/shara-magomedov'>Shara &quot;Bullet&quot; Magomedov</Link>, al conectar una gran cantidad de golpes hacia su rival desde arriba que llevó al árbitro a separarlos para darle la victoira a Michal Oleksiejczuk por TKO. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
+                    <h2>Julian Erosa Noquea a Darren Elkins en el Primer Asalto</h2>
+                    <p>El luchador Julian Erosa logra una tremenda victoria por la vía del nocaut en el primer asalto, luego de dominar por completo el combate al conectar un montón de golpes que lastimaron y mucho a su rival, consiguió en el minuto minuto del asalto la victoria, luego de que el árbitro los separara, otorgándole la victoria por TKO. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
