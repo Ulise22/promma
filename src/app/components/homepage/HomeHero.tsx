@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc314'>
                 <Image className={styles.homehero__bigArticle__img} priority={true} quality={75} src={ufc314} alt='UFC México: ¡Brandon Moreno vs Steve Erceg!' />
-                <h2 className={styles.home__title}>UFC 314: ¡Alexander Volkanovski vs Diego Lopes!</h2>
+                <h2 className={styles.home__title}>UFC 314: ¡Alexander Volkanovski Derrota a Diego Lopes y es el Nuevo Campeón de Peso Pluma de la UFC!</h2>
                 <span>¡Paddy Pimblett Noquea a Michael Chandler en el Tercer Asalto! ¡Jean Silva Somete a Bryce Mitchell en el Segundo Asalto de la pelea!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>

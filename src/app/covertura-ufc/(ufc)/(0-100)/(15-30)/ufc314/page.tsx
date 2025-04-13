@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function UFC312 () {
     return(
         <main>
-            <ArticleHero title="UFC 314: ¡Alexander Volkanovski vs Diego Lopes!" subtitle='¡Paddy Pimblett Noquea a Michael Chandler en el Tercer Asalto! ¡Jean Silva Somete a Bryce Mitchell en el Segundo Asalto de la pelea!' image={hero} date='2025-04-12' author={null} updatedDate='2024-04-13' />
+            <ArticleHero title="UFC 314: ¡Alexander Volkanovski Derrota a Diego Lopes y es el Nuevo Campeón de Peso Pluma de la UFC!" subtitle='¡Paddy Pimblett Noquea a Michael Chandler en el Tercer Asalto! ¡Jean Silva Somete a Bryce Mitchell en el Segundo Asalto de la pelea!' image={hero} date='2025-04-12' author={null} updatedDate='2024-04-13' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tremendo evento de UFC que tenemos esta noche en Miami, con la pelea por el título de peso pluma estelarizando la cartelera entre el excampeón <Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link> y el brasileño <Link href='/peleadores/diego-lopes'>Diego Lopes</Link>. </p>
@@ -54,6 +54,9 @@ export default function UFC312 () {
                     <p>En lo que fue una excelente actuación del mexicano <b>Yair Rodríguez</b>, logró llevarse la victoria por decisión unánime, cortando de esta manera con una racha de 2 derrotas consecutivas, acercándose a volver a pelear por el título en el futuro. El mexicano le dió la bienvenida al excampeón de Bellator <b>Patricio Pitbull</b>, con una clase de striking, en donde fue muy supeior, lo que le permitió llevarse la pelea comodamente por decisión de los jueces.</p>
                     <h2>Paddy Pimblett Noquea a Michael Chandler en el Tercer Asalto</h2>
                     <p>El luchador inglés <Link href='/peleadores/paddy-pimblett'>Paddy Pimblett</Link> logra una increíble victoria ante el #7 de la división de peso ligero, <Link href='/peleadores/michael-chandler'>Michael Chandler</Link>, que le permite meterse en el top 10 de la división y acercar su pelea por el título aún más. Luego de haber sufrido un primer asalto en el que el estadounidense fue mejor, Paddy supo recuperarse e irse imponiéndose poco a poco en el combate, culminando su trabajo en el tercer asalto de la pelea, cuando lograría finalizar a Chandler por TKO, al castigarlo a golpes en el suelo. </p>
+                    <h2>¡Volkanovski es el Nuevo Campeón de Peso Pluma!</h2>
+                    <p>Haciendo historia, el excampeón australiano <Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link> recupera su título de peso pluma, al derrotar al brasileño/mexicano <Link href='/peleadores/diego-lopes'>Diego Lopes</Link> por decisión unánime, luego de ganar 4 de los 5 asaltos que duró la pelea, mostrando un total dominio, y demostrando que aún a sus 36 años, sigue siendo el mejor peleador de su división. </p>
+                    <p>Lo conseguido por Volk es una anomalía y merece todo el reconocimiento del mundo, dado que no es sólo que en su división no haya habido peleador de su edad en toda la historia capaz de ganar el título, sino que de las 170lbs para abajo, los campeones de más de 35 años son practicamente inexistentes, debido a lo complicado de cortar tanto peso y a tan avanzada edad. Por lo que lo hecho por Volkanovski esta noche, agranda su legado y reafirma aún más su posición como uno de los mejores peleadores de la historia en su división y en toda la UFC. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
