@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc314'>
                 <Image className={styles.homehero__bigArticle__img} priority={true} quality={75} src={ufc314} alt='UFC México: ¡Brandon Moreno vs Steve Erceg!' />
                 <h2 className={styles.home__title}>UFC 314: ¡Alexander Volkanovski vs Diego Lopes!</h2>
-                <span>¡Paddy Pimblett Enfrenta a Michael Chandler! ¡Jean Silva vs Bryce Mitchell!</span>
+                <span>¡Paddy Pimblett Enfrenta a Michael Chandler! ¡Jean Silva Somete a Bryce Mitchell en el Segundo Asalto de la pelea!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
                 <Image className={styles.homehero__article__img} quality={50} src={ufcBillonario} alt='' />

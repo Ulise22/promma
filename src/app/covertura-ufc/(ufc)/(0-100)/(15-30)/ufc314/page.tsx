@@ -50,6 +50,8 @@ export default function UFC312 () {
                     <p>El estadounidense <b>Dominick Reyes</b> consigue una tremenda victoria por la vía del nocaut ante el ruso <b>Nikita Krylov</b>, luego de conectar una mano izquierda que mandaría a la lona de manera inmediata a su rival en el primer asalto, consiguiendo llevarse la pelea, abriendo la cartelera estelar de la mejor manera, y probablemente ganándose un bono de desempeño de $50k con esta actuación. </p>
                     <h2>Jean Silva Somete a Bryce Mitchell en el Segundo Asalto</h2>
                     <p>El brasileño consigue una victoria épica ante el estadounidense, luego de demostrar ser superior a su rival en todos los aspectos del juego, tanto en el striking como en la lucha, donde fue superior a Bryce Mitchell, logrando demostrarlo en el segundo asalto cuando sería capaz de someter a su rival, ganándose de esta forma su lugar en el top 15 en los rankings de peso pluma. </p>
+                    <h2>Yair Rodrígues Derrota a Patricio Pitbull</h2>
+                    <p>En lo que fue una excelente actuación del mexicano <b>Yair Rodríguez</b>, logró llevarse la victoria por decisión unánime, cortando de esta manera con una racha de 2 derrotas consecutivas, acercándose a volver a pelear por el título en el futuro. El mexicano le dió la bienvenida al excampeón de Bellator <b>Patricio Pitbull</b>, con una clase de striking, en donde fue muy supeior, lo que le permitió llevarse la pelea comodamente por decisión de los jueces.</p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
