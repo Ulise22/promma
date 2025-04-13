@@ -41,6 +41,8 @@ export default function UFC312 () {
                     <p>El luchador Julian Erosa logra una tremenda victoria por la vía del nocaut en el primer asalto, luego de dominar por completo el combate al conectar un montón de golpes que lastimaron y mucho a su rival, consiguió en el minuto minuto del asalto la victoria, luego de que el árbitro los separara, otorgándole la victoria por TKO. </p>
                     <h2>Chase Hooper Derrota a Jim Miller por Decisión Unánime</h2>
                     <p>El joven luchador estadounidense de 25 años, Chase Hooper, consigue una muy buena victoria ante un luchador veterano como <Link href='/articulos/jim-miller-historia'>Jim Miller</Link>, a quien supo dominar totalmente, especialmente en los últimos 2 asaltos, donde hizo alarde de su alto nivel de grappling y jiu-jitsu, que pusieron en aprietos a su rival en todo momento, amenzando con todo tipo de sumisiones a lo largo de la pelea. </p>
+                    <h2>Virna Jandiroba Derrota a Yan Xiaonan</h2>
+                    <p>La brasileña Virna Jandiroba consigue una importantísima victoria por decisión unánime ante la luchadora china <Link href='/mujeres/yan-xiaonan'>Yan Xiaonan</Link>, luego de dominar completamente los 3 asaltos de la pelea, haciendo uso de su lucha para imponerse por sobre su rival. De esta manera, habiendo vencido a la #1 de la división, la brasileña hace meritos para ganarse una oportunidad de pelear por el título de la división. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
