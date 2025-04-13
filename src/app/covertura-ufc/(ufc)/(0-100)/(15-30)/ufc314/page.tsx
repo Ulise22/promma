@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function UFC312 () {
     return(
         <main>
-            <ArticleHero title="UFC 314: ¡Alexander Volkanovski vs Diego Lopes!" subtitle='¡Paddy Pimblett Enfrenta a Michael Chandler! ¡Jean Silva Somete a Bryce Mitchell en el Segundo Asalto de la pelea!' image={hero} date='2025-04-12' author={null} updatedDate='2024-04-13' />
+            <ArticleHero title="UFC 314: ¡Alexander Volkanovski vs Diego Lopes!" subtitle='¡Paddy Pimblett Noquea a Michael Chandler en el Tercer Asalto! ¡Jean Silva Somete a Bryce Mitchell en el Segundo Asalto de la pelea!' image={hero} date='2025-04-12' author={null} updatedDate='2024-04-13' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tremendo evento de UFC que tenemos esta noche en Miami, con la pelea por el título de peso pluma estelarizando la cartelera entre el excampeón <Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link> y el brasileño <Link href='/peleadores/diego-lopes'>Diego Lopes</Link>. </p>
@@ -52,6 +52,8 @@ export default function UFC312 () {
                     <p>El brasileño consigue una victoria épica ante el estadounidense, luego de demostrar ser superior a su rival en todos los aspectos del juego, tanto en el striking como en la lucha, donde fue superior a Bryce Mitchell, logrando demostrarlo en el segundo asalto cuando sería capaz de someter a su rival, ganándose de esta forma su lugar en el top 15 en los rankings de peso pluma. </p>
                     <h2>Yair Rodrígues Derrota a Patricio Pitbull</h2>
                     <p>En lo que fue una excelente actuación del mexicano <b>Yair Rodríguez</b>, logró llevarse la victoria por decisión unánime, cortando de esta manera con una racha de 2 derrotas consecutivas, acercándose a volver a pelear por el título en el futuro. El mexicano le dió la bienvenida al excampeón de Bellator <b>Patricio Pitbull</b>, con una clase de striking, en donde fue muy supeior, lo que le permitió llevarse la pelea comodamente por decisión de los jueces.</p>
+                    <h2>Paddy Pimblett Noquea a Michael Chandler en el Tercer Asalto</h2>
+                    <p>El luchador inglés <Link href='/peleadores/paddy-pimblett'>Paddy Pimblett</Link> logra una increíble victoria ante el #7 de la división de peso ligero, <Link href='/peleadores/michael-chandler'>Michael Chandler</Link>, que le permite meterse en el top 10 de la división y acercar su pelea por el título aún más. Luego de haber sufrido un primer asalto en el que el estadounidense fue mejor, Paddy supo recuperarse e irse imponiéndose poco a poco en el combate, culminando su trabajo en el tercer asalto de la pelea, cuando lograría finalizar a Chandler por TKO, al castigarlo a golpes en el suelo. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
