@@ -26,8 +26,8 @@ export default function Home () {
       <section className={styles.home__peleadores}>
         <h2 className={styles.home__peleadores__title}>Peleadores Campeones de la UFC</h2>
         <div className={styles.peleadores__container}>
-          <Link href='/peleadores/ilia-topuria' className={`${styles.peleadores__card} ${styles.peleadores__card_illia}`}>
-            <h3 className={styles.peleadores__card__name}>Ilia Topuria</h3>
+          <Link href='/peleadores/alexander-volkanovski' className={`${styles.peleadores__card} ${styles.peleadores__card_volkanovski}`}>
+            <h3 className={styles.peleadores__card__name}>Alexander Volkanovski</h3>
           </Link>
           <Link href='/peleadores/islam-makhachev' className={`${styles.peleadores__card} ${styles.peleadores__card_makhachev}`}>
             <h3 className={styles.peleadores__card__name}>Islam Makhachev</h3>
@@ -35,9 +35,6 @@ export default function Home () {
           <Link href='/peleadores/jon-jones' className={`${styles.peleadores__card} ${styles.peleadores__card_jones}`}>
             <h3 className={styles.peleadores__card__name}>Jon Jones</h3>
           </Link>
-          {/* <Link href='/peleadores' className={`${styles.peleadores__card__plus}`}>
-            <Image src={plus} alt=''/>
-          </Link> */}
         </div>
       </section>
       <Noticias />
@@ -47,15 +44,12 @@ export default function Home () {
           <Link href='/peleadores/conor-mcgregor' className={`${styles.peleadores__card} ${styles.peleadores__card_mcgregor}`}>
             <h3 className={styles.peleadores__card__name}>Conor Mcgregor</h3>
           </Link>
-          <Link href='/peleadores/alexander-volkanovski' className={`${styles.peleadores__card} ${styles.peleadores__card_volkanovski}`}>
-            <h3 className={styles.peleadores__card__name}>Alexander Volkanovski</h3>
+          <Link href='/peleadores/ilia-topuria' className={`${styles.peleadores__card} ${styles.peleadores__card_illia}`}>
+            <h3 className={styles.peleadores__card__name}>Ilia Topuria</h3>
           </Link>
           <Link href='/peleadores/sean-strickland' className={`${styles.peleadores__card} ${styles.peleadores__card_strickland}`}>
             <h3 className={styles.peleadores__card__name}>Sean Strickland</h3>
           </Link>
-          {/* <Link href='/peleadores' className={`${styles.peleadores__card__plus}`}>
-            <Image src={plus} alt=''/>
-          </Link> */}
         </div>
       </section>
       <ArticulosContainer />
@@ -71,9 +65,6 @@ export default function Home () {
           <Link href='/leyendas/anderson-silva' className={`${styles.peleadores__card} ${styles.peleadores__card_anderson}`}>
               <h3 className={styles.peleadores__card__name}>Anderson Silva</h3>
           </Link>
-          {/* <Link href='/leyendas' className={`${styles.peleadores__card__plus__gray}`}>
-            <Image src={plus} alt=''/>
-          </Link> */}
         </div>
       </section>
       <CoverturaUFC />
@@ -89,9 +80,6 @@ export default function Home () {
           <Link href='/mujeres/julianna-pena' className={`${styles.peleadores__card} ${styles.peleadores__card_julianna}`}>
               <h3 className={styles.peleadores__card__name}>Julianna Peña</h3>
           </Link>
-          {/* <Link href='/mujeres' className={`${styles.peleadores__card__plus}`}>
-            <Image src={plus} alt=''/>
-          </Link> */}
         </div>
       </section>
     </main>

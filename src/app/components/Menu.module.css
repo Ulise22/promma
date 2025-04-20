@@ -10,7 +10,7 @@
 }
 
 .menu__logo {
-    margin-left: 0px;
+    margin-left: 10px;
 }
 
 .menu__logo__img {
@@ -49,39 +49,6 @@
     color: #000;
 }
 
-.menu__list__dropdown {
-    position: absolute;
-    top: 58px;
-    left: 0;
-    width: 200px;
-    background-color: #00000099;
-    list-style: none;
-    padding: 0;
-    display: none;
-}
-
-.menu__list__dropdown li {
-    width: 100%;
-    padding: 20px 0;
-    text-align: left;
-    border-top: 1px solid #999;
-}
-
-.menu__list__dropdown__link {
-    text-decoration: none;
-    color: #fff;
-    padding: 20px;
-    font-weight: 600;
-}
-
-.menu__list__dropdown__link:hover {
-    background-color: #ccc;
-    color: #000;
-}
-
-.menu__list__item:hover > ul {
-    display: initial;
-}
 
 @media screen and (max-width: 1015px) {
     .menu__icon {
@@ -116,18 +83,5 @@
         width: 100%;
     }
 
-    .menu__list__dropdown {
-        position: relative;
-        width: 100%;
-        margin-bottom: 60px;
-        margin-top: -60px;
-    }
-
-    .menu__list__dropdown li {
-        text-align: center;
-    }
-
-    .menu__list__item:focus-within > ul {
-        display: initial;
-    }
+    
 }
