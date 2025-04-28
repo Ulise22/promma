@@ -13,6 +13,7 @@ import wrestling from '@/assets/articulos/insideArticle/martial-arts/wrestle.jpg
 import muaythai from '@/assets/articulos/insideArticle/martial-arts/muay_thai.jpg'
 import lethwei from '@/assets/articulos/insideArticle/martial-arts/lethwei.jpg'
 import Image from 'next/image'
+import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
@@ -34,7 +35,7 @@ export default function BestMAForMMA () {
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>En el canal de Youtube <b>Martial Arts Journey With Rokas</b> estuvo presente el luchador profesional de MMA, <b>Jeff Chan</b>, quien tuvo su más reciente pelea y victoria en la promotora <Link href='/articulos/one-championship'>ONE Championship</Link>. Allí, realizó una tierlist, donde colocó por orden, las que él consideraba como las mejores artes marciales para hacer MMA. Por eso hoy, vamos a hablar de las que colocó más arriba en este ranking.</p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/cFqV1hbwXpE?si=9TRZkq8YfCV4f-PO" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='cFqV1hbwXpE' />
                     <h2>A Tier</h2>
                     <p>Las artes marciales colocadas en este tier, son las que casi son perfectas, que a pesar de ser bastante buenas, les falta un poquito para llegar a la categoría de excelente, donde se encuentran otras artes marciales diferentes. </p>
                     <h3>Jiu Jitsu Brasileño</h3>

@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/articulos/0-100/60-70/viacheslav-datsik.jpg'
+import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
@@ -33,7 +34,7 @@ export default function ViacheslavDatsik () {
                     <p>Sin embargo, pese a lo ilusionante que puede ser un debut de esta magnitud, lo cierto es que su carrera profesional como peleador iría en picado rápidamente, descubriendo al poco tiempo que esto de pelear no era lo suyo. Dado que para el año 2003, mientras Arlovski se encontraba triunfando y estando a una pelea de pelear por el título, nuestro protagonista llevaba un récord profesional con más derrotas que victorias de 10-17. </p>
                     <p>Datsik mostró señales muy tempranas de no ser un hombre que está completamente en sus cabales durante su carrera como peleador. Con la pelea que tuvo con Vitali Shkraba siendo un ejemplo de esto en 2001, dado que este combate sería recordado por ser en el que Datsik le haría un piquete en el ojo a su rival, perdiendo por descalificación el combate. </p>
                     <p>Otro claro ejemplo de su actitud sucia y violenta aún dentro del octágono, sería cuando en una pelea de boxeo de beneficencia organizado en Moscú, en la que estaba peleando con un muchacho bastante joven, terminaría por atacar al referí en una situación que se salió de control y escaló muy rápido. </p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/h8EiIi-jyMo?si=9FMK1E6MBViWQAYx" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='h8EiIi-jyMo' />
                     <h2>La desaparición de Datsik</h2>
                     <p>Debido a que como mencioné anteriormente, a Datsik no le estaba yendo bien en su carrera como artista marcial mixto, busco mejor suerte en el kickboxing, donde le iría mejor, consiguiendo en 9 peleas totales un récord de 7-2. </p>
                     <p>Él venía siendo un peleador muy activo en su carrera, llegando a tener hasta 11 peleas en 2001, y hasta 7 en 2002. Sin embargo, en agosto del año 2006, luego de 2 combates que de hecho ganaría, se perdería todo rastro de él, estando desaparecido, y alimentando rumores de que había muerto en un choque de trenes. </p>
@@ -47,10 +48,10 @@ export default function ViacheslavDatsik () {
                     <p>Finalmente sería deportado el 18 de marzo de 2011. En rusia nuevamente comenzarían a correr rumores sobre que hacía sido asesinado en una pelea en prisión. Rumor que, por supuesto no sería verdadero, dado que se encontraba en buen estado de salud, siendo liberado de prisión bajo custodia 2016, luego de haber estado prisionero por 9 años. </p>
                     <h2>La Vida de Datsik Luego de Prisión </h2>
                     <p>Viacheslav Datsik volvería a dedicarse al mundo de las peleas luego de ser liberado. Haciendo una sola pelea de MMA el 15 de abril de 2019 ante Artem Tasarov que perdería por descalificación, siendo esta su última pelea hasta la fecha en artes marciales mixtas. </p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/uN3LkcOodmI?si=G4zEYpc7Cr7zNZsk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='uN3LkcOodmI' />
                     <p>Comenzaría a tener más peleas de boxeo especialmente, donde hasta marzo de 2023 llegaría a tener un récord de 6-4, destacando entre sus combates su victoria ante el ex peleador brasileño de UFC Antonio Silva, a quien sería capaz de vencer por TKO CSKA Arena, en Rusia.</p>
                     <p>Además, tendría una pelea de otro peleador del que hablamos en este espacio, explicando su relación con la mafia rusa, como lo es <Link href='/articulos/alexander-emelianenko'>Alexander Emelianenko</Link>, el hermano del histórico <Link href='/leyendas/fedor-emilianenko'>Fedor Emelianenko</Link>. Con quien tendría un combate el 25 de septiembre de 2022, en el CSKA Arena de Moscú, consiguiendo una victoria por la vía del KO a los 13 segundos del primer asalto. </p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/51Bxo4oLXuw?si=7CTLY5uOO3rQzUZb" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='51Bxo4oLXuw' />
                     <p>Viacheslav Datsik sería capaz de seguir con su vida de manera relativamente normal luego de los escándalos y polémicas que envuelven su vida, teniendo 2 hijos con su exnovia Xenia Efimova, y compitiendo en diferentes combates de boxeo y en diferentes peleas en general, incluyendo combates locos como el que tuvo enfrentando a 2 peleadores al mismo tiempo. </p>
                     <EndArticle />
                 </article>

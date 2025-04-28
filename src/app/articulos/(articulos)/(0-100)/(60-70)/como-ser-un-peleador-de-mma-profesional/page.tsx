@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic'
 import type { Metadata } from 'next'
 /* Images */
 import hero from '@/assets/articulos/0-100/60-70/ser_peleador_mma.jpg'
+import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
@@ -45,7 +46,7 @@ export default function ComoSerPeleadorProfesionalMMA () {
                         <br />
                         <li><b>. Fortaleza Mental y Piel Gruesa: </b>Entrenar duro, las lesiones, las derrotas, los cortes de peso, pelear 2 o 3 veces por año… Todas estas cosas requieren de una mentalidad fuerte para atravesarlas de la mejor manera, y aunque algunas personas nacen con esta fortaleza, lo cierto es que todos podemos desarrollar la fortaleza mental para atravesar los desafíos que nos pone la vida. Relacionado con este punto también esta la piel gruesa, dado que no importa lo bueno que seas, siempre habrá críticos y haters, y con las derrotas se harán sentir aún más, es por eso que necesitas ser capaz de ignorar ciertas críticas, y de discernir las críticas constructivas para tomarlas, de las tóxicas que no aportan nada. </li>
                     </ul>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/DJSND_Ynn0M?si=QtPsitQVmirIdE35" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='DJSND_Ynn0M' />
                     <h2>Pelear de Manera Amateur y Competir</h2>
                     <p>Es necesario adquirir una buena cantidad de experiencia antes de aventurarse a competir como profesional, por eso es que incluyo 2 tipos de experiencia que pueden ser de mucha utilidad para tu camino como pro. </p>
                     <p>La primera es la competencia, que no necesariamente implica pelear en MMA. Puedes tomar una de las artes marciales que estás practicando, como el jiu-jitsu o el kickboxing, y anotarte a competiciones de esta arte marcial. El ya estar midiéndote a un nivel competitivo, aunque no sea exactamente en las artes marciales mixtas, te ayudará a mejorar en el aspecto específico en el que compitas, y te permitirá ir aprendiendo a manejar los nervios que puedes sentir a la hora de competir, por el miedo al rival o por el ambiente que puede generase con el público en dichos torneos. Además de que te ayudará a saber donde estás parado, en que nivel te encuentras actualmente, y que es lo que necesitas mejorar para rendir mejor en los próximos desafíos. </p>

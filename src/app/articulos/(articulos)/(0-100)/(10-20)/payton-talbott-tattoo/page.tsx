@@ -5,6 +5,7 @@ import Link from 'next/link'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/articulos/0-100/10-20/payton_talbott_tattoo.jpg'
+import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
@@ -29,7 +30,7 @@ export default function PaytonTalbottTattoo () {
                     <h2>¿Por qué Payton Talbott tiene un tatuaje circular?</h2>
                     <p>Comenzando a hablar del tatuaje más llamativo de este peleador, el circulo negro que está en el medio de su torso, tanto en el pecho como en la espalda, como si lo atravesara. Teniendo en cuenta el reconocido fanatismo de Payton con el anime y la cultura japonesa en general, gusto que comparte con Israel Adesanya, por ejemplo, es posible que este tatuaje esté inspirado en el personaje de la serie Bleach, &quot;Grimmjow&quot;, quien posee un tatuaje similar, atravesando de la misma manera al personaje, con este circulo estando presente tanto en la boca del estomago como en la espalda. Así mismo, existen otros personajes con agujeros en el cuerpo, que representan la eliminación del alma y de las emociones</p>
                     <p>En un video del canal de YouTube <b>Nevada Sports Net</b>, donde se dedicó a responder las preguntas frecuentes que le hacían los fans, explicó el significado del tatuaje y la razón por la que se lo hizo, declarando: <b>&quot;Es sólo un agujero que atraviesa mi cuerpo. Representa un vacío interno, la falta de algo, la falta de emoción&quot;</b>. </p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/kB6zVgOOyZ0?si=uI3Ws190eBc-Xcxf" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='kB6zVgOOyZ0' />
                     <p>Unas declaraciones un poco edgy de su parte, pero dan a entrever un poco de la mentalidad de este peleador, que como mencioné antes, nos va a dar cada vez más de qué hablar. Además, en una entrevista con Ariel Halwani se había explayado diciendo: <b>&quot;Creo todos sienten ese vacío un poco, todos siente el llamado del vacío, pero siento que es un poco más intenso conmigo, y simplemente lo siento todo el tiempo&quot;</b>.</p>
                     <h2>Payton Talbott Tattoo Significado</h2>
                     <p>Pero este no es el único tatuaje que posee un cuerpo, dado que en el lateral izquierdo de su torzo posee un tattoo que está muy relacionado con la cultura japonesa. Dado que tiene tatuado una <b>Mascara Hannya</b>, que es una máscara utilizada en el teatro japonés, con un diseño reconocible caracterizado por poseer 2 cuernos afilados como los de un toro, ojos metálicos y una boca lasciva.</p>

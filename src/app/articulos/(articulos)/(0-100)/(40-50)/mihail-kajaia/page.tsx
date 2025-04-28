@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/articulos/0-100/40-50/mikheil_kajaia.jpg'
+import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
@@ -32,7 +33,7 @@ export default function MihailKajaia () {
                     <p>En el año 2017 abandonó la representación de su país, para comenzar a representar a Serbia en su lugar. De esta manera formó parte del equipo nacional en el campeonato de lucha europeo en 2017, donde caería derrotado ante el campeón olímpico Artur Aleksanyan en el segundo round. </p>
                     <p>Su primer éxito como deportista llegaría un año después, cuando ganaría su primera medalla europea en 2018, luego de llegar a la final del torneo organizado en Rusia, donde volvería a caer derrotado ante Artur Aleksanyan, pero ganando la medalla de plata de igual forma. Además, ese mismo año se haría de la medalla de bronce en los Juegos Mediterráneos de 2018, organizados en Tarragona, España. </p>
                     <p>Un año después, en el 2019, ganaría su primera medalla de bronce en el Campeonato Mundial, en la edición organizada en Budapest, Hungría, donde se enfrentó por esta medalla con el excampeón mundial húngaro, Balázs Kiss, quien partía como favorito debido a su trayectoria y a contar con el apoyo de sus compatriotas en el público, pero que terminó por caer derrotado ante nuestro protagonista. </p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/mZS7Uj4N0J8?si=uFGOO0BoeLoZB77K" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='mZS7Uj4N0J8' />
                     <p>Su última y más reciente medalla la ganaría en el 2023, cuando participó del campeonato europeo organizado en la ciudad de Zagreb, Croacia, logrando su primera medalla de bronce en un campeonato europeo. </p>
                     <h2>Mihail Kajaia en Los Juegos Olímpicos </h2>
                     <p>Aunque es cierto que estamos hablando de un 2 veces atleta olímpico, la verdad es que no le fue muy bien cuando compitió a este nivel. </p>

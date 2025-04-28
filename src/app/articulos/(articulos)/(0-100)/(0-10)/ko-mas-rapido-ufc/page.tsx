@@ -5,6 +5,7 @@ import Link from 'next/link'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/articulos/0-100/0-10/masvidal_vs_askren.jpeg'
+import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
@@ -32,7 +33,7 @@ export default function KOMasRapido () {
                     <p>Askren hizo su debut en la UFC el 2 de marzo de 2019 en UFC 235, enfrentandose a <b>Robbie Lawler</b>, que para aquel momento estaba ranqueado #6 en la división de peso wélter. Dicho combate fue algo extraño, dado que Robbie no había empezado mal, sin embargo el combate terminó en una victoria por sumisión a favor de Askren. Aunque fue algo confusa la forma en que terminó la pelea, dado que mientras Askren estaba aplicando su téctica de sumisión, el árbitro creyó que su rival había perdido la consciencia y detuvo el combate, aunque Robbie se encontraba en perfectas condiciones para seguir peleando. De igual forma, en su debut en la UFC, Askren obtuvo la victoria y con el microfono en la mano dijo &quot;¿Ese es el mejor peleador que tienes, Dana?&quot;</p>
                     <p>De esta manera, a su pelea contra Jorge Masvidal llegaría invicto, con un récord de 19-0, y, como nos tenía acostumbrados a hacer, hablo mierda hasta por los codos para vender la pelea. A punto tal de que para su rival, Masvidal, el combate se había vuelto algo personal. Entre las muchas cosas que dijo, declaró que: &quot;Sus musculos no son muy grandes y su barba es bastante fea, pero más allá de eso, creo que el combate va a ser dominación total&quot;.</p>
                     <p>Cuando llegó la hora de la verdad el 6 de julio de 2019, fuimos testigos de lo que ahora conocemos como el KO más rápido en la historia de la UFC. Con un Jorge Masvidal que comenzando la pelea con las manos en la espalda, salió corriendo y fue capaz de conectar un rodillazo en la cabeza de su rival, para finalizar la pelea en tan sólo 5 segundos. Convirtiéndose esta, no sólo en el KO más rápido en la historia de la UFC, sino en la primera derrota oficial de Ben Askren, que al menos hasta aquel momento, era considerado el mejor peso wélter fuera de la UFC.</p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/cUXVXvRUllQ?si=IpbyJUCGYeGCjSdv" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='cUXVXvRUllQ' />
                     <EndArticle />
                 </article>
                 <AsideChamps />

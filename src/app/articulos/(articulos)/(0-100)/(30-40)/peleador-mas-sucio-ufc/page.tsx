@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/articulos/0-100/30-40/rousimar_palhares.jpg'
+import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
@@ -34,19 +35,19 @@ export default function PeleadorMasSucioUFC () {
                     <h2>Expulsado de UFC</h2>
                     <p>En la UFC arrancaría de excelente manera derrotando con una sumisión en el primer asalto a <b>Ivan Salaverry</b>, ganando el bono a la sumisión de la noche.</p>
                     <p>Sin embargo el primer combate en el que Palhares da una demostración de su extraño comportamiento en la jaula, fue luego de 4 peleas en la compañía, cuando había ganado 3 combates y perdido sólo uno, enfrentando al polaco <b>Tomasz Drwal</b>, a quien logra vencer por sumisión en el primer asalto, sin embargo, a pesar de que el polaco había tapeado, Palhares tarda una peligrosa cantidad de tiempo en soltar la llave que le estaba haciendo.</p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/kO0BVXxhbbg?si=V-71y-3xoRVX7r6l" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='kO0BVXxhbbg' />
                     <p>Es hasta terrorífico ver como incluso una vez que lo suelta, Tomasz Drwal continúa gritando de dolor en el piso. Esta acción le valió una sanción de 90 días al brasileño.</p>
                     <p>La segunda acción antideportiva que tendría Palhares, no sería exactamente por algo que hizo dentro del octagono, sino porque luego de su pelea contra el cubano <b>Héctor Lombard</b> en diciembre de 2012, donde recibiría su primer derrota por KO, Rousimar daría positivo por elevados niveles de testosterona. Este comportamiento ahora le significaría una sanción de 9 meses, en los que no pudo pelear.</p>
                     <p>Quizás, debido a que ya no podía seguir dopándose, Rousimar decidió bajar de categoría de peso, y comenzar a competir en peso wélter, donde en octubre de 2013 volvería a pelear, perpetuando acá su última bochornosa acción que lo dejaría fuera de la UFC.</p>
                     <p>Resulta que enfrentando a <b>Mike Pierce</b>, realizando la misma llave por la que había sido sancionado la primera vez, el brasileño vuelve a ignorar a su contrincante que ya había tapeado para dar por finalizada la pelea. Mike Pierce había llegado a tapear hasta 8 veces hasta que finalmente Palhares lo soltó.</p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/lyMB5DhJ7Fw?si=xhKOyzMuVJsXXjy1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='lyMB5DhJ7Fw' />
                     <p>Esta era la tercera acción antideportiva de la que formaba parte el brasileño, teniendo una forma de pelear que de seguir podría haber acabado con la carrera de varios de compañeros de profesión. Debido a esto, <b>Dana White</b> anunciaría en televisión que lo echaba de la organización.</p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/tuUgl2gldCE?si=hag_ci57BA5tj39K" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='tuUgl2gldCE' />
                     <h2>Rousimar Palhares es vetado (otra vez)</h2>
                     <p>Luego de la expulsión que sufrió de la UFC, Palhares entraría a la compañía <b>WSOF</b>, donde ya comenzaría con una advertencia por parte del dueño, que le pidió que se comportara de forma deportiva en los combates.</p>
                     <p>En esta compañía su primer pelea sería el 29 de marzo de 2014 por el título de peso Wélter, donde enfrentando a <b>Steve Carl</b> sería capaz de coronarse como campeón al vencerlo con una sumisión en el primer asalto. </p>
                     <p>Luego lo defendería con éxito ante el ex peleador de UFC <b>Jon Fitch</b> a quien sometería en el primer asalto. Sin embargo, sucedería otra vez, en su tercer pelea en la compañía, defendiendo su título, se enfrentaría al también ex luchador de UFC <b>Jake Shields</b>, a quien en el tercer asalto lograría someter con un kimura, pero de nuevo, ignoró el tapeo de su rival y mantuvo la técnica una peligrosa cantidad de tiempo.</p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/lldoh3f8kFs?si=7PY4RiGoVCaE7iSn" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='lldoh3f8kFs' />
                     <p>Por esta acción, a Palhares se lo despojaría de su título y recibiría una sanción por tiempo indefinido. Lo que significaba que otra vez, lo habían vetado de una compañía de artes marciales mixtas.</p>
                     <h2>La Caída de Palhares</h2>
                     <p>Desde entonces la carrera de Palhares sólo iría en caída libre. Perdiendo su siguiente combate por el título de otra promotora contra <b>Emil Weber Meek</b>, quien lo dejó KO en 45 segundos.</p>

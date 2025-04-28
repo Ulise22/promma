@@ -5,6 +5,7 @@ import Link from 'next/link'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/articulos/0-100/20-30/movimientos_prohibidos_ufc.jpg'
+import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
@@ -62,7 +63,7 @@ export default function MovimientosProhibidosUFC () {
                     <p>Sí, se pueden hacer cosquillas a un peleador de UFC debido a que no es ilegal hacer cosquillas a tu oponente en un combate de UFC, ya que no existe ninguna parte del reglamento que prohíba específicamente este comportamiento.</p>
                     <p>Sin embargo, de más está decir que se vería muy poco profesional que un luchador se comportara de esta forma, y que por tanto esa es la razón por la que no haya habido ningún caso, en la UFC al menos, en el que un peleador haya recurrido a esta práctica. </p>
                     <p>También hay que mencionar, que debido a lo altamente entrenado que están todos los peleadores de UFC, es muy difícil pensar que sea una técnica realmente útil en un combate, debido a que lo más probable es que ni siquiera sientan nada en caso de que pasara.</p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/0DFp4_Obvjg?si=Dj4wHBkLk5zPkxp0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='0DFp4_Obvjg' />
                     <p>Otra cosa a tener en cuenta, es que existe la posibilidad de que, aunque no está prohibido, recibas un llamado de atención por parte del árbitro, si este considera que estás teniendo una actitud antideportiva, o si confunde las cosquillas con arañazos y pellizcos. Como ejemplo de casos similares en el pasado, en la pelea estelar por el campeonato de peso gallo de la UFC en el <Link href='/covertura-ufc/ufc306'>UFC Noche</Link>, organizado en septiembre de 2024, en medio de la pelea entre el campeón <Link href='/peleadores/sean-omalley'>Sean O’Malley</Link>, y el retador <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link>, este último estando por encima de la espalda de su rival, comenzó a darle besos en la espalda. Actitud que no fue bien recibida por su rival, y que llevó al árbitro a llamarle la atención al georgiano y a separarlos de la posición en la que estaban. A pesar, insisto, de que no está prohibido, sucedió porque puede ser visto como antideportivo. </p>
                     <EndArticle />
                 </article>

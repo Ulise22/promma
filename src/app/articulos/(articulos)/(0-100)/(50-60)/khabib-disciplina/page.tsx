@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/articulos/0-100/50-60/khabib_disciplina.jpg'
+import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
@@ -30,7 +31,7 @@ export default function KhabibDisciplina () {
                     <p>Una de las corrientes filosóficas que uno puede rápidamente asociar a campeones como Khabib, es el estoicismo, que el excampeón de peso ligero aplica diariamente e inculca en sus compañeros de gimnasio. </p>
                     <p>Es por eso que una de las reglas más importantes es la de no quejarse. Nadie te obliga a entrenar, ni a buscar ser un peleador profesional, o un campeón del mundo, eres libre de entrenar con él si es lo que deseas, o sino también tienes la posibilidad de irte a tu casa. Pero lo que Khabib no quiere es que estes para quejarte, si estás en el gimnasio es para entrenar duro, no para quejarte de que estás cansado, o de cualquier otra cosa. </p>
                     <p>En el canal de YouTube <b>Washed</b>, en el podcast “The Muslim Money Experts”, dijo: <b>“no matamos a nadie, no obligamos a nadie, si no quieres, está bien, vete... incluso ayer, estaba hablando porque era sábado y todos se estaban quejando de que estaban cansados. ¿Qué quieres? Toda la semana estuvimos trabajando duro, si para el final de la semana no estás cansado, ahí debes preocuparte por ti mismo”. </b></p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/JV9P_-3evpc?si=xGgtmMreytB8l0X1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='JV9P_-3evpc' />
                     <p><b>“Es sábado, estuviste trabajando toda la semana tan duro. Por supuesto que vas a estar cansado. Mañana descansas y el lunes vuelves a entrenar. Si no es lo que quieres, vuelve a Daguestán y quédate con tu mamá. Ella te va a dar todos los días un buen desayuno, no tienes que hacer nada, quédate ahí. Pero si quieres venir aquí, no te quejes. Quieres convertirte en el mejor, quieres ser campeón para luego quejarte de que estás cansado, ¿a quién le importa?”</b></p>
                     <p><b>“Si vas a ver una pelea, sólo te importa la pelea, ves como los peleadores hacen la caminata al octágono, como pelean, y se van. No ves el detrás de escena, no es asunto tuyo, a nadie le importa eso”.</b></p>
                     <p><b>“Ustedes sólo ven como peleamos y después se van. Y para eso tenemos que entrenar muy duro. Y si no quieres, avísanos y vuelve a Daguestán”. </b></p>

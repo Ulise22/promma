@@ -5,6 +5,7 @@ import Link from 'next/link'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/articulos/0-100/10-20/salarios_ufc.jpg'
+import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
@@ -43,7 +44,7 @@ export default function CuantoPagaUFC () {
                     <h2>Cuanto Gana un Campeón de UFC </h2>
                     <p>Finalmente, los campeones de UFC cobran el nivel más alto de salarios de la compañía, con el pago base siendo entre $500.000 y $3.000.000 por pelea, con la posibilidad de agrandar el pago en caso de llevarse la victoria, y también con la chance de ganar un bono de $50.000 extra.</p>
                     <p>Se puede cobrar estas sumas aún sin ser campeón, con el monto exacto dependiendo de la fama y popularidad del peleador. Figuras como <Link href='/peleadores/conor-mcgregor'>Conor McGregor</Link>, <Link href='/peleadores/israel-adesanya'>Israel Adesanya</Link>, <Link href='/peleadores/max-holloway'>Max Holloway</Link> o <Link href='/peleadores/sean-omalley'>Sean O’malley</Link> cobran estas cantidades, aún si ser campeones actualmente. </p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/GrOmEPoLk0w?si=rR2-XIlBNQIRAcZN" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='GrOmEPoLk0w' />
                     <p>La diferencia con los campeones, es que quienes poseen el cinturón de la compañía además del sueldo base más bonos, cobran un porcentaje de los PPV (Pago Por Visualización), donde el porcentaje que se quedan depende del peleador, y la cantidad que estos representen depende de qué tanto venda la pelea en la que participen. </p>
                     <p>Sumado a estas cantidades, los campeones de UFC suelen cobrar 10 más por los patrocinios que los peleadores novatos, llevándose un aproximado de $35.000 por patrocinadores. </p>
                     <h2>¿Cuanto Gana un Peleador de UFC Si Pierde?</h2>
