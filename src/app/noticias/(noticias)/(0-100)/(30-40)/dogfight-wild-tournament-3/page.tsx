@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/noticias/0-100/30-40/dwt3.jpg'
+import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
@@ -27,7 +28,7 @@ export default function DWT3 () {
                 <article className={styles.article}>
                     <p>Comienza el Dogfight Wild Tournament 3 (DWT 3), en lo que será una locura de evento de MMA, organizado en España por el youtuber Jordi Wild. Donde tendremos todo tipo de combates, cada uno más sorprendete y bizarro que el anterior. Comenzando con una pelea a la vieja escuela, donde un peleador de Capoeira se enfrentará a uno de Muay Thai.</p>
                     <p>Además tendremos un combate femenino sin reglas, tendremos un combate medieval de MMA con luchadores usando armaduras antiguas, una pelea de 2 contra 2 en peso pesado con reglas especiales, tendremos una pelea de leyendas sin reglas, una pelea dentro de un coche, y el evento estelar, con un battle royal con 10 peleadores, donde se enfrentarán todos contra todos en un mismo combate. </p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/tOV2Gy9AQPg?si=qDvtQ-n4CADqdpQL" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='tOV2Gy9AQPg' />
                     <h2>Old School Fight (Capoeira vs Muay Thai)</h2>
                     <p>&quot;La Bomba&quot; consigue una espectacular victoria en representación del Muay Thai ante su rival de Capoeira, Giani, luego de haber dominado por completo la pelea en base a patadas al cuerpo y especialmente a la pierna izquierda de su oponente, que le hicieron mucho daño, llegando al punto en que el peleador de capoeira ya no podía mantenerse de pie. Finalmente, luego de una patada que derribaría a su rival, el representante de Muay Thai consiguió conenctar un golpe en la cabeza que haría que el árbitro parara la pelea, dándole la victoria por TKO en el segundo asalto.</p>
                     <h2>No Rules Fight (Yess Castro vs Yamila Sánchez)</h2>

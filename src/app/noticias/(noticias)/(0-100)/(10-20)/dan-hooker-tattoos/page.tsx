@@ -7,6 +7,7 @@ import Image from 'next/image'
 /* Images */
 import hero from '@/assets/noticias/0-100/10-20/dan_hooker_tattoos.jpg'
 import legsTattoos from '@/assets/noticias/insideArticle/dan_hooker_tattoos/hooker_leg_tattoo.jpeg'
+import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
@@ -30,7 +31,7 @@ export default function DanHookerTattoos () {
                     <p>Quien es una de las estrellas de la <Link href='/articulos/ufc'>UFC</Link>, con su increíble estilo de striking, ocupando al día de la fecha el puesto #11 en los rankings de peso ligero, <b>Dan Hooker</b>, en el último tiempo ha sorprendido a varios con el cambio físico que ha presentado, pasando de no tener ningún tatuaje en el cuerpo, a poco a poco estar llenándose de estos en menos de 2 años. </p>
                     <p>La razón a la que se debe tremendo cambio, según explicó él mismo en la rueda de prensa previa al <b>UFC 290 (<Link href='/peleadores/alexander-volkanovski'>Volkanovski</Link> vs Rodríguez)</b> donde enfrentó al estadounidense <b>Jailin Turner</b>, es por simple impulsividad.</p>
                     <p>Explicó que luego de un evento de UFC, tenía planeado volver a su país, Nueva Zelanda, pero que su vuelo se suspendió, terminó por viajar a <b>Gold Coast</b> en Australia, donde tenía un amigo que lo convenció de tatuarse. Fue entonces que se hizo un tatuaje que le ocupó toda la espalda (curioso como primer tatuaje). Para Dan Hooker tener un sólo tatuaje se vería tonto, asi que decidió necesitaba otro tatuaje, en principio uno pequeño, pero ni bien el tatuador comenzó a dibujar resultó que el tatuaje no era tan pequeño, y así es como terminó con la calabera que se le puede apreciar en el pecho.</p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/GRnJNVc6mrM?si=A2iYP5hEEKgDCPhG" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='GRnJNVc6mrM' />
                     <h2>Significado del Tutuaje en la Espalda de Dan Hooker</h2>
                     <p>El primero de los tatuajes que Hooker decidió hacerse en el cuerpo es el del Kabuto (el casco tradicional de la armadura japonesa) de un samurái. Este casco formaba una parte importante en el equipamiento de los samuráis, y dado la cantidad de textos y códigos reflejados en él, fue ganando un papel muy simbólico para quienes lo usaban.</p>
                     <p>Más allá del Kabuto, el tener un tatuaje relacionado a los samuráis simboliza valores como el honor, la justicia, el camino recto, la disciplina, la honestidad y la fuerza interior.</p>

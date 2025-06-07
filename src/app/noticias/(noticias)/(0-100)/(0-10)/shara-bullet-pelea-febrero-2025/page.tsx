@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/noticias/0-100/0-10/shara_bullet_feb_2025.jpg'
+import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
@@ -32,7 +33,7 @@ export default function SharaBulletPeleaFebrero2025 () {
                     <h2>1. Israel Adesanya</h2>
                     <p> El primer nombre que suena, y quizás el menos probable de todos, es del excampeón de la división <Link href='/peleadores/israel-adesanya'>Israel Adesanya</Link>, que actualmente ocupa el puesto #2 en los rankings, y quien además viene de una derrota por el título de la división ante <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link>, luego de ser sometido en lo que fue la pelea estelar del <Link href='/covertura-ufc/ufc305'>UFC 305</Link>.</p>
                     <p>Al finalizar su última pelea ante Armen Petrosyan, en la entrevista post pelea, Shara llamó y pidió por una pelea ante el luchador nigeriano, argumentando ser el mejor striker de la división. Además de haber sido mencionado por su propio entrenador como una posibilidad. </p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/hvM3CFup_l0?si=tLY3BI2VVwOmLU43" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='hvM3CFup_l0' />
                     <h2>2. Paulo Costa</h2>
                     <p>Otra de las posibilidades que sonó bastante en la última semana, es la de que pueda enfrentar al brasileño <b>Paulo Costa</b>, que actualmente está en el puesto #11 de la división, y que viene de una derrota por decisión dividida ante el excampeón <Link href='/peleadores/sean-strickland'>Sean Strickland</Link>. Esta pelea suena especialmente a una petición de muchos fans, pero que llegó incluso a que el mismo Paulo Costa a través de sus redes sociales se haga eco de esto, dando la sensación de que no está negado a la posibilidad de enfrentar al pirata ruso. En sus redes sociales, junto a una foto que lo tenía a él y a Shara como protagonistas, escribió: <b>“¿De verdad quieren ver esto?”</b></p>
                     <blockquote className={`${styles.article__twitter__quote} twitter-tweet`}><p lang="en" dir="ltr">Are u guys really wanting to see this ? <a href="https://t.co/C7XVIyIkSC">pic.twitter.com/C7XVIyIkSC</a></p>&mdash; Paulo Costa ( Borrachinha ) (@BorrachinhaMMA) <a href="https://twitter.com/BorrachinhaMMA/status/1851545797977858415?ref_src=twsrc%5Etfw">October 30, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" ></script>

@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/noticias/0-100/0-10/peleadores_espanoles_ufc.jpg'
+import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
@@ -31,7 +32,7 @@ export default function PeleadoresEspanolesUFC () {
                     <h2>1. Ilia Topuria</h2>
                     <p>El más popular y por el momento el más exitoso de todos los españoles, es el actual campeón de peso pluma de la UFC, <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link>. Quien a pesar de haber nacido en Alemania y de ser hijo de padres georgianos, desde los 15 años que vive en España, habiendo recibido la nacionalidad del país, y se ha adaptado de tal manera que ya es un español más, hablando perfectamente el idioma y eligiendo representarlo a donde va. </p>
                     <p>Logró un hito en el deporte al convertirse en el quinto campeón de toda la historia el día 17 de febrero de 2024 en el <Link href='/covertura-ufc/ufc298'>UFC 298</Link>, al noquear al histórico y entonces campeón <Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link> en el segundo asalto de la pelea, siendo este un peleado que jamás había perdido en la categoría de 145lbs de la UFC. </p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/EQL0U5F6JKA?si=cRMzOJVy4k8uCRRg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='EQL0U5F6JKA' />
                     <p>Desde entonces es el campeón y ha logrado otro hito más recientemente cuando el <Link href='/covertura-ufc/ufc308'>UFC 308</Link>, celebrado el 26 de octubre en Abu Dhabi, se convirtió en el primer luchador en noquear al excampeón <Link href='/peleadores/max-holloway'>Max Holloway</Link>, consiguiendo esto en el tercer asalto de la pelea. </p>
                     <h2>2. Aleksandre Topuria</h2>
                     <p>Otro que más recientemente se unió a la compañía es el hermano de Ilia, Aleksandre Topuria, quien al igual que este nació en Alemania, pero se nacionalizó español y es representante de este país. </p>
@@ -43,13 +44,13 @@ export default function PeleadoresEspanolesUFC () {
                     <p>Actualmente se encuentra con una racha de victorias consecutivas, luego de sufrir una derrota ante <Link href='/peleadores/arman-tsarukyan'>Arman Tsarukyan</Link>, un récord de 21-3 (con todas sus victorias siendo por finalización), y estando a un paso de ser un luchador ranqueado de una de las divisiones más duras de la UFC actualmente. </p>
                     <h2>4. Daniel Barez</h2>
                     <p><b>Daniel Bárez Martínez</b> es uno de los luchadores de España que más recientemente se unió al roster de la UFC, contando con tan sólo 2 peleas en la compañía, siendo la primera de estas una derrota por sumisión ante el brasileño <b>Jafel Filho</b>, en julio de 2023, y la más reciente una merecida victoria ante el mexicano <b>Víctor Altamirano</b>, a quien derrotó por decisión unánime el 28 de septiembre de 2024 en el <Link href='/covertura-ufc/fight-night-moicano-saintdenis'>UFC Fight Night: Moicano vs. Saint Denis</Link>.</p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/RaArEscPyDY?si=3xBtRq6DUaSLTsm2" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='RaArEscPyDY' />
                     <p>Daniel es un luchador de peso mosca de 36 años, que nació en el municipio de Burjasot, Valencia, y es luchador profesional desde noviembre de 2012, cuando debutaría ante su compatriota Andoni Sorando, sometiendo a este en el primer asalto. Actualmente posee un récord profesional en MMA de 17-6, con 7 de sus victorias siendo por la vía del nocaut, 6 por la vía de la sumisión, y sólo 4 de sus victorias siendo por decisión. </p>
                     <h2>5. Chris Barnett</h2>
                     <p>Por último, debemos hablar del luchador de peso pesado <b>Chris Barnett</b>, quien nació en Zaragoza, España, pero es hijo de un padre estadounidense, quien fue capitán de la Fuerza Aérea de los Estados Unidos, y que en la época en que Barnett nació estaba destinado en la Base Aérea de Zaragoza.</p>
                     <p>Barnett viviría en esta zona hasta los 6 años, cuando se mudaría a los Estados Unidos, donde viviría desde entonces. </p>
                     <p>Posee un récord profesional de 23-9, siendo 18 de sus victorias por la vía del nocaut y 5 por la vía de la decisión. Hizo su debut en la UFC en mayo de 2021, cayendo derrotado por sumisión ante <b>Ben Rothwell</b>. Desde entonces pelearía 5 combates en la compañía, perdiendo 3 y ganando 2, siendo la más reciente de sus peleas la que tuvo en el <Link href='/covertura-ufc/ufc308'>UFC 308</Link> en octubre de este año, enfrentando al nigeriano <b>Kennedy Nzechukwu</b>, contra quien caería derrotado por TKO en el primer asalto. </p>
-                    <iframe className={styles.article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/7U5-KsT6_EA?si=mEIBs2EflqxYOita" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <YouTubeEmbed videoid='7U5-KsT6_EA' />
                     <EndArticle />
                 </article>
                 <AsideChamps />
