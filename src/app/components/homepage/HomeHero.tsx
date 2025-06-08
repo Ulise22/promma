@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc314 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc314.webp'
+import ufc316 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc316.webp'
 import ufcBillonario from '@/assets/noticias/0-100/20-30/ufc_busca_millonada.jpg'
 import pimblettNextFight2025 from '@/assets/noticias/0-100/30-40/pimblett_nextfight2025.jpg'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc314'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc314} alt='UFC México: ¡Brandon Moreno vs Steve Erceg!' />
-                <h2 className={styles.home__title}>UFC 314: ¡Alexander Volkanovski Derrota a Diego Lopes y es el Nuevo Campeón de Peso Pluma de la UFC!</h2>
-                <span>¡Paddy Pimblett Noquea a Michael Chandler en el Tercer Asalto! ¡Jean Silva Somete a Bryce Mitchell en el Segundo Asalto de la pelea!</span>
+            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc316'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc316} alt='' />
+                <h2 className={styles.home__title}>UFC 316: ¡Sean O&apos;Malley vs Merab Dvalishvili! ¡Juliana Peña vs Kayla Harrison!</h2>
+                <span>¡Vicente Luque vs Kevin Holland! ¡Bruno Silva vs Joshua Van!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
                 <Image className={styles.homehero__article__img} quality={50} src={ufcBillonario} alt='' />

@@ -19,6 +19,7 @@ import ufc310 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc310.jpg'
 import ufc311 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc311.jpg'
 /* 15-30 */
 import ufc312 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc312.jpg'
+import ufc314 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc314.webp'
 /* UFC FIGHT NIGHT IMAGES */
 import whittakerVSaliskerov from '@/assets/covertura_ufc/fight_night/0-100/0-15/whittaker-vs-aliskerov.jpg'
 import lewisVsNascimento from '@/assets/covertura_ufc/fight_night/0-100/0-15/lewis-vs-nascimento-preview.jpg'
@@ -41,6 +42,7 @@ export default function CoverturaUFC () {
         <main className={styles.covertura__container}>
             <h2 className={styles.covertura__subtitle}>UFC Numerado</h2>
             <section className={styles.covertura__articles__container}>
+                <ArticlePreview img={ufc314} url='/covertura-ufc/ufc314' title='UFC 314: ¡Alexander Volkanovski Derrota a Diego Lopes y es el Nuevo Campeón de Peso Pluma de la UFC!' author={null} text='¡Paddy Pimblett Noquea a Michael Chandler en el Tercer Asalto! ¡Jean Silva Somete a Bryce Mitchell en el Segundo Asalto de la pelea!' date='14/04/2025' />
                 <ArticlePreview img={ufc312} url='/covertura-ufc/ufc312' title='UFC 312: ¡Dricus Du Plessis Derrota a Sean Strickland y Retiene el Cinturón de Peso Mediano!' author={null} text='¡Aleksandre Topuria debuta con victoria ante ante Colby Thicknesse! ¡Zhang Weili derrota a Tatiana Suarez y retiene su cinturón!' date='08/02/2025' />
                 <ArticlePreview img={ufc311} url='/covertura-ufc/ufc311' title='UFC 311: ¡Islam Makhachev Somete a Renato Moicano en el Primer Asalto! ¡Merab Dvalishvili Derrota a Umar Nurmagomedov y Retiene Cinturón de Peso Gallo!' author={null} text='Ailín Pérez logra una victoria por decisión unánime ante Karol Rosa y se Mete en el top 10. Jailton Almeida gana por nocaut a Spivac. Jiri Prochazka Noquea a Jamahal Hill.' date='18/01/2025' />
                 <ArticlePreview img={ufc310} url='/covertura-ufc/ufc310' title='UFC 310: ¡Alexandre Pantoja vs Kai Asakura por el Campeonato de Peso Mosca de UFC! ¡Shavkat Rakhmonov vs Ian Garry!' author={null} text='Movsar Evloev Gana su Pelea por Decisión. Vicente Luque Logra una Victoria por Sumisión en el Primer Asalto. Además Dominick Reyes Derrota a Anthony Smith por TKO en el Segundo Asalto' date='09/12/2024' />
