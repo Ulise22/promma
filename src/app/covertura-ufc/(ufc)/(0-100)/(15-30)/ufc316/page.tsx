@@ -39,6 +39,8 @@ export default function UFC312 () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Kevin Holland Somete a Vicente Luque en el Segundo Asalto</h2>
                     <p>El estadounidense Kevin Holland logra una espectacular victoria ante el histórico luchador latinoamericano <b>Vicente Luque</b>, al someterlo con una anaconda choke en el segundo asalto de la pelea, consiguiendo de esta manera la primer sumisión de la noche. </p>
+                    <h2>Mario Bautista Derrota a Patchy Mix Por Decisión Unánime</h2>
+                    <p>El #10 de la división de peso gallo, logra una gran victoria por la vía de la decisión unánime, y da la bienvenida de esta manera a <b>Patchy Mix</b>, quien estaba haciendo su debut en la UFC, luego de haber sido campeón de Bellator hace pocos años. La pelea fue completemente dominada por Bautista, quien le demostró a Patchy Mix que la diferencia entre los peleadores de la UFC y el resto de compañías es abismal. De esta manera, Mario Bautista logra hilar su octava victoria consecutiva en la compañía. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
