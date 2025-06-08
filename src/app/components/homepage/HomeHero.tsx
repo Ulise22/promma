@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc316'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc316} alt='' />
-                <h2 className={styles.home__title}>UFC 316: ¡Sean O&apos;Malley vs Merab Dvalishvili! ¡Kayla Harrison Somete a Julianna Peña en el Segundo Asalto!</h2>
+                <h2 className={styles.home__title}>UFC 316: ¡Merab Dvalishvili Somete a Sean O&apos;Malley en el Primer Asalto! ¡Kayla Harrison Somete a Julianna Peña en el Segundo Asalto!</h2>
                 <span>¡Kevin Holland Somete a Vicente Luque en el Segundo Asalto de la Pelea!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
