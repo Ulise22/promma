@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function UFC312 () {
     return(
         <main>
-            <ArticleHero title="UFC 316: ¡Sean O'Malley vs Merab Dvalishvili! ¡Julianna Peña vs Kayla Harrison!" subtitle='¡Kevin Holland Somete a Vicente Luque en el Segundo Asalto de la Pelea!' image={hero} date='2025-06-07' author={null} updatedDate='2024-06-08' />
+            <ArticleHero title="UFC 316: ¡Sean O'Malley vs Merab Dvalishvili! ¡Kayla Harrison Somete a Julianna Peña en el Segundo Asalto!" subtitle='¡Kevin Holland Somete a Vicente Luque en el Segundo Asalto de la Pelea!' image={hero} date='2025-06-07' author={null} updatedDate='2024-06-08' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tremendo evento de UFC que tenemos esta noche en New Jersey, encabezado por el campeón de peso gallo <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link>, quien defenderá por segunda vez en el año su cinturón ante el excampeón <Link href='/peleadores/sean-omalley'>Sean O&apos;Malley</Link>, luego de lograr exitosamente retener el cinturón en el <Link href='/covertura-ufc/ufc311'>UFC 311</Link> ante el daguestaní <Link href='/peleadores/umar-nurmagomedov'>Umar Numragomedov</Link>. </p>
@@ -43,6 +43,8 @@ export default function UFC312 () {
                     <p>El #10 de la división de peso gallo, logra una gran victoria por la vía de la decisión unánime, y da la bienvenida de esta manera a <b>Patchy Mix</b>, quien estaba haciendo su debut en la UFC, luego de haber sido campeón de Bellator hace pocos años. La pelea fue completemente dominada por Bautista, quien le demostró a Patchy Mix que la diferencia entre los peleadores de la UFC y el resto de compañías es abismal. De esta manera, Mario Bautista logra hilar su octava victoria consecutiva en la compañía. </p>
                     <h2>Joe Pyfer Derrota a Kelvin Gastelum</h2>
                     <p>Joe Pyfer consigue una meritoria victoria ante Kelvin Gastelum, luego de dominarlo y ganarle los primeros 2 asaltos de la pelea, en donde cerca estuvo de noquear a su rival, o al menos eso parecía, con un par de golpes que entraron con mucha potencia y que podrían haber desconectado a su oponente. En el tercer asalto fue cuando vimos la mejor cara de Kelvin Gastelum, sin embargo esto no alcanzó para cambiar el resultado de la pelea que nos dio a Pyfer como claro ganador. </p>
+                    <h2>Kayla Harrison Somete a Julianna Peña y es Nueva Campeona</h2>
+                    <p>La estadounidense y doble medallista olímpica, <Link href='/mujeres/kayla-harrison'>Kayla Harrison</Link>, logra algo histórico y se convierte en campeona de peso gallo femenino al someter con un kimura a su rival de origen venezolano, <Link href='/mujeres/julianna-pena'>Julianna Peña</Link>, cuando faltaban apenas 5 segundos para que terminara el segundo asalto de la pelea. De esta manera, la excampeona de PFL, logra conquistar también la UFC, y ya deja todo listo para una super pelea contra la mejor peleadora femenina de la historia, <Link href='/leyendas/amanda-nunes'>Amanda Nunes</Link>, quien luego de la pelea se subió al octágono para encararse con nuestra nueva campeona, dispuesta a abandonar el retiro con tal de hacer esta pelea realidad. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
