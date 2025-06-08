@@ -41,6 +41,8 @@ export default function UFC312 () {
                     <p>El estadounidense Kevin Holland logra una espectacular victoria ante el histórico luchador latinoamericano <b>Vicente Luque</b>, al someterlo con una anaconda choke en el segundo asalto de la pelea, consiguiendo de esta manera la primer sumisión de la noche. </p>
                     <h2>Mario Bautista Derrota a Patchy Mix Por Decisión Unánime</h2>
                     <p>El #10 de la división de peso gallo, logra una gran victoria por la vía de la decisión unánime, y da la bienvenida de esta manera a <b>Patchy Mix</b>, quien estaba haciendo su debut en la UFC, luego de haber sido campeón de Bellator hace pocos años. La pelea fue completemente dominada por Bautista, quien le demostró a Patchy Mix que la diferencia entre los peleadores de la UFC y el resto de compañías es abismal. De esta manera, Mario Bautista logra hilar su octava victoria consecutiva en la compañía. </p>
+                    <h2>Joe Pyfer Derrota a Kelvin Gastelum</h2>
+                    <p>Joe Pyfer consigue una meritoria victoria ante Kelvin Gastelum, luego de dominarlo y ganarle los primeros 2 asaltos de la pelea, en donde cerca estuvo de noquear a su rival, o al menos eso parecía, con un par de golpes que entraron con mucha potencia y que podrían haber desconectado a su oponente. En el tercer asalto fue cuando vimos la mejor cara de Kelvin Gastelum, sin embargo esto no alcanzó para cambiar el resultado de la pelea que nos dio a Pyfer como claro ganador. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
