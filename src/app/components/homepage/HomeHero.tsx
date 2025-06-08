@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc316'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc316} alt='' />
                 <h2 className={styles.home__title}>UFC 316: ¡Sean O&apos;Malley vs Merab Dvalishvili! ¡Juliana Peña vs Kayla Harrison!</h2>
-                <span>¡Vicente Luque vs Kevin Holland! ¡Bruno Silva vs Joshua Van!</span>
+                <span>¡Kevin Holland Somete a Vicente Luque en el Segundo Asalto de la Pelea!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
                 <Image className={styles.homehero__article__img} quality={50} src={ufcBillonario} alt='' />

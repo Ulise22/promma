@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function UFC312 () {
     return(
         <main>
-            <ArticleHero title="UFC 316: ¡Sean O'Malley vs Merab Dvalishvili! ¡Julianna Peña vs Kayla Harrison!" subtitle='¡Vicente Luque vs Kevin Holland! ¡Bruno Silva vs Joshua Van!' image={hero} date='2025-06-07' author={null} updatedDate='2024-06-08' />
+            <ArticleHero title="UFC 316: ¡Sean O'Malley vs Merab Dvalishvili! ¡Julianna Peña vs Kayla Harrison!" subtitle='¡Kevin Holland Somete a Vicente Luque en el Segundo Asalto de la Pelea!' image={hero} date='2025-06-07' author={null} updatedDate='2024-06-08' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tremendo evento de UFC que tenemos esta noche en New Jersey, encabezado por el campeón de peso gallo <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link>, quien defenderá por segunda vez en el año su cinturón ante el excampeón <Link href='/peleadores/sean-omalley'>Sean O&apos;Malley</Link>, luego de lograr exitosamente retener el cinturón en el <Link href='/covertura-ufc/ufc311'>UFC 311</Link> ante el daguestaní <Link href='/peleadores/umar-nurmagomedov'>Umar Numragomedov</Link>. </p>
@@ -36,9 +36,9 @@ export default function UFC312 () {
                     <p>El luchador ruso <b>Azamat Murzakanov</b>, actualmente #12 en la división de peso semipesado, logra mantener su invicto al conseguir derrotar al luchador brasileño <b>Brendson Ribeiro</b>, a quien venció por TKO en el primer asalto luego de conectar una buena mano que derribó a su rival, para posteriormente rematarlo con golpes a la cabeza que obligaron al árbitro a separarlos y dar por terminada la pelea. </p>
                     <h2>Joshua Van Noquea a Bruno Silva en el Tercer Asalto</h2>
                     <p><b>Joshua Van</b> consigue una increíble victoria por la vía del nocaut en el tercer asalto de la pelea ante el brasileño <b>Bruno Silva</b>, en lo que fue una amplia muestra de superioridad por parte del luchador de Myanmar, que con un striking de élite, fue capaz de dominar la pelea completamente, finalizando en el último asalto de la pelea. De esta manera, terminamos la cartelera preliminar con una gran pelea y una gran actuación por parte del luchador asiático. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Kevin Holland Somete a Vicente Luque en el Segundo Asalto</h2>
+                    <p>El estadounidense Kevin Holland logra una espectacular victoria ante el histórico luchador latinoamericano <b>Vicente Luque</b>, al someterlo con una anaconda choke en el segundo asalto de la pelea, consiguiendo de esta manera la primer sumisión de la noche. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
