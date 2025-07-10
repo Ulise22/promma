@@ -15,7 +15,8 @@
 }
 
 .articleHero__image {
-    height: auto;
+    object-fit: cover;
+    object-position: center;
 }
 
 .articleHero__info {
