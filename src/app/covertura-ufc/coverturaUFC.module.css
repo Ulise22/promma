@@ -1,5 +1,5 @@
 .covertura__container {
-    width: 80%;
+    max-width: 1200px;
     margin: 100px auto;
 }
 
@@ -15,7 +15,7 @@
     margin: 20px 0;
 }
 
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 1200px) {
     .covertura__container {
         width: 95%;
     }

@@ -1,5 +1,5 @@
 .articlesFooter {
-    width: 80%;
+    width: 1180px;
     margin: 50px auto;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .articlePreview {
-    width: 300px;
+    width: 280px;
     text-decoration: none;
     color: #fff;
 }
@@ -35,11 +35,13 @@
     text-align: center;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 1200px) {
     .articlesFooter {
-        width: 95%;
+        max-width: 95%;
     }
+}
 
+@media screen and (max-width: 660px) {
     .articlePreview {
         width: 100%;
         max-width: 300px;

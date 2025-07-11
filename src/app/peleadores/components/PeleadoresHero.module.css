@@ -1,13 +1,18 @@
 .hero{
-    height: 60vh;
     background-color: #F8F8F8;
-    overflow: hidden;
     color: #000;
+}
+
+.hero__container {
+    height: 60vh;
+    max-width: 1200px;
+    margin: 0 auto;
     display: grid;
-    gap: 30px;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    overflow: hidden;
 }
 
 .hero__info {
@@ -56,7 +61,7 @@
     margin-top: -100px;
 }
 
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 1200px) {
     .hero__image {
         height: 410px;
         width: fit-content;
@@ -64,7 +69,7 @@
 }
 
 @media screen and (max-width: 660px) {
-    .hero{
+    .hero__container{
         height: 80vh;
         justify-items: center;
         grid-template-columns: 1fr;

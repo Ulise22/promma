@@ -1,8 +1,7 @@
 .peleador__articles__container {
-    width: 95%;
+    max-width: 1200px;
     margin: 40px auto;
     display: flex;
-    justify-content: space-around;
 }
 
 .peleador__article {
@@ -22,7 +21,7 @@
     height: fit-content;
 }
 
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 1200px) {
     .peleador__articles__container {
         width: 90%;
     }

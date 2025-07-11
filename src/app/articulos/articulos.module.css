@@ -1,5 +1,5 @@
 .articulos {
-    width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -15,7 +15,7 @@
     padding: 10px 0;
 }
 
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 1200px) {
     .articulos {
         width: 95%;
     }

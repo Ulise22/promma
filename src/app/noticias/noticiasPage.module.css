@@ -79,7 +79,7 @@
 /* CONTAINER */
 
 .noticiaspage__container {
-    width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
     margin-top: 80px;
 }
@@ -99,7 +99,7 @@
     margin-top: 50px;
 }
 
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 1200px) {
     /* HERO */
 
     .noticiasHero {
