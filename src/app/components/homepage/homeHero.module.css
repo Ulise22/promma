@@ -69,7 +69,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 1200px) {
     .homehero {
         grid-template-areas: "big" 
                              "normal1"

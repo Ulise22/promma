@@ -1,5 +1,5 @@
 .home {
-  width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -125,7 +125,7 @@
   background-position: center;
 }
 
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 1200px) {
   .home {
     width: 95%;
   }

@@ -5,6 +5,11 @@
     margin-top: 20px;
 }
 
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
 .footer__title {
     padding: 20px;
     padding-bottom: 0;
@@ -59,7 +64,7 @@
     font-size: 12px;
 }
 
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 1200px) {
     .footer__container {
         flex-direction: column;
         gap: 0;
