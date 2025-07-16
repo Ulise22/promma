@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styles from './Footer.module.css'
 import fullmma from '@/assets/FULLMMA.png'
-import { faFacebook, faSquareXTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faSquareXTwitter, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 
@@ -44,6 +44,15 @@ export default function Footer () {
                             </li>
                             <li>
                                 <a target='_Blank' href='https://www.facebook.com/people/Fullmma/61565690940390/'> <FontAwesomeIcon icon={faFacebook} size='xl' /> </a>
+                            </li>
+                            <li>
+                                <a target='_Blank' href='https://www.instagram.com/fullmmarg/'> <FontAwesomeIcon icon={faInstagram} size='xl' /> </a>
+                            </li>
+                            <li>
+                                <a target='_Blank' href='https://www.tiktok.com/@fullmmarg'> <FontAwesomeIcon icon={faTiktok} size='xl' /> </a>
+                            </li>
+                            <li>
+                                <a target='_Blank' href='https://www.youtube.com/@Fullmmarg'> <FontAwesomeIcon icon={faYoutube} size='xl' /> </a>
                             </li>
                         </ul>
                     </div>
