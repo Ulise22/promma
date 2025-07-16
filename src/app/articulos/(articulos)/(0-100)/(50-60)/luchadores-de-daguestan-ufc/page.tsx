@@ -10,10 +10,10 @@ const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
-    title: 'Luchadores de Daguestán UFC',
+    title: 'Peleadores de Daguestán UFC',
     description: 'Los peleadores más destacados de Daguestán en UFC, y la lista de todos los peleadores daguestanís actuales de la UFC.',
     openGraph: {
-        title: 'Luchadores de Daguestán UFC',
+        title: 'Peleadores de Daguestán UFC',
         description: 'Los peleadores más destacados de Daguestán en UFC, y la lista de todos los peleadores daguestanís actuales de la UFC.',
         url: 'https://fullmma.org/articulos/luchadores-de-daguestan-ufc'
     }
@@ -22,10 +22,10 @@ export const metadata: Metadata = {
 export default function LuchadoresDaguestanUFC () {
     return(
         <main>
-            <ArticleHero title='Los Luchadores Más Destacados de Daguestán en la UFC' subtitle='Todos los luchadores de Daguestán que compiten actualmente en la UFC' image={hero} date='2025-01-31' author={null} updatedDate={null} />
+            <ArticleHero title='Los Peleadores Más Destacados de Daguestán en la UFC' subtitle='Todos los peleadores de Daguestán que compiten actualmente en la UFC' image={hero} date='2025-01-31' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
-                    <p>Que los luchadores de Daguestán en la UFC vienen dominando es un hecho. Desde hace tiempo, concretamente desde el ascenso de <Link href='/leyendas/khabib-nurmagomedov'>Khabib Nurmagomedov</Link>, que los peleadores provenientes de esta zona de Rusia, vienen destacando de sobremanera en las MMA, con actuaciones sobresalientes y dominantes sobre sus rivales, que poco pueden hacer ante su nivel de lucha.</p>
+                    <p>Que los peleadores de Daguestán en la UFC vienen dominando es un hecho. Desde hace tiempo, concretamente desde el ascenso de <Link href='/leyendas/khabib-nurmagomedov'>Khabib Nurmagomedov</Link>, que los peleadores provenientes de esta zona de Rusia, vienen destacando de sobremanera en las MMA, con actuaciones sobresalientes y dominantes sobre sus rivales, que poco pueden hacer ante su nivel de lucha.</p>
                     <p>Es por eso que hoy discutiremos sobre algunos de los peleadores más destacados que nos ha traído esta región a la UFC, además de enlistar a todos los peleadores que actualmente están en la compañía de artes marciales mixtas más grande del mundo.</p>
                     <h2>Los 3 Peleadores Más Destacados de Daguestán en la UFC</h2>
                     <p>Aunque como mencioné anteriormente, son muchos los peleadores de Daguestán que vienen dominando en la UFC, quiero destacar a 3 que por méritos propios se diferencian de los demás, mostrando una superioridad pocas veces vista en luchadores de este calibre. </p>

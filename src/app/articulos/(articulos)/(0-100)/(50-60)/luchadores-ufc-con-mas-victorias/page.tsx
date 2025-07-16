@@ -11,11 +11,11 @@ const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
-    title: 'Luchadores de UFC Con Más Victorias',
-    description: 'La lista de los 10 luchadores de UFC con más victorias en la historia de la compañía, desde Jon Jones, Max Holloway, Dustin Poirier, etc.',
+    title: 'Peleadores de UFC Con Más Victorias',
+    description: 'La lista de los 10 peleadores de UFC con más victorias en la historia de la compañía, desde Jon Jones, Max Holloway, Dustin Poirier, etc.',
     openGraph: {
         title: 'Luchadores de UFC Con Más Victorias',
-        description: 'La lista de los 10 luchadores de UFC con más victorias en la historia de la compañía, desde Jon Jones, Max Holloway, Dustin Poirier, etc.',
+        description: 'La lista de los 10 peleadores de UFC con más victorias en la historia de la compañía, desde Jon Jones, Max Holloway, Dustin Poirier, etc.',
         url: 'https://fullmma.org/articulos/luchadores-ufc-con-mas-victorias'
     }
 }
@@ -23,10 +23,10 @@ export const metadata: Metadata = {
 export default function LuchadoresConMasVictoriasUFC () {
     return(
         <main>
-            <ArticleHero title='Los 10 Peleadores Con Más Victorias en la Historia de la UFC' subtitle='Los Luchadores de UFC Con Más Victorias en la Historia de la Compañía.' image={hero} date='2025-02-05' author={null} updatedDate={null} />
+            <ArticleHero title='Los 10 Peleadores Con Más Victorias en la Historia de la UFC' subtitle='Los Peleadores de UFC Con Más Victorias en la Historia de la Compañía.' image={hero} date='2025-02-05' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
-                    <p>Ser uno de los luchadores de UFC con más victorias debe ser de las cosas más difíciles que hay, debido a que el solo hecho de competir en la UFC signífica que estás en la elite de los peleadores de MMA. Por lo que tus rivales son de igual o mayor nivel, debido a esto, el alcanza un alto número de victorias, requiere de que seas muy bueno en lo que haces, y de que lleves una cantidad de años peleando al más alto nivel anormal para cualquier peleador. Por eso hoy repasaremos a la lista de 10 peleadores que más victorias han obtenido en la historia de la UFC. </p>
+                    <p>Ser uno de los peleadores de UFC con más victorias debe ser de las cosas más difíciles que hay, debido a que el solo hecho de competir en la UFC signífica que estás en la elite de los peleadores de MMA. Por lo que tus rivales son de igual o mayor nivel, debido a esto, el alcanza un alto número de victorias, requiere de que seas muy bueno en lo que haces, y de que lleves una cantidad de años peleando al más alto nivel anormal para cualquier peleador. Por eso hoy repasaremos a la lista de 10 peleadores que más victorias han obtenido en la historia de la UFC. </p>
                     <h2>10. Rafael Dos Anjos</h2>
                     <ul>
                         <li>Victorias: 21</li>
@@ -115,7 +115,7 @@ export default function LuchadoresConMasVictoriasUFC () {
                     </ul>
                     <p>Otro de los peleadores más queridos por el público y que forma parte de esta lista, es el brasileño excampeón de peso ligero <Link href='/peleadores/charles-oliveira'>Charles Oliveira</Link>, quien intercalando sus peleas entre peso pluma y peso ligero, consiguió un total de 23 victorias en la UFC, siendo la última la obtenida ante <Link href='/peleadores/michael-chandler'>Michael Chandler</Link> en el <Link href='/covertura-ufc/ufc309'>UFC 309</Link>. </p>
                     <YouTubeEmbed videoid='nh80a_lKljU' />
-                    <h2>1. Jim Miller</h2>
+                    <h2>1. Jim Miller: El Peleadores con Más Victorias en UFC</h2>
                     <ul>
                         <li>Victorias: 27</li>
                         <li>Récord Profesional: 38-18 (1)</li>

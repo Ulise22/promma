@@ -11,23 +11,24 @@ const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
-    title: 'Cómo Llegar a la UFC en 5 Pasos',
+    title: 'Cómo Llegar a la UFC',
     description: ' Descubre los 5 pasos esenciales para llegar a la UFC. Aprende cómo entrenar, construir un récord y captar la atención de los promotores. ¡Comienza tu camino hoy!',
     openGraph: {
-        title: 'Cómo Llegar a la UFC en 5 Pasos',
+        title: 'Cómo Llegar a la UFC',
         description: ' Descubre los 5 pasos esenciales para llegar a la UFC. Aprende cómo entrenar, construir un récord y captar la atención de los promotores. ¡Comienza tu camino hoy!',
-        url: 'https://fullmma.org/articulos/llegar-a-la-ufc-5-pasos'
+        url: 'https://fullmma.org/articulos/llegar-a-la-ufc'
     }
 }
 
 export default function LlegarAUFC5Pasos () {
     return(
         <main>
-            <ArticleHero title='Descubre como llegar a pelear en la UFC en 5 pasos' subtitle='Convierte tu sueño en realidad: Sigue estos 5 pasos para llegar a la UFC y ser un peleador profesional' image={hero} date='2025-01-24' author={null} updatedDate={null} />
+            <ArticleHero title='Descubre Como Llegar a la UFC en 5 pasos' subtitle='Convierte tu sueño en realidad: Sigue estos 5 pasos para llegar a la UFC y ser un peleador profesional' image={hero} date='2025-01-24' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
-                    <h2>Cómo llegar a ser Peleador de la UFC</h2>
-                    <p>Cabe aclarar que, si bien no existe una fórmula matemática exacta para cumplir este objetivo, lo cierto es que desde que comencé este proyecto en FULLMMA, me dediqué a estudiar y a cubrir la carrera e historia de vida de un montón de luchadores. Aprendiendo cómo fue su historia para llegar a la élite de las MMA, siguiendo el recorrido por el que estos luchadores tuvieron que pasar. Y es en base a eso, que pude identificar un patrón en cada uno de estos más de 50 peleadores que me tocó cubrir en este espacio. Por eso hoy, para todos aquellos interesados en iniciar una carrera en las MMA, y que quieren llegar a lo más alto de este deporte, voy a compartirles como llegar la a <Link href='/articulos/ufc'>UFC</Link> en 5 pasos. </p>
+                    <h2>Cómo llegar a pelear en la UFC</h2>
+                    <p>Para llegar a la UFC es necesario seguir el siguiente camino: 1. Comenzar a entrenar artes marciales (cualquiera realmente, aunque hoy en día ya se puede y es necesario entrenar MMA en su conjunto); 2. Comenzar a tener pelear amateur para ir ganando experiencia y comenzar a formar tu carrera como peleador; 3. Dar el salto profesional, competir en algún evento regional pero ya de manera profesionalizada; 4. Saltar a la esfera internacional, compitiendo en compañías más grandes buscando ganar atención para llegar a los ojos de la UFC; 5. Y finalmente captar la atención de la compañía de artes marciales mixtas más grande del mundo mediante el <b>DWCS</b>, el <b>TUF</b> o simplemente firmando un contrato directamente si es que tienes la suficiente suerte.</p>
+                    <p>Cabe aclarar que, si bien no existe una fórmula matemática exacta para entrar a la UFC, lo cierto es que desde que comencé este proyecto en FULLMMA, me dediqué a estudiar y a cubrir la carrera e historia de vida de un montón de luchadores. Aprendiendo cómo fue su historia para llegar a la élite de las MMA, siguiendo el recorrido por el que estos luchadores tuvieron que pasar. Y es en base a eso, que pude identificar un patrón en cada uno de estos más de 50 peleadores que me tocó cubrir en este espacio. Por eso hoy, para todos aquellos interesados en iniciar una carrera en las MMA, y que quieren llegar a lo más alto de este deporte, voy a compartirles como entrar a la <Link href='/articulos/ufc'>UFC</Link> en 5 pasos. </p>
                     <h2>1. Aprender y Comenzar a Entrenar Artes Marciales Mixtas</h2>
                     <p>Para comenzar tu camino hacia la UFC, es fundamental buscar un gimnasio especializado en artes marciales mixtas. Asegúrate de que cuente con entrenadores capacitados en disciplinas clave como jiu-jitsu, lucha, muay thai y boxeo, ya que estas son esenciales para convertirte en un peleador completo y aumentar tus posibilidades de pelear en la UFC. Afortunadamente es cada vez más común encontrar este tipo de gimnasios de lo que era hace unos años, por lo que esto no debería ser un problema si vives en una ciudad relativamente grande.</p>
                     <YouTubeEmbed videoid='B0TWsgqlSEk' />
