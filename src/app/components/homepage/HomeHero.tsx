@@ -4,7 +4,7 @@ import Image from 'next/image'
 /* IMAGES */
 import ufc316 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc316.webp'
 import ufcBillonario from '@/assets/noticias/0-100/20-30/ufc_busca_millonada.jpg'
-import pimblettNextFight2025 from '@/assets/noticias/0-100/30-40/pimblett_nextfight2025.jpg'
+import modeloUFC from '@/assets/noticias/0-100/30-40/modelo_ufc.webp'
 
 export default function HomeHero () {
     return(
@@ -25,14 +25,14 @@ export default function HomeHero () {
                     </div>
                 </article>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/paddy-pimblett-proxima-pelea-2025'>
-                <Image className={styles.homehero__article__img} quality={50} src={pimblettNextFight2025} alt='' />
+            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/modelo-de-ufc'>
+                <Image className={styles.homehero__article__img} quality={50} src={modeloUFC} alt='Islam Dulatov, el modelo de UFC' />
                 <article className={styles.homehero__article__container}>
-                    <h2 className={styles.homehero__title}>Próxima Pelea de Paddy Pimblett 2025: ¿Paddy Pimblett vs Michael Chandler?</h2>
-                    <p>Se acrecientan los rumores sobre la próxima pelea de Paddy Pimblett, con 2 rivales y 2 posibles ubicaciones para él, ¿Gamrot o Chandler? ¿UFC 314 o UFC 317 en el International Fight Week?</p>
+                    <h2 className={styles.homehero__title}>Islam Dulatov: El Modelo de UFC Que Debuta en el UFC 318</h2>
+                    <p>Conoce al alemán Islam Dulatov, que renunció a su exitosa carrera de modelo de Gucci y Hugo Boss para convertirse en peleador de MMA y debutar en la UFC.</p>
                     <div className={styles.homehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>15/02/2025</p>
+                        <p>17/07/2025</p>
                     </div>
                 </article>
             </Link>

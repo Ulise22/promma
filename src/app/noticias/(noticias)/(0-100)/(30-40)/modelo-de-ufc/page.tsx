@@ -12,10 +12,10 @@ const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Modelo de UFC',
-    description: "",
+    description: "Islam Dulatov, y como pasó de ser un exitoso modelo a convertirse en una de los peleadores más prometedores de la UFC.",
     openGraph: {
         title: 'Modelo de UFC',
-        description: "",
+        description: "Islam Dulatov, y como pasó de ser un exitoso modelo a convertirse en una de los peleadores más prometedores de la UFC.",
         url: 'https://fullmma.org/noticias/modelo-de-ufc'
     }
 }
