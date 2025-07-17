@@ -4,10 +4,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 import ArticlePreview from '../articulos/components/ArticlePreview';
 /* HERO IMAGES */
+import modeloUFC from '@/assets/noticias/0-100/30-40/modelo_ufc.webp'
 import DWT3 from '@/assets/noticias/0-100/30-40/dwt3.jpg'
 import terranceMcKinney from '@/assets/noticias/0-100/30-40/terrance_mckinney.jpg'
 import viniciusOliveira from '@/assets/noticias/0-100/30-40/vinicius_oliveira.jpg'
-import ufcBillonario from '@/assets/noticias/0-100/20-30/ufc_busca_millonada.jpg'
 import dariushPelea2025 from '@/assets/noticias/0-100/20-30/dariush_pelea2025.jpg'
 import previaUFC311 from '@/assets/noticias/0-100/20-30/previa_ufc311.jpg'
 import entrenamientoProchazka from '@/assets/noticias/0-100/20-30/prochazka_training.png'
@@ -40,6 +40,7 @@ import invictosUFC from '@/assets/noticias/0-100/20-30/invictos_ufc_2025.jpg'
 import iliaTopuriaLigero from '@/assets/noticias/0-100/20-30/ilia_topuria_georgia.jpg'
 import evloevPeleaTopuria from '@/assets/noticias/0-100/20-30/evloev_postfight.jpeg'
 import argUFC2024 from '@/assets/noticias/0-100/20-30/argentinos2024.jpg'
+import ufcBillonario from '@/assets/noticias/0-100/20-30/ufc_busca_millonada.jpg'
 /* 30 - 40 */
 
 
@@ -76,13 +77,14 @@ export default function NoticiasPage () {
                 </Link>
             </article>
             <article className={styles.noticiasHero__container}>
+                <ArticlePreview img={modeloUFC} url='/noticias/modelo-de-ufc' title='Islam Dulatov: El Modelo de UFC Que Debuta en el UFC 318' author={null} text='Conoce al alemán Islam Dulatov, que renunció a su exitosa carrera de modelo de Gucci y Hugo Boss para convertirse en peleador de MMA y debutar en la UFC.' date='17/07/2025' />
                 <ArticlePreview img={terranceMcKinney} url='/noticias/terrance-mckinney' title='Conoce a Terrance McKinney: El luchador estadounidense que estuvo cerca de morir y que terminó noqueando a un peleador en 7 segundos en su debut en UFC' author={null} text='Una de las historias más inspiradoras de las MMA, sobre cómo Terrance McKinney fue capaz de sobrevivir a una experiencia traumática, para convertirse en el peleador de UFC que fue capaz de noquear a su rival en 7 segundos. ' date='30/01/2025' />
                 <ArticlePreview img={viniciusOliveira} url='/noticias/vinicius-oliveira-ufc' title='¿Quién es Vinicius Oliveira? El brasileño con KOs espectaculares en la UFC' author={null} text='La historia y carrera del peleador de UFC brasileño Vinicius Oliveira.' date='29/01/2025' />
                 <ArticlePreview img={entrenamientoProchazka} url='/noticias/como-entrena-jiri-prochazka' title='¿Cómo Entrena Jiri Prochazka? El entrenamiento y preparación mental de Jiri Prochazka que incluye golpear 500 veces un árbol y 3 días encerrado sin luz ni comida para confrontar sus demonios. ' author={null} text='El loco y salvaje régimen de entrenamiento al que se somete el excampeón de peso semipesado, con su famosa preparación mental que incluye pasar 3 días encierrado a oscuras en una habitación con sólo agua. ' date='14/01/2025' />
-                <ArticlePreview img={ufcBillonario} url='/noticias/la-ufc-busca-contrato-billonario' title='La UFC Busca un Contrato Multimillonario de Mil Millones, Según Bloomberg, Por Sus Derechos Televisivos' author={null} text='Este año 2025 expira el contrato actual de la UFC con ESPN, por lo que la empresa de MMA más grande del planeta estaría buscando aumentar su contrato actual a uno de 10 cifras. ' date='15/01/2025' />
             </article>
             <h2 className={styles.noticiasPage__subtitle}>Todas Las Noticias</h2>
             <article className={styles.noticias}>
+                <ArticlePreview img={ufcBillonario} url='/noticias/la-ufc-busca-contrato-billonario' title='La UFC Busca un Contrato Multimillonario de Mil Millones, Según Bloomberg, Por Sus Derechos Televisivos' author={null} text='Este año 2025 expira el contrato actual de la UFC con ESPN, por lo que la empresa de MMA más grande del planeta estaría buscando aumentar su contrato actual a uno de 10 cifras. ' date='15/01/2025' />
                 <ArticlePreview img={previaUFC311} url='/noticias/previa-ufc-311' title='Previa UFC 311: Arman Tsarukyan Busca el Título de Peso Ligero en su Revancha Ante Islam Makhachev' author={null} text='¡El equipo Khabib protagonista! En una noche donde los cinturones de peso gallo y peso ligero estarán en juego en el UFC 311, con Merab Dvalishvi haciendo su primer defensa del título ante Umar Nurmagomedov' date='10/01/2025' />
                 <ArticlePreview img={predicciones2025} url='/noticias/predicciones-ufc-2025' title='Predicción UFC: Todos los campeones del 2025' author={null} text='Una predicción sobre quienes creo que serán los nuevos campeones para el final del año 2025' date='31/12/2024' />
                 <ArticlePreview img={invictosUFC} url='/noticias/peleadores-invictos-ufc' title='Los Peleadores Invictos de UFC en 2025' author={null} text='Los luchadores de UFC que terminaron el 2024 invictos y quienes serán capaces de mantenerlo en el 2025.' date='26/12/2024' />

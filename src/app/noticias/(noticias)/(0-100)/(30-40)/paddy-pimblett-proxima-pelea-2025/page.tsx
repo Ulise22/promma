@@ -34,10 +34,6 @@ export default function PaddyPimblettNextFight2025 () {
                     <YouTubeEmbed videoid='RCBE9AQ3buo' />
                     <p>Lo que quedaría por ver es la fecha, sobre lo que también hay varios rumores, pero de todo lo que se puede especular hay una opción que luce más probable que el resto, siendo los que sitúan su próximo combate en abril de este año, en el UFC 314 que se va a organizar en Miami. Se debe especialmente a una publicación de Instagram del luchador inglés en la que da a entender esto, afirmando que no puede esperar para dar un show al público pronto. </p>
                     <blockquote className={`${styles.article__twitter__quote} twitter-tweet`}><p lang="en" dir="ltr">🚨| Paddy Pimblett confirms he will return at <a href="https://twitter.com/hashtag/UFC314?src=hash&amp;ref_src=twsrc%5Etfw">#UFC314</a> in Miami on April 12th. 🏝️ <a href="https://t.co/io71Odsq75">pic.twitter.com/io71Odsq75</a></p>&mdash; MMA Orbit (@mma_orbit) <a href="https://twitter.com/mma_orbit/status/1890476630688108857?ref_src=twsrc%5Etfw">February 14, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" ></script>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
