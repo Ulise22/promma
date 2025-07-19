@@ -11,10 +11,11 @@ const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'UFC 318: ¡Dustin Poirier vs Max Holloway!',
-    description: "",
+    description: "Pelea por el cinturón BMF en el UFC 318 entre Max Holloway y Dustin Poirier en su pelea de retirada.",
     openGraph: {
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc318.a2b54185.webp&w=640&q=75',
         title: 'UFC 318: ¡Dustin Poirier vs Max Holloway!',
-        description: "",
+        description: "Pelea por el cinturón BMF en el UFC 318 entre Max Holloway y Dustin Poirier en su pelea de retirada.",
         url: 'https://fullmma.org/covertura-ufc/ufc318'
     }
 }
@@ -30,6 +31,8 @@ export default function UFC318 () {
                     <h2 className={styles.article__fightsHierarchy}>Primeros Preliminares</h2>
                     <h2>Carli Judice Noquea a Nicolle Caliari en el tercer asalto</h2>
                     <p>La peleadores estadounidense consigue una impresionante victoria por TKO en el tercer asalto de la pelea, luego de dominar completamente el combate con su striking a su rival brasileña. Producto de la acumulación de golpes conseguida en el primer y segundo asalto, en el tercero sólo le hice falta un rodillazo al hígado para derribar a su rival y finalmente rematar en el suelo, culminando esta primer pelea de la cartelera de la mejor manera, con un nocaut que le permite sumar su segunda victoria consecutiva a la peleadora estadounidense. </p>
+                    <h2>Bruno Ferreira Somete a Jackson Mcvey en el Primer Asalto</h2>
+                    <p>El brasileño &quot;The Hulk&quot; consigue una excelente victoria por la vía de la sumisión en el primer asalto, luego de conectar un armbar que obligaría a su rival a tapear. De esta manera Bruno Ferreira le quita el invicto de 6-0 a su rival, el estadounidense Jackson Mcvey, quien estaba haciendo su debut en la UFC y que había llegado a la compañía sin perder ni una sola pelea. Tremendo inicio del UFC 318 que hasta ahora nos deja con 2/2 finalizaciones. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p>
