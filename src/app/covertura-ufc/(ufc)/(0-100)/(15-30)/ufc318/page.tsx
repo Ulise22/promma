@@ -35,6 +35,8 @@ export default function UFC318 () {
                     <p>El brasileño &quot;The Hulk&quot; consigue una excelente victoria por la vía de la sumisión en el primer asalto, luego de conectar un armbar que obligaría a su rival a tapear. De esta manera Bruno Ferreira le quita el invicto de 6-0 a su rival, el estadounidense Jackson Mcvey, quien estaba haciendo su debut en la UFC y que había llegado a la compañía sin perder ni una sola pelea. Tremendo inicio del UFC 318 que hasta ahora nos deja con 2/2 finalizaciones. </p>
                     <h2>Ryan Spann Somete con una Guillotina a Lukasz Brzeski en el Primer Asalto</h2>
                     <p>El estadounidense Ryan Spann consigue la tercer finalización de la noche al conectar una guillotina en el primer asalto que obligó a su rival a tapear. Logrando de esta manera la victoria número 23 de su carrera con 33 años, para seguir progresando en la división de peso pesado. Por su parte, el polaco Lukasz Brzeski obtiene su tercer derrota seguida, siendo finalizado en las 3 peleas en el primer asalto, complicando su continuidad en la compañía. </p>
+                    <h2>Jimmy Crute Somete a Marcin Prachnio con un Armbar en el Primer Asalto</h2>
+                    <p>Cuarta finalización, tercer sumisión y segundo armbar de la noche por parte del australiano Jimmy Crute, que fue capaz de lograr en apenas el primer asalto de la pelea ante el polaco Marcin Prachnio. De esta forma, vamos 4/4 en cuanto a finalizaciones en este histórico UFC318. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p>
