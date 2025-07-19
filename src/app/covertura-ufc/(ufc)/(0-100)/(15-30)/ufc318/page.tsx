@@ -37,6 +37,8 @@ export default function UFC318 () {
                     <p>El estadounidense Ryan Spann consigue la tercer finalización de la noche al conectar una guillotina en el primer asalto que obligó a su rival a tapear. Logrando de esta manera la victoria número 23 de su carrera con 33 años, para seguir progresando en la división de peso pesado. Por su parte, el polaco Lukasz Brzeski obtiene su tercer derrota seguida, siendo finalizado en las 3 peleas en el primer asalto, complicando su continuidad en la compañía. </p>
                     <h2>Jimmy Crute Somete a Marcin Prachnio con un Armbar en el Primer Asalto</h2>
                     <p>Cuarta finalización, tercer sumisión y segundo armbar de la noche por parte del australiano Jimmy Crute, que fue capaz de lograr en apenas el primer asalto de la pelea ante el polaco Marcin Prachnio. De esta forma, vamos 4/4 en cuanto a finalizaciones en este histórico UFC318. </p>
+                    <h2>Islam Dulatov Debuta con Nocaut ante Adam Fugitt</h2>
+                    <p>El alemán Islam Dulatov, el <Link href='/noticias/modelo-de-ufc'>Modelo de la UFC</Link> debuta de la mejor manera en la compañía de artes marciales mixtas más grande del mundo, al luego de mostrarse bastante sobrado en el striking, ser capaz de conectar unos golpes que tumbarían a su rival, para finalmente rematarlo en el suelo llevando <Link href='/articulos/arbitro-de-ufc-con-barba'>Mike Beltrán</Link> a separarlos para darle la victoria por TKO en el primer asalto, y finalizar estas primeras peleas preliminares con un registro de 5 finalizaciones en 5 peleas. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p>
