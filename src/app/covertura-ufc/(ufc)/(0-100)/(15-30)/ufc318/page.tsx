@@ -42,6 +42,8 @@ export default function UFC318 () {
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2>Ateba Gautier Noquea a Robert Valentin en el Primer Asalto</h2>
                     <p>El peleador de Camerún logra una espectacular victoria por TKO en el primer asalto de la pelea, en poco más de 1 minuto. Consiguiendo de esta manera su segundo victoria consecutiva en la compañía por nocaut en el primer asalto, demostrando un poder en las manos que pocos peleadores de peso medio comparten. Seguimos en racha en esta cartelera con 6 finalizaciones en 6 peleas.</p>
+                    <h2>Nikolay Veretennikov Gana por Decisión Dividida al Argentino Francisco Prado</h2>
+                    <p>El luchador de Kazajistán se lleva la victoria en la primer pelea en llegar a decisión de la noche, luego de hacer un muy buen primer asalto donde fue superior a su rival argentino. Aunque a medida que pasaba la pelea se fue igualando, con un Francisco Prado yendo a más cada vez, dando un mejor desempeño en el segundo y el tercer asalto, finalmente no fue suficiente para convencer a 2 de los 3 jueces que dieron como ganador al kazajo en lo que fue una gran pelea de ambos. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
