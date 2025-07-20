@@ -51,6 +51,8 @@ export default function UFC318 () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Michael Johnson Derrota a Daniel Zellhuber por Decisión Unánime</h2>
                     <p>El estadounidense se impone por sobre el mexicano en esta primer pelea de la cartelera estelar, luego de dominar la mayor parte del combate, al conectar un mayor volumen de golpes que le ayudaron a puntuar para terminar llevándose la pelea ante un Daniel Zellhuber que aunque parecía tener más fuerza en sus golpes, lo cierto es que conectó bastante menos que su rival, y que terminó por lanzar un montón de patadas a la cabeza que siempre eran bien bloqueadas por Johnson. Por lo que este primer combate de la cartelera estelar termina en victoria por decisión unánime para el estadounidense. </p>
+                    <h2>Patricio Pitbull derrota a Dan Ige por Decisión Unánime</h2>
+                    <p>Excelente victoria para el brasileño <b>Patricio Pitbull</b>, excampeón de peso pluma en Bellator, que consigue su primer victoria en la UFC, luego de lo que fue su debut terminado en derrota ante el mexicano <b>Yair Rodríguez</b>. En este combate se lo vió más sólido, demostrando ser un luchador con experiencia, consiguiendo dominar tanto el primer como el segundo asalto, y aunque se lo vió peor en el tercer y último asalto, pudo sobrevivir para terminar llevándose una merecida victoria por decisión unánime ante un rival complicadísimo como lo es el #11 de la división de peso pluma, <b>Dan Ige</b>. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
