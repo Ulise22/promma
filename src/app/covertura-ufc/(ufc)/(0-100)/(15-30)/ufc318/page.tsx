@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 export default function UFC318 () {
     return(
         <main>
-            <ArticleHero title="UFC 318: ¡Dustin Poirier vs Max Holloway 3!" subtitle='¡Paulo Costa vs Roman Kopylov! ¡Daniel Zellhuber vs Michael Johnson! ¡Francisco Prado vs Nikolay Veretennikov!' image={hero} date='2024-07-19' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 318: ¡Dustin Poirier vs Max Holloway 3!" subtitle='¡Paulo Costa vs Roman Kopylov! ¡Daniel Zellhuber vs Michael Johnson!' image={hero} date='2024-07-19' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Esta noche tenemos un evento histórico en el UFC, que será encabezado por la leyenda <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link> quien esta noche se subirá al octágono por última vez en su carrera, retirándose oficialmente después de pelear contra <Link href='/peleadores/max-holloway'>Max Holloway</Link> por el cinturón BMF, en lo que promete ser una de las mejores peleas que tendremos en el año. </p>
@@ -48,9 +48,9 @@ export default function UFC318 () {
                     <p>El estadounidense logra una estupenda victoria por decisión unánime en la que hasta el momento es la pelea de la noche. Una absoluta guerra desde el primer momento es lo que vivimos los fanáticos, con el italiano Marvin Vettori recibiendo un golpe que le ocasionó un sangrado en la nariz desde el comienzo de la pelea, cosa que sin dudas afectó el resultado, pero que sin embargo no nos privó de presenciar una absoluta guerra en el octágono. De esta manera el #11 de la división de peso medio consigue llevarse otra victoria en la anteúltima pelea de la cartelera preliminar. </p>
                     <h2>Vinicius Oliveira Derrota a Kyler Phillips y Sigue Invicto en la UFC</h2>
                     <p>El brasileño #15 de la división de peso gallo hoy tuvo su cuarta pelea en la UFC, donde logró demostrar que es una de las grandes promesas de las 135lbs, dando un gran combate que comenzó perdiendo, pero que rápidamente fue capaz de dar vuelta, dominando progresivamente más a su rival. De esta manera, habiendo ganado claramente el segundo y tercer asalto, <Link href='/noticias/vinicius-oliveira-ufc'>Vinicius Oliveira</Link> logra su cuarta victoria en la compañía, y seguramente escalará unos cuantos puestos en el ranking, posicionándose como un próximo top 10 de esta división que tiene como campeón a <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link></p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Michael Johnson Derrota a Daniel Zellhuber por Decisión Unánime</h2>
+                    <p>El estadounidense se impone por sobre el mexicano en esta primer pelea de la cartelera estelar, luego de dominar la mayor parte del combate, al conectar un mayor volumen de golpes que le ayudaron a puntuar para terminar llevándose la pelea ante un Daniel Zellhuber que aunque parecía tener más fuerza en sus golpes, lo cierto es que conectó bastante menos que su rival, y que terminó por lanzar un montón de patadas a la cabeza que siempre eran bien bloqueadas por Johnson. Por lo que este primer combate de la cartelera estelar termina en victoria por decisión unánime para el estadounidense. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
