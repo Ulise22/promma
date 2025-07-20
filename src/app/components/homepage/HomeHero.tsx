@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc318'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc316} alt='' />
                 <h2 className={styles.home__title}>UFC 318: ¡Dustin Poirier vs Max Holloway 3!</h2>
-                <span>¡Paulo Costa vs Roman Kopylov! ¡Michael Johnson Derrota a Daniel Zellhuber por Decisión Unánime!</span>
+                <span>¡Paulo Costa Regresa Mejor Que Nunca y Derrota Roman Kopylov! ¡Michael Johnson Derrota a Daniel Zellhuber por Decisión Unánime!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
                 <Image className={styles.homehero__article__img} quality={50} src={ufcBillonario} alt='' />

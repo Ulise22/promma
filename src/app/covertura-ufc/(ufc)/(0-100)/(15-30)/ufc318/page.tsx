@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 export default function UFC318 () {
     return(
         <main>
-            <ArticleHero title="UFC 318: ¡Dustin Poirier vs Max Holloway 3!" subtitle='¡Paulo Costa vs Roman Kopylov! ¡Michael Johnson Derrota a Daniel Zellhuber por Decisión Unánime!' image={hero} date='2024-07-19' author={null} updatedDate='2025-07-20' />
+            <ArticleHero title="UFC 318: ¡Dustin Poirier vs Max Holloway 3!" subtitle='¡Paulo Costa Regresa Mejor Que Nunca y Derrota Roman Kopylov! ¡Michael Johnson Derrota a Daniel Zellhuber por Decisión Unánime!' image={hero} date='2024-07-19' author={null} updatedDate='2025-07-20' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Esta noche tenemos un evento histórico en el UFC, que será encabezado por la leyenda <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link> quien esta noche se subirá al octágono por última vez en su carrera, retirándose oficialmente después de pelear contra <Link href='/peleadores/max-holloway'>Max Holloway</Link> por el cinturón BMF, en lo que promete ser una de las mejores peleas que tendremos en el año. </p>
@@ -55,6 +55,8 @@ export default function UFC318 () {
                     <p>Excelente victoria para el brasileño <b>Patricio Pitbull</b>, excampeón de peso pluma en Bellator, que consigue su primer victoria en la UFC, luego de lo que fue su debut terminado en derrota ante el mexicano <b>Yair Rodríguez</b>. En este combate se lo vió más sólido, demostrando ser un luchador con experiencia, consiguiendo dominar tanto el primer como el segundo asalto, y aunque se lo vió peor en el tercer y último asalto, pudo sobrevivir para terminar llevándose una merecida victoria por decisión unánime ante un rival complicadísimo como lo es el #11 de la división de peso pluma, <b>Dan Ige</b>. </p>
                     <h2>Daniel Rodriguez Derrota a Kevin Holland Por Decisión Unánime</h2>
                     <p>Daniel Rodriguez logra una gran victoria ante el #13 de peso wélter, derrotándolo por decisión unánime al ganar el primer y segundo asalto de un combate que tuvo de todo, knockdowns por parte de ambos luchadores, intentos de sumisión, y la sensación constante de que la pelea podía acabar por finalización en cualquier momento. Sin embargo, ambos luchadores fueron capaces de sobrevivir a las embestidas del otro, y quien terminó por salir victorioso de este caos que fue la pelea es Daniel Rodiguez, quien además había tomado la pelea en corto aviso, agrandando y dandole más mérito a su victoria ante un favorito del público como Kevin Holland. </p>
+                    <h2>Paulo Costa Derrota a Roman Kopylov</h2>
+                    <p>El brasileño vuelve a la victoria de la mejor forma posible en este UFC 318, al derrotar y dominar completamente al ruso Roman Kopylov, a pesar de que los 2 venían en dinámicas completamente diferentes, con Paulo Costa viniendo de 4 derrotas en sus últimas 5 peleas, y con Roman Kopylov viniendo de 2 victorias consecutivas. Sin embargo Costa volvió a mostrar su mejor nivel, y al ser superior en el striking (durante los 3 asaltos en mi opinión), se lleva una más que merecida victoria por decisión unánime en esta pelea coestelar.</p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
