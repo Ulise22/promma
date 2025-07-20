@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 export default function UFC318 () {
     return(
         <main>
-            <ArticleHero title="UFC 318: ¡Dustin Poirier vs Max Holloway 3!" subtitle='¡Paulo Costa vs Roman Kopylov! ¡Daniel Zellhuber vs Michael Johnson!' image={hero} date='2024-07-19' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 318: ¡Dustin Poirier vs Max Holloway 3!" subtitle='¡Paulo Costa vs Roman Kopylov! ¡Michael Johnson Derrota a Daniel Zellhuber por Decisión Unánime!' image={hero} date='2024-07-19' author={null} updatedDate='2025-07-20' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Esta noche tenemos un evento histórico en el UFC, que será encabezado por la leyenda <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link> quien esta noche se subirá al octágono por última vez en su carrera, retirándose oficialmente después de pelear contra <Link href='/peleadores/max-holloway'>Max Holloway</Link> por el cinturón BMF, en lo que promete ser una de las mejores peleas que tendremos en el año. </p>
