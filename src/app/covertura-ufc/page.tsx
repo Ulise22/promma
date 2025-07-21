@@ -21,6 +21,7 @@ import ufc311 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc311.jpg'
 import ufc312 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc312.jpg'
 import ufc314 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc314.webp'
 import ufc316 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc316.webp'
+import ufc318 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc318_portada.webp'
 /* UFC FIGHT NIGHT IMAGES */
 import whittakerVSaliskerov from '@/assets/covertura_ufc/fight_night/0-100/0-15/whittaker-vs-aliskerov.jpg'
 import lewisVsNascimento from '@/assets/covertura_ufc/fight_night/0-100/0-15/lewis-vs-nascimento-preview.jpg'
@@ -43,6 +44,7 @@ export default function CoverturaUFC () {
         <main className={styles.covertura__container}>
             <h2 className={styles.covertura__subtitle}>UFC Numerado</h2>
             <section className={styles.covertura__articles__container}>
+                <ArticlePreview img={ufc318} url='/covertura-ufc/ufc318' title='UFC 318: ¡Max Holloway Derrota a Dustin Poirier en su Retirada y Sigue Siendo el BMF!' author={null} text='¡Paulo Costa Regresa Mejor Que Nunca y Derrota Roman Kopylov! ¡Michael Johnson Derrota a Daniel Zellhuber por Decisión Unánime!' date='19/07/2025' />
                 <ArticlePreview img={ufc316} url='/covertura-ufc/ufc316' title='UFC 316: ¡Merab Dvalishvili Somete a Sean O&apos;Malley en el Primer Asalto! ¡Kayla Harrison Somete a Julianna Peña en el Segundo Asalto!' author={null} text='¡Kevin Holland Somete a Vicente Luque en el Segundo Asalto de la Pelea!' date='07/06/2025' />
                 <ArticlePreview img={ufc314} url='/covertura-ufc/ufc314' title='UFC 314: ¡Alexander Volkanovski Derrota a Diego Lopes y es el Nuevo Campeón de Peso Pluma de la UFC!' author={null} text='¡Paddy Pimblett Noquea a Michael Chandler en el Tercer Asalto! ¡Jean Silva Somete a Bryce Mitchell en el Segundo Asalto de la pelea!' date='14/04/2025' />
                 <ArticlePreview img={ufc312} url='/covertura-ufc/ufc312' title='UFC 312: ¡Dricus Du Plessis Derrota a Sean Strickland y Retiene el Cinturón de Peso Mediano!' author={null} text='¡Aleksandre Topuria debuta con victoria ante ante Colby Thicknesse! ¡Zhang Weili derrota a Tatiana Suarez y retiene su cinturón!' date='08/02/2025' />
