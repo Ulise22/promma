@@ -9,14 +9,13 @@
 }
 
 .articleHero__subtitle {
-    font-size: 24px;
     border-bottom: 1px solid #fff;
     padding-bottom: 20px;
 }
 
 .articleHero__image {
     object-fit: cover;
-    object-position: center;
+    object-position: top;
 }
 
 .articleHero__info {

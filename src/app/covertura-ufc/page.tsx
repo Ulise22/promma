@@ -37,6 +37,7 @@ import ufcSeattle from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_seattl
 import ufcVegas103 from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufcvegas103.jpeg'
 import ufcLondon from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_london.webp'
 import ufcMexico from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_mexico.webp'
+import ufcAbuDhabi from '@/assets/covertura_ufc/fight_night/0-100/0-15/whittaker-deridder.webp'
 
 
 export default function CoverturaUFC () {
@@ -66,6 +67,7 @@ export default function CoverturaUFC () {
             </section>
             <h2 className={styles.covertura__subtitle}>UFC Fight Night</h2>
             <section className={styles.covertura__articles__container}>
+                <ArticlePreview img={ufcAbuDhabi} url='/covertura-ufc/fight-night-whittaker-deridder' title='UFC Abu Dhabi: ¡Robert Whittaker vs Reiner De Ridder!' author={null} text='¡Petr Yan vs Marcus McGhee! ¡Shgara Magomedov vs Mar-André Barriault!' date='26/07/2025' />
                 <ArticlePreview img={ufcMexico} url='/covertura-ufc/fight-night-moreno-erceg' title='UFC México: ¡Brandon Moreno Derrota a Steve Erceg por Decisión Unánime!' author={null} text='¡Kevin Borjas Derrota a Ronaldo Rodriguez en una Excelente Pelea del Peruano! ¡Raúl Rosas Jr. Gana su Pelea por Decisión Unánime ante Vince Morales!' date='22/03/2025' />
                 <ArticlePreview img={ufcLondon} url='/covertura-ufc/fight-night-edwards-brady' title='UFC London: ¡Sean Brady Somete a Leon Edwards en el Cuarto Asalto!' author={null} text='¡Carlos Ulberg Derrota a Jan Blachowicz Por Decisión y se Mete en el Top 5 de los Semipesados! ¡Kevin Holland Derrota a Gunnar Nelson por Decisión!' date='22/03/2025' />
                 <ArticlePreview img={ufcVegas103} url='/covertura-ufc/fight-night-kape-almabayev' title='UFC Vegas 103: ¡Manel Kape Gana por TKO a Asu Almabayev en el Tercer Asalto!' author={null} text='¡Esteban Ribovics Cae Derrotado ante Nashrat Haqparast Por Decisión Dividida! ¡Cody Brundage Gana por TKO a Julian Marquez en el Primer Asalto!' date='01/03/2025' />

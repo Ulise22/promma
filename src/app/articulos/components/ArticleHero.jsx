@@ -9,9 +9,9 @@ export default function ArticleHero ({title, subtitle, image, date, author, upda
         <section className={styles.articleHero}>
             <h1 className={styles.articleHero__title}> {title} </h1>
             <h2 className={styles.articleHero__subtitle}> {subtitle} </h2>
-            <Image className={styles.articleHero__image} loading='eager' sizes='(max-width: 660px) 95vw, (max-widht: 1200px) 80vw, 800px' priority={true} src={image} alt={title} width={800} height={450} quality={65} />
+            <Image className={styles.articleHero__image} priority={true} src={image} alt={title} width={800} height={450} quality={65} />
             {date && <p className={styles.articleHero__info}> 
-                <b>{author || defaultAuthor }</b>,
+                {/* <b>{author || defaultAuthor }</b>, */}
                 <time dataTime={date}>{date}</time>
                 <a target='_Blank' href='https://www.facebook.com/people/Fullmma/61565690940390/'> <FontAwesomeIcon icon={faFacebook} size='xl' /> </a>
                 <a target='_Blank' href='https://x.com/MmaFull265'> <FontAwesomeIcon icon={faSquareXTwitter} size='xl' /> </a>

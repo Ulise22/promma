@@ -5,7 +5,6 @@ body {
     margin: 0;
     background-color: #1E1E1E;
     font-family: 'Noto Sans', sans-serif;
-    font-display: swap;
     color: #fff;
 }
 
@@ -13,8 +12,3 @@ a {
     color: rgb(43, 159, 255);
 }
 
-@media screen and (max-width: 660px) {
-    p {
-        font-size: 18px;
-    }
-}

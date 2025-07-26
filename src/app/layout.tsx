@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
         <link rel='icon' href='/logo.png' />
         <meta httpEquiv='Content-Security-Policy' name="google-adsense-account" content="ca-pub-9270621638584149" />

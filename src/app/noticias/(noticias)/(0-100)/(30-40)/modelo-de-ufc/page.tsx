@@ -1,12 +1,13 @@
 import styles from '@/app/articulos/components/article.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import type { Metadata } from 'next'
+import { YouTubeEmbed } from '@next/third-parties/google'
 import dynamic from 'next/dynamic'
+import Link from 'next/link'
 /* Images */
 import hero from '@/assets/noticias/0-100/30-40/modelo_ufc.webp'
-import { YouTubeEmbed } from '@next/third-parties/google'
-import Link from 'next/link'
 
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
@@ -45,6 +46,7 @@ export default function ModeloDeUFC () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }
