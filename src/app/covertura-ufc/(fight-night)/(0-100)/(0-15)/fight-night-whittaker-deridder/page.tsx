@@ -39,9 +39,9 @@ export default function WhittakerDeRidder () {
                     <p>El luchador de Daguestán logra llevarse la victoria sin apenas hacerse un rasguño, al conectar una mano derecha en la cabeza de su rival que lo dejaría instantaneamente KO al comienzo del primer asalto. Excelente actuación del ruso digna de un bono por desempeño. </p>
                     <h2>Bryce Mitchell Derrota a Said Nurmagomedov por Decisión Unánime</h2>
                     <p>Espectacular debut del estadounidense <b>Bryce Mitchell</b> en la división de peso gallo de la UFC ante <b>Said Nurmagomedov</b>, quien hizo lo que al 99% de los peleadores les suena a misión imposible, ganarle a un luchador de Daguestán en el suelo, mostrando un nivel de BJJ por encima de la media, y mostrandose muy dominante ante su rival, especialmente en el segundo y tercer asalto, que fueron los que le dieron la victoria a los ojos de los jueces. De esta manera, termina la cartelera preliminar que nos dejó 3 nocauts y muchas peleas dignas de un evento de UFC. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2>Kevin Borjas Derrota a &quot;Lazy Boy&quot; Ronaldo Rodriguez</h2>
-                    <p>El peruano Kevin Borjas consigue una espectacular victoria ante el mexicano Ronaldo Rodriguez, demostrando tener un gran poder en las manos, sentando varias veces a su rival con esa mano derecha que fue capaz de conectar cuando quiso. </p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Bogdan Guskov Noquea a Nikita Krylov en el Primer Asalto</h2>
+                    <p>Tremenda manera de iniciar la cartelera estelar con esta pelea en peso semipesado que terminó con la victoria de un Bogdan Guskov por la vía del nocaut en el primer asalto, que viene imparable, que venía de 3 victorias consecutivas por finalización (con 2 nocauts y 1 sumisión), y que ahora extiende esa racha a 4, con 3 nocauts en su récord. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
