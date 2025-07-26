@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 export default function WhittakerDeRidder () {
     return(
         <main>
-            <ArticleHero title='UFC Abu Dhabi: ¡Robert Whittaker vs Reiner De Ridder!' subtitle='¡Petr Yan vs Marcus McGhee! ¡Shgara Magomedov vs Mar-André Barriault!' image={hero} date='2025-07-26' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Abu Dhabi: ¡Reiner De Ridder Derrota a Robert Whittaker En una Pelea Cerradísima!' subtitle='¡Petr Yan Derrota de Forma Contundente a Marcus McGhee! ¡Shara Magomedov Vence Mar-André Barriault en la Pelea de la Noche!' image={hero} date='2025-07-26' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Muy buen evento de UFC tenemos el día de hoy, con una aperitivo estelar espectacular, donde el excampeón de peso medio de la UFC, <Link href='/peleadores/robert-whittaker'>Robert Whittaker</Link> se enfrentará al ex doble campeón de ONE Championship, <b>Reiner De Ridder</b>, en una pelea que promete ser memorable. </p>
@@ -48,6 +48,8 @@ export default function WhittakerDeRidder () {
                     <p>El Daguestaní, <Link href='/peleadores/shara-magomedov'>Shara Magomedov</Link> logra conseguir la victoria por la vía de la decisión en lo que fue una auténtica guerra, un combate de los que vale la pena ver, demostrando que el aprecio que le tiene la gente a Shara, no se debe solamente a su look partícular, sino a que cada vez que se sube al octágono nos regala combates llenos de emoción y de acción que valen la pena ver. Con esta victoria, Shara Bullet extiende su récord a 16-1, luego de lo que fue derrota ante Michael Page en su último combate. </p>
                     <h2>Petr Yan Derrota a Marcus McGhee Por Decisión Unánime</h2>
                     <p>El ruso <b>Petr Yan</b> se lleva la pelea coestelar de la noche en una actuación completamente dominante, desde principio a fin demostró ser el mejor peleador, demostrando porqué ocupa un lugar tan alto en las 135lbs, al tener unas habilidades de pelea de élite, que hoy sacó a relucir ante un estadounidense <b>Marcus McGhee</b> que poco pudo hacer ante las habilidades de su rival. Habiendo alcanzado su tercera victoria consecutiva, es probable que se haya ganado la oportunidad de pelear por el título de peso gallo en el futuruo cercano. </p>
+                    <h2>Reiner De Ridder Derrota a Robert Whittaker por Decisión Dividida</h2>
+                    <p>El oriundo de Países Bajos se termina llevando la victoria en esta pelea estelar, en lo que fue uno de los combates más cerrados que recuerdo en mucho tiempo, que pudo haber ido para cualquiera de los 2, habiendo constantes cambios de guión, donde parecía que la pelea podía ir para uno y luego para otro, acabando con el destino del combate llegando finalmente a la mano de los jueces, quienes por decisión dividida, dieron por ganador al excampeón de ONE Championship, <b>Reiner De Ridder</b>, por sobre <Link href='/peleadores/robert-whittaker'>Robert Whittaker</Link>, quien acumula su segunda derrota consecutiva, luego de ser sometido en el primer asalto por <Link href='/peleadores/khamzat-chimaev'>Khamzat Chimaev</Link> en su último combate. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
