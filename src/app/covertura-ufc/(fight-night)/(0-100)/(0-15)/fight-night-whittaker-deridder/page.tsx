@@ -42,6 +42,8 @@ export default function WhittakerDeRidder () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Bogdan Guskov Noquea a Nikita Krylov en el Primer Asalto</h2>
                     <p>Tremenda manera de iniciar la cartelera estelar con esta pelea en peso semipesado que terminó con la victoria de un Bogdan Guskov por la vía del nocaut en el primer asalto, que viene imparable, que venía de 3 victorias consecutivas por finalización (con 2 nocauts y 1 sumisión), y que ahora extiende esa racha a 4, con 3 nocauts en su récord. </p>
+                    <h2>Asu Almabayev Derrota a Jose Ochoa Por Decisión Unánime</h2>
+                    <p>Tremenda pelea la que nos dieron estos 2 luchadores de peso mosca, con un Almabayev que hizo valer su posición en el top 10 de los rankings, dando una mejor pelea siendo local practicamente, al tener a todo el público en su favor. Pero de igual manera es para destacar el más que digno papel que hizo el peruano José Ochoa, que pese a aceptar la pelea en corto aviso, de venir de pelear hace 5 semanas donde logró ganar por nocaut, y de tan sólo tener 24 años enfrentándose a un top 10 que contaba con el público a favor, luchó como un guerrero a pesar de tener practicamente todo en contra. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
