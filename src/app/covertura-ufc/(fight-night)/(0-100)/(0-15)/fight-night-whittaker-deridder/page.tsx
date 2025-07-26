@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     title: 'UFC Abu Dhabi: ¡Robert Whittaker vs Reiner De Ridder!',
     description: 'Pelea entre Robert Whittaker y Reiner de Ridder en el UFC Abu Dhabi de este sábado 26 de julio de 2025.',
     openGraph: {
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwhittaker-deridder.abb93657.webp&w=828&q=65',
         title: 'UFC Abu Dhabi: ¡Robert Whittaker vs Reiner De Ridder!',
         description: 'Pelea entre Robert Whittaker y Reiner de Ridder en el UFC Abu Dhabi de este sábado 26 de julio de 2025.',
         url: 'https://fullmma.org/covertura-ufc/fight-night-whittaker-deridder'
