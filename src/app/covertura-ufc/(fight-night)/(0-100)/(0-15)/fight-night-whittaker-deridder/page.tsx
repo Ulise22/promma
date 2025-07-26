@@ -31,6 +31,8 @@ export default function WhittakerDeRidder () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
                     <h2>Billy Elekana Derrota a Ibo Aslan Por Decisión Unánime</h2>
                     <p>En una pelea bastante decepcionante y con poca acción para ser honestos, quien se terminó por llevar la victoria a su récord fue el estadounidense <b>Billy Elekana</b>, que fue capaz de conectar algunos pocos golpes más que su rival, en un combate donde ambos estuvieron demasiado expectantes de lo que hacía el otro, provocando que apenas se tiraran golpes. </p>
+                    <h2>Tabatha Ricci Noquea a Amanda Ribas en el Segundo Asalto</h2>
+                    <p>Tremenda victoria de la brasileña <b>Tabatha Ricci</b>, quien en el segundo asalto, mientras tenía en el clinch a su rival, le propinó un golpe con el codo a la cara de <b>Amanda Ribas</b>, que la lastimó un montón, necesitando sólo de un par de golpes extras para terminar finalizando a su rival y llevarse la victoria por TKO, seguramente ganándose hasta un bono por desempeño en el camino. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Kevin Borjas Derrota a &quot;Lazy Boy&quot; Ronaldo Rodriguez</h2>
                     <p>El peruano Kevin Borjas consigue una espectacular victoria ante el mexicano Ronaldo Rodriguez, demostrando tener un gran poder en las manos, sentando varias veces a su rival con esa mano derecha que fue capaz de conectar cuando quiso. </p> */}
