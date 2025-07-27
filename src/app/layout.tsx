@@ -32,24 +32,12 @@ export default function RootLayout({
       {/* Google Analytics Script */}
         
 
-        <Script
-        async
-          id="google-analytics"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-5FLC9WWZD8');
-            `,
-          }} />
+
 
       </head>
       <body className={inter.className}>
         <Menu />
         {children}
-        <GoogleAnalytics gaId="G-5FLC9WWZD8" />
         <Analytics />
         <Footer />
         <Script async defer strategy='afterInteractive' src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9270621638584149" crossOrigin="anonymous"></Script>
