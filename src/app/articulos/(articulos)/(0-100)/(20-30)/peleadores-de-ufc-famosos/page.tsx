@@ -11,16 +11,16 @@ const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
-    title: 'Luchadores de UFC Más Famosos',
+    title: 'Peleadores de UFC Famosos',
     description: '¿Quiénes son los luchadores de UFC más famosos y con más seguidores en redes sociales? Acá está el top 10 de peleadores más reconocidos de la UFC.',
     openGraph: {
-        title: 'Luchadores de UFC Más Famosos',
+        title: 'Peleadores de UFC Famosos',
         description: '¿Quiénes son los luchadores de UFC más famosos y con más seguidores en redes sociales? Acá está el top 10 de peleadores más reconocidos de la UFC.',
-        url: 'https://fullmma.org/articulos/luchadores-ufc-mas-famosos'
+        url: 'https://fullmma.org/articulos/peleadores-de-ufc-famosos'
     }
 }
 
-export default function LuchadoresMasFamososUFC () {
+export default function PeleadoresMasFamososUFC () {
     return(
         <main>
             <ArticleHero title='¿Quienes son los Peleadores de UFC Más Famosos? La lista de los 10 Peleadores con Más Seguidos' subtitle='Compartiremos la lista de los 10 peleadores de UFC con más seguidores en Instagram. Que nos ayudará a descubrir quién es el peleador más famoso de todos en la UFC.' image={hero} date='13/01/2025' author={null} updatedDate={null} />
