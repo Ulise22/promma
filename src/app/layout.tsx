@@ -29,11 +29,6 @@ export default function RootLayout({
       <head>
         <link rel='icon' href='/logo.png' />
         <meta httpEquiv='Content-Security-Policy' name="google-adsense-account" content="ca-pub-9270621638584149" />
-      {/* Google Analytics Script */}
-        
-
-
-
       </head>
       <body className={inter.className}>
         <Menu />
