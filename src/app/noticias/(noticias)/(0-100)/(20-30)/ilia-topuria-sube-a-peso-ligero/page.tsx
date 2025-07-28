@@ -6,6 +6,7 @@ import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/noticias/0-100/20-30/ilia_topuria_georgia.jpg'
 
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
@@ -39,6 +40,7 @@ export default function MovsarEvloevSobrePeleaConTopuria () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }

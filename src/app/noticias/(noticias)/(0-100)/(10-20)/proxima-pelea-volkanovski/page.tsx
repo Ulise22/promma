@@ -10,6 +10,7 @@ import oliveira from '@/assets/peleadores__images/0-100/0-10/charles-oliveira/ch
 import poirier from '@/assets/peleadores__images/0-100/0-10/dustin-poirier/poirier.jpg'
 import { YouTubeEmbed } from '@next/third-parties/google'
 
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
@@ -46,6 +47,7 @@ export default function ProximaPeleaVolkanovski () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }

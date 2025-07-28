@@ -7,6 +7,7 @@ import dynamic from 'next/dynamic'
 import hero from '@/assets/leyendas/(peleadores)/0-10/amanda-nunes/amanda_card.jpg'
 import { YouTubeEmbed } from '@next/third-parties/google'
 
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
@@ -40,6 +41,7 @@ export default function VuelveAmandaNunes () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }

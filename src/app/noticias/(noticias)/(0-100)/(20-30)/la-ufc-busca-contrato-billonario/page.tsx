@@ -7,6 +7,7 @@ import dynamic from 'next/dynamic'
 import hero from '@/assets/noticias/0-100/20-30/ufc_busca_millonada.jpg'
 import { YouTubeEmbed } from '@next/third-parties/google'
 
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
@@ -52,6 +53,7 @@ export default function MejoresEventosUFC2024 () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }

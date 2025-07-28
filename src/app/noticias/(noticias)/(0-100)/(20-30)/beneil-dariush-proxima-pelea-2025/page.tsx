@@ -6,6 +6,7 @@ import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/noticias/0-100/20-30/dariush_pelea2025.jpg'
 
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
@@ -46,6 +47,7 @@ export default function DariushPelea2025 () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }

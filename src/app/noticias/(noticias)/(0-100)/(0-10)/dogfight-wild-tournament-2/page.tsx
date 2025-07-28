@@ -7,6 +7,7 @@ import Link from 'next/link'
 import hero from '@/assets/noticias/0-100/0-10/dwt2.jpeg'
 import { YouTubeEmbed } from '@next/third-parties/google'
 
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
@@ -62,6 +63,7 @@ export default function DWT2 () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }

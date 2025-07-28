@@ -9,6 +9,7 @@ import hero from '@/assets/noticias/0-100/10-20/dan_hooker_tattoos.jpg'
 import legsTattoos from '@/assets/noticias/insideArticle/dan_hooker_tattoos/hooker_leg_tattoo.jpeg'
 import { YouTubeEmbed } from '@next/third-parties/google'
 
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
@@ -44,6 +45,7 @@ export default function DanHookerTattoos () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }
