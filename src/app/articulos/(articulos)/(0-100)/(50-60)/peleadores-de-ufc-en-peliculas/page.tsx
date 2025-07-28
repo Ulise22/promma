@@ -11,10 +11,10 @@ const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
-    title: 'Peleadores en Hollywood',
+    title: 'Peleadores de UFC en Películas',
     description: 'No son demasiados los que han trascendido las Artes Marciales Mixtas como para trasladar su estátus de estrella a la pantalla grande de Hollywood, como lo hizo más recientemente Conor McGregor en la película Road House (El Duro) estrenada en Amazon Prime en marzo de este año.',
     openGraph: {
-        title: 'Peleadores en Hollywood',
+        title: 'Peleadores de UFC en Películas',
         description: 'No son demasiados los que han trascendido las Artes Marciales Mixtas como para trasladar su estátus de estrella a la pantalla grande de Hollywood, como lo hizo más recientemente Conor McGregor en la película Road House (El Duro) estrenada en Amazon Prime en marzo de este año.',
         url: 'https://fullmma.org/articulos/peleadores-de-ufc-en-peliculas'
     }
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 export default function KimboSlice () {
     return(
         <main>
-            <ArticleHero title='Top 5 Peleadores de UFC que Aparecieron en Películas de Hollywood' subtitle='La Lista de 5 Campeones de UFC que aparecieron en el cine y televisión, teniendo una actuacion destacada.' image={hero} date='2024-09-10' author={null} updatedDate={null} />
+            <ArticleHero title='Peleadores de UFC en Películas' subtitle='La Lista de 5 Peleadores de UFC que Aparecieron en Películas de Hollywood' image={hero} date='2024-09-10' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>No son demasiados los que han trascendido las Artes Marciales Mixtas como para trasladar su estátus de estrella a la pantalla grande de Hollywood, como lo hizo más recientemente <Link href='/peleadores/conor-mcgregor'>Conor McGregor</Link> en la película <b>Road House (El Duro)</b> estrenada en Amazon Prime en marzo de este año. Por eso, aunque nos vamos a dejar fuera algunos nombres importantes que tuvieron una participación destacada en el cine, como es el caso <Link href='/articulos/michael-bisping-ojo'>Michael Bisping</Link> o <Link href='/peleadores/kamaru-usman'>Kamaru Usman</Link>, por nombrar algunos, hoy vamos a hacer una lista de los 5 peleadores de UFC que tuvieron participaciones destacadas en películas de Hollywood.</p>
