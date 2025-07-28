@@ -8,11 +8,13 @@ import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 
 export const metadata: Metadata = {
     title: 'Mihail Kajaia',
     description: 'La historia de uno de los luchadores georgianos más intimidantes de la historia de la lucha grecorromana. ',
     openGraph: {
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmikheil_kajaia.7f3e6b95.jpg&w=828&q=65',
         title: 'Mihail Kajaia',
         description: 'La historia de uno de los luchadores georgianos más intimidantes de la historia de la lucha grecorromana. ',
         url: 'https://fullmma.org/articulos/mikheil-kajaia'
@@ -43,6 +45,7 @@ export default function MihailKajaia () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }

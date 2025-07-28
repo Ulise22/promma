@@ -8,6 +8,7 @@ import hero from '@/assets/articulos/0-100/50-60/luchadores_daguestan.jpg'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 
 export const metadata: Metadata = {
     title: 'Peleadores de Daguestán UFC',
@@ -65,6 +66,7 @@ export default function LuchadoresDaguestanUFC () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }

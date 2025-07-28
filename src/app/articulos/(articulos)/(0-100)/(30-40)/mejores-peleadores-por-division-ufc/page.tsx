@@ -9,6 +9,7 @@ import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 
 export const metadata: Metadata = {
     title: 'GOATS de Cada División de la UFC',
@@ -61,6 +62,7 @@ export default function PeleadorMasSucioUFC () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }

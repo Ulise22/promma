@@ -9,6 +9,7 @@ import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 
 export const metadata: Metadata = {
     title: 'Jorge Masvidal Biografía',
@@ -58,6 +59,7 @@ export default function JorgeMasvidalHistoria () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }

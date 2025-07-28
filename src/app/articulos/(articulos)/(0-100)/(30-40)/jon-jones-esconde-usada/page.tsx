@@ -9,6 +9,7 @@ import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 
 export const metadata: Metadata = {
     title: 'El Día Que Jon Jones se Escondió en Un Octagono Para No Ser Testeado',
@@ -39,6 +40,7 @@ export default function JonJonesSeEscondeDeUsada () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }
