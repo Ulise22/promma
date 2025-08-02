@@ -23,6 +23,7 @@ import ufc314 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc314.webp'
 import ufc316 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc316.webp'
 import ufc318 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc318_portada.webp'
 /* UFC FIGHT NIGHT IMAGES */
+/* 0-15 */
 import whittakerVSaliskerov from '@/assets/covertura_ufc/fight_night/0-100/0-15/whittaker-vs-aliskerov.jpg'
 import lewisVsNascimento from '@/assets/covertura_ufc/fight_night/0-100/0-15/lewis-vs-nascimento-preview.jpg'
 import cannonierVSimano from '@/assets/covertura_ufc/fight_night/0-100/0-15/fightnight-cannonier-imanov-preview.jpg'
@@ -38,6 +39,8 @@ import ufcVegas103 from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufcvegas1
 import ufcLondon from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_london.webp'
 import ufcMexico from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_mexico.webp'
 import ufcAbuDhabi from '@/assets/covertura_ufc/fight_night/0-100/0-15/whittaker-deridder.webp'
+/* 15-30 */
+import tairaVsPark from '@/assets/covertura_ufc/fight_night/0-100/15-30/taira_vs_park.webp'
 
 
 export default function CoverturaUFC () {
@@ -67,6 +70,7 @@ export default function CoverturaUFC () {
             </section>
             <h2 className={styles.covertura__subtitle}>UFC Fight Night</h2>
             <section className={styles.covertura__articles__container}>
+                <ArticlePreview img={tairaVsPark} url='/covertura-ufc/fight-night-taira-park' title='UFC Vegas 108: ¡Tatsura Taira vs Hyunsung!' author={null} text='¡Esteban Ribovics vs Elves Brener! ¡Kevin Vallejos vs Danny Silva!' date='02/08/2025' />
                 <ArticlePreview img={ufcAbuDhabi} url='/covertura-ufc/fight-night-whittaker-deridder' title='UFC Abu Dhabi: ¡Reiner De Ridder Derrota a Robert Whittaker En una Pelea Cerradísima!' author={null} text='¡Petr Yan Derrota de Forma Contundente a Marcus McGhee! ¡Shara Magomedov Vence Mar-André Barriault en la Pelea de la Noche!' date='26/07/2025' />
                 <ArticlePreview img={ufcMexico} url='/covertura-ufc/fight-night-moreno-erceg' title='UFC México: ¡Brandon Moreno Derrota a Steve Erceg por Decisión Unánime!' author={null} text='¡Kevin Borjas Derrota a Ronaldo Rodriguez en una Excelente Pelea del Peruano! ¡Raúl Rosas Jr. Gana su Pelea por Decisión Unánime ante Vince Morales!' date='22/03/2025' />
                 <ArticlePreview img={ufcLondon} url='/covertura-ufc/fight-night-edwards-brady' title='UFC London: ¡Sean Brady Somete a Leon Edwards en el Cuarto Asalto!' author={null} text='¡Carlos Ulberg Derrota a Jan Blachowicz Por Decisión y se Mete en el Top 5 de los Semipesados! ¡Kevin Holland Derrota a Gunnar Nelson por Decisión!' date='22/03/2025' />
