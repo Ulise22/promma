@@ -8,6 +8,7 @@ import hero from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_seattle.jpg'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 
 export const metadata: Metadata = {
     title: 'UFC Seattle: ¡Henry Cejudo vs Song Yadong!',
@@ -61,6 +62,7 @@ export default function CejudoSong () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }

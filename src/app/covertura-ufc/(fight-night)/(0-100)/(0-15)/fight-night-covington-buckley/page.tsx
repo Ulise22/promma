@@ -8,6 +8,7 @@ import hero from '@/assets/covertura_ufc/fight_night/0-100/0-15/covington-vs-buc
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 
 export const metadata: Metadata = {
     title: 'Colby Covington vs Joaquin Buckley',
@@ -57,6 +58,7 @@ export default function CovingtonBuckley () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }

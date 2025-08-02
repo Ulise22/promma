@@ -7,6 +7,7 @@ import hero from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc301-preview.jpg'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 
 export default function UFC301 () {
     return(
@@ -31,6 +32,7 @@ export default function UFC301 () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }

@@ -8,6 +8,7 @@ import hero from '@/assets/covertura_ufc/fight_night/0-100/0-15/whittaker-deridd
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 
 export const metadata: Metadata = {
     title: 'UFC Abu Dhabi: ¡Robert Whittaker vs Reiner De Ridder!',
@@ -54,6 +55,7 @@ export default function WhittakerDeRidder () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }

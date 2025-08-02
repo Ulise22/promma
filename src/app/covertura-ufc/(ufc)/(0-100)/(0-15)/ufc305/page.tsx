@@ -8,6 +8,7 @@ import hero from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc305.jpg'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 
 export const metadata: Metadata = {
     title: 'UFC 305',
@@ -46,6 +47,7 @@ export default function UFC305 () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }

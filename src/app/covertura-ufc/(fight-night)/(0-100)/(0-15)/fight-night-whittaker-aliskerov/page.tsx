@@ -7,6 +7,7 @@ import hero from '@/assets/covertura_ufc/fight_night/0-100/0-15/whittaker-vs-ali
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 
 export default function FightNightWhittakerAliskerov () {
     return(
@@ -33,6 +34,7 @@ export default function FightNightWhittakerAliskerov () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }

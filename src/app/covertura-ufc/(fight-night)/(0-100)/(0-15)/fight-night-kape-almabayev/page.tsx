@@ -8,6 +8,7 @@ import hero from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufcvegas103.jpeg
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
 
 export const metadata: Metadata = {
     title: 'UFC Vegas 103: ¡Manel Kape vs Asu Almabayev!',
@@ -43,6 +44,7 @@ export default function KapeAlmabayev () {
                 </article>
                 <AsideChamps />
             </section>
+            <ArticlesFooter />
         </main>
     )
 }
