@@ -32,6 +32,8 @@ export default function TairaVsPark () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
                     <h2>Piera Rodríguez Derrota a Ketlen Souza por Decisión Dividida</h2>
                     <p>La luchadora venezolana <b>Piera Rodríguez</b> logra hacerse con la victoria luego de una gran pelea ante la brasileña Ketlen Souza. Con Piera siendo capaz de derribar a su rival en varias ocasiones, capitalizando cada uno de esos derribos con ground and pound que le sirvieron para ir puntuando. Siendo esta una de las principales armas de la venezolana, ha sido capaz de derribar a las 6 rivales que enfrentó hasta el momento en la UFC, y en esta ocasión ha sido capaz de castigar mucho a su rival con los derribos y con los golpes al ras de lona. De esta forma, aunque por decisión dividida, Piera Rodríguez se lleva una merecida victoria. </p>
+                    <h2>Rafael Estevam Derrota a Felipe Bunes por Decisión Unánime</h2>
+                    <p>El brasileño <b>Rafael Estevam</b> derrota a su compatriota por decisión unánime después de una pelea en la que se mostró muy dominante, terminando esta desde la espalda de su rival castigando a golpes a Bunes, a quien dió la sensación de que estuvo cerca de finalizar en más de una ocasión. De igual forma, pese a la victoria, Rafael Estevam pidió disculpas a su rival, debido a que falló el peso antes de la pelea, llegando a este combate con una ventaja de 4 libras por sobre su rival, detalle que aunque no le quita su victoria, le termina dejando una pequeña mancha a tener en cuenta. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
