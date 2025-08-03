@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function TairaVsPark () {
     return(
         <main>
-            <ArticleHero title='UFC Vegas 108: ¡Tatsura Taira vs Hyunsung!' subtitle='¡Esteban Ribovics vs Elves Brener! ¡Kevin Vallejos vs Danny Silva!' image={hero} date='2025-08-02' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Vegas 108: ¡Tatsura Taira vs Hyunsung!' subtitle='¡Esteban Ribovics vs Elves Brener! ¡Kevin Vallejos Derrota a Danny Silva en la Pelea de la Noche!' image={hero} date='2025-08-02' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Noche de MMA en el UFC APEX que estará protagonizado por el #6 de la división de peso pluma, el japonés <b>Tatsura Taira</b>, quien se estará enfrentando al coreano <b>Hyunsung Park</b> que está invicto con un récord de 10-0 y que viene de 3 victorias consecutivas en la UFC, con todas siendo por finalización. </p>
@@ -42,9 +42,9 @@ export default function TairaVsPark () {
                     <p>El brasileño logra hacerse con la victoria por decisión unánime luego de dominar claramente al estadounidense <b>Tresean Gore</b>, quien por estar bastante preocupado por los derribos que le pudiera intentar hacer su rival, terminó recibiendo castigo tanto por arriba como por abajo, por parte de un <b>Rodolfo Vieira</b> al que se lo vió muy sólido y con un striking que le alcanzó para sumar puntos y terminar llevándose la victoria luego de los 3 asaltos. </p>
                     <h2>Rinya Nakamura Noquea a Nathan Fletcher en el Primer Asalto</h2>
                     <p>Espectacular victoria del japonés <b>Rinya Nakamura</b>, que termina la pelea en el primer asalto con un nocaut espectacular, al conectar una patada al higado de su rival, que se conectó practicamente con el dedo gordo del pie, y que tumbó a su rival en el piso, a quien solamente tuvo que darle un par de golpes en el piso para que el árbitro detuviera la pelea dando como ganador al luchador asiático, en una actuación digna de destacar, finalizando de la mejor manera esta cartelera preliminar. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Kevin Vallejos Derrota a Danny Silva En un Peleón!!</h2>
+                    <p>Tremenda pelea la que acabamos de presenciar, donde tanto el argentino <b>Kevin Vallejos</b>, como el luchador de origen mexicano <b>Danny Silva</b>, dieron todo de sí para brindarnos un espectáculo que terminó coronando como ganador al peleador de Mar del Plata, quien con un striking sobresaliente y algún que otro derribo, fue superior a su rival y se ganó su victoria meritoriamente. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
