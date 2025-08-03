@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function TairaVsPark () {
     return(
         <main>
-            <ArticleHero title='UFC Vegas 108: ¡Tatsura Taira vs Hyunsung!' subtitle='¡Los Argentinos Esteban Ribovics y Kevin Vallejos Protagonistas en la UFC Ganando las Mejores Peleas de la Noche!' image={hero} date='2025-08-02' author={null} updatedDate='2025-08-03' />
+            <ArticleHero title='UFC Vegas 108: ¡Tatsura Taira Soemte Hyunsung Park en el Segundo Asalto!' subtitle='¡Los Argentinos Esteban Ribovics y Kevin Vallejos Protagonistas en la UFC Ganando las Mejores Peleas de la Noche!' image={hero} date='2025-08-02' author={null} updatedDate='2025-08-03' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Noche de MMA en el UFC APEX que estará protagonizado por el #6 de la división de peso pluma, el japonés <b>Tatsura Taira</b>, quien se estará enfrentando al coreano <b>Hyunsung Park</b> que está invicto con un récord de 10-0 y que viene de 3 victorias consecutivas en la UFC, con todas siendo por finalización. </p>
@@ -53,6 +53,8 @@ export default function TairaVsPark () {
                     <p>El argentino de Salta, <Link href='/peleadores/esteban-ribovics'>Esteban Ribovics</Link> vuelve a robarse el show con una pelea impresionante como nos tiene acostumbrados, en una guerra total contra el brasileño, donde fue capaz de conectar más de 100 golpes y de dar la que hasta el momento es la mejor pelea de la cartelera. A esta altura ya no es sopresa lo que consigue el argentino, que independientemente de si está en un buen día o en un mal día, logra dar espectaculo, haciendo que valga la pena siempre ver sus peleas. </p>
                     <h2>Chris Duncan Derrota a Mateusz Rebecki en una Guerra Espectacular</h2>
                     <p>Cuando parecía que el gringo Ribovics se había robado el show junto con Elves Brener, dejando un techo inalcanzable, llegan el escocés <b>Chris Duncan</b> y el polaco <b>Mateusz Rebecki</b> y nos dan lo que debe ser la mejor pelea del año, un espectaculo total, violento, sangriento, que le recuerdan a uno porque sigue este deporte. La violencia y la cálidad demostrada por estos 2 peleadores no puede ponerse en palabras sin quedarse cortos, por lo que basta ver las caras de ambos al finalizar el combate para entender lo que fue. Finalmente el ganador de este choque de titanes fue el escocés <b>Chris Duncan</b>, quien se llevó la victoria por decisión unánime. </p>
+                    <h2>Tatsuro Taira Somete a Hyunsung Park en el Segundo Asalto</h2>
+                    <p>El japonés dió una gran actuación ante el surcoreano <b>Hyunsung Park</b>, al que le demostró que hay niveles y que no está en el top 10 por nada, haciendo lo que quiso con su rival, mostrando una gran superioridad que se vió reflejada en el resultado de la pelea en el segundo asalto, cuando finamente luego de ganarle la espalda, <b>Tatsuro Taira</b> fue capaz de conectar una llave que terminaría sometiendo a su rival, llevándose la victoria de esta forma en al pelea estelar de la noche. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
