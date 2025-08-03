@@ -45,6 +45,8 @@ export default function TairaVsPark () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Kevin Vallejos Derrota a Danny Silva En un Peleón!!</h2>
                     <p>Tremenda pelea la que acabamos de presenciar, donde tanto el argentino <b>Kevin Vallejos</b>, como el luchador de origen mexicano <b>Danny Silva</b>, dieron todo de sí para brindarnos un espectáculo que terminó coronando como ganador al peleador de Mar del Plata, quien con un striking sobresaliente y algún que otro derribo, fue superior a su rival y se ganó su victoria meritoriamente. </p>
+                    <h2>Nel Magny Derrota a Elizeu Dos Santos por TKO en el Segundo Asalto</h2>
+                    <p>El veterano peleador estadounidense de casi 38 años, <b>Neil Magny</b>, demuestra que la edad es sólo un número para él, derrotando por TKO de manera asombrosa a su rival en el segundo asalto, luego de conectar un par de rodillas a la cabeza de su rival en el clinch, que lo derribaron, necesitando Magny de unos cuantos golpes en el suelo para que el árbitro terminara la pelea en el segundo asalto para darle la victoria por TKO al luchador estadounidense. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
