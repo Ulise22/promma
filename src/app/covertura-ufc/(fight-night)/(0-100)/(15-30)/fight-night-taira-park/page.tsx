@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function TairaVsPark () {
     return(
         <main>
-            <ArticleHero title='UFC Vegas 108: ¡Tatsura Taira vs Hyunsung!' subtitle='¡Esteban Ribovics vs Elves Brener! ¡Kevin Vallejos Derrota a Danny Silva en la Pelea de la Noche!' image={hero} date='2025-08-02' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Vegas 108: ¡Tatsura Taira vs Hyunsung!' subtitle='¡Los Argentinos Esteban Ribovics y Kevin Vallejos Protagonistas en la UFC Ganando las Mejores Peleas de la Noche!' image={hero} date='2025-08-02' author={null} updatedDate='2025-08-03' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Noche de MMA en el UFC APEX que estará protagonizado por el #6 de la división de peso pluma, el japonés <b>Tatsura Taira</b>, quien se estará enfrentando al coreano <b>Hyunsung Park</b> que está invicto con un récord de 10-0 y que viene de 3 victorias consecutivas en la UFC, con todas siendo por finalización. </p>
@@ -49,6 +49,8 @@ export default function TairaVsPark () {
                     <p>El veterano peleador estadounidense de casi 38 años, <b>Neil Magny</b>, demuestra que la edad es sólo un número para él, derrotando por TKO de manera asombrosa a su rival en el segundo asalto, luego de conectar un par de rodillas a la cabeza de su rival en el clinch, que lo derribaron, necesitando Magny de unos cuantos golpes en el suelo para que el árbitro terminara la pelea en el segundo asalto para darle la victoria por TKO al luchador estadounidense. </p>
                     <h2>Karol Rosa Derrota a Nora Cornolle Por Decisión Unánime</h2>
                     <p>La peleadora brasileña <b>Karol Rosa</b> logra hacerse con la victoria luego de una dominante actuación ante la francesa <b>Nora Cornolle</b>, a quien supo dominar desde el suelo, usando su lucha como fuerte principal para ir sumando puntos que finalmente le darían la pelea por decisión unánime, con el segundo y tercer asalto siendo especialmente claves para esto. De esta forma, la brasileña logra reponerse de la última derrota recibida ante la argentina <Link href='/mujeres/ailin-perez'>Ailín Pérez</Link>, quien estuvo presente alentando a sus compatriotas Kevin Vallejos y Esteban Ribovics. </p>
+                    <h2>Esteban Ribovics Derrota a Elves Brener en La Pelea de la Noche</h2>
+                    <p>El argentino de Salta, <Link href='/peleadores/esteban-ribovics'>Esteban Ribovics</Link> vuelve a robarse el show con una pelea impresionante como nos tiene acostumbrados, en una guerra total contra el brasileño, donde fue capaz de conectar más de 100 golpes y de dar la que hasta el momento es la mejor pelea de la cartelera. A esta altura ya no es sopresa lo que consigue el argentino, que independientemente de si está en un buen día o en un mal día, logra dar espectaculo, haciendo que valga la pena siempre ver sus peleas. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
