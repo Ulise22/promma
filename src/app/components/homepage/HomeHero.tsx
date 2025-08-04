@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc316 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc318.webp'
+import chimaevEnfermedad from '@/assets/articulos/0-100/60-70/khamzat_chimaev_enfermedad.webp'
 import ufcBillonario from '@/assets/noticias/0-100/20-30/ufc_busca_millonada.jpg'
 import modeloUFC from '@/assets/noticias/0-100/30-40/modelo_ufc.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/covertura-ufc/ufc318'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc316} alt='' />
-                <h2 className={styles.home__title}>UFC 318: ¡Max Holloway Derrota a Dustin Poirier en su Retirada y Sigue Siendo el BMF!</h2>
-                <span>¡Paulo Costa Regresa Mejor Que Nunca y Derrota Roman Kopylov! ¡Michael Johnson Derrota a Daniel Zellhuber por Decisión Unánime!</span>
+            <Link className={styles.homehero__bigArticle} href='/articulos/que-enfermedad-tiene-khamzat-chimaev'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={chimaevEnfermedad} alt='Khamzat Chimaev en una camilla de un hospital generado por IA' />
+                <h2 className={styles.home__title}>¿Qué Enfermedad Tiene Khamzat Chimaev? Los Problemas de Salud de la Estrella de la UFC</h2>
+                <span>Todos los problemas de salud que sufrió Khamzat Chimaev que le impidieron pelear seguido y como se sobrepuso a ellos.</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
                 <Image className={styles.homehero__article__img} quality={50} src={ufcBillonario} alt='' />

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'Que Enfermedad Tiene Khamzat Chimaev',
     description: 'El porque Khamzat Chimaev pelea tan poco y a menudo se baja de las peleas por problemas de salud. ',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fkhamzat_chimaev_enfermedad.3fba5e23.webp&w=828&q=65',
         title: 'Que Enfermedad Tiene Khamzat Chimaev',
         description: 'El porque Khamzat Chimaev pelea tan poco y a menudo se baja de las peleas por problemas de salud. ',
         url: 'https://fullmma.org/articulos/que-enfermedad-tiene-khamzat-chimaev'
