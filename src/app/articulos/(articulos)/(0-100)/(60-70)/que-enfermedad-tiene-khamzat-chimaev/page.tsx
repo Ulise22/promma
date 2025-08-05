@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     }
 }
 
-export default function MagomedAnkalaevDerrota () {
+export default function KhamzatChimaevEnfermedad () {
     return(
         <main>
             <ArticleHero title='¿Qué Enfermedad Tiene Khamzat Chimaev? Los Problemas de Salud de la Estrella de la UFC' subtitle='Todos los problemas de salud que sufrió Khamzat Chimaev que le impidieron pelear seguido y como se sobrepuso a ellos.' image={hero} date='2025-08-04' author={null} updatedDate={null} />
