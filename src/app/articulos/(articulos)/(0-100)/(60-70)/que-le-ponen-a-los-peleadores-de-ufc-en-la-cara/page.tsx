@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'Que le Ponen a los Peleadores de UFC en la Cara',
     description: 'Descubre qué es lo que le ponen a los peleadores de UFC en la cara y porqué es vital para la salud de estos y para los combates.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvaselina_ufc.8c166201.webp&w=828&q=65',
         title: 'Que le Ponen a los Peleadores de UFC en la Cara',
         description: 'Descubre qué es lo que le ponen a los peleadores de UFC en la cara y porqué es vital para la salud de estos y para los combates.',
         url: 'https://fullmma.org/articulos/que-le-ponen-a-los-peleadores-de-ufc-en-la-cara'
