@@ -4,7 +4,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
-import hero from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc318_portada.webp'
+import hero from '@/assets/eventos/ufc/0-150/0-15/ufc318_portada.webp'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))

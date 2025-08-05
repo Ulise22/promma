@@ -19,9 +19,6 @@ import ufc310 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc310.jpg'
 import ufc311 from '@/assets/covertura_ufc/ufc/0-100/0-15/ufc311.jpg'
 /* 15-30 */
 import ufc312 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc312.jpg'
-import ufc314 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc314.webp'
-import ufc316 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc316.webp'
-import ufc318 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc318_portada.webp'
 /* UFC FIGHT NIGHT IMAGES */
 /* 0-15 */
 import whittakerVSaliskerov from '@/assets/covertura_ufc/fight_night/0-100/0-15/whittaker-vs-aliskerov.jpg'
@@ -35,12 +32,7 @@ import ufcVegas101 from '@/assets/covertura_ufc/fight_night/0-100/0-15/fight-nig
 import ufcSaudiArabia from '@/assets/covertura_ufc/fight_night/0-100/0-15/adesanya_imavov.jpg'
 import ufcVegas102 from '@/assets/covertura_ufc/fight_night/0-100/0-15/cannonier_rodrigues.jpg'
 import ufcSeattle from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_seattle.jpg'
-import ufcVegas103 from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufcvegas103.jpeg'
-import ufcLondon from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_london.webp'
-import ufcMexico from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_mexico.webp'
-import ufcAbuDhabi from '@/assets/covertura_ufc/fight_night/0-100/0-15/whittaker-deridder.webp'
 /* 15-30 */
-import tairaVsPark from '@/assets/covertura_ufc/fight_night/0-100/15-30/taira_vs_park.webp'
 
 
 export default function CoverturaUFC () {
@@ -48,9 +40,6 @@ export default function CoverturaUFC () {
         <main className={styles.covertura__container}>
             <h2 className={styles.covertura__subtitle}>UFC Numerado</h2>
             <section className={styles.covertura__articles__container}>
-                <ArticlePreview img={ufc318} url='/covertura-ufc/ufc318' title='UFC 318: ¡Max Holloway Derrota a Dustin Poirier en su Retirada y Sigue Siendo el BMF!' author={null} text='¡Paulo Costa Regresa Mejor Que Nunca y Derrota Roman Kopylov! ¡Michael Johnson Derrota a Daniel Zellhuber por Decisión Unánime!' date='19/07/2025' />
-                <ArticlePreview img={ufc316} url='/covertura-ufc/ufc316' title='UFC 316: ¡Merab Dvalishvili Somete a Sean O&apos;Malley en el Primer Asalto! ¡Kayla Harrison Somete a Julianna Peña en el Segundo Asalto!' author={null} text='¡Kevin Holland Somete a Vicente Luque en el Segundo Asalto de la Pelea!' date='07/06/2025' />
-                <ArticlePreview img={ufc314} url='/covertura-ufc/ufc314' title='UFC 314: ¡Alexander Volkanovski Derrota a Diego Lopes y es el Nuevo Campeón de Peso Pluma de la UFC!' author={null} text='¡Paddy Pimblett Noquea a Michael Chandler en el Tercer Asalto! ¡Jean Silva Somete a Bryce Mitchell en el Segundo Asalto de la pelea!' date='14/04/2025' />
                 <ArticlePreview img={ufc312} url='/covertura-ufc/ufc312' title='UFC 312: ¡Dricus Du Plessis Derrota a Sean Strickland y Retiene el Cinturón de Peso Mediano!' author={null} text='¡Aleksandre Topuria debuta con victoria ante ante Colby Thicknesse! ¡Zhang Weili derrota a Tatiana Suarez y retiene su cinturón!' date='08/02/2025' />
                 <ArticlePreview img={ufc311} url='/covertura-ufc/ufc311' title='UFC 311: ¡Islam Makhachev Somete a Renato Moicano en el Primer Asalto! ¡Merab Dvalishvili Derrota a Umar Nurmagomedov y Retiene Cinturón de Peso Gallo!' author={null} text='Ailín Pérez logra una victoria por decisión unánime ante Karol Rosa y se Mete en el top 10. Jailton Almeida gana por nocaut a Spivac. Jiri Prochazka Noquea a Jamahal Hill.' date='18/01/2025' />
                 <ArticlePreview img={ufc310} url='/covertura-ufc/ufc310' title='UFC 310: ¡Alexandre Pantoja vs Kai Asakura por el Campeonato de Peso Mosca de UFC! ¡Shavkat Rakhmonov vs Ian Garry!' author={null} text='Movsar Evloev Gana su Pelea por Decisión. Vicente Luque Logra una Victoria por Sumisión en el Primer Asalto. Además Dominick Reyes Derrota a Anthony Smith por TKO en el Segundo Asalto' date='09/12/2024' />
@@ -70,11 +59,6 @@ export default function CoverturaUFC () {
             </section>
             <h2 className={styles.covertura__subtitle}>UFC Fight Night</h2>
             <section className={styles.covertura__articles__container}>
-                <ArticlePreview img={tairaVsPark} url='/covertura-ufc/fight-night-taira-park' title='UFC Vegas 108: ¡Tatsura Taira Soemte Hyunsung Park en el Segundo Asalto!' author={null} text='¡Los Argentinos Esteban Ribovics y Kevin Vallejos Protagonistas en la UFC Ganando las Mejores Peleas de la Noche!' date='02/08/2025' />
-                <ArticlePreview img={ufcAbuDhabi} url='/covertura-ufc/fight-night-whittaker-deridder' title='UFC Abu Dhabi: ¡Reiner De Ridder Derrota a Robert Whittaker En una Pelea Cerradísima!' author={null} text='¡Petr Yan Derrota de Forma Contundente a Marcus McGhee! ¡Shara Magomedov Vence Mar-André Barriault en la Pelea de la Noche!' date='26/07/2025' />
-                <ArticlePreview img={ufcMexico} url='/covertura-ufc/fight-night-moreno-erceg' title='UFC México: ¡Brandon Moreno Derrota a Steve Erceg por Decisión Unánime!' author={null} text='¡Kevin Borjas Derrota a Ronaldo Rodriguez en una Excelente Pelea del Peruano! ¡Raúl Rosas Jr. Gana su Pelea por Decisión Unánime ante Vince Morales!' date='22/03/2025' />
-                <ArticlePreview img={ufcLondon} url='/covertura-ufc/fight-night-edwards-brady' title='UFC London: ¡Sean Brady Somete a Leon Edwards en el Cuarto Asalto!' author={null} text='¡Carlos Ulberg Derrota a Jan Blachowicz Por Decisión y se Mete en el Top 5 de los Semipesados! ¡Kevin Holland Derrota a Gunnar Nelson por Decisión!' date='22/03/2025' />
-                <ArticlePreview img={ufcVegas103} url='/covertura-ufc/fight-night-kape-almabayev' title='UFC Vegas 103: ¡Manel Kape Gana por TKO a Asu Almabayev en el Tercer Asalto!' author={null} text='¡Esteban Ribovics Cae Derrotado ante Nashrat Haqparast Por Decisión Dividida! ¡Cody Brundage Gana por TKO a Julian Marquez en el Primer Asalto!' date='01/03/2025' />
                 <ArticlePreview img={ufcSeattle} url='/covertura-ufc/fight-night-cejudo-song' title='UFC Seattle: ¡Song Yadong Derrota a Henry Cejudo Por Decisión Técnica Luego de Parada Médica!' author={null} text='¡Jean Silva Noquea a Melsik Baghdasaryan en el Primer Asalto! !Anthony Hernandez Derrota a Brendan Allen por Decisión Unánime! ' date='22/02/2025' />
                 <ArticlePreview img={ufcVegas102} url='/covertura-ufc/fight-night-cannonier-rodrigues' title='UFC VEGAS 102: ¡Jared Cannonier Noquea a Gregory Rodrigues en el Cuarto Asalto!' author={null} text='Noche de UFC en Las Vegas: ¡Youssef Zalal derrota a Calvin Kattar y se mete en los rankings de la UFC!' date='15/02/2025' />
                 <ArticlePreview img={ufcSaudiArabia} url='/covertura-ufc/fight-night-adesanya-imavov' title='UFC SAUDI ARABIA: ¡Nassourdine Imavov Noquea a Israel Adesanya en el Segundo Asalto! ¡Michael Venom Page le Quita el Invicto a Shara Bullet!' author={null} text='Noche de UFC en Arabia Saudita, que además nos trae la pelea entre Shara Magomedov y Michael Venom Page, y la pelea de peso pesado entre Pavlovich y Jairzinho' date='01/02/2025' />
