@@ -17,7 +17,7 @@ export const metadata: Metadata = {
         images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc318.a2b54185.webp&w=640&q=75',
         title: 'UFC 318: ¡Dustin Poirier vs Max Holloway!',
         description: "Pelea por el cinturón BMF en el UFC 318 entre Max Holloway y Dustin Poirier en su pelea de retirada.",
-        url: 'https://fullmma.org/covertura-ufc/ufc318'
+        url: 'https://fullmma.org/eventos/ufc318'
     }
 }
 

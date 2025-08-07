@@ -13,11 +13,11 @@ const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles
 
 export const metadata: Metadata = {
     title: 'Qué le Pasó en el Labio a Khamzat Chimaev',
-    description: '',
+    description: 'La cicatriz que tiene Khamzat Chimaev en el labio superior proviene de un accidente que sufrió cuando era tan solo un niño, contrario a lo que uno podría creer, teniendo la idea de que dicha marca en el rostro se le hizo en combate. ',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fchimaev_cicatriz.41e8705e.webp&w=828&q=65',
         title: 'Qué le Pasó en el Labio a Khamzat Chimaev',
-        description: '',
+        description: 'La cicatriz que tiene Khamzat Chimaev en el labio superior proviene de un accidente que sufrió cuando era tan solo un niño, contrario a lo que uno podría creer, teniendo la idea de que dicha marca en el rostro se le hizo en combate. ',
         url: 'https://fullmma.org/articulos/que-le-paso-en-el-labio-a-khamzat-chimaev'
     }
 }

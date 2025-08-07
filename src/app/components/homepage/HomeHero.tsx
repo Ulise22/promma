@@ -3,7 +3,7 @@ import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import chimaevEnfermedad from '@/assets/articulos/0-100/60-70/khamzat_chimaev_enfermedad.webp'
-import ufcBillonario from '@/assets/noticias/0-100/20-30/ufc_busca_millonada.jpg'
+import chimaevCicatriz from '@/assets/articulos/0-100/60-70/chimaev_cicatriz.webp'
 import modeloUFC from '@/assets/noticias/0-100/30-40/modelo_ufc.webp'
 
 export default function HomeHero () {
@@ -14,14 +14,14 @@ export default function HomeHero () {
                 <h2 className={styles.home__title}>¿Qué Enfermedad Tiene Khamzat Chimaev? Los Problemas de Salud de la Estrella de la UFC</h2>
                 <span>Todos los problemas de salud que sufrió Khamzat Chimaev que le impidieron pelear seguido y como se sobrepuso a ellos.</span>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/la-ufc-busca-contrato-billonario'>
-                <Image className={styles.homehero__article__img} quality={50} src={ufcBillonario} alt='' />
+            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/que-le-paso-en-el-labio-a-khamzat-chimaev'>
+                <Image className={styles.homehero__article__img} quality={50} src={chimaevCicatriz} alt='' />
                 <article className={styles.homehero__article__container}>
-                    <h2 className={styles.homehero__title}>La UFC Busca un Contrato Multimillonario de Mil Millones, Según Bloomberg, Por Sus Derechos Televisivos</h2>
-                    <p>Este año 2025 expira el contrato actual de la UFC con ESPN, por lo que la empresa de MMA más grande del planeta estaría buscando aumentar su contrato actual a uno de 10 cifras. </p>
+                    <h2 className={styles.homehero__title}>Qué le Pasó en el Labio a Khamzat Chimaev</h2>
+                    <p>Descubre la historia detrás la característica cicatríz que tiene la estrella de la UFC Khamzat Chimaev.</p>
                     <div className={styles.homehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>15/01/2025</p>
+                        <p>07/08/2025</p>
                     </div>
                 </article>
             </Link>

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
         images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftaira_vs_park.a7b3dbd9.webp&w=828&q=65',
         title: 'UFC Vegas 108: ¡Tatsura Taira vs Hyunsung Park!',
         description: 'Pelea entre Tatsura Taira y Hyunsung Peleando en el UFC Fight Night en Las Vegas en el UFC APEX este 2 de agosto de 2025. ',
-        url: 'https://fullmma.org/covertura-ufc/fight-night-taira-park'
+        url: 'https://fullmma.org/eventos/fight-night-taira-park'
     }
 }
 
