@@ -41,6 +41,8 @@ export default function DolidzeHernandez () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
                     <h2>Eric Mcconico Gana a Cody Brundage por Decisión Dividida</h2>
                     <p>Termina la primer pelea de esta cartelera de UFC con una victoria para el peleador estadounidense <b>Eric Mcconico</b>, quien en un combate bastante cerrado fue capaz de derrotar a su compatriota <b>Cody Brundage</b> por decisión dividida de los jueces, en una pelea que de a ratos tuvo momentos de intercambio de golpes, pero que gran parte se darrolló en el clinch y en la lucha. </p>
+                    <h2>Gabriella Fernandes Derrota a Julija Stoliarenko por Decisión Unánime</h2>
+                    <p>La brasileña <b>Gabriella Fernandes</b> se hace con la victoria por medio de la decisión unánime, luego de dominar completamente a la lituana Stoliarenko, gracias a su sobresaliente striking, y a su excelente defensa de derribos, que le permitieron mantener el combate de pie, que es donde se sentía más cómoda. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
