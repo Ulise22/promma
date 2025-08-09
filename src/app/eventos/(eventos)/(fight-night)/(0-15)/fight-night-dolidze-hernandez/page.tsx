@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function DolidzeHernandez () {
     return(
         <main>
-            <ArticleHero title='UFC Vegas 109: ¡Roman Dolidze vs Anthony Hernandez!' subtitle='¡Petr Yan Derrota de Forma Contundente a Marcus McGhee! ¡Shara Magomedov Vence Mar-André Barriault en la Pelea de la Noche!' image={hero} date='2025-08-09' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Vegas 109: ¡Roman Dolidze vs Anthony Hernandez!' subtitle='¡Josely Edwards Noquea a Priscila Cachoeira en el Primer Asalto!' image={hero} date='2025-08-09' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</p>
@@ -45,6 +45,8 @@ export default function DolidzeHernandez () {
                     <p>La brasileña <b>Gabriella Fernandes</b> se hace con la victoria por medio de la decisión unánime, luego de dominar completamente a la lituana Stoliarenko, gracias a su sobresaliente striking, y a su excelente defensa de derribos, que le permitieron mantener el combate de pie, que es donde se sentía más cómoda. </p>
                     <h2>Uros Medic deja KO a Gilbert Urbina en el primer asalto</h2>
                     <p>El luchador de Serbia <b>Uros Medic</b> nos da una tremenda performance, al lograr la victoria por KO en el primer asalto, luego de conectar un recto con izquierda que tumbaría inmediatamente a su oponente en apenas poco más de un minuto de combate, para quedarse con la victoria y ser el primer nocaut y finalización de la noche. Todo esto a pesar de estar cerca de ser noqueado él mismo ni bien comenzó la pelea, dado que había recibido un knockdown que finalmente no prosperó. </p>
+                    <h2>Joselyne Edwards Noquea a Priscila Cachoeira En el Primer Asalto</h2>
+                    <p>La panameña <b>Joselyne Edwards</b> logra una increíble victoria por la vía del nocaut en el primer asalto, luego de que un gancho conectado con la mano derecha conectara en la quijada de la brasileña <b>Priscila Cachoeira</b> que la tumbaría. Obteniendo de esta forma una espectacular victoria por la vía del nocaut, que hasta el momento es digna de bono a la actuación de la noche. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
