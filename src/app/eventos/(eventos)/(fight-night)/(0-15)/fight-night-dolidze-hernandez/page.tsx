@@ -51,12 +51,12 @@ export default function DolidzeHernandez () {
                     <p>Espectacular victoria por la vía del KO para el luchador estadounidense <b>Elijah Smith</b> al japonés <b>Toshiomi Kazama</b>, que fue completamente superior a su rival, que pese a ser derribado ni bien comenzó el combate, aprovechó esta situación para castigar con ground&pound a su rival desde donde pudo, generándole mucho daño a lo largo del asalto, para finalmente hacerse la victoria al leventar al japonés desde el suelo, y arrojarlo al piso para que del golpe Kazama quedé oficialmente noqueado. </p>
                     <h2>Julius Walker Derrota a Rafael Cerqueira por Decisión Unánime</h2>
                     <p>Tremenda victoria del estadounidense <b>Julius Walker</b> ante el brasileño <b>Rafael Cerqueira</b>, quien dominó tanto por arriba como por debajo a su rival, mostrándose supeior, siendo capaz de concretar sus derribos y conectando muchos golpes significantes, pero que sin embargo sufrió un poco en el último asalto, cuando Cerqueira pudo conectar varios golpes que claramente dañaron al estadounidense. Sin embargo, luego de un derribo, Walker fue capaz de controlar el combate para asegurar la victoria y quedarse con el último combate de esta cartelera preliminar. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
                     </Link>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2>Christian Leroy Duncan Noquea a Eryk Anders en el Primer Asalto</h2>
+                    <p>El luchador inglés logra hacerse con la victoria por la vía nocaut, luego de conectar primero un codo giratorio, y luego una combinación de golpes que terminarían por obligar al árbitro a separalos para dar por ganador a Leroy Duncan por TKO en esta primera pelea de la cartelera estelar. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
