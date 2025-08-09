@@ -1,10 +1,14 @@
-import styles from '@/app/articulos/components/article.module.css'
+import styles from '@/app/eventos/components/articleEvents.module.css'
 import ArticleHero from '@/app/articulos/components/ArticleHero'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/eventos/fight-night/0-150/0-15/whittaker-deridder.webp'
+import desktopAd from '@/app/eventos/components/assets/desktop.gif'
+import mobileAd from '@/app/eventos/components/assets/mobileAd.gif'
+import secondAd from '@/app/eventos/components/assets/Media10417__es300х250.gif'
+import Image from 'next/image'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
@@ -27,6 +31,11 @@ export default function WhittakerDeRidder () {
             <ArticleHero title='UFC Abu Dhabi: ¡Reiner De Ridder Derrota a Robert Whittaker En una Pelea Cerradísima!' subtitle='¡Petr Yan Derrota de Forma Contundente a Marcus McGhee! ¡Shara Magomedov Vence Mar-André Barriault en la Pelea de la Noche!' image={hero} date='2025-07-26' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
+                    <p className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</p>
+                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
+                        <Image className={styles.desktopAd} src={desktopAd} alt='' />
+                        <Image className={styles.mobileAd} src={mobileAd} alt='' />
+                    </Link>
                     <p>Muy buen evento de UFC tenemos el día de hoy, con una aperitivo estelar espectacular, donde el excampeón de peso medio de la UFC, <Link href='/peleadores/robert-whittaker'>Robert Whittaker</Link> se enfrentará al ex doble campeón de ONE Championship, <b>Reiner De Ridder</b>, en una pelea que promete ser memorable. </p>
                     <p>Además contamos con la presencia de tremendos peleadores que siempre son garantía de acción en el octágono, como lo son el ruso <b>Petr Yan</b>, quien estará enfrentando a <b>Marcus McGhee</b> en la pelea coestelar. Y contaremos con el regreso del Pirata, de <Link href='/peleadores/shara-magomedov'>Shara &quot;Bullet&quot; Magomedov</Link>. </p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
@@ -41,6 +50,9 @@ export default function WhittakerDeRidder () {
                     <h2>Bryce Mitchell Derrota a Said Nurmagomedov por Decisión Unánime</h2>
                     <p>Espectacular debut del estadounidense <b>Bryce Mitchell</b> en la división de peso gallo de la UFC ante <b>Said Nurmagomedov</b>, quien hizo lo que al 99% de los peleadores les suena a misión imposible, ganarle a un luchador de Daguestán en el suelo, mostrando un nivel de BJJ por encima de la media, y mostrandose muy dominante ante su rival, especialmente en el segundo y tercer asalto, que fueron los que le dieron la victoria a los ojos de los jueces. De esta manera, termina la cartelera preliminar que nos dejó 3 nocauts y muchas peleas dignas de un evento de UFC. </p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
+                        <Image src={secondAd} alt='' />
+                    </Link>
                     <h2>Bogdan Guskov Noquea a Nikita Krylov en el Primer Asalto</h2>
                     <p>Tremenda manera de iniciar la cartelera estelar con esta pelea en peso semipesado que terminó con la victoria de un Bogdan Guskov por la vía del nocaut en el primer asalto, que viene imparable, que venía de 3 victorias consecutivas por finalización (con 2 nocauts y 1 sumisión), y que ahora extiende esa racha a 4, con 3 nocauts en su récord. </p>
                     <h2>Asu Almabayev Derrota a Jose Ochoa Por Decisión Unánime</h2>

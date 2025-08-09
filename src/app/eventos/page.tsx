@@ -7,6 +7,7 @@ import ufc316 from '@/assets/covertura_ufc/ufc/0-100/15-30/ufc316.webp'
 import ufcLondon from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_london.webp'
 import ufcMexico from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufc_mexico.webp'
 import ufcVegas103 from '@/assets/covertura_ufc/fight_night/0-100/0-15/ufcvegas103.jpeg'
+import whittakerVSderidder from '@/assets/eventos/fight-night/0-150/0-15/whittaker-deridder.webp'
 
 
 export default function Eventos () {
@@ -14,6 +15,7 @@ export default function Eventos () {
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
+                <ArticlePreview img={whittakerVSderidder} url='/eventos/fight-night-whittaker-deridder' title='UFC Abu Dhabi: ¡Reiner De Ridder Derrota a Robert Whittaker En una Pelea Cerradísima!' author={null} text='¡Petr Yan Derrota de Forma Contundente a Marcus McGhee! ¡Shara Magomedov Vence Mar-André Barriault en la Pelea de la Noche!' date='26/07/2025' />
                 <ArticlePreview img={ufc316} url='/covertura-ufc/ufc316' title='UFC 316: ¡Merab Dvalishvili Somete a Sean O&apos;Malley en el Primer Asalto! ¡Kayla Harrison Somete a Julianna Peña en el Segundo Asalto!' author={null} text='¡Kevin Holland Somete a Vicente Luque en el Segundo Asalto de la Pelea!' date='07/06/2025' />
                 <ArticlePreview img={ufc314} url='/covertura-ufc/ufc314' title='UFC 314: ¡Alexander Volkanovski Derrota a Diego Lopes y es el Nuevo Campeón de Peso Pluma de la UFC!' author={null} text='¡Paddy Pimblett Noquea a Michael Chandler en el Tercer Asalto! ¡Jean Silva Somete a Bryce Mitchell en el Segundo Asalto de la pelea!' date='14/04/2025' />
                 <ArticlePreview img={ufcMexico} url='/covertura-ufc/fight-night-moreno-erceg' title='UFC México: ¡Brandon Moreno Derrota a Steve Erceg por Decisión Unánime!' author={null} text='¡Kevin Borjas Derrota a Ronaldo Rodriguez en una Excelente Pelea del Peruano! ¡Raúl Rosas Jr. Gana su Pelea por Decisión Unánime ante Vince Morales!' date='29/03/2025' />
