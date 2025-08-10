@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function DolidzeHernandez () {
     return(
         <main>
-            <ArticleHero title='UFC Vegas 109: ¡Roman Dolidze vs Anthony Hernandez!' subtitle='¡Josely Edwards Noquea a Priscila Cachoeira en el Primer Asalto!' image={hero} date='2025-08-09' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Vegas 109: ¡Roman Dolidze vs Anthony Hernandez!' subtitle='¡Steve Erceg Derrota a Ode Osbourne Por Decisión Unánime! ¡Josely Edwards Noquea a Priscila Cachoeira en el Primer Asalto!' image={hero} date='2025-08-09' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</p>
@@ -63,6 +63,8 @@ export default function DolidzeHernandez () {
                     <p>Nuevamente tenemos una pelea cuyo resultado se define por la decisión dividida de los jueces, en esta ocasión quien se proclama victorioso es el veterano <b>Andre Fili</b>, quien hace valer su experiencia en el octágono al derrotar al joven luchador 27 años <b>Christian Rodriguez</b>, que aunque intentó dar vuelta el resultado de la pelea al final, no fue suficiente para arrebatarle la victoria a su compatriota Fili. </p>
                     <h2>Iasmin Lucindo Derrota a Angella Hill Por Decisión Unánime</h2>
                     <p>La luchadora brasileña de 23 años, la más joven en competir en esta compañía, logra hacerse con la victoria ante la estadounidense <b>Angella Hill</b> en una actuación completamente dominante que la posiciona como una de las luchadora más peligrosas de la división. De esta forma, <b>Iasmin Lucindo</b> se queda con la victoria por decisión unánime antes de la pelea coestelar de esta noche. </p>
+                    <h2>Steve Erceg Derrota a Ode Osbourne Por Decisión Unánime</h2>
+                    <p>El luchador australiano <b>Steve Erceg</b> se hace con la victoria ante el jamaiquino <b>Ode Osbourne</b> por decisión unánime. Luego de un primer asalto muy complicado para Steve y muy bueno para Ousburne, donde parecía que el nocaut estaba por llegar en cualquier momento, debido a los durísimos golpes que fue capaz de conectar el jamaiquino, que claramente dañaron a su rival, Erceg fue capaz de sobrevivir el primer asalto y de ir creciendo a medida que avanzaba la pelea, concretando sus derribos y dominando a ras de lona a su rival, para finalmente terminar llevándose la victoria por decisión unánime en esta pelea coestelar.</p>
                     <EndArticle />
                 </article>
                 <AsideChamps />

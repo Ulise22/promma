@@ -18,7 +18,7 @@ export default function PageHero () {
                 <Image className={styles.pagehero__article__img} quality={50} src={dolidzeVShernandez} alt='' />
                 <article className={styles.pagehero__article__container}>
                     <h2 className={styles.pagehero__title}>UFC Vegas 109: ¡Roman Dolidze vs Anthony Hernandez!</h2>
-                    <p>¡Steve Erceg vs Ode&apos; Osburne! ¡Joselyne Edwards Noquea a Priscila Cachoeira en el Primer Asalto!</p>
+                    <p>¡Steve Erceg Derrota a Ode Osbourne Por Decisión Unánime! ¡Joselyne Edwards Noquea a Priscila Cachoeira en el Primer Asalto!</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
                         <p>09/08/2025</p>
