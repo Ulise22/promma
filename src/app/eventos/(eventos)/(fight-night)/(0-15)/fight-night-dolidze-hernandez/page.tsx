@@ -57,6 +57,8 @@ export default function DolidzeHernandez () {
                     </Link>
                     <h2>Christian Leroy Duncan Noquea a Eryk Anders en el Primer Asalto</h2>
                     <p>El luchador inglés logra hacerse con la victoria por la vía nocaut, luego de conectar primero un codo giratorio, y luego una combinación de golpes que terminarían por obligar al árbitro a separalos para dar por ganador a Leroy Duncan por TKO en esta primera pelea de la cartelera estelar. </p>
+                    <h2>Jean Matsumoto Derrota a Miles Johns Por Decisión Dividida</h2>
+                    <p>El brasileño <b>Jean Matsumoto</b> logra hacerse con la victoria en esta segunda pelea de la cartelera estelar, luego de una gran pelea por su parte, en la que pudo conectar un mayor volumen de golpes, especialmente en el tercer asalto, y en la que supo defenderse bien en el suelo ante el estadounidense <b>Miles Johns</b>, quien no estuvo de acuerdo con la decisión de los jueces, que de manera dividida le dieron la victoria a Matsumoto. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
