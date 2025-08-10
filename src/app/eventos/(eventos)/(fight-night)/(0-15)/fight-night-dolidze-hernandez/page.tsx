@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function DolidzeHernandez () {
     return(
         <main>
-            <ArticleHero title='UFC Vegas 109: ¡Roman Dolidze vs Anthony Hernandez!' subtitle='¡Steve Erceg Derrota a Ode Osbourne Por Decisión Unánime! ¡Josely Edwards Noquea a Priscila Cachoeira en el Primer Asalto!' image={hero} date='2025-08-09' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Vegas 109: ¡Anthony Hernandez Somete a Roman Dolidze en el Cuarto Asalto de la Pelea!' subtitle='¡Steve Erceg Derrota a Ode Osbourne Por Decisión Unánime! ¡Josely Edwards Noquea a Priscila Cachoeira en el Primer Asalto!' image={hero} date='2025-08-09' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</p>
@@ -65,6 +65,8 @@ export default function DolidzeHernandez () {
                     <p>La luchadora brasileña de 23 años, la más joven en competir en esta compañía, logra hacerse con la victoria ante la estadounidense <b>Angella Hill</b> en una actuación completamente dominante que la posiciona como una de las luchadora más peligrosas de la división. De esta forma, <b>Iasmin Lucindo</b> se queda con la victoria por decisión unánime antes de la pelea coestelar de esta noche. </p>
                     <h2>Steve Erceg Derrota a Ode Osbourne Por Decisión Unánime</h2>
                     <p>El luchador australiano <b>Steve Erceg</b> se hace con la victoria ante el jamaiquino <b>Ode Osbourne</b> por decisión unánime. Luego de un primer asalto muy complicado para Steve y muy bueno para Ousburne, donde parecía que el nocaut estaba por llegar en cualquier momento, debido a los durísimos golpes que fue capaz de conectar el jamaiquino, que claramente dañaron a su rival, Erceg fue capaz de sobrevivir el primer asalto y de ir creciendo a medida que avanzaba la pelea, concretando sus derribos y dominando a ras de lona a su rival, para finalmente terminar llevándose la victoria por decisión unánime en esta pelea coestelar.</p>
+                    <h2>Anthony Hernandez Somete a Roman Dolidze en el Cuarto Asalto</h2>
+                    <p>Tremenda Victoria para el luchador estadounidense <b>Anthony Hernandez</b>, que luego de dominar completamente al luchador georgiano <b>Roman Dolidze</b>, tanto en el striking donde conectó más y mejor, como en el suelo donde fue mucho mejor. Todo este dominio y esta superioridad finalmente se vió reflejada en el resultado, concretamente en el cuarto asalto, cuando el estadounidense en medio de una avalancha de golpes, decidió ir por la mataleón, levantando desde el suelo a su rival y arrastrándolo de pie mientras le sostenía el cuello, llevando a Dolidze a tapear, otorgándole la victoria por sumisión a Anthony Hernandez. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
