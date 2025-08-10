@@ -17,7 +17,7 @@ export default function PageHero () {
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-dolidze-hernandez'>
                 <Image className={styles.pagehero__article__img} quality={50} src={dolidzeVShernandez} alt='' />
                 <article className={styles.pagehero__article__container}>
-                    <h2 className={styles.pagehero__title}>UFC Vegas 109: ¡Roman Dolidze vs Anthony Hernandez!</h2>
+                    <h2 className={styles.pagehero__title}>UFC Vegas 109: ¡Anthony Hernandez Somete a Roman Dolidze en el Cuarto Asalto de la Pelea!</h2>
                     <p>¡Steve Erceg Derrota a Ode Osbourne Por Decisión Unánime! ¡Joselyne Edwards Noquea a Priscila Cachoeira en el Primer Asalto!</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
