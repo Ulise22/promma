@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'Que es el Corte de Peso en UFC',
     description: 'El corte de peso consiste en reducir temporalmente el peso corporal antes de los pesajes oficiales de la UFC, con el objetivo de pelear en una categoría de peso inferior a la de tu peso natural. ',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcortes_de_peso_ufc.0f12ec67.webp&w=828&q=65',
         title: 'Que es el Corte de Peso en UFC',
         description: 'El corte de peso consiste en reducir temporalmente el peso corporal antes de los pesajes oficiales de la UFC, con el objetivo de pelear en una categoría de peso inferior a la de tu peso natural. ',
         url: 'https://fullmma.org/articulos/que-es-el-corte-de-peso-en-ufc'
