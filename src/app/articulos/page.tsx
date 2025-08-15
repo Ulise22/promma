@@ -76,19 +76,22 @@ import chimaevEnfermedad from '@/assets/articulos/0-100/60-70/khamzat_chimaev_en
 import vaselinaUFC from '@/assets/articulos/0-100/60-70/vaselina_ufc.webp'
 import chimaevCicatriz from '@/assets/articulos/0-100/60-70/chimaev_cicatriz.webp'
 import corteDePesoUFC from '@/assets/articulos/0-100/60-70/cortes_de_peso_ufc.webp'
+/* 70-80 */ 
+import borzSignificado from '@/assets/articulos/0-100/70-80/borz_significado.webp'
 
 export default function Articulos () {
     return(
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
+                <ArticlePreview img={borzSignificado} url='/articulos/que-significa-borz' title='¿Qué Significa Borz? El Apodo de Khamzat Chimaev' author={null} text='La historia y significado detrás de "BORZ", el apodo de uno de los peleadores más queridos de la UFC actualmente' date='15/08/2025' />
                 <ArticlePreview img={corteDePesoUFC} url='/articulos/que-es-el-corte-de-peso-en-ufc' title='¿Qué es el Corte de Peso en UFC?' author={null} text='Descubre qué es el corte de peso en la UFC y por qué los peleadores lo hacen antes de cada combate.' date='12/08/2025' />
                 <ArticlePreview img={chimaevCicatriz} url='/articulos/que-le-paso-en-el-labio-a-khamzat-chimaev' title='Qué le Pasó en el Labio a Khamzat Chimaev' author={null} text='Descubre la historia detrás la característica cicatríz que tiene la estrella de la UFC Khamzat Chimaev.' date='07/08/2025' />
                 <ArticlePreview img={vaselinaUFC} url='/articulos/que-le-ponen-a-los-peleadores-de-ufc-en-la-cara' title='Qué le Ponen a los Peleadores de UFC en la Cara' author={null} text='Descubre el porqué le ponen vaselina en el rostro los peleadores de UFC antes de cada combate. ' date='05/08/2025' />
-                <ArticlePreview img={chimaevEnfermedad} url='/articulos/que-enfermedad-tiene-khamzat-chimaev' title='¿Qué Enfermedad Tiene Khamzat Chimaev? Los Problemas de Salud de la Estrella de la UFC' author={null} text='Todos los problemas de salud que sufrió Khamzat Chimaev que le impidieron pelear seguido y como se sobrepuso a ellos.' date='04/08/2025' />
             </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={chimaevEnfermedad} url='/articulos/que-enfermedad-tiene-khamzat-chimaev' title='¿Qué Enfermedad Tiene Khamzat Chimaev? Los Problemas de Salud de la Estrella de la UFC' author={null} text='Todos los problemas de salud que sufrió Khamzat Chimaev que le impidieron pelear seguido y como se sobrepuso a ellos.' date='04/08/2025' />
                 <ArticlePreview img={viacheslavDatsik} url='/articulos/viacheslav-datsik-mma' title='La Historia de Viacheslav Datsik: El Peleador Ruso Más Turbio del Mundo' author={null} text='La historia de uno de los luchadores rusos de MMA más perturbados del mundo, Viacheslav Datsik quien además noqueó a Alexander Emelianenko' date='22/02/2025' />
                 <ArticlePreview img={entrenarAlexPereira} url='/articulos/entrenar-todos-los-dias-alex-pereira' title='La Ventaja de Entrenar Todos Los Días Según Alex Pereira' author={null} text='El secreto detrás de la confianza de Alex Pereira, que radica en el entrenamiento diario. ' date='17/02/2025' />
                 <ArticlePreview img={derrotaAnkalaev} url='/articulos/magomed-ankalaev-derrota' title='La Única Derrota de Magomed Ankalaev' author={null} text='¿Contra quien perdió Ankalaev? La historia de la única derrota de Magomed Ankalaev contra Paul Craig.' date='14/02/2025' />
