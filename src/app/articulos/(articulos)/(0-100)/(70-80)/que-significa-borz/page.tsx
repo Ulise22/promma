@@ -13,11 +13,11 @@ const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles
 
 export const metadata: Metadata = {
     title: 'Qué Significa Borz',
-    description: '',
+    description: 'Todo el significado detrás de la palabra "BORZ", que en español se traduce como lobo, y que la estrella de UFC Khamzat Chimaev decidió utilizar como apodo.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fborz_significado.c0860d8e.webp&w=828&q=65',
         title: 'Qué Significa Borz',
-        description: '',
+        description: 'Todo el significado detrás de la palabra "BORZ", que en español se traduce como lobo, y que la estrella de UFC Khamzat Chimaev decidió utilizar como apodo.',
         url: 'https://fullmma.org/articulos/que-significa-borz'
     }
 }
