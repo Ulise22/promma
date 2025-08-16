@@ -16,11 +16,11 @@ const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles
 
 export const metadata: Metadata = {
     title: 'UFC 319: ¡Dricus Du Plessis vs Khamzat Chimaev!',
-    description: "",
+    description: "UFC 319 con Dricus Du Plessis defendiendo el cinturón de peso medio ante Khamzat Chimaev.",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc319.494c5fc3.webp&w=828&q=65',
         title: 'UFC 319: ¡Dricus Du Plessis vs Khamzat Chimaev!',
-        description: "",
+        description: "UFC 319 con Dricus Du Plessis defendiendo el cinturón de peso medio ante Khamzat Chimaev.",
         url: 'https://fullmma.org/eventos/ufc319'
     }
 }
@@ -40,7 +40,7 @@ export default function UFC319 () {
                     <p>Además, en el evento coestelar peleará el también invicto <b>Lerone Murphy</b>, quien dará la bienvenida a la UFC en peso pluma al expeleador de BELLATOR <b>Aaron Pico</b>, quien pese a ser un debutante en la compañía y tener un par de derrotas en su haber, parte como favortio en las apuestas. Aunque la acción no sólo queda ahí, dado que tenemos un montón de combatazos, incluída la pelea del brasileño pertenciente a los <Link href='/articulos/fighting-nerds'>Fighting Nerds</Link>, <Link href='/peleadores/carlos-prates'>Carlos Prates</Link>, quien enfrentará a <b>Geoff Neal</b>. Además, contaremos con el debut del checheno de 24 años <b>Baisangur Susurkaev</b>, quien hace tan sólo 4 días estaba peleando en el <b>Dana White&apos;s Contender Series</b>, y quien cuya actuación gustó tanto a Dana White, que no sólo le dió un contrato en la compañía, sino que ya lo puso a competir en una cartelera. </p>
                     <h2 className={styles.article__fightsHierarchy}>Primeros Preliminares</h2>
                     <h2>Joseph Morales Somete a Alibi Idiris en el Segundo Asalto</h2>
-                    <p>Tremenda manera de comenzar este UFC 319, y de terminar esta final de <b>The Ultimate Fighter</b>, con el estadounidense <b>Joseph Morales</b> dominando completamente a su rival de Kazajistán, <b>Alibi Idiris</b>, que aunque llegaba a este combate invicto y como amplio favorito en las apuestas, conoció la derrota por primera vez en su carrera, ante un Joseph Morales que luego de un primer paso fallido en la UFC, logra volver y de qué manera, con un dominio total que culminó en el segundo asalto con una mataleón para someter a su rival. </p>
+                    <p>Tremenda manera de comenzar este UFC 319, y de terminar esta final de <b>The Ultimate Fighter</b>, con el estadounidense <b>Joseph Morales</b> dominando completamente a su rival de Kazajistán, <b>Alibi Idiris</b>, que aunque llegaba a este combate invicto y como amplio favorito en las apuestas, conoció la derrota por primera vez en su carrera, ante un Joseph Morales que luego de un primer paso fallido en la UFC, logra volver y de qué manera, con un dominio total que culminó en el segundo asalto con una sumisión para derrotar a su rival. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
