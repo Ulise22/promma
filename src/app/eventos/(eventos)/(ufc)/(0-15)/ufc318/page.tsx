@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function UFC318 () {
     return(
         <main>
-            <ArticleHero title="UFC 318: ¡Max Holloway Derrota a Dustin Poirier en su Retirada y Sigue Siendo el BMF!" subtitle='¡Paulo Costa Regresa Mejor Que Nunca y Derrota Roman Kopylov! ¡Michael Johnson Derrota a Daniel Zellhuber por Decisión Unánime!' image={hero} date='2024-07-19' author={null} updatedDate='2025-07-20' />
+            <ArticleHero title="UFC 318: ¡Max Holloway Derrota a Dustin Poirier en su Retirada y Sigue Siendo el BMF!" subtitle='¡Paulo Costa Regresa Mejor Que Nunca y Derrota Roman Kopylov! ¡Michael Johnson Derrota a Daniel Zellhuber por Decisión Unánime!' image={hero} date='2025-07-19' author={null} updatedDate='2025-07-20' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</p>
