@@ -11,8 +11,8 @@ export default function PageHero () {
         <section className={styles.pagehero}>
             <Link className={styles.pagehero__bigArticle} href='/eventos/ufc319'>
                 <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc319} alt='' />
-                <h2 className={styles.page__title}>UFC 319: ¡Dricus Du Plessis vs Khamzat Chimaev!</h2>
-                <p>¡Lerone Murphy vs Aaron Pico! ¡Carlos Prates vs Geoff Neal!</p>
+                <h2 className={styles.page__title}>UFC 319: ¡Dricus Du Plessis vs Khamzat Chimaev! ¡Lerone Murphy Deja KO al Debutante de UFC Aaron Pico!</h2>
+                <p>¡Loopy Godínez Derrota a Jéssica Andrade por Decisión Unánime en un Peleón! ¡Carlos Prates Noquea a Geoff Neal en el Primer Asalto con un Codazo Giratorio!</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-dolidze-hernandez'>
                 <Image className={styles.pagehero__article__img} quality={50} src={dolidzeVShernandez} alt='' />
