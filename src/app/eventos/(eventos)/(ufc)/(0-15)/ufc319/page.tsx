@@ -57,12 +57,12 @@ export default function UFC319 () {
                     <p>Tremenda victoria para el polaco, quien siendo inteligente y sabiendo esperar su momento, conecto los mejores golpes que tumbaron a Gerald en más de una ocasión, pero sabiendo del peligro que representa el estadounidense en el piso, siendo el luchador con más sumisiones en la historia de la sumisión, no fue hasta que lo vió muy lastimado que decidió arrojarse al suelo con él para rematarlo y terminar llevándose la victoria por TKO en el primer asalto. </p>
                     <h2>Baisangur Susurkaev Somete a Eric Nolan en el Segundo Asalto</h2>
                     <p>El checheno no decepciona para nada, al mostrarse confiado desde el primer segundo de la pelea, sonriendo y riendo cada vez que su rival le conectaba un golpe, pasó el primer asalto sin ningún dominio claro, hasta que llegó el segundo asalto de la pelea, cuando <b>Baisangur Susurkaev</b> decidió tomarse en serio el combate, buscando el derribo y castigando a ras de lona al estadounidense <b>Eric Nolan</b>, a quien golpeó hasta el cansancio desde la espalda de este, para finalmente encontrar el espacio y buscar un mataleón que logró conectar exitosamente, obligando a Nolan a tapear, y consiguiendo Susurkaev la victoria por sumisión en el segundo asalto en esta última pelea de las preliminares del UFC 319.</p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
                     </Link>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2>Tim Elliot Somete a Kai Asakura en el segundo asalto</h2>
+                    <p>Tremenda pelea del estadounidense, que en su regreso al octágono después de una larga pausa, nos trae esta performance digna de destacar. En en un combate en el que comenzó muy bien el japonés <b>Kai Asakura</b>, con un striking de elite, conectando y moviéndose constantemente para evitar ser golpeado y derribado, terminó muy diferente cuando inició el segundo asalto, cuando el americano <b>Tim Elliot</b>, fue capaz de llevar al suelo a su rival, y desde allí conectar una guillotina profunda que obligó a Asakura a tapear, otorgándole a Elliot la victoria por sumisión en el segundo asalto de esta primer pelea estelar de la noche. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
