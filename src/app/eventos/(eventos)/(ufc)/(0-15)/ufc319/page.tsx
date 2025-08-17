@@ -45,12 +45,12 @@ export default function UFC319 () {
                     <p>La brasileña <b>Karine Silva</b> se lleva la victoria en un tremendo combate, que le permite conservar su puesto en el ranking de peso mosca femenino. A pesar de que <b>Dione Barbosa</b> había comenzado muy bien la pelea, dominando y ganando el primer asalto de la pelea, haciendo uso de su Judo y Muay Thai como principales fortalezas, lo cierto es que se fue apagando a medida que avanzó el combate, y su compatriota comenzó a hacer ajustes que le permitieron ir robando puntos para finalmente llevarse la victoria por decisión unánime en este primer combate femenino de la noche. </p>
                     <h2>Drakkar Klose Derrota a Edson Barboza por Decisión Unánime</h2>
                     <p>El estadounidense <b>Drakkar Klose</b> se hace con la victoria en una pelea muy cerrada ante el brasileño <b>Edson Barboza</b>. Si bien tanto el primer como el tercer asalto fueron muy competidos, lo cierto es que el luchador americano dominó claramente el segundo asalto, conectando golpes a la cabeza que daban la sensación de que en cualquier momento podían noquear a su rival, además de que pese a recibir más golpes en el cuerpo y más patadas a las piernas, Klose fue claramente superior cuando de golpes a la cabeza se trataba. Por esto no es de extrañar que quien finalmente se llevara la victoria 29-28 en esta última pelea de los primeros preliminares por decisión unánime sea Drakkar Klose. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
+                    <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
                     </Link>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2>Alexander Hernandez Noquea a Chase Hooper en el Primer Asalto</h2>
+                    <p>Tremenda sorpresa da el estadounidense <b>Alexander Hernandez</b>, que pese a estar abajo en las apuestas, y dar la sensación de estar perdiendo el asalto, necesitó de un golpe bien dado y de unos necesarios golpes extras para quedarse con la victoria por nocaut, a falto de 2 segundos para que terminara el asalto, logrando de esta forma el primer nocaut de la noche. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
