@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function UFC319 () {
     return(
         <main>
-            <ArticleHero title="UFC 319: ¡Dricus Du Plessis vs Khamzat Chimaev!" subtitle='¡Lerone Murphy vs Aaron Pico! ¡Carlos Prates vs Geoff Neal!' image={hero} date='2025-08-16' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 319: ¡Dricus Du Plessis vs Khamzat Chimaev! ¡Lerone Murphy vs Aaron Pico!" subtitle='¡Loopy Godínez Derrota a Jéssica Andrade por Decisión Unánime en un Peleón! ¡Carlos Prates vs Geoff Neal!' image={hero} date='2025-08-16' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</p>
@@ -51,6 +51,8 @@ export default function UFC319 () {
                     </Link>
                     <h2>Alexander Hernandez Noquea a Chase Hooper en el Primer Asalto</h2>
                     <p>Tremenda sorpresa da el estadounidense <b>Alexander Hernandez</b>, que pese a estar abajo en las apuestas, y dar la sensación de estar perdiendo el asalto, necesitó de un golpe bien dado y de unos necesarios golpes extras para quedarse con la victoria por nocaut, a falto de 2 segundos para que terminara el asalto, logrando de esta forma el primer nocaut de la noche. </p>
+                    <h2>Loopy Godínez Derrota a Jéssica Andrade por Decisión Unánime</h2>
+                    <p>En un tremendo combate, de los mejores de la noche, la mexicana <b>Loopy Godínez</b> salió victoriosa ante la veterana brasileña <b>Jéssica Andrade</b>, a quien dominó desde el strking, consiguiendo concretar un par de derribos también, especialmente durante los primeros 2 asaltos, en los que supo manejar la distancia para conectar varios golpes y no recibir tantos ella. Y aunque en el tercer asalto, más desesperada Andrade por buscar la finalización, lo terminó ganando la brasileña, la mexicana se supo defender y contestar con más golpes, logrando con lo hecho en el primer y segundo asalto llevarse la victoria por decisión unánime. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
