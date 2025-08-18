@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: '¿Qué pasa si no das el peso en UFC?',
     description: 'Descube que sucede cuando un peleador de UFC llega pesando más de lo acordado al pesaje, qué sanciones pone la UFC y cómo se resuelven estas situaciones. ',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffallar_peso_ufc.feb34349.webp&w=828&q=65',
         title: '¿Qué pasa si no das el peso en UFC?',
         description: 'Descube que sucede cuando un peleador de UFC llega pesando más de lo acordado al pesaje, qué sanciones pone la UFC y cómo se resuelven estas situaciones. ',
         url: 'https://fullmma.org/articulos/que-pasa-si-no-das-el-peso-en-ufc'
