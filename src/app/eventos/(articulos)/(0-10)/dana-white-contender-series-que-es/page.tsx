@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: 'Dana White Conteneder Series Que Es',
     description: "Descubre qué es y cómo funciona el Dana White Contender Series, el programa de televisión de la UFC donde los peleadores que más destaquen se ganan un contrato en la compañía de MMA más grande del mundo.",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdwcs_que_es.baee7bc9.webp&w=828&q=65',
         title: 'Dana White Conteneder Series Que Es',
         description: "Descubre qué es y cómo funciona el Dana White Contender Series, el programa de televisión de la UFC donde los peleadores que más destaquen se ganan un contrato en la compañía de MMA más grande del mundo.",
         url: 'https://fullmma.org/eventos/dana-white-contender-series-que-es'
@@ -42,6 +42,8 @@ export default function QueEsDWCS () {
                     <p>Hasta su octava temporada, estrenada el pasado 2024, Dana White y la UFC contrataron gracias a este programa casi 300 peleadores, siendo finalmente un total de 287, a lo largo de 8 temporadas que normalmente contaban con 10 episodios/eventos por temporada. </p>
                     <YouTubeEmbed videoid='KziQ6Oz2Pjs' />
                     <p>La cantidad de peleadores que hoy destacan en la compañía que se ganaron su contrato en este programa es inmensa, que van desde el mexicano <Link href='/peleadores/raul-rosas-jr'>Raúl Rosas Jr.</Link>, el argentino <Link href='/peleadores/esteban-ribovics'>Esteban Ribovics</Link>, el chileno <b>Ignacio Bahamondes</b>, hasta los <Link href='/articulos/fighting-nerds'>Fighting Nerds</Link>, cuyas 4 figuras más reconocidas, <Link href='/peleadores/caio-borralho'>Caio Borralho</Link>, <Link href='/peleadores/carlos-prates'>Carlos Prates</Link>, <b>Jean Silva</b> y <b>Mauricio Ruffy</b>, consiguieron sus contratos en la UFC por esta vía. </p>
+                    <h2>Donde ver Dana White Contender Series</h2>
+                    <p>Este programa puede ser visto actualmente por <b>ESPN o Disney+</b> en el caso de la mayoría de países de Latinoamérica. En el caso de México puede ser visto vía <b>FOX Sports Premiun</b>. Y finalmente en España puede verse en <b>HBO MAX</b>. Además, cabe aclarar que el programa puede ser visto desde cualquier parte del mundo mediante <b>UFC Fight Pass</b>.</p>
                     <h2>Campeones de UFC que salieron del Dana White Contender Series</h2>
                     <p>El legado que ha dejado este programa para el deporte y para la UFC, pese a ser un show relativamente reciente, ya es significativo y continúa creciendo día a día. Contando en la actualidad con 3 campeones que iniciaron su carrera en la compañía de artes marciales mixtas más grande del mundo allí, siendo estos: <Link href='/peleadores/sean-omalley'>Sean O&apos;Malley</Link>, <b>Jamahal Hill</b> y más recientemente <b>Jack Della Madallena</b>. </p>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
