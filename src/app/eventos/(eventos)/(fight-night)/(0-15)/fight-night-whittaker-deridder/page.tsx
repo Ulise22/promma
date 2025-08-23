@@ -31,7 +31,7 @@ export default function WhittakerDeRidder () {
             <ArticleHero title='UFC Abu Dhabi: ¡Reiner De Ridder Derrota a Robert Whittaker En una Pelea Cerradísima!' subtitle='¡Petr Yan Derrota de Forma Contundente a Marcus McGhee! ¡Shara Magomedov Vence Mar-André Barriault en la Pelea de la Noche!' image={hero} date='2025-07-26' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
-                    <p className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</p>
+                    <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image className={styles.desktopAd} src={desktopAd} alt='' />
                         <Image className={styles.mobileAd} src={mobileAd} alt='' />

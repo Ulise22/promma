@@ -31,7 +31,7 @@ export default function DolidzeHernandez () {
             <ArticleHero title='UFC Vegas 109: ¡Anthony Hernandez Somete a Roman Dolidze en el Cuarto Asalto de la Pelea!' subtitle='¡Steve Erceg Derrota a Ode Osbourne Por Decisión Unánime! ¡Josely Edwards Noquea a Priscila Cachoeira en el Primer Asalto!' image={hero} date='2025-08-09' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
-                    <p className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</p>
+                    <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image className={styles.desktopAd} src={desktopAd} alt='' />
                         <Image className={styles.mobileAd} src={mobileAd} alt='' />
