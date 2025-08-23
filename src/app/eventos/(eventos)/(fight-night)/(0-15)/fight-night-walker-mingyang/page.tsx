@@ -16,11 +16,11 @@ const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles
 
 export const metadata: Metadata = {
     title: 'UFC Shanghai: ¡Johnny Walker vs Zhang Mingyang!',
-    description: '',
+    description: 'Noche de UFC en Shaghai, China, con la pelea de Johnny Walker vs Zhang Mingyang como evento estelar. ',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwalker_vs_mingyang.aa02cf2d.webp&w=828&q=65',
         title: 'UFC Shanghai: ¡Johnny Walker vs Zhang Mingyang!',
-        description: '',
+        description: 'Noche de UFC en Shaghai, China, con la pelea de Johnny Walker vs Zhang Mingyang como evento estelar. ',
         url: 'https://fullmma.org/eventos/fight-night-walker-mingyang'
     }
 }
