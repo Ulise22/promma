@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function DolidzeHernandez () {
     return(
         <main>
-            <ArticleHero title='UFC Shanghai: ¡Johnny Walker vs Zhang Mingyang!' subtitle='¡Brian Ortega vs Aljamain Sterling! ¡Sergei Pavlovich vs Waldo Cortes Acosta!' image={hero} date='2025-08-23' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Shanghai: ¡Johnny Walker vs Zhang Mingyang!' subtitle='¡Brian Ortega vs Aljamain Sterling! ¡Sergei Pavlovich Derrota a Waldo Cortes Acosta Por Decisión Unánime!' image={hero} date='2025-08-23' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -62,6 +62,8 @@ export default function DolidzeHernandez () {
                     <p>De igual manera, el luchador chino estaba siendo muchísimo más superior a su rival antes de este rodillazo ilegal, por lo que aún en caso de no conectarse uno supone que el resultado de la pelea hubiera sido el mismo, aún así es curioso y vale la pena recalcar, que en caso de haberlo querido, Kiefer Crosbie podría haber argumentado que no podía seguir peleando, y hubiera ganado la pelea por descalificación. </p>
                     <h2>Sumudaerji Derrota a Kevin Borjas Por Decisión</h2>
                     <p>El peleador local <b>Sumudaerji</b> se hace con la victoria, luego de ser mejor que su rival peruano <b>Kevin Borjas</b> durante los 3 asaltos, conectando más y mejores golpes que su rival, y siendo capaz de defender todos los intentos derribos que este intento hacer. De esta forma, por decisión unánime Sumudaerji se lleva la victoria 30-27 ante un peruano que no pudo reaccionar como necesitaba para evitar este resultado. </p>
+                    <h2>Sergei Pavlovich Derrota a Waldo Cortes Acosta</h2>
+                    <p>El luchador ruso <b>Sergei Pavlovich</b> defiende su posición en el puesto #3 en los rankings de peso pesado, derrotando al dominicano <b>Waldo Cortes Acosta</b> en un combate donde ambos peleadores especularon mucho, con algo de temor sobre el poder de nocaut del otro. En este terreno de la pelea, el ruso fue quien mejor supo manejar la distancia, para conectar y ser concetado menos que su rival, quien a pesar de todo demostró tener una gran mandibula, dado que recibió golpes que hubieran dormido a cualquiera, pero que él supo soportar. De esta manera, el ruso vuelva a la victoria y corta con una racha de 5 victorias consecutivas que llevaba acumulando el dominicano. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
