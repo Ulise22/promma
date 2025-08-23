@@ -28,8 +28,8 @@ export default function PageHero () {
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-walker-mingyang'>
                 <Image className={styles.pagehero__article__img} quality={50} src={walkerVSmingyang} alt='' />
                 <article className={styles.pagehero__article__container}>
-                    <h2 className={styles.pagehero__title}>UFC Shanghai: ¡Johnny Walker vs Zhang Mingyang!</h2>
-                    <p>¡Brian Ortega vs Aljamain Sterling! ¡Sergei Pavlovich vs Waldo Cortes Acosta!</p>
+                    <h2 className={styles.pagehero__title}>UFC Shanghai: ¡Johnny Walker Noquea a Zhang Mingyang en el Segundo Asalto en China!</h2>
+                    <p>¡Aljamain Sterling Derrota Por Decisión Unánime a Brian Ortega 50-45! ¡Sergei Pavlovich Derrota a Waldo Cortes Acosta Por Decisión Unánime!</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
                         <p>23/08/2025</p>
