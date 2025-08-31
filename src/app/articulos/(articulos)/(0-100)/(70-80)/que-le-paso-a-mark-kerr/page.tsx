@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'Qué Le Pasó A Mark Kerr',
     description: '',
     openGraph: {
-        images: '',
+        images: 'http://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmark_kerr.1fdc047e.jpg&w=828&q=65',
         title: 'Qué Le Pasó A Mark Kerr',
         description: '',
         url: 'https://fullmma.org/articulos/que-le-paso-a-mark-kerr'
