@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     title: 'The Smashing Machine',
     description: "",
     openGraph: {
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fthe_smashing_machine.f0fcb9f8.webp&w=828&q=65',
         title: 'The Smashing Machine',
         description: "",
         url: 'https://fullmma.org/noticias/the-smashing-machine'
