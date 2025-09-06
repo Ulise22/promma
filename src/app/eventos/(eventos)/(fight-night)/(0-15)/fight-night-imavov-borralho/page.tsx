@@ -45,6 +45,8 @@ export default function ImavovBorralho () {
                     <p>El peleador ruso <b>Rinat Fakhretdinov</b> logra una impresionante victoria por la vía del nocaut de forma express, necesitando menos de un minuto de combate, en lo que fue una ráfaga de golpes, para llevarse la victoria por TKO, luego de que su rival sueco <b>Andreas Gustafsson</b>, quedara abrumado por la cantidad y la potencia del golpeo de su rival. De esta forma Rinat consigue el primer nocaut de la noche. </p>
                     <h2>Robert Bryczek Noquea a Brad Tavares en el tercer asalto</h2>
                     <p>El luchador polaco <b>Robert Bryczek</b> logra una espectacular victoria por TKO en el tercer asalto de la pelea, luego de estar muy cerca de conseguir lo mismo en el primer asalto, y aunque el estadounidense <b>Brad Tavares</b> fue capaz de sobrevivir los primeros minutos de su rival, finalmente para el último round de la pelea no pudo hacer nada contra Robert, quien consigue la victoria y el segundo nocaut de este UFC Paris. </p>
+                    <h2>Sam Peterson Noquea a Trey Waters en el Primer Asalto</h2>
+                    <p>Tremenda victoria para el luchador inglés <b>Sam Patterson</b>, que aprovechando la guardia baja de su rival <b>Trey Waters</b>, lo conectó y golpeó en la cabeza hasta casi desmayarlo, teniendo el árbitro que intervenir para a los 3 minutos del primer asalto, darle la victoria por TKO. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
