@@ -53,12 +53,12 @@ export default function ImavovBorralho () {
                     <p>El luchador croata <b>Ante Delija</b>, que estaba debutando en la UFC, enfrentando al #7 de la división de peso pesado <b>Marcin Tybura</b>, logra una impresionante victoria por TKO luego de conectar una mano izquierda que tumbaría a su rival, necesitando sólo de un par de golpes para que el árbitro los separara y lo diera por ganador en su primer pelea en la compañía, ganándose ya un lugar en el top 10 de los pesos pesados de la UFC. </p>
                     <h2>Oumar Sy Noquea a Brendson Ribeiro en el Primer Asalto</h2>
                     <p>Primer victoria para los franceses, luego de que <b>Oumar Sy</b> llevara en 2 ocasiones al suelo a su rival, conectando exitosamente sus 2 intentos de derribo, y lo castigara con golpes desde el suelo, dejando al brasileño <b>Brendson Ribeiro</b> indefenso ante los ataques de su rival. De esta forma terminamos la cartelera preliminar con un total de 7 finalizaciones en 7 peleas, espectacular. Además, los franceses consiguen su primer victoria de la noche en una cartelera a la que todavía le quedan por pelear a un montón de peleadores de este país. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
                     </Link>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2>William Gomis Derrota a Robert Ruchala por Decisión Unánime</h2>
+                    <p>Primera pelea que se va a la decisión en esta cartelera, en lo que es la primer pelea estelar de la noche. En este caso quien terminó saliendo triunfador es el peleador local, el francés <b>William Gomis</b>, quien fue mejor a su rival en la mayor parte de la pelea, sabiendo cerrar de gran manera su combate en el tercer asalto, que a mi criterio fue el mejor de Gomis. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
