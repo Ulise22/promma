@@ -17,7 +17,7 @@ export default function PageHero () {
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-imavov-borralho'>
                 <Image className={styles.pagehero__article__img} quality={50} src={imavovBorralho} alt='' />
                 <article className={styles.pagehero__article__container}>
-                    <h2 className={styles.pagehero__title}>UFC Paris: ¡Nassourdine Imavov vs Caio Borralho!</h2>
+                    <h2 className={styles.pagehero__title}>UFC Paris: ¡Nassourdine Imavov Derrota a Caio Borralho Por Decisión Unánime en La Pelea de la Noche!</h2>
                     <p>¡Benoit Saint Denis Somete a Mauricio Ruffy en el Segundo Asalto! ¡Ante Delija Debuta con Nocaut ante Marcin Tybura!</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>

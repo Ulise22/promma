@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function ImavovBorralho () {
     return(
         <main>
-            <ArticleHero title='UFC Paris: ¡Nassourdine Imavov vs Caio Borralho!' subtitle='¡Benoit Saint Denis Somete a Mauricio Ruffy en el Segundo Asalto! ¡Ante Delija Debuta con Nocaut ante Marcin Tybura!' image={hero} date='2025-09-06' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Paris: ¡Nassourdine Imavov Derrota a Caio Borralho Por Decisión Unánime en La Pelea de la Noche!' subtitle='¡Benoit Saint Denis Somete a Mauricio Ruffy en el Segundo Asalto! ¡Ante Delija Debuta con Nocaut ante Marcin Tybura!' image={hero} date='2025-09-06' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -68,6 +68,9 @@ export default function ImavovBorralho () {
                     <p>Pese a todo, la imagen más emotiva del encuentra se dió al final, cuando <b>Paul Craig</b> dejó los guantes en el centro del octágono, anunciando que este era su último combate y que finalmente se retiraba de las MMA. </p>
                     <h2>Benoi Saint Denis Somete a Mauricio Ruffy en el Segundo Asalto</h2>
                     <p>El luchador francés <b>Benoit Saint Denis</b>, defiende su lugar en los rankings de peso ligero de la UFC, y logra una victoria frente a su gente, sorprendiendo a muchos, entre los que me incluyo, buscando derribos y luchando contra Ruffy, que en el suelo poco podía hacer ante el francés. Finalmente en el segundo asalto, Saint Denis le ganó la espalda a <b>Mauricio Ruffy</b> y lo sometió con un mateleón para llevarse la victoria en un combate en el que fue ampliamente superior. </p>
+                    <h2>Nassourdine Imavov Derrota a Caio Borralho Por Decisión Unánime</h2>
+                    <p>Finalmente este UFC París termina de la mejor manera, con tanto Imavov como Borralho brindándonos la pelea de la noche, en la que Imavov hizo valer la localía, y donde dominó la mayor parte del combate, conectando golpes que hicieron tambalear a su rival, y defendiendo con éxito todos los intentos de derribo del brasileño. Consiguiendo el francés de esta manera la victoria por decisión unánime. </p>
+                    <p>El evento finalmente termina con los 2 peleadores de <Link href='/articulos/fighting-nerds'>Fighting Nerds</Link> perdiendo sus invictos en la UFC, y con todos los franceses consiguiendo la victoria con público amigo. Además, de las 13 peleas que vimos hoy, 11 terminaron en finalización, otorgándonos sin duda un gran evento de MMA el día de hoy. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
