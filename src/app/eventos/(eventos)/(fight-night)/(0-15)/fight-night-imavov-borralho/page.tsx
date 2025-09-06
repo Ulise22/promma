@@ -41,6 +41,8 @@ export default function ImavovBorralho () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
                     <h2>Sam Hughes Somete en el Segundo Asalto a Shauna Bannon</h2>
                     <p>La luchadora estadounidense <b>Sam Hughes</b> logra hacerse con la victoria en la primera pelea de esta cartelera, luego de dominar completamente en el primer asalto a su contrincante irlandesa, al conseguir un derribo y luego castigarla a golpes y codazos en el suelo, y en el segundo asalto consiguiendo hacer más de lo mismo, don la diferencia de que consiguió tomarle la espalda a <b>Shauna Bannon</b>, para conectar un mataleón que obligaría a su oponente a tapear. De esta forma la luchadora americana logra la primer victoria y la primer finalización de la noche. </p>
+                    <h2>Rinat Fakhretdinov Noquea a Andreas Gustafsson en el Primer Asalto</h2>
+                    <p>El peleador ruso <b>Rinat Fakhretdinov</b> logra una impresionante victoria por la vía del nocaut de forma express, necesitando menos de un minuto de combate, en lo que fue una ráfaga de golpes, para llevarse la victoria por TKO, luego de que su rival sueco <b>Andreas Gustafsson</b>, quedara abrumado por la cantidad y la potencia del golpeo de su rival. De esta forma Rinat consigue el primer nocaut de la noche. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
