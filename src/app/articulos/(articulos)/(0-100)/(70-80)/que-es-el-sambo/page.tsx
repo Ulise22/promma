@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'Qué Es El Sambo',
     description: '',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsambo.64d15433.webp&w=828&q=6',
         title: 'Qué Es El Sambo',
         description: '',
         url: 'https://fullmma.org/articulos/que-es-el-sambo'
