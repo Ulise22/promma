@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function ImavovBorralho () {
     return(
         <main>
-            <ArticleHero title='UFC Paris: ¡Nassourdine Imavov vs Caio Borralho!' subtitle='¡Benoit Saint Denis vs Mauricio Ruffy! ¡Ante Delija Debuta con Nocaut ante Marcin Tybura!' image={hero} date='2025-09-06' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Paris: ¡Nassourdine Imavov vs Caio Borralho!' subtitle='¡Benoit Saint Denis Somete a Mauricio Ruffy en el Segundo Asalto! ¡Ante Delija Debuta con Nocaut ante Marcin Tybura!' image={hero} date='2025-09-06' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -66,6 +66,8 @@ export default function ImavovBorralho () {
                     <h2>Modestas Bukauskas Noquea a Paul Craig al Final del Primer Asalto</h2>
                     <p>El luchador de Lituania <b>Modestas Bukauskas</b> se hace con la victoria ante el histórico peleador escocés <b>Paul Craig</b> luego de quedar por encima en la montada, castigando a golpes a su rival, y finalmente conectando un codo en la cabeza justo un segundo antes de que termine el asalto, dejando KO a su rival y ganándole a este sobre la hora. </p>
                     <p>Pese a todo, la imagen más emotiva del encuentra se dió al final, cuando <b>Paul Craig</b> dejó los guantes en el centro del octágono, anunciando que este era su último combate y que finalmente se retiraba de las MMA. </p>
+                    <h2>Benoi Saint Denis Somete a Mauricio Ruffy en el Segundo Asalto</h2>
+                    <p>El luchador francés <b>Benoit Saint Denis</b>, defiende su lugar en los rankings de peso ligero de la UFC, y logra una victoria frente a su gente, sorprendiendo a muchos, entre los que me incluyo, buscando derribos y luchando contra Ruffy, que en el suelo poco podía hacer ante el francés. Finalmente en el segundo asalto, Saint Denis le ganó la espalda a <b>Mauricio Ruffy</b> y lo sometió con un mateleón para llevarse la victoria en un combate en el que fue ampliamente superior. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
