@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: 'UFC Paris: ¡Nassourdine Imavov vs Caio Borralho!',
     description: 'Noche de UFC en París, con Nassourdine Imavov enfrentando a Caio Borralho en peso medio en busca de una oportunidad por el título. ',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimavov_vs_borralho.46ce75c3.webp&w=828&q=65',
         title: 'UFC Paris: ¡Nassourdine Imavov vs Caio Borralho!',
         description: 'Noche de UFC en París, con Nassourdine Imavov enfrentando a Caio Borralho en peso medio en busca de una oportunidad por el título. ',
         url: 'https://fullmma.org/eventos/fight-night-imavov-borralho'
