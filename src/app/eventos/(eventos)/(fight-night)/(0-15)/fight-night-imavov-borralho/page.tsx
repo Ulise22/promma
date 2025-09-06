@@ -59,6 +59,8 @@ export default function ImavovBorralho () {
                     </Link>
                     <h2>William Gomis Derrota a Robert Ruchala por Decisión Unánime</h2>
                     <p>Primera pelea que se va a la decisión en esta cartelera, en lo que es la primer pelea estelar de la noche. En este caso quien terminó saliendo triunfador es el peleador local, el francés <b>William Gomis</b>, quien fue mejor a su rival en la mayor parte de la pelea, sabiendo cerrar de gran manera su combate en el tercer asalto, que a mi criterio fue el mejor de Gomis. </p>
+                    <h2>Axel Sola Debuta Noqueando a Rhys McKee en el Tercer Asalto</h2>
+                    <p>En lo que estaba siendo una pelea muy pareja, el peleador francés que llegaba a este cobate invicto <b>Axel Sola</b>, logra hacerse con la victoria en el tercer asalto del combate, luego de conectar un golpe en la boca del estomago que derribaría a su rival al suelo, siguiendo este golpe con una combinación de manos en el suelo que llevarían al árbitro a terminar la pelea, al ver que <b>Rhys McKee</b> ya ni se estaba defendiendo. De esta manera, los franceses mantienen el invicto en lo que va de este evento, completando un 3/3 en cuanto a victorias. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
