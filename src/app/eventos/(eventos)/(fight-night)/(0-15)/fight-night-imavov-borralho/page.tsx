@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function ImavovBorralho () {
     return(
         <main>
-            <ArticleHero title='UFC Paris: ¡Nassourdine Imavov vs Caio Borralho!' subtitle='¡Benoit Saint Denis vs Mauricio Ruffy!' image={hero} date='2025-09-06' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Paris: ¡Nassourdine Imavov vs Caio Borralho!' subtitle='¡Benoit Saint Denis vs Mauricio Ruffy! ¡Ante Delija Debuta con Nocaut ante Marcin Tybura!' image={hero} date='2025-09-06' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -51,6 +51,8 @@ export default function ImavovBorralho () {
                     <p>Una locura lo que acabamos de ver en esta pelea, con el brasileño <b>Kaue Fernandes</b> llevándose la victoria ante el inglés <b>Harry Hardwick</b> luego de patearlo hasta que no pudiera caminar, dejándole literalmente sin poder ponerse de pie, luego de dejarle lastimadas las 2 piernas que sufrieron las patadas del brasileño. La pelea terminó con una victoria por TKO para Fernandes ante un Hardwick que debió ser retirado en silla de ruedas luego de todo el daño recibido con esas patadas. </p>
                     <h2>Ante Delija Noquea a Marcin Tybura en el Primer Asalto</h2>
                     <p>El luchador croata <b>Ante Delija</b>, que estaba debutando en la UFC, enfrentando al #7 de la división de peso pesado <b>Marcin Tybura</b>, logra una impresionante victoria por TKO luego de conectar una mano izquierda que tumbaría a su rival, necesitando sólo de un par de golpes para que el árbitro los separara y lo diera por ganador en su primer pelea en la compañía, ganándose ya un lugar en el top 10 de los pesos pesados de la UFC. </p>
+                    <h2>Oumar Sy Noquea a Brendson Ribeiro en el Primer Asalto</h2>
+                    <p>Primer victoria para los franceses, luego de que <b>Oumar Sy</b> llevara en 2 ocasiones al suelo a su rival, conectando exitosamente sus 2 intentos de derribo, y lo castigara con golpes desde el suelo, dejando al brasileño <b>Brendson Ribeiro</b> indefenso ante los ataques de su rival. De esta forma terminamos la cartelera preliminar con un total de 7 finalizaciones en 7 peleas, espectacular. Además, los franceses consiguen su primer victoria de la noche en una cartelera a la que todavía le quedan por pelear a un montón de peleadores de este país. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
