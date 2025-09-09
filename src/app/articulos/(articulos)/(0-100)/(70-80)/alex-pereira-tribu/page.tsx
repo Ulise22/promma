@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'Alex Pereira Tribu',
     description: '',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Falex_pereira-tribu.7b3c1877.webp&w=828&q=65',
         title: 'Alex Pereira Tribu',
         description: '',
         url: 'https://fullmma.org/articulos/alex-pereira-tribu'
