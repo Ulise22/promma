@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'Jack Della Maddalena Nariz',
     description: 'Cómo Jack Della Maddalena se partió la nariz en su segunda pelea profesional, dejándole el tabique deformado desde entonces. ',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjack-della-maddalena-nariz.186989ff.webp&w=828&q=65',
         title: 'Jack Della Maddalena Nariz',
         description: 'Cómo Jack Della Maddalena se partió la nariz en su segunda pelea profesional, dejándole el tabique deformado desde entonces. ',
         url: 'https://fullmma.org/articulos/jack-della-maddalena-nariz'
