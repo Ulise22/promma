@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'Qué Significa Chama Alex Pereira',
     description: 'El grito de guerra del Poatan Alex Pereira, ¡CHAMA!, ¿qué significa? y origen de la palabra. ',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fchama.93c63eb3.webp&w=828&q=65',
         title: 'Qué Significa Chama Alex Pereira',
         description: 'El grito de guerra del Poatan Alex Pereira, ¡CHAMA!, ¿qué significa? y origen de la palabra. ',
         url: 'https://fullmma.org/articulos/que-significa-chama-alex-pereira'
