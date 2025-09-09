@@ -82,19 +82,22 @@ import fallarPesoUFC from '@/assets/articulos/0-100/70-80/fallar_peso_ufc.webp'
 import markKerr from '@/assets/articulos/0-100/70-80/mark_kerr.jpg'
 import sambo from '@/assets/articulos/0-100/70-80/sambo.webp'
 import chama from '@/assets/articulos/0-100/70-80/chama.webp'
+import dellaMaddalenaNariz from '@/assets/articulos/0-100/70-80/jack-della-maddalena-nariz.webp'
 
 export default function Articulos () {
     return(
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
+                <ArticlePreview img={dellaMaddalenaNariz} url='/articulos/jack-della-maddalena-nariz' title='¿Qué Le Pasó a Jack Della Maddalena en la Nariz?' author={null} text='¿Qué le pasó en la nariz a Jack Della Maddalena? Como un rodillazo en la cabeza le deformó el tabique al campeón de la UFC.
+                ' date='09/09/2025' />
                 <ArticlePreview img={chama} url='/articulos/que-significa-chama-alex-pereira' title='¿Qué Significa Chama de Alex Pereira?' author={null} text='Significado y origen de la palabra "CHAMA" que tanto utiliza Alex Pereira' date='08/09/2025' />
                 <ArticlePreview img={sambo} url='/articulos/que-es-el-sambo' title='¿Qué es el Sambo? El Arte Marcial Que Hizo Campeón a Khabib y a Islam Makhachev' author={null} text='Historia y descripción del arte marcial rusa que usan Khabib, Makhachev y Fedos Emelianenko.' date='02/09/2025' />
                 <ArticlePreview img={markKerr} url='/articulos/que-le-paso-a-mark-kerr' title='¿Qué le Pasó a Mark Kerr?' author={null} text='La historia de Mark Kerr, un peleador histórico de la UFC que supo ser el mejor del mundo y que tuvo una de las caídas más dolorosas en la carrera de un luchador.' date='28/08/2025' />
-                <ArticlePreview img={fallarPesoUFC} url='/articulos/que-pasa-si-no-das-el-peso-en-ufc' title='¿Qué pasa si no das el peso en UFC?' author={null} text='Qué penalizaciones sufren los peleadores de la UFC cuando no dan el peso previo a una pelea.' date='18/08/2025' />
             </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={fallarPesoUFC} url='/articulos/que-pasa-si-no-das-el-peso-en-ufc' title='¿Qué pasa si no das el peso en UFC?' author={null} text='Qué penalizaciones sufren los peleadores de la UFC cuando no dan el peso previo a una pelea.' date='18/08/2025' />
                 <ArticlePreview img={borzSignificado} url='/articulos/que-significa-borz' title='¿Qué Significa Borz? El Apodo de Khamzat Chimaev' author={null} text='La historia y significado detrás de "BORZ", el apodo de uno de los peleadores más queridos de la UFC actualmente' date='15/08/2025' />
                 <ArticlePreview img={corteDePesoUFC} url='/articulos/que-es-el-corte-de-peso-en-ufc' title='¿Qué es el Corte de Peso en UFC?' author={null} text='Descubre qué es el corte de peso en la UFC y por qué los peleadores lo hacen antes de cada combate.' date='12/08/2025' />
                 <ArticlePreview img={chimaevCicatriz} url='/articulos/que-le-paso-en-el-labio-a-khamzat-chimaev' title='Qué le Pasó en el Labio a Khamzat Chimaev' author={null} text='Descubre la historia detrás la característica cicatríz que tiene la estrella de la UFC Khamzat Chimaev.' date='07/08/2025' />
