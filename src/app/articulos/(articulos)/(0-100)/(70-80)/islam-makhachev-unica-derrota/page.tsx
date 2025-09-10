@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'Islam Makhachev Unica Derrota',
     description: '',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmakhachev-derrota.75dc0eb5.webp&w=828&q=65',
         title: 'Islam Makhachev Unica Derrota',
         description: '',
         url: 'https://fullmma.org/articulos/islam-makhachev-unica-derrota'
