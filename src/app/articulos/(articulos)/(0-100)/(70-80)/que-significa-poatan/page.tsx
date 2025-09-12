@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: '¿Qué Significa Poatan?',
     description: '',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpoatan.e82f6f39.webp&w=828&q=65',
         title: '¿Qué Significa Poatan?',
         description: '',
         url: 'https://fullmma.org/articulos/que-significa-poatan'
