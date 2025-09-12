@@ -85,19 +85,21 @@ import chama from '@/assets/articulos/0-100/70-80/chama.webp'
 import dellaMaddalenaNariz from '@/assets/articulos/0-100/70-80/jack-della-maddalena-nariz.webp'
 import alexPereiraTribu from '@/assets/articulos/0-100/70-80/alex_pereira-tribu.webp'
 import makhachevDerrota from '@/assets/articulos/0-100/70-80/makhachev-derrota.webp'
+import poatan from '@/assets/articulos/0-100/70-80/poatan.webp'
 
 export default function Articulos () {
     return(
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
+                <ArticlePreview img={poatan} url='/articulos/que-significa-poatan' title='¿Qué Significa Poatan?' author={null} text='Descubre el significado y la historia detrás del apodo de Alex Pereira' date='12/09/2025' />
                 <ArticlePreview img={makhachevDerrota} url='/articulos/islam-makhachev-unica-derrota' title='La Única Derrota de Islam Makhachev' author={null} text='Primer derrota profesional en las MMA del luchador de Daguestán Islam Makhachev. ' date='10/09/2025' />
                 <ArticlePreview img={alexPereiraTribu} url='/articulos/alex-pereira-tribu' title='¿Cuál es la Tribu de Alex Pereira?' author={null} text='El origen de Alex Pereira y su relación la tribu indigena brasileña Pataxó, de la que es descendiente' date='09/09/2025' />
                 <ArticlePreview img={dellaMaddalenaNariz} url='/articulos/jack-della-maddalena-nariz' title='¿Qué Le Pasó a Jack Della Maddalena en la Nariz?' author={null} text='¿Qué le pasó en la nariz a Jack Della Maddalena? Como un rodillazo en la cabeza le deformó el tabique al campeón de la UFC.' date='09/09/2025' />
-                <ArticlePreview img={chama} url='/articulos/que-significa-chama-alex-pereira' title='¿Qué Significa Chama de Alex Pereira?' author={null} text='Significado y origen de la palabra "CHAMA" que tanto utiliza Alex Pereira' date='08/09/2025' />
             </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={chama} url='/articulos/que-significa-chama-alex-pereira' title='¿Qué Significa Chama de Alex Pereira?' author={null} text='Significado y origen de la palabra "CHAMA" que tanto utiliza Alex Pereira' date='08/09/2025' />
                 <ArticlePreview img={sambo} url='/articulos/que-es-el-sambo' title='¿Qué es el Sambo? El Arte Marcial Que Hizo Campeón a Khabib y a Islam Makhachev' author={null} text='Historia y descripción del arte marcial rusa que usan Khabib, Makhachev y Fedos Emelianenko.' date='02/09/2025' />
                 <ArticlePreview img={markKerr} url='/articulos/que-le-paso-a-mark-kerr' title='¿Qué le Pasó a Mark Kerr?' author={null} text='La historia de Mark Kerr, un peleador histórico de la UFC que supo ser el mejor del mundo y que tuvo una de las caídas más dolorosas en la carrera de un luchador.' date='28/08/2025' />
                 <ArticlePreview img={fallarPesoUFC} url='/articulos/que-pasa-si-no-das-el-peso-en-ufc' title='¿Qué pasa si no das el peso en UFC?' author={null} text='Qué penalizaciones sufren los peleadores de la UFC cuando no dan el peso previo a una pelea.' date='18/08/2025' />
