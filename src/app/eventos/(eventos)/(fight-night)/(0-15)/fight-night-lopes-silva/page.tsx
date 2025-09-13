@@ -56,12 +56,12 @@ export default function ImavovBorralho () {
                     <p>El brasileño <b>Joaquim Silva</b> se lleva la victoria en una pelea muy cerrada, donde el peruano <b>Claudio Puelles</b> logró derribar en varias ocasiones a su rival, castigándolo desde el suelo, pero donde el brasileño fue capaz de mostrar superioridad cuando la pelea se dió de pie, estando cerca de lograr el nocaut en el tercer asalto del combate, cuando la pelea estaba terminando. Finalmente, aunque el combate fue cerrado, 2 de los jueces dieron como ganador a Joaquim Silva, quien se llevó la victoria por decisión dividida. </p>
                     <h2>Dusko Todorovic Somete a José Daniel Medina en el Primer Asalto</h2>
                     <p>El luchador serbio <b>Dusko Tudorovic</b> se hace con la victoria de manera contundente, al primer generarle un corte en la ceja al boliviano <b>José Daniel Medina</b>, para posteriormente, cuando fue capaz de derribarlo y tirarlo al suelo, le ganó la espalda y le conectó un mataleón que obligaría al luchador sudaméricano a tapear. Consiguiendo de esta manera la victoria por sumisión en el primer asalto de la pelea. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
                     </Link>
-                    <h2></h2>
-                    <p> </p> */}
+                    <h2>Santiago Luna Noquea a Quang Le en el Primer Asalto</h2>
+                    <p>El luchador mexicano de 21 años <b>Santiago Luna</b> abre la cartelera estelar de la mejor manera para México, al lograr un nocaut espectacular, que se vuelve mejor si tenemos en cuenta que ni bien comenzó la pelea, el luchador de Vietnam <b>Quang Le</b> lo había conectado y estuvo cerca de ser él quien finalizara. Sin embargo, el mexicano demostró un corazón y unos huevos impresionantes, al sobrevivir a semejantes golpes, y ser capaz de dar vuelta la pelea, conectando él mismo los golpes letales que terminarían noqueando a su rival, siendo capaz además de mantener su invicto y extender su récord profesional en MMA a un 7-0. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
