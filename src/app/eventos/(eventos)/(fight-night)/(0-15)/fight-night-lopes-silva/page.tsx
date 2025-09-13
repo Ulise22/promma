@@ -16,11 +16,11 @@ const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles
 
 export const metadata: Metadata = {
     title: 'UFC Noche: ¡Diego Lopes vs Jean Silva!',
-    description: '',
+    description: 'UFC Noche con Diego Lopes enfrentando la brasileño Jean Silva, pertenciente a los Fighting Nerds en la pelea estelar. ',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flopes-vs-silva.5d2f30a3.webp&w=828&q=65',
         title: 'UFC Noche: ¡Diego Lopes vs Jean Silva!',
-        description: '',
+        description: 'UFC Noche con Diego Lopes enfrentando la brasileño Jean Silva, pertenciente a los Fighting Nerds en la pelea estelar. ',
         url: 'https://fullmma.org/eventos/fight-night-lopes-silva'
     }
 }
