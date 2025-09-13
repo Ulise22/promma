@@ -62,6 +62,8 @@ export default function ImavovBorralho () {
                     </Link>
                     <h2>Santiago Luna Noquea a Quang Le en el Primer Asalto</h2>
                     <p>El luchador mexicano de 21 años <b>Santiago Luna</b> abre la cartelera estelar de la mejor manera para México, al lograr un nocaut espectacular, que se vuelve mejor si tenemos en cuenta que ni bien comenzó la pelea, el luchador de Vietnam <b>Quang Le</b> lo había conectado y estuvo cerca de ser él quien finalizara. Sin embargo, el mexicano demostró un corazón y unos huevos impresionantes, al sobrevivir a semejantes golpes, y ser capaz de dar vuelta la pelea, conectando él mismo los golpes letales que terminarían noqueando a su rival, siendo capaz además de mantener su invicto y extender su récord profesional en MMA a un 7-0. </p>
+                    <h2>Alexander Hernández Noquea a Diego Ferreira en el Segundo Asalto</h2>
+                    <p>El luchador estadounidense de origen mexicano <b>Alexander Hernandez</b> se hace con la victoria ante el brasileño <b>Diego Ferreira</b>, en un combate donde Hernández estuvo muy activo con el juego de piernas, moviéndose alrededor del octágono para evitar ser golpeado, a la espera de una buena oportunidad para contragolpear, logró su cometido, convirtiendo este plan de pelea en la estrategia ganadora, al ser capaz de conectar a su rival en el segundo asalto, tumbándolo al suelo, y rematándolo con unos más que necesarios golpes extras, que necesitó conectar para que el árbitro terminara la pelea y lo diera como ganador. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
