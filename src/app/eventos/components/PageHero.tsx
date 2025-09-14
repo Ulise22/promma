@@ -29,7 +29,7 @@ export default function PageHero () {
                 <Image className={styles.pagehero__article__img} quality={50} src={lopesSilva} alt='' />
                 <article className={styles.pagehero__article__container}>
                     <h2 className={styles.pagehero__title}>UFC Noche: ¡Diego Lopes vs Jean Silva!</h2>
-                    <p>¡David Martínez vs Rob Font!</p>
+                    <p>¡David Martínez Derrota Rob Font y se Mete Al Top 10 de la División!</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
                         <p>13/09/2025</p>

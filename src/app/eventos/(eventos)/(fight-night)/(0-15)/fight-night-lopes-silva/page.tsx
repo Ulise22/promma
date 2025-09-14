@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function ImavovBorralho () {
     return(
         <main>
-            <ArticleHero title='UFC Noche: ¡Diego Lopes vs Jean Silva!' subtitle='¡David Martínez vs Rob Font!' image={hero} date='2025-09-13' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Noche: ¡Diego Lopes vs Jean Silva!' subtitle='¡David Martínez Derrota Rob Font y se Mete Al Top 10 de la División!' image={hero} date='2025-09-13' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -68,6 +68,8 @@ export default function ImavovBorralho () {
                     <p>Otra victoria para un luchador de origen mexicano, cuando <b>Kelvin Gastelum</b> demostró una amplia superioridad en el striking, conectando los mejores golpes y estando cerca de conseguir un nocaut. Le faltó un poco de inteligencia en la pelea a Kelvin, quien estando cerca de noquear a su rival en el segundo asalto, buscó una guillotina que le dejó mal posicionado, en lugar de esperar su oportunidad y seguir golpeando a la cabeza de Dustin. De igual forma, nada podía impedir que Gastelum se hiciera con la victoria esta noche, por lo que al final de los 3 asaltos, los 3 jueces lo dieron como ganador del combate por decisión unánime. </p>
                     <h2>Rafa García Noquea a Jared Gordon en el Tercer Asalto</h2>
                     <p>Nueva victoria para los mexicanos. Esta vez, con <b>Rafa García</b> siendo el protagonista en un peleón. Siendo que en el primer y segundo asalto, quien parecía estar gananado la pelea era el estadounidense <b>Jared Gordon</b>, al estar conectando más golpes, Rafa fue capaz de dar vuelta la pelea, y de mostrarse infinitamente superior a su rival en el tercer asalto. Es díficil saber si es porque el mexicano necesitaba tomar más riesgos e ir en busqueda de la victoria, o porque para ese momento Gordon ya había vaciado el tanque y estaba muy cansado, de igual forma el resultado fue que Rafa García fue capaz de conectar los golpes letales que terminarían por dormir a su rival, llevándose la victoria por TKO en el último asalto del combate. </p>
+                    <h2>David Martínez Derrota a Rob Font y se Mete al Top 10</h2>
+                    <p>El luchador mexicano una importantísima victoria, y se salta toda la fila, al lograr meterse en el top 10 de la división de peso gallo de la UFC en tan sólo su segunda pelea en la compañía. El mexicano <b>David Martínez</b>, logra llevarse la victoria ante el #9 de la división <b>Rob Font</b>, luego de dominar completamente y ganar el primer y el tercer asalto, en lo que fue una guerra absoluta, completamente emocionante hasta el último momento. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
