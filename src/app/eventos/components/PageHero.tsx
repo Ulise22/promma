@@ -28,7 +28,7 @@ export default function PageHero () {
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-lopes-silva'>
                 <Image className={styles.pagehero__article__img} quality={50} src={lopesSilva} alt='' />
                 <article className={styles.pagehero__article__container}>
-                    <h2 className={styles.pagehero__title}>UFC Noche: ¡Diego Lopes vs Jean Silva!</h2>
+                    <h2 className={styles.pagehero__title}>UFC Noche: ¡Diego Lopes Noquea a Jean Silva en el Segundo Asalto!</h2>
                     <p>¡David Martínez Derrota Rob Font y se Mete Al Top 10 de la División!</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>

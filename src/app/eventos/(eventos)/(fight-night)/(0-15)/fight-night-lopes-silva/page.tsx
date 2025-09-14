@@ -25,10 +25,10 @@ export const metadata: Metadata = {
     }
 }
 
-export default function ImavovBorralho () {
+export default function LopesSilva () {
     return(
         <main>
-            <ArticleHero title='UFC Noche: ¡Diego Lopes vs Jean Silva!' subtitle='¡David Martínez Derrota Rob Font y se Mete Al Top 10 de la División!' image={hero} date='2025-09-13' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Noche: ¡Diego Lopes Noquea a Jean Silva en el Segundo Asalto!' subtitle='¡David Martínez Derrota Rob Font y se Mete Al Top 10 de la División!' image={hero} date='2025-09-13' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -70,6 +70,8 @@ export default function ImavovBorralho () {
                     <p>Nueva victoria para los mexicanos. Esta vez, con <b>Rafa García</b> siendo el protagonista en un peleón. Siendo que en el primer y segundo asalto, quien parecía estar gananado la pelea era el estadounidense <b>Jared Gordon</b>, al estar conectando más golpes, Rafa fue capaz de dar vuelta la pelea, y de mostrarse infinitamente superior a su rival en el tercer asalto. Es díficil saber si es porque el mexicano necesitaba tomar más riesgos e ir en busqueda de la victoria, o porque para ese momento Gordon ya había vaciado el tanque y estaba muy cansado, de igual forma el resultado fue que Rafa García fue capaz de conectar los golpes letales que terminarían por dormir a su rival, llevándose la victoria por TKO en el último asalto del combate. </p>
                     <h2>David Martínez Derrota a Rob Font y se Mete al Top 10</h2>
                     <p>El luchador mexicano una importantísima victoria, y se salta toda la fila, al lograr meterse en el top 10 de la división de peso gallo de la UFC en tan sólo su segunda pelea en la compañía. El mexicano <b>David Martínez</b>, logra llevarse la victoria ante el #9 de la división <b>Rob Font</b>, luego de dominar completamente y ganar el primer y el tercer asalto, en lo que fue una guerra absoluta, completamente emocionante hasta el último momento. </p>
+                    <h2>Diego Lopes Noquea a Jean Silva en el Segundo Asalto</h2>
+                    <p>El luchador brasileño que en ocasión estaba representando a México <Link href='/peleadores/diego-lopes'>Diego Lopes</Link> logró una espectacular victoria por la vía del nocaut ante su compatriota de Brasil <b>Jean Silva</b>. Luego de conseguir en el primer asalto un derribo, que aprovechó para quedar por encima de Silva y castigarlo a golpes desde el suelo, para facilmente ganar el asalto, y luego de un segundo asalto que fue más igualado, donde en el caos e intercambio de golpes parecía salir mejor parado Jean Silva, quien conectaba golpes que impactaban duramente en la mandibula de Lopes, sin embargo, en un contragolpe de Diego, conectó un codazo giratorio que derribaría a su rival, procediendo a castigarlo a golpes hasta que el árbitro los terminó separando, faltando apenas segundos para que terminé el asalto, dando como ganador de esta forma al brasileño/mexicano Diego Lopes, quien además seguramente termine ganando un bono por el desempeño de esta noche. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
