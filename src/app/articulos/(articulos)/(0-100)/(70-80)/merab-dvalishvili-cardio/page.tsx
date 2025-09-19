@@ -13,11 +13,11 @@ const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles
 
 export const metadata: Metadata = {
     title: 'Merab Dvalishvili Cardio',
-    description: '',
+    description: 'Descubre el secreto de Merab Dvalishvili para tener el cardio de un superhumano.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmerab_dvalishvili-cardio.944e4e5c.webp&w=828&q=65',
         title: 'Merab Dvalishvili Cardio',
-        description: '',
+        description: 'Descubre el secreto de Merab Dvalishvili para tener el cardio de un superhumano.',
         url: 'https://fullmma.org/articulos/merab-dvalishvili-cardio'
     }
 }
