@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: 'UFC Perth: ¡Carlos Ulberg vs Dominick Reyes!',
     description: 'Noche de UFC en Perth, Australia, donde estarán enfrentándose Carlos Ulberg contra Dominick Reyes en peso semipesado. ',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fulberg-vs-reyes.d78ddb8f.webp&w=828&q=65',
         title: 'UFC Perth: ¡Carlos Ulberg vs Dominick Reyes!',
         description: 'Noche de UFC en Perth, Australia, donde estarán enfrentándose Carlos Ulberg contra Dominick Reyes en peso semipesado.  ',
         url: 'https://fullmma.org/eventos/fight-night-ulberg-reyes'
