@@ -41,6 +41,8 @@ export default function UlbergReyes () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
                     <h2>Alexia Thainara Derrota a Loma Lookboonmee por Decisión Unánime</h2>
                     <p>Tremenda esta primer pelea de la noche, donde la brasileña <b>Alexia Thainara</b> destacó con una actuación completamente dominante, conectando muchos más golpes que su rival tailandesa, siendo además capaz de conectar varios derribos para castigar con ground and pound durante todo el combate, manteniendo el control de su rival contra la reja y castigando aún en el clinch, ganando de estar forma todos los asaltos de manera clarísima. De esta forma, Alexia se mete en los rankings del peso paja femenino. </p>
+                    <h2>Brandon Pericic Noquea a Elisha Ellison en el Primer Asalto</h2>
+                    <p>El luchador australiano <b>Brando Pericic</b> se lleva la victoria de forma contundente, con un nocaut en el primer asalto, en lo que fue una avalancha de golpes que tuvo que ser frenada por el árbitro para evitar que siguiera haciendo daño a su rival. De esta manera, Brando Pericic se convierte en el primer australiano en llevarse la victoria esta noche, y en el primer en conseguir un nocaut. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
