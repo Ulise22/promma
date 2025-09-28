@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function UlbergReyes () {
     return(
         <main>
-            <ArticleHero title='UFC Perth: ¡Carlos Ulberg vs Dominick Reyes!' subtitle='¡Jimmy Crute vs Ivan Erslan! ¡Neil Magny Somete a Jake Matthews en el Tercer Asalto!' image={hero} date='2025-09-27' author={null} updatedDate='2025-09-28' />
+            <ArticleHero title='UFC Perth: ¡Carlos Ulberg vs Dominick Reyes!' subtitle='¡Jimmy Crute Somete a Ivan Erslan en el Primer Asalto! ¡Neil Magny Somete a Jake Matthews en el Tercer Asalto!' image={hero} date='2025-09-27' author={null} updatedDate='2025-09-28' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -63,6 +63,8 @@ export default function UlbergReyes () {
                     <p>Tremendo lo que acabamos de presenciar, en un combate donde parecía que el luchador local <b>Jake Metthews</b> tenía todo controlado y terminaría llevándose la victoria, luego de hacer un gran primer asalto y un dominante segundo asalto. Pero llegó el tercer y último asalto, y fue en este momento donde el veterano <b>Neil Magny</b> le hizo sentir al local el peso de la experiencia, siendo capaz de dar vuelta una pelea que estaba perdiendo al conectar una sumisión que le terminaría dando la victoria, cortando de esta manera con la racha de victorias por parte de los australianos en este evento de UFC. </p>
                     <h2>Jack Jenkins Derrota a Ramon Taveras Por Decisión Unánime</h2>
                     <p>Nueva victoria para Australia, con <b>Jack Lenkins</b> dominando completamente a su rival en lo que no dejó de ser un peleón, que nos trajo mucha acción y muchos golpes, con Jenkins siendo el que siempre salía mejor parado, obteniendo la victoria frente a su gente en la previa al combate coestelar de la noche. </p>
+                    <h2>Jimmy Crute Somete a Ivan Erslan en el Primer Asalto</h2>
+                    <p>Tremenda victoria por parte del australiano <b>Jimmy Crute</b>, quien rapidamente en el primer asalto, luego de un breve intercambio de golpes con el croata, derribo a su rival, y fue trabajando en busqueda de la oportunidad perfecta para finalizar a su rival, encontrando finalmente el momento adecuado para someter a <b>Ivan Erslan</b>, quien en una sumisión inusual terminó tapeando, dando como ganador de esta pelea coestelar a Jimmy Crute. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
