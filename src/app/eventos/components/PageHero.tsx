@@ -17,7 +17,7 @@ export default function PageHero () {
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-ulberg-reyes'>
                 <Image className={styles.pagehero__article__img} quality={50} src={ulbergReyes} alt='' />
                 <article className={styles.pagehero__article__container}>
-                    <h2 className={styles.pagehero__title}>UFC Perth: ¡Carlos Ulberg vs Dominick Reyes!</h2>
+                    <h2 className={styles.pagehero__title}>UFC Perth: ¡Carlos Ulberg Noquea a Dominick Reyes en el Primer Asalto!</h2>
                     <p>¡Jimmy Crute Somete a Ivan Erslan en el Primer Asalto! ¡Neil Magny Somete a Jake Matthews en el Tercer Asalto!</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>

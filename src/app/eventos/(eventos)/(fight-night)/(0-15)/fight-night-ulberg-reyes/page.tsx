@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function UlbergReyes () {
     return(
         <main>
-            <ArticleHero title='UFC Perth: ¡Carlos Ulberg vs Dominick Reyes!' subtitle='¡Jimmy Crute Somete a Ivan Erslan en el Primer Asalto! ¡Neil Magny Somete a Jake Matthews en el Tercer Asalto!' image={hero} date='2025-09-27' author={null} updatedDate='2025-09-28' />
+            <ArticleHero title='UFC Perth: ¡Carlos Ulberg Noquea a Dominick Reyes en el Primer Asalto!' subtitle='¡Jimmy Crute Somete a Ivan Erslan en el Primer Asalto! ¡Neil Magny Somete a Jake Matthews en el Tercer Asalto!' image={hero} date='2025-09-27' author={null} updatedDate='2025-09-28' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -65,6 +65,9 @@ export default function UlbergReyes () {
                     <p>Nueva victoria para Australia, con <b>Jack Lenkins</b> dominando completamente a su rival en lo que no dejó de ser un peleón, que nos trajo mucha acción y muchos golpes, con Jenkins siendo el que siempre salía mejor parado, obteniendo la victoria frente a su gente en la previa al combate coestelar de la noche. </p>
                     <h2>Jimmy Crute Somete a Ivan Erslan en el Primer Asalto</h2>
                     <p>Tremenda victoria por parte del australiano <b>Jimmy Crute</b>, quien rapidamente en el primer asalto, luego de un breve intercambio de golpes con el croata, derribo a su rival, y fue trabajando en busqueda de la oportunidad perfecta para finalizar a su rival, encontrando finalmente el momento adecuado para someter a <b>Ivan Erslan</b>, quien en una sumisión inusual terminó tapeando, dando como ganador de esta pelea coestelar a Jimmy Crute. </p>
+                    <h2>Carlos Ulber Noquea a Dominick Reyes en el Primer Asalto</h2>
+                    <p>Espectacular manera de culminar esta cartelera, con <b>Carlos Ulberg</b> brillando con el público de su lado. Habiendo empezado la pelea de forma lenta, con ambos luchadores especulando durante el combate, estando espectantes a los movimientos del otro, fue al final del primer asalto cuando el neozelandés encontró una conbinación de 2 golpes de izquierda y derecha que tumbarían a <b>Dominick Reyes</b> al suelo, procediendo a castigarlo con un par de golpes más hasta que el árbitro los separó. </p>
+                    <p>De esta forma Carlos Ulberg se lleva la victoria por TKO en el primer asalto de la pelea estelar de este evento de UFC, y muy probablemente también se ganó la oportunidad de pelear por el cinturón de plos pesos semipesados, a la espera de ver como resulta la pelea que tendrá lugar la semana que viene en el <b>UFC 320</b>, entre el campeón <Link href='/peleadores/magomed-ankalaev'>Magomed Ankalaev</Link> y el retador <Link href='/peleadores/alex-pereira'>Alex Pereira</Link>. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
