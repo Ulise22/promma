@@ -53,12 +53,12 @@ export default function UlbergReyes () {
                     <p>El australiano <b>Cam Rowson</b> debuta en la UFC con un nocaut en el primer asalto ante el estadounidense <b>Andre Petroski</b>, luego de conectar un gancho de izquierda que tumbó a su rival, para proceder a castigarlo desde el suelo hasta que el árbitro los separó para darle la victoria por TKO al luchador local. </p>
                     <h2>Navajo Stirling Derrota a Rodolfo Bellato y Mantiene el Invicto</h2>
                     <p>El luchador de Nueva Zelanda <b>Navajo Stirling</b> logra hacerse con la victoria en un tremendo combate ante el brasileño <b>Rodolfo Bellato</b>, luego de tener especialmente un primer asalto en el que fue completamente dominante, golpeando desde todos los ángulos posibles a su rival, conectando muchísimos más golpes que su rival, y aunque en el segundo y tercer asalto la pelea se fue igualando, lo cierto es que Bellato no hizo lo suficiente para sacarle la victoria a Navajo Stirling, quien por decisión unánime mantiene su invicto y se lleva la victoria en esta última pelea preliminar. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
                     </Link>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2>Tom Nolan Somete a Charlie Campbell en el Primer Asalto</h2>
+                    <p>Espectacular manera de comenzar la cartelera estelar de esta noche, con una nueva victoria por parte de un luchador australiano, esta vez de <b>Tom Nolan</b>, quien comenzó sufriendo bastante su pelea contra <b>Charlie Campbell</b>, pero que en el momento en que fue capaz de derribar al estadounidense, tuvo la rapidez necesaria para conectar un mataleón que terminaría sometiendo a su rival en el primer asalto. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
