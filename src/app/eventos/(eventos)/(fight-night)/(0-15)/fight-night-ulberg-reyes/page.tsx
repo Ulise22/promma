@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function UlbergReyes () {
     return(
         <main>
-            <ArticleHero title='UFC Perth: ¡Carlos Ulberg vs Dominick Reyes!' subtitle='¡Jimmy Crute vs Ivan Erslan!' image={hero} date='2025-09-13' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Perth: ¡Carlos Ulberg vs Dominick Reyes!' subtitle='¡Jimmy Crute vs Ivan Erslan!' image={hero} date='2025-09-27' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
