@@ -18,7 +18,7 @@ export default function PageHero () {
                 <Image className={styles.pagehero__article__img} quality={50} src={ulbergReyes} alt='' />
                 <article className={styles.pagehero__article__container}>
                     <h2 className={styles.pagehero__title}>UFC Perth: ¡Carlos Ulberg vs Dominick Reyes!</h2>
-                    <p>¡Jimmy Crute vs Ivan Erslan!</p>
+                    <p>¡Jimmy Crute vs Ivan Erslan! ¡Neil Magny Somete a Jake Matthews en el Tercer Asalto!</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
                         <p>27/09/2025</p>

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function UlbergReyes () {
     return(
         <main>
-            <ArticleHero title='UFC Perth: ¡Carlos Ulberg vs Dominick Reyes!' subtitle='¡Jimmy Crute vs Ivan Erslan!' image={hero} date='2025-09-27' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Perth: ¡Carlos Ulberg vs Dominick Reyes!' subtitle='¡Jimmy Crute vs Ivan Erslan! ¡Neil Magny Somete a Jake Matthews en el Tercer Asalto!' image={hero} date='2025-09-27' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -59,6 +59,8 @@ export default function UlbergReyes () {
                     </Link>
                     <h2>Tom Nolan Somete a Charlie Campbell en el Primer Asalto</h2>
                     <p>Espectacular manera de comenzar la cartelera estelar de esta noche, con una nueva victoria por parte de un luchador australiano, esta vez de <b>Tom Nolan</b>, quien comenzó sufriendo bastante su pelea contra <b>Charlie Campbell</b>, pero que en el momento en que fue capaz de derribar al estadounidense, tuvo la rapidez necesaria para conectar un mataleón que terminaría sometiendo a su rival en el primer asalto. </p>
+                    <h2>Neil Magny Somete a Jake Matthews en el Tercer Asalto</h2>
+                    <p>Tremendo lo que acabamos de presenciar, en un combate donde parecía que el luchador local <b>Jake Metthews</b> tenía todo controlado y terminaría llevándose la victoria, luego de hacer un gran primer asalto y un dominante segundo asalto. Pero llegó el tercer y último asalto, y fue en este momento donde el veterano <b>Neil Magny</b> le hizo sentir al local el peso de la experiencia, siendo capaz de dar vuelta una pelea que estaba perdiendo al conectar una sumisión que le terminaría dando la victoria, cortando de esta manera con la racha de victorias por parte de los australianos en este evento de UFC. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
