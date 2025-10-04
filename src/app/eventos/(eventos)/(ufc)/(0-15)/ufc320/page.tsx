@@ -41,6 +41,8 @@ export default function UFC320 () {
                     <h2 className={styles.article__fightsHierarchy}>Primeros Preliminares</h2>
                     <h2>Veronica Hardy Derrota a Brogan Walker Por Decisión</h2>
                     <p>Contundente victoria en esta primer pelea de la noche por parte de la venezolana <b>Veronica Hardy</b>, quien dominó de principio a fin el combate, conectando golpes que dejaron mareada a su rival, y estando cerca de finalizar con una sumisión al final del primer asalto. De esta forma, la única peleadora latinoaméricana de esta cartelera se lleva la victoria por decisión unánime, habiendo ganado los 3 asaltos del encuentro.</p>
+                    <h2>Ramiz Brahimaj Somete a Austin Vanderford en el Segundo Asalto</h2>
+                    <p>Espectacular pelea de <b>Ramiz Brahimaj</b> quien dominó completamente a su compatriota, logrando finalmente terminar temprano la pelea en el segundo asalto, cuando mediante una guillotina, fue capaz de finalizar a su oponente vía sumisión, logrando la primer sumisión y finalización de la noche. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
