@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc319 from '@/assets/eventos/ufc/0-150/0-15/ufc319.webp'
+import ufc320 from '@/assets/eventos/ufc/0-150/0-15/ufc320.webp'
 import ulbergReyes from '@/assets/eventos/fight-night/0-150/0-15/ulberg-vs-reyes.webp'
 import lopesSilva from '@/assets/eventos/fight-night/0-150/0-15/lopes-vs-silva.webp'
 
 export default function PageHero () {
     return(
         <section className={styles.pagehero}>
-            <Link className={styles.pagehero__bigArticle} href='/eventos/ufc319'>
-                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc319} alt='' />
-                <h2 className={styles.page__title}>UFC 319: ¡Khamzat Chimaev Derrota a Dricus Du Plessis y es Nuevo Campeón de Peso Medio! ¡Lerone Murphy Deja KO al Debutante de UFC Aaron Pico!</h2>
-                <p>¡Loopy Godínez Derrota a Jéssica Andrade por Decisión Unánime en un Peleón! ¡Carlos Prates Noquea a Geoff Neal en el Primer Asalto con un Codazo Giratorio!</p>
+            <Link className={styles.pagehero__bigArticle} href='/eventos/ufc320'>
+                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc320} alt='' />
+                <h2 className={styles.page__title}>UFC 320: ¡Magomed Ankalaev vs Alex Pereira 2! ¡Merab Dvalishvili vs Cory Sandhagen!</h2>
+                <p>¡Jiri Prochazka vs Khalil Rountree! ¡Joshs Emmet vs Youssef Zalal!</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-ulberg-reyes'>
                 <Image className={styles.pagehero__article__img} quality={50} src={ulbergReyes} alt='' />
