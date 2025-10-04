@@ -45,6 +45,8 @@ export default function UFC320 () {
                     <p>Espectacular pelea de <b>Ramiz Brahimaj</b> quien dominó completamente a su compatriota, logrando finalmente terminar temprano la pelea en el segundo asalto, cuando mediante una guillotina, fue capaz de finalizar a su oponente vía sumisión, logrando la primer sumisión y finalización de la noche. </p>
                     <h2>Farid Basharat Derrota a Chris Gutierrez</h2>
                     <p>Gran victoria para <b>Farid Basharat</b>, quien partía como favorito en las apuestas e hizo valer ese favoritismo, logrando varios cambios de ritmo, conectando buenos golpes y concretando sus derribos, para terminar llevándose la victoria por sobre el estadounidense <b>Chris Gutierrez</b>. </p>
+                    <h2>Yana Santos Derrota a Macy Chiasson Por Decisión Unánime</h2>
+                    <p>Gran victoria para la rusa <b>Yana Santos</b>, quien fue capaz de conectar una gran cantidad de combinaciones de golpes, logrando superar a su rival en cuanto a volumen y cálidad de golpeo. De esta forma, Yana Santos logra una victoria ante la estadounidense <b>Macy Chiasson</b> que seguramente la haga meterse de lleno en el top 5 de la división de peso gallo femenino. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
