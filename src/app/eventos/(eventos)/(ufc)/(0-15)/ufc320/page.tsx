@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: 'UFC 320: ¡Magomed Ankalaev vs Alex Pereira 2!',
     description: "UFC 320 donde el campoeón Magomed Ankalaev defiende el cinturón ante Alex El Poatan Pereira. Además estará Merab Dvalishvili defendiendo el cinturón de peso gallo ante Cory Sandhagen.",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc320.9fd20ef5.webp&w=828&q=65',
         title: 'UFC 320: ¡Magomed Ankalaev vs Alex Pereira 2!',
         description: "UFC 320 donde el campoeón Magomed Ankalaev defiende el cinturón ante Alex El Poatan Pereira. Además estará Merab Dvalishvili defendiendo el cinturón de peso gallo ante Cory Sandhagen.",
         url: 'https://fullmma.org/eventos/ufc320'
