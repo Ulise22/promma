@@ -55,6 +55,8 @@ export default function UFC320 () {
                     </Link>
                     <h2>Edmen Shahbazyan Derrota a Andre Muniz Por Nocaut en el Primer Asalto</h2>
                     <p>Primer nocaut de la noche por parte del estadounidense <b>Edmen Shahbazyan</b>, quien al primero conectar un gancho de izquierda, olió sangre al ver que ese golpe impactó gravemente a su rival, por lo que procedió a atacarlo con una ráfaga de golpes hasta que el combate fue finalizado por el árbitro, que vió como el brasileño <b>Andre Muniz</b> ya no respondía, todo esto a unos pocos segundos de que termine el primer asalto. Por lo que el estadounidense abre las preliminares de manera espectacular, consiguiendo el primer nocaut de la noche. </p>
+                    <h2>Jakub Wiklacz Derrota a Patchy Mix Por Decisión Dividida</h2>
+                    <p>En un combate bastante cerrado, que en gran parte se desarrolló en el suelo, con ambos luchadores intercambiando golpes desde el piso, quien se terminó llevando la victoria fue el luchador polaco <b>Jakub Wiklacz</b>, quien pese a pasar la mayor parte del combate por debajo de su rival, fue capaz de generar más daño desde esa posición, convenciendo a 2 de los 3 jueces de que había ganado el combate. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
