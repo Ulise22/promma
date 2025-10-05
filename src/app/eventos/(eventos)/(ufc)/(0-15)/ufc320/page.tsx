@@ -61,12 +61,12 @@ export default function UFC320 () {
                     <p>Impresionante victoria del brasileño <b>Daniel Santos</b>, quien ya en el primer asalto estuvo cerca de noquear al surcoreano en más de una ocasión, necesitando en el segundo de menos golpes para terminar noqueando a su rival, logrando esto en el primer minuto del segundo asalto del combate. </p>
                     <h2>Ateba Gautier Noquea a Tre&apos;ston Vines en el Primer Asalto</h2>
                     <p>Tercer victoria por nocaut consecutiva para el luchador camerunés <b>Ateba Gautier</b>, quien desde su llegada a la UFC ha demostrado tener un poder de KO insuperable en la división de peso medio de la compañía, logrando esta noche otro más, en el primer asalto, luego de haber primero conectado una rodilla a la cabeza de su rival, para terminar rematándolo a golpes ante los que Vines quedó completamente indefenso. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
                     </Link>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2>Joe Pyfer Somete a Abus Magomedov en el Segundo Asalto</h2>
+                    <p>Tremenda manera de iniciar esta cartelera estelar, que había comenzado con el luchador alemán <b>Abus Magomedov</b> iniciando con el pie derecho, siendo superior a su rival. Pero el guión del combate cambiaría rotundamente en el segundo asalto, donde el estadounidense <b>Joe Pyfer</b> haría los ajustes necesarios para primero conectar a su rival, y para posteriormente ganarle la espalda para conectarle un mataleón que lo sometería en el segundo asalto de la pelea. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
