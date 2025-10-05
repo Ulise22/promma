@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function UFC320 () {
     return(
         <main>
-            <ArticleHero title="UFC 320: ¡Magomed Ankalaev vs Alex Pereira 2! ¡Merab Dvalishvili vs Cory Sandhagen!" subtitle='¡Jiri Prochazka vs Khalil Rountree! ¡Joshs Emmet vs Youssef Zalal!' image={hero} date='2025-10-04' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 320: ¡Magomed Ankalaev vs Alex Pereira 2! ¡Merab Dvalishvili vs Cory Sandhagen!" subtitle='¡Jiri Prochazka Noquea a Khalil Rountree en el Tercer Asalto en La Pelea de la Noche! ¡Youssef Zalal Somete a Josh Emmet en el Primer Asalto de la Pelea!' image={hero} date='2025-10-04' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -69,6 +69,8 @@ export default function UFC320 () {
                     <p>Tremenda manera de iniciar esta cartelera estelar, que había comenzado con el luchador alemán <b>Abus Magomedov</b> iniciando con el pie derecho, siendo superior a su rival. Pero el guión del combate cambiaría rotundamente en el segundo asalto, donde el estadounidense <b>Joe Pyfer</b> haría los ajustes necesarios para primero conectar a su rival, y para posteriormente ganarle la espalda para conectarle un mataleón que lo sometería en el segundo asalto de la pelea. </p>
                     <h2>Youssef Zalal Somete a Josh Emmet en el Primer Asalto</h2>
                     <p>Tremenda victoria del luchador marroquí <b>Youssef Zalal</b>, quien gana de forma contundente ante el veterano estadounidense <b>Josh Emmet</b>, derribándolo rápidamente, y siendo capaz de conectar un armbar, que aunque Emmet sería capaz de ponerse de pie, tapearía verbalmente, permitiéndole al luchador de Marruecos quedarse con la victoria por sumisión en el primer asalto. </p>
+                    <h2>Jiri Prochazka Noquea a Khalil Rountree en el Tercer Asalto en la Pelea de la Noche</h2>
+                    <p>Espectacular, épico, lo que acabamos de presenciar en este combate, que inició con <b>Khalil Rountree</b> siendo el que mejor parado estaba, esquivando y conectando un mayor volumen de golpes que su rival. Pero esto cambiaría cuando llegó el tercer asalto, donde lo único que le servía a <Link href='/peleadores/jiri-prochazka'>Jiri Prochazka</Link> era la finalización, debido a que había perdido los 2 primeros asaltos, y fue acá cuando se descontroló todo, con ambos luchadores yendo al intercambió y dándose un montón de golpes mutuamente. Pero en este escenario caótico, se vería claramente que a quien más beneficiaba era al luchador de República Checa, quien tiene una mandibula de acero y resistía todos los golpes que recibía por parte de Khalil. Finalmente el combate terminaría cuando Jiri conectaría un golpe que tumbaría a su rival, dejándolo KO en el tercer asalto del combate. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
