@@ -67,6 +67,8 @@ export default function UFC320 () {
                     </Link>
                     <h2>Joe Pyfer Somete a Abus Magomedov en el Segundo Asalto</h2>
                     <p>Tremenda manera de iniciar esta cartelera estelar, que había comenzado con el luchador alemán <b>Abus Magomedov</b> iniciando con el pie derecho, siendo superior a su rival. Pero el guión del combate cambiaría rotundamente en el segundo asalto, donde el estadounidense <b>Joe Pyfer</b> haría los ajustes necesarios para primero conectar a su rival, y para posteriormente ganarle la espalda para conectarle un mataleón que lo sometería en el segundo asalto de la pelea. </p>
+                    <h2>Youssef Zalal Somete a Josh Emmet en el Primer Asalto</h2>
+                    <p>Tremenda victoria del luchador marroquí <b>Youssef Zalal</b>, quien gana de forma contundente ante el veterano estadounidense <b>Josh Emmet</b>, derribándolo rápidamente, y siendo capaz de conectar un armbar, que aunque Emmet sería capaz de ponerse de pie, tapearía verbalmente, permitiéndole al luchador de Marruecos quedarse con la victoria por sumisión en el primer asalto. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
