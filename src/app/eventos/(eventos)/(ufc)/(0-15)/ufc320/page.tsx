@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function UFC320 () {
     return(
         <main>
-            <ArticleHero title="UFC 320: ¡Magomed Ankalaev vs Alex Pereira 2! ¡Merab Dvalishvili Derrota a Cory Sandhagen y Sigue Siendo Campeón!" subtitle='¡Jiri Prochazka Noquea a Khalil Rountree en el Tercer Asalto en La Pelea de la Noche! ¡Youssef Zalal Somete a Josh Emmet en el Primer Asalto de la Pelea!' image={hero} date='2025-10-04' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 320: ¡Alex Pereira Noquea a Magomed Ankalaev en el Primer Asalto y Vuelve a Ser Campeón! ¡Merab Dvalishvili Derrota a Cory Sandhagen y Sigue Siendo Campeón!" subtitle='¡Jiri Prochazka Noquea a Khalil Rountree en el Tercer Asalto en La Pelea de la Noche! ¡Youssef Zalal Somete a Josh Emmet en el Primer Asalto de la Pelea!' image={hero} date='2025-10-04' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -74,6 +74,9 @@ export default function UFC320 () {
                     <h2>Merab Dvalishvili Derrota a Cory Sandhagen Por Decisión Unánime</h2>
                     <p>Otra excelente actuación del campeón <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link>, quien nuevamente es capaz de defender su cinturón con holgura, dominando de principio a fin, conectando un montón de golpes, y rompiendo todo tipo de récords cuando se trata de derribos, estando cerca de cumplir su promesa de noquear a <b>Cory Sandhagen</b> en el segundo asalto, cuando se notó que sus golpes impactaron fuerte en el estadounidense. </p>
                     <p>De esta manera Merab consigue su tercer defensa exitosa del cinturón, y rompe un récord al alcanzar su victoria 14 de forma consecutiva, empatando en esta estadística a <Link href='/peleadores/jon-jones'>Jon Jones</Link>. </p>
+                    <h2>Alex Pereira Noquea a Magomed Ankalaev en el Primer Asalto y es el Nuevo Campeón de Semipesado</h2>
+                    <p>El luchador brasileño <Link href='/peleadores/alex-pereira'>Alex Pereira</Link> logra lo épico, hace lo más espectacular que podría haber hecho y noquea al campeón <Link href='/peleadores/magomed-ankalaev'>Magomed Anakalev</Link> en el primer asalto, recuperando el cinturón que le pertenecía. </p>
+                    <p>Es una versión muy diferente la que vimos del Poatán esta noche, quien a diferencia del primer combate que tuvo con el luchador de Daguestán, en esta ocasión sí fue hacia adelante en busca del intercambio con su rival, y fue capaz de castigarlo de forma contundente muy rápido, conectando un volado de derecha que derribaría a su rival, para proseguir a castigarlo mediante codazos a la cabeza, ante un Magomed Ankalaev que sólo atinaba a cubrirse la cara para no recibir tanto daño. Por lo que el árbitro <b>Herb Dean</b>, dió por terminada la pelea, dando como ganador a Alex Pereira por TKO en el primer asalto, y coronándolo como nuevo campeón. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />

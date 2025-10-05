@@ -11,7 +11,7 @@ export default function PageHero () {
         <section className={styles.pagehero}>
             <Link className={styles.pagehero__bigArticle} href='/eventos/ufc320'>
                 <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc320} alt='' />
-                <h2 className={styles.page__title}>UFC 320: ¡Magomed Ankalaev vs Alex Pereira 2! ¡Merab Dvalishvili vs Cory Sandhagen!</h2>
+                <h2 className={styles.page__title}>UFC 320: ¡Alex Pereira Noquea a Magomed Ankalaev en el Primer Asalto y Vuelve a Ser Campeón! ¡Merab Dvalishvili Derrota a Cory Sandhagen y Sigue Siendo Campeón!</h2>
                 <p>¡Jiri Prochazka Noquea a Khalil Rountree en el Tercer Asalto en La Pelea de la Noche! ¡Youssef Zalal Somete a Josh Emmet en el Primer Asalto de la Pelea!</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-ulberg-reyes'>
