@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function UFC320 () {
     return(
         <main>
-            <ArticleHero title="UFC 320: ¡Magomed Ankalaev vs Alex Pereira 2! ¡Merab Dvalishvili vs Cory Sandhagen!" subtitle='¡Jiri Prochazka Noquea a Khalil Rountree en el Tercer Asalto en La Pelea de la Noche! ¡Youssef Zalal Somete a Josh Emmet en el Primer Asalto de la Pelea!' image={hero} date='2025-10-04' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 320: ¡Magomed Ankalaev vs Alex Pereira 2! ¡Merab Dvalishvili Derrota a Cory Sandhagen y Sigue Siendo Campeón!" subtitle='¡Jiri Prochazka Noquea a Khalil Rountree en el Tercer Asalto en La Pelea de la Noche! ¡Youssef Zalal Somete a Josh Emmet en el Primer Asalto de la Pelea!' image={hero} date='2025-10-04' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -71,6 +71,9 @@ export default function UFC320 () {
                     <p>Tremenda victoria del luchador marroquí <b>Youssef Zalal</b>, quien gana de forma contundente ante el veterano estadounidense <b>Josh Emmet</b>, derribándolo rápidamente, y siendo capaz de conectar un armbar, que aunque Emmet sería capaz de ponerse de pie, tapearía verbalmente, permitiéndole al luchador de Marruecos quedarse con la victoria por sumisión en el primer asalto. </p>
                     <h2>Jiri Prochazka Noquea a Khalil Rountree en el Tercer Asalto en la Pelea de la Noche</h2>
                     <p>Espectacular, épico, lo que acabamos de presenciar en este combate, que inició con <b>Khalil Rountree</b> siendo el que mejor parado estaba, esquivando y conectando un mayor volumen de golpes que su rival. Pero esto cambiaría cuando llegó el tercer asalto, donde lo único que le servía a <Link href='/peleadores/jiri-prochazka'>Jiri Prochazka</Link> era la finalización, debido a que había perdido los 2 primeros asaltos, y fue acá cuando se descontroló todo, con ambos luchadores yendo al intercambió y dándose un montón de golpes mutuamente. Pero en este escenario caótico, se vería claramente que a quien más beneficiaba era al luchador de República Checa, quien tiene una mandibula de acero y resistía todos los golpes que recibía por parte de Khalil. Finalmente el combate terminaría cuando Jiri conectaría un golpe que tumbaría a su rival, dejándolo KO en el tercer asalto del combate. </p>
+                    <h2>Merab Dvalishvili Derrota a Cory Sandhagen Por Decisión Unánime</h2>
+                    <p>Otra excelente actuación del campeón <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link>, quien nuevamente es capaz de defender su cinturón con holgura, dominando de principio a fin, conectando un montón de golpes, y rompiendo todo tipo de récords cuando se trata de derribos, estando cerca de cumplir su promesa de noquear a <b>Cory Sandhagen</b> en el segundo asalto, cuando se notó que sus golpes impactaron fuerte en el estadounidense. </p>
+                    <p>De esta manera Merab consigue su tercer defensa exitosa del cinturón, y rompe un récord al alcanzar su victoria 14 de forma consecutiva, empatando en esta estadística a <Link href='/peleadores/jon-jones'>Jon Jones</Link>. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
