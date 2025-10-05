@@ -49,12 +49,12 @@ export default function UFC320 () {
                     <p>Gran victoria para la rusa <b>Yana Santos</b>, quien fue capaz de conectar una gran cantidad de combinaciones de golpes, logrando superar a su rival en cuanto a volumen y cálidad de golpeo. De esta forma, Yana Santos logra una victoria ante la estadounidense <b>Macy Chiasson</b> que seguramente la haga meterse de lleno en el top 5 de la división de peso gallo femenino. </p>
                     <h2>Punahele Soriano Derrota a Nikolay Veretennikov Por Decisión Unánime</h2>
                     <p>Gran victoria para el luchador estadounidense <b>Punahele Soriano</b>, quien fue claramente superior a su rival de Kazajistán, conectando los mejores golpes, siendo capaz de derribarlo en más de una ocasión, y defendiendo de forma excelente los intentos de sumisión por parte de su rival, que constantemente buscaba conectar una guillotina a la que Soriano siempre encontró respuesta y supo castigar. De esta forma terminamos las primeras peleas preliminares con sólo 1 finalización en 5 peleas. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
+                    <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
                     </Link>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2>Edmen Shahbazyan Derrota a Andre Muniz Por Nocaut en el Primer Asalto</h2>
+                    <p>Primer nocaut de la noche por parte del estadounidense <b>Edmen Shahbazyan</b>, quien al primero conectar un gancho de izquierda, olió sangre al ver que ese golpe impactó gravemente a su rival, por lo que procedió a atacarlo con una ráfaga de golpes hasta que el combate fue finalizado por el árbitro, que vió como el brasileño <b>Andre Muniz</b> ya no respondía, todo esto a unos pocos segundos de que termine el primer asalto. Por lo que el estadounidense abre las preliminares de manera espectacular, consiguiendo el primer nocaut de la noche. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
