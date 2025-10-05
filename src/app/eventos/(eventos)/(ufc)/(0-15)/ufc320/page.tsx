@@ -59,6 +59,8 @@ export default function UFC320 () {
                     <p>En un combate bastante cerrado, que en gran parte se desarrolló en el suelo, con ambos luchadores intercambiando golpes desde el piso, quien se terminó llevando la victoria fue el luchador polaco <b>Jakub Wiklacz</b>, quien pese a pasar la mayor parte del combate por debajo de su rival, fue capaz de generar más daño desde esa posición, convenciendo a 2 de los 3 jueces de que había ganado el combate. </p>
                     <h2>Daniel Santos Noquea a Joosang Yoo en el Segundo Asalto</h2>
                     <p>Impresionante victoria del brasileño <b>Daniel Santos</b>, quien ya en el primer asalto estuvo cerca de noquear al surcoreano en más de una ocasión, necesitando en el segundo de menos golpes para terminar noqueando a su rival, logrando esto en el primer minuto del segundo asalto del combate. </p>
+                    <h2>Ateba Gautier Noquea a Tre&apos;ston Vines en el Primer Asalto</h2>
+                    <p>Tercer victoria por nocaut consecutiva para el luchador camerunés <b>Ateba Gautier</b>, quien desde su llegada a la UFC ha demostrado tener un poder de KO insuperable en la división de peso medio de la compañía, logrando esta noche otro más, en el primer asalto, luego de haber primero conectado una rodilla a la cabeza de su rival, para terminar rematándolo a golpes ante los que Vines quedó completamente indefenso. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
