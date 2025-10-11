@@ -53,12 +53,12 @@ export default function OliveiraGamrot () {
                     <p>Brillante desempeño del brasileño <b>Jafel Filho</b>, quien había comenzado el combate con el pie izquierdo, recibiendo unos durísimos golpes por parte de su rival, que de haber continuado conectando lo habría noqueado, pero que sin embargo, en el transcurso del primer asalto, fue capaz de darle la vuelta a la pelea, conectando una llave al brazo de su oponente que lo obligaría a tapear cuando faltaban menos de 20 segundos para que termine el primer asalto. </p>
                     <h2>Michael Aswell Jr. Noquea a Lucas Almeida en el Primer Asalto</h2>
                     <p>Tremendo nocaut por parte del estadounidense <b>Michael Aswell Jr.</b>, quien le arruina la fiesta a Brasil, siendo el primer luchador de la cartelera en ganarle a un brasileño, luego de noquear a su rival, a quien con una combinación constante de 1-2 fue capaz de conectarlo hasta tumbarlo al suelo, y rematarlo en el piso, donde el árbitro paro la pelea para consagrarlo como ganador del combate. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
                     </Link>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2>Kaan Ofli Somete a Ricardo Ramos en el Primer Asalto</h2>
+                    <p>Espectacular forma de comenzar esta cartelera estelar, con el australiano consiguienda una increíble sumisión, luego de, estando de pie, treparse hasta alcanzar la espalda de su rival, para finalmente conectar una mataleón que obligaría al brasileño a tapear. De esta forma, el australiano <b>Kaan Ofli</b> logra hacerse con la victoria ante el luchador local, logrando la primer victoria de esta cartelera estelar. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
