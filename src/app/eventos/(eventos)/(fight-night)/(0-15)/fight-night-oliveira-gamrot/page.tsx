@@ -16,11 +16,11 @@ const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles
 
 export const metadata: Metadata = {
     title: 'UFC Río: ¡Charles Oliveira vs Mateusz Gamrot!',
-    description: '',
+    description: 'Noche de UFC en Río de Janeiro, Brasil, donde estará Charles Oliveira peleando contra el polaco Mateusz Gamrot',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Foliveira-vs-gamrot.e12050a3.webp&w=828&q=65',
         title: 'UFC Río: ¡Charles Oliveira vs Mateusz Gamrot!',
-        description: '',
+        description: 'Noche de UFC en Río de Janeiro, Brasil, donde estará Charles Oliveira peleando contra el polaco Mateusz Gamrot',
         url: 'https://fullmma.org/eventos/fight-night-oliveira-gamrot'
     }
 }
