@@ -59,6 +59,8 @@ export default function OliveiraGamrot () {
                     </Link>
                     <h2>Kaan Ofli Somete a Ricardo Ramos en el Primer Asalto</h2>
                     <p>Espectacular forma de comenzar esta cartelera estelar, con el australiano consiguienda una increíble sumisión, luego de, estando de pie, treparse hasta alcanzar la espalda de su rival, para finalmente conectar una mataleón que obligaría al brasileño a tapear. De esta forma, el australiano <b>Kaan Ofli</b> logra hacerse con la victoria ante el luchador local, logrando la primer victoria de esta cartelera estelar. </p>
+                    <h2>Mario Pinto Noquea a Jhonata Diniz en el Segundo Asalto</h2>
+                    <p>Aplastante victoria por parte del portugués <b>Mario Pinto</b>, quien fue capaz de derribar a su rival tanto en el primer como en el segundo asalto, consiguiendo en este último abrirle un corte a su rival en la cara con un codazo descendente, y finalizando con una avalancha de golpes que le permitirían ganar el combate vía TKO ante el luchador brasileño que se vió indefenso ante la estrategia planteada por el portugués. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
