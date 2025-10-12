@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function OliveiraGamrot () {
     return(
         <main>
-            <ArticleHero title='UFC Río: ¡Charles Oliveira vs Mateusz Gamrot!' subtitle='¡Deiveson Figueiredo vs Montel Jackson! ¡Joel Álvarez Domina y Derrota a Vicente Luque por Decisión Unánime!' image={hero} date='2025-10-11' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Río: ¡Charles Oliveira vs Mateusz Gamrot!' subtitle='¡Deiveson Figueiredo Derrota a Montel Jackson Por Decisión Dividida! ¡Joel Álvarez Domina y Derrota a Vicente Luque por Decisión Unánime!' image={hero} date='2025-10-11' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -63,6 +63,8 @@ export default function OliveiraGamrot () {
                     <p>Aplastante victoria por parte del portugués <b>Mario Pinto</b>, quien fue capaz de derribar a su rival tanto en el primer como en el segundo asalto, consiguiendo en este último abrirle un corte a su rival en la cara con un codazo descendente, y finalizando con una avalancha de golpes que le permitirían ganar el combate vía TKO ante el luchador brasileño que se vió indefenso ante la estrategia planteada por el portugués. </p>
                     <h2>Joel Álvarez Derrota a Vicente Luque Por Decisión Unánime</h2>
                     <p>Masterclass total de <Link href='/peleadores/joel-alvarez'>Joel Álvarez</Link>, quien demostró completo dominio por sobre su rival, dando la sensación de que en cualquier momento podía llegar a finalizar, llegando incluso a ganar el segundo asalto de la pelea 10-8. Finalmente, aunque se le cortó la racha de 100% de finalizaciones, su debut en la división de peso wélter fue un total éxito, ganando de forma aplastante a su rival con todos los jueces puntuando este combate 30-26. </p>
+                    <h2>Deiveson Figueiredo Derrota a Montel Jackson Por Decisión Dividida</h2>
+                    <p>En un tremendo combate en el que ambos luchadores mostraron un corazón impresionante, quien se terminó llevando la pelea fue el brasileño y #6 de la división <b>Deiveson Figueiredo</b>, quien le demostró al joven luchador estadounidense que todavía hay niveles y que lejos está de estar acabado. Aunque los jueces dieron por vencedor a Figueiredo por decisión dividida, para mí estuvo muy claro que el brasileño ganó el primer y segundo asalto de forma contundente y por ende el combate. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />

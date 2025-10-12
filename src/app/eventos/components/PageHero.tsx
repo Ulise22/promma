@@ -29,7 +29,7 @@ export default function PageHero () {
                 <Image className={styles.pagehero__article__img} quality={50} src={oliveiraGamrot} alt='' />
                 <article className={styles.pagehero__article__container}>
                     <h2 className={styles.pagehero__title}>UFC Río: ¡Charles Oliveira vs Mateusz Gamrot!</h2>
-                    <p>¡Deiveson Figueiredo vs Montel Jackson! ¡Vicente Luque vs Joel Álvarez!</p>
+                    <p>¡Deiveson Figueiredo Derrota a Montel Jackson Por Decisión Dividida! ¡Joel Álvarez Domina y Derrota a Vicente Luque por Decisión Unánime!</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
                         <p>11/10/2025</p>
