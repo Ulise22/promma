@@ -28,7 +28,7 @@ export default function PageHero () {
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-oliveira-gamrot'>
                 <Image className={styles.pagehero__article__img} quality={50} src={oliveiraGamrot} alt='' />
                 <article className={styles.pagehero__article__container}>
-                    <h2 className={styles.pagehero__title}>UFC Río: ¡Charles Oliveira vs Mateusz Gamrot!</h2>
+                    <h2 className={styles.pagehero__title}>UFC Río: ¡Charles Oliveira Somete a Mateusz Gamrot en el Segundo Asalto!</h2>
                     <p>¡Deiveson Figueiredo Derrota a Montel Jackson Por Decisión Dividida! ¡Joel Álvarez Domina y Derrota a Vicente Luque por Decisión Unánime!</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
