@@ -11,6 +11,7 @@ import walkerVSmingyang from '@/assets/eventos/fight-night/0-150/0-15/walker_vs_
 import imavovBorralho from '@/assets/eventos/fight-night/0-150/0-15/imavov_vs_borralho.webp'
 import ufc319 from '@/assets/eventos/ufc/0-150/0-15/ufc319.webp'
 import lopesSilva from '@/assets/eventos/fight-night/0-150/0-15/lopes-vs-silva.webp'
+import ulbergReyes from '@/assets/eventos/fight-night/0-150/0-15/ulberg-vs-reyes.webp'
 
 export default function Eventos () {
     return (
@@ -18,12 +19,13 @@ export default function Eventos () {
             <PageHero />
             <section className={styles.articles__container}>
                 <ArticlePreview img={queEsDWCS} url='/eventos/dana-white-contender-series-que-es' title='Que es el Dana White Contender Series' author={null} text='¿Qué es y Cómo Funciona el Dana White Contender Series? El programa de televisión donde los peleadores compiten por un contrato con la UFC' date='19/08/2025' />
+                <ArticlePreview img={ulbergReyes} url='/eventos/fight-night-ulberg-reyes' title='UFC Perth: ¡Carlos Ulberg Noquea a Dominick Reyes en el Primer Asalto!' author={null} text='¡Jimmy Crute Somete a Ivan Erslan en el Primer Asalto! ¡Neil Magny Somete a Jake Matthews en el Tercer Asalto!' date='27/09/2025' />
                 <ArticlePreview img={imavovBorralho} url='/eventos/fight-night-imavov-borralho' title='UFC Paris: ¡Nassourdine Imavov Derrota a Caio Borralho Por Decisión Unánime en La Pelea de la Noche!' author={null} text='¡Benoit Saint Denis Somete a Mauricio Ruffy en el Segundo Asalto! ¡Ante Delija Debuta con Nocaut ante Marcin Tybura!' date='06/09/2025' />
                 <ArticlePreview img={walkerVSmingyang} url='/eventos/fight-night-walker-mingyang' title='UFC Shanghai: ¡Johnny Walker Noquea a Zhang Mingyang en el Segundo Asalto en China!' author={null} text='¡Aljamain Sterling Derrota Por Decisión Unánime a Brian Ortega 50-45! ¡Sergei Pavlovich Derrota a Waldo Cortes Acosta Por Decisión Unánime!' date='23/08/2025' />
-                <ArticlePreview img={lopesSilva} url='/eventos/fight-night-lopes-silva' title='UFC Noche: ¡Diego Lopes Noquea a Jean Silva en el Segundo Asalto!' author={null} text='¡David Martínez Derrota Rob Font y se Mete Al Top 10 de la División!' date='13/09/2025' />
             </section>
             <h2 className={styles.articulos__title}>Últimos Eventos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={lopesSilva} url='/eventos/fight-night-lopes-silva' title='UFC Noche: ¡Diego Lopes Noquea a Jean Silva en el Segundo Asalto!' author={null} text='¡David Martínez Derrota Rob Font y se Mete Al Top 10 de la División!' date='13/09/2025' />
                 <ArticlePreview img={ufc319} url='/eventos/ufc319' title='UFC 319: ¡Khamzat Chimaev Derrota a Dricus Du Plessis y es Nuevo Campeón de Peso Medio! ¡Lerone Murphy Deja KO al Debutante de UFC Aaron Pico!' author={null} text='¡Loopy Godínez Derrota a Jéssica Andrade por Decisión Unánime en un Peleón! ¡Carlos Prates Noquea a Geoff Neal en el Primer Asalto con un Codazo Giratorio!' date='17/08/2025' />
                 <ArticlePreview img={dolidzeVShernandez} url='/eventos/fight-night-dolidze-hernandez' title='UFC Vegas 109: ¡Anthony Hernandez Somete a Roman Dolidze en el Cuarto Asalto de la Pelea!' author={null} text='¡Steve Erceg Derrota a Ode Osbourne Por Decisión Unánime! ¡Joselyne Edwards Noquea a Priscila Cachoeira en el Primer Asalto!' date='09/08/2025' />
                 <ArticlePreview img={tairaVSpark} url='/eventos/fight-night-taira-park' title='UFC Vegas 108: ¡Tatsura Taira Soemte Hyunsung Park en el Segundo Asalto!' author={null} text='¡Los Argentinos Esteban Ribovics y Kevin Vallejos Protagonistas en la UFC Ganando las Mejores Peleas de la Noche!' date='02/08/2025' />
