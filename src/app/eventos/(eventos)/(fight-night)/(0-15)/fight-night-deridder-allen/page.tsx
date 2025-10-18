@@ -53,12 +53,12 @@ export default function DeridderAllen () {
                     <p>Tremendo lo que hizo el peleador de china <b>Aoriqileng</b>, quien conectó un volado de derecha que impactó directamente en la cabeza de su rival, tirándolo al suelo, donde el luchador asiático solo necesito de un par de golpes más para que el árbitro detuviera la pelea y lo diera como ganador en poco más de 10 segundos del primer asalto. </p>
                     <h2>Drew Dober Noquea a Kyle Prepolec en el Tercer Asalto</h2>
                     <p>En un combate que sin dudas entra en la contienda para ser la pelea de la noche, es <b>Drew Dober</b> quien se termina llevando la victoria, luego de que se le descontara un punto en el tercer asalto de la pelea, por haber golpeado en las zonas bajas de su rival con una patada que le dolió hasta al público. Sin embargo, luego de 4 minutos que necesitó el canadiense <b>Kyle Prepolec</b>, se reanudó la pelea y el ganador terminó siendo <b>Drew Dober</b>, quien luego de una espectacular combinación de golpes logró llevarse la victoria por TKO en le tercer asalto. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
                     </Link>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2>Kyle Nelson Derrota a Matt Frevola por Decisión Unánime</h2>
+                    <p>Otra victoria para los canadienses en esta Noche de UFC en Vancouver, con <b>Kyle Nelson</b> abriendo la cartelera estelar de la mejor manera posible con una pelea espectacular, en donde hay que remarcar un error por parte del árbitro, que separó a los peleadores a 3 segundos de que terminara el primer asalto, mientras Kyle Nelson estaba encima de Matt Frevola golpeándolo, por lo que el combate debería haber terminado ahí por TKO, sin embargo la pelea siguió y se extendió hasta los 3 asaltos, con los jueces dando como ganador a Kyle Nelson, quien a lo largo del combate fue un mejor peleador. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
