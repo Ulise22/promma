@@ -16,11 +16,11 @@ const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles
 
 export const metadata: Metadata = {
     title: 'UFC Vancouever: ¡Reiner De Ridder vs Brendan Allen!',
-    description: '',
+    description: 'Noche de UFC en Canadá encabezada por Reiner De Ridder y Brendan Allen. Además de la pelea de Chito Vera contra Aiemann Zahabi',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fderidder-allen.2d15fcdb.webp&w=828&q=65',
         title: 'UFC Vancouever: ¡Reiner De Ridder vs Brendan Allen!',
-        description: '',
+        description: 'Noche de UFC en Canadá encabezada por Reiner De Ridder y Brendan Allen. Además de la pelea de Chito Vera contra Aiemann Zahabi',
         url: 'https://fullmma.org/eventos/fight-night-deridder-allen'
     }
 }

@@ -14,7 +14,7 @@ export default function PageHero () {
                 <h2 className={styles.page__title}>UFC 320: ¡Alex Pereira Noquea a Magomed Ankalaev en el Primer Asalto y Vuelve a Ser Campeón! ¡Merab Dvalishvili Derrota a Cory Sandhagen y Sigue Siendo Campeón!</h2>
                 <p>¡Jiri Prochazka Noquea a Khalil Rountree en el Tercer Asalto en La Pelea de la Noche! ¡Youssef Zalal Somete a Josh Emmet en el Primer Asalto de la Pelea!</p>
             </Link>
-            <Link className={`${styles.pagehero__article} ${styles.normal2}`} href='/eventos/fight-night-deridder-allen'>
+            <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-deridder-allen'>
                 <Image className={styles.pagehero__article__img} quality={50} src={deridderAllen} alt='' />
                 <article className={styles.pagehero__article__container}>
                     <h2 className={styles.pagehero__title}>UFC Vancouever: ¡Reinier De Ridder vs Brendan Allen!</h2>
@@ -25,7 +25,7 @@ export default function PageHero () {
                     </div>
                 </article>
             </Link>
-            <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-oliveira-gamrot'>
+            <Link className={`${styles.pagehero__article} ${styles.normal2}`} href='/eventos/fight-night-oliveira-gamrot'>
                 <Image className={styles.pagehero__article__img} quality={50} src={oliveiraGamrot} alt='' />
                 <article className={styles.pagehero__article__container}>
                     <h2 className={styles.pagehero__title}>UFC Río: ¡Charles Oliveira Somete a Mateusz Gamrot en el Segundo Asalto!</h2>
