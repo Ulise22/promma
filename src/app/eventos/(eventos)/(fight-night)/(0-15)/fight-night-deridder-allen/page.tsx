@@ -41,6 +41,8 @@ export default function DeridderAllen () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
                     <h2>Melissa Croden Noquea a Tainara Lisboa en el Tercer Asalto</h2>
                     <p>Victoria canadiense en la primer primer pelea de esta cartelera, luego de la que luchadora local <b>Melissa Croden</b> logró una gran victoria en el tercer asalto del combate, luego de noquear a su rival, castigándola desde el suelo, hasta que el árbitro las separó para otorgarle la victoria por TKO. </p>
+                    <h2>Yousri Belgaroui Noquea a Azamat Bekoev en el Tercer Asalto</h2>
+                    <p>Segunda pelea consecutiva que termina con nocaut en el tercer asalto, luego de que fue un peleón por parte del luchador de Países Bajos <b>Yousri Belgaroui</b>, quien fue capaz de dominar completamente al peleador ruso <b>Azamat Bekoev</b>, quien aunque intentó ir al intercambio con su rival, no pudo hacer nada ante la potencia y cálidad de los golpes del neerlandés, quien terminó finalizando a su rival en el tercer asalto, luego de una combinación de golpes que lo dejaron muy lastimado, al punto de que el árbitro dió por terminada la pelea para evitar que Bekoev cayera KO. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
