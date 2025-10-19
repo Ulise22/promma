@@ -18,7 +18,7 @@ export default function PageHero () {
                 <Image className={styles.pagehero__article__img} quality={50} src={deridderAllen} alt='' />
                 <article className={styles.pagehero__article__container}>
                     <h2 className={styles.pagehero__title}>UFC Vancouever: ¡Reinier De Ridder vs Brendan Allen!</h2>
-                    <p>¡Kevin Holland vs Mike Mallot! ¡Marlon Vera vs Aiemann Zahabi!</p>
+                    <p>¡Mike Mallot Derrota a Kevin Holland Por Decisión Unánime! ¡Aiemann Zahabi Derrota a Marlon Vera por Decisión Dividida en una Pelea Cerradísima!</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
                         <p>18/10/2025</p>

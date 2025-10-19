@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function DeridderAllen () {
     return(
         <main>
-            <ArticleHero title='UFC Vancouever: ¡Reinier De Ridder vs Brendan Allen!' subtitle='¡Kevin Holland vs Mike Mallot! ¡Aiemann Zahabi Derrota a Marlon Vera por Decisión Dividida en una Pelea Cerradísima!' image={hero} date='2025-10-18' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Vancouever: ¡Reinier De Ridder vs Brendan Allen!' subtitle='¡Mike Mallot Derrota a Kevin Holland Por Decisión Unánime! ¡Aiemann Zahabi Derrota a Marlon Vera por Decisión Dividida en una Pelea Cerradísima!' image={hero} date='2025-10-18' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -65,6 +65,8 @@ export default function DeridderAllen () {
                     <p>Increíble victoria de la luchadora francesa <b>Manon Fiorot</b>, que arruina la fiesta en Canadá, derrotando a la luchadora local <b>Jasmine Jasudavicius</b> de manera contundente por TKO en el primer asalto, luego de conectar una mano que tumbó en el suelo a su rival, y luego de rematarla con golpes en el piso. </p>
                     <h2>Aiemann Zahabi Derrota a Marlon Vera por Decisión Dividida en una Pelea Cerradísima</h2>
                     <p>En un combate bastante cerrado, que podría haber ido para cualquiera de los 2 peleadores, incluso con <Link href='/peleadores/marlon-vera'>Chito Vera</Link> estando cerca de noquear y finalizar a su rival en el segundo asalto, quien se terminó llevando la victoria fue el canadiense <b>Aiemann Zahabi</b>, quien a ojos de 2 de los 3 jueces, ganó el combate. Con la pelea terminando oficialmente en victoria por decisión dividida para Aiemann Zahabi</p>
+                    <h2>Mike Mallot Derrota a Kevin Holland Por Decisión Unánime</h2>
+                    <p>En un combate que seguramente quedé más marcado por los más de 5 minutos que le tomó a Kevin Holland recuperarse de un golpe en las zonas bajas, quien se terminó llevando la victoria es el canadiense <b>Mike Mallot</b>, quien en el tercer asalto tuvo la inteligencia de ver que el combate estaba siendo cerrado, por lo que cambió de niveles en el último asalto, buscando un derribo, intentando una sumisión y conectando la mayor cantidad de golpes que pudo mientras estuvo en una posición favorable, logrando ganar el último asalto, y consiguiendo llevarse la victoria en este combate por decisión unánime. Garantizando además, su ascenso a los rankings de peso wélter de la UFC. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
