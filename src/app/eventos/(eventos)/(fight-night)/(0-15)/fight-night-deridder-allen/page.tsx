@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function DeridderAllen () {
     return(
         <main>
-            <ArticleHero title='UFC Vancouever: ¡Reinier De Ridder vs Brendan Allen!' subtitle='¡Kevin Holland vs Mike Mallot! ¡Marlon Vera vs Aiemann Zahabi!' image={hero} date='2025-10-18' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Vancouever: ¡Reinier De Ridder vs Brendan Allen!' subtitle='¡Kevin Holland vs Mike Mallot! ¡Aiemann Zahabi Derrota a Marlon Vera por Decisión Dividida en una Pelea Cerradísima!' image={hero} date='2025-10-18' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -63,6 +63,8 @@ export default function DeridderAllen () {
                     <p>Espectacular victoria del canadiense <b>Charles Jourdain</b>, quien luego de conectar un rodillazo a la cabeza de su rival en el primer asalto, aprovechó el daño que le hizo a su rival, quien ya no estaba con la capacidad para tomar decisiones al 100%, y buscó la guillotina que finalmente es la que le daría la victoria por sumisión, faltando más de un minuto para que termine el primer asalto. </p>
                     <h2>Manon Fiorot Noquea a Jasmine Jasudavicius en el Primer Asalto</h2>
                     <p>Increíble victoria de la luchadora francesa <b>Manon Fiorot</b>, que arruina la fiesta en Canadá, derrotando a la luchadora local <b>Jasmine Jasudavicius</b> de manera contundente por TKO en el primer asalto, luego de conectar una mano que tumbó en el suelo a su rival, y luego de rematarla con golpes en el piso. </p>
+                    <h2>Aiemann Zahabi Derrota a Marlon Vera por Decisión Dividida en una Pelea Cerradísima</h2>
+                    <p>En un combate bastante cerrado, que podría haber ido para cualquiera de los 2 peleadores, incluso con <Link href='/peleadores/marlon-vera'>Chito Vera</Link> estando cerca de noquear y finalizar a su rival en el segundo asalto, quien se terminó llevando la victoria fue el canadiense <b>Aiemann Zahabi</b>, quien a ojos de 2 de los 3 jueces, ganó el combate. Con la pelea terminando oficialmente en victoria por decisión dividida para Aiemann Zahabi</p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
