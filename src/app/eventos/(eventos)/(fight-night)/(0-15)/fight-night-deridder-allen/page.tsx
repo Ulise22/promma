@@ -61,6 +61,8 @@ export default function DeridderAllen () {
                     <p>Otra victoria para los canadienses en esta Noche de UFC en Vancouver, con <b>Kyle Nelson</b> abriendo la cartelera estelar de la mejor manera posible con una pelea espectacular, en donde hay que remarcar un error por parte del árbitro, que separó a los peleadores a 3 segundos de que terminara el primer asalto, mientras Kyle Nelson estaba encima de Matt Frevola golpeándolo, por lo que el combate debería haber terminado ahí por TKO, sin embargo la pelea siguió y se extendió hasta los 3 asaltos, con los jueces dando como ganador a Kyle Nelson, quien a lo largo del combate fue un mejor peleador. </p>
                     <h2>Charles Jourdain Somete a Davey Grant en el Primer Asalto</h2>
                     <p>Espectacular victoria del canadiense <b>Charles Jourdain</b>, quien luego de conectar un rodillazo a la cabeza de su rival en el primer asalto, aprovechó el daño que le hizo a su rival, quien ya no estaba con la capacidad para tomar decisiones al 100%, y buscó la guillotina que finalmente es la que le daría la victoria por sumisión, faltando más de un minuto para que termine el primer asalto. </p>
+                    <h2>Manon Fiorot Noquea a Jasmine Jasudavicius en el Primer Asalto</h2>
+                    <p>Increíble victoria de la luchadora francesa <b>Manon Fiorot</b>, que arruina la fiesta en Canadá, derrotando a la luchadora local <b>Jasmine Jasudavicius</b> de manera contundente por TKO en el primer asalto, luego de conectar una mano que tumbó en el suelo a su rival, y luego de rematarla con golpes en el piso. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
