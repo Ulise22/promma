@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function DeridderAllen () {
     return(
         <main>
-            <ArticleHero title='UFC Vancouever: ¡Reinier De Ridder vs Brendan Allen!' subtitle='¡Mike Mallot Derrota a Kevin Holland Por Decisión Unánime! ¡Aiemann Zahabi Derrota a Marlon Vera por Decisión Dividida en una Pelea Cerradísima!' image={hero} date='2025-10-18' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Vancouever: ¡Brendan Allen Derrota a Reiner De Ridder Por Rendición en el Cuarto Asalto!' subtitle='¡Mike Mallot Derrota a Kevin Holland Por Decisión Unánime! ¡Aiemann Zahabi Derrota a Marlon Vera por Decisión Dividida en una Pelea Cerradísima!' image={hero} date='2025-10-18' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -67,6 +67,9 @@ export default function DeridderAllen () {
                     <p>En un combate bastante cerrado, que podría haber ido para cualquiera de los 2 peleadores, incluso con <Link href='/peleadores/marlon-vera'>Chito Vera</Link> estando cerca de noquear y finalizar a su rival en el segundo asalto, quien se terminó llevando la victoria fue el canadiense <b>Aiemann Zahabi</b>, quien a ojos de 2 de los 3 jueces, ganó el combate. Con la pelea terminando oficialmente en victoria por decisión dividida para Aiemann Zahabi</p>
                     <h2>Mike Mallot Derrota a Kevin Holland Por Decisión Unánime</h2>
                     <p>En un combate que seguramente quedé más marcado por los más de 5 minutos que le tomó a Kevin Holland recuperarse de un golpe en las zonas bajas, quien se terminó llevando la victoria es el canadiense <b>Mike Mallot</b>, quien en el tercer asalto tuvo la inteligencia de ver que el combate estaba siendo cerrado, por lo que cambió de niveles en el último asalto, buscando un derribo, intentando una sumisión y conectando la mayor cantidad de golpes que pudo mientras estuvo en una posición favorable, logrando ganar el último asalto, y consiguiendo llevarse la victoria en este combate por decisión unánime. Garantizando además, su ascenso a los rankings de peso wélter de la UFC. </p>
+                    <h2>Brendan Allen Derrota a Reiner De Ridder Por Rendición</h2>
+                    <p>En un giro de guión sorprendente, donde parecía que se venía una noche larga para el luchador que hoy estaba representando a Canadá <b>Brendan Allen</b>, luego de ser derribado y dominado durante todo el primer asalto. El guión de la pelea cambiaría radicalmente a partir del segundo asalto, cuando pese a ser derribado nuevamente, fue capaz de quedar por encima de su rival y castigarlo mediante golpes y constantes amenazas a sumisiones, cosa que se repetiría (cada vez de forma más dominante) durante el tercer y cuarto asalto. </p>
+                    <p>Una vez terminó el cuarto asalto, el neerlandés <b>Reiner De Ridder</b> se vió completamente agotado y sin fuerzas para continuar, por lo que le pidió a su equipo que tiren la toalla, de esta forma Brendan Allen, que había tomado la pelea en corto aviso, se hace con la victoria por TKO o por rendición en el cuarto asalto del combate. Ganando además, muchas posibilidades de pelear por el título de la división ante el actual campeón <Link href='/peleadores/khamzat-chimaev'>Khamzat Chimaev</Link>. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />

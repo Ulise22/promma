@@ -17,7 +17,7 @@ export default function PageHero () {
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-deridder-allen'>
                 <Image className={styles.pagehero__article__img} quality={50} src={deridderAllen} alt='' />
                 <article className={styles.pagehero__article__container}>
-                    <h2 className={styles.pagehero__title}>UFC Vancouever: ¡Reinier De Ridder vs Brendan Allen!</h2>
+                    <h2 className={styles.pagehero__title}>UFC Vancouever: ¡Brendan Allen Derrota a Reiner De Ridder Por Rendición en el Cuarto Asalto!</h2>
                     <p>¡Mike Mallot Derrota a Kevin Holland Por Decisión Unánime! ¡Aiemann Zahabi Derrota a Marlon Vera por Decisión Dividida en una Pelea Cerradísima!</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
