@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function UFC321 () {
     return(
         <main>
-            <ArticleHero title="UFC 321: ¡Tom Aspinall vs Ciryl Gane! ¡Virna Jandiroba vs Mackenzie Dern!" subtitle='¡Umar Nurmagomedov vs Mario Bautista! ¡Alexander Volkov vs Jailton Almeida!' image={hero} date='2025-10-25' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 321: ¡Tom Aspinall vs Ciryl Gane! ¡Virna Jandiroba vs Mackenzie Dern!" subtitle='¡Umar Nurmagomedov vs Mario Bautista! ¡Alexander Volkov Derrota a Jailton Almeida por Decisión Dividida!' image={hero} date='2025-10-25' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -67,6 +67,8 @@ export default function UFC321 () {
                     </Link>
                     <h2>Azamat Murzakanov Noquea a Aleksandar Rakic en el Primer Asalto</h2>
                     <p>Espectacular victoria del ruso <b>Azamat Murzakanov</b>, quien en el primer asalto fue capaz de noquear al #7 de la división <b>Aleksandar Rakic</b>, tan sólo con un jab, que una vez impactó en la cabeza de su oponente, le hizo caer al suelo inmediatamente, necesitando sólo de un golpes más para que el árbitro los separara y diera como ganadro a Murzakanov por TKO en el primer asalto. De esta manera, el luchador ruso mantiene y extiende su récord invicto a 16-0, escalando además, al top 10 de la división de peso semipesado. </p>
+                    <h2>Alexander Volkov Derrota a Jailton Almeida por Decisión Dividida</h2>
+                    <p>En una controvertida decisión, quien termina llevándose la pelea es el ruso <b>Alexander Volkov</b>, quien claramente había ganado el primer asalto del combate, pero que debatiblemente había perdido los siguientes 2 asaltos, luego de ser derribado y controlado en el suelo por su rival brasileño <b>Jailton Almeida</b>. Más allá de los que piense yo, el ganador a los ojos de 2 de los 3 jueces, es Alexander Volkov por decisión dividida. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
