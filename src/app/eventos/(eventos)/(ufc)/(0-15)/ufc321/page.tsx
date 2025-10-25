@@ -47,6 +47,8 @@ export default function UFC321 () {
                     <p>Gran victoria para el luchador egipcio <b>Hamdy Abdelwahab</b>, quien destruyó completamente a su rival español <b>Chris Barnett</b>, golpeando desde todos lados, con un diferencial de golpes que debe superar los 100, y todo esto a pesar de que se le descontó un punto en el primer asalto, por darle un codazo ilegal atrás de la cabeza su rival. </p>
                     <h2>Nathaniel Wood Derrota a Jose Miguel Delgado por Decisión Unánime</h2>
                     <p>Victoria para el luchador inglés <b>Nathaniel Wood</b>, quien finalmente luego de 3 asaltos se impuso por sobre su rival mexicano <b>José Miguel Delgado</b>, por decisión unánime, pese a partir como el menos favorito en las apuestas, logrando hacer la diferencia especialmente en los últimos 2 asaltos. </p>
+                    <h2>Valter Walker Somete a Louie Sutherland en el Primer Asalto</h2>
+                    <p>Espectacular lo conseguido por el brasileño <b>Valter Walker</b>, quien consigue la primer finalización de la noche, al conectar su ya tan característico knee hook, que llegó luego de conectar de manera excelente un derribo, para proceder a someterlo, consiguiendo su cuarta sumisión por esta vía en la UFC. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
