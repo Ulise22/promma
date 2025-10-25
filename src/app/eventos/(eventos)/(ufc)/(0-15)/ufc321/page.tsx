@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: 'UFC 321: ¡Tom Aspinall vs Ciryl Gane!',
     description: "",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc321.74476cd3.webp&w=828&q=65',
         title: 'UFC 321: ¡Tom Aspinall vs Ciryl Gane!',
         description: "",
         url: 'https://fullmma.org/eventos/ufc321'
