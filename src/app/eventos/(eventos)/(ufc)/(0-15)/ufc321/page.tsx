@@ -41,6 +41,8 @@ export default function UFC321 () {
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2>Mizuki Derrota a Jaqueline Amorim en un Peleón</h2>
                     <p>Espectacular pelea para abrir la cartelera la que acabamos de presenciar, con la japonesa <b>Mizuki</b>, siendo quien finalmente se lleva la victoria. Luego de un primer asalto bastante cerrado, en el que la vencedora fue de menos a más, en el segundo y tercer round de la pelea fue Mizuki quien se impuso claramente ante su rival brasileña <b>Jaqueline Amorim</b>, mostrando una superioridad en el striking notable, y castigando en el ground and pound para finalmente llevarse la victoria por decisión unánime. </p>
+                    <h2>Mitch Raposo Derrota a Azat Maksum por Decisión Unánime</h2>
+                    <p>Gran victoria por parte de Mitch Raposo que fue capaz de llevarse la victoria por decisión unánime, en un combate que fue bastante equilibrado por parte de ambos luchadores, con Maksum conectando varios derribos en los que Raposo era capaz de ponerse de pie rapidamente. Finalmente un elemento importante para la victoria del estadounidense, fue la deducción de un punto a su rival kazajo <b>Azat Maksum</b>, quien para ponerse de pie se sujeto de la reja, lo cual esta prohibido. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
