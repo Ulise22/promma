@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function UFC321 () {
     return(
         <main>
-            <ArticleHero title="UFC 321: ¡Tom Aspinall vs Ciryl Gane! ¡Virna Jandiroba vs Mackenzie Dern!" subtitle='¡Umar Nurmagomedov Derrota Mario Bautista por Decisión Unánime en una Victoria Dominante! ¡Alexander Volkov Derrota a Jailton Almeida por Decisión Dividida!' image={hero} date='2025-10-25' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 321: ¡Tom Aspinall vs Ciryl Gane! ¡Mackenzie Dern Derrota a Virna Jandiroba y es Nueva Campeona!" subtitle='¡Umar Nurmagomedov Derrota Mario Bautista por Decisión Unánime en una Victoria Dominante! ¡Alexander Volkov Derrota a Jailton Almeida por Decisión Dividida!' image={hero} date='2025-10-25' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -71,6 +71,8 @@ export default function UFC321 () {
                     <p>En una controvertida decisión, quien termina llevándose la pelea es el ruso <b>Alexander Volkov</b>, quien claramente había ganado el primer asalto del combate, pero que debatiblemente había perdido los siguientes 2 asaltos, luego de ser derribado y controlado en el suelo por su rival brasileño <b>Jailton Almeida</b>. Más allá de los que piense yo, el ganador a los ojos de 2 de los 3 jueces, es Alexander Volkov por decisión dividida. </p>
                     <h2>Umar Nurmagomedov Derrota a Mario Bautista Por Decisión Unánime</h2>
                     <p>Espectacular victoria para <Link href='/peleadores/umar-nurmagomedov'>Umar Nurmagomedov</Link>, quien desmostró que si ocupa un lugar tan alto en los rankings de peso gallo es por algo, habiendo dominado completamente a su rival durante los 3 asaltos, ganando todos ellos, luego de saber combinar su muy buen striking con derribos y algo de lucha para dejar a Mario Bautista sin saber que esperar exactamente. Luego de lo hecho hoy, existe la posibilidad de que el ruso se haya ganada la oportunidad de una revancha contra el actual campeón <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link>, en caso de no ser así, seguramente sólo esté a una victoria más de volver a pelear por el título. </p>
+                    <h2>Mackenzie Dern Derrota a Virna Jandiroba por Decisión Unánime y es Nueva Campeona de UFC</h2>
+                    <p>La brasileña, y hasta hace unos momentos #5 de la división de peso paja femenino, <Link href='/mujeres/mackenzie-dern'>Mackenzie Dern</Link>, luego de una actuación brillante por su parte, se convierte en la nueva campeona de la división femenina de la UFC. Teniendo un desempeño sumamente destacado, especialmente en lo que refiere al striking, manejando mejor la distancia que su rival, y siendo capaz de conectar golpes durísimos incluso cuando era derribada y terminaba con la espalda en el suelo, ganando desde mi punto de vista, 4 de los 5 asaltos (aunque pueden ser 3 también). </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
