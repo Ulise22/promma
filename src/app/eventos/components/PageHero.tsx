@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc320 from '@/assets/eventos/ufc/0-150/0-15/ufc320.webp'
+import ufc321 from '@/assets/eventos/ufc/0-150/0-15/ufc321.webp'
 import oliveiraGamrot from '@/assets/eventos/fight-night/0-150/0-15/oliveira-vs-gamrot.webp'
 import deridderAllen from '@/assets/eventos/fight-night/0-150/0-15/deridder-allen.webp'
 
 export default function PageHero () {
     return(
         <section className={styles.pagehero}>
-            <Link className={styles.pagehero__bigArticle} href='/eventos/ufc320'>
-                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc320} alt='' />
-                <h2 className={styles.page__title}>UFC 320: ¡Alex Pereira Noquea a Magomed Ankalaev en el Primer Asalto y Vuelve a Ser Campeón! ¡Merab Dvalishvili Derrota a Cory Sandhagen y Sigue Siendo Campeón!</h2>
-                <p>¡Jiri Prochazka Noquea a Khalil Rountree en el Tercer Asalto en La Pelea de la Noche! ¡Youssef Zalal Somete a Josh Emmet en el Primer Asalto de la Pelea!</p>
+            <Link className={styles.pagehero__bigArticle} href='/eventos/ufc321'>
+                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc321} alt='' />
+                <h2 className={styles.page__title}>UFC 321: ¡Tom Aspinall vs Ciryl Gane! ¡Virna Jandiroba vs Mackenzie Dern!</h2>
+                <p>¡Umar Nurmagomedov vs Mario Bautista! ¡Alexander Volkov vs Jailton Almeida!</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-deridder-allen'>
                 <Image className={styles.pagehero__article__img} quality={50} src={deridderAllen} alt='' />
