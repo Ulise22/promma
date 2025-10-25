@@ -61,12 +61,12 @@ export default function UFC321 () {
                     </Link>
                     <h2></h2>
                     <p></p> */}
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
                     </Link>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2>Azamat Murzakanov Noquea a Aleksandar Rakic en el Primer Asalto</h2>
+                    <p>Espectacular victoria del ruso <b>Azamat Murzakanov</b>, quien en el primer asalto fue capaz de noquear al #7 de la división <b>Aleksandar Rakic</b>, tan sólo con un jab, que una vez impactó en la cabeza de su oponente, le hizo caer al suelo inmediatamente, necesitando sólo de un golpes más para que el árbitro los separara y diera como ganadro a Murzakanov por TKO en el primer asalto. De esta manera, el luchador ruso mantiene y extiende su récord invicto a 16-0, escalando además, al top 10 de la división de peso semipesado. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
