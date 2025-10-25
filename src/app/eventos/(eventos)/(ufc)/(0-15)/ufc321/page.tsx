@@ -45,6 +45,8 @@ export default function UFC321 () {
                     <p>Gran victoria por parte de Mitch Raposo que fue capaz de llevarse la victoria por decisión unánime, en un combate que fue bastante equilibrado por parte de ambos luchadores, con Maksum conectando varios derribos en los que Raposo era capaz de ponerse de pie rapidamente. Finalmente un elemento importante para la victoria del estadounidense, fue la deducción de un punto a su rival kazajo <b>Azat Maksum</b>, quien para ponerse de pie se sujeto de la reja, lo cual esta prohibido. </p>
                     <h2>Hamdy Abdelwahab Derrota a Chris Barnett Por Decisión Unánime</h2>
                     <p>Gran victoria para el luchador egipcio <b>Hamdy Abdelwahab</b>, quien destruyó completamente a su rival español <b>Chris Barnett</b>, golpeando desde todos lados, con un diferencial de golpes que debe superar los 100, y todo esto a pesar de que se le descontó un punto en el primer asalto, por darle un codazo ilegal atrás de la cabeza su rival. </p>
+                    <h2>Nathaniel Wood Derrota a Jose Miguel Delgado por Decisión Unánime</h2>
+                    <p>Victoria para el luchador inglés <b>Nathaniel Wood</b>, quien finalmente luego de 3 asaltos se impuso por sobre su rival mexicano <b>José Miguel Delgado</b>, por decisión unánime, pese a partir como el menos favorito en las apuestas, logrando hacer la diferencia especialmente en los últimos 2 asaltos. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
