@@ -11,7 +11,7 @@ export default function PageHero () {
         <section className={styles.pagehero}>
             <Link className={styles.pagehero__bigArticle} href='/eventos/ufc321'>
                 <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc321} alt='' />
-                <h2 className={styles.page__title}>UFC 321: ¡Tom Aspinall vs Ciryl Gane! ¡Virna Jandiroba vs Mackenzie Dern!</h2>
+                <h2 className={styles.page__title}>UFC 321: ¡La pelea entre Tom Aspinall y Ciryl Gane Termina Sin Resultado por un Piquete De Ojo y Aspinall Sigue Siendo Campeón! ¡Mackenzie Dern Derrota a Virna Jandiroba y es Nueva Campeona!</h2>
                 <p>¡Umar Nurmagomedov Derrota Mario Bautista por Decisión Unánime en una Victoria Dominante! ¡Alexander Volkov Derrota a Jailton Almeida por Decisión Dividida!</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-deridder-allen'>
