@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Usman () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={usman} w={20} l={4} d={0} nombre='Kamaru Usman' apodo='NIGERIAN NIGHTMARE' categoria='Peso Welter' />
+            <PeleadoresHero peleadoresImage={usman} w={21} l={4} d={0} nombre='Kamaru Usman' apodo='NIGERIAN NIGHTMARE' categoria='Peso Welter' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Usman UFC</h2>
@@ -29,7 +29,7 @@ export default function Usman () {
                     <p className={styles.peleador__article__text}>Es una auténtica leyenda de la división de las 170lbs, con victorias y actuaciones dominantes de todo tipo, siendo de los campeones con más defensas que ha habido en peso wélter, supo ser un campeón de época en su momento y es aún con su veteranía, un peligro para cualquier luchador que le quiera hacer frente. </p>
                     <p className={styles.peleador__article__text}>Haría historia en la compañía al convertirse en campeón de la división al derrotar por decisión unánime al entonces campeón <b>Tyron Woodley</b> el 2 de marzo de 2019, convirtiéndose desde entonces en uno de los campeones más dominantes de la década. </p>
                     <h2 className={styles.peleador__article__title}>Kamaru Usman Récord</h2>
-                    <p className={styles.peleador__article__text}>Kamaru Usman tiene un record profesional de MMA de 20-4. Siendo 9 de sus 20 victorias por la vía del nocaut, 1 por sumisión y 10 por decisión. Mientras que de sus 4 derrotas, 1 fue por sumisión, 1 por la vía del nocaut y 2 por decisión. </p>
+                    <p className={styles.peleador__article__text}>Kamaru Usman tiene un record profesional de MMA de 21-4. Siendo 9 de sus 21 victorias por la vía del nocaut, 1 por sumisión y 11 por decisión. Mientras que de sus 4 derrotas, 1 fue por sumisión, 1 por la vía del nocaut y 2 por decisión. </p>
                     <h2 className={styles.peleador__article__title}>Kamaru Usman Historia</h2>
                     <p className={styles.peleador__article__text}>Kamaru Usman nació el 11 de mayo de 1987 en la ciudad de Benín, Nigeria. Tanto él como su familia se mudaron a los Estados Unidos cuando Usman tenía tan sólo 5 años. En su adolescencia, Kamaru comenzó a practicar Wrestling en la escuela secundaria a la que asistía, llegando a acumular un récord de 56-0, tanto en su escuela secundaria como posteriormente en su universidad, Usman se labraría una carrera exitosa en el wrestling. </p>
                     <p className={styles.peleador__article__text}>Esto en el futuro le terminaría abriendo las puertas a competir en MMA, donde haría su debut profesional el día 30 de noviembre de 2012, con 25 años, enfrentando al estadounidense <b>David Glover</b> a quien derrotaría por TKO en el segundo asalto. </p>

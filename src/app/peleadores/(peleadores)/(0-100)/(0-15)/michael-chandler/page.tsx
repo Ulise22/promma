@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Chandler () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={chandler} w={23} l={9} d={0} nombre='Michael Chandler' apodo='IRON' categoria='Peso Ligero' />
+            <PeleadoresHero peleadoresImage={chandler} w={23} l={10} d={0} nombre='Michael Chandler' apodo='IRON' categoria='Peso Ligero' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Chandler UFC</h2>
@@ -29,7 +29,7 @@ export default function Chandler () {
                     <p className={styles.peleador__article__text}>Michael Chandler es uno de esos peleadores que siempre cumple con lo que esperas ver de él, dado que nunca falla a la hora de entregar espectáculo en sus combates, independientemente de si gana o pierde dichas peleas, en parte esto es lo que hace que constantemente lo veamos peleando contra los tops de su división. </p>
                     <p className={styles.peleador__article__text}>Supo destacar en su carrera de MMA al haber sido 3 veces ganador del cinturón de peso ligero de <b>Bellator</b>, donde compitió la mayor parte de su carrera, enfrentando a históricos y grandes rivales como <b>Eddie Alvarez</b> o <b>Benson Henderson</b>. Además, tuvo la oportunidad de disputar el campeonato de la UFC en una ocasión, enfrentando a <Link href='/peleadores/charles-oliveira'>Charles Oliveira</Link>, el día 15 de mayo de 2021 en el UFC 262, aunque terminaría por caer derrotado por TKO en el segundo asalto. </p>
                     <h2 className={styles.peleador__article__title}>Michael Chandler Récord</h2>
-                    <p className={styles.peleador__article__text}>Actualmente Michael Chandler tiene un record de 23-9. De sus 23 victorias, 11 fueron por la vía del nocaut, 7 por sumisión y 5 por decisión. Mientras que de sus 8 derrotas, 4 fueron por la vía del nocaut, 4 por decisión y sólo 1 una por sumisión.</p>
+                    <p className={styles.peleador__article__text}>Actualmente Michael Chandler tiene un record de 23-9. De sus 23 victorias, 11 fueron por la vía del nocaut, 7 por sumisión y 5 por decisión. Mientras que de sus 10 derrotas, 5 fueron por la vía del nocaut, 4 por decisión y sólo 1 una por sumisión.</p>
                     <h2 className={styles.peleador__article__title}>Michael Chandler Historia</h2>
                     <p className={styles.peleador__article__text}>Michael Chandler Jr. nació el 24 de abril de 1986 en Nashville, Estados Unidos. Es el segundo de 4 hermanos e hijo de Michael Chandler Sr. y de Betty Chandler. Durante su adolescencia peleó como luchador y terminó segundo en el Campeonato de escuelas secundarias del Estado de Misuri.</p>
                     <p className={styles.peleador__article__text}>Luego de graduarse en 2004, Chandler entró a la Universidad de Misuri, donde se unió al equipo de wrestling. Chandler clasificó cuatro veces a la NCAA, consiguiendo 100 victorias en su carrera. Una vez terminada su carrera de wrestling, Michael Chandler comenzó a entrenar MMA por influencia de sus 2 amigos <b>Tyron Woodley</b>, quien luego se convertiría en campeón de peso wélter en la UFC, y <b>Ben Askren</b>, quien se convertiría en campeón de peso wélter en Bellator y ONE Championship. Comenzando a competir de forma profesional el 7 de febrero de 2009, al enfrentar a <b>Josh Flowers</b>, a quien conseguiría derrotar por TKO en el primer asalto. </p>
