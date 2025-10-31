@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function ZhangWeili () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={weili} w={26} l={3} d={0} nombre='Zhang Weili' apodo='MAGNUM' categoria='Peso Paja Femenino' />
+            <PeleadoresHero peleadoresImage={weili} w={26} l={3} d={0} nombre='Zhang Weili' apodo='MAGNUM' categoria='Peso Paja Femenino' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Zhang Weili UFC</h2>
@@ -52,7 +52,7 @@ export default function ZhangWeili () {
                     <p className={styles.peleador__article__text}>Zhang Weili participaría en la pelea coestelar del <Link href='/covertura-ufc/ufc300-main-event'>UFC 300</Link>, organizado el 13 de abril de 2024, en donde debería enfrentar a su compatriota <Link href='/mujeres/yan-xiaonan'>Yan Xiaonan</Link>, en lo que fue una pelea disputada pero en donde finalmente nuestra protagonista pudo imponerse por sobre su contrincante, llevándose la victoria por decisión unánime. </p>
                     <EndArticle />
                 </article>
-                <AsideFighter />
+                {/* <AsideFighter /> */}
             </section>
         </main>
     )

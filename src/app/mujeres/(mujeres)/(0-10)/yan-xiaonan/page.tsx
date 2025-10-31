@@ -19,13 +19,13 @@ export const metadata: Metadata = {
 export default function YanXiaonan () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={xiaonan} w={17} l={4} d={0} nombre='Yan Xiaonan' apodo={null} categoria='Peso Paja Femenino' />
+            <PeleadoresHero peleadoresImage={xiaonan} w={19} l={5} d={0} nombre='Yan Xiaonan' apodo={null} categoria='Peso Paja Femenino' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Yan Xiaonan UFC</h2>
                     <p className={styles.peleador__article__text}>Yan Xiaonan es una peleadora china que compite en la <Link href='/articulos/ufc'>UFC</Link> desde noviembre de 2017, cuando enfrentaría a la estadounidense <b>Kailin Curran</b> en el <b>UFC Fight Night: Bisping vs. Gastelum</b>, donde luego de 3 asaltos sería capaz de llevarse la pelea por decisión unánime.</p>
                     <h2 className={styles.peleador__article__title}>Yan Xiaonan Récord</h2>
-                    <p className={styles.peleador__article__text}>Yan Xiaonan sostiene un récord de 17-4 (1). Siendo 8 de sus 17 victorias por la vía del nocaut y 9 fueron por decisión. Mientras que sus 4 derrotas se dividen en 1 por nocaut, 1 por sumisión y 2 por decisión. Además, uno de sus combates terminó sin resultado por un corte accidental, producto de un choque de cabezas que no permitió a su rival, la japonesa <b>Emi Fujino</b>, continuar con la pelea.</p>
+                    <p className={styles.peleador__article__text}>Yan Xiaonan sostiene un récord de 19-5 (1). Siendo 8 de sus 17 victorias por la vía del nocaut, 1 por sumisión y 10 fueron por decisión. Mientras que sus 4 derrotas se dividen en 1 por nocaut, 1 por sumisión y 3 por decisión. Además, uno de sus combates terminó sin resultado por un corte accidental, producto de un choque de cabezas que no permitió a su rival, la japonesa <b>Emi Fujino</b>, continuar con la pelea.</p>
                     <h2 className={styles.peleador__article__title}>Yan Xiaonan Historia</h2>
                     <p className={styles.peleador__article__text}>Yan Xiaonan, nació nació el 16 de junio de 1989 en la ciudad de Sehnyang, capital de la provincia china Lianong. Comenzó a entrenarse en Sanda, que es como un estilo de kickboxing chino, siguiendo con la practica de esta arte marcial durante gran parte de sus años universitarios en la Universidad Deportiva de Xi&apos;an. En aquella universidad conoció a su entrenador Zhao Xuejun, quien la introdujo en un programa de MMA en 2009.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/TZnh7Z7QNDo?si=p6aDxDry5kpL8E-3" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen></iframe>
@@ -42,7 +42,7 @@ export default function YanXiaonan () {
                     <p className={styles.peleador__article__text}>Luego de aquella meritoria victoria, se ganaría la oportunidad de por fin disputar el cinturón de la división, que ostentaba su compatriota <Link href='/mujeres/zhang-weili'>Zhang Weili</Link>. Dicho combate tendría lugar el día 13 de abril de 2024, en lo que sería la pelea coestelar del histórico <Link href='/covertura-ufc/ufc300-main-event'>UFC 300</Link>, aunque lamentablemente para nuestra protagonista, luego de 5 asaltos en lo que fue una digna actuación por parte Xiaonan, caería derrotada por decisión unánime. </p>
                     <EndArticle />
                 </article>
-                <AsideFighter />
+                {/* <AsideFighter /> */}
             </section>
         </main>
     )

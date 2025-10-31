@@ -21,13 +21,13 @@ export const metadata: Metadata = {
 export default function AlexaGrasso () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={grasso} w={16} l={4} d={1} nombre='Alexa Grasso' apodo={null} categoria='Peso Mosca Femenino' />
+            <PeleadoresHero peleadoresImage={grasso} w={16} l={5} d={1} nombre='Alexa Grasso' apodo={null} categoria='Peso Mosca Femenino' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Alexa UFC</h2>
                     <p className={styles.peleador__article__text}>Alexa Grasso es una peleadora mexicana de mma que compite en la <Link href='/articulos/ufc'>UFC</Link> desde noviembre de 2016, cuando haría su debut oficial enfrentando a la estadounidense <b>Heather Jo Clark</b>, a quien venció por decisión unánime. Destacó en la compañía al volverse campeona de Peso Mosca Femenino de la UFC cuando derrotó a la histórica <Link href='/mujeres/valentina-shevchenko'>Valentina Shevchenvo</Link> en marzo de 2023 con una sumisión en el cuarto asalto en el UFC 285 de Las Vegas.</p>
                     <h2 className={styles.peleador__article__title}>Alexa Grasso Récord</h2>
-                    <p className={styles.peleador__article__text}>Alexa Grasso tiene un record de 16-4-1. Siendo 4 de sus victorias por la vía del nocaut, 2 por sumisión y 10 por decisión. Mientras que sus 4 derrotas se componen de 1 por sumisión y de 3 por decisión. Su único empate fue en diciembre de 2023 contra <Link href='/mujeres/valentina-shevchenko'>Valentina Shevchenko</Link>.</p>
+                    <p className={styles.peleador__article__text}>Alexa Grasso tiene un record de 16-5-1. Siendo 4 de sus victorias por la vía del nocaut, 2 por sumisión y 10 por decisión. Mientras que sus 5 derrotas se componen de 1 por sumisión y de 4 por decisión. Su único empate fue en diciembre de 2023 contra <Link href='/mujeres/valentina-shevchenko'>Valentina Shevchenko</Link>.</p>
                     <h2 className={styles.peleador__article__title}>Alexa Grasso Biografía</h2>
                     <p className={styles.peleador__article__text}>Karen Alexa Grasso Montes, nació el 9 de agosto de 1993 en la ciudad mexicana de Guadalajara, en el Estado de Jalisco. Quienes la inspiraron a entrenar fueron su padre y su tío, a quien solía ver mientras entrenaba y daba clases en el gimnasio que les pertenecía a ambos. Alexa aprendió a hacer shadow boxing gracias a su padre y comenzó a tomar clases con su tío Francisco, al mismo tiempo cuando estos abrieron su gimnasio, nuestra protagonista los ayudó en la recepción, en la limpieza y en todo lo que pudo para estar involucrada en lo que se convertiría en un negocio familiar. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/Xeja8Ygq5CI?si=HNYIs87AyEWlfEx3" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
@@ -47,7 +47,7 @@ export default function AlexaGrasso () {
                     <p className={styles.peleador__article__text}>Finalmente se volverían a ver de nuevo el 14 de septiembre de 2024, de nuevo, por la proximidad de las fechas, con motivo de la celebración del Día de la Independencia de México, en un evento organizado en <b>La Esfera</b> de Las Vegas, en el <Link href='/covertura-ufc/ufc306'>UFC Noche</Link>. Ambas luchadoras protagonizarían la pelea coestelar del evento, y aquella noche la pelea volvería a extenderse a los 5 asaltos, aunque esta vez con una Valentina Shevchenko siendo una dominadora más clara del combate, llevándose la pelea por decisión unánime, arrebatándole lamentablemente para nuestra protagonista, el cinturón de las 125lbs. </p>
                     <EndArticle />
                 </article>
-                <AsideFighter />
+                {/* <AsideFighter /> */}
             </section>
         </main>
     )

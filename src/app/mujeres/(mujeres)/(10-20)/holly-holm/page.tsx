@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function HollyHolm () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={holly} w={15} l={7} d={0} nombre='Holly Holm' apodo='The Preacher&apos;s Daughter' categoria='Peso Gallo Femenino' />
+            <PeleadoresHero peleadoresImage={holly} w={15} l={7} d={0} nombre='Holly Holm' apodo='The Preacher&apos;s Daughter' categoria='Peso Gallo Femenino' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Holly Holm UFC</h2>
@@ -47,7 +47,7 @@ export default function HollyHolm () {
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/NT1SzkBIu0U?si=XNsNbucAORfBou17" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <EndArticle />
                 </article>
-                <AsideChamps />
+                {/* <AsideChamps /> */}
             </section>
         </main>
     )

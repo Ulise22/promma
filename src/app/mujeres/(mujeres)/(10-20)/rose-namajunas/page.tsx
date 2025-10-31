@@ -20,13 +20,13 @@ export const metadata: Metadata = {
 export default function RoseNamajunas () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={rose} w={13} l={7} d={0} nombre='Rose Namajunas' apodo='Thug Rose' categoria='Peso Mosca Femenino' />
+            <PeleadoresHero peleadoresImage={rose} w={14} l={7} d={0} nombre='Rose Namajunas' apodo='Thug Rose' categoria='Peso Mosca Femenino' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Rose Namajunas UFC</h2>
                     <p className={styles.peleador__article__text}>Rose Namajunas es una peleadora estadounidense que compite en la <Link href='/articulos/ufc'>UFC</Link> desde diciembre de 2014, cuando participaría en la final de <b>The Ultimate Fighter</b> en la final contra la luchadora <b>Carla Esparza</b>. Rose supó ser campeona de la compañía en 2 oportunidades, ambas ocasiones en la división de Peso Paja Femenino, primero cuando derrotaría a la polaca <b>Joanna Jędrzejczyk</b> por TKO en el primer asalto en 2017, y la segunda vez cuando luego de perder su cinturón lo recuperaría al enfrentar a la china <Link href='/mujeres/zhang-weili'>Weili Zhang</Link>, a quien derrotaría por KO en el primer asalto en abril de 2021.</p>
                     <h2 className={styles.peleador__article__title}>Rose Namajunas Récord</h2>
-                    <p className={styles.peleador__article__text}>Rose Namajunas posee un récord profesional de 13-7. Siendo 2 de sus victorias por la vía del nocaut, 5 por la vía de la sumisión y 6 por decisión. Mientras que de sus 7 derrotas, 1 fue por nocaut, 1 por sumisión, y 5 por decisión.</p>
+                    <p className={styles.peleador__article__text}>Rose Namajunas posee un récord profesional de 14-7. Siendo 2 de sus victorias por la vía del nocaut, 5 por la vía de la sumisión y 7 por decisión. Mientras que de sus 7 derrotas, 1 fue por nocaut, 1 por sumisión, y 5 por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Rose Namajunas Biografía</h2>
                     <p className={styles.peleador__article__text}>Rose Gertrude Namajunas nació el 29 de junio de 1992 en Estados Unidos, en la ciudad de Milwaukee, ubicada en el estado de Wisconsin. Rose tuvo una infancia complicada, siendo hija de un padre que padecía esquizofrenia y que abandonó a su familia cuando Namajunas aún era joven, falleciendo de neumonía en Alemania en 2008, cuando nuestra protagonista tenía 16 años. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/ZlJsPPdpsaY?si=NeLufFEg6a1vjkxm" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
@@ -45,7 +45,7 @@ export default function RoseNamajunas () {
                     <p className={styles.peleador__article__text}>El 2 de noviembre de ese mismo 2024 se enfrentaría a su compatriota <b>Erin Blanchfield</b>, en una pelea a 5 asaltos en el evento coestelar de UFC organizado en Canadá. Lamentablemente para nuestra protagonista, en lo que sería la tercer pelea del año, caería derrotada por decisión unánime ante su rival, a pesar de haber ganado 2 de los 5 asaltos a los ojos de los jueces. </p>
                     <EndArticle />
                 </article>
-                <AsideChamps />
+                {/* <AsideChamps /> */}
             </section>
         </main>
     )

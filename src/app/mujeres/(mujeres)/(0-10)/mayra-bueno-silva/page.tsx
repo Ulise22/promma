@@ -21,13 +21,13 @@ export const metadata: Metadata = {
 export default function Mayra () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={mayra} w={10} l={4} d={1} nombre='Mayra Bueno Silva' apodo='SHEETARA' categoria='Peso Gallo Femenino' />
+            <PeleadoresHero peleadoresImage={mayra} w={10} l={5} d={1} nombre='Mayra Bueno Silva' apodo='SHEETARA' categoria='Peso Gallo Femenino'  time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Mayra Bueno Silva UFC</h2>
                     <p className={styles.peleador__article__text}>Mayra Bueno Silva es una luchadora brasileña que compite en la división de peso gallo de la <Link href='/articulos/ufc'>UFC</Link> desde que hizo su debut en septiembre de 2018, cuando se enfrentaría a la canadiense <b>Gillian Robertson</b> en un evento de UFC organizado en Brasil. </p>
                     <h2 className={styles.peleador__article__title}>Mayra Bueno Silva Récord</h2>
-                    <p className={styles.peleador__article__text}>Actualmente Mayra cuenta con un récord de 10-4-1-(1), siendo 1 de sus victorias por la vía del nocaut, 7 por sumisión y 2 por decisión. Mientras que 1 de sus derrotas fue por la vía del nocaut y 3 fueron por decisión. Su único empate fue contra la estadounidense <b>Montana De La Rosa</b>, combate en el que a Mayra se le descontó un punto en el primer asalto por agarrarse a la valla.</p>
+                    <p className={styles.peleador__article__text}>Actualmente Mayra cuenta con un récord de 10-5-1-(1), siendo 1 de sus victorias por la vía del nocaut, 7 por sumisión y 2 por decisión. Mientras que 1 de sus derrotas fue por la vía del nocaut y 4 fueron por decisión. Su único empate fue contra la estadounidense <b>Montana De La Rosa</b>, combate en el que a Mayra se le descontó un punto en el primer asalto por agarrarse a la valla.</p>
                     <h3>Mayra Bueno Silva da positivo en doping</h3>
                     <p className={styles.peleador__article__text}>Finalmente, su combate contra la americana <Link href='/mujeres/holly-holm'>Holly Holm</Link> en julio de 2023, había terminado originalmente en una victoria por sumisión en el segundo asalto para Mayra Bueno Silva, pero el resultado se vió anulado luego de que La Comisión Atlética de Nevada (NAC) decidiera sancionar a la peleadora por dar positivo de ácido ritalínico en las pruebas presentadas antes de la pelea.</p>
                     <p className={styles.peleador__article__text}>Sin embargo Mayra explica que esta sustancia se encuentra presente en los medicamentos para tratar el trastorno por déficit de atención e hiperactividad (TDAH), medicamentos que Mayra venía tomando desde hace 3 años, según ella explica: &quot;Dejé de tomar el medicamento el lunes de la semana de la pelea. He hecho esto muchas veces y esta vez no sé qué ha pasado. Paré el lunes. Esta medicación no es dopaje, pero puedo tomarla fuera de competición y siempre la dejo el lunes. No sé qué ha pasado&quot;.</p>
@@ -47,7 +47,7 @@ export default function Mayra () {
                     <p className={styles.peleador__article__text}>La brasileña volvería a pelear el 29 de junio de ese mismo año en el <Link href='/covertura-ufc/ufc303'>UFC 303</Link>, para enfrentar a la luchadora americana <b>Macy Chiasson</b>, contra quien lamentablemente volvería a caer derrotada por TKO, luego de que un corte en la ceja llevara a los médicos a parar la pelea en el segundo asalto del combate. </p>
                     <EndArticle />
                 </article>
-                <AsideFighter />
+                {/* <AsideFighter /> */}
             </section>
         </main>
     )

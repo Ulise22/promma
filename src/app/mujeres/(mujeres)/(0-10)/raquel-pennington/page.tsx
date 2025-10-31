@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function Raquel () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={raquel} w={16} l={10} d={0} nombre='Raquel Pennington' apodo='ROCKY' categoria='Peso Gallo Femenino' />
+            <PeleadoresHero peleadoresImage={raquel} w={16} l={10} d={0} nombre='Raquel Pennington' apodo='ROCKY' categoria='Peso Gallo Femenino' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Raquel Pennington UFC</h2>  
@@ -49,7 +49,7 @@ export default function Raquel () {
                     <p className={styles.peleador__article__text}>Se programaría la primera defensa del título de la estadounidense para el 5 de octubre de 2024 en el <Link href='/covertura-ufc/ufc307'>UFC 307</Link>, ante la excampeona y #1 del ranking, <Link href='/mujeres/julianna-pena'>Julianna Peña</Link>, quien había peleado por última vez en 2022, perdiendo ante Amanda Nunes. Finalmente el combate se extendería hasta los 5 asaltos, y cuando llegó a la decisión de los jueces, dieron como ganadaro a Julianna Peña por decisión dividida, en lo que fue una pelea cerrada que terminó con la perdida del cinturón de nuestra protagonista, y en la primera derrota en UFC desde enero de 2020. </p>
                     <EndArticle />
                 </article>
-                <AsideFighter />
+                {/* <AsideFighter /> */}
             </section>
         </main>
     )

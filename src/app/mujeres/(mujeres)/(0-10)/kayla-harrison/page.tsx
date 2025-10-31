@@ -20,13 +20,13 @@ export const metadata: Metadata = {
 export default function Harrison () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={harrison} w={18} l={1} d={0} nombre='Kayla Harrinson' apodo={null} categoria='Peso Gallo Femenino' />
+            <PeleadoresHero peleadoresImage={harrison} w={19} l={1} d={0} nombre='Kayla Harrison' apodo={null} categoria='Peso Gallo Femenino' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Kayla Harrinson UFC</h2>
                     <p className={styles.peleador__article__text}>Kayla Harrison es una peleadora estadounidense de UFC que hizo su debut el 13 de abril de 2024 en el <Link href='/covertura-ufc/ufc300-main-event'>UFC 300</Link>. Tan sólo con una pelea, debido a su éxitosa trayectoria previa en <b>PFL</b> y a la cálidad del rival al que enfrentó en su primer combate, le bastó para posicionarse como la número #4 en la división de peso gallo femenino de UFC desde el 16 de abril.</p>
                     <h2 className={styles.peleador__article__title}>Kayla Harrison Récord</h2>
-                    <p className={styles.peleador__article__text}>Kayla Harrison posee un récord de 18-1. Siendo 6 de sus 18 victorias por la vía del nocaut, 7 por sumisión y 5 por decisión. Mientras que sólo perdió una pelea en toda su carrera por decisión, al enfrentar a la brasileña <b>Larissa Pacheco</b> en la final del Torneo de Peso Ligero Femenino de PFL de 2022. </p>
+                    <p className={styles.peleador__article__text}>Kayla Harrison posee un récord de 19-1. Siendo 6 de sus 19 victorias por la vía del nocaut, 8 por sumisión y 5 por decisión. Mientras que sólo perdió una pelea en toda su carrera por decisión, al enfrentar a la brasileña <b>Larissa Pacheco</b> en la final del Torneo de Peso Ligero Femenino de PFL de 2022. </p>
                     <h2 className={styles.peleador__article__title}>Kayla Harrison Historia</h2>
                     <p className={styles.peleador__article__text}>Kayla Harrison nació el 2 de julio de 1990 en la ciudad de Middletown, ubicada en el estado americano de Ohio. Con tan sólo 6 años comenzó a practicar judo, siendo introducida por su madre, quien era cinturón negro. Con 15 años ganó dos campeonatos nacionales y se mudó a Boston, para entrenar con un tal Jimmy Pedro y su padre.</p>
                     <p className={styles.peleador__article__text}>En cuanto a Judo respecta, Kayla supo hacerse de un amplio palmarés, habiendo competido en los Juegos Olímpicos de Verano en los años 2012 y 2016, donde obtendría 2 medallas doradas. Además de competir en los Juegos Panamericanos en de los años 2011 y 2015, organizados en México y Canadá, respectivamente, donde también obtendría 2 medallas de oro. Compitió en el Campeonato Mundial de Judo entre los años 2010 y 2014, donde ganaría 3 medallas, la de oro en Japón 2010, y las de bronce en Francia 2011 y en Rusia 2014. Por último, compitiendo por el Campeonato Panamericano de Judo, ganaría 5 medallas, siendo la de bronce en las ediciones de 2010 y 2013; la de plata en la edición de Canadá en 2015; y la de oro en el año 2011 en México, y en el año 2016 en Cuba.</p>
@@ -45,7 +45,7 @@ export default function Harrison () {
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/7nYlLR7P6MM?si=4_mTaVzeR3lUROeF" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <EndArticle />
                 </article>
-                <AsideFighter />
+                {/* <AsideFighter /> */}
             </section>
         </main>
     )
