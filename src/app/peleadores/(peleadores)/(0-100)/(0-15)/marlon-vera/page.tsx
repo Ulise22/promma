@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function Chito () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={vera} w={23} l={11} d={1} nombre='Marlon Vera' apodo='CHITO' categoria='Peso Gallo' />
+            <PeleadoresHero peleadoresImage={vera} w={23} l={11} d={1} nombre='Marlon Vera' apodo='CHITO' categoria='Peso Gallo' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Chito Vera UFC</h2>

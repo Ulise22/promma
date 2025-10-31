@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function JonJones () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={jones} w={28} l={1} d={0} nombre='Jon Jones' apodo='BONES' categoria='PESO PESADO' />
+            <PeleadoresHero peleadoresImage={jones} w={28} l={1} d={0} nombre='Jon Jones' apodo='BONES' categoria='PESO PESADO'  time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Jon Jones UFC</h2>

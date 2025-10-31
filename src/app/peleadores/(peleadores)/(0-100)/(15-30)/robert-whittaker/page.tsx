@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Whittaker () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={26} l={8} d={0} nombre='Robert Whittaker' apodo='THE REAPER' categoria='Peso Medio' />
+            <PeleadoresHero peleadoresImage={fighter} w={26} l={9} d={0} nombre='Robert Whittaker' apodo='THE REAPER' categoria='Peso Medio' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Robert Whittaker UFC</h2>
@@ -30,7 +30,7 @@ export default function Whittaker () {
                     <p className={styles.peleador__article__text}>Supo ser campeón de la compañía en una ocasión, cuando se enfrentó al cubano <b>Yoel Romero</b> por el campeonato interino de la división, posteriormente, el entonces campeón <Link href='/leyendas/george-st-pierre'>George St-Pierre</Link> se retiraría, promoviendo a Whittaker a campeón indiscutido.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/6_2rrDbE_dA?si=x-tiq6EG_eznSKjv" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <h2 className={styles.peleador__article__title}>Robert Whittaker Récord</h2>
-                    <p className={styles.peleador__article__text}>Robert Whittaker posee un récord de 26-8. Siendo 10 de sus victorias por la vía del nocaut, 5 por sumisión y 11 por decisión. Mientras que de sus 7 derrotas, 3 fueron por la vía del nocaut, sólo 2 por sumisión y 3 por decisión.</p>
+                    <p className={styles.peleador__article__text}>Robert Whittaker posee un récord de 26-9. Siendo 10 de sus victorias por la vía del nocaut, 5 por sumisión y 11 por decisión. Mientras que de sus 9 derrotas, 3 fueron por la vía del nocaut, sólo 2 por sumisión y 4 por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Robert Whittaker Biografía</h2>
                     <p className={styles.peleador__article__text}>Robert John Whittaker nació el 20 de diciembre de 1990 en Nueva Zelanda, siendo su madre de este país y su padre un hombre australiano, se mudó de niño a Australia. Una vez allí, cuando tenía 7 años, su padre inscribió a su hijo Robert y a su hermano a una escuela de Karate, para inculcar en sus hijos el valor de la disciplina y la habilidad para defenderse.</p>
                     <p className={styles.peleador__article__text}>Luego de entrenar durante 8 años este arte marcial, y de ganar ambos hermanos el cinturón negro, su padre les ofreció probar otros deportes o abandonar completamente el karate. Mientras que su hermano eligió la segunda opción, Robert se inscribió en un gimnasio de <b>Hapkido</b>, un arte marcial coreana, a la vez que practicaba el que entonces era su deporte favorito, el rugby.</p>

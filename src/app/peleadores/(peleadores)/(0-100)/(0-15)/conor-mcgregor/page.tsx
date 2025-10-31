@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Mcgregor () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={conor} w={22} l={6} d={0} nombre='Conor Mcgregor' apodo='THE NOTORIOUS' categoria='Peso Ligero' />
+            <PeleadoresHero peleadoresImage={conor} w={22} l={6} d={0} nombre='Conor Mcgregor' apodo='THE NOTORIOUS' categoria='Peso Ligero' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>McGregor UFC</h2>

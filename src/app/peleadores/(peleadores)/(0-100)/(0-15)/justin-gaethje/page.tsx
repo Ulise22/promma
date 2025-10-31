@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Gaethje () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={gaethje} w={26} l={5} d={0} nombre='Justin Gaethje' apodo='THE HIGHLIGHT' categoria='Peso Ligero' />
+            <PeleadoresHero peleadoresImage={gaethje} w={26} l={5} d={0} nombre='Justin Gaethje' apodo='THE HIGHLIGHT' categoria='Peso Ligero' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Gaethje UFC</h2>

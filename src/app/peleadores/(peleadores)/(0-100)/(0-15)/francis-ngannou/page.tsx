@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 export default function Ngannou () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={ngannou} w={18} l={3} d={0} nombre='Francis Ngannou' categoria='Peso Pesado' apodo='THE PREDATOR' />
+            <PeleadoresHero peleadoresImage={ngannou} w={18} l={3} d={0} nombre='Francis Ngannou' categoria='Peso Pesado' apodo='THE PREDATOR' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Francis Ngannou MMA</h2>

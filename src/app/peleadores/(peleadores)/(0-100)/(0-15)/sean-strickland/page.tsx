@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function Strickland () {
     return(
         <main> 
-            <PeleadoresHero peleadoresImage={strickland} w={29} l={7} d={0} nombre='Sean Strickland' categoria='Peso Medio' apodo={null} />
+            <PeleadoresHero peleadoresImage={strickland} w={29} l={7} d={0} nombre='Sean Strickland' categoria='Peso Medio' apodo={null} time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Sean Strickland UFC</h2>

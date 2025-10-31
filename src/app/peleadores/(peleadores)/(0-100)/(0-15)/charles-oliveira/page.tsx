@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 export default function Oliveira () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={oliveira} w={36} l={11} d={0} nombre='Charles Oliveira' apodo='DO BRONXS' categoria='Peso Ligero' />
+            <PeleadoresHero peleadoresImage={oliveira} w={36} l={11} d={0} nombre='Charles Oliveira' apodo='DO BRONXS' categoria='Peso Ligero' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Charles Oliveira UFC</h2>

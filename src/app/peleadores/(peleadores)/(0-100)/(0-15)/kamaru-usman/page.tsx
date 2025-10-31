@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Usman () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={usman} w={21} l={4} d={0} nombre='Kamaru Usman' apodo='NIGERIAN NIGHTMARE' categoria='Peso Welter' />
+            <PeleadoresHero peleadoresImage={usman} w={21} l={4} d={0} nombre='Kamaru Usman' apodo='NIGERIAN NIGHTMARE' categoria='Peso Welter' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Usman UFC</h2>

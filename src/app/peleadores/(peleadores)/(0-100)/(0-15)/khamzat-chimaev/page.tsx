@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Khamzat () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={khamzat} w={15} l={0} d={0} nombre='Khamzat Chimaev' apodo='BORZ' categoria='Peso Medio' />
+            <PeleadoresHero peleadoresImage={khamzat} w={15} l={0} d={0} nombre='Khamzat Chimaev' apodo='BORZ' categoria='Peso Medio' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>UFC Chimaev</h2>

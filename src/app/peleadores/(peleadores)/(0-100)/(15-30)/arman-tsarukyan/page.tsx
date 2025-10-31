@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Tsarukyan () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={tsarukyan} w={22} l={3} d={0} nombre='Arman Tsarukyan' apodo='AHALKALAKETS' categoria='Peso Ligero' />
+            <PeleadoresHero peleadoresImage={tsarukyan} w={22} l={3} d={0} nombre='Arman Tsarukyan' apodo='AHALKALAKETS' categoria='Peso Ligero' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Arman Tsarukyan UFC</h2>

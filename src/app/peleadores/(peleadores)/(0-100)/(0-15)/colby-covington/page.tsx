@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Covington () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={colby} w={17} l={5} d={0} nombre='Colby Covington' apodo='CHAOS' categoria='Peso Welter' />
+            <PeleadoresHero peleadoresImage={colby} w={17} l={5} d={0} nombre='Colby Covington' apodo='CHAOS' categoria='Peso Welter' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Colby Covington UFC</h2>

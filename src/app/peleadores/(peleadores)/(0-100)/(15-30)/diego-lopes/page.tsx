@@ -21,14 +21,14 @@ export const metadata: Metadata = {
 export default function DiegoLopes () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={26} l={6} d={0} nombre='Diego Lopes' apodo={null} categoria='Peso Pluma' />
+            <PeleadoresHero peleadoresImage={fighter} w={27} l={7} d={0} nombre='Diego Lopes' apodo={null} categoria='Peso Pluma' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Diego Lopes UFC</h2>
                     <p className={styles.peleador__article__text}>Diego Lopes es un peleador nacido en Brasil y de ascendencia mexicana que compite en la división de peso pluma en la <Link href='/articulos/ufc'>UFC</Link>, desde que hiciera su debut en mayo de 2023 ante el ruso <b>Movsar Evloev</b>.</p>
                     <p className={styles.peleador__article__text}>Es de los mayores prospectos que se pueden encontrar en la división de peso pluma en la UFC en estos momentos, siendo un luchador muy completo que tanto en el striking como en la lucha sobresale por sobre los demás. Es probable que en el futuro terminemos viéndolo luchar por el título de la división, y quedará por ver de lo que es capaz el brasileño. </p>
                     <h2 className={styles.peleador__article__title}>Diego Lopes Récord</h2>
-                    <p className={styles.peleador__article__text}>Diego Lopes mantiene un récord profesional de 26-6. Siendo 10 de sus victorias por la vía del nocaut, 12 por la vía de la sumisión y 4 por decisión. Mientras que de sus 6 derrotas, 2 fueron por la vía del nocaut y 4 por decisión.</p>
+                    <p className={styles.peleador__article__text}>Diego Lopes mantiene un récord profesional de 27-7. Siendo 11 de sus victorias por la vía del nocaut, 12 por la vía de la sumisión y 4 por decisión. Mientras que de sus 7 derrotas, 2 fueron por la vía del nocaut y 5 por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Diego Lopes Biografía</h2>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/DYx_l2WdZ6Q?si=T8JRHIWrnuOFsSjG" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <p className={styles.peleador__article__text}>Diego Lopes da Silva nació el 20 de diciembre de 1994 en el Estado brasileño de Amazonas. Por influencia de su padre y de su hermano, a quien Diego considera sus héroes, comenzó a entrenar Jiu-Jitsu brasileño a la temprana edad de 5 años. </p>

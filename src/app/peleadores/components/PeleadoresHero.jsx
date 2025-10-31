@@ -1,7 +1,7 @@
 import styles from './PeleadoresHero.module.css'
 import Image from 'next/image'
 
-export default function PeleadoresHero ({peleadoresImage, w, l, d, nombre, categoria, apodo}) {
+export default function PeleadoresHero ({peleadoresImage, w, l, d, nombre, categoria, apodo, time}) {
     return(
         <section className={styles.hero}>
             <div className={styles.hero__container}>
@@ -9,6 +9,7 @@ export default function PeleadoresHero ({peleadoresImage, w, l, d, nombre, categ
                     <p className={styles.hero__p}> {categoria} </p>
                     <h1 className={styles.hero__name}> {nombre} </h1>
                     { apodo && <h4 className={styles.hero__nickname}>&quot;{apodo}&quot;</h4>}
+                    <time dataTime={time} />
                 </article>    
                 <article className={styles.record}>
                     <div className={styles.record__container}>

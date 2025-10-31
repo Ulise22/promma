@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Illia () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={topuria} w={16} l={0} d={0} nombre='Ilia Topuria' categoria='Peso pluma (featherweight)' apodo='El Matador' />
+            <PeleadoresHero peleadoresImage={topuria} w={17} l={0} d={0} nombre='Ilia Topuria' categoria='Peso pluma (featherweight)' apodo='El Matador' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Ilia Topuria ufc</h2>
@@ -29,7 +29,7 @@ export default function Illia () {
                     <p className={styles.peleador__article__text}>Su estilo de pelea ha ido evolucianando con el paso del tiempo, siendo un luchador que originalmente hacía un uso mayor de su lucha y de su suelo para sacar adelante sus peleas, poco a poco fue puliendo un estilo de boxeo que lo posiciona como uno de los mejores strikers que hay en la UFC en estos momentos. Con un poder de KO que muy pocos luchadores tienen, y con un estilo de pelea muy atractivo para los espectadores. </p>
                     <p className={styles.peleador__article__text}>Destacaría en la compañía especialmente el día 17 de febrero de 2024, cuando en el evento estelar de <Link href='/covertura-ufc/ufc298'>UFC 298</Link>, sería capaz de noquear en el segundo asalto a uno de los mejores peleadores de la historia de la división, como lo es <Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link>, convirtiéndose de esta manera en el nuevo campeón de la división de peso pluma de la UFC. </p>
                     <h2 className={styles.peleador__article__title}>Ilia Topuria Récord</h2>
-                    <p className={styles.peleador__article__text}>Ilia Topuria, a fecha de octubre de 2024, es el único campeón invicto que tiene la UFC con un récord de 16-0. Siendo 6 de sus victorias por nocaut, 8 por sumisión y tan sólo 2 por decisión. </p>
+                    <p className={styles.peleador__article__text}>Ilia Topuria es campeón invicto de la UFC con un récord de 17-0. Siendo 7 de sus victorias por nocaut, 8 por sumisión y tan sólo 2 por decisión. </p>
                     <h2 className={styles.peleador__article__title}>Ilia Topuria Historia</h2>
                     <p className={styles.peleador__article__text}>Ilia Topuria en la ciudad alemana de Halle, ubicada en el distrito de Gütersloh, aunque al ser hijos de padres georgianos heredó su nacionalidad y no recibió la nacionalidad alemana. A los 7 años se mudó al país de origen de sus padres, Georgia, donde comenzó a practicar lucha grecorromana en la escuela. A los 15 años, Ilia junto a su hermano Aleksandre, se fue a vivir al país que hoy en día trata como propio, España, concretamente a la ciudad de Alicante, donde comenzó a entrenar en el gimnasio <b>Climent Club</b>, que es manejado por 2 hermanos que también son inmigrantes, en este caso, provenientes de Argentina.</p>
                     <p className={styles.peleador__article__text}>Una vez radicado allí compite y gana el torneo amateur <b>Arnold Fighters</b>, organizado por el histórico culturista y estrella de hollywood, <b>Arnold Schwarzanegger</b>. Además gana el subcampeonato de Europa de Jiu-Jitsu Brasileño en la categoría Junior, deporte y arte marcial del cual es cinturón negro bajo la tutela de sus maestros <b>Agustín y Jorge Climent</b>.</p>

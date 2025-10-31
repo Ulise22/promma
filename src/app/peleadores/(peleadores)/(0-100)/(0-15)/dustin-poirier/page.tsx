@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Poirier () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={poirier} w={30} l={10} d={0} nombre='Dustin Poirier' apodo='THE DIAMOND' categoria='Peso Ligero' />
+            <PeleadoresHero peleadoresImage={poirier} w={30} l={10} d={0} nombre='Dustin Poirier' apodo='THE DIAMOND' categoria='Peso Ligero' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Dustin Poirier UFC</h2>

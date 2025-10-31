@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Chandler () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={chandler} w={23} l={10} d={0} nombre='Michael Chandler' apodo='IRON' categoria='Peso Ligero' />
+            <PeleadoresHero peleadoresImage={chandler} w={23} l={10} d={0} nombre='Michael Chandler' apodo='IRON' categoria='Peso Ligero' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Chandler UFC</h2>

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 export default function Makhachev () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={makhachev} w={27} l={1} d={0} nombre='Islam Makhachev' apodo={null} categoria='Peso Ligero' />
+            <PeleadoresHero peleadoresImage={makhachev} w={27} l={1} d={0} nombre='Islam Makhachev' apodo={null} categoria='Peso Ligero' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>UFC Makhachev</h2>

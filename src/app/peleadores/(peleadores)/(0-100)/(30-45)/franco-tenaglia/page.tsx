@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function Tenaglia () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={tenaglia} w={3} l={2} d={0} nombre='Franco Tenaglia' apodo='EL REY DE LA CALLE' categoria='Peso Pluma' />
+            <PeleadoresHero peleadoresImage={tenaglia} w={5} l={2} d={0} nombre='Franco Tenaglia' apodo='EL REY DE LA CALLE' categoria='Peso Pluma' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Franco Tenaglia MMA</h2>
@@ -37,7 +37,7 @@ export default function Tenaglia () {
                     <p className={styles.peleador__article__text}>Después de una larga Odisea en la que tuvo que trabajar para mafias, donde tuvo que buscar formas poco legales de ganarse la vida y donde tuvo un largo registro de peleas amateur o ilegales, empezó a hacerse un nombre en los combates profesionales, que comienzan a llevarlo por el buen camino y a alejarlo de lo anterior. Donde ya comenzó a pelear para <b>BKFC</b> que es una promotora legal de peleas sin guantes, donde ganó los 2 enfrentamientos que tuvo, también en la promotora española <b>King Fight League</b>, en la también española <b>WOW</b>, y tiene programada una pelea para la promotora inglesa <b>Cage Warriors</b>.</p>
                     <Image className={styles.peleador__article__image} src={FTenaglia} alt='El peleador argentino de MMA Franco Tenaglia' />
                     <h2 className={styles.peleador__article__title}>Franco Tenaglia Récord</h2>
-                    <p className={styles.peleador__article__text}>En cuanto a las MMA, Franco Tenaglia posee un récord profesional de 3-2. Siendo 2 de sus 3 victorias por la vía del nocaut, y 1 por decisión. Mientras que de sus 2 derrotas, 1 fue por la vía del nocaut y 1 por la vía de la sumisión. </p>
+                    <p className={styles.peleador__article__text}>En cuanto a las MMA, Franco Tenaglia posee un récord profesional de 5-2. Siendo 2 de sus 5 victorias por la vía del nocaut, 3 por la vía de la sumisión y 1 por decisión. Mientras que de sus 2 derrotas, 1 fue por la vía del nocaut y 1 por la vía de la sumisión. </p>
                     <h2 className={styles.peleador__article__title}>Franco Tenaglia Jordi Wild</h2>
                     <p className={styles.peleador__article__text}>Franco Tenaglia tuvo una participación en el evento de MMA español organizado por el reconocido youtuber Jordi Wild. Este combate, como el argentino está acostumbrado fue sin guantes, fue un combate &quot;Bare Knuckle&quot;, que terminó con la victoria de su rival Edye Ruiz por decisión dividida.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/XUbENj1d2s8?si=NUD6JpQLS9naGoL8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>

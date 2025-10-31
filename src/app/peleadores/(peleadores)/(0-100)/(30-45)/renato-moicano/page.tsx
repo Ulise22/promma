@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Moicano () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={20} l={6} d={1} categoria='Peso Ligero' nombre='Renato Moicano' apodo={null} />
+            <PeleadoresHero peleadoresImage={fighter} w={20} l={7} d={1} categoria='Peso Ligero' nombre='Renato Moicano' apodo={null} time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Renato Moicano MMA</h2>
@@ -29,7 +29,7 @@ export default function Moicano () {
                     <p className={styles.peleador__article__text}>Es un peleador que de a poco, obteniendo victorias cada vez más meritorias e impresionantes, y con un carisma único, propio de los brasileños. En sus entrevistas postpelea ha aprovechado para hablar de sus postularas políticas, siendo un defensor del Bitcoin como una forma de protegerse de la inestabilidad financiera, e incentivando a sus seguidores a leer al economista austríaco libertario Ludwing Von Mises.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/bI4f8murhgk?si=iux5yJgqcwdyDVvQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <h2 className={styles.peleador__article__title}>Renato Moicano Récord</h2>
-                    <p className={styles.peleador__article__text}>Renato Moicano posee un récord profesional de mma de 20-6-1. Siendo 2 de sus victorias por la vía del nocaut, con 10 de sus victorias siendo por la vía de la sumisión y 8 por decisión. Mientras que de sus 5 derrotas, 3 fueron por la vía del nocaut, 2 por la vía de la sumisión y sólo 1 por la vía de la decisión. Además, uno de sus combates, ante el brasileño <b>Felipe Froes</b>, que acabó en empate por decisión mayoritaria. </p>
+                    <p className={styles.peleador__article__text}>Renato Moicano posee un récord profesional de mma de 20-7-1. Siendo 2 de sus victorias por la vía del nocaut, con 10 de sus victorias siendo por la vía de la sumisión y 8 por decisión. Mientras que de sus 7 derrotas, 3 fueron por la vía del nocaut, 2 por la vía de la sumisión y 2 por la vía de la decisión. Además, uno de sus combates, ante el brasileño <b>Felipe Froes</b>, que acabó en empate por decisión mayoritaria. </p>
                     <h2 className={styles.peleador__article__title}>Renato Moicano Historia</h2>
                     <p className={styles.peleador__article__text}>Renato Alvez Carneiro nació el día 21 de mayo de 1989 en Brasilia, Brasil. Comenzó a entrenar artes marciales desde muy pequeño, iniciando en clases de judo a los 8 años. Iniciando la universidad como un adulto joven con la idea de convertirse en un abogado, pero finalmente abandonó sus estudios con el objetivo en convertirse en un peleador de artes marciales mixtas. </p>
                     <p className={styles.peleador__article__text}>De esta forma hizo su debut profesional en las MMA el día 20 de mayo de 2010 ante su compatriota <b>Alexandre Almeida</b> en la promotora <b>Jungle Fight</b>, obteniendo una victoria por la vía de la sumisión en el tercer asalto. </p>

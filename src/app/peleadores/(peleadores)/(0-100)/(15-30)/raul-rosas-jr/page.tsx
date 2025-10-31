@@ -21,14 +21,14 @@ export const metadata: Metadata = {
 export default function RaulRosasJR () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={raul} w={10} l={1} d={0} nombre='Raúl Rosas Jr.' categoria='Peso Gallo' apodo='EL NIÑO PROBLEMA' />
+            <PeleadoresHero peleadoresImage={raul} w={11} l={1} d={0} nombre='Raúl Rosas Jr.' categoria='Peso Gallo' apodo='EL NIÑO PROBLEMA' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Raul Rosas Jr. UFC</h2>
                     <p className={styles.peleador__article__text}>Raúl Rosas Jr es un peleador mexicano que compite en la división de peso gallo de la <Link href='/articulos/ufc'>UFC</Link>, que destaca especialmente por ser conocido como el peleador más joven en firmar la compañía, con sólo 17 años.</p>
                     <p className={styles.peleador__article__text}>El mexicano destaca por su juventud, dado que aún siendo menor de edad fue capaz de convertirse en luchador profesional de las MMA y en luchador de la UFC, una auténtica anomalía. Es un peleador que especialmente destaca en la tarea que desarrolla en el suelo, siendo capaz de ganar la mayoría de sus combates por la vía de la sumisión, y por lo general bastante rápido, sin necesitar de más de 1 o 2 asaltos para acabar con la pelea. </p>
                     <h2 className={styles.peleador__article__title}>Raul Rosas Jr. Récord</h2>
-                    <p className={styles.peleador__article__text}>Raúl Rosas Jr. posee un récord de 10-1 en su carrera de MMA. Siendo 2 de sus victorias por la vía del nocaut, 6 por la vía de la sumisión y sólo 2 por decisión. Mientras que su única derrota fue por decisión.</p>
+                    <p className={styles.peleador__article__text}>Raúl Rosas Jr. posee un récord de 11-1 en su carrera de MMA. Siendo 2 de sus victorias por la vía del nocaut, 6 por la vía de la sumisión y sólo 3 por decisión. Mientras que su única derrota fue por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Raul Rosas Jr. Biografía</h2>
                     <p className={styles.peleador__article__text}>Raúl Rosas Jr. nació el 8 de octubre de 2004 en los Estados Unidos, en la ciudad de Clovis, ubicada en el Estado de Nuevo México. Es hijo de padres mexicanos que emigraron al país del norte de américa, por lo que Raúl cuenta con ambas nacionalidades, la de sus padres y la de USA.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/Nf6Kb6c3uq8?si=B8TAjsNaeqED9PqO" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>

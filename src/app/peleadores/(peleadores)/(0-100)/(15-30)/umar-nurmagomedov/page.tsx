@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function UmarNurmagomedov () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={18} l={1} d={0} nombre='Umar Nurmagomedov' apodo={null} categoria='Peso Gallo' />
+            <PeleadoresHero peleadoresImage={fighter} w={19} l={1} d={0} nombre='Umar Nurmagomedov' apodo={null} categoria='Peso Gallo' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Umar Nurmagomedov UFC</h2>
@@ -29,7 +29,7 @@ export default function UmarNurmagomedov () {
                     <h2 className={styles.peleador__article__title}>¿Es Umar Nurmagomedov el hermano de Khabib?</h2>
                     <p className={styles.peleador__article__text}>Contrario a lo que se puede pensar por compartir apellido, Umar Nurmagomedov no es hermano de <Link href='/leyendas/khabib-nurmagomedov'>Khabib</Link>, sino que es primo de este. Khabib tiene un hermano llamado Muhammad que no compite en las MMA. Por su lado Umar, tiene un hermano llamado <b>Usman Nurmagomedov</b> que compite en la promotora <b>Bellator</b> donde fue campeón.</p>
                     <h2 className={styles.peleador__article__title}>Umar Nurmagomedov Récord</h2>
-                    <p className={styles.peleador__article__text}>Umar Nurmagomedov tiene un récord profesional en las MMA de 18-1. Siendo 2 de sus vcitorias por la vía del nocaut, 7 por la vía de la sumisión y 9 por decisión. Además de poseer una única derrota que provino por la vía de la decisión.</p>
+                    <p className={styles.peleador__article__text}>Umar Nurmagomedov tiene un récord profesional en las MMA de 19-1. Siendo 2 de sus vcitorias por la vía del nocaut, 7 por la vía de la sumisión y 10 por decisión. Además de poseer una única derrota que provino por la vía de la decisión.</p>
                     <h2 className={styles.peleador__article__title}>Umar Nurmagomedov Biografía</h2>
                     <p className={styles.peleador__article__text}>Umar Magomednabiyevich Nurmagomedov nació el 3 de enero de 1996 en Rusia. Según explica él mismo, en Daguestán todos los niños pelean, por lo que es lo que hizo junto a su hermano <b>Usman Nurmagomedov</b> desde muy temprano, comenzando a practicar <b>freestyle wrestling</b>, luego Muay Thai, hasta que entrenaría bajo la tutela del padre de <Link href='/leyendas/khabib-nurmagomedov'>Khabib</Link>, <b>Abdulmanap Nurmagomedov</b>, con quien aprendería Sambo y MMA.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/NcrcSIDlSWk?si=IWkp5I5IHTDPUZMP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>

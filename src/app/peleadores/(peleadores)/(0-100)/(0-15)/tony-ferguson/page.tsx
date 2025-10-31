@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Ferguson () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={ferguson} w={25} l={11} d={0} nombre='Tony Ferguson' categoria='Peso Ligero' apodo='EL CUCUY' />
+            <PeleadoresHero peleadoresImage={ferguson} w={25} l={11} d={0} nombre='Tony Ferguson' categoria='Peso Ligero' apodo='EL CUCUY' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Ferguson UFC</h2>

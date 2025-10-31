@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Prochazka () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={adesanya} w={24} l={5} d={0} nombre='Israel Adesanya' apodo='The Last Stylebender' categoria='Peso Medio' />
+            <PeleadoresHero peleadoresImage={adesanya} w={24} l={5} d={0} nombre='Israel Adesanya' apodo='The Last Stylebender' categoria='Peso Medio' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Israel Adesanya UFC</h2>

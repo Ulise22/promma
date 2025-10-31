@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Rakhmonov () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={19} l={0} d={0} nombre='Shavkat Rakhmonov' apodo='NOMAD' categoria='Peso Wélter' />
+            <PeleadoresHero peleadoresImage={fighter} w={19} l={0} d={0} nombre='Shavkat Rakhmonov' apodo='NOMAD' categoria='Peso Wélter' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Shavkat Rakhmonov UFC</h2>

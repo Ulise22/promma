@@ -21,14 +21,14 @@ export const metadata: Metadata = {
 export default function JoelAlvarez () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={22} l={3} d={0} nombre='Joel Álvarez' apodo='EL FENÓMENO' categoria='Peso Ligero' />
+            <PeleadoresHero peleadoresImage={fighter} w={23} l={3} d={0} nombre='Joel Álvarez' apodo='EL FENÓMENO' categoria='Peso Ligero' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Joel Álvarez UFC</h2>
                     <p className={styles.peleador__article__text}>Joel Álvarez es un peleador español que compite en la división de peso ligero en la <Link href='/articulos/ufc'>UFC</Link> desde febrero de 2019, cuando hiciera su debut ante el ruso <b>Damir Ismagulov</b>.</p>
                     <p className={styles.peleador__article__text}>Es uno de los representantes de España en la UFC (al igual que el campeón <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> por ejemplo), y es un luchador muy completo, que hasta al momento no conoce lo que es ganar una pelea por la vía de la decisión, dado que ha finalizado el 100% de sus combates (con la mayoría de estas finalizaciones viniendo por sumisión).</p>
                     <h2 className={styles.peleador__article__title}>Joel Álvarez Récord</h2>
-                    <p className={styles.peleador__article__text}>Joel Álvarez mantiene un récord profesional de 22-3. Siendo 6 de sus victorias por la vía del nocaut y 16 por la vía de la sumisión. Mientras que de sus 3 derrotas, 2 fueron por la vía del nocaut y sólo 1 fue por decisión.</p>
+                    <p className={styles.peleador__article__text}>Joel Álvarez mantiene un récord profesional de 23-3. Siendo 6 de sus victorias por la vía del nocaut, 16 por la vía de la sumisión y sólo 1 por decisión. Mientras que de sus 3 derrotas, 2 fueron por la vía del nocaut y sólo 1 fue por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Joel Álvarez Biografía</h2>
                     <p className={styles.peleador__article__text}>Joel Álvarez Gonzáles nació el 2 de marzo de 1993 en la ciudad de Gijón, Asturias. En su juventud comenzó practicando fútbol como deporte mientras estudiaba, hasta que cumplió la edad de 18 años, cuando decidió comenzar a praticar MMA en un gimnasio de su ciudad. </p>
                     <p className={styles.peleador__article__text}>Mientras entrenaba, trabajó como personal de seguridad en una discoteca antes de iniciar su carrera profesional. Su debut en las Artes marciales mixtas lo haría el 28 de diciembre de 2013 ante su compatriota <b>Aratz Garmendia</b>, logrando una victoria por sumisión en el primer asalto de la pelea. </p>

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 export default function Holloway () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={holloway} w={27} l={8} d={0} nombre='Max Holloway' apodo='BLESSED' categoria='Peso Pluma' />
+            <PeleadoresHero peleadoresImage={holloway} w={27} l={8} d={0} nombre='Max Holloway' apodo='BLESSED' categoria='Peso Pluma' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Max Holloway UFC</h2>

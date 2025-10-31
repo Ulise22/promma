@@ -18,7 +18,7 @@ export default function ArticleHero ({title, subtitle, image, date, author, upda
                 <a target='_Blank' href='https://www.instagram.com/fullmmarg/'> <FontAwesomeIcon icon={faInstagram} size='xl' /> </a>
                 <a target='_Blank' href='https://www.tiktok.com/@fullmmarg'> <FontAwesomeIcon icon={faTiktok} size='xl' /> </a>
                 <a target='_Blank' href='https://www.youtube.com/@Fullmmarg'> <FontAwesomeIcon icon={faYoutube} size='xl' /> </a>
-                {updatedDate && <span className={styles.articleHero__info}>Fecha de Actualización: <time dateTime={date}> {updatedDate} </time></span>}
+                {updatedDate && <span className={styles.articleHero__info}>Fecha de Actualización: <time dateTime={updatedDate}> {updatedDate} </time></span>}
                  </p>}
         </section>
     )
