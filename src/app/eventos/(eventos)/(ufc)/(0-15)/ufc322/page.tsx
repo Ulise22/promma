@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: 'UFC 322: ¡Jack Della Maddalena vs Islam Makhachev! ¡Valentina Shevchenko vs Zhang Weili!',
     description: "",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc322.c08dc6e5.webp&w=828&q=65',
         title: 'UFC 322: ¡Jack Della Maddalena vs Islam Makhachev! ¡Valentina Shevchenko vs Zhang Weili!',
         description: "",
         url: 'https://fullmma.org/eventos/ufc322'
