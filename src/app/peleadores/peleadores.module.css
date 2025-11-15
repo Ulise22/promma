@@ -88,17 +88,17 @@
     background-position: center;
 }
 
+.peleadores__card_volkanovski {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/0-10/alexander-volkanovski/volkanovski.jpg');
+    background-position: right;
+}
+
 .peleadores__card_makhachev {
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/10-20/islam-makhachev/islam__makhachev.jpg');
 }
 
 .peleadores__card_pereira {
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/0-10/alex-pereira/pereira_card.jpg');
-    background-position: center;
-}
-
-.peleadores__card_jones {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/10-20/jon-jones/jon_jones_card.jpg');
     background-position: center;
 }
 
@@ -112,13 +112,18 @@
     background-position: center;
 }
 
-.peleadores__card_duPlessis {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/0-10/dricus-du-plessis/du-plessis_card.jpg');
+.peleadores__card_chimaev {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/10-20/khamzat-chimaev/khamzat_card.jpg');
     background-position: center;
 }
 
 .peleadores__card_belal {
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/20-30/belal-muhammad/belal-card.jpg');
+    background-position: center;
+}
+
+.peleadores__card_dellamaddalena {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/40-60/jack-della-maddalena/dellamaddalena_card.webp');
     background-position: center;
 }
 

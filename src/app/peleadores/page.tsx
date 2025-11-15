@@ -35,32 +35,32 @@ export default function Peleadores ({
                 <FightersBtns hasNextPage={end < data.length} hasPrevPage={start > 0} />
                 <h2 className={styles.peleadores__subtitle}>Campeones de UFC</h2>
                 <article className={styles.peleadores__container}>
-                    <Link href='/peleadores/ilia-topuria' className={`${styles.peleadores__card} ${styles.peleadores__card_illia}`}>
-                        <h3 className={styles.peleadores__card__name}>Ilia Topuria</h3>
-                    </Link>
-                    <Link href='/peleadores/islam-makhachev' className={`${styles.peleadores__card} ${styles.peleadores__card_makhachev}`}>
-                        <h3 className={styles.peleadores__card__name}>Islam Makhachev</h3>
+                    <Link href='/peleadores/alexandre-pantoja' className={`${styles.peleadores__card} ${styles.peleadores__card_pantoja}`}>
+                        <h3 className={styles.peleadores__card__name}>Alexandre Pantoja</h3>
                     </Link>
                     <Link href='/peleadores/merab-dvalishvili' className={`${styles.peleadores__card} ${styles.peleadores__card_merab}`}>
                         <h3 className={styles.peleadores__card__name}>Merab Dvalisvili</h3>
                     </Link>
+                    <Link href='/peleadores/alexander-volkanovski' className={`${styles.peleadores__card} ${styles.peleadores__card_volkanovski}`}>
+                        <h3 className={styles.peleadores__card__name}>Alexander Volkanovski</h3>
+                    </Link>
+                    <Link href='/peleadores/ilia-topuria' className={`${styles.peleadores__card} ${styles.peleadores__card_illia}`}>
+                        <h3 className={styles.peleadores__card__name}>Ilia Topuria</h3>
+                    </Link>
+                    <Link href='/peleadores/jack-della-maddalena' className={`${styles.peleadores__card} ${styles.peleadores__card_dellamaddalena}`}>
+                        <h3 className={styles.peleadores__card__name}>Jack Della Maddalena</h3>
+                    </Link>
+                    {/* <Link href='/peleadores/islam-makhachev' className={`${styles.peleadores__card} ${styles.peleadores__card_makhachev}`}>
+                        <h3 className={styles.peleadores__card__name}>Islam Makhachev</h3>
+                    </Link> */}
+                    <Link href='/peleadores/khamzat-chimaev' className={`${styles.peleadores__card} ${styles.peleadores__card_chimaev}`}>
+                        <h3 className={styles.peleadores__card__name}>Khamzat Chimaev</h3>
+                    </Link>
                     <Link href='/peleadores/alex-pereira' className={`${styles.peleadores__card} ${styles.peleadores__card_pereira}`}>
                         <h3 className={styles.peleadores__card__name}>Alex Pereira</h3>
                     </Link>
-                    <Link href='/peleadores/alexandre-pantoja' className={`${styles.peleadores__card} ${styles.peleadores__card_pantoja}`}>
-                        <h3 className={styles.peleadores__card__name}>Alexandre Pantoja</h3>
-                    </Link>
-                    <Link href='/peleadores/jon-jones' className={`${styles.peleadores__card} ${styles.peleadores__card_jones}`}>
-                        <h3 className={styles.peleadores__card__name}>Jon Jones</h3>
-                    </Link>
                     <Link href='/peleadores/tom-aspinall' className={`${styles.peleadores__card} ${styles.peleadores__card_aspinall}`}>
                         <h3 className={styles.peleadores__card__name}>Tom Aspinall</h3>
-                    </Link>
-                    <Link href='/peleadores/du-plessis' className={`${styles.peleadores__card} ${styles.peleadores__card_duPlessis}`}>
-                        <h3 className={styles.peleadores__card__name}>Dricus Du Plessis</h3>
-                    </Link>
-                    <Link href='/peleadores/belal-muhammad' className={`${styles.peleadores__card} ${styles.peleadores__card_belal}`}>
-                        <h3 className={styles.peleadores__card__name}>Belal Muhammad</h3>
                     </Link>
                 </article>
             </section>

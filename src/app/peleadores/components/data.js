@@ -188,6 +188,21 @@ export const data = [
         fighterClass: 'peleadores__card_prates'
     },
     {
+        name: 'Jon Jones',
+        url: '/peleadores/jon-jones',
+        fighterClass: 'peleadores__card_jones'
+    },
+    {
+        name: 'Dricus Du Plessis',
+        url: '/peleadores/du-plessis',
+        fighterClass: 'peleadores__card_duPlessis'
+    },
+    {
+        name: 'Belal Muhammad',
+        url: '/peleadores/belal-muhammad',
+        fighterClass: 'peleadores__card_belal'
+    },
+    {
         name: 'Brandon Moreno',
         url: '/peleadores/brandon-moreno',
         fighterClass: 'peleadores__card_branmoreno'
