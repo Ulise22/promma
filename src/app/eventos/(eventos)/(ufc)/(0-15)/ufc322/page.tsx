@@ -41,6 +41,8 @@ export default function UFC320 () {
                     <h2 className={styles.article__fightsHierarchy}>Primeros Preliminares</h2>
                     <h2>Matheus Camilo Derrota a Viacheslav Borshchev por Decisión Unánime</h2>
                     <p>En un sólido desempeño por parte del brasileño <b>Matheus Camilo</b>, logra hacerse con la victoria luego de conectar buenos golpes a lo largo del combate, pero especialmente luego de ser capaz de derribar en reiteradas ocasiones a su rival que practicamente no tenía defensa ante el de Brasil. De esta manera Camilo se lleva la victoria en esta primera pelea de la cartelera. </p>
+                    <h2>Baisangur Susurkaev Noquea a Eric McConico en el Tercer Asalto</h2>
+                    <p>Espectacular victoria para el luchador de Chechenia <b>Baisangur Susurkaev</b>, quien desde hace tiempo viene dejando las espectativas altas y que hoy no decepcionó, aunque el inicio del combate fue más parejo de lo que la mayoría esperaba, la cálidad del peleador ruso finalmente salió a relucir en el último asalto de la pelea, cuando con una mano derecha letal terminaría dejando KO a su rival, llevándose la victoria y consiguiendo la primer finalización de la noche. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
