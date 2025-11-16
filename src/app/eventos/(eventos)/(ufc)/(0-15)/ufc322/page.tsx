@@ -47,6 +47,8 @@ export default function UFC320 () {
                     <p>Gran victoria para la luchadora estadounidense <b>Fatima Kline</b>, quien luego de dominar completamente a su veterana e histórica rival <b>Angela Hill</b>, consigue volver a vaca con un nuevo triunfo que le garantiza entrar en el ranking de su división. </p>
                     <h2>Pat Sabatini Derrota a Chepe Mariscal Por Decisión Unánime</h2>
                     <p>Muy buena pelea para el estadounidense <b>Pat Sabatini</b>, quien supo dominar completamente a su rival, a través de los derribos y del control a ras de lona, con constantes intentos de sumisión que le fueron quitando minutos al reloj y que iban mostrando que Sabatini era el mejor peleador de los 2. AAunque Mariscar fue capaz de conectar unos golpes muy potentes a su rival, lo cierto es que en el momento en que era derribado no tenía nada que hacer, por lo que no le alcanzó para defender su invicto en la UFC, obteniendo su primer derrota en la compañía. </p>
+                    <h2>Kyle Daukaus Somete a Gerald Meershchaert en el Primer Asalto</h2>
+                    <p>Finalización express por parte de <b>Kyle Daukaus</b>, quien con una combinación de golpes derribó a su rival al suelo. Posterior a esto, en lugar de buscar la finalización por TKO, buscó ahorcar a su rival con un Darce Choke que finalmente obligaría a Meershchaert a tapear. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
