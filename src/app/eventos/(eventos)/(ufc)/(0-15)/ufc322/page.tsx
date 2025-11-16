@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function UFC320 () {
     return(
         <main>
-            <ArticleHero title="UFC 322: ¡Jack Della Maddalena vs Islam Makhachev! ¡Valentina Shevchenko vs Zhang Weili!" subtitle='¡Sean Brady vs Michael Morales! ¡Leon Edwards vs Carlos Prates! ¡Beneil Dariush vs Benoit Saint Denis!' image={hero} date='2025-11-15' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 322: ¡Jack Della Maddalena vs Islam Makhachev! ¡Valentina Shevchenko vs Zhang Weili!" subtitle='¡Sean Brady vs Michael Morales! ¡Leon Edwards vs Carlos Prates! ¡Benoit Saint Denis Noquea a Beneil Dariush en el Primer Asalto!' image={hero} date='2025-11-15' author={null} updatedDate='2025-11-16' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -61,12 +61,12 @@ export default function UFC320 () {
                     <p>Espectacular pelea la que acabamos de presenciar, con el brasileño <b>Gregory Robocop Rodrigues</b> siendo el claro ganandor del combate, dominando al ruso <b>Roman Kopylov</b>, conectando un montón de golpes de mejor cálidad que las de su rival. </p>
                     <h2>Bo Nickal Noquea a Rodolfo Vieira en el Tercer Asalto</h2>
                     <p>Espectacular KO el que consiguió el estadounidense <b>Bo Nickal</b> en el tercer asalto de la pelea, que provino de una patada con la pierna izquierda a la cabeza de su rival que lo tumbó en el suelo, dejándolo inconsciente en el acto. Todo esto viene después de una actuación que venía siendo sobresaliente por parte de Nickal, quien mostró haber mejorado un montón su striking, conectando golpes contundentes todo el tiempo al brasileño. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
                     </Link>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2>Benoit Saint Denis Noquea a Beneil Dariush en el Primer Asalto</h2>
+                    <p>Tremendo KO el que acabamos de presenciar, con el peleador francés <b>Benoit Saint Denis</b> sacándose un gancho de izquierda que mandaría a la lona a su rival, sin ni siquiera la necesidad de ir a rematarlo. De esta forma, el ex militar obtiene una victoria que lo posiciona en el top 10 de la división de peso ligero que actualmente tiene a <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> como campeón. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
