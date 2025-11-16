@@ -11,7 +11,7 @@ export default function PageHero () {
         <section className={styles.pagehero}>
             <Link className={styles.pagehero__bigArticle} href='/eventos/ufc322'>
                 <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc322} alt='' />
-                <h2 className={styles.page__title}>UFC 322: ¡Jack Della Maddalena vs Islam Makhachev! ¡Valentina Shevchenko vs Zhang Weili!</h2>
+                <h2 className={styles.page__title}>UFC 322: ¡Islam Makhachev Derrota a Jack Della Maddalena Por Decisión Unánime y es Doble Campeón! ¡Valentina Shevchenko Derrota a Zhang Weili Por Decisión Unánime!</h2>
                 <p>¡Michael Morales Noquea a Sean Brady en el Primer Asalto! ¡Carlos Prates Noquea a Leon Edwards en el Segundo Asalto! ¡Benoit Saint Denis Noquea a Beneil Dariush en el Primer Asalto!</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-deridder-allen'>

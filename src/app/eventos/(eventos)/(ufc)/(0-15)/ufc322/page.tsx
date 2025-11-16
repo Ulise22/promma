@@ -25,10 +25,10 @@ export const metadata: Metadata = {
     }
 }
 
-export default function UFC320 () {
+export default function UFC322 () {
     return(
         <main>
-            <ArticleHero title="UFC 322: ¡Jack Della Maddalena vs Islam Makhachev! ¡Valentina Shevchenko Derrota a Zhang Weili Por Decisión Unánime!" subtitle='¡Michael Morales Noquea a Sean Brady en el Primer Asalto! ¡Carlos Prates Noquea a Leon Edwards en el Segundo Asalto! ¡Benoit Saint Denis Noquea a Beneil Dariush en el Primer Asalto!' image={hero} date='2025-11-15' author={null} updatedDate='2025-11-16' />
+            <ArticleHero title="UFC 322: ¡Islam Makhachev Derrota a Jack Della Maddalena Por Decisión Unánime y es Doble Campeón! ¡Valentina Shevchenko Derrota a Zhang Weili Por Decisión Unánime!" subtitle='¡Michael Morales Noquea a Sean Brady en el Primer Asalto! ¡Carlos Prates Noquea a Leon Edwards en el Segundo Asalto! ¡Benoit Saint Denis Noquea a Beneil Dariush en el Primer Asalto!' image={hero} date='2025-11-15' author={null} updatedDate='2025-11-16' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -73,6 +73,8 @@ export default function UFC320 () {
                     <p>Espectacular lo que acaba de hacer el luchador ecuatoriano <b>Michael Morales</b>, que sorprendió a más de uno, y que nos dió al público de latinoamérica una alegría tremenda, luego de noquear de manera brillante al luchador estadounidense <b>Sean Brady</b>, quien se vió durante el combate claramente afectado por el poder de golpeo que tenía Morales, hasta que finalmente uno de esos golpes que venía conectando lo tumbaron al piso, siendo finalmente finalizado con un par de golpes más, que acabarían por darle la victoria por TKO en el primer asalto del combate. </p>
                     <h2>Valentina Shevchenko Derrota a Zhang Weili Por Decisión Unánime</h2>
                     <p>Brillante desempeño de la campeona <Link href='/mujeres/valentina-shevchenko'>Valentina Shevchenko</Link>, quien ante quien seguramente es la rival más difícil de su carrera, dominó completamente el combate de comienzo a fin, llevándose la victoria por ser mejor que su rival <Link href='/mujeres/zhang-weili'>Zhang Weili</Link> los 5 asaltos. Derribando como mínimo una vez por asalto, con la luchadora china siendo incapaz de defender estos derribos. De esta forma Valentina extiende su legado, consigue una defensa ante la rival más díficil que le podían poner en frente, y retiene exitosamente su cinturón. </p>
+                    <h2>Islam Makhachev Derrota a Jack Della Maddalena Por Decisión Unánime y es Doble Campeón</h2>
+                    <p>Histórico lo que acaba de conseguir <Link href='/peleadores/islam-makhachev'>Islam Makhachev</Link>, quien dominó de principio a fin al hasta ahora campeón <Link href='/peleadores/jack-della-maddalena'>Jack Della Maddalena</Link>, derribándolo en practicamente todos los asaltos del combate, castigándolo a golpes, intentando sumisiones todo el tiempo, siendo muy activo en el suelo, y Jack no pudo hacer nada ante tal dominio, su única esperanza era esperar que termine el asalto para comenzar el otro de pie. De esta manera Islam Makhachev se convierte en doble campeón de la UFC, al haber sido campeón de peso ligero y ahora campeón de peso wélter. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
