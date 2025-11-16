@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function UFC320 () {
     return(
         <main>
-            <ArticleHero title="UFC 322: ¡Jack Della Maddalena vs Islam Makhachev! ¡Valentina Shevchenko vs Zhang Weili!" subtitle='¡Sean Brady vs Michael Morales! ¡Leon Edwards vs Carlos Prates! ¡Benoit Saint Denis Noquea a Beneil Dariush en el Primer Asalto!' image={hero} date='2025-11-15' author={null} updatedDate='2025-11-16' />
+            <ArticleHero title="UFC 322: ¡Jack Della Maddalena vs Islam Makhachev! ¡Valentina Shevchenko vs Zhang Weili!" subtitle='¡Sean Brady vs Michael Morales! ¡Carlos Prates Noquea a Leon Edwards en el Segundo Asalto! ¡Benoit Saint Denis Noquea a Beneil Dariush en el Primer Asalto!' image={hero} date='2025-11-15' author={null} updatedDate='2025-11-16' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
@@ -67,6 +67,8 @@ export default function UFC320 () {
                     </Link>
                     <h2>Benoit Saint Denis Noquea a Beneil Dariush en el Primer Asalto</h2>
                     <p>Tremendo KO el que acabamos de presenciar, con el peleador francés <b>Benoit Saint Denis</b> sacándose un gancho de izquierda que mandaría a la lona a su rival, sin ni siquiera la necesidad de ir a rematarlo. De esta forma, el ex militar obtiene una victoria que lo posiciona en el top 10 de la división de peso ligero que actualmente tiene a <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> como campeón. </p>
+                    <h2>Carlos Prates Noquea a Leon Edwards en el Segundo Asalto</h2>
+                    <p>Impresionante lo que acaba de hacer el brasileño <Link href='/peleadores/carlos-prates'>Carlos Prates</Link> que cada vez hace más gala del poder de KO que tiene en sus manos, esta vez ante nada más ni nada menos que el excampeón de la división <Link href='/peleadores/leon-edwards'>Leon Edwards</Link>, a quien tumbó con sus poderosas manos, en una victoria que lo hará escalar hasta el top 5 de la división, pertenciendo a la élite de los wélter. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
