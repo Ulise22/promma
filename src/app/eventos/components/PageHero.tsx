@@ -12,7 +12,7 @@ export default function PageHero () {
             <Link className={styles.pagehero__bigArticle} href='/eventos/ufc322'>
                 <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc322} alt='' />
                 <h2 className={styles.page__title}>UFC 322: ¡Jack Della Maddalena vs Islam Makhachev! ¡Valentina Shevchenko vs Zhang Weili!</h2>
-                <p>¡Sean Brady vs Michael Morales! ¡Leon Edwards vs Carlos Prates! ¡Beneil Dariush vs Benoit Saint Denis!</p>
+                <p>¡Michael Morales Noquea a Sean Brady en el Primer Asalto! ¡Carlos Prates Noquea a Leon Edwards en el Segundo Asalto! ¡Benoit Saint Denis Noquea a Beneil Dariush en el Primer Asalto!</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-deridder-allen'>
                 <Image className={styles.pagehero__article__img} quality={50} src={deridderAllen} alt='' />
