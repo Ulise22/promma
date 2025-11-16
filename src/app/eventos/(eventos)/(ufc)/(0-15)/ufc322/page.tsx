@@ -57,6 +57,8 @@ export default function UFC320 () {
                     <p>El luchador estadounidense <b>Ethyn Ewing</b> logra una espectacular victoria luego de dominar completamente a su rival <b>Malcolm Weellmaker</b>, quien era uno de los mayores prospectos de la división, estando invicto con 3-0 hasta el día de hoy. Todo esto se da con Ewing habiendo tomado la pelea en corto aviso, luego de haber peleado hace poco más de una semana. </p>
                     <h2>Erin Blanchfield Somete a Tracy Cortez en el Segundo Asalto</h2>
                     <p>Tremendo desempeño de la #4 de la división de peso mosca femenino <b>Erin Blanchfield</b>, quien pese a haber sufrido en el bastante en el primer asalto, recibiendo golpes contundentes por parte de <b>Tracy Cortez</b>, que le hizo perder el primer asalto, fue capaz de recuperarse en el segundo, al conectar un mataleón hermoso en el siguiente asalto, que obligó a su rival a tapear, obteniendo la victoria por la vía de la sumisión. </p>
+                    <h2>Gregory Rodrigues Derrota a Roman Kopylov Por Decisión Unánime</h2>
+                    <p>Espectacular pelea la que acabamos de presenciar, con el brasileño <b>Gregory Robocop Rodrigues</b> siendo el claro ganandor del combate, dominando al ruso <b>Roman Kopylov</b>, conectando un montón de golpes de mejor cálidad que las de su rival. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
