@@ -59,6 +59,8 @@ export default function UFC320 () {
                     <p>Tremendo desempeño de la #4 de la división de peso mosca femenino <b>Erin Blanchfield</b>, quien pese a haber sufrido en el bastante en el primer asalto, recibiendo golpes contundentes por parte de <b>Tracy Cortez</b>, que le hizo perder el primer asalto, fue capaz de recuperarse en el segundo, al conectar un mataleón hermoso en el siguiente asalto, que obligó a su rival a tapear, obteniendo la victoria por la vía de la sumisión. </p>
                     <h2>Gregory Rodrigues Derrota a Roman Kopylov Por Decisión Unánime</h2>
                     <p>Espectacular pelea la que acabamos de presenciar, con el brasileño <b>Gregory Robocop Rodrigues</b> siendo el claro ganandor del combate, dominando al ruso <b>Roman Kopylov</b>, conectando un montón de golpes de mejor cálidad que las de su rival. </p>
+                    <h2>Bo Nickal Noquea a Rodolfo Vieira en el Tercer Asalto</h2>
+                    <p>Espectacular KO el que consiguió el estadounidense <b>Bo Nickal</b> en el tercer asalto de la pelea, que provino de una patada con la pierna izquierda a la cabeza de su rival que lo tumbó en el suelo, dejándolo inconsciente en el acto. Todo esto viene después de una actuación que venía siendo sobresaliente por parte de Nickal, quien mostró haber mejorado un montón su striking, conectando golpes contundentes todo el tiempo al brasileño. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
                         <Image src={secondAd} alt='' />
