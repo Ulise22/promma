@@ -206,5 +206,10 @@ export const data = [
         name: 'Brandon Moreno',
         url: '/peleadores/brandon-moreno',
         fighterClass: 'peleadores__card_branmoreno'
+    },
+    {
+        name: 'Jack Della Maddalena',
+        url: '/peleadores/jack-della-maddalena',
+        fighterClass: 'peleadores__card_dellamaddalena'
     }
 ]

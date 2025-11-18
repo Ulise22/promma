@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function LeonEdwards () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={edwards} w={22} l={5} d={0} nombre='Leon Edwards' apodo='ROCKY' categoria='Peso Welter' time='2025-10-29' />
+            <PeleadoresHero peleadoresImage={edwards} w={22} l={6} d={0} nombre='Leon Edwards' apodo='ROCKY' categoria='Peso Welter' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Edwards UFC</h2>
@@ -29,7 +29,7 @@ export default function LeonEdwards () {
                     <p className={styles.peleador__article__text}>Leon Edwards es uno de los representantes británicos que tiene la compañía, y es uno de los más importantes que hay actualmente. Marcado por un pasado problemático, supo sobreponerse a las circunstancias para crecer y convertirse en uno de los mejores peleadores de la división de peso wélter de la UFC.</p>
                     <p className={styles.peleador__article__text}>Supo destacar en la compañía el día 20 de agosto de 2022, cuando enfrentando al entonces histórico campeón de la división de 170lbs, <Link href='/peleadores/kamaru-usman'>Kamaru Usman</Link>, fue capaz de dar vuelta lo que estaba siendo una pelea desfavorable para él, conectando una patada a la cabeza de su rival que lo dejaría KO en el último asalto de la pelea, convirtiéndose de esta manera en el nuevo campeón de la división. </p>
                     <h2 className={styles.peleador__article__title}>Leon Edwards Récord</h2>
-                    <p className={styles.peleador__article__text}>Leon Edwards posee un récord profesional en MMA de 22-5 (1). Siendo 7 de estas victorias por la vía del nocaut, 3 por la vía de la sumisión, y 12 por decisión. Mientras que de sus 4 derrotas, 3 fueron la vía de la decisión, 1 por descalificación y 1 por sumisión. Además posee una pelea que quedó sin resultado ante <Link href='/peleadores/belal-muhammad'>Belal Muhammad</Link> luego de conectar un piquete de ojo accidental a su rival que le impidió continuar peleando. </p>
+                    <p className={styles.peleador__article__text}>Leon Edwards posee un récord profesional en MMA de 22-6 (1). Siendo 7 de estas victorias por la vía del nocaut, 3 por la vía de la sumisión, y 12 por decisión. Mientras que de sus 6 derrotas, 3 fueron la vía de la decisión, 1 por descalificación, 1 por sumisión y 1 por nocaut. Además posee una pelea que quedó sin resultado ante <Link href='/peleadores/belal-muhammad'>Belal Muhammad</Link> luego de conectar un piquete de ojo accidental a su rival que le impidió continuar peleando. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/tY7HTlJEyzo?si=akeQEp82kBR7Z1C1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <h2 className={styles.peleador__article__title}>Leon Edwards Historia</h2>
                     <p className={styles.peleador__article__text}>Leon Edwards nació el día 25 de agosto de 1991 en la capital de Jamaica, Kingston, donde vivió los primeros años de su vida junto a su hermano y sus padres. </p>

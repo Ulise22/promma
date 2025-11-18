@@ -21,14 +21,14 @@ export const metadata: Metadata = {
 export default function CarlosPrates () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={22} l={7} d={0} categoria='Peso Wélter' nombre='Carlos Prates' apodo={null} time='2025-10-29' />
+            <PeleadoresHero peleadoresImage={fighter} w={23} l={7} d={0} categoria='Peso Wélter' nombre='Carlos Prates' apodo={null} time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Carlos Prates MMA</h2>
                     <p className={styles.peleador__article__text}>Carlos Prates es un luchador brasileño de MMA que compite en la división de peso wélter UFC desde el 10 de febrero de 2024, cuando haría su debut oficial ante el peleador estadounidense <b>Trevin Giles</b>, a quien enfrentaría en el <b>UFC Fight Night: Hermansson vs. Pyfer</b>. </p>
                     <p className={styles.peleador__article__text}>Es uno de los miembros más reconocidos de los <Link href='/articulos/fighting-nerds'>Fighting Nerds</Link>, quienes lo han llevado a ser de los peleadores más destacados de la división de peso wélter de la UFC, con constantes finalizaciones por KO que llevan a los fanáticos a poner los ojos en él. </p>
                     <h2 className={styles.peleador__article__title}>Carlos Prates Récord</h2>
-                    <p className={styles.peleador__article__text}>Carlos Prates posee un récord profesional de MMA de 22-7. Siendo 17 de sus victorias por la vía del nocaut, con sólo 3 siendo por sumisión y sólo 2 por decisión. Mientras que de sus derrotas 2 fueron por nocaut, 3 por sumisión y sólo 2 por decisión. </p>
+                    <p className={styles.peleador__article__text}>Carlos Prates posee un récord profesional de MMA de 23-7. Siendo 18 de sus victorias por la vía del nocaut, con sólo 3 siendo por sumisión y sólo 2 por decisión. Mientras que de sus derrotas 2 fueron por nocaut, 3 por sumisión y sólo 2 por decisión. </p>
                     <h2 className={styles.peleador__article__title}>Carlos Prates Historia</h2>
                     <p className={styles.peleador__article__text}>Carlos Augusto Monteiro Prates nació el 17 de agosto de 1993 en la ciudad brasileña Taubaté, en Sao Paulo. Fue críado por una madre soltera, quien fue la mujer que lo inscribió a Carlos a sus 15 años a un gimnasio para que aprendiera la filosofía de las artes marciales, dado que para aquel entonces nuestro protagonista se estaba metiendo en problemas, según él mismo cuenta, tomando malas decisiones de vida, entre las que se encontraba el comenzar a fumar cigarrillos. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/e3W4EEXXH4M?si=BtKB4zE0MxTFLoQj" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>

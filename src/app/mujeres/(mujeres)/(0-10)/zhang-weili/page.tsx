@@ -22,13 +22,13 @@ export const metadata: Metadata = {
 export default function ZhangWeili () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={weili} w={26} l={3} d={0} nombre='Zhang Weili' apodo='MAGNUM' categoria='Peso Paja Femenino' time='2025-10-29' />
+            <PeleadoresHero peleadoresImage={weili} w={26} l={4} d={0} nombre='Zhang Weili' apodo='MAGNUM' categoria='Peso Paja Femenino' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Zhang Weili UFC</h2>
                     <p className={styles.peleador__article__text}>Zhang Weili es una peleadora china que compite en la <Link href='/articulos/ufc'>UFC</Link> desde agosto de 2018, cuando debutaría ante la estadounidense <b>Danielle Taylor</b>. Supo destacar en la compañía al convertirse en campeona de peso paja femenino en 2 ocasiones diferentes. </p>
                     <h2 className={styles.peleador__article__title}>Zhang Weili Récord</h2>
-                    <p className={styles.peleador__article__text}>Zhang Weili tiene un récord de 26-3, siendo 11 de sus 26 victorias por la vía del nocaut, 8 por sumisión y 7 por decisión. Mientras que de sus derrotas sólo una fue por la vía del nocaut, mientras que las otras 2 fueron por decisión.</p>
+                    <p className={styles.peleador__article__text}>Zhang Weili tiene un récord de 26-4, siendo 11 de sus 26 victorias por la vía del nocaut, 8 por sumisión y 7 por decisión. Mientras que de sus derrotas sólo una fue por la vía del nocaut, mientras que las otras 3 fueron por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Zhang Weili wiki</h2>
                     <p className={styles.peleador__article__text}>Zhang Weili nació el 13 de agosto de 1989, en la ciudad de Handan, ubicada en la provincia china de Hebei. Comenzaría su carrera como atleta entrenando Sanda, disciplina que seguiría hasta descubrir las MMA, de las que se enamoraría y que le harían forjarse una carrera profesional. </p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/I4l7tHKHwbU?si=FYPUvLLSUoF7FGs3" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
