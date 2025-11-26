@@ -13,10 +13,11 @@ const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Próxima Pelea de Ilia Topuria 2026: ¿Arman Tsarukyan o Paddy Pimblett?',
-    description: "",
+    description: "Finalizado el último evento UFC Qatar el sábado pasado, parecería que la respuesta es clara: Arman Tsarukyan es el próximo rival de Ilia Topuria. ",
     openGraph: {
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Filia-next_fight-2026.9640dfb6.webp&w=828&q=65',
         title: 'Próxima Pelea de Ilia Topuria 2026: ¿Arman Tsarukyan o Paddy Pimblett?',
-        description: "",
+        description: "Finalizado el último evento UFC Qatar el sábado pasado, parecería que la respuesta es clara: Arman Tsarukyan es el próximo rival de Ilia Topuria. ",
         url: 'https://fullmma.org/noticias/ilia-topuria-proxima-pelea-2026'
     }
 }
