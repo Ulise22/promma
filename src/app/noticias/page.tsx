@@ -4,14 +4,13 @@ import Link from 'next/link';
 import Image from 'next/image';
 import ArticlePreview from '../articulos/components/ArticlePreview';
 /* HERO IMAGES */
+import iliaNextMatch2026 from '@/assets/noticias/0-100/30-40/ilia-next_fight-2026.webp'
 import theSmashingMachine from '@/assets/noticias/0-100/30-40/the_smashing_machine.webp'
 import modeloUFC from '@/assets/noticias/0-100/30-40/modelo_ufc.webp'
 import DWT3 from '@/assets/noticias/0-100/30-40/dwt3.jpg'
 import terranceMcKinney from '@/assets/noticias/0-100/30-40/terrance_mckinney.jpg'
 import viniciusOliveira from '@/assets/noticias/0-100/30-40/vinicius_oliveira.jpg'
-import dariushPelea2025 from '@/assets/noticias/0-100/20-30/dariush_pelea2025.jpg'
 import previaUFC311 from '@/assets/noticias/0-100/20-30/previa_ufc311.jpg'
-import proxRivalDuPlessis from '@/assets/noticias/0-100/0-10/chimaev_or_strickland.jpg'
 /* 0 - 10 */
 import iliaPeleador2024 from '@/assets/noticias/0-100/0-10/ilia_peleador_2024.jpg'
 import espUFC2025 from '@/assets/noticias/0-100/0-10/peleadores_espanoles_ufc.jpg'
@@ -23,7 +22,7 @@ import conor from '@/assets/peleadores__images/0-100/0-10/conor-mcgregor/mcgrego
 import dwt2 from '@/assets/noticias/0-100/0-10/dwt2.jpeg'
 import rivalsIlia from '@/assets/noticias/0-100/0-10/ilia_prox_rival.jpg'
 import cucuyRetiro from '@/assets/noticias/0-100/0-10/ferguson_retiro.jpg'
-import volkNextFight from '@/assets/peleadores__images/0-100/0-10/alexander-volkanovski/volkanovski.jpg'
+import proxRivalDuPlessis from '@/assets/noticias/0-100/0-10/chimaev_or_strickland.jpg'
 /* 10 - 20 */
 import chandlerEspera from '@/assets/peleadores__images/0-100/10-20/michael-chandler/michael_chandler.jpg'
 import jonesEvitaAspinall from '@/assets/noticias/0-100/10-20/jones_evita_aspinall.jpg'
@@ -33,6 +32,7 @@ import danHookerTattoos from '@/assets/noticias/0-100/10-20/dan_hooker_tattoos.j
 import drakeApuesta from '@/assets/noticias/0-100/10-20/drake_apuesta.jpg'
 import iliaPromissKOHolloway from '@/assets/noticias/0-100/10-20/ilia_promissko_holloway.jpg'
 import michaelMorales from '@/assets/noticias/0-100/10-20/michael_morales.jpg'
+import volkNextFight from '@/assets/peleadores__images/0-100/0-10/alexander-volkanovski/volkanovski.jpg'
 /* 20 - 30 */
 import bestEventsUFC2024 from '@/assets/noticias/0-100/20-30/best_ufc_events.jpg'
 import predicciones2025 from '@/assets/noticias/0-100/20-30/campeones_ufc2025.jpg'
@@ -42,6 +42,7 @@ import evloevPeleaTopuria from '@/assets/noticias/0-100/20-30/evloev_postfight.j
 import argUFC2024 from '@/assets/noticias/0-100/20-30/argentinos2024.jpg'
 import ufcBillonario from '@/assets/noticias/0-100/20-30/ufc_busca_millonada.jpg'
 import entrenamientoProchazka from '@/assets/noticias/0-100/20-30/prochazka_training.png'
+import dariushPelea2025 from '@/assets/noticias/0-100/20-30/dariush_pelea2025.jpg'
 /* 30 - 40 */
 
 
@@ -54,14 +55,14 @@ export default function NoticiasPage () {
                     <h2 className={styles.page__title}>The Smashing Machine: Todo lo que Sabemos Sobre la Película de Mark Kerr Protagonizada por La Roca</h2>
                     <p>Todo lo que hay que saber sobre la próxima película Dwayne Johnson, The Smashing Machine, basada en la vida del peleador de UFC Mark Kerr</p>
                 </Link>
-                <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/mejores-eventos-ufc-2024'>
-                    <Image className={styles.noticiasHero__article__img} quality={50} src={bestEventsUFC2024} alt='' />
+                <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/ilia-topuria-proxima-pelea-2026'>
+                    <Image className={styles.noticiasHero__article__img} quality={50} src={iliaNextMatch2026} alt='' />
                     <article className={styles.noticiasHero__article__container}>
-                        <h2 className={styles.noticiasHero__title}>Los Mejores Eventos de UFC 2024</h2>
-                        <p>La lista de los eventos y carteleras de UFC numerados que marcaron este 2024. </p>
+                        <h2 className={styles.noticiasHero__title}>Próxima Pelea de Ilia Topuria 2026: ¿Arman Tsarukyan o Paddy Pimblett?</h2>
+                        <p>Todo parece indicar que ya tenemos nuevo rival para el campeón español de UFC Ilia Topuria...</p>
                         <div className={styles.noticiasHero__article__info}>
                             <h4>FULLMMA</h4>
-                            <p>10/12/2024</p>
+                            <p>26/11/2025</p>
                         </div>
                     </article>
                 </Link>
@@ -91,8 +92,8 @@ export default function NoticiasPage () {
                 <ArticlePreview img={predicciones2025} url='/noticias/predicciones-ufc-2025' title='Predicción UFC: Todos los campeones del 2025' author={null} text='Una predicción sobre quienes creo que serán los nuevos campeones para el final del año 2025' date='31/12/2024' />
                 <ArticlePreview img={invictosUFC} url='/noticias/peleadores-invictos-ufc' title='Los Peleadores Invictos de UFC en 2025' author={null} text='Los luchadores de UFC que terminaron el 2024 invictos y quienes serán capaces de mantenerlo en el 2025.' date='26/12/2024' />
                 <ArticlePreview img={iliaTopuriaLigero} url='/noticias/ilia-topuria-sube-a-peso-ligero' title='¡Ilia Topuria Abandona la División de Peso Pluma para Pelear en Peso Ligero! ¿Tiene Sentido que Busque Pelear en Peso Ligero Ahora?' author={null} text='El campeón español Ilia Topuria afirma que quizás vimos su última pelea en peso pluma, y que busca pelear en peso ligero contra Charles Oliveira' date='10/12/2024' />
+                <ArticlePreview img={bestEventsUFC2024} url='/noticias/mejores-eventos-ufc-2024' title='Los Mejores Eventos de UFC 2024' author={null} text='La lista de los eventos y carteleras de UFC numerados que marcaron este 2024. ' date='10/12/2024' />
                 <ArticlePreview img={evloevPeleaTopuria} url='/noticias/evloev-sobre-pelea-con-ilia-topuria' title='Movsar Evloev Cree Poder Ganarle a Ilia Topuria y Pide Pelear por el Cinturón' author={null} text='El luchador ruso Movsar Evloev, dijo tener lo necesario para derrotar al campeón español Ilia Topuria, luego de vencer al estadounidense Aljamain Sterling en el UFC 310' date='28/11/2024' />
-                {/* <ArticlePreview img={bestEventsUFC2024} url='/noticias/mejores-eventos-ufc-2024' title='Los Mejores Eventos de UFC 2024' author={null} text='La lista de los eventos y carteleras de UFC numerados que marcaron este 2024. ' date='10/12/2024' /> */}
                 <ArticlePreview img={espUFC2025} url='/noticias/luchadores-espanoles-en-ufc' title='Los 5 Peleadores Españoles Actuales de UFC en 2024' author={null} text='Los luchadores españoles de UFC que compiten actualmente en la compañía más grande de MMA del mundo.' date='08/12/2024' />
                 <ArticlePreview img={kaiAsakura} url='/noticias/quien-es-kai-asakura' title='¿Quién es Kai Asakura? La Estrella Japonesa Que Debutará Peleando Por el Título de UFC en el UFC 310 en Diciembre' author={null} text='El luchador japonés Kai Asakura de 31 años que peleará por el Campeonato de Peso Mosca en su debut en la UFC.' date='26/11/2024' />
                 <ArticlePreview img={campeonesViejosUFC} url='/noticias/5-campeones-mas-viejos-ufc' title='Los 5 Campeones Más Viejos de la UFC: La Lista a la que se Puede Sumar Stipe Miocic' author={null} text='El próximo sábado, el luchador estadounidense de 42 años, peleará por el cinturón de peso pesado ante Jon Jones, donde podría convertirse en uno de los campeones más añejos de la historia.' date='11/11/2024' />
