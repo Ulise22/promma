@@ -15,14 +15,14 @@ export const metadata: Metadata = {
     title: 'Próxima Pelea de Islam Makhachev 2026: ¿Ian Garry? ¿Ilia Topuria? ¿Michael Morales?',
     description: "¿Sería Ilia Topuria?, ¿Michael Morales?, ¿Ian Garry? Ya adelanto mi opinión, para mi el próximo rival de Islam Makhachev es Ian Garry.",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmakhachev-next_fight.2026.8670f312.webp&w=828&q=65',
         title: 'Próxima Pelea de Islam Makhachev 2026: ¿Ian Garry? ¿Ilia Topuria? ¿Michael Morales?',
         description: "¿Sería Ilia Topuria?, ¿Michael Morales?, ¿Ian Garry? Ya adelanto mi opinión, para mi el próximo rival de Islam Makhachev es Ian Garry.",
         url: 'https://fullmma.org/noticias/islam-makhachev-proxima-pelea-2026'
     }
 }
 
-export default function IliaTopuriaNextFight2026 () {
+export default function IslamMakhachevNextFight2026 () {
     return(
         <main>
             <ArticleHero title='Próxima Pelea de Islam Makhachev 2026: ¿Ian Garry? ¿Ilia Topuria? ¿Michael Morales?' subtitle="La división de peso wélter está más movida que nunca, y son muchos los candidatos a enfrentar al campeón de de UFC Islam Makhachev." image={hero} date='2025-11-27' author={null} updatedDate={null} />
