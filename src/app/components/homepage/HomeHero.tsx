@@ -3,8 +3,8 @@ import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import dellaMaddalenaNariz from '@/assets/articulos/0-100/70-80/jack-della-maddalena-nariz.webp'
-import alexPereiraTribu from '@/assets/articulos/0-100/70-80/alex_pereira-tribu.webp'
-import makhachevDerrota from '@/assets/articulos/0-100/70-80/makhachev-derrota.webp'
+import iliaNextMatch2026 from '@/assets/noticias/0-100/30-40/ilia-next_fight-2026.webp'
+import makhachevNextMatch2026 from '@/assets/noticias/0-100/30-40/makhachev-next_fight.2026.webp'
 
 export default function HomeHero () {
     return(
@@ -14,25 +14,25 @@ export default function HomeHero () {
                 <h2 className={styles.home__title}>¿Qué Le Pasó a Jack Della Maddalena en la Nariz?</h2>
                 <span>¿Qué le pasó en la nariz a Jack Della Maddalena? Como un rodillazo en la cabeza le deformó el tabique al campeón de la UFC.</span>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/islam-makhachev-unica-derrota'>
-                <Image className={styles.homehero__article__img} quality={50} src={makhachevDerrota} alt='' />
+            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
+                <Image className={styles.homehero__article__img} quality={50} src={makhachevNextMatch2026} alt='' />
                 <article className={styles.homehero__article__container}>
-                    <h2 className={styles.homehero__title}>La Única Derrota de Islam Makhachev</h2>
-                    <p>Primer derrota profesional en las MMA del luchador de Daguestán Islam Makhachev. </p>
+                    <h2 className={styles.homehero__title}>Próxima Pelea de Islam Makhachev 2026: ¿Ian Garry? ¿Ilia Topuria? ¿Michael Morales?</h2>
+                    <p>La división de peso wélter está más movida que nunca, y son muchos los candidatos a enfrentar al campeón de de UFC Islam Makhachev.</p>
                     <div className={styles.homehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>10/09/2025</p>
+                        <p>27/11/2025</p>
                     </div>
                 </article>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/articulos/alex-pereira-tribu'>
-                <Image className={styles.homehero__article__img} quality={50} src={alexPereiraTribu} alt='Alex Pereira Pintado Como Si Formara Parte de una Tribu Indigena' />
+            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/ilia-topuria-proxima-pelea-2026'>
+                <Image className={styles.homehero__article__img} quality={50} src={iliaNextMatch2026} alt='' />
                 <article className={styles.homehero__article__container}>
-                    <h2 className={styles.homehero__title}>¿Cuál es la Tribu de Alex Pereira?</h2>
-                    <p>El origen de Alex Pereira y su relación la tribu indigena brasileña Pataxó, de la que es descendiente</p>
+                    <h2 className={styles.homehero__title}>Próxima Pelea de Ilia Topuria 2026: ¿Arman Tsarukyan o Paddy Pimblett?</h2>
+                    <p>Todo parece indicar que ya tenemos nuevo rival para el campeón español de UFC Ilia Topuria...</p>
                     <div className={styles.homehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>09/09/2025</p>
+                        <p>26/11/2025</p>
                     </div>
                 </article>
             </Link>
