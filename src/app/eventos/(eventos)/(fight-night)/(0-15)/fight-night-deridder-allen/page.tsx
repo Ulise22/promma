@@ -5,9 +5,6 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/eventos/fight-night/0-150/0-15/deridder-allen.webp'
-import desktopAd from '@/app/eventos/components/assets/desktop.gif'
-import mobileAd from '@/app/eventos/components/assets/mobileAd.gif'
-import secondAd from '@/app/eventos/components/assets/Media10417__es300х250.gif'
 import Image from 'next/image'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
@@ -31,11 +28,6 @@ export default function DeridderAllen () {
             <ArticleHero title='UFC Vancouever: ¡Brendan Allen Derrota a Reiner De Ridder Por Rendición en el Cuarto Asalto!' subtitle='¡Mike Mallot Derrota a Kevin Holland Por Decisión Unánime! ¡Aiemann Zahabi Derrota a Marlon Vera por Decisión Dividida en una Pelea Cerradísima!' image={hero} date='2025-10-18' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
-                    <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image className={styles.desktopAd} src={desktopAd} alt='' />
-                        <Image className={styles.mobileAd} src={mobileAd} alt='' />
-                    </Link>
                     <p>Tremendo evento de UFC tenemos esta noche en Canadá, donde estarán peleando en la cartelera estelar el #4 de la división de peso medio y excampeón de ONE Championship <b>Reiner De Ridder</b> contra el #9 de la división <b>Brendan Allen</b>. En la pelea coestelar tendremos la cuarta pelea del año de <b>Kevin Holland</b>, quien se enfrentará ante el canadiense <b>Mike Mallot</b> en peso wélter. </p>
                     <p>Además tendremos un peleador latinoaméricano en la cartelera estelar, cuando el ecuatoriano y #7 de la división de peso gallo <Link href='/peleadores/marlon-vera'>Chito Vera</Link> se estará enfrentando a <b>Aiemann Zahabi</b>. </p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
@@ -54,9 +46,6 @@ export default function DeridderAllen () {
                     <h2>Drew Dober Noquea a Kyle Prepolec en el Tercer Asalto</h2>
                     <p>En un combate que sin dudas entra en la contienda para ser la pelea de la noche, es <b>Drew Dober</b> quien se termina llevando la victoria, luego de que se le descontara un punto en el tercer asalto de la pelea, por haber golpeado en las zonas bajas de su rival con una patada que le dolió hasta al público. Sin embargo, luego de 4 minutos que necesitó el canadiense <b>Kyle Prepolec</b>, se reanudó la pelea y el ganador terminó siendo <b>Drew Dober</b>, quien luego de una espectacular combinación de golpes logró llevarse la victoria por TKO en le tercer asalto. </p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image src={secondAd} alt='' />
-                    </Link>
                     <h2>Kyle Nelson Derrota a Matt Frevola por Decisión Unánime</h2>
                     <p>Otra victoria para los canadienses en esta Noche de UFC en Vancouver, con <b>Kyle Nelson</b> abriendo la cartelera estelar de la mejor manera posible con una pelea espectacular, en donde hay que remarcar un error por parte del árbitro, que separó a los peleadores a 3 segundos de que terminara el primer asalto, mientras Kyle Nelson estaba encima de Matt Frevola golpeándolo, por lo que el combate debería haber terminado ahí por TKO, sin embargo la pelea siguió y se extendió hasta los 3 asaltos, con los jueces dando como ganador a Kyle Nelson, quien a lo largo del combate fue un mejor peleador. </p>
                     <h2>Charles Jourdain Somete a Davey Grant en el Primer Asalto</h2>

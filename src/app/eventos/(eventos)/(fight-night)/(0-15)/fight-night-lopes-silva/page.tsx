@@ -5,9 +5,6 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/eventos/fight-night/0-150/0-15/lopes-vs-silva.webp'
-import desktopAd from '@/app/eventos/components/assets/desktop.gif'
-import mobileAd from '@/app/eventos/components/assets/mobileAd.gif'
-import secondAd from '@/app/eventos/components/assets/Media10417__es300х250.gif'
 import Image from 'next/image'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
@@ -31,14 +28,8 @@ export default function LopesSilva () {
             <ArticleHero title='UFC Noche: ¡Diego Lopes Noquea a Jean Silva en el Segundo Asalto!' subtitle='¡David Martínez Derrota Rob Font y se Mete Al Top 10 de la División!' image={hero} date='2025-09-13' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
-                    <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image className={styles.desktopAd} src={desktopAd} alt='' />
-                        <Image className={styles.mobileAd} src={mobileAd} alt='' />
-                    </Link>
                     <p>Tremendo evento de UFC tenemos el día de hoy en honor a la Independencia de México, donde el luchador de doble nacionalidad brasileña/mexicana <Link href='/peleadores/diego-lopes'>Diego Lopes</Link>, quien estará enfrentando a su compatriota de Brasil <b>Jean Silva</b>, quien actualmente es el único luchador invicto en la UFC de los <Link href='/articulos/fighting-nerds'>Fighting Nerds</Link>. </p>
                     <p>Además, en la pelea coestelar estarán peleando el #9 de la división de peso gallo de la compañía <b>Rob Font</b>, quien defenderá su puesto en los rankings ante el prospecto mexicano <b>David Martínez</b>, quien en su segunda pelea en la UFC ya tendrá una prueba de fuego. Sin mencionar la enorme cantidad de peleadores mexicano y latinos que estarán presentes peleando el día de hoy. </p>
-                    <p></p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
                     <h2>Daniil Donchenko Noquea a Rodrigo Sezinando en el Primer Asalto en al Final de The Ultimate Fighter</h2>
                     <p>Tremenda manera de comenzar esta cartelera del Noche UFC, que nos trajó la final del TUF en peso wélter, donde el ucraniano <b>Daniil Donchenko</b> fue capaz de imponerse por sobre su rival <b>Rodrigo Sezinando</b>, conectando un montón de codazos a la cara de su rival que le generaron cortes en el rostro, convirtiendo esto en una pelea sangrienta. Finalmente fue una mano derecha la que consiguió el knockdown, que llegó seguido de una avalancha de golpes que el árbitro los separará y diera como ganador por TKO al luchador ucraniano. </p>
@@ -57,9 +48,6 @@ export default function LopesSilva () {
                     <h2>Dusko Todorovic Somete a José Daniel Medina en el Primer Asalto</h2>
                     <p>El luchador serbio <b>Dusko Tudorovic</b> se hace con la victoria de manera contundente, al primer generarle un corte en la ceja al boliviano <b>José Daniel Medina</b>, para posteriormente, cuando fue capaz de derribarlo y tirarlo al suelo, le ganó la espalda y le conectó un mataleón que obligaría al luchador sudaméricano a tapear. Consiguiendo de esta manera la victoria por sumisión en el primer asalto de la pelea. </p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image src={secondAd} alt='' />
-                    </Link>
                     <h2>Santiago Luna Noquea a Quang Le en el Primer Asalto</h2>
                     <p>El luchador mexicano de 21 años <b>Santiago Luna</b> abre la cartelera estelar de la mejor manera para México, al lograr un nocaut espectacular, que se vuelve mejor si tenemos en cuenta que ni bien comenzó la pelea, el luchador de Vietnam <b>Quang Le</b> lo había conectado y estuvo cerca de ser él quien finalizara. Sin embargo, el mexicano demostró un corazón y unos huevos impresionantes, al sobrevivir a semejantes golpes, y ser capaz de dar vuelta la pelea, conectando él mismo los golpes letales que terminarían noqueando a su rival, siendo capaz además de mantener su invicto y extender su récord profesional en MMA a un 7-0. </p>
                     <h2>Alexander Hernández Noquea a Diego Ferreira en el Segundo Asalto</h2>

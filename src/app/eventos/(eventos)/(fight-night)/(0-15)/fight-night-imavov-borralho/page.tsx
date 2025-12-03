@@ -5,9 +5,6 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/eventos/fight-night/0-150/0-15/imavov_vs_borralho.webp'
-import desktopAd from '@/app/eventos/components/assets/desktop.gif'
-import mobileAd from '@/app/eventos/components/assets/mobileAd.gif'
-import secondAd from '@/app/eventos/components/assets/Media10417__es300х250.gif'
 import Image from 'next/image'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
@@ -31,11 +28,6 @@ export default function ImavovBorralho () {
             <ArticleHero title='UFC Paris: ¡Nassourdine Imavov Derrota a Caio Borralho Por Decisión Unánime en La Pelea de la Noche!' subtitle='¡Benoit Saint Denis Somete a Mauricio Ruffy en el Segundo Asalto! ¡Ante Delija Debuta con Nocaut ante Marcin Tybura!' image={hero} date='2025-09-06' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
-                    <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image className={styles.desktopAd} src={desktopAd} alt='' />
-                        <Image className={styles.mobileAd} src={mobileAd} alt='' />
-                    </Link>
                     <p>Tremenda evento de UFC tendremos el día de hoy en París, Francia, que nos recibirá con una pelea estelar candidata a la pelea de la noche como lo es el Nasssourdine Imavov vs <Link href='/peleadores/caio-borralho'>Caio Borralho</Link>, que se verán cara a cara en la busqueda de ganarses una oportunidad por el título que tiene <Link href='/peleadores/khamzat-chimaev'>Khamzat Chimaev</Link>.</p>
                     <p>El evento coestelar es igual de emocionante, ya que nos trae a los peleadores de peso ligero <b>Benoit Saint Denis</b>, que volverá a pelear en su país para enfrentar al brasileño, que al igual que Borralho pertenece a los <Link href='/articulos/fighting-nerds'>Fighting Nerds</Link>, <b>Mauricio Ruffy</b>, que luego de 3 victorias consecutivas en la UFC buscará entrar al top 15 de la división. </p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
@@ -54,9 +46,6 @@ export default function ImavovBorralho () {
                     <h2>Oumar Sy Noquea a Brendson Ribeiro en el Primer Asalto</h2>
                     <p>Primer victoria para los franceses, luego de que <b>Oumar Sy</b> llevara en 2 ocasiones al suelo a su rival, conectando exitosamente sus 2 intentos de derribo, y lo castigara con golpes desde el suelo, dejando al brasileño <b>Brendson Ribeiro</b> indefenso ante los ataques de su rival. De esta forma terminamos la cartelera preliminar con un total de 7 finalizaciones en 7 peleas, espectacular. Además, los franceses consiguen su primer victoria de la noche en una cartelera a la que todavía le quedan por pelear a un montón de peleadores de este país. </p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image src={secondAd} alt='' />
-                    </Link>
                     <h2>William Gomis Derrota a Robert Ruchala por Decisión Unánime</h2>
                     <p>Primera pelea que se va a la decisión en esta cartelera, en lo que es la primer pelea estelar de la noche. En este caso quien terminó saliendo triunfador es el peleador local, el francés <b>William Gomis</b>, quien fue mejor a su rival en la mayor parte de la pelea, sabiendo cerrar de gran manera su combate en el tercer asalto, que a mi criterio fue el mejor de Gomis. </p>
                     <h2>Axel Sola Debuta Noqueando a Rhys McKee en el Tercer Asalto</h2>

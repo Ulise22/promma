@@ -5,10 +5,6 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/eventos/ufc/0-150/0-15/ufc322.webp'
-import desktopAd from '@/app/eventos/components/assets/desktop.gif'
-import mobileAd from '@/app/eventos/components/assets/mobileAd.gif'
-import secondAd from '@/app/eventos/components/assets/Media10417__es300х250.gif'
-import Image from 'next/image'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
@@ -31,11 +27,6 @@ export default function UFC322 () {
             <ArticleHero title="UFC 322: ¡Islam Makhachev Derrota a Jack Della Maddalena Por Decisión Unánime y es Doble Campeón! ¡Valentina Shevchenko Derrota a Zhang Weili Por Decisión Unánime!" subtitle='¡Michael Morales Noquea a Sean Brady en el Primer Asalto! ¡Carlos Prates Noquea a Leon Edwards en el Segundo Asalto! ¡Benoit Saint Denis Noquea a Beneil Dariush en el Primer Asalto!' image={hero} date='2025-11-15' author={null} updatedDate='2025-11-16' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
-                    <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image className={styles.desktopAd} src={desktopAd} alt='' />
-                        <Image className={styles.mobileAd} src={mobileAd} alt='' />
-                    </Link>
                     <p>Esta noche tendremos la que a mi opinión personal es la mejor cartelera de la UFC en el año, con el <b>UFC 322</b> que estará siendo encabezado por el actual campeón de peso wélter <Link href='/peleadores/jack-della-maddalena'>Jack Della Maddalena</Link>, quien estará defendiendo su cinturón ante el excampeón de peso ligero <Link href='/peleadores/islam-makhachev'>Islam Makhachev</Link>, quien dejó vacante su cinturón para buscar ser doble campeón de la compañía. Por si fuera poco, la pelea coestelar es igual de emocionante, ya que la actual campeona de peso mosca femenino <Link href='/mujeres/valentina-shevchenko'>Valentina Shevchenko</Link> estará defendiendo su cinturón ante la última campeona de peso paja <Link href='/mujeres/zhang-weili'>Zhang Weili</Link>, quien al igual que Makhachev, dejó vacante su título para buscar ganar otro esta noche. </p>
                     <p>Y por si con eso no alcanzaba para ver la cartelera completa, además va a estar peleando el ecuatoriano <b>Michael Morales</b>, enfretando al #2 de la división de peso wélter <b>Sean Brady</b>. El excampeón de peso wélter <Link href='/peleadores/leon-edwards'>Leon Edwards</Link> también estará presente, enfrentando al luchador brasileño pertenciente a los <Link href='/articulos/fighting-nerds'>Fighting Nerds</Link> <Link href='/peleadores/carlos-prates'>Carlos Prates</Link>. Finalmente la cartelera estelar abrirá con una pelea espectacular, cuando el veterano luchador estadounidense de peso ligero <b>Beneil Dariush</b>, se enfrentará al francés <b>Benoit Saint Denis</b>, donde el francés tendrá la oportunidad de entrar al top 10 de la división en caso de llevarse una victoria. </p>
                     <h2 className={styles.article__fightsHierarchy}>Primeros Preliminares</h2>
@@ -50,9 +41,6 @@ export default function UFC322 () {
                     <h2>Kyle Daukaus Somete a Gerald Meershchaert en el Primer Asalto</h2>
                     <p>Finalización express por parte de <b>Kyle Daukaus</b>, quien con una combinación de golpes derribó a su rival al suelo. Posterior a esto, en lugar de buscar la finalización por TKO, buscó ahorcar a su rival con un Darce Choke que finalmente obligaría a Meershchaert a tapear. </p>
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image src={secondAd} alt='' />
-                    </Link>
                     <h2>Ethyn Ewing Derrota a Malcolm Weellmaker Y Da La Sorpresa</h2>
                     <p>El luchador estadounidense <b>Ethyn Ewing</b> logra una espectacular victoria luego de dominar completamente a su rival <b>Malcolm Weellmaker</b>, quien era uno de los mayores prospectos de la división, estando invicto con 3-0 hasta el día de hoy. Todo esto se da con Ewing habiendo tomado la pelea en corto aviso, luego de haber peleado hace poco más de una semana. </p>
                     <h2>Erin Blanchfield Somete a Tracy Cortez en el Segundo Asalto</h2>
@@ -62,9 +50,6 @@ export default function UFC322 () {
                     <h2>Bo Nickal Noquea a Rodolfo Vieira en el Tercer Asalto</h2>
                     <p>Espectacular KO el que consiguió el estadounidense <b>Bo Nickal</b> en el tercer asalto de la pelea, que provino de una patada con la pierna izquierda a la cabeza de su rival que lo tumbó en el suelo, dejándolo inconsciente en el acto. Todo esto viene después de una actuación que venía siendo sobresaliente por parte de Nickal, quien mostró haber mejorado un montón su striking, conectando golpes contundentes todo el tiempo al brasileño. </p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image src={secondAd} alt='' />
-                    </Link>
                     <h2>Benoit Saint Denis Noquea a Beneil Dariush en el Primer Asalto</h2>
                     <p>Tremendo KO el que acabamos de presenciar, con el peleador francés <b>Benoit Saint Denis</b> sacándose un gancho de izquierda que mandaría a la lona a su rival, sin ni siquiera la necesidad de ir a rematarlo. De esta forma, el ex militar obtiene una victoria que lo posiciona en el top 10 de la división de peso ligero que actualmente tiene a <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> como campeón. </p>
                     <h2>Carlos Prates Noquea a Leon Edwards en el Segundo Asalto</h2>

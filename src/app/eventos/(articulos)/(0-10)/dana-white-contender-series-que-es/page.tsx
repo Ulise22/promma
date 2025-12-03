@@ -5,9 +5,6 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/eventos/articulos/0-10/dwcs_que_es.webp'
-import desktopAd from '@/app/eventos/components/assets/desktop.gif'
-import mobileAd from '@/app/eventos/components/assets/mobileAd.gif'
-import Image from 'next/image'
 import { YouTubeEmbed } from '@next/third-parties/google'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
@@ -31,11 +28,6 @@ export default function QueEsDWCS () {
             <ArticleHero title="Que es el Dana White Contender Series" subtitle='¿Qué es y Cómo Funciona el Dana White Contender Series? El programa de televisión donde los peleadores compiten por un contrato con la UFC' image={hero} date='2025-08-19' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
-                    <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image className={styles.desktopAd} src={desktopAd} alt='' />
-                        <Image className={styles.mobileAd} src={mobileAd} alt='' />
-                    </Link>
                     <p>Dana White Contender Series es un programa de televisión deportivo donde se ven varias peleas de MMA, producido por UFC, presenta a luchadores prometedores que competirán en combates en vivo en busca de un contrato con la UFC. Las peleas cuentan con el mismo Dana White, presidente de la compañía, expectando los combates junto a su equipo, quienes si se sienten impresionados con el desempeño de los peleadores, les brindarán un contrato con la UFC como recompenza. </p>
                     <p>Cada episodio del DWCS (Dana White Contender Series) presenta una serie de combates en vivo que serán observados por Dana White. En ellos se pueden observar una amplia gama de talento emergente, que buscan usar esta plataforma que es el DWCS como trampolín para sus carreras, obteniendo como premio firmar un contrato con la UFC si logran impresionar a Dana White y a los ejecutivos de la empresa. </p>
                     <p>Los criterios para que un peleador que se presente al programa sea seleccionado pueden variar, basándose generalmente en el rendimiento del luchador dentro del octágono aquella noche, en el historial en MMA, y en el potencial que le vean para convertirse en una estrella del deporte. </p>
@@ -46,10 +38,6 @@ export default function QueEsDWCS () {
                     <p>Este programa puede ser visto actualmente por <b>ESPN o Disney+</b> en el caso de la mayoría de países de Latinoamérica. En el caso de México puede ser visto vía <b>FOX Sports Premiun</b>. Y finalmente en España puede verse en <b>HBO MAX</b>. Además, cabe aclarar que el programa puede ser visto desde cualquier parte del mundo mediante <b>UFC Fight Pass</b>.</p>
                     <h2>Campeones de UFC que salieron del Dana White Contender Series</h2>
                     <p>El legado que ha dejado este programa para el deporte y para la UFC, pese a ser un show relativamente reciente, ya es significativo y continúa creciendo día a día. Contando en la actualidad con 3 campeones que iniciaron su carrera en la compañía de artes marciales mixtas más grande del mundo allí, siendo estos: <Link href='/peleadores/sean-omalley'>Sean O&apos;Malley</Link>, <b>Jamahal Hill</b> y más recientemente <b>Jack Della Madallena</b>. </p>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image className={styles.desktopAd} src={desktopAd} alt='' />
-                        <Image className={styles.mobileAd} src={mobileAd} alt='' />
-                    </Link>
                     <EndArticle />
                 </article>
                 <AsideChamps />

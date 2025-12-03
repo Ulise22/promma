@@ -5,9 +5,6 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/eventos/fight-night/0-150/0-15/ulberg-vs-reyes.webp'
-import desktopAd from '@/app/eventos/components/assets/desktop.gif'
-import mobileAd from '@/app/eventos/components/assets/mobileAd.gif'
-import secondAd from '@/app/eventos/components/assets/Media10417__es300х250.gif'
 import Image from 'next/image'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
@@ -31,11 +28,6 @@ export default function UlbergReyes () {
             <ArticleHero title='UFC Perth: ¡Carlos Ulberg Noquea a Dominick Reyes en el Primer Asalto!' subtitle='¡Jimmy Crute Somete a Ivan Erslan en el Primer Asalto! ¡Neil Magny Somete a Jake Matthews en el Tercer Asalto!' image={hero} date='2025-09-27' author={null} updatedDate='2025-09-28' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
-                    <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image className={styles.desktopAd} src={desktopAd} alt='' />
-                        <Image className={styles.mobileAd} src={mobileAd} alt='' />
-                    </Link>
                     <p>Espectacular evento de UFC esta noche en Perth, Australia que nos trae como evento estelar la pelea entre el #3 de peso semipesado, el neozelandés <b>Carlos Ulberg</b>, quien viene de una racha imparable de 8 victorias consecutivas en la UFC, y el histórico peleador estadounidense <b>Dominick Reyes</b>, quien luego de hacer un parate a su carrera de 2 años, volvió mejor que nunca, acumulando una racha de 3 victorias consectuivas, ocupando el puesto #7 en los rankings de la división. </p>
                     <p>Además, tendremos en la pelea coestelar el enfrentamiento entre el local <b>Jimmy Crute</b>, y el croata <b>Ivan Erslan</b>, también en peso semipesado. También tendremos presencia latina en la noche de hoy, cuando en la cartelera preliminar estará peleando el peruano <b>Rolando Bedoya</b> ante el australiano <b>Jamie Mullarkey</b>, en peso ligero, además de un montón de peleadores australianos que buscarán brillar frente a su gente. </p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
@@ -54,9 +46,6 @@ export default function UlbergReyes () {
                     <h2>Navajo Stirling Derrota a Rodolfo Bellato y Mantiene el Invicto</h2>
                     <p>El luchador de Nueva Zelanda <b>Navajo Stirling</b> logra hacerse con la victoria en un tremendo combate ante el brasileño <b>Rodolfo Bellato</b>, luego de tener especialmente un primer asalto en el que fue completamente dominante, golpeando desde todos los ángulos posibles a su rival, conectando muchísimos más golpes que su rival, y aunque en el segundo y tercer asalto la pelea se fue igualando, lo cierto es que Bellato no hizo lo suficiente para sacarle la victoria a Navajo Stirling, quien por decisión unánime mantiene su invicto y se lleva la victoria en esta última pelea preliminar. </p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image src={secondAd} alt='' />
-                    </Link>
                     <h2>Tom Nolan Somete a Charlie Campbell en el Primer Asalto</h2>
                     <p>Espectacular manera de comenzar la cartelera estelar de esta noche, con una nueva victoria por parte de un luchador australiano, esta vez de <b>Tom Nolan</b>, quien comenzó sufriendo bastante su pelea contra <b>Charlie Campbell</b>, pero que en el momento en que fue capaz de derribar al estadounidense, tuvo la rapidez necesaria para conectar un mataleón que terminaría sometiendo a su rival en el primer asalto. </p>
                     <h2>Neil Magny Somete a Jake Matthews en el Tercer Asalto</h2>

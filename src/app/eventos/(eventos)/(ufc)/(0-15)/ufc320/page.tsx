@@ -5,9 +5,6 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/eventos/ufc/0-150/0-15/ufc320.webp'
-import desktopAd from '@/app/eventos/components/assets/desktop.gif'
-import mobileAd from '@/app/eventos/components/assets/mobileAd.gif'
-import secondAd from '@/app/eventos/components/assets/Media10417__es300х250.gif'
 import Image from 'next/image'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
@@ -31,11 +28,6 @@ export default function UFC320 () {
             <ArticleHero title="UFC 320: ¡Alex Pereira Noquea a Magomed Ankalaev en el Primer Asalto y Vuelve a Ser Campeón! ¡Merab Dvalishvili Derrota a Cory Sandhagen y Sigue Siendo Campeón!" subtitle='¡Jiri Prochazka Noquea a Khalil Rountree en el Tercer Asalto en La Pelea de la Noche! ¡Youssef Zalal Somete a Josh Emmet en el Primer Asalto de la Pelea!' image={hero} date='2025-10-04' author={null} updatedDate='2025-10-05' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
-                    <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image className={styles.desktopAd} src={desktopAd} alt='' />
-                        <Image className={styles.mobileAd} src={mobileAd} alt='' />
-                    </Link>
                     <p>Increíble la noche de UFC que se nos viene hoy, con el <b>UFC 320</b> siendo sin dudas una de las mejores carteleras del año, encabezada por el nuevo campeón de peso semipesado <Link href='/peleadores/magomed-ankalaev'>Magomed Ankalaev</Link> que buscará su primera defensa del cinturón en una revancha con <b>El Poatan</b> <Link href='/peleadores/alex-pereira'>Alex Pereira</Link>, quien buscará recuperar el cinturón que era suyo a principios de año. Aquella no sería la única pelea por el cinturón que habrá, dado que en la pelea coestelar estará <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link> defendiendo nuevamente su cinturón en peso gallo, ante el #4 de la división <b>Cory Sandhagen</b>, que viene de una victoria por nocaut en su último combate. </p>
                     <p>Toda la cartelera estelear vale la pena verla completa de principio a fin, dado que también estará presente el &quot;Samurái&quot; <Link href='/peleadores/jiri-prochazka'>Jiri Prochazka</Link>, enfrentando al excontendiente al título <b>Khalil Rountree</b>, en un combate que dependiendo de como terminé la pelea estelar, puede definir al próximo contendiente al título. Además estará peleando el veterano <b>Josh Emmet</b> en peso pluma, ante el joven peleador de 29 años <b>Youssef Zalal</b>. </p>
                     <h2 className={styles.article__fightsHierarchy}>Primeros Preliminares</h2>
@@ -50,9 +42,6 @@ export default function UFC320 () {
                     <h2>Punahele Soriano Derrota a Nikolay Veretennikov Por Decisión Unánime</h2>
                     <p>Gran victoria para el luchador estadounidense <b>Punahele Soriano</b>, quien fue claramente superior a su rival de Kazajistán, conectando los mejores golpes, siendo capaz de derribarlo en más de una ocasión, y defendiendo de forma excelente los intentos de sumisión por parte de su rival, que constantemente buscaba conectar una guillotina a la que Soriano siempre encontró respuesta y supo castigar. De esta forma terminamos las primeras peleas preliminares con sólo 1 finalización en 5 peleas. </p>
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image src={secondAd} alt='' />
-                    </Link>
                     <h2>Edmen Shahbazyan Derrota a Andre Muniz Por Nocaut en el Primer Asalto</h2>
                     <p>Primer nocaut de la noche por parte del estadounidense <b>Edmen Shahbazyan</b>, quien al primero conectar un gancho de izquierda, olió sangre al ver que ese golpe impactó gravemente a su rival, por lo que procedió a atacarlo con una ráfaga de golpes hasta que el combate fue finalizado por el árbitro, que vió como el brasileño <b>Andre Muniz</b> ya no respondía, todo esto a unos pocos segundos de que termine el primer asalto. Por lo que el estadounidense abre las preliminares de manera espectacular, consiguiendo el primer nocaut de la noche. </p>
                     <h2>Jakub Wiklacz Derrota a Patchy Mix Por Decisión Dividida</h2>
@@ -62,9 +51,6 @@ export default function UFC320 () {
                     <h2>Ateba Gautier Noquea a Tre&apos;ston Vines en el Primer Asalto</h2>
                     <p>Tercer victoria por nocaut consecutiva para el luchador camerunés <b>Ateba Gautier</b>, quien desde su llegada a la UFC ha demostrado tener un poder de KO insuperable en la división de peso medio de la compañía, logrando esta noche otro más, en el primer asalto, luego de haber primero conectado una rodilla a la cabeza de su rival, para terminar rematándolo a golpes ante los que Vines quedó completamente indefenso. </p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image src={secondAd} alt='' />
-                    </Link>
                     <h2>Joe Pyfer Somete a Abus Magomedov en el Segundo Asalto</h2>
                     <p>Tremenda manera de iniciar esta cartelera estelar, que había comenzado con el luchador alemán <b>Abus Magomedov</b> iniciando con el pie derecho, siendo superior a su rival. Pero el guión del combate cambiaría rotundamente en el segundo asalto, donde el estadounidense <b>Joe Pyfer</b> haría los ajustes necesarios para primero conectar a su rival, y para posteriormente ganarle la espalda para conectarle un mataleón que lo sometería en el segundo asalto de la pelea. </p>
                     <h2>Youssef Zalal Somete a Josh Emmet en el Primer Asalto</h2>

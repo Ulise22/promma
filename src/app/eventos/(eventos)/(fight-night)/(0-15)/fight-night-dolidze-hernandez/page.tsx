@@ -5,9 +5,6 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/eventos/fight-night/0-150/0-15/dolidze_hernandez.webp'
-import desktopAd from '@/app/eventos/components/assets/desktop.gif'
-import mobileAd from '@/app/eventos/components/assets/mobileAd.gif'
-import secondAd from '@/app/eventos/components/assets/Media10417__es300х250.gif'
 import Image from 'next/image'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
@@ -31,11 +28,6 @@ export default function DolidzeHernandez () {
             <ArticleHero title='UFC Vegas 109: ¡Anthony Hernandez Somete a Roman Dolidze en el Cuarto Asalto de la Pelea!' subtitle='¡Steve Erceg Derrota a Ode Osbourne Por Decisión Unánime! ¡Josely Edwards Noquea a Priscila Cachoeira en el Primer Asalto!' image={hero} date='2025-08-09' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
-                    <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image className={styles.desktopAd} src={desktopAd} alt='' />
-                        <Image className={styles.mobileAd} src={mobileAd} alt='' />
-                    </Link>
                     <p>Noche de UFC nuevamente en el UFC APEX, donde tendremos tremendo combate de peso medio como evento estelar, en lo que es la antesala al <b>UFC 319</b>, donde el cinturón de esta misma división estará en juego al enfrentar al campeón <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link> contra el retador <Link href='/peleadores/khamzat-chimaev'>Khamzat Chimaev</Link>. Hoy sin embargo veremos al #9 de las 185lbs, el georgiano <b>Roman Dolidze</b>, enfrentar al estadounidense y #10 de la división, <b>Anthony Hernandez</b> en el evento estelar. </p>
                     <p>Pero además esta cartelera estará acompañada de combates más que interesantes, contando con la presencia del ex retador de peso mosca, <b>Steve Erceg</b>, enfrentarse en la división de peso gallo al luchador jamaiquino <b>Ode&apos; Osbourne</b>. Además que de por supuesto contaremos con presencia latina, con la panameña <b>Joselyne Edwards</b>, quien actualmente está #14 en la división de peso gallo femenina, defendiendo su lugar en los rankings al enfrentar a la brasileña <b>Priscila Cachoeira</b>. </p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
@@ -52,9 +44,6 @@ export default function DolidzeHernandez () {
                     <h2>Julius Walker Derrota a Rafael Cerqueira por Decisión Unánime</h2>
                     <p>Tremenda victoria del estadounidense <b>Julius Walker</b> ante el brasileño <b>Rafael Cerqueira</b>, quien dominó tanto por arriba como por debajo a su rival, mostrándose supeior, siendo capaz de concretar sus derribos y conectando muchos golpes significantes, pero que sin embargo sufrió un poco en el último asalto, cuando Cerqueira pudo conectar varios golpes que claramente dañaron al estadounidense. Sin embargo, luego de un derribo, Walker fue capaz de controlar el combate para asegurar la victoria y quedarse con el último combate de esta cartelera preliminar. </p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image src={secondAd} alt='' />
-                    </Link>
                     <h2>Christian Leroy Duncan Noquea a Eryk Anders en el Primer Asalto</h2>
                     <p>El luchador inglés logra hacerse con la victoria por la vía nocaut, luego de conectar primero un codo giratorio, y luego una combinación de golpes que terminarían por obligar al árbitro a separalos para dar por ganador a Leroy Duncan por TKO en esta primera pelea de la cartelera estelar. </p>
                     <h2>Jean Matsumoto Derrota a Miles Johns Por Decisión Dividida</h2>

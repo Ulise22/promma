@@ -5,9 +5,6 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/eventos/ufc/0-150/0-15/ufc318_portada.webp'
-import desktopAd from '@/app/eventos/components/assets/desktop.gif'
-import mobileAd from '@/app/eventos/components/assets/mobileAd.gif'
-import secondAd from '@/app/eventos/components/assets/Media10417__es300х250.gif'
 import Image from 'next/image'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
@@ -31,11 +28,6 @@ export default function UFC318 () {
             <ArticleHero title="UFC 318: ¡Max Holloway Derrota a Dustin Poirier en su Retirada y Sigue Siendo el BMF!" subtitle='¡Paulo Costa Regresa Mejor Que Nunca y Derrota Roman Kopylov! ¡Michael Johnson Derrota a Daniel Zellhuber por Decisión Unánime!' image={hero} date='2025-07-19' author={null} updatedDate='2025-07-20' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
-                    <p className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</p>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image className={styles.desktopAd} src={desktopAd} alt='' />
-                        <Image className={styles.mobileAd} src={mobileAd} alt='' />
-                    </Link>
                     <p>Esta noche tenemos un evento histórico en el UFC, que será encabezado por la leyenda <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link> quien esta noche se subirá al octágono por última vez en su carrera, retirándose oficialmente después de pelear contra <Link href='/peleadores/max-holloway'>Max Holloway</Link> por el cinturón BMF, en lo que promete ser una de las mejores peleas que tendremos en el año. </p>
                     <p>Además tendremos un gran combate en la pelea coestelar, con el brasileño <b>Paulo Costa</b> enfrentándose al ruso <b>Roman Kopylov</b> en la división de peso medio de la UFC. Contaremos también con presencia latina en el octágono el día de hoy, peleando primero en las preliminares el argentino <b>Francisco Prado</b>, ante el luchador de Kazajistán <b>Nikolay Veretennikov</b>, y tendremos abriendo la cartelera estelar al mexicano <b>Daniel Zellhuber</b>, que enfrentará al estadounidense Michael Johnson. </p>
                     <h2 className={styles.article__fightsHierarchy}>Primeros Preliminares</h2>
@@ -50,9 +42,6 @@ export default function UFC318 () {
                     <h2>Islam Dulatov Debuta con Nocaut ante Adam Fugitt</h2>
                     <p>El alemán Islam Dulatov, el <Link href='/noticias/modelo-de-ufc'>Modelo de la UFC</Link> debuta de la mejor manera en la compañía de artes marciales mixtas más grande del mundo, al luego de mostrarse bastante sobrado en el striking, ser capaz de conectar unos golpes que tumbarían a su rival, para finalmente rematarlo en el suelo llevando <Link href='/articulos/arbitro-de-ufc-con-barba'>Mike Beltrán</Link> a separarlos para darle la victoria por TKO en el primer asalto, y finalizar estas primeras peleas preliminares con un registro de 5 finalizaciones en 5 peleas. </p>
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image src={secondAd} alt='' />
-                    </Link>
                     <h2>Ateba Gautier Noquea a Robert Valentin en el Primer Asalto</h2>
                     <p>El peleador de Camerún logra una espectacular victoria por TKO en el primer asalto de la pelea, en poco más de 1 minuto. Consiguiendo de esta manera su segundo victoria consecutiva en la compañía por nocaut en el primer asalto, demostrando un poder en las manos que pocos peleadores de peso medio comparten. Seguimos en racha en esta cartelera con 6 finalizaciones en 6 peleas.</p>
                     <h2>Nikolay Veretennikov Gana por Decisión Dividida al Argentino Francisco Prado</h2>
@@ -62,9 +51,6 @@ export default function UFC318 () {
                     <h2>Vinicius Oliveira Derrota a Kyler Phillips y Sigue Invicto en la UFC</h2>
                     <p>El brasileño #15 de la división de peso gallo hoy tuvo su cuarta pelea en la UFC, donde logró demostrar que es una de las grandes promesas de las 135lbs, dando un gran combate que comenzó perdiendo, pero que rápidamente fue capaz de dar vuelta, dominando progresivamente más a su rival. De esta manera, habiendo ganado claramente el segundo y tercer asalto, <Link href='/noticias/vinicius-oliveira-ufc'>Vinicius Oliveira</Link> logra su cuarta victoria en la compañía, y seguramente escalará unos cuantos puestos en el ranking, posicionándose como un próximo top 10 de esta división que tiene como campeón a <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link>.</p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image src={secondAd} alt='' />
-                    </Link>
                     <h2>Michael Johnson Derrota a Daniel Zellhuber por Decisión Unánime</h2>
                     <p>El estadounidense se impone por sobre el mexicano en esta primer pelea de la cartelera estelar, luego de dominar la mayor parte del combate, al conectar un mayor volumen de golpes que le ayudaron a puntuar para terminar llevándose la pelea ante un Daniel Zellhuber que aunque parecía tener más fuerza en sus golpes, lo cierto es que conectó bastante menos que su rival, y que terminó por lanzar un montón de patadas a la cabeza que siempre eran bien bloqueadas por Johnson. Por lo que este primer combate de la cartelera estelar termina en victoria por decisión unánime para el estadounidense. </p>
                     <h2>Patricio Pitbull derrota a Dan Ige por Decisión Unánime</h2>

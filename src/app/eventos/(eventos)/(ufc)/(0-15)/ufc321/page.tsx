@@ -5,10 +5,6 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/eventos/ufc/0-150/0-15/ufc321.webp'
-import desktopAd from '@/app/eventos/components/assets/desktop.gif'
-import mobileAd from '@/app/eventos/components/assets/mobileAd.gif'
-import secondAd from '@/app/eventos/components/assets/Media10417__es300х250.gif'
-import Image from 'next/image'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
 const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
@@ -31,11 +27,6 @@ export default function UFC321 () {
             <ArticleHero title="UFC 321: ¡La pelea entre Tom Aspinall y Ciryl Gane Termina Sin Resultado por un Piquete De Ojo y Aspinall Sigue Siendo Campeón! ¡Mackenzie Dern Derrota a Virna Jandiroba y es Nueva Campeona!" subtitle='¡Umar Nurmagomedov Derrota Mario Bautista por Decisión Unánime en una Victoria Dominante! ¡Alexander Volkov Derrota a Jailton Almeida por Decisión Dividida!' image={hero} date='2025-10-25' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
-                    <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image className={styles.desktopAd} src={desktopAd} alt='' />
-                        <Image className={styles.mobileAd} src={mobileAd} alt='' />
-                    </Link>
                     <p>Tremendo el evento de MMA que tenemos esta noche, donde en el <b>UFC 321</b> tendremos como evento estelar la pelea por el título de Peso Pesado de la UFC, en la que el actual campeón <Link href='/peleadores/tom-aspinall'>Tom Aspinall</Link> estará defendiendo por primera vez su cinturón indiscutido ante el #1 de la división, el francés <Link href='/peleadores/ciryl-gane'>Ciryl Gane</Link>. Por si fuera poco, en el evento coestelar se estará disputando el título vacante de peso paja femenino, donde la #1 de la división <b>Virna Jandiroba</b> se enfrentará a la #5 de la división <Link href='/mujeres/mackenzie-dern'>Mackenzie Dern</Link></p>
                     <p>Además, volverá a pelear el daguestaní, primo de <Link href='/leyendas/khabib-nurmagomedov'>Khabib</Link>, <Link href='/peleadores/umar-nurmagomedov'>Umar Nurmagomedov</Link>, enfrentando al #8 de la división de peso gallo <b>Mario Bautista</b>. El otro combate de peso pesado al que hay que prestarle atención, es el del #2, el ruso <b>Alexander Volkov</b>, y el brasileño #5 <b>Jailton Almeida</b>, en busqueda de una oportunidad de pelear por el título de la división con el ganador del combate estelar. </p>
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
@@ -62,9 +53,6 @@ export default function UFC321 () {
                     <h2></h2>
                     <p></p> */}
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image src={secondAd} alt='' />
-                    </Link>
                     <h2>Azamat Murzakanov Noquea a Aleksandar Rakic en el Primer Asalto</h2>
                     <p>Espectacular victoria del ruso <b>Azamat Murzakanov</b>, quien en el primer asalto fue capaz de noquear al #7 de la división <b>Aleksandar Rakic</b>, tan sólo con un jab, que una vez impactó en la cabeza de su oponente, le hizo caer al suelo inmediatamente, necesitando sólo de un golpes más para que el árbitro los separara y diera como ganadro a Murzakanov por TKO en el primer asalto. De esta manera, el luchador ruso mantiene y extiende su récord invicto a 16-0, escalando además, al top 10 de la división de peso semipesado. </p>
                     <h2>Alexander Volkov Derrota a Jailton Almeida por Decisión Dividida</h2>

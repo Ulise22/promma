@@ -5,9 +5,6 @@ import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 /* Images */
 import hero from '@/assets/eventos/fight-night/0-150/0-15/oliveira-vs-gamrot.webp'
-import desktopAd from '@/app/eventos/components/assets/desktop.gif'
-import mobileAd from '@/app/eventos/components/assets/mobileAd.gif'
-import secondAd from '@/app/eventos/components/assets/Media10417__es300х250.gif'
 import Image from 'next/image'
 
 const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
@@ -31,11 +28,6 @@ export default function OliveiraGamrot () {
             <ArticleHero title='UFC Río: ¡Charles Oliveira Somete a Mateusz Gamrot en el Segundo Asalto!' subtitle='¡Deiveson Figueiredo Derrota a Montel Jackson Por Decisión Dividida! ¡Joel Álvarez Domina y Derrota a Vicente Luque por Decisión Unánime!' image={hero} date='2025-10-11' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
-                    <span className={styles.article__warning}>‼️Las apuestas están prohibidas para menores de edad. Si crees que tienes un problema con el juego, busca ayuda profesional. Jugar debe ser una actividad de entretenimiento, no una forma de ganar dinero.</span>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image className={styles.desktopAd} src={desktopAd} alt='' />
-                        <Image className={styles.mobileAd} src={mobileAd} alt='' />
-                    </Link>
                     <p>Esta noche nos depara un evento de UFC espectacular en el Farmasi Arena, ubicada en Río de Janeiro, Brasil. Que tendrá una pelea estelar inmejorable, encabezada por <Link href='/peleadores/charles-oliveira'>Charles Oliveira</Link>, quien busca levantar cabeza luego de su última derrota por KO ante <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> en una pelea por el título de Peso Ligero, enfrentando al polaco <b>Mateusz Gamrot</b>, quien ocupa el puesto #8 en los rankings y quien tuvo la valentía de tomar la pelea a último momento para reemplazar a <b>Rafael Fiziev</b>, quien originalmente iba a encabezar esta cartelera. </p>
                     <p>Además, tendremos el combate entre el #6 de la división de peso gallo y excampeón de peso mosca <b>Deiveson Figueiredo</b>, quien enfrentará al estadounidense <b>Montel Jackson</b>. Y finalmente quienes serán los candidatos a la pelea de la noche son el brasileño <b>Vicente Luque</b>, que le dará la bienvenida a la división de peso wélter al español <Link href='/peleadores/joel-alvarez'>Joel Álvarez</Link>, quien tendrá su primer combate en 170lbs en la UFC. </p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
@@ -54,9 +46,6 @@ export default function OliveiraGamrot () {
                     <h2>Michael Aswell Jr. Noquea a Lucas Almeida en el Primer Asalto</h2>
                     <p>Tremendo nocaut por parte del estadounidense <b>Michael Aswell Jr.</b>, quien le arruina la fiesta a Brasil, siendo el primer luchador de la cartelera en ganarle a un brasileño, luego de noquear a su rival, a quien con una combinación constante de 1-2 fue capaz de conectarlo hasta tumbarlo al suelo, y rematarlo en el piso, donde el árbitro paro la pelea para consagrarlo como ganador del combate. </p>
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <Link className={styles.article__ads} target='_Blank' rel='sponsored' href='https://refpa58144.com/L?tag=d_4624339m_1599c_&site=4624339&ad=1599'>
-                        <Image src={secondAd} alt='' />
-                    </Link>
                     <h2>Kaan Ofli Somete a Ricardo Ramos en el Primer Asalto</h2>
                     <p>Espectacular forma de comenzar esta cartelera estelar, con el australiano consiguienda una increíble sumisión, luego de, estando de pie, treparse hasta alcanzar la espalda de su rival, para finalmente conectar una mataleón que obligaría al brasileño a tapear. De esta forma, el australiano <b>Kaan Ofli</b> logra hacerse con la victoria ante el luchador local, logrando la primer victoria de esta cartelera estelar. </p>
                     <h2>Mario Pinto Noquea a Jhonata Diniz en el Segundo Asalto</h2>
