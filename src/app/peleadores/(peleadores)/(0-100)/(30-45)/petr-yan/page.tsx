@@ -11,10 +11,11 @@ const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Petr Yan',
-    description: '',
+    description: 'Petr Yan es un peleador de UFC ruso que compite en la división de peso gallo, donde supo ser campeón cuando derrotó al histórico peleador José Aldo, a quien venció por TKO en el quinto asalto del UFC 251, en julio de 2020.',
     openGraph: {
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpetr_yan.c0d624f1.png&w=640&q=75',
         title: 'Petr Yan',
-        description: '',
+        description: 'Petr Yan es un peleador de UFC ruso que compite en la división de peso gallo, donde supo ser campeón cuando derrotó al histórico peleador José Aldo, a quien venció por TKO en el quinto asalto del UFC 251, en julio de 2020.',
         url: 'https://fullmma.org/peleadores/petr-yan'
     }
 }
