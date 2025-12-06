@@ -211,5 +211,10 @@ export const data = [
         name: 'Jack Della Maddalena',
         url: '/peleadores/jack-della-maddalena',
         fighterClass: 'peleadores__card_dellamaddalena'
+    },
+    {
+        name: 'Petr Yan',
+        url: '/peleadores/petr-yan',
+        fighterClass: 'peleadores__card_petryan'
     }
 ]
