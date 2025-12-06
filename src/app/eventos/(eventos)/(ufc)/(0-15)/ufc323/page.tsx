@@ -32,6 +32,8 @@ export default function UFC323 () {
                     <h2 className={styles.article__fightsHierarchy}>Primeros Preliminares</h2>
                     <h2>Mairon Santo Noquea a Muhammad Naimov en el Tercer Asalto</h2>
                     <p>Espectacular victoria del brasileño perteneciente a los <Link href='/articulos/fighting-nerds'>Fighting Nerds</Link>, <b>Mairon Santos</b>, quien en una pelea que parecía ir ganando fue capaz de finalizar al conectar una mano derecha espectacular que tumbaría a su rival <b>Muhammad Naimov</b> inmediatamente. De esta manera, el brasileño alcanza su sexta victoria consecutiva. </p>
+                    <h2>Mansur Abdul-Malik Somete a Antonio Trocoli en el Primer Asalto</h2>
+                    <p>Espectacular manera de finalizar el combate en poco más de un minuto por parte del estadounidense <b>Mansur Abdul-Malik</b>, quien mediante una guillotina que logró conectar desde el suelo, transicionando a estar de pie, fue capaz de someter a su rival brasileño <b>Antonio Trocoli</b>, que se vió obligado a tapear. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p> */}
