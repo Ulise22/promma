@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: 'UFC 323: ¡Merab Dvalishvili vs Petr Yan 2! ¡Alexandre Pantoja vs Joshua Van!',
     description: "Último evento numerado de UFC en el año en este UFC 323 que nos trae las peleas de Merabd Dvalishvili vs Petr Yan 2 y Alexandre Pantoja vs Joshua Van.",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc323.36b13281.webp&w=828&q=65',
         title: 'UFC 323: ¡Merab Dvalishvili vs Petr Yan 2! ¡Alexandre Pantoja vs Joshua Van!',
         description: "Último evento numerado de UFC en el año en este UFC 323 que nos trae las peleas de Merabd Dvalishvili vs Petr Yan 2 y Alexandre Pantoja vs Joshua Van.",
         url: 'https://fullmma.org/eventos/ufc323'
