@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import dellaMaddalenaNariz from '@/assets/articulos/0-100/70-80/jack-della-maddalena-nariz.webp'
+import ufc323 from '@/assets/eventos/ufc/0-150/0-15/ufc323.webp'
 import iliaNextMatch2026 from '@/assets/noticias/0-100/30-40/ilia-next_fight-2026.webp'
 import makhachevNextMatch2026 from '@/assets/noticias/0-100/30-40/makhachev-next_fight.2026.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/articulos/jack-della-maddalena-nariz'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={dellaMaddalenaNariz} alt='' />
-                <h2 className={styles.home__title}>¿Qué Le Pasó a Jack Della Maddalena en la Nariz?</h2>
-                <span>¿Qué le pasó en la nariz a Jack Della Maddalena? Como un rodillazo en la cabeza le deformó el tabique al campeón de la UFC.</span>
+            <Link className={styles.homehero__bigArticle} href='/eventos/ufc323'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc323} alt='' />
+                <h2 className={styles.home__title}>UFC 323: ¡Merab Dvalishvili vs Petr Yan 2! ¡Alexandre Pantoja vs Joshua Van!</h2>
+                <span>¡Brandon Moreno vs Tatsuro Taira! ¡Henry Cejudo vs Payton Talbott!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
                 <Image className={styles.homehero__article__img} quality={50} src={makhachevNextMatch2026} alt='' />
