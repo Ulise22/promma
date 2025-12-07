@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/eventos/ufc323'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc323} alt='' />
                 <h2 className={styles.home__title}>UFC 323: ¡Merab Dvalishvili vs Petr Yan 2! ¡Alexandre Pantoja vs Joshua Van!</h2>
-                <span>¡Brandon Moreno vs Tatsuro Taira! ¡Henry Cejudo vs Payton Talbott!</span>
+                <span>¡Tatsuro Taira Noquea a Brandon Moreno en el Segundo Asalto! ¡Payton Talbott Destruye a Henry Cejudo en su Pelea de Retiro!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
                 <Image className={styles.homehero__article__img} quality={50} src={makhachevNextMatch2026} alt='' />
