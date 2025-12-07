@@ -38,6 +38,8 @@ export default function UFC323 () {
                     <p>Tremendo lo que acaba de hacer el polaco <b>Iwo Baraniewski</b>, que en medio de un torbellino de golpes que estaba recibiendo de su rival turco <b>Ibo Aslan</b>, es capaz de soportarlos y conectar una mano derecha para noquear a su rival en el primer asalto, en una locura de combate. </p>
                     <h2>Jalin Turner Noquea a Edson Barboza en el Primer Asalto</h2>
                     <p>Vaya manera de volver del retiro por parte del estadounidense <b>Jalin Turner</b>, que enfrentando a la leyenda brasileña <b>Edson Barboza</b>, es capaz de noqouearlo en el primer asalto, al primero conectar un codazo en la cabeza de su rival que le provocaría un corte en la cara, y luego golpearlo hasta tumbarlo al piso para llevarse la victoria por TKO en el primer asalto. </p>
+                    <h2>Brunno Ferreira Derrota a Marvin Vettori por Decisión Unánime</h2>
+                    <p>El brasileño <b>Brunno Ferreira</b> aprovecha su oportunidad y derrota al #14 de la división de peso medio <b>Marvin Vettori</b>, luego de 3 asaltos en los que la pelea se fue a la decisión, con todos los jueces dandólo como ganador al brasileño 29-28, consiguiendo de esta manera meterse de lleno en el top 15 de peso mediano de la UFC. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p> */}
