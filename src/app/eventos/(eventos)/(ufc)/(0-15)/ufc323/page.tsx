@@ -34,6 +34,8 @@ export default function UFC323 () {
                     <p>Espectacular victoria del brasileño perteneciente a los <Link href='/articulos/fighting-nerds'>Fighting Nerds</Link>, <b>Mairon Santos</b>, quien en una pelea que parecía ir ganando fue capaz de finalizar al conectar una mano derecha espectacular que tumbaría a su rival <b>Muhammad Naimov</b> inmediatamente. De esta manera, el brasileño alcanza su sexta victoria consecutiva. </p>
                     <h2>Mansur Abdul-Malik Somete a Antonio Trocoli en el Primer Asalto</h2>
                     <p>Espectacular manera de finalizar el combate en poco más de un minuto por parte del estadounidense <b>Mansur Abdul-Malik</b>, quien mediante una guillotina que logró conectar desde el suelo, transicionando a estar de pie, fue capaz de someter a su rival brasileño <b>Antonio Trocoli</b>, que se vió obligado a tapear. </p>
+                    <h2>¡Iwo Baraniewski Noquea a Ibo Aslam en el Primer Asalto!!</h2>
+                    <p>Tremendo lo que acaba de hacer el polaco <b>Iwo Baraniewski</b>, que en medio de un torbellino de golpes que estaba recibiendo de su rival turco <b>Ibo Aslan</b>, es capaz de soportarlos y conectar una mano derecha para noquear a su rival en el primer asalto, en una locura de combate. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p> */}
