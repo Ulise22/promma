@@ -47,6 +47,8 @@ export default function UFC323 () {
                     <p>Gran victoria para la #5 de peso mosca femenino <b>Macy Barber</b>, quien fue capaz de reponerse a lo largo del combate, comenzando con un primer asalto que se le complicó mucho, llegando a perderlo, pero que a partir del segundo asalto fue a mejor, mostrando un ground&pound sobresaliente que lastimó mucho a su rival, y que terminó dándole la victoria por decisión unánime. </p>
                     <h2>Chris Duncan Somete a Terrance Mckinney en el Primer Asalto</h2>
                     <p>Espectacular pelea dieron estos 2 luchadores en apenas unos minutos, con un <b>Terrance Mckinney</b> que comenzó muy agresivo, aturdiendo a golpes a su rival, pero que rápidamente comenzó a encontrar contragolpes por parte del escocés <b>Chris Duncan</b>, quien buscando el clinch para dejar de recibir golpes, fue capaz de conectar un codazo que tumbaría a su rival, para luego de castigarlo con el ground&pound, finalizarlo con una guillotina. </p>
+                    <h2>Manuel Torres Noquea a Grant Dawson en el Primer Asalto</h2>
+                    <p>Maravilloso nocaut del mexicano <b>Manuel Torres</b>, que con un gancho de izquierda mandó a la lona a su rival <b>Grant Dawson</b> en el primer asalto, para llevarse la victoria por TKO y meterse de lleno en el ranking de peso ligero de la UFC, desplazando a su rival que hasta hoy ocupaba el #13 puesto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
