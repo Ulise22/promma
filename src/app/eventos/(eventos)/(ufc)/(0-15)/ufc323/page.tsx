@@ -40,9 +40,9 @@ export default function UFC323 () {
                     <p>Vaya manera de volver del retiro por parte del estadounidense <b>Jalin Turner</b>, que enfrentando a la leyenda brasileña <b>Edson Barboza</b>, es capaz de noqouearlo en el primer asalto, al primero conectar un codazo en la cabeza de su rival que le provocaría un corte en la cara, y luego golpearlo hasta tumbarlo al piso para llevarse la victoria por TKO en el primer asalto. </p>
                     <h2>Brunno Ferreira Derrota a Marvin Vettori por Decisión Unánime</h2>
                     <p>El brasileño <b>Brunno Ferreira</b> aprovecha su oportunidad y derrota al #14 de la división de peso medio <b>Marvin Vettori</b>, luego de 3 asaltos en los que la pelea se fue a la decisión, con todos los jueces dandólo como ganador al brasileño 29-28, consiguiendo de esta manera meterse de lleno en el top 15 de peso mediano de la UFC. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
+                    <h2>Fares Ziam Noquea a Nazim Sadykhov al Final del Segundo Asalto</h2>
+                    <p>Tremendo nocaut el que consiguió el luchador francés <b>Fares Ziam</b> finalizando el segundo asalto, luego de dominar completamente a  <b>Nazim Sadykhov</b> durante todo el combate, es capaz de conectarle 2 codazos letales en la parte de atrás de la oreja, que dejaron noqueado a su rival, obligando al árbitro a parar la pelea para dar como ganador al luchador europeo por TKO en el último segundo del segundo asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
