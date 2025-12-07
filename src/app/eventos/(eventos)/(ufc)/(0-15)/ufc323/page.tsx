@@ -49,9 +49,9 @@ export default function UFC323 () {
                     <p>Espectacular pelea dieron estos 2 luchadores en apenas unos minutos, con un <b>Terrance Mckinney</b> que comenzó muy agresivo, aturdiendo a golpes a su rival, pero que rápidamente comenzó a encontrar contragolpes por parte del escocés <b>Chris Duncan</b>, quien buscando el clinch para dejar de recibir golpes, fue capaz de conectar un codazo que tumbaría a su rival, para luego de castigarlo con el ground&pound, finalizarlo con una guillotina. </p>
                     <h2>Manuel Torres Noquea a Grant Dawson en el Primer Asalto</h2>
                     <p>Maravilloso nocaut del mexicano <b>Manuel Torres</b>, que con un gancho de izquierda mandó a la lona a su rival <b>Grant Dawson</b> en el primer asalto, para llevarse la victoria por TKO y meterse de lleno en el ranking de peso ligero de la UFC, desplazando a su rival que hasta hoy ocupaba el #13 puesto. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Jan Blachowicz y Bogdan Guskov Empatan por Decisión Mayoritaria</h2>
+                    <p>Luego de 3 asaltos de combate, el resultado finalmente quedó en manos de los jueces que puntuaron este combate como un empate mayoritario (1 juez dió por ganador a Jan Blachowiz por 29-28 y 2 dieron empate) 28-28, luego de un primer asalto cerrado que terminó ganando el polaco <b>Jan Blachowicz</b>, un segundo asalto en el que cerca estuvo de noquear <b>Bogdan Guskov</b>, por lo que terminó con un 10-8, y un tercer asalto que ganó claramente el polaco, por lo que el resultado final es un empate mayoritario por 28-28. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
