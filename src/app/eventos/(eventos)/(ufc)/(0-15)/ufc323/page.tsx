@@ -45,6 +45,8 @@ export default function UFC323 () {
                     <p>Tremendo nocaut el que consiguió el luchador francés <b>Fares Ziam</b> finalizando el segundo asalto, luego de dominar completamente a  <b>Nazim Sadykhov</b> durante todo el combate, es capaz de conectarle 2 codazos letales en la parte de atrás de la oreja, que dejaron noqueado a su rival, obligando al árbitro a parar la pelea para dar como ganador al luchador europeo por TKO en el último segundo del segundo asalto. </p>
                     <h2>Maycee Barber Derrota a Karine Silva por Decisión Unánime</h2>
                     <p>Gran victoria para la #5 de peso mosca femenino <b>Macy Barber</b>, quien fue capaz de reponerse a lo largo del combate, comenzando con un primer asalto que se le complicó mucho, llegando a perderlo, pero que a partir del segundo asalto fue a mejor, mostrando un ground&pound sobresaliente que lastimó mucho a su rival, y que terminó dándole la victoria por decisión unánime. </p>
+                    <h2>Chris Duncan Somete a Terrance Mckinney en el Primer Asalto</h2>
+                    <p>Espectacular pelea dieron estos 2 luchadores en apenas unos minutos, con un <b>Terrance Mckinney</b> que comenzó muy agresivo, aturdiendo a golpes a su rival, pero que rápidamente comenzó a encontrar contragolpes por parte del escocés <b>Chris Duncan</b>, quien buscando el clinch para dejar de recibir golpes, fue capaz de conectar un codazo que tumbaría a su rival, para luego de castigarlo con el ground&pound, finalizarlo con una guillotina. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
