@@ -36,6 +36,8 @@ export default function UFC323 () {
                     <p>Espectacular manera de finalizar el combate en poco más de un minuto por parte del estadounidense <b>Mansur Abdul-Malik</b>, quien mediante una guillotina que logró conectar desde el suelo, transicionando a estar de pie, fue capaz de someter a su rival brasileño <b>Antonio Trocoli</b>, que se vió obligado a tapear. </p>
                     <h2>¡Iwo Baraniewski Noquea a Ibo Aslam en el Primer Asalto!!</h2>
                     <p>Tremendo lo que acaba de hacer el polaco <b>Iwo Baraniewski</b>, que en medio de un torbellino de golpes que estaba recibiendo de su rival turco <b>Ibo Aslan</b>, es capaz de soportarlos y conectar una mano derecha para noquear a su rival en el primer asalto, en una locura de combate. </p>
+                    <h2>Jalin Turner Noquea a Edson Barboza en el Primer Asalto</h2>
+                    <p>Vaya manera de volver del retiro por parte del estadounidense <b>Jalin Turner</b>, que enfrentando a la leyenda brasileña <b>Edson Barboza</b>, es capaz de noqouearlo en el primer asalto, al primero conectar un codazo en la cabeza de su rival que le provocaría un corte en la cara, y luego golpearlo hasta tumbarlo al piso para llevarse la victoria por TKO en el primer asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p> */}
