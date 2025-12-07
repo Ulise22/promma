@@ -43,6 +43,8 @@ export default function UFC323 () {
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2>Fares Ziam Noquea a Nazim Sadykhov al Final del Segundo Asalto</h2>
                     <p>Tremendo nocaut el que consiguió el luchador francés <b>Fares Ziam</b> finalizando el segundo asalto, luego de dominar completamente a  <b>Nazim Sadykhov</b> durante todo el combate, es capaz de conectarle 2 codazos letales en la parte de atrás de la oreja, que dejaron noqueado a su rival, obligando al árbitro a parar la pelea para dar como ganador al luchador europeo por TKO en el último segundo del segundo asalto. </p>
+                    <h2>Maycee Barber Derrota a Karine Silva por Decisión Unánime</h2>
+                    <p>Gran victoria para la #5 de peso mosca femenino <b>Macy Barber</b>, quien fue capaz de reponerse a lo largo del combate, comenzando con un primer asalto que se le complicó mucho, llegando a perderlo, pero que a partir del segundo asalto fue a mejor, mostrando un ground&pound sobresaliente que lastimó mucho a su rival, y que terminó dándole la victoria por decisión unánime. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
