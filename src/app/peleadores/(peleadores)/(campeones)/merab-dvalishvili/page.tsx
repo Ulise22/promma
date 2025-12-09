@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Dvalishvili () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={21} l={4} d={0} nombre='Merab Dvalishvili' apodo='THE MACHINE' categoria='Peso Gallo' time='2025-10-29' />
+            <PeleadoresHero peleadoresImage={fighter} w={21} l={5} d={0} nombre='Merab Dvalishvili' apodo='THE MACHINE' categoria='Peso Gallo' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Merab Dvalishvili UFC</h2>
@@ -30,7 +30,7 @@ export default function Dvalishvili () {
                     <p className={styles.peleador__article__text}>Desde su llegada a la compañía ha tenido un desempeño impresionante, llegando a acumular 10 victorias consecutivas, que le ganaron la oportunidad de pelear por el título de la división ante <Link href='/peleadores/sean-omalley'>Sean O&apos;malley</Link> el 14 de septiembre de 2024, encabezando uno de los eventos más importante de ese año como lo fue el <Link href='/covertura-ufc/ufc306'>UFC Noche (306)</Link>, en donde sería capaz de derrotar al entonces campeón de la división por decisión, convrtiéndose él en el nuevo campeón de peso gallo de la UFC.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/GOJwZpXEAUs?si=SML2eLx2yrNEHiTM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <h2 className={styles.peleador__article__title}>Merab Dvalishvili Récord</h2>
-                    <p className={styles.peleador__article__text}>Merab posee un récord de 21-4. Siendo 3 de sus victorias por la vía del nocaut, 2 por sumisión y 16 por decisión. Mientras que de sus 4 derrotas, sólo 1 fue por sumisión y 3 por decisión.</p>
+                    <p className={styles.peleador__article__text}>Merab posee un récord de 21-5. Siendo 3 de sus victorias por la vía del nocaut, 2 por sumisión y 16 por decisión. Mientras que de sus 4 derrotas, sólo 1 fue por sumisión y 4 por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Merab Dvalishvili Biografía</h2>
                     <p className={styles.peleador__article__text}>Merab Dvalishvili nació el 10 de enero de 1991 en Georgia, cuando este territorio aún formaba parte de la Unión Soviética. Desde muy joven comenzó a entrenar Sambo y Judo para aprender a defenderse, y según él mismo, porque amaba pelear.</p>
                     <p className={styles.peleador__article__text}>A los 21 años, luego de terminar su carrera universitaria de Educación Física en Georgia, se mudó a los Estados Unidos, donde busco perseguir una carrera como luchador de MMA, mientras trabajaba en la construcción para subsistir. Allí comenzó a entrenar de la mano del exluchador y ex campeón de peso wélter en la UFC, <b>Matt Serra</b>. </p>

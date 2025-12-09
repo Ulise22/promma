@@ -23,14 +23,14 @@ export const metadata: Metadata = {
 export default function PetrYan () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={19} l={5} d={0} categoria='Peso Gallo' nombre='Petr Yan' apodo={null} time='2025-12-04' />
+            <PeleadoresHero peleadoresImage={fighter} w={20} l={5} d={0} categoria='Peso Gallo' nombre='Petr Yan' apodo={null} time='2025-12-04' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Petr Yan MMA</h2>
                     <p className={styles.peleador__article__text}>Petr Yan es un peleador de UFC ruso que compite en la división de peso gallo, donde supo ser campeón cuando derrotó al histórico peleador <Link href='/leyendas/jose-aldo'>José Aldo</Link>, a quien venció por TKO en el quinto asalto del UFC 251, en julio de 2020. </p>
                     <p className={styles.peleador__article__text}>A lo largo de su carrera ha destacado al mostrar ser un luchador muy completo con un boxeo sobresaliente, que fue lo que lo llevó a ser campeón mundial de la UFC en su división. Ganándose el respeto de sus pares y peleando por el cinturón en hasta 5 oportunidades. </p>
                     <h2 className={styles.peleador__article__title}>Petr Yan Récord</h2>
-                    <p className={styles.peleador__article__text}>Petr Yan posee un récord profesional de MMA de 19-5 con 7 de sus victorias viniendo por la vía del nocaut, sólo 1 siendo por la vía de la sumisión y 11 siendo por decisión. Mientras que de sus derrotas 4 fueron por la vía de la decisión y 1 siendo por descalificación. </p>
+                    <p className={styles.peleador__article__text}>Petr Yan posee un récord profesional de MMA de 20-5 con 7 de sus victorias viniendo por la vía del nocaut, sólo 1 siendo por la vía de la sumisión y 12 siendo por decisión. Mientras que de sus derrotas 4 fueron por la vía de la decisión y 1 siendo por descalificación. </p>
                     <h2 className={styles.peleador__article__title}>Petr Yan Historia</h2>
                     <p className={styles.peleador__article__text}>Petr Evgenyavich Yan nació el 11 de febrero de 1993 en la ciudad de Dudinka, Rusia. Hijo de una madre rusa y de un padre de nacionalidad georgiano-chino, comenzó a entrenar Taekwondo siendo un niño, viéndose envuelto muy seguido en peleas callejeras y en su escuela, que llevaban a su familia a mudarse constantemente en busca de evitar más conflictos. </p>
                     <p className={styles.peleador__article__text}>Comenzó a entrenar boxeo inspirado por su hermano mayor que venía entrenando desde hacía tiempo, aunque este en un principio no estaba muy de acuerdo con la idea, terminó por ayudar a nuestro protagonista a mejorar en el deporte. </p>

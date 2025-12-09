@@ -21,14 +21,14 @@ export const metadata: Metadata = {
 export default function BrandonMoreno () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={23} l={8} d={2} categoria='Peso Mosca' nombre='Brandon Moreno' apodo='THE ASSASSIN BABY' time='2025-10-29' />
+            <PeleadoresHero peleadoresImage={fighter} w={23} l={9} d={2} categoria='Peso Mosca' nombre='Brandon Moreno' apodo='THE ASSASSIN BABY' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Brandon Moreno MMA</h2>
                     <p className={styles.peleador__article__text}>Brandon Moreno es un luchador de MMA mexicano que compite en la división de peso mosca de la <Link href='/articulos/ufc'>UFC</Link>, donde compite desde el 1 de octubre de 2016, cuando haría su debut ante el estadounidense <b>Louis Smolka</b>, mientras competía en <b>The Ultimate Fighter</b>.</p>
                     <p className={styles.peleador__article__text}>Supo destacar en la compañía al proclamarse campeón de la división en 2 ocasiones, ambas al derrotar al brasileño <b>Deiveson Figueiredo</b>, a quien venció por sumisión en 2021 y por TKO en 2023. Además de haber sido campeón interino de la compañía al derrotar al luchador de Nueva Zelanda <b>Kai Kara-France</b> en 2022.</p>
                     <h2 className={styles.peleador__article__title}>Brandon Moreno Récord</h2>
-                    <p className={styles.peleador__article__text}>Brandon Moreno posee un récord profesional en las MMA de 23-8-2. Siendo 5 de sus victorias por la vía del nocaut, 11 por la vía de la sumisión y 7 por decisión. Mientras que todas sus 8 derrotas fueron decisión. Además, posee 2 empates a lo largo de su carrera.</p>
+                    <p className={styles.peleador__article__text}>Brandon Moreno posee un récord profesional en las MMA de 23-9-2. Siendo 5 de sus victorias por la vía del nocaut, 11 por la vía de la sumisión y 7 por decisión. Mientras que de sus derrotas 8 son por decisión y sólo 1 por nocaut. Además, posee 2 empates a lo largo de su carrera.</p>
                     <h2 className={styles.peleador__article__title}>Brandon Moreno Historia</h2>
                     <p className={styles.peleador__article__text}>Brandon Moreno Carillo nació el día 7 de diciembre de 1993 en la ciudad de Tijuana, Baja California, México. Moreno se describe a sí mismo de pequeño como un gran fan del boxeo, que no tenía idea de la existencia de otros deportes de combate. Tiempo más tarde, se interesaría en la capoeira, pero al no ser capaz de encontrar una escuela que enseñe este arte marcial en su ciudad, terminó topándose con una gimnasio de MMA, donde comenzó a entrenar a los 12 años, aprendiendo kickboxing y jiu-jitsu. </p>
                     <p className={styles.peleador__article__text}>El 30 de abril de 2011, con tan sólo 17 años, Brandon hace su debut profesional en las MMA, peleando en la categoría de peso gallo ante el estadounidense <b>Atiq Jihad</b>, para una promotora nacional llamada <b>UWC México</b>, donde conseguiría un debut con victoria al ser capaz de someter a su rival en el primer asalto. </p>
