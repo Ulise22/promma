@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc322 from '@/assets/eventos/ufc/0-150/0-15/ufc322.webp'
+import ufc323 from '@/assets/eventos/ufc/0-150/0-15/ufc323.webp'
 import oliveiraGamrot from '@/assets/eventos/fight-night/0-150/0-15/oliveira-vs-gamrot.webp'
 import deridderAllen from '@/assets/eventos/fight-night/0-150/0-15/deridder-allen.webp'
 
 export default function PageHero () {
     return(
         <section className={styles.pagehero}>
-            <Link className={styles.pagehero__bigArticle} href='/eventos/ufc322'>
-                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc322} alt='' />
-                <h2 className={styles.page__title}>UFC 322: ¡Islam Makhachev Derrota a Jack Della Maddalena Por Decisión Unánime y es Doble Campeón! ¡Valentina Shevchenko Derrota a Zhang Weili Por Decisión Unánime!</h2>
-                <p>¡Michael Morales Noquea a Sean Brady en el Primer Asalto! ¡Carlos Prates Noquea a Leon Edwards en el Segundo Asalto! ¡Benoit Saint Denis Noquea a Beneil Dariush en el Primer Asalto!</p>
+            <Link className={styles.pagehero__bigArticle} href='/eventos/ufc323'>
+                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc323} alt='' />
+                <h2 className={styles.page__title}>UFC 323: ¡Petr Yan Derrota a Merab Dvalishvili y es Nuevo Campeón de UFC! ¡A Alexandre Pantoja se le Sale el Codo de Lugar y Joshua Van es el Nuevo Campeón!</h2>
+                <p>¡Tatsuro Taira Noquea a Brandon Moreno en el Segundo Asalto! ¡Payton Talbott Destruye a Henry Cejudo en su Pelea de Retiro!</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-deridder-allen'>
                 <Image className={styles.pagehero__article__img} quality={50} src={deridderAllen} alt='' />

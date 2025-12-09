@@ -14,6 +14,7 @@ import lopesSilva from '@/assets/eventos/fight-night/0-150/0-15/lopes-vs-silva.w
 import ulbergReyes from '@/assets/eventos/fight-night/0-150/0-15/ulberg-vs-reyes.webp'
 import ufc320 from '@/assets/eventos/ufc/0-150/0-15/ufc320.webp'
 import ufc321 from '@/assets/eventos/ufc/0-150/0-15/ufc321.webp'
+import ufc322 from '@/assets/eventos/ufc/0-150/0-15/ufc322.webp'
 
 export default function Eventos () {
     return (
@@ -21,12 +22,13 @@ export default function Eventos () {
             <PageHero />
             <section className={styles.articles__container}>
                 <ArticlePreview img={queEsDWCS} url='/eventos/dana-white-contender-series-que-es' title='Que es el Dana White Contender Series' author={null} text='¿Qué es y Cómo Funciona el Dana White Contender Series? El programa de televisión donde los peleadores compiten por un contrato con la UFC' date='19/08/2025' />
+                <ArticlePreview img={ufc322} url='/eventos/ufc322' title='UFC 322: ¡Islam Makhachev Derrota a Jack Della Maddalena Por Decisión Unánime y es Doble Campeón! ¡Valentina Shevchenko Derrota a Zhang Weili Por Decisión Unánime!' author={null} text='¡Michael Morales Noquea a Sean Brady en el Primer Asalto! ¡Carlos Prates Noquea a Leon Edwards en el Segundo Asalto! ¡Benoit Saint Denis Noquea a Beneil Dariush en el Primer Asalto!' date='15/11/2025' />
                 <ArticlePreview img={ufc321} url='/eventos/ufc321' title='UFC 321: ¡La pelea entre Tom Aspinall y Ciryl Gane Termina Sin Resultado por un Piquete De Ojo y Aspinall Sigue Siendo Campeón! ¡Mackenzie Dern Derrota a Virna Jandiroba y es Nueva Campeona!' author={null} text='¡Umar Nurmagomedov Derrota Mario Bautista por Decisión Unánime en una Victoria Dominante! ¡Alexander Volkov Derrota a Jailton Almeida por Decisión Dividida!' date='25/10/2025' />
                 <ArticlePreview img={ufc320} url='/eventos/ufc320' title='UFC 320: ¡Alex Pereira Noquea a Magomed Ankalaev en el Primer Asalto y Vuelve a Ser Campeón! ¡Merab Dvalishvili Derrota a Cory Sandhagen y Sigue Siendo Campeón!' author={null} text='¡Jiri Prochazka Noquea a Khalil Rountree en el Tercer Asalto en La Pelea de la Noche! ¡Youssef Zalal Somete a Josh Emmet en el Primer Asalto de la Pelea!' date='04/10/2025' />
-                <ArticlePreview img={ulbergReyes} url='/eventos/fight-night-ulberg-reyes' title='UFC Perth: ¡Carlos Ulberg Noquea a Dominick Reyes en el Primer Asalto!' author={null} text='¡Jimmy Crute Somete a Ivan Erslan en el Primer Asalto! ¡Neil Magny Somete a Jake Matthews en el Tercer Asalto!' date='27/09/2025' />
             </section>
             <h2 className={styles.articulos__title}>Últimos Eventos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={ulbergReyes} url='/eventos/fight-night-ulberg-reyes' title='UFC Perth: ¡Carlos Ulberg Noquea a Dominick Reyes en el Primer Asalto!' author={null} text='¡Jimmy Crute Somete a Ivan Erslan en el Primer Asalto! ¡Neil Magny Somete a Jake Matthews en el Tercer Asalto!' date='27/09/2025' />
                 <ArticlePreview img={imavovBorralho} url='/eventos/fight-night-imavov-borralho' title='UFC Paris: ¡Nassourdine Imavov Derrota a Caio Borralho Por Decisión Unánime en La Pelea de la Noche!' author={null} text='¡Benoit Saint Denis Somete a Mauricio Ruffy en el Segundo Asalto! ¡Ante Delija Debuta con Nocaut ante Marcin Tybura!' date='06/09/2025' />
                 <ArticlePreview img={walkerVSmingyang} url='/eventos/fight-night-walker-mingyang' title='UFC Shanghai: ¡Johnny Walker Noquea a Zhang Mingyang en el Segundo Asalto en China!' author={null} text='¡Aljamain Sterling Derrota Por Decisión Unánime a Brian Ortega 50-45! ¡Sergei Pavlovich Derrota a Waldo Cortes Acosta Por Decisión Unánime!' date='23/08/2025' />
                 <ArticlePreview img={lopesSilva} url='/eventos/fight-night-lopes-silva' title='UFC Noche: ¡Diego Lopes Noquea a Jean Silva en el Segundo Asalto!' author={null} text='¡David Martínez Derrota Rob Font y se Mete Al Top 10 de la División!' date='13/09/2025' />
