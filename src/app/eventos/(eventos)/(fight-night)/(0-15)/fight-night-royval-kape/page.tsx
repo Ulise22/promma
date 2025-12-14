@@ -45,6 +45,8 @@ export default function RoyvalKape () {
                     <p>En un combate que tuvo que extenderse hasta los 3 asaltos, quien terminó saliendo como ganador fue <b>King Green</b>, quien en un combate cerrado fue capaz de concectar los golpes más potentes sobre su rival, evitando recibir tanto él, logrando llevarse la victoria por sobre el canadiense <b>Lance Gibson Jr.</b> por decisión dividida.</p>
                     <h2>Kennedy Nzechukwu Empata con Marcus Buchecha</h2>
                     <p>En un combate donde claramente el mejor peleador fue el nigeriano <b>Kennedy Nzechukwu</b>, ganando tanto el primer como el tercer asalto, la pelea terminó en empate, debido a que el nigeriano dió un golpe bajo a su rival brasileño en el primer asalto, y luego un piquete de ojos minutos después, llevando al árbitro <b>Herb Dean</b> a quitarle un punto. Por lo que, aunque los jueces vieron la pelea 29-28 en favor del nigeriano, luego de la deducción de un punto, el resultado fue 28-28, dando un empate. </p>
+                    <h2>Melquizael Costa Noquea a Morgan Charriere en el Primer Asalto</h2>
+                    <p>¡Brutal KO de <b>Melquizael Costa</b> al francés <b>Morgan Charriere</b> en el primer asalto! Con una patada espectacularmente lanzada, el brasileño conectó a su rival para dejarlo KO inmediatamente, sin necesitar de un golpe extra para llevarse la victoria por KO en el primer asalto, en lo que es la mejor finalización hasta ahora, y que probablemente le valga para ganar el bono de $50k a la Actuación de la Noche.</p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
