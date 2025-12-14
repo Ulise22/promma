@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function RoyvalKape () {
     return(
         <main>
-            <ArticleHero title='UFC Vegas 112: ¡Brandon Royval vs Manel Kape! ¡Kevin Vallejos vs Giga Chikadze!' subtitle='¡Cesar Almeida vs Cezary Oleksiejczuk! ¡King Green vs Lance Gibson Jr.!' image={hero} date='2025-12-13' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Vegas 112: ¡Brandon Royval vs Manel Kape! ¡Kevin Vallejos vs Giga Chikadze!' subtitle='¡Cesar Almeida vs Cezary Oleksiejczuk! ¡King Green vs Lance Gibson Jr.!' image={hero} date='2025-12-13' author={null} updatedDate='2025-12-14' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Último evento de UFC del año, y fin de la era ESPN en la UFC, con la última transmisión a través de esta cadena, previo a su paso a Paramount el próximo 2026. Para eso tenemos como evento estelar en el UFC APEX la pelea de peso mosca entre el #2 <b>Brandon Royval</b>, quien estará enfrentando al portugués <b>Manel Kape</b>, ranqueado #6 en la división. </p>
@@ -38,6 +38,8 @@ export default function RoyvalKape () {
                     <p>Espectacular pelea la que acabamos de presenciar con estos 2 pesos pesados que se dieron golpes por todos lados, siendo finalmente el estadounidense <b>Steven Asplund</b> el que se llevó la victoria en este sangriento combate, luego de haberle provocado un corte en el rostro a su rival y luego de estar castigándolo con golpes en la cara a los que <b>Sean Sharaf</b> ya no podía responder ni defender, por lo que cerca del final del segundo asalto el árbitro paró el combate para darle la victoria por TKO a Steven Aspslund. </p>
                     <h2>Joanderson Brito Derrota a Isaac Thompson por Decisión Unánime</h2>
                     <p>El brasileño <b>Joanderson Brito</b> se lleva una gran victoria por unánime, luego de ser mejor que su rival en practicamente cada aspecto de la lucha, manteniendo un alto nivel de control tanto contra la reja como a ras de lona, puntuando y superando al australiano <b>Isaac Thompson</b> para hacerse con la victoria. </p>
+                    <h2>Yaroslav Amosov Somete a Neil Magny en el Primer Asalto</h2>
+                    <p>Brutal sumisión del luchador ucraniano <b>Yaroslav Amosov</b> en su debut en la UFC ante el histórico peleador de la división de peso wélter <b>Neil Magny</b>, a quien fue capaz de conectarle un derribo bastante temprano en el primer asalto, para posteriormente avanzar hacia una llave que obligaría al estadounidense a tapear, otorgándole en su debut la victoria por sumisión en el primer asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
