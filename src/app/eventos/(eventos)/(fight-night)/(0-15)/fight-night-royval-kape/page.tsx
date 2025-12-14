@@ -43,6 +43,8 @@ export default function RoyvalKape () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>King Green Derrota a Lance Gibson Jr. por Decisión Dividida</h2>
                     <p>En un combate que tuvo que extenderse hasta los 3 asaltos, quien terminó saliendo como ganador fue <b>King Green</b>, quien en un combate cerrado fue capaz de concectar los golpes más potentes sobre su rival, evitando recibir tanto él, logrando llevarse la victoria por sobre el canadiense <b>Lance Gibson Jr.</b> por decisión dividida.</p>
+                    <h2>Kennedy Nzechukwu Empata con Marcus Buchecha</h2>
+                    <p>En un combate donde claramente el mejor peleador fue el nigeriano <b>Kennedy Nzechukwu</b>, ganando tanto el primer como el tercer asalto, la pelea terminó en empate, debido a que el nigeriano dió un golpe bajo a su rival brasileño en el primer asalto, y luego un piquete de ojos minutos después, llevando al árbitro <b>Herb Dean</b> a quitarle un punto. Por lo que, aunque los jueces vieron la pelea 29-28 en favor del nigeriano, luego de la deducción de un punto, el resultado fue 28-28, dando un empate. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
