@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc323 from '@/assets/eventos/ufc/0-150/0-15/ufc323.webp'
+import kapeRoyval from '@/assets/eventos/fight-night/0-150/0-15/royval-kape.webp'
 import iliaNextMatch2026 from '@/assets/noticias/0-100/30-40/ilia-next_fight-2026.webp'
 import makhachevNextMatch2026 from '@/assets/noticias/0-100/30-40/makhachev-next_fight.2026.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/eventos/ufc323'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc323} alt='' />
-                <h2 className={styles.home__title}>UFC 323: ¡Petr Yan Derrota a Merab Dvalishvili y es Nuevo Campeón de UFC! ¡A Alexandre Pantoja se le Sale el Codo de Lugar y Joshua Van es el Nuevo Campeón!</h2>
-                <span>¡Tatsuro Taira Noquea a Brandon Moreno en el Segundo Asalto! ¡Payton Talbott Destruye a Henry Cejudo en su Pelea de Retiro!</span>
+            <Link className={styles.homehero__bigArticle} href='/eventos/fight-night-royval-kape'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={kapeRoyval} alt='' />
+                <h2 className={styles.home__title}>UFC Vegas 112: ¡Brandon Royval vs Manel Kape! ¡Kevin Vallejos vs Giga Chikadze!</h2>
+                <span>¡Cesar Almeida vs Cezary Oleksiejczuk! ¡King Green vs Lance Gibson Jr.!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
                 <Image className={styles.homehero__article__img} quality={50} src={makhachevNextMatch2026} alt='' />
