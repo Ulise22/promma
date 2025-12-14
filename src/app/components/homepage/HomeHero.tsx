@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/eventos/fight-night-royval-kape'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={kapeRoyval} alt='' />
-                <h2 className={styles.home__title}>UFC Vegas 112: ¡Brandon Royval vs Manel Kape! ¡Kevin Vallejos vs Giga Chikadze!</h2>
+                <h2 className={styles.home__title}>UFC Vegas 112: ¡Manel Kape Noquea a Brandon Royval en el Primer Asalto! ¡Kevin Vallejos Da un Nocaut Espectacular a Giga Chikadze en el Segundo Asalto!</h2>
                 <span>¡Cezary Oleksieczuk Derrota a Cesar Almeida por Decisión! ¡King Green Derrota a Lance Gibson Jr. por Decisión Dividida!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
