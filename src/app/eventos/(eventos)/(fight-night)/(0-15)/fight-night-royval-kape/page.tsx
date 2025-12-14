@@ -34,6 +34,8 @@ export default function RoyvalKape () {
                     <p>Espectacular victoria del brasileño <b>Guilherme Pat</b> en este duelo de invictos, para extender su récord en peso pesado a 7-0, luego de ganar los 3 asaltos del combate al conectar siempre más y mejores golpes a lo largo del combate. </p>
                     <h2>Luana Santos Domina y Derrota a Melissa Croden</h2>
                     <p>La brasileña <b>Luana Santos</b> que se encuentra ranqueada #15 en la división de peso gallo femenino, logra una increíble victoria ante la canadiense <b>Melissa Croden</b>, llevándose los 3 asaltos, con un completo dominio especialmente en el tercer, cuando fue capaz de derribar a su rival y ponerla en una posición donde no podía moverse ni escapar, castigándola con golpes durante 3 minutos hasta que finalizó el asalto, llevándose la victoria por decisión unánime. </p>
+                    <h2>Steven Asplund Noquea a Sean Sharaf en el Segundo Asalto</h2>
+                    <p>Espectacular pelea la que acabamos de presenciar con estos 2 pesos pesados que se dieron golpes por todos lados, siendo finalmente el estadounidense <b>Steven Asplund</b> el que se llevó la victoria en este sangriento combate, luego de haberle provocado un corte en el rostro a su rival y luego de estar castigándolo con golpes en la cara a los que <b>Sean Sharaf</b> ya no podía responder ni defender, por lo que cerca del final del segundo asalto el árbitro paró el combate para darle la victoria por TKO a Steven Aspslund. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
