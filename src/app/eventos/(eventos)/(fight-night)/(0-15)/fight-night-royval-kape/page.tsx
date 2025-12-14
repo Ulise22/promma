@@ -32,6 +32,8 @@ export default function RoyvalKape () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
                     <h2>Guilherme Pat Derrota a Allen Frye Jr. por Decisión Unánime</h2>
                     <p>Espectacular victoria del brasileño <b>Guilherme Pat</b> en este duelo de invictos, para extender su récord en peso pesado a 7-0, luego de ganar los 3 asaltos del combate al conectar siempre más y mejores golpes a lo largo del combate. </p>
+                    <h2>Luana Santos Domina y Derrota a Melissa Croden</h2>
+                    <p>La brasileña <b>Luana Santos</b> que se encuentra ranqueada #15 en la división de peso gallo femenino, logra una increíble victoria ante la canadiense <b>Melissa Croden</b>, llevándose los 3 asaltos, con un completo dominio especialmente en el tercer, cuando fue capaz de derribar a su rival y ponerla en una posición donde no podía moverse ni escapar, castigándola con golpes durante 3 minutos hasta que finalizó el asalto, llevándose la victoria por decisión unánime. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
