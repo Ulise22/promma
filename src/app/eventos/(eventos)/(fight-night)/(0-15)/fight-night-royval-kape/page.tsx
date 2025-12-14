@@ -12,11 +12,11 @@ const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles
 
 export const metadata: Metadata = {
     title: 'UFC Vegas 112: ¡Brandon Royval vs Manel Kape! ¡Kevin Vallejos vs Giga Chikadze!',
-    description: '',
+    description: 'Último evento de UFC en 2025 con Brandon Royval vs Manel Kape como evento estelar',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Froyval-kape.c8dc986c.webp&w=828&q=65',
         title: 'UFC Vegas 112: ¡Brandon Royval vs Manel Kape! ¡Kevin Vallejos vs Giga Chikadze!',
-        description: '',
+        description: 'Último evento de UFC en 2025 con Brandon Royval vs Manel Kape como evento estelar',
         url: 'https://fullmma.org/eventos/fight-night-royval-kape'
     }
 }
