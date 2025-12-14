@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function RoyvalKape () {
     return(
         <main>
-            <ArticleHero title='UFC Vegas 112: ¡Brandon Royval vs Manel Kape! ¡Kevin Vallejos vs Giga Chikadze!' subtitle='¡Cezary Oleksieczuk Derrota a Cesar Almeida por Decisión! ¡King Green Derrota a Lance Gibson Jr. por Decisión Dividida!' image={hero} date='2025-12-13' author={null} updatedDate='2025-12-14' />
+            <ArticleHero title='UFC Vegas 112: ¡Brandon Royval vs Manel Kape! ¡Kevin Vallejos Da un Nocaut Espectacular a Giga Chikadze en el Segundo Asalto!' subtitle='¡Cezary Oleksieczuk Derrota a Cesar Almeida por Decisión! ¡King Green Derrota a Lance Gibson Jr. por Decisión Dividida!' image={hero} date='2025-12-13' author={null} updatedDate='2025-12-14' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Último evento de UFC del año, y fin de la era ESPN en la UFC, con la última transmisión a través de esta cadena, previo a su paso a Paramount el próximo 2026. Para eso tenemos como evento estelar en el UFC APEX la pelea de peso mosca entre el #2 <b>Brandon Royval</b>, quien estará enfrentando al portugués <b>Manel Kape</b>, ranqueado #6 en la división. </p>
@@ -49,6 +49,8 @@ export default function RoyvalKape () {
                     <p>¡Brutal KO de <b>Melquizael Costa</b> al francés <b>Morgan Charriere</b> en el primer asalto! Con una patada espectacularmente lanzada, el brasileño conectó a su rival para dejarlo KO inmediatamente, sin necesitar de un golpe extra para llevarse la victoria por KO en el primer asalto, en lo que es la mejor finalización hasta ahora, y que probablemente le valga para ganar el bono de $50k a la Actuación de la Noche.</p>
                     <h2>Cezary Oleksieczuk Derrota a Cesar Almeida por Decisión</h2>
                     <p>En la pelea con menos acción de la cartelera, quien finalmente se lleva la victoria es el polaco, que fue capaz de derribar siempre que lo intentó al brasileño <b>Cesar Almeida</b>, manteniendo un control en el suelo que le permitió sumar puntos para finalmente llevarse la victoria por decisión unánime. </p>
+                    <h2>Kevin Vallejos Da un Nocaut Espectacular a Giga Chikadze en el Segundo Asalto</h2>
+                    <p>Especutacular desempeño del argentino <b>Kevin Vallejos</b>, que en la pelea más complicada de su carrera hasta el momento actuó de manera sobresaliente, con un muy buen primer asalto en el que manejó la distancia y defendió muy bien las patadas al cuerpo de su rival para no salir tan lastimado, además siendo capaz de conectar varios golpes a su rival, y finalmente consiguiendo en el segundo ese nocaut espectacular, que vinó proveniente de un golpe giratorio que tumbó inmediatamente al georgiano, llevando al árbitro a parar la pelea para dar como ganador al argentino por TKO, metiéndose de lleno a los rankings de peso pluma de la UFC. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
