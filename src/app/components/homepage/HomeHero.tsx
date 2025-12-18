@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import kapeRoyval from '@/assets/eventos/fight-night/0-150/0-15/royval-kape.webp'
+import bestUFC2025 from '@/assets/eventos/articulos/0-10/mejores_eventos_ufc-2025.webp'
 import iliaNextMatch2026 from '@/assets/noticias/0-100/30-40/ilia-next_fight-2026.webp'
 import makhachevNextMatch2026 from '@/assets/noticias/0-100/30-40/makhachev-next_fight.2026.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/eventos/fight-night-royval-kape'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={kapeRoyval} alt='' />
-                <h2 className={styles.home__title}>UFC Vegas 112: ¡Manel Kape Noquea a Brandon Royval en el Primer Asalto! ¡Kevin Vallejos Da un Nocaut Espectacular a Giga Chikadze en el Segundo Asalto!</h2>
-                <span>¡Cezary Oleksieczuk Derrota a Cesar Almeida por Decisión! ¡King Green Derrota a Lance Gibson Jr. por Decisión Dividida!</span>
+            <Link className={styles.homehero__bigArticle} href='/eventos/mejores-eventos-ufc-2025'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={bestUFC2025} alt='' />
+                <h2 className={styles.home__title}>Los Mejores Eventos de UFC en 2025</h2>
+                <span>La lista de los 3 mejores eventos de la UFC en el año 2025: Islam Makhachev, Alex Pereira, Merab Dvalishvili, Alexander Volkanovski.</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
                 <Image className={styles.homehero__article__img} quality={50} src={makhachevNextMatch2026} alt='' />
