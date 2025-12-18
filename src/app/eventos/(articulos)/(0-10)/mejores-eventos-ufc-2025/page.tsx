@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'Los Mejores Eventos de UFC en 2025',
     description: "La lista de los mejores eventos de la UFC en el 2025, en el último año de la UFC en ESPN. ",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmejores_eventos_ufc-2025.800e4464.webp&w=828&q=65',
         title: 'Los Mejores Eventos de UFC en 2025',
         description: "La lista de los mejores eventos de la UFC en el 2025, en el último año de la UFC en ESPN. ",
         url: 'https://fullmma.org/eventos/mejores-eventos-ufc-2025'
