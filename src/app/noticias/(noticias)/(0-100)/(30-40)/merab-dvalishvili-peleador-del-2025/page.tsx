@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'Merab Dvalishvili: ¡El Peleador del Año de FULLMMA 2025!',
     description: "",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmerab_dvalishvili_foty2025.9263f5c5.webp&w=828&q=65',
         title: 'Merab Dvalishvili: ¡El Peleador del Año de FULLMMA 2025!',
         description: "",
         url: 'https://fullmma.org/noticias/merab-dvalishvili-peleador-del-2025'
