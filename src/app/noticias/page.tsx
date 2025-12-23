@@ -4,12 +4,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 import ArticlePreview from '../articulos/components/ArticlePreview';
 /* HERO IMAGES */
+import FOTY2025 from '@/assets/noticias/0-100/30-40/merab_dvalishvili_foty2025.webp'
 import makhachevNextMatch2026 from '@/assets/noticias/0-100/30-40/makhachev-next_fight.2026.webp'
 import iliaNextMatch2026 from '@/assets/noticias/0-100/30-40/ilia-next_fight-2026.webp'
 import theSmashingMachine from '@/assets/noticias/0-100/30-40/the_smashing_machine.webp'
 import modeloUFC from '@/assets/noticias/0-100/30-40/modelo_ufc.webp'
 import DWT3 from '@/assets/noticias/0-100/30-40/dwt3.jpg'
-import terranceMcKinney from '@/assets/noticias/0-100/30-40/terrance_mckinney.jpg'
 import previaUFC311 from '@/assets/noticias/0-100/20-30/previa_ufc311.jpg'
 /* 0 - 10 */
 import iliaPeleador2024 from '@/assets/noticias/0-100/0-10/ilia_peleador_2024.jpg'
@@ -45,16 +45,17 @@ import entrenamientoProchazka from '@/assets/noticias/0-100/20-30/prochazka_trai
 import dariushPelea2025 from '@/assets/noticias/0-100/20-30/dariush_pelea2025.jpg'
 /* 30 - 40 */
 import viniciusOliveira from '@/assets/noticias/0-100/30-40/vinicius_oliveira.jpg'
+import terranceMcKinney from '@/assets/noticias/0-100/30-40/terrance_mckinney.jpg'
 
 
 export default function NoticiasPage () {
     return(
         <section className={styles.noticiaspage__container}>
             <article className={styles.noticiasHero}>
-                <Link className={styles.noticiasHero__bigArticle} href='/noticias/the-smashing-machine'>
-                    <Image className={styles.noticiasHero__bigArticle__img} priority={true} quality={50} src={theSmashingMachine} alt='' />
-                    <h2 className={styles.page__title}>The Smashing Machine: Todo lo que Sabemos Sobre la Película de Mark Kerr Protagonizada por La Roca</h2>
-                    <p>Todo lo que hay que saber sobre la próxima película Dwayne Johnson, The Smashing Machine, basada en la vida del peleador de UFC Mark Kerr</p>
+                <Link className={styles.noticiasHero__bigArticle} href='/noticias/merab-dvalishvili-peleador-del-2025'>
+                    <Image className={styles.noticiasHero__bigArticle__img} priority={true} quality={50} src={FOTY2025} alt='' />
+                    <h2 className={styles.page__title}>Merab Dvalishvili: ¡El Peleador del Año de FULLMMA 2025!</h2>
+                    <p>Este año elegimos desde FULLMMA a Merab Dvalishvili como el Peleador del Año 2025 de la UFC. </p>
                 </Link>
                 <Link className={`${styles.noticiasHero__article} ${styles.normal1}`} href='/noticias/ilia-topuria-proxima-pelea-2026'>
                     <Image className={styles.noticiasHero__article__img} quality={50} src={iliaNextMatch2026} alt='' />
@@ -80,13 +81,14 @@ export default function NoticiasPage () {
                 </Link>
             </article>
             <article className={styles.noticiasHero__container}>
+                <ArticlePreview img={theSmashingMachine} url='/noticias/the-smashing-machine' title='The Smashing Machine: Todo lo que Sabemos Sobre la Película de Mark Kerr Protagonizada por La Roca' author={null} text='Todo lo que hay que saber sobre la próxima película Dwayne Johnson, The Smashing Machine, basada en la vida del peleador de UFC Mark Kerr' date='01/09/2025' />
                 <ArticlePreview img={DWT3} url='/noticias/dogfight-wild-tournament-3' title='Dogfight Wild Torunament 3: ¡Battle Royal 10 Peleadores Todos Contra Todos!' author={null} text='Vuelve el evento más loco del mundo, Dogfight Wild Tournament, en su tercera edición organizaodo por Jordi Wild. Con un 2vs2, pelea femenina sin reglas, pelea en un coche y una pelea medieval.' date='31/01/2025' />
                 <ArticlePreview img={modeloUFC} url='/noticias/modelo-de-ufc' title='Islam Dulatov: El Modelo de UFC Que Debuta en el UFC 318' author={null} text='Conoce al alemán Islam Dulatov, que renunció a su exitosa carrera de modelo de Gucci y Hugo Boss para convertirse en peleador de MMA y debutar en la UFC.' date='17/07/2025' />
                 <ArticlePreview img={entrenamientoProchazka} url='/noticias/como-entrena-jiri-prochazka' title='¿Cómo Entrena Jiri Prochazka? El entrenamiento y preparación mental de Jiri Prochazka que incluye golpear 500 veces un árbol y 3 días encerrado sin luz ni comida para confrontar sus demonios. ' author={null} text='El loco y salvaje régimen de entrenamiento al que se somete el excampeón de peso semipesado, con su famosa preparación mental que incluye pasar 3 días encierrado a oscuras en una habitación con sólo agua. ' date='14/01/2025' />
-                <ArticlePreview img={terranceMcKinney} url='/noticias/terrance-mckinney' title='Conoce a Terrance McKinney: El luchador estadounidense que estuvo cerca de morir y que terminó noqueando a un peleador en 7 segundos en su debut en UFC' author={null} text='Una de las historias más inspiradoras de las MMA, sobre cómo Terrance McKinney fue capaz de sobrevivir a una experiencia traumática, para convertirse en el peleador de UFC que fue capaz de noquear a su rival en 7 segundos. ' date='30/01/2025' />
             </article>
             <h2 className={styles.noticiasPage__subtitle}>Todas Las Noticias</h2>
             <article className={styles.noticias}>
+                <ArticlePreview img={terranceMcKinney} url='/noticias/terrance-mckinney' title='Conoce a Terrance McKinney: El luchador estadounidense que estuvo cerca de morir y que terminó noqueando a un peleador en 7 segundos en su debut en UFC' author={null} text='Una de las historias más inspiradoras de las MMA, sobre cómo Terrance McKinney fue capaz de sobrevivir a una experiencia traumática, para convertirse en el peleador de UFC que fue capaz de noquear a su rival en 7 segundos. ' date='30/01/2025' />
                 <ArticlePreview img={viniciusOliveira} url='/noticias/vinicius-oliveira-ufc' title='¿Quién es Vinicius Oliveira? El brasileño con KOs espectaculares en la UFC' author={null} text='La historia y carrera del peleador de UFC brasileño Vinicius Oliveira.' date='29/01/2025' />
                 <ArticlePreview img={dariushPelea2025} url='/noticias/beneil-dariush-proxima-pelea-2025' title='Próxima Pelea de Beneil Dariush Después del UFC 311' author={null} text='Luego de una caótica serie de eventos, con su pelea siendo cancelada, nos preguntamos: ¿Contra quien va a pelear Beneil Dariush Después del UFC 311? ' date='21/01/2025' />
                 <ArticlePreview img={ufcBillonario} url='/noticias/la-ufc-busca-contrato-billonario' title='La UFC Busca un Contrato Multimillonario de Mil Millones, Según Bloomberg, Por Sus Derechos Televisivos' author={null} text='Este año 2025 expira el contrato actual de la UFC con ESPN, por lo que la empresa de MMA más grande del planeta estaría buscando aumentar su contrato actual a uno de 10 cifras. ' date='15/01/2025' />

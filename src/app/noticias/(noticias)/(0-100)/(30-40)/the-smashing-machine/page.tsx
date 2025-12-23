@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 export default function TheSmashingMachine () {
     return(
         <main>
-            <ArticleHero title='The Smashing Machine: Todo lo que Sabemos Sobre la Película de Mark Kerr Protagonizada por La Roca' subtitle="Todo lo que hay que saber sobre la próxima película Dwayne Johnson, The Smashing Machine, basada en la vida del peleador de UFC Mark Kerr" image={hero} date='2025-0-01' author={null} updatedDate={null} />
+            <ArticleHero title='The Smashing Machine: Todo lo que Sabemos Sobre la Película de Mark Kerr Protagonizada por La Roca' subtitle="Todo lo que hay que saber sobre la próxima película Dwayne Johnson, The Smashing Machine, basada en la vida del peleador de UFC Mark Kerr" image={hero} date='2025-09-01' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Cada vez falta menos para que se estrene la película protagonizada por <b>Dwayne La Roca Johnson</b>, basada en la historia de vida del excampeón de peso pesado de la UFC y ex peleador de PRIDE FC <Link href='/articulos/que-le-paso-a-mark-kerr'>Mark Kerr</Link>, del cual ya escribímos un artículo. Por eso, estando a casi un mes del estreno de esta película vamos a repasar todo lo que se sabe hasta ahora sobre esta cinta. </p>
