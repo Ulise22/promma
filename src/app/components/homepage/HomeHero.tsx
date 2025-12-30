@@ -3,7 +3,7 @@ import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import bestUFC2025 from '@/assets/eventos/articulos/0-10/mejores_eventos_ufc-2025.webp'
-import iliaNextMatch2026 from '@/assets/noticias/0-100/30-40/ilia-next_fight-2026.webp'
+import FOTY2025 from '@/assets/noticias/0-100/30-40/merab_dvalishvili_foty2025.webp'
 import makhachevNextMatch2026 from '@/assets/noticias/0-100/30-40/makhachev-next_fight.2026.webp'
 
 export default function HomeHero () {
@@ -14,7 +14,7 @@ export default function HomeHero () {
                 <h2 className={styles.home__title}>Los Mejores Eventos de UFC en 2025</h2>
                 <span>La lista de los 3 mejores eventos de la UFC en el año 2025: Islam Makhachev, Alex Pereira, Merab Dvalishvili, Alexander Volkanovski.</span>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
+            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
                 <Image className={styles.homehero__article__img} quality={50} src={makhachevNextMatch2026} alt='' />
                 <article className={styles.homehero__article__container}>
                     <h2 className={styles.homehero__title}>Próxima Pelea de Islam Makhachev 2026: ¿Ian Garry? ¿Ilia Topuria? ¿Michael Morales?</h2>
@@ -25,14 +25,14 @@ export default function HomeHero () {
                     </div>
                 </article>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/ilia-topuria-proxima-pelea-2026'>
-                <Image className={styles.homehero__article__img} quality={50} src={iliaNextMatch2026} alt='' />
+            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/merab-dvalishvili-peleador-del-2025'>
+                <Image className={styles.homehero__article__img} quality={50} src={FOTY2025} alt='' />
                 <article className={styles.homehero__article__container}>
-                    <h2 className={styles.homehero__title}>Próxima Pelea de Ilia Topuria 2026: ¿Arman Tsarukyan o Paddy Pimblett?</h2>
-                    <p>Todo parece indicar que ya tenemos nuevo rival para el campeón español de UFC Ilia Topuria...</p>
+                    <h2 className={styles.homehero__title}>Merab Dvalishvili: ¡El Peleador del Año de FULLMMA 2025!</h2>
+                    <p>Este año elegimos desde FULLMMA a Merab Dvalishvili como el Peleador del Año 2025 de la UFC. </p>
                     <div className={styles.homehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>26/11/2025</p>
+                        <p>23/12/2025</p>
                     </div>
                 </article>
             </Link>
