@@ -95,7 +95,7 @@ export default function Articulos () {
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
-                <ArticlePreview img={pimblettOffCamp} url='/articulos/paddy-pimblett-fuera-de-campamento' title='Paddy Pimblett Fuera de Campamento: ¿Por Qué Se Ve Tan Gordo?' author={null} text='Porque Paddy Pimblett engorda tanto cuando no está peleando. El antes y después de Paddy The Baddy en una pelea.' date='18/01/2026' />
+                <ArticlePreview img={pimblettOffCamp} url='/articulos/paddy-pimblett-fuera-de-campamento' title='Paddy Pimblett Fuera de Campamento: ¿Por Qué Se Ve Tan Gordo?' author={null} text='Porque Paddy Pimblett engorda tanto cuando no está peleando. El antes y después de Paddy The Baddy en una pelea.' date='19/01/2026' />
                 <ArticlePreview img={merabCardio} url='/articulos/merab-dvalishvili-cardio' title='El Cardio de Merab Dvalishvili' author={null} text='¿Cómo Conseguir el Cardio de Merab Dvalishvili? El Secreto de Merab Para Tener un Cardio Inhumano.' date='18/09/2025' />
                 <ArticlePreview img={poatan} url='/articulos/que-significa-poatan' title='¿Qué Significa Poatan?' author={null} text='Descubre el significado y la historia detrás del apodo de Alex Pereira' date='12/09/2025' />
                 <ArticlePreview img={makhachevDerrota} url='/articulos/islam-makhachev-unica-derrota' title='La Única Derrota de Islam Makhachev' author={null} text='Primer derrota profesional en las MMA del luchador de Daguestán Islam Makhachev. ' date='10/09/2025' />

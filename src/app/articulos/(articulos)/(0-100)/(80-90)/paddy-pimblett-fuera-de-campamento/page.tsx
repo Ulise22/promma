@@ -13,11 +13,11 @@ const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles
 
 export const metadata: Metadata = {
     title: 'Paddy Pimblett Fuera de Campamento',
-    description: '',
+    description: '¿Por qué Paddy Pimblet fuera del campamento se pone tan gordo? Hoy veremos como el corte peso y su estilo de vida explican la diferencia de peso entre antes y después de una pelea.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpimblett-fuera-de-campamento.456ec3b7.webp&w=828&q=65',
         title: 'Paddy Pimblett Fuera de Campamento',
-        description: '',
+        description: '¿Por qué Paddy Pimblet fuera del campamento se pone tan gordo? Hoy veremos como el corte peso y su estilo de vida explican la diferencia de peso entre antes y después de una pelea.',
         url: 'https://fullmma.org/articulos/paddy-pimblett-fuera-de-campamento'
     }
 }
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 export default function PimblettOffCamp () {
     return(
         <main>
-            <ArticleHero title='Paddy Pimblett Fuera de Campamento: ¿Por Qué Se Ve Tan Gordo?' subtitle='Porque Paddy Pimblett engorda tanto cuando no está peleando. El antes y después de Paddy The Baddy en una pelea.' image={hero} date='2026-01-18' author={null} updatedDate={null} />
+            <ArticleHero title='Paddy Pimblett Fuera de Campamento: ¿Por Qué Se Ve Tan Gordo?' subtitle='Porque Paddy Pimblett engorda tanto cuando no está peleando. El antes y después de Paddy The Baddy en una pelea.' image={hero} date='2026-01-19' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>No hay otra manera de decirlo, cuando <Link href='/peleadores/paddy-pimblett'>Paddy Pimblett</Link> está fuera de campamento se pone gordo, sube mucho de peso cuando no está peleando y se nota en varias fotos que se hicieron virales en la comunidad de las MMA, pero ¿por qué pasa esto? Para responderlo tendremos que hablar del impacto que tiene <Link href='/articulos/que-es-el-corte-de-peso-en-ufc'>corte de peso</Link> en los peleadores y el estilo de vida que lleva Paddy &quot;The Baddy&quot;.</p>
