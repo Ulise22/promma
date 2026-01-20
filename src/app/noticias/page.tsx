@@ -4,13 +4,13 @@ import Link from 'next/link';
 import Image from 'next/image';
 import ArticlePreview from '../articulos/components/ArticlePreview';
 /* HERO IMAGES */
+import gaethjeRetiro from '@/assets/noticias/0-100/30-40/gaethje-retiro.webp'
 import FOTY2025 from '@/assets/noticias/0-100/30-40/merab_dvalishvili_foty2025.webp'
 import makhachevNextMatch2026 from '@/assets/noticias/0-100/30-40/makhachev-next_fight.2026.webp'
 import iliaNextMatch2026 from '@/assets/noticias/0-100/30-40/ilia-next_fight-2026.webp'
 import theSmashingMachine from '@/assets/noticias/0-100/30-40/the_smashing_machine.webp'
 import modeloUFC from '@/assets/noticias/0-100/30-40/modelo_ufc.webp'
 import DWT3 from '@/assets/noticias/0-100/30-40/dwt3.jpg'
-import previaUFC311 from '@/assets/noticias/0-100/20-30/previa_ufc311.jpg'
 /* 0 - 10 */
 import iliaPeleador2024 from '@/assets/noticias/0-100/0-10/ilia_peleador_2024.jpg'
 import espUFC2025 from '@/assets/noticias/0-100/0-10/peleadores_espanoles_ufc.jpg'
@@ -43,6 +43,7 @@ import argUFC2024 from '@/assets/noticias/0-100/20-30/argentinos2024.jpg'
 import ufcBillonario from '@/assets/noticias/0-100/20-30/ufc_busca_millonada.jpg'
 import entrenamientoProchazka from '@/assets/noticias/0-100/20-30/prochazka_training.png'
 import dariushPelea2025 from '@/assets/noticias/0-100/20-30/dariush_pelea2025.jpg'
+import previaUFC311 from '@/assets/noticias/0-100/20-30/previa_ufc311.jpg'
 /* 30 - 40 */
 import viniciusOliveira from '@/assets/noticias/0-100/30-40/vinicius_oliveira.jpg'
 import terranceMcKinney from '@/assets/noticias/0-100/30-40/terrance_mckinney.jpg'
@@ -81,13 +82,14 @@ export default function NoticiasPage () {
                 </Link>
             </article>
             <article className={styles.noticiasHero__container}>
+                <ArticlePreview img={gaethjeRetiro} url='/noticias/justin-gaethje-retiro' title='UFC 324: ¿El Retiro de Justin Gaethje?' author={null} text='El entrenador de Gaethje ha dejado claro que en caso de perder se nos retira una leyenda...' date='19/01/2026' />
                 <ArticlePreview img={theSmashingMachine} url='/noticias/the-smashing-machine' title='The Smashing Machine: Todo lo que Sabemos Sobre la Película de Mark Kerr Protagonizada por La Roca' author={null} text='Todo lo que hay que saber sobre la próxima película Dwayne Johnson, The Smashing Machine, basada en la vida del peleador de UFC Mark Kerr' date='01/09/2025' />
                 <ArticlePreview img={DWT3} url='/noticias/dogfight-wild-tournament-3' title='Dogfight Wild Torunament 3: ¡Battle Royal 10 Peleadores Todos Contra Todos!' author={null} text='Vuelve el evento más loco del mundo, Dogfight Wild Tournament, en su tercera edición organizaodo por Jordi Wild. Con un 2vs2, pelea femenina sin reglas, pelea en un coche y una pelea medieval.' date='31/01/2025' />
                 <ArticlePreview img={modeloUFC} url='/noticias/modelo-de-ufc' title='Islam Dulatov: El Modelo de UFC Que Debuta en el UFC 318' author={null} text='Conoce al alemán Islam Dulatov, que renunció a su exitosa carrera de modelo de Gucci y Hugo Boss para convertirse en peleador de MMA y debutar en la UFC.' date='17/07/2025' />
-                <ArticlePreview img={entrenamientoProchazka} url='/noticias/como-entrena-jiri-prochazka' title='¿Cómo Entrena Jiri Prochazka? El entrenamiento y preparación mental de Jiri Prochazka que incluye golpear 500 veces un árbol y 3 días encerrado sin luz ni comida para confrontar sus demonios. ' author={null} text='El loco y salvaje régimen de entrenamiento al que se somete el excampeón de peso semipesado, con su famosa preparación mental que incluye pasar 3 días encierrado a oscuras en una habitación con sólo agua. ' date='14/01/2025' />
             </article>
             <h2 className={styles.noticiasPage__subtitle}>Todas Las Noticias</h2>
             <article className={styles.noticias}>
+                <ArticlePreview img={entrenamientoProchazka} url='/noticias/como-entrena-jiri-prochazka' title='¿Cómo Entrena Jiri Prochazka? El entrenamiento y preparación mental de Jiri Prochazka que incluye golpear 500 veces un árbol y 3 días encerrado sin luz ni comida para confrontar sus demonios. ' author={null} text='El loco y salvaje régimen de entrenamiento al que se somete el excampeón de peso semipesado, con su famosa preparación mental que incluye pasar 3 días encierrado a oscuras en una habitación con sólo agua. ' date='14/01/2025' />
                 <ArticlePreview img={terranceMcKinney} url='/noticias/terrance-mckinney' title='Conoce a Terrance McKinney: El luchador estadounidense que estuvo cerca de morir y que terminó noqueando a un peleador en 7 segundos en su debut en UFC' author={null} text='Una de las historias más inspiradoras de las MMA, sobre cómo Terrance McKinney fue capaz de sobrevivir a una experiencia traumática, para convertirse en el peleador de UFC que fue capaz de noquear a su rival en 7 segundos. ' date='30/01/2025' />
                 <ArticlePreview img={viniciusOliveira} url='/noticias/vinicius-oliveira-ufc' title='¿Quién es Vinicius Oliveira? El brasileño con KOs espectaculares en la UFC' author={null} text='La historia y carrera del peleador de UFC brasileño Vinicius Oliveira.' date='29/01/2025' />
                 <ArticlePreview img={dariushPelea2025} url='/noticias/beneil-dariush-proxima-pelea-2025' title='Próxima Pelea de Beneil Dariush Después del UFC 311' author={null} text='Luego de una caótica serie de eventos, con su pelea siendo cancelada, nos preguntamos: ¿Contra quien va a pelear Beneil Dariush Después del UFC 311? ' date='21/01/2025' />
