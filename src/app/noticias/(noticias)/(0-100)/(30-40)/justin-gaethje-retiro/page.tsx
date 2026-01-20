@@ -13,11 +13,11 @@ const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'UFC 324: ¿El Retiro de Justin Gaethje?',
-    description: "",
+    description: "Justin Geethje se retira en el UFC 324 si pierde ante Paddy Pimblett, según lo que ha dicho su entrenador Trevor Wittman. ",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgaethje-retiro.6750bbb3.webp&w=828&q=65',
         title: 'UFC 324: ¿El Retiro de Justin Gaethje?',
-        description: "",
+        description: "Justin Geethje se retira en el UFC 324 si pierde ante Paddy Pimblett, según lo que ha dicho su entrenador Trevor Wittman. ",
         url: 'https://fullmma.org/noticias/justin-gaethje-retiro'
     }
 }

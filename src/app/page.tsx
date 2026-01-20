@@ -8,7 +8,7 @@ import ArticulosContainer from './components/homepage/ArticulosContainer'
 import pimblettOffCamp from '@/assets/articulos/0-100/80-90/pimblett-fuera-de-campamento.webp'
 import fightingNerds from '@/assets/articulos/0-100/10-20/fighting_nerds.jpg'
 import salariosUFC from '@/assets/articulos/0-100/10-20/salarios_ufc.jpg'
-import bispingOjo from '@/assets/articulos/0-100/20-30/michael_bisping_ojo.jpg'
+import FOTY2025 from '@/assets/noticias/0-100/30-40/merab_dvalishvili_foty2025.webp'
 import Image from 'next/image'
 import plus from '@/assets/plus.png'
 import CoverturaUFC from './components/homepage/coverturaUfc/CoverturaUfc'
@@ -19,9 +19,9 @@ export default function Home () {
       <HomeHero />
       <section className={styles.home__articlesHero}>
         <ArticlePreview img={pimblettOffCamp} url='/articulos/paddy-pimblett-fuera-de-campamento' title='Paddy Pimblett Fuera de Campamento: ¿Por Qué Se Ve Tan Gordo?' author={null} text='Porque Paddy Pimblett engorda tanto cuando no está peleando. El antes y después de Paddy The Baddy en una pelea.' date='19/01/2026' />
+        <ArticlePreview img={FOTY2025} url='/noticias/merab-dvalishvili-peleador-del-2025' title='Merab Dvalishvili: ¡El Peleador del Año de FULLMMA 2025!' author={null} text='Este año elegimos desde FULLMMA a Merab Dvalishvili como el Peleador del Año 2025 de la UFC. ' date='23/12/2025' />
         <ArticlePreview img={fightingNerds} url='/articulos/fighting-nerds' title='¿Quiénes son los Fighting Nerds? El Mejor Equipo de MMA que Arrasa en la UFC' author={null} text='La historia del equipo Fighting Nerds, quiénes son, su filosofía, y cómo llegaron hasta lo más alto de las MMA, dominando por completo la UFC.' date='09/12/2024' />
         <ArticlePreview img={salariosUFC} url='/articulos/cuanto-gana-un-peleador-de-ufc' title='¿Cuánto le pagan a un peleador de UFC? Los salarios de los peleadores más importantes de MMA' author={null} text='Cuánto ganan los peleadores de UFC, desde los novatos, un peleador promedio, un campeón, y cómo sus resultados influyen en el sueldo. ' date='27/12/2025' />
-        <ArticlePreview img={bispingOjo} url='/articulos/michael-bisping-ojo' title='Michael Bisping: El Luchador Inglés de UFC Que Perdió un Ojo Peleando' author={null} date='13/06/2024' text='La historia de cómo el peleador de Reino Unido perdió su ojo durante una pelea de UFC, y cómo a pesar de eso logró ser campeón.' />
       </section>
       <section className={styles.home__peleadores}>
         <h2 className={styles.home__peleadores__title}>Peleadores Campeones de la UFC</h2>

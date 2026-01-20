@@ -3,8 +3,8 @@ import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import bestUFC2025 from '@/assets/eventos/articulos/0-10/mejores_eventos_ufc-2025.webp'
-import FOTY2025 from '@/assets/noticias/0-100/30-40/merab_dvalishvili_foty2025.webp'
 import makhachevNextMatch2026 from '@/assets/noticias/0-100/30-40/makhachev-next_fight.2026.webp'
+import gaethjeRetiro from '@/assets/noticias/0-100/30-40/gaethje-retiro.webp'
 
 export default function HomeHero () {
     return(
@@ -25,14 +25,14 @@ export default function HomeHero () {
                     </div>
                 </article>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/merab-dvalishvili-peleador-del-2025'>
-                <Image className={styles.homehero__article__img} quality={50} src={FOTY2025} alt='' />
+            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/justin-gaethje-retiro'>
+                <Image className={styles.homehero__article__img} quality={50} src={gaethjeRetiro} alt='' />
                 <article className={styles.homehero__article__container}>
-                    <h2 className={styles.homehero__title}>Merab Dvalishvili: ¡El Peleador del Año de FULLMMA 2025!</h2>
-                    <p>Este año elegimos desde FULLMMA a Merab Dvalishvili como el Peleador del Año 2025 de la UFC. </p>
+                    <h2 className={styles.homehero__title}>UFC 324: ¿El Retiro de Justin Gaethje?</h2>
+                    <p>El entrenador de Gaethje ha dejado claro que en caso de perder se nos retira una leyenda...</p>
                     <div className={styles.homehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>23/12/2025</p>
+                        <p>20/01/2026</p>
                     </div>
                 </article>
             </Link>
