@@ -33,6 +33,8 @@ export default function UFC324 () {
                     <h2 className={styles.article__fightsHierarchy}>Primeros Preliminares</h2>
                     <h2>Ty Miller Noquea a Adam Fugitt en el Primer Asalto</h2>
                     <p>Espectacular debut del estadounidense <b>Ty Miller</b>, que inicia su carrera en la UFC con un nocat en el último segundo del primer asalto, para entrar pisando con el pie derecho a la compañía, al lograr la primer finalización de la era Paramount, luego de conectar un espectacular recto derecho en la cabeza de su rival, que llevaría al árbitro a parar la pelea. </p>
+                    <h2>Josh Hokit Noquea a Denzel Freeman en el Primer Asalto</h2>
+                    <p>Segundo asalto de la noche, en lo que fue una completa masterclass por parte del americano <b>Josh Hokit</b>, quien en menos de 10 segundo ya había derribado a su oponente, y que durante todo el combate tuvo contra las cuerdas a su rival, hasta que finalmente cuando estaba terminando el asalto, el árbitro notó que <b>Denzel Freeman</b> no podía continuar peleando luego de haber recibido tantos golpes, por lo que puso un freno a la pelea, dando como ganador a <b>Josh Hokit</b> por TKO.</p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p> */}
