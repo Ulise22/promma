@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import bestUFC2025 from '@/assets/eventos/articulos/0-10/mejores_eventos_ufc-2025.webp'
+import ufc324 from '@/assets/eventos/ufc/0-150/0-15/ufc324.webp'
 import makhachevNextMatch2026 from '@/assets/noticias/0-100/30-40/makhachev-next_fight.2026.webp'
 import gaethjeRetiro from '@/assets/noticias/0-100/30-40/gaethje-retiro.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/eventos/mejores-eventos-ufc-2025'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={bestUFC2025} alt='' />
-                <h2 className={styles.home__title}>Los Mejores Eventos de UFC en 2025</h2>
-                <span>La lista de los 3 mejores eventos de la UFC en el año 2025: Islam Makhachev, Alex Pereira, Merab Dvalishvili, Alexander Volkanovski.</span>
+            <Link className={styles.homehero__bigArticle} href='/eventos/ufc324'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc324} alt='' />
+                <h2 className={styles.home__title}>UFC 324: ¡Paddy Pimblett vs Justin Gaethje! ¡Sean O&apos;Omalley vs Song Yadong!</h2>
+                <span>¡Waldo Cortes Acosta! ¡Arnold Allen vs Jean Silva! ¡Umar Nurmagomedov vs Deiveson Figueiredo!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
                 <Image className={styles.homehero__article__img} quality={50} src={makhachevNextMatch2026} alt='' />
