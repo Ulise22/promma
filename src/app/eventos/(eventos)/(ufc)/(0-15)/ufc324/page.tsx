@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: 'UFC 324: ¡Paddy Pimblett vs Justin Gaethje! ¡Sean O&apos;Omalley vs Song Yadong!',
     description: "Primer evento de UFC del año y el primer evento de la era Paramount, con el título interino de peso ligero en disputa entre Paddy Pimblett y Justin Gaethje",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc324.e6adceb6.webp&w=828&q=65',
         title: 'UFC 324: ¡Paddy Pimblett vs Justin Gaethje! ¡Sean O&apos;Omalley vs Song Yadong!',
         description: "Primer evento de UFC del año y el primer evento de la era Paramount, con el título interino de peso ligero en disputa entre Paddy Pimblett y Justin Gaethje",
         url: 'https://fullmma.org/eventos/ufc324'
