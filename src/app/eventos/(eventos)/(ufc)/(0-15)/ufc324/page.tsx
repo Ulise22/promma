@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function UFC324 () {
     return(
         <main>
-            <ArticleHero title="UFC 324: ¡Paddy Pimblett vs Justin Gaethje! ¡Sean O&apos;Omalley vs Song Yadong!" subtitle='¡Waldo Cortes Acosta! ¡Jean Silva Derrota a Arnold Allen en La Pelea de la Noche! ¡Umar Nurmagomedov Derrota a Deiveson Figueiredo Por Decisión Unánime!' image={hero} date='2025-12-24' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 324: ¡Paddy Pimblett vs Justin Gaethje! ¡Sean O&apos;Omalley vs Song Yadong!" subtitle='¡Waldo Cortes Acosta Noquea a Derrick Lewis en el Segundo Asalto! ¡Jean Silva Derrota a Arnold Allen en La Pelea de la Noche! ¡Umar Nurmagomedov Derrota a Deiveson Figueiredo Por Decisión Unánime!' image={hero} date='2026-01-24' author={null} updatedDate='2026-01-25' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Finalmente vuelve la UFC con el primer evento de la era Paramount y el primer evento del año que busca comenzar con el pie derecho, por lo que estamos llenos de peleas espectaculares en la cartelera. Comenzando con la pelea estelar, que será por el título interino de peso ligero, luego de que el campeón <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> deba tomarse un tiempo fuera por problemas personales, tendremos al legendario <Link href='/peleadores/justin-gaethje'>Justin Geathje</Link> y la joven estrella inglesa <Link href='/peleadores/paddy-pimblett'>Paddy Pimblett</Link>, con el ganador teniendo la oportunidad de pelear a mediados de año por el título indiscutido ante el español. </p>
@@ -49,6 +49,8 @@ export default function UFC324 () {
                     <p>Espectacular manera de abrir la cartelera estelar con el brasileño <Link href='/peleadores/jean-silva'>Jean Silva</Link> y el inglés <b>Arnold Allen</b> dándonos un espectáculo de principio a fin, con el de Brasil yendo de menos a más, estando espectante y siendo conservador al inicio del combate, pero presionando el acelerador a partir del final del primer asalto, con ambos luchadores dándose golpes de todo tipo, patadas, puños, ganchos, upper, y derribos, en un combate que tuvo poco de suelo y mucho de guerra, siendo Jean Silva quien finalmente saldría ganador de este por decisión unánime. </p>
                     <h2>Natalia Silva Derrota a Rose Namajunas Por Decisión Unánime</h2>
                     <p>La brasileña <b>Natalia Silva</b>, que actualmente ocupa el #2 en la división de peso mosca femenino, se lleva la victoria luego de ganar el primer y tercer asalto del combate, conectando más golpes que su rival <Link href='/mujeres/rose-namajunas'>Rose Namajunas</Link> y concretando un derribo en el último asalto, para finalmente ganar el combate por decisión unánime en la única pelea femenina de la noche. </p>
+                    <h2>Waldo Cortes Acosta Noquea a Derrick Lewis en el Segundo Asalto</h2>
+                    <p>Excelente victoria para el latinoaméricano <b>Waldo Cortes Acosta</b>, quien luego de dominar durante todo el primer y segundo asalto, fue capaz de conectar un golpe que derribaría a <b>Derrick Lewis</b>, para seguirlo de una avalancha de golpes que llevarían al árbitro a parar la pelea para darlo como ganandor. De esta forma el dominicano se lleva la victoria por TKO en el segundo asalto, y consigue la primer finalización de la cartelera estelar.</p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
