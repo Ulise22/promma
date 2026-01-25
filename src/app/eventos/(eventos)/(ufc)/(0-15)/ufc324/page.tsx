@@ -47,6 +47,8 @@ export default function UFC324 () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Jean Silva Derrota a Arnold Allen en La Pelea de la Noche</h2>
                     <p>Espectacular manera de abrir la cartelera estelar con el brasileño <Link href='/peleadores/jean-silva'>Jean Silva</Link> y el inglés <b>Arnold Allen</b> dándonos un espectáculo de principio a fin, con el de Brasil yendo de menos a más, estando espectante y siendo conservador al inicio del combate, pero presionando el acelerador a partir del final del primer asalto, con ambos luchadores dándose golpes de todo tipo, patadas, puños, ganchos, upper, y derribos, en un combate que tuvo poco de suelo y mucho de guerra, siendo Jean Silva quien finalmente saldría ganador de este por decisión unánime. </p>
+                    <h2>Natalia Silva Derrota a Rose Namajunas Por Decisión Unánime</h2>
+                    <p>La brasileña <b>Natalia Silva</b>, que actualmente ocupa el #2 en la división de peso mosca femenino, se lleva la victoria luego de ganar el primer y tercer asalto del combate, conectando más golpes que su rival <Link href='/mujeres/rose-namajunas'>Rose Namajunas</Link> y concretando un derribo en el último asalto, para finalmente ganar el combate por decisión unánime en la única pelea femenina de la noche. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
