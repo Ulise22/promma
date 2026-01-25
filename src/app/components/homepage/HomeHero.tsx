@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/eventos/ufc324'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc324} alt='' />
-                <h2 className={styles.home__title}>UFC 324: ¡Paddy Pimblett vs Justin Gaethje! ¡Sean O&apos;Malley Derrota a Song Yadong Por Decisión Unánime!</h2>
+                <h2 className={styles.home__title}>¡Justin Gaethje Derrota a Paddy Pimblett y es Nuevo Campeón Interino! ¡Sean O&apos;Malley Derrota a Song Yadong Por Decisión Unánime!</h2>
                 <span>¡Waldo Cortes Acosta Noquea a Derrick Lewis en el Segundo Asalto! ¡Jean Silva Derrota a Arnold Allen en La Pelea de la Noche! ¡Umar Nurmagomedov Derrota a Deiveson Figueiredo Por Decisión Unánime!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
