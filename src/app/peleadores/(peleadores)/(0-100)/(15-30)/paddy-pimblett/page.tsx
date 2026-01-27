@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Pimblett () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={pimblett} w={23} l={3} d={0} nombre='Paddy Pimblett' categoria='Peso Ligero' apodo='THE BADDY' time='2025-10-29' />
+            <PeleadoresHero peleadoresImage={pimblett} w={23} l={4} d={0} nombre='Paddy Pimblett' categoria='Peso Ligero' apodo='THE BADDY' time='2025-10-29' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Paddy Pimblett UFC</h2>
@@ -29,7 +29,7 @@ export default function Pimblett () {
                     <p className={styles.peleador__article__text}>Paddy considera que su caraterístico pelo suelto y la falta de tatuajes en su cuerpo, es lo que permite a los niños identificarse con él, dado que es especialmente popular en la audiencia joven de las MMA, a quienes les es más fácil identificarse con un tipo como Paddy antes que con el &quot;tipo grande y duro con muchos tatuajes&quot;.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/VDLmgJPydsQ?si=MYXXL8R50R6NHNsh" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     <h2 className={styles.peleador__article__title}>Paddy Pimblett Récord</h2>
-                    <p className={styles.peleador__article__text}>Paddy Pimblett posee un récord profesional de 23-3. Siendo 7 de sus victorias por la vía del nocaut, 10 por la vía de la sumisión y 6 por decisión. Mientras que de sus 3 derrotas, 1 fue por sumisión y 2 fueron por decisión.</p>
+                    <p className={styles.peleador__article__text}>Paddy Pimblett posee un récord profesional de 23-4. Siendo 7 de sus victorias por la vía del nocaut, 10 por la vía de la sumisión y 6 por decisión. Mientras que de sus 4 derrotas, 1 fue por sumisión y 3 fueron por decisión.</p>
                     <h2 className={styles.peleador__article__title}>Paddy Pimblett Biografía</h2>
                     <p className={styles.peleador__article__text}>Patrick Pimblett nació el 3 de enero de 1995 en Liverpool, Inglaterra. Siendo un adolescente de 14 años, su primer contacto con el mundo de las MMA, fue cuando vió la pelea entre <b>Vitor Belfort</b> y <b>Rich Franklin</b> en el <b>UFC 103</b>, que lo convenció de comenzar a entrenar artes marciales mixtas con 15 años, compitiendo profesionalmente pocos años después.</p>
                     <p className={styles.peleador__article__text}>El 16 de octubre de 2012 haría su debut como profesioanl de las MMA, enfrentando al estadounidense <b>Nathan Thompson</b> en la división de peso gallo, a quienn ganaría por TKO, luego de lograr una sumisión a golpes. Ganaría sus primeros 4 combates como profesioanl, siendo 2 de estas victorias por nocaut, 1 por sumisión y 1 por decisión. Con su primer derrota llegando recien en el quinto combate de su carrera, ante su compatriota <b>Cameron Else</b>, quien lo sometería en menos de un minuto en el primer asalto.</p>
