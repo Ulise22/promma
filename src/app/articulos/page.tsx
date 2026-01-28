@@ -89,19 +89,21 @@ import poatan from '@/assets/articulos/0-100/70-80/poatan.webp'
 import merabCardio from '@/assets/articulos/0-100/70-80/merab_dvalishvili-cardio.webp'
 /* 80-90 */ 
 import pimblettOffCamp from '@/assets/articulos/0-100/80-90/pimblett-fuera-de-campamento.webp'
+import saintDenisMilitar from '@/assets/articulos/0-100/80-90/saint_denis-militar.webp'
 
 export default function Articulos () {
     return(
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
+                <ArticlePreview img={saintDenisMilitar} url='/articulos/benoit-saint-denis-militar' title='El Pasado Militar de Benoit Saint Denis' author={null} text='Cómo Benoit Saint Denis pasó de ser un militar de las fuerzas especiales francesas a uno de los peleadores más emocionantes de la UFC. ' date='27/01/2026' />
                 <ArticlePreview img={pimblettOffCamp} url='/articulos/paddy-pimblett-fuera-de-campamento' title='Paddy Pimblett Fuera de Campamento: ¿Por Qué Se Ve Tan Gordo?' author={null} text='Porque Paddy Pimblett engorda tanto cuando no está peleando. El antes y después de Paddy The Baddy en una pelea.' date='19/01/2026' />
                 <ArticlePreview img={merabCardio} url='/articulos/merab-dvalishvili-cardio' title='El Cardio de Merab Dvalishvili' author={null} text='¿Cómo Conseguir el Cardio de Merab Dvalishvili? El Secreto de Merab Para Tener un Cardio Inhumano.' date='18/09/2025' />
                 <ArticlePreview img={poatan} url='/articulos/que-significa-poatan' title='¿Qué Significa Poatan?' author={null} text='Descubre el significado y la historia detrás del apodo de Alex Pereira' date='12/09/2025' />
-                <ArticlePreview img={makhachevDerrota} url='/articulos/islam-makhachev-unica-derrota' title='La Única Derrota de Islam Makhachev' author={null} text='Primer derrota profesional en las MMA del luchador de Daguestán Islam Makhachev. ' date='10/09/2025' />
             </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={makhachevDerrota} url='/articulos/islam-makhachev-unica-derrota' title='La Única Derrota de Islam Makhachev' author={null} text='Primer derrota profesional en las MMA del luchador de Daguestán Islam Makhachev. ' date='10/09/2025' />
                 <ArticlePreview img={alexPereiraTribu} url='/articulos/alex-pereira-tribu' title='¿Cuál es la Tribu de Alex Pereira?' author={null} text='El origen de Alex Pereira y su relación la tribu indigena brasileña Pataxó, de la que es descendiente' date='09/09/2025' />
                 <ArticlePreview img={dellaMaddalenaNariz} url='/articulos/jack-della-maddalena-nariz' title='¿Qué Le Pasó a Jack Della Maddalena en la Nariz?' author={null} text='¿Qué le pasó en la nariz a Jack Della Maddalena? Como un rodillazo en la cabeza le deformó el tabique al campeón de la UFC.' date='09/09/2025' />
                 <ArticlePreview img={chama} url='/articulos/que-significa-chama-alex-pereira' title='¿Qué Significa Chama de Alex Pereira?' author={null} text='Significado y origen de la palabra "CHAMA" que tanto utiliza Alex Pereira' date='08/09/2025' />
