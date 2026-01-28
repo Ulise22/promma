@@ -4,7 +4,7 @@ import Image from 'next/image'
 /* IMAGES */
 import ufc324 from '@/assets/eventos/ufc/0-150/0-15/ufc324.webp'
 import makhachevNextMatch2026 from '@/assets/noticias/0-100/30-40/makhachev-next_fight.2026.webp'
-import gaethjeRetiro from '@/assets/noticias/0-100/30-40/gaethje-retiro.webp'
+import saintDenisMilitar from '@/assets/articulos/0-100/80-90/saint_denis-militar.webp'
 
 export default function HomeHero () {
     return(
@@ -25,14 +25,14 @@ export default function HomeHero () {
                     </div>
                 </article>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/justin-gaethje-retiro'>
-                <Image className={styles.homehero__article__img} quality={50} src={gaethjeRetiro} alt='' />
+            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/benoit-saint-denis-militar'>
+                <Image className={styles.homehero__article__img} quality={50} src={saintDenisMilitar} alt='' />
                 <article className={styles.homehero__article__container}>
-                    <h2 className={styles.homehero__title}>UFC 324: ¿El Retiro de Justin Gaethje?</h2>
-                    <p>El entrenador de Gaethje ha dejado claro que en caso de perder se nos retira una leyenda...</p>
+                    <h2 className={styles.homehero__title}>El Pasado Militar de Benoit Saint Denis</h2>
+                    <p>Cómo Benoit Saint Denis pasó de ser un militar de las fuerzas especiales francesas a uno de los peleadores más emocionantes de la UFC. </p>
                     <div className={styles.homehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>20/01/2026</p>
+                        <p>27/01/2026</p>
                     </div>
                 </article>
             </Link>

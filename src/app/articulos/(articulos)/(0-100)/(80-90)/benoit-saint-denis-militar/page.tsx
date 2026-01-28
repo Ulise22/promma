@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'El Pasado Militar de Benoit Saint Denis',
     description: 'Benoit Saint Denis pasó de ser un operador de élite en las fuerzas especiales francesas, a ser uno de los peleadores más entretenidos de ver en la UFC. Descubre como y por qué.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsaint_denis-militar.dd1bfb2c.webp&w=828&q=65',
         title: 'El Pasado Militar de Benoit Saint Denis',
         description: 'Benoit Saint Denis pasó de ser un operador de élite en las fuerzas especiales francesas, a ser uno de los peleadores más entretenidos de ver en la UFC. Descubre como y por qué.',
         url: 'https://fullmma.org/articulos/benoit-saint-denis-militar'
