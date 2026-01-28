@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc323 from '@/assets/eventos/ufc/0-150/0-15/ufc323.webp'
+import ufc324 from '@/assets/eventos/ufc/0-150/0-15/ufc324.webp'
 import kapeRoyval from '@/assets/eventos/fight-night/0-150/0-15/royval-kape.webp'
 import deridderAllen from '@/assets/eventos/fight-night/0-150/0-15/deridder-allen.webp'
 
 export default function PageHero () {
     return(
         <section className={styles.pagehero}>
-            <Link className={styles.pagehero__bigArticle} href='/eventos/ufc323'>
-                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc323} alt='' />
-                <h2 className={styles.page__title}>UFC 323: ¡Petr Yan Derrota a Merab Dvalishvili y es Nuevo Campeón de UFC! ¡A Alexandre Pantoja se le Sale el Codo de Lugar y Joshua Van es el Nuevo Campeón!</h2>
-                <p>¡Tatsuro Taira Noquea a Brandon Moreno en el Segundo Asalto! ¡Payton Talbott Destruye a Henry Cejudo en su Pelea de Retiro!</p>
+            <Link className={styles.pagehero__bigArticle} href='/eventos/ufc324'>
+                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc324} alt='' />
+                <h2 className={styles.page__title}>¡Justin Gaethje Derrota a Paddy Pimblett y es Nuevo Campeón Interino! ¡Sean O&apos;Malley Derrota a Song Yadong Por Decisión Unánime!</h2>
+                <p>¡Waldo Cortes Acosta Noquea a Derrick Lewis en el Segundo Asalto! ¡Jean Silva Derrota a Arnold Allen en La Pelea de la Noche! ¡Umar Nurmagomedov Derrota a Deiveson Figueiredo Por Decisión Unánime!</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal2}`} href='/eventos/fight-night-deridder-allen'>
                 <Image className={styles.pagehero__article__img} quality={50} src={deridderAllen} alt='' />

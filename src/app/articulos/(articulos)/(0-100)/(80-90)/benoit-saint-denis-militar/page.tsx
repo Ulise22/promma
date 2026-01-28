@@ -36,6 +36,7 @@ export default function BenoitSaintDenisMilitar () {
                     <p>Se alistó el 4 de marzo de 2014 en el <b>1er Régiment de Parachutistes d&apos;Infanterie de Marine (1er RPIMa)</b>, que es una de las unidades más selectivas y prestigiosas del COS francés, equivalente a las fuerzas especiales del ejército de tierra. Allí se formó desarrollando habilidades de todo tipo hasta ser un operador calificado. </p>
                     <h3>Saint Denis y su Carrera Militar</h3>
                     <p>A partir de 2016, cuando tenía apenas unos 20 años, comenzó a participar de varias misiones de combate bastante serias, teniendo un rol en la Guerra del Sahel, principalmente en Malí, donde enfrentaría a grupos terroristas, a facciones del Estado Islámico en el Gran Sahara y a otros grupos yihadistas. </p>
+                    <YouTubeEmbed videoid='IULHW3igi5g' />
                     <p>Haciendo operaciones antiterroristas, contraterrorismo, tomando acciones directas contra insurgentes, y participando de misiones específicas como por ejemplo la recuperación de un aeropuerto en Timbuktu. </p>
                     <p>Pese a su juventud y a lo cortó de su carrera militar, lo cierto es que este periodo de su vida fue bastante intenso, manteniéndose desplegado alrededor de 3 años en África, en entornos de alto riesgo donde ponía en juego su vida.</p>
                     <p>Debido a su labor, fue condecorado con la <b>Cruz del Combatiente</b> en 2017 y con la <b>Médaille de la Reconnaissance de la Nation</b>. </p>
@@ -49,7 +50,6 @@ export default function BenoitSaintDenisMilitar () {
                     <p>Tener un trabajo tan duro y desde tan joven, le han ayudado a adoptar una mentalidad de nunca rendirse, desarrollando una disciplina extrema, un manejor del estrés sobrehumano, y una agresividad que vemos en cada pelea. </p>
                     <p>De hecho, un poco viene por acá su apodo &quote;God Of War&quote; (Dios de la Guerra), que reflejan la herencia que dejó su profesión y su estilo de pelea ultra agresivo, propio de un operador de combate que va al frente sin miedo. </p>
                     <p>Benoit Saint Denis no fue un soldado más, formó parte de una de las fuerzas especiales más selectivas como un operador de élite, que contó con experiencia en combate real, participando de una de las guerras más importantes de Francia en los últimos años, que con el paso del tiempo decidió dedicarse a un trabajo mucho menos violento y estresante, como lo es ser un peleador profesional. </p>
-                    <YouTubeEmbed videoid='cAnq4X4fkow' />
                     <EndArticle />
                 </article>
                 <AsideChamps />
