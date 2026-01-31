@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc324 from '@/assets/eventos/ufc/0-150/0-15/ufc324.webp'
+import ufc325 from '@/assets/eventos/ufc/0-150/0-15/ufc325.webp'
 import makhachevNextMatch2026 from '@/assets/noticias/0-100/30-40/makhachev-next_fight.2026.webp'
 import saintDenisMilitar from '@/assets/articulos/0-100/80-90/saint_denis-militar.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/eventos/ufc324'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc324} alt='' />
-                <h2 className={styles.home__title}>¡Justin Gaethje Derrota a Paddy Pimblett y es Nuevo Campeón Interino! ¡Sean O&apos;Malley Derrota a Song Yadong Por Decisión Unánime!</h2>
-                <span>¡Waldo Cortes Acosta Noquea a Derrick Lewis en el Segundo Asalto! ¡Jean Silva Derrota a Arnold Allen en La Pelea de la Noche! ¡Umar Nurmagomedov Derrota a Deiveson Figueiredo Por Decisión Unánime!</span>
+            <Link className={styles.homehero__bigArticle} href='/eventos/ufc325'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc325} alt='' />
+                <h2 className={styles.home__title}>UFC 325: ¡Alexander Volkanovski vs Diego Lopes! ¡Benoit Saint Denis vs Dan Hooker!</h2>
+                <span>¡Rafael Fiziev vs Mauricio Ruffy! ¡Quillan Salkilld vs Jamie Mullarkey!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
                 <Image className={styles.homehero__article__img} quality={50} src={makhachevNextMatch2026} alt='' />
