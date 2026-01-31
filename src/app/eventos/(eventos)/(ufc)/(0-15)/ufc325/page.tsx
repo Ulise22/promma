@@ -12,11 +12,11 @@ const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles
 
 export const metadata: Metadata = {
     title: 'UFC 325: ¡Alexander Volkanovski vs Diego Lopes! ¡Benoit Saint Denis vs Dan Hooker!',
-    description: "",
+    description: "UFC 325 en Australia donde Alexander Volkanovski defenderá su título de UFC ante Diego Lopes en una pelea espectacular. Además de tener los combate de Benoit Saint Denis VS Dan Hooker en la estelar, y la pelea de Rafael Fiziev vs Mauricio Ruffy.",
     openGraph: {
-        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc324.e6adceb6.webp&w=828&q=65',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc325.3722daed.webp&w=828&q=65',
         title: 'UFC 325: ¡Alexander Volkanovski vs Diego Lopes! ¡Benoit Saint Denis vs Dan Hooker!',
-        description: "",
+        description: "UFC 325 en Australia donde Alexander Volkanovski defenderá su título de UFC ante Diego Lopes en una pelea espectacular. Además de tener los combate de Benoit Saint Denis VS Dan Hooker en la estelar, y la pelea de Rafael Fiziev vs Mauricio Ruffy.",
         url: 'https://fullmma.org/eventos/ufc325'
     }
 }
