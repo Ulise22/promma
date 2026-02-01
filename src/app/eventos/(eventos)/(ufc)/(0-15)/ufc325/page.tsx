@@ -50,6 +50,8 @@ export default function UFC325 () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Quillan Salkilld Somete a Jamie Mullarkey en el Primer Asalto</h2>
                     <p>Tremenda manera de comenzar esta cartelera estelar, cuando el australiano <b>Quillan Salkilld</b> logró completar un derribo perfectamente ejecutado, que terminaría en un <b>Neck Crank</b> que obligaría a tapear a su rival y compatriota <b>Jamie Mullarkey</b>, para terminar ganando el combate por sumisión en el primer asalto, y alcanzar su cuarta victoria consecutiva en la UFC, a un peleador al que ya va siendo hora de poner a pelear contra un luchador ranqueado. </p>
+                    <h2>Tallison Teixeire Derrota a Tai Tuivasa por Decisión Unánime</h2>
+                    <p>El brasileño <b>Tallison Teixeira</b> se hace con una importante victoria para seguir escalando en los rankings y para condenar a su rival australiano <b>Tai Tuivasa</b>, que pese a estar de local y tener todo el público de su lado, hoy no fue capaz de conseguir la victoria, cayendo derrotado y alcanzando su sexta derrota al hilo, pese a que de sus últimas 6 peleas, la mitad fueron en su país natal, Australia, lo que complica su situación contractual en la UFC. De esta manera, el brasileño se termina llevando la victoria por decisión unánime, extendiendo su récord a 9-1. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
