@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function UFC325 () {
     return(
         <main>
-            <ArticleHero title="UFC 325: ¡Alexander Volkanovski vs Diego Lopes! ¡Benoit Saint Denis vs Dan Hooker!" subtitle='¡Rafael Fiziev vs Mauricio Ruffy! ¡Quillan Salkilld Somete a Jamie Mullarkey en el Primer Asalto!' image={hero} date='2026-01-31' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 325: ¡Alexander Volkanovski vs Diego Lopes! ¡Benoit Saint Denis vs Dan Hooker!" subtitle='¡Rafael Fiziev vs Mauricio Ruffy! ¡Quillan Salkilld Somete a Jamie Mullarkey en el Primer Asalto!' image={hero} date='2026-01-31' author={null} updatedDate='2026-02-01' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Espectacular evento tenemos esta noche en el UFC 325 en Sidney, Australia, con el campeón local de peso pluma <Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link> defendiendo su cinturón en una revancha ante el mexicano-brasileño <Link href='/peleadores/diego-lopes'>Diego Lopes</Link>, que viene de una gran victoria por nocaut ante su compatriota de Brasil <Link href='/peleadores/jean-silva'>Jean Silva</Link>. </p>
