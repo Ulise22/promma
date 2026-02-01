@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function UFC325 () {
     return(
         <main>
-            <ArticleHero title="UFC 325: ¡Alexander Volkanovski vs Diego Lopes! ¡Benoit Saint Denis vs Dan Hooker!" subtitle='¡Rafael Fiziev vs Mauricio Ruffy! ¡Quillan Salkilld vs Jamie Mullarkey!' image={hero} date='2026-01-31' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 325: ¡Alexander Volkanovski vs Diego Lopes! ¡Benoit Saint Denis vs Dan Hooker!" subtitle='¡Rafael Fiziev vs Mauricio Ruffy! ¡Quillan Salkilld Somete a Jamie Mullarkey en el Primer Asalto!' image={hero} date='2026-01-31' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Espectacular evento tenemos esta noche en el UFC 325 en Sidney, Australia, con el campeón local de peso pluma <Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link> defendiendo su cinturón en una revancha ante el mexicano-brasileño <Link href='/peleadores/diego-lopes'>Diego Lopes</Link>, que viene de una gran victoria por nocaut ante su compatriota de Brasil <Link href='/peleadores/jean-silva'>Jean Silva</Link>. </p>
@@ -47,9 +47,9 @@ export default function UFC325 () {
                     <p>Buena victoria para el local <b>Cam Rowston</b>, que en su segunda pelea en la UFC consigue una nueva victoria ante el estadounidense <b>Cody Brundage</b>, esta vez por TKO en el segundo asalto, luego de tenerlo en el piso y golpearlo repetidamente hasta que su rival dejó de defenderse, obligando al árbitro a parar el combate y declararlo ganador. </p>
                     <h2>Billy Elekana Somete a Junior Tafa en el Segundo Asalto</h2>
                     <p>El estadounidense <b>Billy Elekana</b> consigue una importante victoria por la vía de la sumisión en el segundo asalto ante el luchador australiano <b>Junior Tafa</b>, luego de conectar un mataleón muy bien colocado que obligaría a su rival a tapear, logrando de esta manera llevarse la victoria por sumisión en el segundo asalto del combate. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Quillan Salkilld Somete a Jamie Mullarkey en el Primer Asalto</h2>
+                    <p>Tremenda manera de comenzar esta cartelera estelar, cuando el australiano <b>Quillan Salkilld</b> logró completar un derribo perfectamente ejecutado, que terminaría en un <b>Neck Crank</b> que obligaría a tapear a su rival y compatriota <b>Jamie Mullarkey</b>, para terminar ganando el combate por sumisión en el primer asalto, y alcanzar su cuarta victoria consecutiva en la UFC, a un peleador al que ya va siendo hora de poner a pelear contra un luchador ranqueado. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
