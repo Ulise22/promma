@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/eventos/ufc325'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc325} alt='' />
                 <h2 className={styles.home__title}>UFC 325: ¡Alexander Volkanovski vs Diego Lopes! ¡Benoit Saint Denis vs Dan Hooker!</h2>
-                <span>¡Rafael Fiziev vs Mauricio Ruffy! ¡Quillan Salkilld vs Jamie Mullarkey!</span>
+                <span>¡Mauricio Ruffy Noquea a Rafael Fiziev en el Segundo Asalto! ¡Quillan Salkilld Somete a Jamie Mullarkey en el Primer Asalto!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
                 <Image className={styles.homehero__article__img} quality={50} src={makhachevNextMatch2026} alt='' />

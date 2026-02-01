@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function UFC325 () {
     return(
         <main>
-            <ArticleHero title="UFC 325: ¡Alexander Volkanovski vs Diego Lopes! ¡Benoit Saint Denis vs Dan Hooker!" subtitle='¡Rafael Fiziev vs Mauricio Ruffy! ¡Quillan Salkilld Somete a Jamie Mullarkey en el Primer Asalto!' image={hero} date='2026-01-31' author={null} updatedDate='2026-02-01' />
+            <ArticleHero title="UFC 325: ¡Alexander Volkanovski vs Diego Lopes! ¡Benoit Saint Denis vs Dan Hooker!" subtitle='¡Mauricio Ruffy Noquea a Rafael Fiziev en el Segundo Asalto! ¡Quillan Salkilld Somete a Jamie Mullarkey en el Primer Asalto!' image={hero} date='2026-01-31' author={null} updatedDate='2026-02-01' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Espectacular evento tenemos esta noche en el UFC 325 en Sidney, Australia, con el campeón local de peso pluma <Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link> defendiendo su cinturón en una revancha ante el mexicano-brasileño <Link href='/peleadores/diego-lopes'>Diego Lopes</Link>, que viene de una gran victoria por nocaut ante su compatriota de Brasil <Link href='/peleadores/jean-silva'>Jean Silva</Link>. </p>
@@ -52,6 +52,8 @@ export default function UFC325 () {
                     <p>Tremenda manera de comenzar esta cartelera estelar, cuando el australiano <b>Quillan Salkilld</b> logró completar un derribo perfectamente ejecutado, que terminaría en un <b>Neck Crank</b> que obligaría a tapear a su rival y compatriota <b>Jamie Mullarkey</b>, para terminar ganando el combate por sumisión en el primer asalto, y alcanzar su cuarta victoria consecutiva en la UFC, a un peleador al que ya va siendo hora de poner a pelear contra un luchador ranqueado. </p>
                     <h2>Tallison Teixeire Derrota a Tai Tuivasa por Decisión Unánime</h2>
                     <p>El brasileño <b>Tallison Teixeira</b> se hace con una importante victoria para seguir escalando en los rankings y para condenar a su rival australiano <b>Tai Tuivasa</b>, que pese a estar de local y tener todo el público de su lado, hoy no fue capaz de conseguir la victoria, cayendo derrotado y alcanzando su sexta derrota al hilo, pese a que de sus últimas 6 peleas, la mitad fueron en su país natal, Australia, lo que complica su situación contractual en la UFC. De esta manera, el brasileño se termina llevando la victoria por decisión unánime, extendiendo su récord a 9-1. </p>
+                    <h2>Mauricio Ruffy Noquea a Rafael Fiziev en el Segundo Asalto</h2>
+                    <p>Espectacular victoria del brasileño <b>Mauricio Ruffy</b> por sobre el luchador de Azerbayán <b>Rafael Fiziev</b>, en un combate donde el sudamericano fue de menos a más, comenzando de a poco a controlar la distancia para evitar ser conectado con tanta frecuencia, y alejando con jabs y rectos a su rival que comenzó a sentir el poder de Ruffy, hasta que finalmente con uno de esos rectos de derecha en el segundo asalto lo tumbó al suelo, para que luego de una combinación caótica de golpes el árbitro los terminara separando para evitar que Fiziev siguiera recibiendo daño y para declarar a Mauricio Ruffy como el ganador del combate por TKO en el segundo asalto. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
