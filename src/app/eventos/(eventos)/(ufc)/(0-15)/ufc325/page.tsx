@@ -45,6 +45,8 @@ export default function UFC325 () {
                     <p>Gran victoria del local <b>Jacob Malkoun</b>, quien enfrentando a un rival que era bastante más grande que él, supo hacer uso de sus ventajas y no sufrir de las desventajas físicas que este combate presentaba, conectando jabs y rectos muy rápidos que poco a poco fueron diesmando a su rival, haciendo esto de manera sobresaliente, tan dominante fue su desempeño, que incluso el segundo asalto lo terminó ganando por 10-8, estando cerca de finalizar y sin recibir golpes practicamente. De esta forma, el australiano se lleva la victoria por decisión unánime, y le quita el invicto a <b>Torrez Finney</b>. </p>
                     <h2>Cam Rowston Noquea a Cody Brundage en el Segundo Asalto</h2>
                     <p>Buena victoria para el local <b>Cam Rowston</b>, que en su segunda pelea en la UFC consigue una nueva victoria ante el estadounidense <b>Cody Brundage</b>, esta vez por TKO en el segundo asalto, luego de tenerlo en el piso y golpearlo repetidamente hasta que su rival dejó de defenderse, obligando al árbitro a parar el combate y declararlo ganador. </p>
+                    <h2>Billy Elekana Somete a Junior Tafa en el Segundo Asalto</h2>
+                    <p>El estadounidense <b>Billy Elekana</b> consigue una importante victoria por la vía de la sumisión en el segundo asalto ante el luchador australiano <b>Junior Tafa</b>, luego de conectar un mataleón muy bien colocado que obligaría a su rival a tapear, logrando de esta manera llevarse la victoria por sumisión en el segundo asalto del combate. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
