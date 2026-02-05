@@ -221,5 +221,10 @@ export const data = [
         name: 'Jean Silva',
         url: '/peleadores/jean-silva',
         fighterClass: 'peleadores__card_jeansilva'
+    },
+    {
+        name: 'Kevin Vallejos',
+        url: '/peleadores/kevin-vallejos',
+        fighterClass: 'peleadores__card_kevinvallejos'
     }
 ]
