@@ -1,5 +1,9 @@
 /* Luchadores MMA */
 
+.peleadores__card_joshuavan {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/40-60/joshua-van/joshua-van-card.webp');
+}
+
 .peleadores__card_illia {
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/10-20/ilia-topuria/illia__topuria.jpg');
 }

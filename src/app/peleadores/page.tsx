@@ -35,8 +35,8 @@ export default function Peleadores ({
                 <FightersBtns hasNextPage={end < data.length} hasPrevPage={start > 0} />
                 <h2 className={styles.peleadores__subtitle}>Campeones de UFC</h2>
                 <article className={styles.peleadores__container}>
-                    <Link href='/peleadores/alexandre-pantoja' className={`${styles.peleadores__card} ${styles.peleadores__card_pantoja}`}>
-                        <h3 className={styles.peleadores__card__name}>Alexandre Pantoja</h3>
+                    <Link href='/peleadores/joshua-van' className={`${styles.peleadores__card} ${styles.peleadores__card_joshuavan}`}>
+                        <h3 className={styles.peleadores__card__name}>Joshua Van</h3>
                     </Link>
                     <Link href='/peleadores/merab-dvalishvili' className={`${styles.peleadores__card} ${styles.peleadores__card_merab}`}>
                         <h3 className={styles.peleadores__card__name}>Merab Dvalisvili</h3>
