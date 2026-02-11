@@ -11,11 +11,11 @@ const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Joshua Van',
-    description: '',
+    description: 'El actual campeón de Peso Mosca en la UFC Joshua Van, posee un récord de 16-2, con más de la mitad de sus victorias siendo por finalización.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjoshua_van.ece3ca9e.png&w=640&q=75',
         title: 'Joshua Van',
-        description: '',
+        description: 'El actual campeón de Peso Mosca en la UFC Joshua Van, posee un récord de 16-2, con más de la mitad de sus victorias siendo por finalización.',
         url: 'https://fullmma.org/peleadores/joshua-van'
     }
 }
