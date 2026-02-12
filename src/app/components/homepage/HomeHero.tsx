@@ -4,7 +4,7 @@ import Image from 'next/image'
 /* IMAGES */
 import ufc325 from '@/assets/eventos/ufc/0-150/0-15/ufc325.webp'
 import makhachevNextMatch2026 from '@/assets/noticias/0-100/30-40/makhachev-next_fight.2026.webp'
-import saintDenisMilitar from '@/assets/articulos/0-100/80-90/saint_denis-militar.webp'
+import seanStricklandInfancia from '@/assets/articulos/0-100/80-90/sean_strickland-infancia.webp'
 
 export default function HomeHero () {
     return(
@@ -25,14 +25,14 @@ export default function HomeHero () {
                     </div>
                 </article>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/benoit-saint-denis-militar'>
-                <Image className={styles.homehero__article__img} quality={50} src={saintDenisMilitar} alt='' />
+            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/sean-strickland-infancia'>
+                <Image className={styles.homehero__article__img} quality={50} src={seanStricklandInfancia} alt='' />
                 <article className={styles.homehero__article__container}>
-                    <h2 className={styles.homehero__title}>El Pasado Militar de Benoit Saint Denis</h2>
-                    <p>Cómo Benoit Saint Denis pasó de ser un militar de las fuerzas especiales francesas a uno de los peleadores más emocionantes de la UFC. </p>
+                    <h2 className={styles.homehero__title}>La Traumática Infancia de Sean Strickland</h2>
+                    <p>Como fue la durísima infancia del excampeón de UFC Sean Strickland, marcada por la violencia, el odio y el miedo hacia un padre abusivo.</p>
                     <div className={styles.homehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>27/01/2026</p>
+                        <p>12/02/2026</p>
                     </div>
                 </article>
             </Link>

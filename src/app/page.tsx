@@ -6,7 +6,7 @@ import Noticias from './components/homepage/noticias/Noticias'
 import ArticulosContainer from './components/homepage/ArticulosContainer'
 /*Articles PREVIEW */
 import pimblettOffCamp from '@/assets/articulos/0-100/80-90/pimblett-fuera-de-campamento.webp'
-import fightingNerds from '@/assets/articulos/0-100/10-20/fighting_nerds.jpg'
+import saintDenisMilitar from '@/assets/articulos/0-100/80-90/saint_denis-militar.webp'
 import bestUFC2025 from '@/assets/eventos/articulos/0-10/mejores_eventos_ufc-2025.webp'
 import FOTY2025 from '@/assets/noticias/0-100/30-40/merab_dvalishvili_foty2025.webp'
 import Image from 'next/image'
@@ -18,10 +18,10 @@ export default function Home () {
     <main className={styles.home}>
       <HomeHero />
       <section className={styles.home__articlesHero}>
+        <ArticlePreview img={saintDenisMilitar} url='/articulos/benoit-saint-denis-militar' title='El Pasado Militar de Benoit Saint Denis' author={null} text='Cómo Benoit Saint Denis pasó de ser un militar de las fuerzas especiales francesas a uno de los peleadores más emocionantes de la UFC. ' date='27/01/2026' />
         <ArticlePreview img={pimblettOffCamp} url='/articulos/paddy-pimblett-fuera-de-campamento' title='Paddy Pimblett Fuera de Campamento: ¿Por Qué Se Ve Tan Gordo?' author={null} text='Porque Paddy Pimblett engorda tanto cuando no está peleando. El antes y después de Paddy The Baddy en una pelea.' date='19/01/2026' />
         <ArticlePreview img={bestUFC2025} url='/eventos/mejores-eventos-ufc-2025' title='Los Mejores Eventos de UFC en 2025' author={null} text='La lista de los 3 mejores eventos de la UFC en el año 2025: Islam Makhachev, Alex Pereira, Merab Dvalishvili, Alexander Volkanovski.' date='17/12/2025' />
         <ArticlePreview img={FOTY2025} url='/noticias/merab-dvalishvili-peleador-del-2025' title='Merab Dvalishvili: ¡El Peleador del Año de FULLMMA 2025!' author={null} text='Este año elegimos desde FULLMMA a Merab Dvalishvili como el Peleador del Año 2025 de la UFC. ' date='23/12/2025' />
-        <ArticlePreview img={fightingNerds} url='/articulos/fighting-nerds' title='¿Quiénes son los Fighting Nerds? El Mejor Equipo de MMA que Arrasa en la UFC' author={null} text='La historia del equipo Fighting Nerds, quiénes son, su filosofía, y cómo llegaron hasta lo más alto de las MMA, dominando por completo la UFC.' date='09/12/2024' />
       </section>
       <section className={styles.home__peleadores}>
         <h2 className={styles.home__peleadores__title}>Peleadores Campeones de la UFC</h2>

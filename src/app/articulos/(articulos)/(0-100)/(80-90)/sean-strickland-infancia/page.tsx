@@ -13,11 +13,11 @@ const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles
 
 export const metadata: Metadata = {
     title: 'Sean Strickland Infancia',
-    description: '',
+    description: 'El trauma de Sean Strickland en su infancia generado por su padre violento, alcoholico y abusivo que lo marcó para siempre. ',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsean_strickland-infancia.4b8bb97a.webp&w=828&q=65',
         title: 'Sean Strickland Infancia',
-        description: '',
+        description: 'El trauma de Sean Strickland en su infancia generado por su padre violento, alcoholico y abusivo que lo marcó para siempre. ',
         url: 'https://fullmma.org/articulos/sean-strickland-infancia'
     }
 }
