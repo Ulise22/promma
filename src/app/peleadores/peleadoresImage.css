@@ -1,5 +1,9 @@
 /* Luchadores MMA */
 
+.peleadores__card_waldocacosta {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/40-60/waldo-cortes-acosta/waldo_cortes_acosta-card.webp');
+}
+
 .peleadores__card_joshuavan {
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/40-60/joshua-van/joshua-van-card.webp');
 }

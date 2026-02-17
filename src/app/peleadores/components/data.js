@@ -1,6 +1,11 @@
 export const data = [
     /* 0-15 */
     {
+        name: 'Waldo Cortes Acosta',
+        url: '/peleadores/waldo-cortes-acosta',
+        fighterClass: 'peleadores__card_waldocacosta'
+    },
+    {
         name: 'Alexandre Pantoja',
         url: '/peleadores/alexandre-pantoja',
         fighterClass: 'peleadores__card_pantoja'
