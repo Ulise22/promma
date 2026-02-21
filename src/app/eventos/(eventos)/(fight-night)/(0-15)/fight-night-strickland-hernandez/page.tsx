@@ -33,6 +33,8 @@ export default function StricklandHernandez () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
                     <h2>Carli Judice Derrota a Juliana Miller por Decisión Unánime</h2>
                     <p>Gran victoria por parte de la estadounidense <b>Carli Judice</b>, quien tuvo unos muy buenos primer y segundo asalto para terminar llevándose la victoria por decisión unánime con un puntaje de 29-28 ante su compatriota <b>Juliana Miller</b>. </p>
+                    <h2>Jordan Leavitt Derrota a Yadier del Valle por Decisión Unánime</h2>
+                    <p>Victoria para el luchador estadounidense <b>Jordan Leavitt</b>, que le quita el invicto al cubano <b>Yadier Del Valle</b>, luego de mantenerlo contra la reja y ganar control en el suelo a lo largo del combate. El punto fuerte de Del Valle claramente era el striking, y su rival sabiendo ver esto, evito a toda costa entrar en el intercambio con su rival, resultando finalmente en una victoria para el americano por decisión unánime 29-28. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
