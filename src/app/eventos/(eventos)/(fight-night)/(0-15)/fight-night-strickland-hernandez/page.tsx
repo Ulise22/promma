@@ -1,0 +1,46 @@
+import styles from '@/app/eventos/components/articleEvents.module.css'
+import ArticleHero from '@/app/articulos/components/ArticleHero'
+import Link from 'next/link'
+import type { Metadata } from 'next'
+import dynamic from 'next/dynamic'
+/* Images */
+import hero from '@/assets/eventos/fight-night/0-150/0-15/strickland_hernandez.webp'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
+
+export const metadata: Metadata = {
+    title: 'UFC Houston: ¡Sean Strickland vs Anthony Hernandez!',
+    description: 'Evento de UFC en Houston, Texas, con Sean Strickland enfrentando al luchador de origen mexicano Anthony Hernandez en la busqueda de una oportunidad por el título de peso mediano.',
+    openGraph: {
+        images: '',
+        title: 'UFC Houston: ¡Sean Strickland vs Anthony Hernandez!',
+        description: 'Evento de UFC en Houston, Texas, con Sean Strickland enfrentando al luchador de origen mexicano Anthony Hernandez en la busqueda de una oportunidad por el título de peso mediano.',
+        url: 'https://fullmma.org/eventos/fight-night-strickland-hernandez'
+    }
+}
+
+export default function StricklandHernandez () {
+    return(
+        <main>
+            <ArticleHero title='UFC Houston: ¡Sean Strickland vs Anthony Hernandez!' subtitle='¡Geoff Neal vs Uros Medic! ¡Dan Ige vs Melquizael Costa!' image={hero} date='2026-02-21' author={null} updatedDate={null} />
+            <section className={styles.article__container}>
+                <article className={styles.article}>
+                    <p>Espectacular evento de UFC tenemos en Houston, Texas, encabezado por el luchador más estadounidense que hay <Link href='/peleadores/sean-strickland'>Sean Strickland</Link>, quien está ranqueado #3 en la división de peso medio, y luego de su derrota en la pelea por el título ante <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link> busca volver a la victoria enfrentando al luchador estadounidense de origen mexicano <b>Anthony Hernandez</b>, quien está #4 en la división y viene de una racha brutal de 8 victorias consecutivas. </p>
+                    <p>Además, en la pelea coestelar tendremos el regreso del #12 de peso wélter, <b>Geoff Neal</b>, quien se enfrentará al serbio <b>Uros Medic</b>, quien está en busca de un lugar en los rankings. También estará el histórico <b>Dan Ige</b>, defendiendo su posición en los rankings de peso pluma ante el brasileño <b>Melquizael Costa</b>. Finalmente, una pelea destacada de la cartelera estelar será la que tengan los #7 y #9 de pesos pesados, <b>Serghei Spivac</b> y <b>Ante Delija</b>, en un combate que promete terminar en KO. </p>
+                    <p>Por último contaremos con presencia latina en la cartelera preliminar, con el cubano invicto <b>Yadier del Valle</b> haciendo presencia para enfrentar al estadounidense <b>Jordan Leavitt</b> en peso pluma. Y con la panameña <b>Joselyne Edwards</b> enfrentándose a la #12 de la división peso gallo femenino <b>Nora Cornolle</b>. </p>
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
+                    <h2>Carli Judice Derrota a Juliana Miller por Decisión Unánime</h2>
+                    <p>Gran victoria por parte de la estadounidense <b>Carli Judice</b>, quien tuvo unos muy buenos primer y segundo asalto para terminar llevándose la victoria por decisión unánime con un puntaje de 29-28 ante su compatriota <b>Juliana Miller</b>. </p>
+                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2></h2>
+                    <p></p> */}
+                    <EndArticle />
+                </article>
+                <AsideChamps />
+            </section>
+            <ArticlesFooter />
+        </main>
+    )
+}
