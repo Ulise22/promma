@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: 'UFC Houston: ¡Sean Strickland vs Anthony Hernandez!',
     description: 'Evento de UFC en Houston, Texas, con Sean Strickland enfrentando al luchador de origen mexicano Anthony Hernandez en la busqueda de una oportunidad por el título de peso mediano.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstrickland_hernandez.0bbcf031.webp&w=828&q=65',
         title: 'UFC Houston: ¡Sean Strickland vs Anthony Hernandez!',
         description: 'Evento de UFC en Houston, Texas, con Sean Strickland enfrentando al luchador de origen mexicano Anthony Hernandez en la busqueda de una oportunidad por el título de peso mediano.',
         url: 'https://fullmma.org/eventos/fight-night-strickland-hernandez'
