@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function StricklandHernandez () {
     return(
         <main>
-            <ArticleHero title='UFC Houston: ¡Sean Strickland vs Anthony Hernandez!' subtitle='¡Uros Medic Noquea a Geoff Neal en el Primer Asalto! ¡Melquizael Costa Noquea a Dan Ige en el Primer Asalto!' image={hero} date='2026-02-21' author={null} updatedDate='2026-02-22' />
+            <ArticleHero title='¡Sean Strickland Noquea a Anthony Hernandez en el Tercer Asalto!' subtitle='¡Uros Medic Noquea a Geoff Neal en el Primer Asalto! ¡Melquizael Costa Noquea a Dan Ige en el Primer Asalto!' image={hero} date='2026-02-21' author={null} updatedDate='2026-02-22' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Espectacular evento de UFC tenemos en Houston, Texas, encabezado por el luchador más estadounidense que hay <Link href='/peleadores/sean-strickland'>Sean Strickland</Link>, quien está ranqueado #3 en la división de peso medio, y luego de su derrota en la pelea por el título ante <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link> busca volver a la victoria enfrentando al luchador estadounidense de origen mexicano <b>Anthony Hernandez</b>, quien está #4 en la división y viene de una racha brutal de 8 victorias consecutivas. </p>
@@ -58,6 +58,10 @@ export default function StricklandHernandez () {
                     <p>El brasileño <b>Melquizael Costa</b> consigue una espectacular victoria, luego de conectar una brutal patada a la cabeza de <b>Dan Ige</b>, justo cuando estaba por terminar el primer asalto, que llevaría al árbitro a terminar la pelea para dar como ganador al brasileño Costa, que con esta victoria consigue meterse de lleno en los rankings de peso pluma. </p>
                     <h2>¡Uros Medic Noquea a Geoff Neal en el Primer Asalto!</h2>
                     <p>Tremendo nocaut el que acaba de conectar el serbio Uros Medic, quien con un gancho dejó KO al estadounidense <b>Geoff Neal</b>, completamente desconectado, todo esto en menos de un minuto de pelea. De esta forma, el luchador europeo logra mantener su racha perfecto de finalizaciones, con todas sus victorias siendo por esta vía, y alcanzando una racha de 3 victorias consecutivas por nocaut en menos de un minuto, una locura. </p>
+                    <h2>¡Sean Strickland Noquea a Anthony Hernandez en el Tercer Asalto!</h2>
+                    <p>Tremenda victoria del estadounidense <Link href='/peleadores/sean-strickland'>Sean Strickland</Link>, quien da la sorpresa ante quien en principio era uno de los rivales más difíciles que le podía tocar, consiguiendo un nocaut ante su compatriota con familia mexicana <b>Anthony Hernandez</b>, a quien luego de conectarle un rodillazo en el estómago que lo dejó muy tocado, fue capaz de finalizarlo con una avalancha de golpes en la cabeza. </p>
+                    <p>El combate había comenzado bastante cerrado, aunque en mi opinión con Strickland siendo ligeramente superior, pero el estadounidense le fue tomando el ritmo a la pelea yendo de menos a más, con su clásico estilo de jab y tap que es tan incómodo de enfrentar, conectando más y mejor, y defendiendo perfecto cada vez que Hernandez intentaba llevarlo contra la reja, mostrando que pese a que no lo demuestra seguido, su base de lucha es bastante sólida. </p>
+                    <p>Con esta victoria, <Link href='/peleadores/sean-strickland'>Sean Strickland</Link> seguramente logró posicionarse como el principal candidato al título de peso mediano, donde no tendrá para nada fácil recuperar su cinturón, puesto que debería derrotar al checheno invicto <Link href='/peleadores/khamzat-chimaev'>Khamzat Chimaev</Link> si quiere volver a ser campeón. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
