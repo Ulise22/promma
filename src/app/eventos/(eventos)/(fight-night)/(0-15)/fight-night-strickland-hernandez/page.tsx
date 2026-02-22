@@ -50,6 +50,8 @@ export default function StricklandHernandez () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Michel Pereira Derrota a Zach Reese Por Decisión Dividida</h2>
                     <p>Tremenda manera de iniciar esta cartelera estelar, con una pelea espectacular que nos regalaron <b>Michel Pereira</b> y <b>Zach Reese</b>, quien estuvieron dispuestos a intercambiar golpes desde el primer momento del combate, otorgándonos la que es uno de los mejores combates de toda la cartelera. Finalmente, por decisión dividida, quien terminó llevándose la victoria fue el brasileño <b>Michel Pereira</b>, quien pese a que también recibió bastante, fue quien conectó los mejores golpes del combate, llegando a derribar a su rival con un golpe en el primer asalto. </p>
+                    <h2>Jacobe Smith Noquea a Josiah Harrell en el Primer Asalto</h2>
+                    <p>Tremenda victoria del estadounidense <b>Jacobe Smith</b>, quien consigue el primer nocaut de la noche ante el debutante <b>Josiah Harrell</b>. Ambos luchadores llegaban invictos a este combate con un récord de 11-0, sin embargo el único que será capaz de conservar su 0 será Smith, quien luego de un derribo que lo dejó por encima, fue capaz de castigar con golpes a su rival desde arriba que lo dejarían KO, consiguiendo la victoria y el hasta ahora único nocaut de la noche. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
