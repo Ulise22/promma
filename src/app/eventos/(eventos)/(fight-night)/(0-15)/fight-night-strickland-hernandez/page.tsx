@@ -39,6 +39,8 @@ export default function StricklandHernandez () {
                     <p>En la que hasta ahora es la mejor pelea de la noche <b>Jean-Paul Lebosnoyani</b> logra hacerse con la victoria en un combate que dominó claramente, donde sorprendentemente uno de los jueces no lo vió como ganador, pero que finalmente con toda justicia temrinó ganando, luego de conectar más y mejores golpes y de ser superior incluso cuando la pelea se dió en el piso. </p>
                     <h2>Punahele Soriano Derrota a Ramiz Brahimaj por Decisión Unánime</h2>
                     <p>En una pelea cerradísima, que fue bastante sucia, donde ambos luchadores se hicieron bastante daño, conectando varios golpes contundentes a cada uno, y derribándose mutuamente en varias ocasiones, quien salió victorioso fue <b>Punahele Soriano</b>, que por decisión unánime se llevó la victoria por sobre su rival y compatriota <b>Ramiz Brahimaj</b>. </p>
+                    <h2>¡Joselyne Edwards Somete a Nora Cornolle en el Segundo Asalto!</h2>
+                    <p>Espectacular pelea de la panameña <b>Joselyne Edwards</b>, quien consigue vengarse en su revancha ante la francesa <b>Nora Cornolle</b>, primero golpeándola hasta casi noquearla, y luego conectando un mataleón para finalizar por sumisión en el segundo asalto de la pelea. De esta manera la luchadora latinoamericana logra la primer finalización de la noche, y se asegura el bono de los $25k. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
