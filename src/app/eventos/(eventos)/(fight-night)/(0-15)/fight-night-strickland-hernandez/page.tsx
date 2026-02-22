@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function StricklandHernandez () {
     return(
         <main>
-            <ArticleHero title='UFC Houston: ¡Sean Strickland vs Anthony Hernandez!' subtitle='¡Geoff Neal vs Uros Medic! ¡Melquizael Costa Noquea a Dan Ige en el Primer Asalto!' image={hero} date='2026-02-21' author={null} updatedDate='2026-02-22' />
+            <ArticleHero title='UFC Houston: ¡Sean Strickland vs Anthony Hernandez!' subtitle='¡Uros Medic Noquea a Geoff Neal en el Primer Asalto! ¡Melquizael Costa Noquea a Dan Ige en el Primer Asalto!' image={hero} date='2026-02-21' author={null} updatedDate='2026-02-22' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Espectacular evento de UFC tenemos en Houston, Texas, encabezado por el luchador más estadounidense que hay <Link href='/peleadores/sean-strickland'>Sean Strickland</Link>, quien está ranqueado #3 en la división de peso medio, y luego de su derrota en la pelea por el título ante <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link> busca volver a la victoria enfrentando al luchador estadounidense de origen mexicano <b>Anthony Hernandez</b>, quien está #4 en la división y viene de una racha brutal de 8 victorias consecutivas. </p>
@@ -56,6 +56,8 @@ export default function StricklandHernandez () {
                     <p>El luchador de Moldavia <b>Serghei Spivac</b> logra hacerse con la victoria, remontando una racha de 2 derrotas consecutivas en 2025 (la última había sido ante <Link href='/peleadores/waldo-cortes-acosta'>Waldo Cortés Acosta</Link>), conectando más y mejores golpes que su rival, con un jab que le hizo mucho daño al croata <b>Ante Delija</b>, quien acabó el combate con la cara muy lastimada. De esta manera, Serghei Spivac se lleva la victoria por decisión unánime y mantiene su puesto en los rankings de peso pesado. </p>
                     <h2>¡Melquizael Costa Noquea a Dan Ige en el Primer Asalto!</h2>
                     <p>El brasileño <b>Melquizael Costa</b> consigue una espectacular victoria, luego de conectar una brutal patada a la cabeza de <b>Dan Ige</b>, justo cuando estaba por terminar el primer asalto, que llevaría al árbitro a terminar la pelea para dar como ganador al brasileño Costa, que con esta victoria consigue meterse de lleno en los rankings de peso pluma. </p>
+                    <h2>¡Uros Medic Noquea a Geoff Neal en el Primer Asalto!</h2>
+                    <p>Tremendo nocaut el que acaba de conectar el serbio Uros Medic, quien con un gancho dejó KO al estadounidense <b>Geoff Neal</b>, completamente desconectado, todo esto en menos de un minuto de pelea. De esta forma, el luchador europeo logra mantener su racha perfecto de finalizaciones, con todas sus victorias siendo por esta vía, y alcanzando una racha de 3 victorias consecutivas por nocaut en menos de un minuto, una locura. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
