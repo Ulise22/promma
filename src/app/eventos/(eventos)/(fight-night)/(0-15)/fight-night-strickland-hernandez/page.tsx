@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function StricklandHernandez () {
     return(
         <main>
-            <ArticleHero title='UFC Houston: ¡Sean Strickland vs Anthony Hernandez!' subtitle='¡Geoff Neal vs Uros Medic! ¡Dan Ige vs Melquizael Costa!' image={hero} date='2026-02-21' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Houston: ¡Sean Strickland vs Anthony Hernandez!' subtitle='¡Geoff Neal vs Uros Medic! ¡Melquizael Costa Noquea a Dan Ige en el Primer Asalto!' image={hero} date='2026-02-21' author={null} updatedDate='2026-02-22' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Espectacular evento de UFC tenemos en Houston, Texas, encabezado por el luchador más estadounidense que hay <Link href='/peleadores/sean-strickland'>Sean Strickland</Link>, quien está ranqueado #3 en la división de peso medio, y luego de su derrota en la pelea por el título ante <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link> busca volver a la victoria enfrentando al luchador estadounidense de origen mexicano <b>Anthony Hernandez</b>, quien está #4 en la división y viene de una racha brutal de 8 victorias consecutivas. </p>
@@ -54,6 +54,8 @@ export default function StricklandHernandez () {
                     <p>Tremenda victoria del estadounidense <b>Jacobe Smith</b>, quien consigue el primer nocaut de la noche ante el debutante <b>Josiah Harrell</b>. Ambos luchadores llegaban invictos a este combate con un récord de 11-0, sin embargo el único que será capaz de conservar su 0 será Smith, quien luego de un derribo que lo dejó por encima, fue capaz de castigar con golpes a su rival desde arriba que lo dejarían KO, consiguiendo la victoria y el hasta ahora único nocaut de la noche. </p>
                     <h2>Serghei Spivac Derrota a Ante Delija por Decisión Unánime</h2>
                     <p>El luchador de Moldavia <b>Serghei Spivac</b> logra hacerse con la victoria, remontando una racha de 2 derrotas consecutivas en 2025 (la última había sido ante <Link href='/peleadores/waldo-cortes-acosta'>Waldo Cortés Acosta</Link>), conectando más y mejores golpes que su rival, con un jab que le hizo mucho daño al croata <b>Ante Delija</b>, quien acabó el combate con la cara muy lastimada. De esta manera, Serghei Spivac se lleva la victoria por decisión unánime y mantiene su puesto en los rankings de peso pesado. </p>
+                    <h2>¡Melquizael Costa Noquea a Dan Ige en el Primer Asalto!</h2>
+                    <p>El brasileño <b>Melquizael Costa</b> consigue una espectacular victoria, luego de conectar una brutal patada a la cabeza de <b>Dan Ige</b>, justo cuando estaba por terminar el primer asalto, que llevaría al árbitro a terminar la pelea para dar como ganador al brasileño Costa, que con esta victoria consigue meterse de lleno en los rankings de peso pluma. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />

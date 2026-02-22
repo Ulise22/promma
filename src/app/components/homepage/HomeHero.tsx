@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/eventos/fight-night-strickland-hernandez'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={stricklandVShernandez} alt='' />
                 <h2 className={styles.home__title}>UFC Houston: ¡Sean Strickland vs Anthony Hernandez!</h2>
-                <span>¡Geoff Neal vs Uros Medic! ¡Dan Ige vs Melquizael Costa!</span>
+                <span>¡Geoff Neal vs Uros Medic! ¡Melquizael Costa Noquea a Dan Ige en el Primer Asalto!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
                 <Image className={styles.homehero__article__img} quality={50} src={makhachevNextMatch2026} alt='' />
