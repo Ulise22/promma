@@ -47,9 +47,9 @@ export default function StricklandHernandez () {
                     <p>El luchador kazajo <b>Alibi Idiris</b> obtiene una merecida victoria por decisión unánime luego de lo que fue una actuación dominante ante su rival de Jamaica <b>Ode Osbourne</b>, con quien hizo lo que quiso, mostrando especialmente un nivel superlativo en el ground & pound, con el que pudo hacerle mucho daño a su rival, castigándolo hasta llevarlo a la decisión luego de los 3 asaltos, donde salió victorioso. </p>
                     <h2>Carlos Leal Derrota a Chidi Njokuani por Decisión Unánime</h2>
                     <p>En la mejor pelea de toda la cartelera preliminar, el luchador brasileño <b>Carlos Leal</b> logra hacerse con la victoria por encima de <b>Chidi Njokuani</b>, luego de dar una masterclass de striking, conectando con un volumen que pocos peleadores tienen, con una presición y fuerza que llevan a uno a sorprenderse de que la pelea no terminara en nocaut. Sólo el primer asalto es de lo mejor que hemos visto en toda la noche, con el brasileño conectando casi que 70 golpes, que por poco no noquearon a su rival. De esta manera, cerramos la cartelera preliminar de la mejor manera con una pelea para el recuerdo. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Michel Pereira Derrota a Zach Reese Por Decisión Dividida</h2>
+                    <p>Tremenda manera de iniciar esta cartelera estelar, con una pelea espectacular que nos regalaron <b>Michel Pereira</b> y <b>Zach Reese</b>, quien estuvieron dispuestos a intercambiar golpes desde el primer momento del combate, otorgándonos la que es uno de los mejores combates de toda la cartelera. Finalmente, por decisión dividida, quien terminó llevándose la victoria fue el brasileño <b>Michel Pereira</b>, quien pese a que también recibió bastante, fue quien conectó los mejores golpes del combate, llegando a derribar a su rival con un golpe en el primer asalto. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
