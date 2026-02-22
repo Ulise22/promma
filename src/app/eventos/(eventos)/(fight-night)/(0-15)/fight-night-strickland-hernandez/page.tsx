@@ -41,6 +41,8 @@ export default function StricklandHernandez () {
                     <p>En una pelea cerradísima, que fue bastante sucia, donde ambos luchadores se hicieron bastante daño, conectando varios golpes contundentes a cada uno, y derribándose mutuamente en varias ocasiones, quien salió victorioso fue <b>Punahele Soriano</b>, que por decisión unánime se llevó la victoria por sobre su rival y compatriota <b>Ramiz Brahimaj</b>. </p>
                     <h2>¡Joselyne Edwards Somete a Nora Cornolle en el Segundo Asalto!</h2>
                     <p>Espectacular pelea de la panameña <b>Joselyne Edwards</b>, quien consigue vengarse en su revancha ante la francesa <b>Nora Cornolle</b>, primero golpeándola hasta casi noquearla, y luego conectando un mataleón para finalizar por sumisión en el segundo asalto de la pelea. De esta manera la luchadora latinoamericana logra la primer finalización de la noche, y se asegura el bono de los $25k. </p>
+                    <h2>Alden Coria Derrota a Luis Gurule por Decisión Unánime</h2>
+                    <p>Gran pelea de <b>Alden Coria</b>, que fue muy superior a su rival <b>Luis Gurule</b>, conectando su jab constantemente, sabiendo en que momentos golpear y esquivando la mayoría de los golpes que lanzaba su rival, pese a sufrir un par de derribos bastante potentes en el segundo asalto, él mismo fue capaz de conectar unos cuantos en el último asalto. De esta forma, el compañero de entrenamiento del campeón <Link href='/peleadores/joshua-van'>Joshua Van</Link>, se lleva la victoria por decisión unánime 30-27. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
