@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'Hecher Sosa Padre',
     description: 'Como el peleador español Hecher Sosa sufrió la perdida de su padre 48hs antes de la pelea que le haría entrar a la UFC. ',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhecher_sosa-padre.645dac32.webp&w=828&q=65',
         title: 'Hecher Sosa Padre',
         description: 'Como el peleador español Hecher Sosa sufrió la perdida de su padre 48hs antes de la pelea que le haría entrar a la UFC. ',
         url: 'https://fullmma.org/articulos/hecher-sosa-padre'
