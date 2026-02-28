@@ -32,6 +32,8 @@ export default function StricklandHernandez () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
                     <h2>Damian Pinas Noquea a Wes Schultz en el Primer Asalto</h2>
                     <p>Espectacular victoria para el debutante de Aruba <b>Damian Pinas</b>, quien en su primer combate en la UFC logra conectar un golpe para ganar por nocaut en el primer asalto ante el estadounidense <b>Wes Schultz</b>, manteniendo su racha perfecta de 100% de finalizaciones e iniciando con el pie derecho su contrato con la UFC. </p>
+                    <h2>Francis Marshall Somete a Erik Silva en el Primer Asalto</h2>
+                    <p>Segunda finalización en el primer asalto de la noche, esta vez por sumisión de la mano del estadounidense <b>Francis Marshall</b>, quien partía como favorito en las apuestas e hizo valer dicho favoritismo, conectando un mataleón para someter al venezolano de 39 años <b>Erik Silva</b> en el primer asalto del combate. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
