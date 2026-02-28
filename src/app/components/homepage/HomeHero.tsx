@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import stricklandVShernandez from '@/assets/eventos/fight-night/0-150/0-15/strickland_hernandez.webp'
 import makhachevNextMatch2026 from '@/assets/noticias/0-100/30-40/makhachev-next_fight.2026.webp'
+import MorenoKavanagh from '@/assets/eventos/fight-night/0-150/0-15/moreno-vs-kavanagh.webp'
 import seanStricklandInfancia from '@/assets/articulos/0-100/80-90/sean_strickland-infancia.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/eventos/fight-night-strickland-hernandez'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={stricklandVShernandez} alt='' />
-                <h2 className={styles.home__title}>¡Sean Strickland Noquea a Anthony Hernandez en el Tercer Asalto!</h2>
-                <span>¡Uros Medic Noquea a Geoff Neal en el Primer Asalto! ¡Melquizael Costa Noquea a Dan Ige en el Primer Asalto!</span>
+            <Link className={styles.homehero__bigArticle} href='/eventos/fight-night-moreno-kavanagh'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={MorenoKavanagh} alt='' />
+                <h2 className={styles.home__title}>UFC México: ¡Brandon Moreno vs Loneer Kavanagh!</h2>
+                <span>¡Marlon Vera vs David Martinez! ¡Daniel Zellhuber vs King Green!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
                 <Image className={styles.homehero__article__img} quality={50} src={makhachevNextMatch2026} alt='' />

@@ -3,8 +3,8 @@ import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import ufc325 from '@/assets/eventos/ufc/0-150/0-15/ufc325.webp'
+import stricklandVShernandez from '@/assets/eventos/fight-night/0-150/0-15/strickland_hernandez.webp'
 import kapeRoyval from '@/assets/eventos/fight-night/0-150/0-15/royval-kape.webp'
-import deridderAllen from '@/assets/eventos/fight-night/0-150/0-15/deridder-allen.webp'
 
 export default function PageHero () {
     return(
@@ -14,14 +14,14 @@ export default function PageHero () {
                 <h2 className={styles.page__title}>UFC 325: ¡Alexander Volkanovski Derrota a Diego Lopes por Decisión Unánime y Sigue Siendo Campeón! ¡Benoit Saint Denis Noquea a Dan Hooker en el Segundo Asalto!</h2>
                 <p>¡Mauricio Ruffy Noquea a Rafael Fiziev en el Segundo Asalto! ¡Quillan Salkilld Somete a Jamie Mullarkey en el Primer Asalto!</p>
             </Link>
-            <Link className={`${styles.pagehero__article} ${styles.normal2}`} href='/eventos/fight-night-deridder-allen'>
-                <Image className={styles.pagehero__article__img} quality={50} src={deridderAllen} alt='' />
+            <Link className={`${styles.pagehero__article} ${styles.normal2}`} href='/eventos/fight-night-strickland-hernandez'>
+                <Image className={styles.pagehero__article__img} quality={50} src={stricklandVShernandez} alt='' />
                 <article className={styles.pagehero__article__container}>
-                    <h2 className={styles.pagehero__title}>UFC Vancouever: ¡Brendan Allen Derrota a Reiner De Ridder Por Rendición en el Cuarto Asalto!</h2>
-                    <p>¡Mike Mallot Derrota a Kevin Holland Por Decisión Unánime! ¡Aiemann Zahabi Derrota a Marlon Vera por Decisión Dividida en una Pelea Cerradísima!</p>
+                    <h2 className={styles.pagehero__title}>¡Sean Strickland Noquea a Anthony Hernandez en el Tercer Asalto!</h2>
+                    <p>¡Uros Medic Noquea a Geoff Neal en el Primer Asalto! ¡Melquizael Costa Noquea a Dan Ige en el Primer Asalto!</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>18/10/2025</p>
+                        <p>21/02/2026</p>
                     </div>
                 </article>
             </Link>

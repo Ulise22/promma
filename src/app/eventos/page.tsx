@@ -14,6 +14,7 @@ import ufc319 from '@/assets/eventos/ufc/0-150/0-15/ufc319.webp'
 import lopesSilva from '@/assets/eventos/fight-night/0-150/0-15/lopes-vs-silva.webp'
 import ulbergReyes from '@/assets/eventos/fight-night/0-150/0-15/ulberg-vs-reyes.webp'
 import ufc320 from '@/assets/eventos/ufc/0-150/0-15/ufc320.webp'
+import deridderAllen from '@/assets/eventos/fight-night/0-150/0-15/deridder-allen.webp'
 import ufc321 from '@/assets/eventos/ufc/0-150/0-15/ufc321.webp'
 import ufc322 from '@/assets/eventos/ufc/0-150/0-15/ufc322.webp'
 import oliveiraGamrot from '@/assets/eventos/fight-night/0-150/0-15/oliveira-vs-gamrot.webp'
@@ -34,6 +35,7 @@ export default function Eventos () {
             <section className={styles.articles__container}>
                 <ArticlePreview img={ufc322} url='/eventos/ufc322' title='UFC 322: ¡Islam Makhachev Derrota a Jack Della Maddalena Por Decisión Unánime y es Doble Campeón! ¡Valentina Shevchenko Derrota a Zhang Weili Por Decisión Unánime!' author={null} text='¡Michael Morales Noquea a Sean Brady en el Primer Asalto! ¡Carlos Prates Noquea a Leon Edwards en el Segundo Asalto! ¡Benoit Saint Denis Noquea a Beneil Dariush en el Primer Asalto!' date='15/11/2025' />
                 <ArticlePreview img={ufc321} url='/eventos/ufc321' title='UFC 321: ¡La pelea entre Tom Aspinall y Ciryl Gane Termina Sin Resultado por un Piquete De Ojo y Aspinall Sigue Siendo Campeón! ¡Mackenzie Dern Derrota a Virna Jandiroba y es Nueva Campeona!' author={null} text='¡Umar Nurmagomedov Derrota Mario Bautista por Decisión Unánime en una Victoria Dominante! ¡Alexander Volkov Derrota a Jailton Almeida por Decisión Dividida!' date='25/10/2025' />
+                <ArticlePreview img={deridderAllen} url='/eventos/fight-night-deridder-allen' title='UFC Vancouever: ¡Brendan Allen Derrota a Reiner De Ridder Por Rendición en el Cuarto Asalto!' author={null} text='¡Mike Mallot Derrota a Kevin Holland Por Decisión Unánime! ¡Aiemann Zahabi Derrota a Marlon Vera por Decisión Dividida en una Pelea Cerradísima!' date='18/10/2025' />
                 <ArticlePreview img={oliveiraGamrot} url='/eventos/fight-night-oliveira-gamrot' title='UFC Río: ¡Charles Oliveira Somete a Mateusz Gamrot en el Segundo Asalto!' author={null} text='¡Deiveson Figueiredo Derrota a Montel Jackson Por Decisión Dividida! ¡Joel Álvarez Domina y Derrota a Vicente Luque por Decisión Unánime!' date='11/10/2025' />
                 <ArticlePreview img={ufc320} url='/eventos/ufc320' title='UFC 320: ¡Alex Pereira Noquea a Magomed Ankalaev en el Primer Asalto y Vuelve a Ser Campeón! ¡Merab Dvalishvili Derrota a Cory Sandhagen y Sigue Siendo Campeón!' author={null} text='¡Jiri Prochazka Noquea a Khalil Rountree en el Tercer Asalto en La Pelea de la Noche! ¡Youssef Zalal Somete a Josh Emmet en el Primer Asalto de la Pelea!' date='04/10/2025' />
                 <ArticlePreview img={ulbergReyes} url='/eventos/fight-night-ulberg-reyes' title='UFC Perth: ¡Carlos Ulberg Noquea a Dominick Reyes en el Primer Asalto!' author={null} text='¡Jimmy Crute Somete a Ivan Erslan en el Primer Asalto! ¡Neil Magny Somete a Jake Matthews en el Tercer Asalto!' date='27/09/2025' />
