@@ -12,11 +12,11 @@ const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles
 
 export const metadata: Metadata = {
     title: 'UFC México: ¡Brandon Moreno vs Loneer Kavanagh!',
-    description: '',
+    description: 'Noche de UFC en Mexico con Brandon Moreno enfrentanod a Loneer Kavanagh en la cartelera estelar. Y con Marlon Chito Vera vs David Martinez en la coestelar.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmoreno-vs-kavanagh.c91f334f.webp&w=828&q=65',
         title: 'UFC México: ¡Brandon Moreno vs Loneer Kavanagh!',
-        description: '',
+        description: 'Noche de UFC en Mexico con Brandon Moreno enfrentanod a Loneer Kavanagh en la cartelera estelar. Y con Marlon Chito Vera vs David Martinez en la coestelar.',
         url: 'https://fullmma.org/eventos/fight-night-moreno-kavanagh'
     }
 }
