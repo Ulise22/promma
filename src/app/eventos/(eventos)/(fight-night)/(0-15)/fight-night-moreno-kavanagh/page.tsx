@@ -34,6 +34,8 @@ export default function StricklandHernandez () {
                     <p>Espectacular victoria para el debutante de Aruba <b>Damian Pinas</b>, quien en su primer combate en la UFC logra conectar un golpe para ganar por nocaut en el primer asalto ante el estadounidense <b>Wes Schultz</b>, manteniendo su racha perfecta de 100% de finalizaciones e iniciando con el pie derecho su contrato con la UFC. </p>
                     <h2>Francis Marshall Somete a Erik Silva en el Primer Asalto</h2>
                     <p>Segunda finalización en el primer asalto de la noche, esta vez por sumisión de la mano del estadounidense <b>Francis Marshall</b>, quien partía como favorito en las apuestas e hizo valer dicho favoritismo, conectando un mataleón para someter al venezolano de 39 años <b>Erik Silva</b> en el primer asalto del combate. </p>
+                    <h2>Regina Tarin Derrota a Ernesta Kareckaite Por Decisión Unánime</h2>
+                    <p>Brutal debut de la mexicana <b>Regina Tarin</b>, quien aceptó la pelea en corto aviso en reemplazo de la argentina <b>Sofía Montenegro</b>, y demostró que tiene nivel para la UFC, dándonos un peleón, en lo que fue una temprana candidata a pelea de la noche, con ambas luchadoras regalándonos un espectáculo de violencia, conectándose golpes por todos lados en lo que fue un espectáculo de pelea que finalmente ganó la mexicana Regina Tarin 30-27 por decisión unánime. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
