@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function StricklandHernandez () {
     return(
         <main>
-            <ArticleHero title='UFC México: ¡Brandon Moreno vs Loneer Kavanagh!' subtitle='¡Ailín Pérez Derrota a Macy Chiasso por Decisión Unánime! ¡Marlon Vera vs David Martinez! ¡Daniel Zellhuber vs King Green!' image={hero} date='2026-02-28' author={null} updatedDate={null} />
+            <ArticleHero title='UFC México: ¡Brandon Moreno vs Loneer Kavanagh!' subtitle='¡Ailín Pérez Derrota a Macy Chiasso por Decisión Unánime! ¡Marlon Vera vs David Martinez! ¡King Green Noquea a Daniel Zellhuber en el Segundo Asalto!' image={hero} date='2026-02-28' author={null} updatedDate='2026-03-01' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Nueva noche de UFC en latinoamérica, cuando en la capital de México, que será encabezada por el histórico excampeón mexicano <Link href='/peleadores/brandon-moreno'>Brandon Moreno</Link>, quien se enfrentará al joven prospecto inglés <b>Lone&apos;er Kavanagh</b>, en un combate que promete mucha acción. Por si fuera poco, la pelea coestelar nos trae otro gran combate, donde el mexicano #10 de peso gallo <b>David Martinez</b>, se enfrentará al histórico ecuatoriano <Link href='/peleadores/marlon-vera'>Marlon &quot;Chito&quot; Vera</Link>, que actualmente está ranqueado #9. </p>
@@ -51,6 +51,8 @@ export default function StricklandHernandez () {
                     <p>Espectacular debut del mexicano <b>Imanol Rodriguez</b> en la división de peso mosca de la UFC, que luego de sufrir bastante en el primer asalto, estando a punto de ser noqueado por el peruano <b>Kevin Borjas</b>, fue capaz de recuperarse en medio del asalto, y en el segundo, ya con más calma, fue capaz de conectar una avalancha de golpes muy potentes que terminarían por noquear a su rival, debutando con victoria y extendiendo su récord invicto a 7-0. </p>
                     <h2>Édgar Cháirez Derrota a Felipe Bunes por Decisión Dividida</h2>
                     <p>En una gran pelea y bastante cerrada como demuestra la decisión de los jueces, quien termina llevándose la victoria es el peleador local mexicano <b>Édgar Cháirez</b>, quien luego de sufrir bastante durante el primer asalto, fue capaz de ir dando vuelta el combate, yendo de menos a más, con el último asalto siendo el mejor de todos para él. De esta forma, luego de que 2 de los 3 jueces le dieran la victoria por 29-28, Cháirez se lleva la victoria en casa. </p>
+                    <h2>King Green Noquea a Daniel Zellhuber en el Segundo Asalto</h2>
+                    <p>Brutal nocaut del estadounidense <b>King Green</b>, quien sorprende a todos con una actuación espectacular en territorio hostil, logrando dominar completamente a <b>Daniel Zellhuber</b> durante el primer asalto, conectando más y mejor, y luego finalizando el trabajo al final del segundo asalto, cuando con uno de sus golpes tumbaría al suelo al mexicano, llevando al árbitro a separar a los peleadores y dar como ganador por TKO a King Green. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
