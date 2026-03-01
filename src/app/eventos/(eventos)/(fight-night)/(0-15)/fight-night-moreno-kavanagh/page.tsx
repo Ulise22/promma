@@ -47,6 +47,8 @@ export default function StricklandHernandez () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Santiago Luna Derrota a Angel Pacheco por Decisión Unánime</h2>
                     <p>Espectacular victoria del mexicano <b>Santiago Luna</b>, quien fue ampliamente superior a su rival estadounidense <b>Angel Pacheco</b>, que no encontró respuesta ante los golpes del mexicano, recibiendo puños por todos lados, demostrando una mandibula durísima, al no caer noqueado. De esta forma, el mexicano Santiago Luna se lleva la victoria por decisión unánime y extiende su récord invicto a 8-0. </p>
+                    <h2>Imanol Rodriguez Noquea a Kevin Borjas en el Segundo Asalto</h2>
+                    <p>Espectacular debut del mexicano <b>Imanol Rodriguez</b> en la división de peso mosca de la UFC, que luego de sufrir bastante en el primer asalto, estando a punto de ser noqueado por el peruano <b>Kevin Borjas</b>, fue capaz de recuperarse en medio del asalto, y en el segundo, ya con más calma, fue capaz de conectar una avalancha de golpes muy potentes que terminarían por noquear a su rival, debutando con victoria y extendiendo su récord invicto a 7-0. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
