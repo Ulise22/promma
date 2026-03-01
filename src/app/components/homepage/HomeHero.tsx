@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/eventos/fight-night-moreno-kavanagh'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={MorenoKavanagh} alt='' />
-                <h2 className={styles.home__title}>UFC México: ¡Brandon Moreno vs Loneer Kavanagh!</h2>
+                <h2 className={styles.home__title}>UFC México: ¡Loneer Kavanagh Derrota a Brandon Moreno por Decisión Unánime!</h2>
                 <span>¡Ailín Pérez Derrota a Macy Chiasso por Decisión Unánime! ¡David Martínez Derrota a Marlon Chito Vera por Decisión Unánime! ¡King Green Noquea a Daniel Zellhuber en el Segundo Asalto!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>

@@ -21,10 +21,10 @@ export const metadata: Metadata = {
     }
 }
 
-export default function StricklandHernandez () {
+export default function MorenoKavanagh () {
     return(
         <main>
-            <ArticleHero title='UFC México: ¡Brandon Moreno vs Loneer Kavanagh!' subtitle='¡Ailín Pérez Derrota a Macy Chiasso por Decisión Unánime! ¡David Martínez Derrota a Marlon Chito Vera por Decisión Unánime! ¡King Green Noquea a Daniel Zellhuber en el Segundo Asalto!' image={hero} date='2026-02-28' author={null} updatedDate='2026-03-01' />
+            <ArticleHero title='UFC México: ¡Loneer Kavanagh Derrota a Brandon Moreno por Decisión Unánime!' subtitle='¡Ailín Pérez Derrota a Macy Chiasso por Decisión Unánime! ¡David Martínez Derrota a Marlon Chito Vera por Decisión Unánime! ¡King Green Noquea a Daniel Zellhuber en el Segundo Asalto!' image={hero} date='2026-02-28' author={null} updatedDate='2026-03-01' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Nueva noche de UFC en latinoamérica, cuando en la capital de México, que será encabezada por el histórico excampeón mexicano <Link href='/peleadores/brandon-moreno'>Brandon Moreno</Link>, quien se enfrentará al joven prospecto inglés <b>Lone&apos;er Kavanagh</b>, en un combate que promete mucha acción. Por si fuera poco, la pelea coestelar nos trae otro gran combate, donde el mexicano #10 de peso gallo <b>David Martinez</b>, se enfrentará al histórico ecuatoriano <Link href='/peleadores/marlon-vera'>Marlon &quot;Chito&quot; Vera</Link>, que actualmente está ranqueado #9. </p>
@@ -55,6 +55,10 @@ export default function StricklandHernandez () {
                     <p>Brutal nocaut del estadounidense <b>King Green</b>, quien sorprende a todos con una actuación espectacular en territorio hostil, logrando dominar completamente a <b>Daniel Zellhuber</b> durante el primer asalto, conectando más y mejor, y luego finalizando el trabajo al final del segundo asalto, cuando con uno de sus golpes tumbaría al suelo al mexicano, llevando al árbitro a separar a los peleadores y dar como ganador por TKO a King Green. </p>
                     <h2>David Martínez Derrota a Marlon Chito Vera por Decisión Unánime</h2>
                     <p>Linda pelea la que nos regalaron estos 2 latinoamericanos, con el mexicano <b>David Martínez</b> siendo quien finalmente se lleva la victoria por decisión unánime, comenzando muy bien el combate, ganando los primeros 2 asaltos, pero sufriendo mucho en el tercer asalto, cuando el ecuatoriano <Link href='/peleadores/marlon-vera'>Marlon Vera</Link> sabía que tenía que salir a ganar y sacó lo mejor que tenía, al punto que el mexicano reconoció que Chito es de los peleadores que más fuerte le pegaron. Finalmente fue David Martinez quien se llevó la victoria por decisión unánime 29-28. </p>
+                    <h2>Loneer Kavanagh Derrota a Brandon Moreno por Decisión Unánime</h2>
+                    <p>En lo que fue una espectacular actuación en territorio hostil, el inglés <b>Loneer Kavanagh</b> logra derrotar al mexicano <Link href='/peleadores/brandon-moreno'>Brandon Moreno</Link>, en lo que fue una masterclass de striking, mostrándose muy fuerte mentalmente al ser capaz de dar tremendo desempeño con todo el público en contra. </p>
+                    <p>Aunque es verdad que en cuanto a la cantidad de golpes estuvieron bastante parejos, lo cierto es que los golpes de Kavanagh lastimaban muchísimo más a Brandon, provocando varios cortes y perdiendo mucha sangre a lo largo de la pelea, con el mexicano teniendo que recurrir a intentar derribos y usar su lucha para no recibir tanto daño con los golpes del inglés. </p>
+                    <p>Finalmente los jueces dieron como ganandor al peleador de Reino Unido <b>Lone&apos;er Kavanagh</b> por decisión unánime, quien a partir del próximo martes entrará en el top 10 de la división de peso mosca, y de a poco se meterá en la discusión por el cinturón de la división. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
