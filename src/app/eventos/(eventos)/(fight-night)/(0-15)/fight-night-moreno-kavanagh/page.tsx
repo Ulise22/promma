@@ -44,9 +44,9 @@ export default function StricklandHernandez () {
                     <p>Espectacular victoria de la argentina <Link href='/mujeres/ailin-perez'>Ailín Pérez</Link>, quien a pesar de sufrir bastante durante el primer asalto, luego de que conectó un derribo que finalmente la dejó en una posición incomoda durante todo el combate, pasando más tiempo defendiendo los intentos de sumisión de <b>Macy Chiasson</b> que atacando, finalmente fue capaz de sobrevivir y dar unos 2 últimos asaltos mucho mejores, con el estilo de pelea al que ya nos tiene acostumbrados, conectando golpes potentes y siendo capaz de derribar a su rival siempre que lo intentó, dominando en el suelo y llevándose al final una merecida victoria por decisión unánime 29-28, para alcanzar su sexta victoria consecutiva, siendo la racha de victorias más larga de toda la división. </p>
                     <h2>Ryan Gandra Noquea a Jose Daniel Medina en el Primer Asalto</h2>
                     <p>Espectacular debut del brasileño <b>Ryan Gandra</b>, que a los 40 segundos del combate fue capaz de noquear al luchador boliviano <b>Jose Daniel Medina</b>, iniciando con el pie derecho en la UFC y garantizándose el bono de 25k por finalización. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Santiago Luna Derrota a Angel Pacheco por Decisión Unánime</h2>
+                    <p>Espectacular victoria del mexicano <b>Santiago Luna</b>, quien fue ampliamente superior a su rival estadounidense <b>Angel Pacheco</b>, que no encontró respuesta ante los golpes del mexicano, recibiendo puños por todos lados, demostrando una mandibula durísima, al no caer noqueado. De esta forma, el mexicano Santiago Luna se lleva la victoria por decisión unánime y extiende su récord invicto a 8-0. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
