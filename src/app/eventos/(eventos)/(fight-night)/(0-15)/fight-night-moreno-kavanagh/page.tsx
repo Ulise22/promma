@@ -49,6 +49,8 @@ export default function StricklandHernandez () {
                     <p>Espectacular victoria del mexicano <b>Santiago Luna</b>, quien fue ampliamente superior a su rival estadounidense <b>Angel Pacheco</b>, que no encontró respuesta ante los golpes del mexicano, recibiendo puños por todos lados, demostrando una mandibula durísima, al no caer noqueado. De esta forma, el mexicano Santiago Luna se lleva la victoria por decisión unánime y extiende su récord invicto a 8-0. </p>
                     <h2>Imanol Rodriguez Noquea a Kevin Borjas en el Segundo Asalto</h2>
                     <p>Espectacular debut del mexicano <b>Imanol Rodriguez</b> en la división de peso mosca de la UFC, que luego de sufrir bastante en el primer asalto, estando a punto de ser noqueado por el peruano <b>Kevin Borjas</b>, fue capaz de recuperarse en medio del asalto, y en el segundo, ya con más calma, fue capaz de conectar una avalancha de golpes muy potentes que terminarían por noquear a su rival, debutando con victoria y extendiendo su récord invicto a 7-0. </p>
+                    <h2>Édgar Cháirez Derrota a Felipe Bunes por Decisión Dividida</h2>
+                    <p>En una gran pelea y bastante cerrada como demuestra la decisión de los jueces, quien termina llevándose la victoria es el peleador local mexicano <b>Édgar Cháirez</b>, quien luego de sufrir bastante durante el primer asalto, fue capaz de ir dando vuelta el combate, yendo de menos a más, con el último asalto siendo el mejor de todos para él. De esta forma, luego de que 2 de los 3 jueces le dieran la victoria por 29-28, Cháirez se lleva la victoria en casa. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
