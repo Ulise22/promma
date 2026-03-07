@@ -4,7 +4,7 @@ import Image from 'next/image'
 /* IMAGES */
 import ufc325 from '@/assets/eventos/ufc/0-150/0-15/ufc325.webp'
 import stricklandVShernandez from '@/assets/eventos/fight-night/0-150/0-15/strickland_hernandez.webp'
-import kapeRoyval from '@/assets/eventos/fight-night/0-150/0-15/royval-kape.webp'
+import MorenoKavanagh from '@/assets/eventos/fight-night/0-150/0-15/moreno-vs-kavanagh.webp'
 
 export default function PageHero () {
     return(
@@ -25,14 +25,14 @@ export default function PageHero () {
                     </div>
                 </article>
             </Link>
-            <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-royval-kape'>
-                <Image className={styles.pagehero__article__img} quality={50} src={kapeRoyval} alt='' />
+            <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-moreno-kavanagh'>
+                <Image className={styles.pagehero__article__img} quality={50} src={MorenoKavanagh} alt='' />
                 <article className={styles.pagehero__article__container}>
-                    <h2 className={styles.pagehero__title}>UFC Vegas 112: ¡Manel Kape Noquea a Brandon Royval en el Primer Asalto! ¡Kevin Vallejos Da un Nocaut Espectacular a Giga Chikadze en el Segundo Asalto!</h2>
-                    <p>¡Deiveson Figueiredo Derrota a Montel Jackson Por Decisión Dividida! ¡Joel Álvarez Domina y Derrota a Vicente Luque por Decisión Unánime!</p>
+                    <h2 className={styles.pagehero__title}>UFC México: ¡Loneer Kavanagh Derrota a Brandon Moreno por Decisión Unánime!</h2>
+                    <p>¡Ailín Pérez Derrota a Macy Chiasso por Decisión Unánime! ¡David Martínez Derrota a Marlon Chito Vera por Decisión Unánime! ¡King Green Noquea a Daniel Zellhuber en el Segundo Asalto!</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>13/12/2025</p>
+                        <p>28/02/2026</p>
                     </div>
                 </article>
             </Link>
