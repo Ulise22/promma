@@ -12,11 +12,11 @@ const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles
 
 export const metadata: Metadata = {
     title: 'UFC 326: ¡Max Holloway vs Charles Oliveira 2!',
-    description: "",
+    description: "UFC 326 con Max Holloway y Charles Oliveira peleando por el título BMF en Las Vegas, además de la pelea entre Caio Borralho y Reiner De Ridder en la coestelar. ",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc326.6a575631.webp&w=828&q=65',
         title: 'UFC 326: ¡Max Holloway vs Charles Oliveira 2!',
-        description: "",
+        description: "UFC 326 con Max Holloway y Charles Oliveira peleando por el título BMF en Las Vegas, además de la pelea entre Caio Borralho y Reiner De Ridder en la coestelar. ",
         url: 'https://fullmma.org/eventos/ufc326'
     }
 }
