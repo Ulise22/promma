@@ -39,6 +39,8 @@ export default function UFC326 () {
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2>Nyamjargal Tumendeberel Derrota a Cody Durden por Decisión Unánime</h2>
                     <p>Espectacular victoria del luchador de Mongolia <b>Nyamjargal Tumendeberel</b>, quien dominó por completo a su rival estadounidense <b>Cody Durden</b>, siendo capaz de defenderse en el suelo ante los intentos de derribo de su rival, y atacando de manera precisa a su contricante, conectando más golpes que hicieron mucho daño al luchador americano. De esta forma, el mongol <b>Nyamjargal Tumendeberel</b> se hace con la victoria por decisión unánime 30-27. </p>
+                    <h2>Alberto Montes Somete a Ricky Turcios en el Segundo Asalto</h2>
+                    <p>Brutal manera de debutar en la UFC por parte del venezolano <b>Alberto Montes</b>, quien luego de dominar en el striking durante el primer asalto del combate al estadounidense <b>Ricky Turcios</b>, fue capaz de conectar una anaconda luego de ser derribado para someter a su rival en el segundo asalto, en una sumisión que estuvo tan bien conectada y donde usó tanta fuerza que a Turcios no le dió ni tiempo de tapear, quedando desmayado producto de esta anaconda. De esta manera el venezolano debuta en la UFC con victoria por sumisión en el segundo asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
