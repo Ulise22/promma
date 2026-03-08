@@ -45,9 +45,9 @@ export default function UFC326 () {
                     <p>Victoria para el estadounidense <b>Donte Johnson</b>, quien luego de perder el primer asalto de la pelea, fue capaz de reponerse ganando el segundo y haciendo un decente papel en el tercero, para derrota a su compatriota <b>Cody Brundage</b> por decisión dividida, con 1 de los jueces viéndolo perder ese tercer asalto y con 2 viéndolo ganar. </p>
                     <h2>Cody Garbrandt Derrota a Xiago Long por Decisión Unánime</h2>
                     <p>En una pelea donde sucedió algo que en lo personal nunca había visto, el ganandor del combate es el estadounidense <b>Cody Garbrandt</b> por decisión por 28-27, luego de que a su rival chino <b>Xiao Long</b> le descontaran 2 puntos por haber golpeado en las zonas bajas a su oponente, en 2 ocasiones diferentes durante el tercer asalto. Esta reducción de puntos debido a la reincidencia en la falta del luchador asiático, es lo que terminó definiendo el resultado de la pelea, dado que de no haber sucedido, el ganandor hubiera sido completamente diferente. De esta forma, el veterano e histórico excampeón de la división de peso gallo <b>Cody Garbrandt</b>, vuelve a la victoria después de sólo haber ganado el primer asalto de la pelea. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Gregory Rodrigues Noquea a Brunno Ferreira en el Primer Asalto</h2>
+                    <p>Brutal lo de <b>Gregory &quot;Robocop&quot; Rodrigues</b>, quien consigue su venganza en esta revancha. Recordemos que estos 2 brasileños se habían enfrentando en el pasado, y <b>Brunno Ferreira</b> había ganado por nocaut en el primer asalto. En esta ocasión, recordando su último enfrentamiento, ambos luchadores arrancaron muy lento, espectantes y mostrando respeto por el poder de nocaut del otro, pero fue Robocop quien esta vez conectaría una mano derecha brutal que dejaría KO inmediatamente a su rival, en apenas el segundo golpe conectado. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
