@@ -48,6 +48,8 @@ export default function UFC326 () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Gregory Rodrigues Noquea a Brunno Ferreira en el Primer Asalto</h2>
                     <p>Brutal lo de <b>Gregory &quot;Robocop&quot; Rodrigues</b>, quien consigue su venganza en esta revancha. Recordemos que estos 2 brasileños se habían enfrentando en el pasado, y <b>Brunno Ferreira</b> había ganado por nocaut en el primer asalto. En esta ocasión, recordando su último enfrentamiento, ambos luchadores arrancaron muy lento, espectantes y mostrando respeto por el poder de nocaut del otro, pero fue Robocop quien esta vez conectaría una mano derecha brutal que dejaría KO inmediatamente a su rival, en apenas el segundo golpe conectado. </p>
+                    <h2>Drew Dober Noquea a Michael Johnson en el Segundo Asalto</h2>
+                    <p>En lo que fue una locura de combate, el estadounidense <b>Drew Dober</b>, quien había arrancado perdiendo la pelea, ante un <b>Michael Johnson</b> que estaba peleando muy bien, fue capaz de encontrar un recto de izquierda que tumbaría a su compatriota, para terminar llevándose la pelea por la vía del nocaut en una actuación que lo candidatea a un bono por Actuación de la Noche, al haber dado vuelta el resultado de la pelea de esa forma. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
