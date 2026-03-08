@@ -34,6 +34,8 @@ export default function UFC326 () {
                     <p>Gran victoria del brasileño <b>Rodolfo Bellato</b>, quien comenzó sufriendo el primer asalto, recibiendo bastante golpes que no podía contraatacar, pero necesitó solo de un par de golpes para derribar a su rival al suelo, castigarlo a golpes desde ahí para finalmente llevarse la primer victoria de la noche por TKO en el primer asalto. </p>
                     <h2>Diyar Nurgozhay Derrota a Rafael Tobias por Decisión Unánime</h2>
                     <p>El kazajo <b>Diyar Nurgozhay</b> se hace con una gran victoria ante el brasileño <b>Rafael Tobias</b>, luego de conectar casi el doble de golpes totales, y casi el triple de golpes significantes en un claro dominio por parte del luchador de Kazajistán. </p>
+                    <h2>Sumudaerji Derrota a Jesus Aguilar por Decisión Unánime</h2>
+                    <p>Excelente victoria del peleador chino <b>Sumudaerji</b>, quien dominó completamente al luchador mexicano <b>Jesus Aguilar</b> durante los 3 asaltos, conectando de muchísima mejor manera, con el doble de golpes significantes, además de siendo capaz de derribar en 4 ocasiones a su rival, llevándose cómodamente la victoria por la vía de la decisión unánime. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p> */}
