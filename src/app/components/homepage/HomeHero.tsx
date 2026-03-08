@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/eventos/ufc326'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc326} alt='' />
-                <h2 className={styles.home__title}>UFC 326: ¡Max Holloway vs Charles Oliveira 2!</h2>
+                <h2 className={styles.home__title}>UFC 326: ¡Charles Oliveira Derrota a Max Holloway y es el Nuevo BMF!</h2>
                 <span>¡Caio Borralho Derrota a Reiner De Ridder por Decisión Unánime! ¡Raúl Rosas Jr. Derrota a Rob Font por Decisión Unánime y Se Mete en los Rankings!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
