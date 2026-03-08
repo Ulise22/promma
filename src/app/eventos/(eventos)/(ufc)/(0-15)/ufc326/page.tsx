@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function UFC326 () {
     return(
         <main>
-            <ArticleHero title="UFC 326: ¡Max Holloway vs Charles Oliveira 2!" subtitle='¡Caio Borralho vs Reiner De Ridder! ¡Rob Font vs Raul Rosas Jr.!' image={hero} date='2026-03-07' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 326: ¡Max Holloway vs Charles Oliveira 2!" subtitle='¡Caio Borralho vs Reiner De Ridder! ¡Raúl Rosas Jr. Derrota a Rob Font por Decisión Unánime y Se Mete en los Rankings!' image={hero} date='2026-03-07' author={null} updatedDate='2026-03-08' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Espectacular evento de UFC el que tenemos esta noche, cuando el actual <b>BMF</b> <Link href='/peleadores/max-holloway'>Max Holloway</Link> ponga en juego su cinturón ante el excampeón de la división de peso ligero y querido por todos <Link href='/peleadores/charles-oliveira'>Charles Oliveira</Link>, con ambos luchadores viniendo de una meritoria victoria en sus últimas peleas. Además, la pelea coestelar promete ser igual de emocionante, cuando el brasileño perteneciente a los <Link href='/articulos/fighting-nerds'>Fighting Nerds</Link> <Link href='/peleadores/caio-borralho'>Caio Borralho</Link>, se enfrente al neerlandés <b>Reiner De Ridder</b>. </p>
@@ -50,6 +50,8 @@ export default function UFC326 () {
                     <p>Brutal lo de <b>Gregory &quot;Robocop&quot; Rodrigues</b>, quien consigue su venganza en esta revancha. Recordemos que estos 2 brasileños se habían enfrentando en el pasado, y <b>Brunno Ferreira</b> había ganado por nocaut en el primer asalto. En esta ocasión, recordando su último enfrentamiento, ambos luchadores arrancaron muy lento, espectantes y mostrando respeto por el poder de nocaut del otro, pero fue Robocop quien esta vez conectaría una mano derecha brutal que dejaría KO inmediatamente a su rival, en apenas el segundo golpe conectado. </p>
                     <h2>Drew Dober Noquea a Michael Johnson en el Segundo Asalto</h2>
                     <p>En lo que fue una locura de combate, el estadounidense <b>Drew Dober</b>, quien había arrancado perdiendo la pelea, ante un <b>Michael Johnson</b> que estaba peleando muy bien, fue capaz de encontrar un recto de izquierda que tumbaría a su compatriota, para terminar llevándose la pelea por la vía del nocaut en una actuación que lo candidatea a un bono por Actuación de la Noche, al haber dado vuelta el resultado de la pelea de esa forma. </p>
+                    <h2>Raúl Rosas Jr. Derrota a Rob Font por Decisión Unánime</h2>
+                    <p>Gran victoria para el joven mexicano <Link href='/peleadores/raul-rosas-jr'>Raúl Rosas Jr.</Link>, quien luego de dominar completamente a su rival <b>Rob Font</b>, derribándolo y manteniéndolo a ras de lona, consigue una victoria 30-27 que lo mente en los rankings de peso gallo de la UFC. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
