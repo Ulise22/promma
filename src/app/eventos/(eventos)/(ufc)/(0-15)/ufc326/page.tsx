@@ -36,9 +36,9 @@ export default function UFC326 () {
                     <p>El kazajo <b>Diyar Nurgozhay</b> se hace con una gran victoria ante el brasileño <b>Rafael Tobias</b>, luego de conectar casi el doble de golpes totales, y casi el triple de golpes significantes en un claro dominio por parte del luchador de Kazajistán. </p>
                     <h2>Sumudaerji Derrota a Jesus Aguilar por Decisión Unánime</h2>
                     <p>Excelente victoria del peleador chino <b>Sumudaerji</b>, quien dominó completamente al luchador mexicano <b>Jesus Aguilar</b> durante los 3 asaltos, conectando de muchísima mejor manera, con el doble de golpes significantes, además de siendo capaz de derribar en 4 ocasiones a su rival, llevándose cómodamente la victoria por la vía de la decisión unánime. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
+                    <h2>Nyamjargal Tumendeberel Derrota a Cody Durden por Decisión Unánime</h2>
+                    <p>Espectacular victoria del luchador de Mongolia <b>Nyamjargal Tumendeberel</b>, quien dominó por completo a su rival estadounidense <b>Cody Durden</b>, siendo capaz de defenderse en el suelo ante los intentos de derribo de su rival, y atacando de manera precisa a su contricante, conectando más golpes que hicieron mucho daño al luchador americano. De esta forma, el mongol <b>Nyamjargal Tumendeberel</b> se hace con la victoria por decisión unánime 30-27. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
