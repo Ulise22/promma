@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
+import emmetVSvallejos from '@/assets/eventos/fight-night/0-150/0-15/emmet_vallejos.webp'
 import makhachevNextMatch2026 from '@/assets/noticias/0-100/30-40/makhachev-next_fight.2026.webp'
 import seanStricklandInfancia from '@/assets/articulos/0-100/80-90/sean_strickland-infancia.webp'
-import ufc326 from '@/assets/eventos/ufc/0-150/0-15/ufc326.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/eventos/ufc326'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc326} alt='' />
-                <h2 className={styles.home__title}>UFC 326: ¡Charles Oliveira Derrota a Max Holloway y es el Nuevo BMF!</h2>
-                <span>¡Caio Borralho Derrota a Reiner De Ridder por Decisión Unánime! ¡Raúl Rosas Jr. Derrota a Rob Font por Decisión Unánime y Se Mete en los Rankings!</span>
+            <Link className={styles.homehero__bigArticle} href='/eventos/fight-night-emmet-vallejos'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={emmetVSvallejos} alt='' />
+                <h2 className={styles.home__title}>UFC Fight Night: ¡Kevin Vallejos vs Josh Emmet!</h2>
+                <span>¡Amanada Lemos vs Gillian Robertson! ¡Andre Fili vs Jose Miguel Delgado!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
                 <Image className={styles.homehero__article__img} quality={50} src={makhachevNextMatch2026} alt='' />
