@@ -36,6 +36,8 @@ export default function EmmetVallejos () {
                     <p>Espectacular victoria de la brasileña, que conectando un mataleón a su rival mexicana <b>Montse Rendon</b> es capaz de llevarse la victoria por sumisión en el primer asalto, manteniendo su invicto profesional. </p>
                     <h2>Eryk Anders Derrota a Brad Tavares por Decisión UNánime</h2>
                     <p>Tremenda victoria del estadounidense <b>Eryk Anders</b>, quien mantuvo contra la reja a su rival durante gran parte del combate, sumando puntos por el tiempo de control, aunque también estuvo cerca de noquear al final del primer asalto, cuando fue capaz de derribar a golpes a su rival. Finalmente, luego de ganar el primer y tercer asalto del combate, Eryk Anders se lleva la victoria por decisión unánime. </p>
+                    <h2>Manoel Sousa Noquea a Bolaki Oki en el Tercer Asalto</h2>
+                    <p>Brutal victoria por KO del brasileño <b>Manoel Sousa</b>, quien fue capaz de dar vuelta lo que parecía una pelea cuesta arriba en el primer asalto, recibiendo un knockdown por parte del belga <b>Bolaji Oki</b>, del que sería capaz de recuperarse, juntando confianza y dominando poco a poco el combate, hasta llegar al punto cúlmine en el tercer asalto, cuando su rival ya había sido muy lastimado, conectando una mano derecha mortal que terminaría por sentenciar la pelea. De esta forma el brasileño se lleva la victoria por KO en el tercer asalto, y seguramente un bono por desempeño cuando acabe la cartelera. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
