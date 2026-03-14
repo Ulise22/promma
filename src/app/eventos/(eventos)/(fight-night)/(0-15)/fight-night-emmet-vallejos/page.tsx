@@ -34,6 +34,8 @@ export default function EmmetVallejos () {
                     <h2>Hecher Sosa Debuta Derrotando a Luan Lacerda por Decisión Unánime</h2>
                     <h2>Bia Mesquita Somete a Montse Rendon en el Primer Asalto</h2>
                     <p>Espectacular victoria de la brasileña, que conectando un mataleón a su rival mexicana <b>Montse Rendon</b> es capaz de llevarse la victoria por sumisión en el primer asalto, manteniendo su invicto profesional. </p>
+                    <h2>Eryk Anders Derrota a Brad Tavares por Decisión UNánime</h2>
+                    <p>Tremenda victoria del estadounidense <b>Eryk Anders</b>, quien mantuvo contra la reja a su rival durante gran parte del combate, sumando puntos por el tiempo de control, aunque también estuvo cerca de noquear al final del primer asalto, cuando fue capaz de derribar a golpes a su rival. Finalmente, luego de ganar el primer y tercer asalto del combate, Eryk Anders se lleva la victoria por decisión unánime. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
