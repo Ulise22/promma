@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function EmmetVallejos () {
     return(
         <main>
-            <ArticleHero title='UFC Fight Night: ¡Kevin Vallejos vs Josh Emmet!' subtitle='¡Amanada Lemos vs Gillian Robertson! ¡Andre Fili vs Jose Miguel Delgado!' image={hero} date='2026-03-14' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Fight Night: ¡Kevin Vallejos vs Josh Emmett!' subtitle='¡Amanada Lemos vs Gillian Robertson! ¡Andre Fili vs Jose Miguel Delgado!' image={hero} date='2026-03-14' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Histórica noche de UFC para los fans de Argentina que hoy tendremos a nuestro representante de peso pluma <Link href='/peleadores/kevin-vallejos'>Kevin Vallejos</Link>, encabezando el evento de la noche, siendo el segundo argentino en ser la pelea principal, luego de <Link href='/peleadores/santiago-ponzinibbio'>Santiago Ponzinibbio</Link>, para ello deberá enfrentar al veterano estadounidense <b>Josh Emmett</b>, que está #11 en la división. </p>
