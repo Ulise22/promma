@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: 'UFC Fight Night: ¡Kevin Vallejos vs Josh Emmet!',
     description: 'Noche de UFC en Las Vegas con el argentino Kevin Vallejos enfrentando al veterano estadounidense Josh Emmett. ',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Femmet_vallejos.14fae18c.webp&w=828&q=65',
         title: 'UFC Fight Night: ¡Kevin Vallejos vs Josh Emmet!',
         description: 'Noche de UFC en Las Vegas con el argentino Kevin Vallejos enfrentando al veterano estadounidense Josh Emmett. ',
         url: 'https://fullmma.org/eventos/fight-night-moreno-kavanagh'
