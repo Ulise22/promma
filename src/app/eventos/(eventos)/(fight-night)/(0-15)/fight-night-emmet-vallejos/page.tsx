@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function EmmetVallejos () {
     return(
         <main>
-            <ArticleHero title='UFC Fight Night: ¡Kevin Vallejos vs Josh Emmett!' subtitle='¡Amanada Lemos vs Gillian Robertson! ¡El español Hecher Sosa Debuta con Victoria!' image={hero} date='2026-03-14' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Fight Night: ¡Kevin Vallejos vs Josh Emmett!' subtitle='¡Gillian Robertson Derrota a Amanda Lemos Por Decisión Unánime! ¡El español Hecher Sosa Debuta con Victoria!' image={hero} date='2026-03-14' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Histórica noche de UFC para los fans de Argentina que hoy tendremos a nuestro representante de peso pluma <Link href='/peleadores/kevin-vallejos'>Kevin Vallejos</Link>, encabezando el evento de la noche, siendo el segundo argentino en ser la pelea principal, luego de <Link href='/peleadores/santiago-ponzinibbio'>Santiago Ponzinibbio</Link>, para ello deberá enfrentar al veterano estadounidense <b>Josh Emmett</b>, que está #11 en la división. </p>
@@ -53,6 +53,8 @@ export default function EmmetVallejos () {
                     <p>Gran victoria del marroquí <b>Marwan Rahiki</b>, quien golpeó por todos lados al inglés <b>Harry Hardwick</b>, quien aguantó los golpes como un campeón, siendo imposible de noquear. Finalmente luego de haber recibido mucho daño, al finalizar el segundo asalto la esquina y los médicos de Harry notaron que al inglés se le rompió la mandibula, lo que impediría seguir peleando. Debido a esto, la pelea se dió por terminada y el ganador por TKO fue el marroquí <b>Marwan Rahiki</b>. </p>
                     <h2>Jose Miguel Delgado Derrota a Andre Fili por Decisión Dividida</h2>
                     <p>Excelente victoria para el mexicano <b>José Miguel Delgado</b>, quien especialmente durante los últimos 2 asaltos fue bastante superior a su rival, mostrándose más agresivo, conectando golpes potentísimos que hicieron mucho daño al estadounidense <b>Andre Fili</b>, y finalmente garantizándose la victoria luego de que 2/3 jueces lo vieran como ganador por 29-28. De esta forma el mexicano <b>José Miguel Delgado</b> se lleva la victoria por decisión dividida.</p>
+                    <h2>Gillian Robertson Derrota a Amanda Lemos Por Decisión Unánime</h2>
+                    <p>Victoria canadiense en la pelea coestelar de la noche, luego de que <b>Gillian Robertson</b> fuera capaz de dar vuelta la pelea después de ese mal primer asalto, siendo capaz de conectar más golpes y logrando 3 derribos, manteniendo el control en el suelo, ganándose poco a poco el combate, para que finalmente luego de los 3 asaltos los jueces la dieran como ganadora 29-28 por decisión unánime. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
