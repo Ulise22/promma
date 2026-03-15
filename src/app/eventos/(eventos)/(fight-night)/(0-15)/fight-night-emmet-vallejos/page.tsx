@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function EmmetVallejos () {
     return(
         <main>
-            <ArticleHero title='UFC Fight Night: ¡Kevin Vallejos vs Josh Emmett!' subtitle='¡Gillian Robertson Derrota a Amanda Lemos Por Decisión Unánime! ¡El español Hecher Sosa Debuta con Victoria!' image={hero} date='2026-03-14' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Fight Night: ¡Kevin Vallejos Noquea a Josh Emmet en el Primer Asalto!' subtitle='¡Gillian Robertson Derrota a Amanda Lemos Por Decisión Unánime! ¡El español Hecher Sosa Debuta con Victoria!' image={hero} date='2026-03-14' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Histórica noche de UFC para los fans de Argentina que hoy tendremos a nuestro representante de peso pluma <Link href='/peleadores/kevin-vallejos'>Kevin Vallejos</Link>, encabezando el evento de la noche, siendo el segundo argentino en ser la pelea principal, luego de <Link href='/peleadores/santiago-ponzinibbio'>Santiago Ponzinibbio</Link>, para ello deberá enfrentar al veterano estadounidense <b>Josh Emmett</b>, que está #11 en la división. </p>
@@ -55,6 +55,9 @@ export default function EmmetVallejos () {
                     <p>Excelente victoria para el mexicano <b>José Miguel Delgado</b>, quien especialmente durante los últimos 2 asaltos fue bastante superior a su rival, mostrándose más agresivo, conectando golpes potentísimos que hicieron mucho daño al estadounidense <b>Andre Fili</b>, y finalmente garantizándose la victoria luego de que 2/3 jueces lo vieran como ganador por 29-28. De esta forma el mexicano <b>José Miguel Delgado</b> se lleva la victoria por decisión dividida.</p>
                     <h2>Gillian Robertson Derrota a Amanda Lemos Por Decisión Unánime</h2>
                     <p>Victoria canadiense en la pelea coestelar de la noche, luego de que <b>Gillian Robertson</b> fuera capaz de dar vuelta la pelea después de ese mal primer asalto, siendo capaz de conectar más golpes y logrando 3 derribos, manteniendo el control en el suelo, ganándose poco a poco el combate, para que finalmente luego de los 3 asaltos los jueces la dieran como ganadora 29-28 por decisión unánime. </p>
+                    <h2>¡Kevin Vallejos Noquea a Josh Emmet en el Primer Asalto!</h2>
+                    <p>Locura en el evento estelar, con el argentino <Link href='/peleadores/kevin-vallejos'>Kevin Vallejos</Link> haciendo historia al noquear en el primer asalto al estadounidense <b>Josh Emmett</b> en la primer cartelera encabezada por él en su carrera. Todo esto luego en apenas 3 minutos donde el marplatense dominó por completo al veterano Emmett. </p>
+                    <p>De esta manera el argentino seguramente se gane un lugar en el top 10 de la división de peso pluma, y se está ganando un rápido lugar en la élite de la división, yendo sin duda rumbo a una pelea titular e ilusionando a toda una nación con tener un campeón argentino. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />

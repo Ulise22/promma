@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/eventos/fight-night-emmet-vallejos'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={emmetVSvallejos} alt='' />
-                <h2 className={styles.home__title}>UFC Fight Night: ¡Kevin Vallejos vs Josh Emmett!</h2>
+                <h2 className={styles.home__title}>UFC Fight Night: ¡Kevin Vallejos Noquea a Josh Emmet en el Primer Asalto!</h2>
                 <span>¡Gillian Robertson Derrota a Amanda Lemos Por Decisión Unánime! ¡El español Hecher Sosa Debuta con Victoria!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
