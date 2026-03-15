@@ -42,6 +42,8 @@ export default function EmmetVallejos () {
                     <p>Impresionante sumisión del estadounidense <b>Elijah Smith</b>, quien luego de derribar a su rival coreano <b>Suyoung You</b> a golpes en el segundo asalto, tuvo la rapidez suficiente para tomar por la espalda a su contrincante, para buscar un mataleón que finalmente obligaría al coreano a tapear, obteniendo la victoria por sumisión en el segundo asalto del combate. </p>
                     <h2>Vitor Petrino Derrota a Steven Asplund por Decisión Unánime</h2>
                     <p>Gran victoria y gran pelea por parte del brasileño <b>Vitor Petrino</b>, quien fue capaz de dominar por completo a su rival, tanto en la lucha, que uso bastante al comienzo de la pelea, como en el striking, que comenzó a usar más a medida que pasaba la pelea, notando que era mejor que su rival estadounidense en este aspecto. De esta forma, Vitor Petrino se lleva la victoria por decisión unánime. </p>
+                    <h2>Myktybek Orolbai Derrota a Chris Curtis por Decisión Unánime</h2>
+                    <p>Buena victoria del luchador de Kirguistán <b>Myktybek Orolbai</b>, quien derribó y controló en el suelo durante todo el combate al estadounidense <b>Chris Curtis</b>, quien contaba con <Link href='/peleadores/sean-strickland'>Sean Strickland</Link> en su esquina, pero que no encontró solución a la lucha de su rival, quien siempre era capaz de tomarle la espalda, y aunque no hubo una sumisión, el tiempo de control de Orolbai fue lo que finalmente le dió la victoria por decisión unánime.</p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
