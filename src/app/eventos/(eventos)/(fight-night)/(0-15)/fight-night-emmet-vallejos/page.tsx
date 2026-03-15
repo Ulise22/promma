@@ -51,6 +51,8 @@ export default function EmmetVallejos () {
                     <p>Muy buena victoria por parte del luchador de Moldavia, quien luego de tener en el suelo a su rival francés <b>Oumar Sy</b>, golpeándolo desde arriba, fue capaz de conectar una guillotina que lo obligaría a tapear, otorgándole la victoria por sumisión en el primer asalto de la pelea. </p>
                     <h2>Marwan Rahiki Derrota a Harry Hardwick por TKO en el Segundo Asalto</h2>
                     <p>Gran victoria del marroquí <b>Marwan Rahiki</b>, quien golpeó por todos lados al inglés <b>Harry Hardwick</b>, quien aguantó los golpes como un campeón, siendo imposible de noquear. Finalmente luego de haber recibido mucho daño, al finalizar el segundo asalto la esquina y los médicos de Harry notaron que al inglés se le rompió la mandibula, lo que impediría seguir peleando. Debido a esto, la pelea se dió por terminada y el ganador por TKO fue el marroquí <b>Marwan Rahiki</b>. </p>
+                    <h2>Jose Miguel Delgado Derrota a Andre Fili por Decisión Dividida</h2>
+                    <p>Excelente victoria para el mexicano <b>José Miguel Delgado</b>, quien especialmente durante los últimos 2 asaltos fue bastante superior a su rival, mostrándose más agresivo, conectando golpes potentísimos que hicieron mucho daño al estadounidense <b>Andre Fili</b>, y finalmente garantizándose la victoria luego de que 2/3 jueces lo vieran como ganador por 29-28. De esta forma el mexicano <b>José Miguel Delgado</b> se lleva la victoria por decisión dividida.</p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
