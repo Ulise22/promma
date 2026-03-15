@@ -49,6 +49,8 @@ export default function EmmetVallejos () {
                     <p>En un combate cerrado, donde hubo bastantes golpes ilegales que entorpecían la pelea, quien terminó saliendo victorioso es el estadounidense <b>Charles Johnson</b>, quien al final del combate fue quien conectó más golpes totales y más golpes significantes, lo que lo pusó por delante a los ojos de 2/3 jueces, quienes le dieron la victoria por decisión dividida. </p>
                     <h2>Ion Cutelaba Somete a Oumar Sy en el Primer Asalto</h2>
                     <p>Muy buena victoria por parte del luchador de Moldavia, quien luego de tener en el suelo a su rival francés <b>Oumar Sy</b>, golpeándolo desde arriba, fue capaz de conectar una guillotina que lo obligaría a tapear, otorgándole la victoria por sumisión en el primer asalto de la pelea. </p>
+                    <h2>Marwan Rahiki Derrota a Harry Hardwick por TKO en el Segundo Asalto</h2>
+                    <p>Gran victoria del marroquí <b>Marwan Rahiki</b>, quien golpeó por todos lados al inglés <b>Harry Hardwick</b>, quien aguantó los golpes como un campeón, siendo imposible de noquear. Finalmente luego de haber recibido mucho daño, al finalizar el segundo asalto la esquina y los médicos de Harry notaron que al inglés se le rompió la mandibula, lo que impediría seguir peleando. Debido a esto, la pelea se dió por terminada y el ganador por TKO fue el marroquí <b>Marwan Rahiki</b>. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
