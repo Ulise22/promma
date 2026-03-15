@@ -47,8 +47,8 @@ export default function EmmetVallejos () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Charles Johnson Derrota a Bruno Silva por Decisión Dividida</h2>
                     <p>En un combate cerrado, donde hubo bastantes golpes ilegales que entorpecían la pelea, quien terminó saliendo victorioso es el estadounidense <b>Charles Johnson</b>, quien al final del combate fue quien conectó más golpes totales y más golpes significantes, lo que lo pusó por delante a los ojos de 2/3 jueces, quienes le dieron la victoria por decisión dividida. </p>
-                    <h2></h2>
-                    <p></p>
+                    <h2>Ion Cutelaba Somete a Oumar Sy en el Primer Asalto</h2>
+                    <p>Muy buena victoria por parte del luchador de Moldavia, quien luego de tener en el suelo a su rival francés <b>Oumar Sy</b>, golpeándolo desde arriba, fue capaz de conectar una guillotina que lo obligaría a tapear, otorgándole la victoria por sumisión en el primer asalto de la pelea. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
