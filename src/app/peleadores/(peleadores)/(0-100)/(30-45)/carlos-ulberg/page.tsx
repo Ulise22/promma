@@ -23,14 +23,14 @@ export const metadata: Metadata = {
 export default function CarlosUlberg () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={14} l={1} d={0} categoria='Peso Semipesado' nombre='Carlos Ulberg' apodo='Black Jag' time='2026-04-09' />
+            <PeleadoresHero peleadoresImage={fighter} w={15} l={1} d={0} categoria='Peso Semipesado' nombre='Carlos Ulberg' apodo='Black Jag' time='2026-04-09' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>¿Quién es Carlos Ulberg?</h2>
                     <p className={styles.peleador__article__text}>Carlos Ulberg es un luchador neozelandes que compite en la división de peso semipesado de la UFC. Se ha convertido en uno de los mejores peleadores de su división, finalizando a la mayoría de sus rivales y llegando a alcanzar una racha de 9 victorias consecutivas, una de las más altas en la historia de la división. </p>
                     <p className={styles.peleador__article__text}>Su altísima racha de victorias le permitió competir por el cinturón vacante de la división el 11 de abril de 2026, en el <b>UFC 327</b> ante el excampeón <Link href='/peleadores/jiri-prochazka'>Jiri Prochazka</Link>. Como dato curioso, su apodo &quot;Black Jag&quot;, le fue dado en su pasado cuando hacía shows de stripping en eventos para mujeres en Australia y Nueva Zelanda.</p>
                     <h2 className={styles.peleador__article__title}>Carlos Ulberg Récord</h2>
-                    <p className={styles.peleador__article__text}>Carlos Ulberg posee un récord profesional en MMA de 14-1. Con 9 de sus victorias proveniendo por la vía del nocaut, con sólo 1 siendo por la vía de la sumisión y con 4 siendo por decisión. </p>
+                    <p className={styles.peleador__article__text}>Carlos Ulberg posee un récord profesional en MMA de 15-1. Con 10 de sus victorias proveniendo por la vía del nocaut, con sólo 1 siendo por la vía de la sumisión y con 4 siendo por decisión. </p>
                     <h2 className={styles.peleador__article__title}>Carlos Ulberg Historia</h2>
                     <p className={styles.peleador__article__text}>Carlos Sao Murry Ulberg nació el 17 de noviembre de 1990 Auckland, Nueva Zelanda, siendo de origen samoana por parte de su padre y maorí por parte de su madre. </p>
                     <YouTubeEmbed videoid='_OsxzsvVvkQ' />
