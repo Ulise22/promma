@@ -15,9 +15,9 @@ export const metadata: Metadata = {
     title: '¿Era Carlos Ulberg Stripper?',
     description: '¿Carlos Ulberg fue stripper? El campeón de UFC revela su pasado en ladies nights, modelaje y televisión. La historia completa de su camino al título.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcarlos_ulberg-stripper.a5701302.webp&w=828&q=65',
         title: '¿Era Carlos Ulberg Stripper?',
-        description: '',
+        description: '¿Carlos Ulberg fue stripper? El campeón de UFC revela su pasado en ladies nights, modelaje y televisión. La historia completa de su camino al título.',
         url: 'https://fullmma.org/articulos/carlos-ulberg-stripper'
     }
 }
