@@ -1,4 +1,8 @@
 /* Luchadores MMA */
+.peleadores__card_mauricioruffy {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/40-60/mauricio-ruffy/mauricio_ruffy-card.webp');
+}
+
 .peleadores__card_paulocosta {
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/40-60/paulo-costa/paulo_costa-card.webp');
 }
