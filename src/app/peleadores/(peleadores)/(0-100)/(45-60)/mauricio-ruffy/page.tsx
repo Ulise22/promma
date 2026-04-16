@@ -11,12 +11,12 @@ const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Mauricio Ruffy',
-    description: '',
+    description: 'Mauricio Ruffy es un peleador de MMA brasileño que compite en la división de peso ligero de la UFC, siendo una de las caras de los Fighting Nerds. ',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmauricio_ruffy.17ad6fb5.png&w=640&q=75',
         title: 'Mauricio Ruffy',
-        description: '',
-        url: 'https://fullmma.org/peleadores/paulo-costa'
+        description: 'Mauricio Ruffy es un peleador de MMA brasileño que compite en la división de peso ligero de la UFC, siendo una de las caras de los Fighting Nerds. ',
+        url: 'https://fullmma.org/peleadores/mauricio-ruffy'
     }
 }
 
