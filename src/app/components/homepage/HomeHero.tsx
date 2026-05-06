@@ -3,7 +3,7 @@ import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import emmetVSvallejos from '@/assets/eventos/fight-night/0-150/0-15/emmet_vallejos.webp'
-import makhachevNextMatch2026 from '@/assets/noticias/0-100/30-40/makhachev-next_fight.2026.webp'
+import chimaevGuerra from '@/assets/articulos/0-100/80-90/khamzat_chimaev-guerra.webp'
 import seanStricklandInfancia from '@/assets/articulos/0-100/80-90/sean_strickland-infancia.webp'
 
 export default function HomeHero () {
@@ -14,18 +14,18 @@ export default function HomeHero () {
                 <h2 className={styles.home__title}>UFC Fight Night: ¡Kevin Vallejos Noquea a Josh Emmet en el Primer Asalto!</h2>
                 <span>¡Gillian Robertson Derrota a Amanda Lemos Por Decisión Unánime! ¡El español Hecher Sosa Debuta con Victoria!</span>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/islam-makhachev-proxima-pelea-2026'>
-                <Image className={styles.homehero__article__img} quality={50} src={makhachevNextMatch2026} alt='' />
+            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/khamzat-chimaev-guerra'>
+                <Image className={styles.homehero__article__img} quality={50} src={chimaevGuerra} alt='' />
                 <article className={styles.homehero__article__container}>
-                    <h2 className={styles.homehero__title}>Próxima Pelea de Islam Makhachev 2026: ¿Ian Garry? ¿Ilia Topuria? ¿Michael Morales?</h2>
-                    <p>La división de peso wélter está más movida que nunca, y son muchos los candidatos a enfrentar al campeón de de UFC Islam Makhachev.</p>
+                    <h2 className={styles.homehero__title}>Khamzat Chimaev y la Guerra: De Refugiado en Suecia a Campeón de UFC</h2>
+                    <p>La dura infancia marcada por la guerra en Chechenia que forjó al lobo que hoy es campeón de la UFC.</p>
                     <div className={styles.homehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>27/11/2025</p>
+                        <p>06/05/2026</p>
                     </div>
                 </article>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/sean-strickland-infancia'>
+            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/articulos/sean-strickland-infancia'>
                 <Image className={styles.homehero__article__img} quality={50} src={seanStricklandInfancia} alt='' />
                 <article className={styles.homehero__article__container}>
                     <h2 className={styles.homehero__title}>La Traumática Infancia de Sean Strickland</h2>

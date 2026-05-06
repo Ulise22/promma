@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'Khamzat Chimaev Guerra',
     description: 'La historia real de Khamzat Chimaev y la guerra en Chechenia. Nacido en plena zona de conflicto ruso, emigró como refugiado a Suecia. Cómo su infancia dura lo convirtió en una bestia del MMA.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fkhamzat_chimaev-guerra.bc1693f5.webp&w=828&q=65',
         title: 'Khamzat Chimaev Guerra',
         description: 'La historia real de Khamzat Chimaev y la guerra en Chechenia. Nacido en plena zona de conflicto ruso, emigró como refugiado a Suecia. Cómo su infancia dura lo convirtió en una bestia del MMA.',
         url: 'https://fullmma.org/articulos/khamzat-chimaev-guerra'
