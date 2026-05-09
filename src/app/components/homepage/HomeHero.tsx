@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import emmetVSvallejos from '@/assets/eventos/fight-night/0-150/0-15/emmet_vallejos.webp'
+import ufc328 from '@/assets/eventos/ufc/0-150/0-15/ufc328.webp'
 import chimaevGuerra from '@/assets/articulos/0-100/80-90/khamzat_chimaev-guerra.webp'
 import seanStricklandInfancia from '@/assets/articulos/0-100/80-90/sean_strickland-infancia.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/eventos/fight-night-emmet-vallejos'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={emmetVSvallejos} alt='' />
-                <h2 className={styles.home__title}>UFC Fight Night: ¡Kevin Vallejos Noquea a Josh Emmet en el Primer Asalto!</h2>
-                <span>¡Gillian Robertson Derrota a Amanda Lemos Por Decisión Unánime! ¡El español Hecher Sosa Debuta con Victoria!</span>
+            <Link className={styles.homehero__bigArticle} href='/eventos/ufc328'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc328} alt='' />
+                <h2 className={styles.home__title}>UFC 328: ¡Khamzat Chimaev vs Sean Strickland! ¡Joshua Van vs Tatsuro Taira!</h2>
+                <span>¡Waldo Cortes Acosta vs Alexander Volkov! ¡Joel Álvarez vs Yaroslav Amosov!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/khamzat-chimaev-guerra'>
                 <Image className={styles.homehero__article__img} quality={50} src={chimaevGuerra} alt='' />
