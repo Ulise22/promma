@@ -38,9 +38,9 @@ export default function UFC328 () {
                     <p>Gran victoria para el estadounidense <b>Pat Sabatini</b>, quien mediante un dominio total de la lucha fue capaz de ganar sumando puntos ante el francés <b>William Gomis</b>, quien aunque resistió bastante sin ser derribado, no fue capaz de hacerle daño alguno a su rival durante gran parte del combate. De esta manera, el estadounidense se lleva la victoria por decisión unánime. </p>
                     <h2>Roman Kopylov Derrota a Marco Tulio por Decisión Unánime</h2>
                     <p>Gran victoria del ruso <b>Roman Kopylov</b>, quien fue capaz de reponerse de una racha de 2 derrotas consecutivas, y de un primer asalto muy complicado donde salió claramente perdiendo, recibiendo un corte en el ojo incluído, que fue muy profundo. Pero en el segundo asalto fue capaz de reponerse, conectando un golpe que tumbaría a su rival, y que estaría a nada de noquearlo. Aunque no fue capaz de finalizarlo en el segundo asalto, en el tercero estaría nuevamente cerca de lograrlo, conectando golpes letales hacia el brasileño Tulio, quien sufrió demasiado los embates del ruso. De esta manera, por decisión unánime el ganador de esta pelea fue Roman Kopylov. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
+                    <h2>Jim Miller Somete a Jared Gordon en el Primer Asalto</h2>
+                    <p>Espectacular victoria del veterano estadounidense <Link href='/articulos/jim-miller-historia'>Jim Miller</Link>, quien combatiendo en casa fue capaz de encontrar una guillotina, que conectó luego de que su rival le atrapara una patada, cayendo al suelo y finalmente sometiendo a su compatriota <b>Jared Gordon</b>, quien se vió obligado a tapear. De esta forma, Jim Miller extiende su récord como el peleador con la mayor cantidad de victorias en la historia de la UFC, con 28. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
