@@ -23,14 +23,14 @@ export const metadata: Metadata = {
 export default function JoshuaVan () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={16} l={2} d={0} categoria='Peso Mosca' nombre='Joshua Van' apodo={null} time='2026-02-10' />
+            <PeleadoresHero peleadoresImage={fighter} w={17} l={2} d={0} categoria='Peso Mosca' nombre='Joshua Van' apodo={null} time='2026-02-10' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Joshua Van MMA</h2>
                     <p className={styles.peleador__article__text}>Joshua Van es un peleador de Myanmar bastante joven de la división de peso mosca en diciembre de 2025, donde supo ser campeón luego de la victoria que consiguió ante el histórico <Link href='/peleadores/alexandre-pantoja'>Alexandre Pantoja</Link> por TKO, luego de que este último se lesionara accidentadamente su brazo, incapaz de seguir peleando. </p>
                     <p className={styles.peleador__article__text}>A pesar de pelear en una de las divisiones menos mediáticas de la compañía, supo destacar en la UFC como uno de los peleadores más prometedores (aunque ya es una realidad), al que hay que prestar atención, ganándose de a poco el corazón del público con su constante actividad dentro del octágono y con su estilo de pelea lindo de ver, priorizando el striking ante todo. </p>
                     <h2 className={styles.peleador__article__title}>Joshua Van Récord</h2>
-                    <p className={styles.peleador__article__text}>Joshua Van posee un récord profesional en MMA de 16-2, con 8 de sus victorias proviniendo por la vía del nocaut, con 2 siendo por sumisión y con 6 siendo por decisión. Mientras que de sus 2 derrotas, 1 fue por la vía del nocaut y sólo 1 por la vía de la sumisión. </p>
+                    <p className={styles.peleador__article__text}>Joshua Van posee un récord profesional en MMA de 17-2, con 9 de sus victorias proviniendo por la vía del nocaut, con 2 siendo por sumisión y con 6 siendo por decisión. Mientras que de sus 2 derrotas, 1 fue por la vía del nocaut y sólo 1 por la vía de la sumisión. </p>
                     <h2 className={styles.peleador__article__title}>Joshua Van Historia</h2>
                     <p className={styles.peleador__article__text}>Joshua Van Bawi Thawn nació el 10 de octubre de 2011 en Hakha, en el Estado de Chin, en Myanmar (o Birmania). Creció en un entorno poco amigable, marcado por los conflictos políticos y militares que atravesaba su país natal. Formando parte de una familia de 5 hermanos, a los 10 años junto a toda su familia se mudaron a Malasia, buscando una mayor seguridad y mejores oportunidades de las que tenían en Myanmar.</p>
                     <YouTubeEmbed videoid='gfCqmoyj_CA' />

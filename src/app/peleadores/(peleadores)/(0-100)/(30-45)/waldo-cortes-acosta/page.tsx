@@ -23,13 +23,13 @@ export const metadata: Metadata = {
 export default function WaldoCortesAcosta () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={17} l={2} d={0} categoria='Peso Pesado' nombre='Waldo Cortes Acosta' apodo={null} time='2026-02-16' />
+            <PeleadoresHero peleadoresImage={fighter} w={17} l={3} d={0} categoria='Peso Pesado' nombre='Waldo Cortes Acosta' apodo={null} time='2026-02-16' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Waldo Cortes Acosta MMA</h2>
                     <p className={styles.peleador__article__text}>Waldo Cortés Acosta es un peleador dominicano de peso pesado en la UFC. Ha tenido un ascenso meteórico en la compañía, siendo de los peleadores latinos más destacados, y convirtiéndose en el luchador más activo de toda la división, compitiendo varias veces por año, ganando la mayoría de sus combates por nocaut, llegando a las 10 victorias en la UFC en unos pocos años.</p>
                     <h2 className={styles.peleador__article__title}>Waldo Cortes Acosta Récord</h2>
-                    <p className={styles.peleador__article__text}>Waldo Cortés Acosta posee un récord profesional en las MMA de 17-2. Con 9 de sus victorias siendo por la vía del nocaut, con sólo 1 siendo por sumisión y con 7 victorias siendo por la vía de la decisión. Mientras que sus 2 derrotas fueron por decisión. </p>
+                    <p className={styles.peleador__article__text}>Waldo Cortés Acosta posee un récord profesional en las MMA de 17-3. Con 9 de sus victorias siendo por la vía del nocaut, con sólo 1 siendo por sumisión y con 7 victorias siendo por la vía de la decisión. Mientras que sus 3 derrotas fueron por decisión. </p>
                     <h2 className={styles.peleador__article__title}>Waldo Cortes Acosta Historia</h2>
                     <p className={styles.peleador__article__text}>Waldo Cortés-Acosta nació el 3 de octubre de 1991 en la ciudad de Fundación, ubicada en la provincia de Barahona, República Dominicana. Al igual que la mayoría de las personas nacidas en aquella zona, Waldo creció con el sueño de ser beisbolista profesional, pasando gran parte de su infancia practicando este deporte, el cual es icónico en su país. </p>
                     <p className={styles.peleador__article__text}>Emigraría a los Estados Unidos, persiguiendo su sueño de ser beisbolista, al firmar un contrato como pitcher en una liga menor profesional en el año 2010. Pasó un tiempo compitiendo en ligas menores hasta que una lesión en el condo truncó sus aspiraciones a llegar a las grandes ligas, dejándolo en una situación complicada, dado que pese a vivir en los Estados Unidos, no dominaba muy bien el inglés, y debía buscar un nuevo camino. </p>
