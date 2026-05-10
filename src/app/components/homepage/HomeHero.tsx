@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/eventos/ufc328'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc328} alt='' />
-                <h2 className={styles.home__title}>UFC 328: ¡Khamzat Chimaev vs Sean Strickland! ¡Joshua Van Noquea a Tatsuro Taira en el Último Asalto en La Pelea de la Noche!</h2>
+                <h2 className={styles.home__title}>UFC 328: ¡Sean Strickland Derrota a Khamzat Chimaev y es Nuevo Campeón! ¡Joshua Van Noquea a Tatsuro Taira en el Último Asalto en La Pelea de la Noche!</h2>
                 <span>¡Alexander Volkov Derrota a Waldo Cortes Acosta por Decisión Unánime! ¡Yaroslav Amosov Somete a Joel Álvarez en el Segundo Asalto!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/khamzat-chimaev-guerra'>
