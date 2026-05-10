@@ -45,6 +45,8 @@ export default function UFC328 () {
                     <p>En una entretenida pelea quien termina saliendo victorioso es el estadounidense <b>Grant Dawson</b>, quien ganó claramente el primer asalto, estuvo cerca de perder en el segundo, recibiendo muchos golpes y cayendo al suelo con una mano muy poderosa de <b>Rebecki</b>, que casi lo noquea, pero que en el tercer asalto finalmente pudo mostrar su fuerte, derribando al polaco, tomándole la espalda y logrando conectar un mataleón luego de 4 minutos de intentarlo para llevarse la victoria por sumisión en el tercer asalto. </p>
                     <h2>Yaroslav Amosov Somete a Joel Álvarez en el Segundo Asalto</h2>
                     <p>Gran victoria del ucraniano <b>Yaroslav Amosov</b>, quien luego de dominar durante el primer asalto a ras de lona, y sufrir un poco con golpes contundentes, fue capaz de conectar un derribo y conectar un kata-gatame inmediatamente para someter al luchador español <Link href='/peleadores/joel-alvarez'>Joel Álvarez</Link>, quien no encontró respuesta para la lucha y Bjj de su rival. </p>
+                    <h2>Ateba Gautier Noquea a Ozzy Diaz en el Segundo Asalto</h2>
+                    <p>Brutal manera de terminar la cartelera preliminar, con el camerunés <b>Ateba Gautier</b> haciendo lo que todos esperaban de él, dominando por completo en el striking durante el primer asalto, y logrando conectar una de esas manos poderosas que tiene para noquear a su rival <b>Ozzy Diaz</b>. De esta manera Ateba Gautier mantiene su invicto en la UFC y logra una nueva victoria por nocaut. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
