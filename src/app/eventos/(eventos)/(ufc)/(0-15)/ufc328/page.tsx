@@ -41,6 +41,8 @@ export default function UFC328 () {
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2>Jim Miller Somete a Jared Gordon en el Primer Asalto</h2>
                     <p>Espectacular victoria del veterano estadounidense <Link href='/articulos/jim-miller-historia'>Jim Miller</Link>, quien combatiendo en casa fue capaz de encontrar una guillotina, que conectó luego de que su rival le atrapara una patada, cayendo al suelo y finalmente sometiendo a su compatriota <b>Jared Gordon</b>, quien se vió obligado a tapear. De esta forma, Jim Miller extiende su récord como el peleador con la mayor cantidad de victorias en la historia de la UFC, con 28. </p>
+                    <h2>Grant Dawson Somete a Mateusz Rebecki en el Tercer Asalto</h2>
+                    <p>En una entretenida pelea quien termina saliendo victorioso es el estadounidense <b>Grant Dawson</b>, quien ganó claramente el primer asalto, estuvo cerca de perder en el segundo, recibiendo muchos golpes y cayendo al suelo con una mano muy poderosa de <b>Rebecki</b>, que casi lo noquea, pero que en el tercer asalto finalmente pudo mostrar su fuerte, derribando al polaco, tomándole la espalda y logrando conectar un mataleón luego de 4 minutos de intentarlo para llevarse la victoria por sumisión en el tercer asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
