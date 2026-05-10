@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function UFC328 () {
     return(
         <main>
-            <ArticleHero title="UFC 328: ¡Khamzat Chimaev vs Sean Strickland! ¡Joshua Van vs Tatsuro Taira!" subtitle='¡Waldo Cortes Acosta vs Alexander Volkov! ¡Joel Álvarez vs Yaroslav Amosov!' image={hero} date='2026-05-09' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 328: ¡Khamzat Chimaev vs Sean Strickland! ¡Joshua Van vs Tatsuro Taira!" subtitle='¡Waldo Cortes Acosta vs Alexander Volkov! ¡Yaroslav Amosov Somete a Joel Álvarez en el Segundo Asalto!' image={hero} date='2026-05-09' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tremenda cartelera tenemos esta noche, una de las mejores del año que nos trae la UFC, en New Jersey, encabezada por el campeón de peso mediano <Link href='/peleadores/khamzat-chimaev'>Khamzat Chimaev</Link>, quien viene de ganar el cinturón al sacárselo a <Link href='/peleadores/du-plessis'>Dricus Du Plessis</Link>, quien estará enfrentando al excampeón estadounidense <Link href='/peleadores/sean-strickland'>Sean Strickland</Link>, quien viene de una gran victoria por nocaut ante <b>Anthony Hernandez</b> en el <Link href='/eventos/fight-night-strickland-hernandez'>UFC Fight Night: Strickland vs Hernandez</Link>. ADemás en la pelea coestelar tenemos otra pelea titular, con el campeón birmano <Link href='/peleadores/joshua-van'>Joshua Van</Link> haciendo su primer defensa luego de sacarle el cinturón a <Link href='/peleadores/alexandre-pantoja'>Alexandre Pantoja</Link>, ante el japonés <b>Tatsuro Taira</b>. </p>
@@ -43,6 +43,8 @@ export default function UFC328 () {
                     <p>Espectacular victoria del veterano estadounidense <Link href='/articulos/jim-miller-historia'>Jim Miller</Link>, quien combatiendo en casa fue capaz de encontrar una guillotina, que conectó luego de que su rival le atrapara una patada, cayendo al suelo y finalmente sometiendo a su compatriota <b>Jared Gordon</b>, quien se vió obligado a tapear. De esta forma, Jim Miller extiende su récord como el peleador con la mayor cantidad de victorias en la historia de la UFC, con 28. </p>
                     <h2>Grant Dawson Somete a Mateusz Rebecki en el Tercer Asalto</h2>
                     <p>En una entretenida pelea quien termina saliendo victorioso es el estadounidense <b>Grant Dawson</b>, quien ganó claramente el primer asalto, estuvo cerca de perder en el segundo, recibiendo muchos golpes y cayendo al suelo con una mano muy poderosa de <b>Rebecki</b>, que casi lo noquea, pero que en el tercer asalto finalmente pudo mostrar su fuerte, derribando al polaco, tomándole la espalda y logrando conectar un mataleón luego de 4 minutos de intentarlo para llevarse la victoria por sumisión en el tercer asalto. </p>
+                    <h2>Yaroslav Amosov Somete a Joel Álvarez en el Segundo Asalto</h2>
+                    <p>Gran victoria del ucraniano <b>Yaroslav Amosov</b>, quien luego de dominar durante el primer asalto a ras de lona, y sufrir un poco con golpes contundentes, fue capaz de conectar un derribo y conectar un kata-gatame inmediatamente para someter al luchador español <Link href='/peleadores/joel-alvarez'>Joel Álvarez</Link>, quien no encontró respuesta para la lucha y Bjj de su rival. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
