@@ -50,6 +50,8 @@ export default function UFC328 () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>King Green Somete a Jeremy Stephens en el Primer Asalto</h2>
                     <p>Espectacular victoria del estadounidense <b>King Green</b>, en este choque de veteranos, siendo capaz de derribar a su rival luego de una avalancha de golpes, para finalmente conectar una llave en el cuello de su rival que lo obligaría a tapear. De esta manera King Green derrota a <b>Jeremy Stephens</b> por sumisión en el primer asalto de la pelea. </p>
+                    <h2>Sean Brady Derrota y Domina Completamente a Joaquin Buckley</h2>
+                    <p>En una pelea que tuvo un solo dueño, quien terminó dominando completamente a su rival fue <b>Sean Brady</b>, quien derribó a su rival las veces que quiso y desde el suelo castigó a más no poder a su compatriota <Link href='/peleadores/joaquin-buckley'>Joaquin</Link>, a quien incluso le ganó 2 asaltos por 30-28, mostrando la completa paliza que le pegó. De esta manera, Sean Brady se lleva la victoria por decisión unánime de forma contundente. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
