@@ -47,9 +47,9 @@ export default function UFC328 () {
                     <p>Gran victoria del ucraniano <b>Yaroslav Amosov</b>, quien luego de dominar durante el primer asalto a ras de lona, y sufrir un poco con golpes contundentes, fue capaz de conectar un derribo y conectar un kata-gatame inmediatamente para someter al luchador español <Link href='/peleadores/joel-alvarez'>Joel Álvarez</Link>, quien no encontró respuesta para la lucha y Bjj de su rival. </p>
                     <h2>Ateba Gautier Noquea a Ozzy Diaz en el Segundo Asalto</h2>
                     <p>Brutal manera de terminar la cartelera preliminar, con el camerunés <b>Ateba Gautier</b> haciendo lo que todos esperaban de él, dominando por completo en el striking durante el primer asalto, y logrando conectar una de esas manos poderosas que tiene para noquear a su rival <b>Ozzy Diaz</b>. De esta manera Ateba Gautier mantiene su invicto en la UFC y logra una nueva victoria por nocaut. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>King Green Somete a Jeremy Stephens en el Primer Asalto</h2>
+                    <p>Espectacular victoria del estadounidense <b>King Green</b>, en este choque de veteranos, siendo capaz de derribar a su rival luego de una avalancha de golpes, para finalmente conectar una llave en el cuello de su rival que lo obligaría a tapear. De esta manera King Green derrota a <b>Jeremy Stephens</b> por sumisión en el primer asalto de la pelea. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
