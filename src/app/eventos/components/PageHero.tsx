@@ -2,7 +2,7 @@ import Link from 'next/link'
 import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc326 from '@/assets/eventos/ufc/0-150/0-15/ufc326.webp'
+import ufc328 from '@/assets/eventos/ufc/0-150/0-15/ufc328.webp'
 import emmetVSvallejos from '@/assets/eventos/fight-night/0-150/0-15/emmet_vallejos.webp'
 import MorenoKavanagh from '@/assets/eventos/fight-night/0-150/0-15/moreno-vs-kavanagh.webp'
 
@@ -10,9 +10,9 @@ export default function PageHero () {
     return(
         <section className={styles.pagehero}>
             <Link className={styles.pagehero__bigArticle} href='/eventos/ufc326'>
-                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc326} alt='' />
-                <h2 className={styles.page__title}>UFC 326: ¡Charles Oliveira Derrota a Max Holloway y es el Nuevo BMF!</h2>
-                <p>¡Caio Borralho Derrota a Reiner De Ridder por Decisión Unánime! ¡Raúl Rosas Jr. Derrota a Rob Font por Decisión Unánime y Se Mete en los Rankings!</p>
+                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc328} alt='' />
+                <h2 className={styles.page__title}>UFC 328: ¡Sean Strickland Sorprende al Mundo y Derrota a Khamzat Chimaev y es Nuevo Campeón! ¡Joshua Van Noquea a Tatsuro Taira en el Último Asalto en La Pelea de la Noche!</h2>
+                <p>¡Alexander Volkov Derrota a Waldo Cortes Acosta por Decisión Unánime! ¡Yaroslav Amosov Somete a Joel Álvarez en el Segundo Asalto!</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-emmet-vallejos'>
                 <Image className={styles.pagehero__article__img} quality={50} src={emmetVSvallejos} alt='' />
