@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc328 from '@/assets/eventos/ufc/0-150/0-15/ufc328.webp'
+import ufcWhiteHouse from '@/assets/noticias/0-100/40-50/ufc_casa_blanca.webp'
 import chimaevGuerra from '@/assets/articulos/0-100/80-90/khamzat_chimaev-guerra.webp'
 import seanStricklandInfancia from '@/assets/articulos/0-100/80-90/sean_strickland-infancia.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/eventos/ufc328'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc328} alt='' />
-                <h2 className={styles.home__title}>UFC 328: ¡Sean Strickland Sorprende al Mundo y Derrota a Khamzat Chimaev y es Nuevo Campeón! ¡Joshua Van Noquea a Tatsuro Taira en el Último Asalto en La Pelea de la Noche!</h2>
-                <span>¡Alexander Volkov Derrota a Waldo Cortes Acosta por Decisión Unánime! ¡Yaroslav Amosov Somete a Joel Álvarez en el Segundo Asalto!</span>
+            <Link className={styles.homehero__bigArticle} href='/noticias/ufc-casa-blanca'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufcWhiteHouse} alt='' />
+                <h2 className={styles.home__title}>UFC Casa Blanca: Todo lo que Tienes Que Saber Sobre el UFC Freedom 250</h2>
+                <span>Todos los detalles sobre el evento de UFC organizado en la Casa Blanca por el 250 aniversario del Día de la Independencia en Estados Unidos</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/khamzat-chimaev-guerra'>
                 <Image className={styles.homehero__article__img} quality={50} src={chimaevGuerra} alt='' />

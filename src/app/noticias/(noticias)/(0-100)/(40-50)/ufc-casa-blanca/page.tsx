@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: 'UFC Casa Blanca',
     description: "Todos los detalles sobre el evento de UFC organizado en la Casa Blanca por el 250 aniversario del Día de la Independencia en Estados Unidos",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc_casa_blanca.0d011690.webp&w=828&q=65',
         title: 'UFC Casa Blanca',
         description: "Todos los detalles sobre el evento de UFC organizado en la Casa Blanca por el 250 aniversario del Día de la Independencia en Estados Unidos",
         url: 'https://fullmma.org/noticias/ufc-casa-blanca',
@@ -43,6 +43,7 @@ export default function UFCWhiteHouse () {
                     <h2>¿Cómo Será el UFC en la Casa Blanca?</h2>
                     <p>Será un evento histórico, siendo el primer evento de artes marciales mixtas en tener lugar en los terrenos presidenciales de los Estados Unidos de América. Se hará en conmemoración de los 250 años de la Declaración de la Independencia de EE.UU. organizándose el 14 de junio en lugar del 4 de julio, por temas logísticos.</p>
                     <p>La fecha del 14 de junio fue elegida además por coincidir con el cumpleaños 80 del presidente de los Estados Unidos Donald Trump, quien estará presente en el evento durante la cartelera, además, de ser una fecha que también coincide con el Día de la Bandera para EE.UU. Esta fecha y evento cuenta además con la curiosidad de que no se hará un día sábado como nos tiene acostumbrados la UFC, sino que será un día domingo. </p>
+                    <YouTubeEmbed videoid='iNJIs5bXoAE' />
                     <h3>Organización y Logística: </h3>
                     <ul>
                         <li><b>Lugar Principal: </b> El octágono donde pelearán los luchadores estará ubicado en el South Lawn (el jardín sur de la Casa Blanca), donde se instalará un octágono personalizado para este evento específico.</li>
@@ -56,6 +57,7 @@ export default function UFCWhiteHouse () {
                     <p>A lo largo de todo el continente de América, se podrá ver a través de la transmisión en vivo de Paramount+. Además algunas peleas preliminares podrán verse de manera gratuita a través de CBS. </p>
                     <h2>Entrada de los Peleadores en el UFC Freedom 250</h2>
                     <p>Los peleadores de la pelea estelar y coestelar ya tuvieron una reunión en el Salón Oval de la Casa Blanca con el presidente Donald Trump para ir promocionando la pelea, allí mostraron un cinturón personalizado de UFC con la bandera de Estados Unidos, que pareciera será entregado aquella noche. </p>
+                    <YouTubeEmbed videoid='Y9Y4lfImrbg' />
                     <p>Además, el propio Dana White ha mencionado que existe la posibilidad de que en la entrada de los peleadores, inicien la caminata al octágono desde el Despacho Oval, o desde los interiores de la Casa Blanca hacia el jardín donde se hará la pelea. </p>
                     <h2>Conclusión</h2>
                     <p>En resumen, el domingo 14 de junio seremos testigos de un evento histórico, tanto deportiva como políticamente. Será de esos eventos de la UFC que sólo se hacen una vez en la vida, como lo fue en su momento el evento en <b>La Esfera</b>, y debido a la magnitud del evento los ojos del mundo estarán puestos en este deporte que tanto nos gusta. </p>
