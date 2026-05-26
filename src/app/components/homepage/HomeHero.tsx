@@ -3,7 +3,7 @@ import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import ufcWhiteHouse from '@/assets/noticias/0-100/40-50/ufc_casa_blanca.webp'
-import chimaevGuerra from '@/assets/articulos/0-100/80-90/khamzat_chimaev-guerra.webp'
+import topuriaPereira from '@/assets/noticias/0-100/40-50/topuria_and_pereira.webp'
 import seanStricklandInfancia from '@/assets/articulos/0-100/80-90/sean_strickland-infancia.webp'
 
 export default function HomeHero () {
@@ -14,14 +14,14 @@ export default function HomeHero () {
                 <h2 className={styles.home__title}>UFC Casa Blanca: Todo lo que Tienes Que Saber Sobre el UFC Freedom 250</h2>
                 <span>Todos los detalles sobre el evento de UFC organizado en la Casa Blanca por el 250 aniversario del Día de la Independencia en Estados Unidos</span>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/khamzat-chimaev-guerra'>
-                <Image className={styles.homehero__article__img} quality={50} src={chimaevGuerra} alt='' />
+            <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/ilia-topuria-y-alex-pereira'>
+                <Image className={styles.homehero__article__img} quality={50} src={topuriaPereira} alt='' />
                 <article className={styles.homehero__article__container}>
-                    <h2 className={styles.homehero__title}>Khamzat Chimaev y la Guerra: De Refugiado en Suecia a Campeón de UFC</h2>
-                    <p>La dura infancia marcada por la guerra en Chechenia que forjó al lobo que hoy es campeón de la UFC.</p>
+                    <h2 className={styles.homehero__title}>Ilia Topuria y Alex Pereira: La Amistad Menos Pensada</h2>
+                    <p>Como Ilia Topuria se volvió amigo de Alex Pereira luego de la defensa ante Josh Hokit</p>
                     <div className={styles.homehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>06/05/2026</p>
+                        <p>26/05/2026</p>
                     </div>
                 </article>
             </Link>

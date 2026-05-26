@@ -14,11 +14,11 @@ const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
 
 export const metadata: Metadata = {
     title: 'Ilia Topuria y Alex Pereira',
-    description: "",
+    description: "Ilia Topuria y Alex Pereira: La amistad menos pensada. Como inició la amistad entre el campeón español y el campeón brasileño luego del incidente con Josh Hokit en la rueda de prensa del UFC Casa Blanca.",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftopuria_and_pereira.57e6e6c4.webp&w=828&q=65',
         title: 'Ilia Topuria y Alex Pereira',
-        description: "",
+        description: "Ilia Topuria y Alex Pereira: La amistad menos pensada. Como inició la amistad entre el campeón español y el campeón brasileño luego del incidente con Josh Hokit en la rueda de prensa del UFC Casa Blanca.",
         url: 'https://fullmma.org/noticias/ilia-topuria-y-alex-pereira',
     }
 }
