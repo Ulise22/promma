@@ -7,10 +7,10 @@ import ArticlePreview from '../articulos/components/ArticlePreview';
 import topuriaPereira from '@/assets/noticias/0-100/40-50/topuria_and_pereira.webp'
 import ufcWhiteHouse from '@/assets/noticias/0-100/40-50/ufc_casa_blanca.webp'
 import iliaWife from '@/assets/noticias/0-100/40-50/ilia_topuria-esposa.webp'
+import gaethjeFueCampeon from '@/assets/noticias/0-100/40-50/gaethje-fue-campeon.webp'
 import gaethjeRetiro from '@/assets/noticias/0-100/30-40/gaethje-retiro.webp'
 import FOTY2025 from '@/assets/noticias/0-100/30-40/merab_dvalishvili_foty2025.webp'
 import makhachevNextMatch2026 from '@/assets/noticias/0-100/30-40/makhachev-next_fight.2026.webp'
-import iliaNextMatch2026 from '@/assets/noticias/0-100/30-40/ilia-next_fight-2026.webp'
 /* 0 - 10 */
 import iliaPeleador2024 from '@/assets/noticias/0-100/0-10/ilia_peleador_2024.jpg'
 import espUFC2025 from '@/assets/noticias/0-100/0-10/peleadores_espanoles_ufc.jpg'
@@ -50,6 +50,7 @@ import viniciusOliveira from '@/assets/noticias/0-100/30-40/vinicius_oliveira.jp
 import terranceMcKinney from '@/assets/noticias/0-100/30-40/terrance_mckinney.jpg'
 import DWT3 from '@/assets/noticias/0-100/30-40/dwt3.jpg'
 import theSmashingMachine from '@/assets/noticias/0-100/30-40/the_smashing_machine.webp'
+import iliaNextMatch2026 from '@/assets/noticias/0-100/30-40/ilia-next_fight-2026.webp'
 
 
 export default function NoticiasPage () {
@@ -85,13 +86,14 @@ export default function NoticiasPage () {
                 </Link>
             </article>
             <article className={styles.noticiasHero__container}>
+                <ArticlePreview img={gaethjeFueCampeon} url='/noticias/justin-gaethje-fue-campeon-de-ufc' title='Justin Gaethje fue campeón de UFC' author={null} text='La historia de los títulos interino de Justin Gaethje y su intento por ser campeón indiscutido de la UFC ¿La tercera es la vencida?' date='29/05/2026' />
                 <ArticlePreview img={gaethjeRetiro} url='/noticias/justin-gaethje-retiro' title='UFC 324: ¿El Retiro de Justin Gaethje?' author={null} text='El entrenador de Gaethje ha dejado claro que en caso de perder se nos retira una leyenda...' date='20/01/2026' />
                 <ArticlePreview img={FOTY2025} url='/noticias/merab-dvalishvili-peleador-del-2025' title='Merab Dvalishvili: ¡El Peleador del Año de FULLMMA 2025!' author={null} text='Este año elegimos desde FULLMMA a Merab Dvalishvili como el Peleador del Año 2025 de la UFC. ' date='23/12/2025' />
                 <ArticlePreview img={makhachevNextMatch2026} url='/noticias/islam-makhachev-proxima-pelea-2026' title='Próxima Pelea de Islam Makhachev 2026: ¿Ian Garry? ¿Ilia Topuria? ¿Michael Morales?' author={null} text='La división de peso wélter está más movida que nunca, y son muchos los candidatos a enfrentar al campeón de de UFC Islam Makhachev.' date='27/11/2025' />
-                <ArticlePreview img={iliaNextMatch2026} url='/noticias/ilia-topuria-proxima-pelea-2026' title='Ilia Topuria: La Próxima Pelea de 2026' author={null} text='Conoce a los posibles rivales de Ilia Topuria para su próxima pelea en 2026.' date='26/11/2025' />
             </article>
             <h2 className={styles.noticiasPage__subtitle}>Todas Las Noticias</h2>
             <article className={styles.noticias}>
+                <ArticlePreview img={iliaNextMatch2026} url='/noticias/ilia-topuria-proxima-pelea-2026' title='Ilia Topuria: La Próxima Pelea de 2026' author={null} text='Conoce a los posibles rivales de Ilia Topuria para su próxima pelea en 2026.' date='26/11/2025' />
                 <ArticlePreview img={theSmashingMachine} url='/noticias/the-smashing-machine' title='The Smashing Machine: Todo lo que Sabemos Sobre la Película de Mark Kerr Protagonizada por La Roca' author={null} text='Todo lo que hay que saber sobre la próxima película Dwayne Johnson, The Smashing Machine, basada en la vida del peleador de UFC Mark Kerr' date='01/09/2025' />
                 <ArticlePreview img={DWT3} url='/noticias/dogfight-wild-tournament-3' title='Dogfight Wild Torunament 3: ¡Battle Royal 10 Peleadores Todos Contra Todos!' author={null} text='Vuelve el evento más loco del mundo, Dogfight Wild Tournament, en su tercera edición organizaodo por Jordi Wild. Con un 2vs2, pelea femenina sin reglas, pelea en un coche y una pelea medieval.' date='31/01/2025' />
                 <ArticlePreview img={modeloUFC} url='/noticias/modelo-de-ufc' title='Islam Dulatov: El Modelo de UFC Que Debuta en el UFC 318' author={null} text='Conoce al alemán Islam Dulatov, que renunció a su exitosa carrera de modelo de Gucci y Hugo Boss para convertirse en peleador de MMA y debutar en la UFC.' date='17/07/2025' />
