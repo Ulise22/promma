@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: 'Justin Gaethje fue campeón de UFC',
     description: "Justin Gaethje fue campeón del título interino de la UFC en 2 ocasiones, y fue campeón del BMF en una ocasión, pero ¿fue campeón indiscutido de la UFC?",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgaethje-fue-campeon.7e2fc75a.webp&w=828&q=65',
         title: 'Justin Gaethje fue campeón de UFC',
         description: "Justin Gaethje fue campeón del título interino de la UFC en 2 ocasiones, y fue campeón del BMF en una ocasión, pero ¿fue campeón indiscutido de la UFC?",
         url: 'https://fullmma.org/noticias/justin-gaethje-fue-campeon-de-ufc',
