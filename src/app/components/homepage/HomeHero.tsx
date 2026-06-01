@@ -4,7 +4,7 @@ import Image from 'next/image'
 /* IMAGES */
 import ufcWhiteHouse from '@/assets/noticias/0-100/40-50/ufc_casa_blanca.webp'
 import topuriaPereira from '@/assets/noticias/0-100/40-50/topuria_and_pereira.webp'
-import seanStricklandInfancia from '@/assets/articulos/0-100/80-90/sean_strickland-infancia.webp'
+import alexPereiraTripleCampeon from '@/assets/noticias/0-100/40-50/alex_pereira-triple_campeon.webp'
 
 export default function HomeHero () {
     return(
@@ -25,14 +25,14 @@ export default function HomeHero () {
                     </div>
                 </article>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/articulos/sean-strickland-infancia'>
-                <Image className={styles.homehero__article__img} quality={50} src={seanStricklandInfancia} alt='' />
+            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/alex-pereira-triple-campeon'>
+                <Image className={styles.homehero__article__img} quality={50} src={alexPereiraTripleCampeon} alt='' />
                 <article className={styles.homehero__article__container}>
-                    <h2 className={styles.homehero__title}>La Traumática Infancia de Sean Strickland</h2>
-                    <p>Como fue la durísima infancia del excampeón de UFC Sean Strickland, marcada por la violencia, el odio y el miedo hacia un padre abusivo.</p>
+                    <h2 className={styles.homehero__title}>¿Será Alex Pereira el Primer Triple Campeón de la UFC?</h2>
+                    <p>El histórico hito que podría alcanzar Alex Pereira de ganarle a Ciryl Gane: Convertirse en el primer triple campeón de la UFC.</p>
                     <div className={styles.homehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>12/02/2026</p>
+                        <p>01/06/2026</p>
                     </div>
                 </article>
             </Link>

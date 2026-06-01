@@ -5,9 +5,9 @@ import ArticlePreview from './articulos/components/ArticlePreview'
 import Noticias from './components/homepage/noticias/Noticias'
 import ArticulosContainer from './components/homepage/ArticulosContainer'
 /*Articles PREVIEW */
+import gaethjeFueCampeon from '@/assets/noticias/0-100/40-50/gaethje-fue-campeon.webp'
 import pimblettOffCamp from '@/assets/articulos/0-100/80-90/pimblett-fuera-de-campamento.webp'
 import saintDenisMilitar from '@/assets/articulos/0-100/80-90/saint_denis-militar.webp'
-import bestUFC2025 from '@/assets/eventos/articulos/0-10/mejores_eventos_ufc-2025.webp'
 import carlosUlbergStripper from '@/assets/articulos/0-100/80-90/carlos_ulberg-stripper.webp'
 import Image from 'next/image'
 import plus from '@/assets/plus.png'
@@ -18,10 +18,10 @@ export default function Home () {
     <main className={styles.home}>
       <HomeHero />
       <section className={styles.home__articlesHero}>
+        <ArticlePreview img={gaethjeFueCampeon} url='/noticias/justin-gaethje-fue-campeon-de-ufc' title='Justin Gaethje fue campeón de UFC' author={null} text='La historia de los títulos interino de Justin Gaethje y su intento por ser campeón indiscutido de la UFC ¿La tercera es la vencida?' date='29/05/2026' />
         <ArticlePreview img={carlosUlbergStripper} url='/articulos/carlos-ulberg-stripper' title='¿Era Carlos Ulberg Stripper?' author={null} text='Carlos Ulberg: De &quot;Ladies Night&quot; a campeón de UFC y el rumor de su pasado como stripper' date='19/01/2026' />
         <ArticlePreview img={saintDenisMilitar} url='/articulos/benoit-saint-denis-militar' title='El Pasado Militar de Benoit Saint Denis' author={null} text='Cómo Benoit Saint Denis pasó de ser un militar de las fuerzas especiales francesas a uno de los peleadores más emocionantes de la UFC. ' date='27/01/2026' />
         <ArticlePreview img={pimblettOffCamp} url='/articulos/paddy-pimblett-fuera-de-campamento' title='Paddy Pimblett Fuera de Campamento: ¿Por Qué Se Ve Tan Gordo?' author={null} text='Porque Paddy Pimblett engorda tanto cuando no está peleando. El antes y después de Paddy The Baddy en una pelea.' date='19/01/2026' />
-        <ArticlePreview img={bestUFC2025} url='/eventos/mejores-eventos-ufc-2025' title='Los Mejores Eventos de UFC en 2025' author={null} text='La lista de los 3 mejores eventos de la UFC en el año 2025: Islam Makhachev, Alex Pereira, Merab Dvalishvili, Alexander Volkanovski.' date='17/12/2025' />
       </section>
       <section className={styles.home__peleadores}>
         <h2 className={styles.home__peleadores__title}>Peleadores Campeones de la UFC</h2>
