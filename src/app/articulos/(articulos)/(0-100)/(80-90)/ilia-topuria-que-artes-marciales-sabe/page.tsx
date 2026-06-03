@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'Ilia Topuria Que Artes Marciales Sabe',
     description: '¿Ilia Topuria qué artes marciales sabe? Analizamos en profundidad las disciplinas que domina el campeón de UFC: wrestling grecorromano, jiu-jitsu (cinturón negro), boxeo y más. Historia, entrenamiento y cómo las combina para ser invicto.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Filia_topuria-AM.d669fc93.webp&w=828&q=65',
         title: 'Ilia Topuria Que Artes Marciales Sabe',
         description: '¿Ilia Topuria qué artes marciales sabe? Analizamos en profundidad las disciplinas que domina el campeón de UFC: wrestling grecorromano, jiu-jitsu (cinturón negro), boxeo y más. Historia, entrenamiento y cómo las combina para ser invicto.',
         url: 'https://fullmma.org/articulos/ilia-topuria-que-artes-marciales-sabe'
@@ -40,10 +40,12 @@ export default function IliaTopuriaAM () {
                         <li>Mentalidad de presión constante y resistencia</li>
                     </ul>
                     <p>Luego en su adolescencia se mudó a España, donde ya no consiguió un club que tuviera lucha grecorromana de alto nivel, pero de igual forma sus bases quedaron ahí y están a la vista para quienes lo hayan visto pelear. </p>
+                    <YouTubeEmbed videoid='ALhGwIkcC30' />
                     <h2>Jiu-Jitsu Brasileño y el Cinturón Negro</h2>
                     <p>En 2012, a los 15 años, Ilia y su familia se establecieron en Alicante, España. Allí buscó continuar desarrollándose marcialmente, llegando al <b>Climent Club</b>, un gimnasio de MMA y artes marciales dirigido por los hermanos argentinos <b>Jorge y Agustín Climent</b>. </p>
                     <p>Fue en ese momento que descubrió el Brazilian Jiu-Jitsu (BJJ), el cual comenzó a entrenar intensamente durante años junto a su hermano Alex, siendo ambos de los primeros georgianos en obtener el cinturón negro en esta disciplina en mayo de 2018, logrando no sólo un hito personal muy importante, sino algo histórico para su país. </p>
                     <p>Tan bueno llegó a ser <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link> en BJJ, alcanzando un nivel altísimo, que sus primeras 7 peleas profesionales en MMA fueron todas por sumisión, demostrando ser letal en esta disciplina. De hecho, el propio Topuria ha defendido que para afrontar una pelea real en la calle, el arte marcial más efectivo en el combate es el jiu-jitsu brasileño.</p>
+                    <YouTubeEmbed videoid='RSZ-PMT4Djk' />
                     <h2>Boxeo y Striking: La Evolución de Ilia Topuria</h2>
                     <p>Alrededor de los 17 años, Topuria comenzó a entrenar boxeo seriamente de la mano de los entrenadores del <b>Climent Club</b>, siendo un punto de inflexión clave como artista marcial, añadiendo progresivamente más de este striking propio de él a su juego, siendo un factor cada vez más predominante en su estilo. </p>
                     <p>Pese a que en teoría no debería ser su fuerte, Topuria se ha convertido en uno de los peleadores que mejor ha adaptado este deporte de contacto a las MMA, con una guardia cerrada, un excelente timing para contragolpear, y una combinación de golpes larga que inevitablemente termina en nocaut. </p>
@@ -58,11 +60,11 @@ export default function IliaTopuriaAM () {
                     <p>Cuando entrenaba en el <b>Climent Club</b> y hoy en día en el <b>Topuria Team</b>, practica de forma hiper especializada. Siguiendo una rutina de sesiones separadas para cada una de las disciplinas que mencionamos anteriormente. Esto siempre al lado de acompañantes de primer nivel, como su propio hermano <b>Aleksandre Topuria</b>, <Link href='/peleadores/merab-dvalishvili'>Merab Dvalishvili</Link> en ocasiones (quien elogio su lucha) y más recientemente <Link href='/peleadores/alex-pereira'>Alex Pereira</Link>, con quien entreno en la previa al <Link href='/noticias/ufc-casa-blanca'>UFC en la Casa Blanca</Link>. </p>
                     <h2>¿Cuántas artes marciales sabe Ilia Topuria?</h2>
                     <p>No existe un número fijo u oficial de artes marciales, dado que no va coleccionándolas, sino que entrena con el objetivo de ser el mejor luchador de MMA posible, por lo que mezcla bastante. Sin embargo, basándonos en declaraciones del propio Topuria y en lo que podemos ver en sus combates, domina a un altísimo nivel 3 disciplinas: lucha, jiu-jitsu brasileño y boxeo. Siendo un peleadro completísimo. </p>
+                    <YouTubeEmbed videoid='Gaf1lZT_wF4' />
                     <h2>Ilia Topuria es la Evolución de las MMA</h2>
                     <p>Ilia Topuria representa un paradigma bastante reciente para las MMA, siendo un peleador completo que es bueno en todo, y que no se casó con un estilo en particular a costa de ser mediocre en los otros. A diferencia de años anteriores, donde los peleadores de UFC tenían estilos muy marcados y que sufrían cuando se enfrentaban a un luchador que los sacara de su zona de confort, Ilia parece no tener puntos débiles muy marcados.</p>
                     <p>Demuestra también que la clave del exito en este deporte no está en saber muchas artes marciales de manera superficial, sino en dominar las básicas y fundamentales, fusionándolas con inteligencia y aprendiendo cosas útiles de otras disciplinas para aplicarlas a su estilo de pelea. </p>
                     <p>Les muestra a los nuevos peleadores que si quieren alcanzar el éxito que él consiguió, deben comenzar por lo básico, aprendiendo mucho de wrestling y bjj, y luego ir incorporando otras disciplinas como el boxeo, buscando siempre mejorar y nunca dejar de evolucionar. </p>
-                    <YouTubeEmbed videoid='M-Z7XyM7muM' />
                     <EndArticle />
                 </article>
                 <AsideChamps />
