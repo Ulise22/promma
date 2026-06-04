@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: 'Alex Pereira Religión',
     description: '"Descubre la religión de Alex Pereira: su conversión al Islam en 2015, el video de la Shahada, su actual espiritualidad chamánica indígena Pataxó y por qué evita hablar de fe. Todo sobre Poatan UFC.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Falex_pereira-religion.67499da9.webp&w=828&q=65',
         title: 'Alex Pereira Religión',
         description: '"Descubre la religión de Alex Pereira: su conversión al Islam en 2015, el video de la Shahada, su actual espiritualidad chamánica indígena Pataxó y por qué evita hablar de fe. Todo sobre Poatan UFC.',
         url: 'https://fullmma.org/articulos/alex-pereira-religion'
