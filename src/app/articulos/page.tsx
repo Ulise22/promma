@@ -96,16 +96,17 @@ import carlosUlbergStripper from '@/assets/articulos/0-100/80-90/carlos_ulberg-s
 import chimaevGuerra from '@/assets/articulos/0-100/80-90/khamzat_chimaev-guerra.webp'
 import iliaTopuriaAM from '@/assets/articulos/0-100/80-90/ilia_topuria-AM.webp'
 import alexPereiraReligion from '@/assets/articulos/0-100/80-90/alex_pereira-religion.webp'
+import iliaTopuriaOrigen from '@/assets/articulos/0-100/80-90/ilia_topuria-origen.webp'
 
 export default function Articulos () {
     return(
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
+                <ArticlePreview img={iliaTopuriaOrigen} url='/articulos/ilia-topuria-origen' title='Los Origenes de Ilia Topuria' author={null} text='Cómo un niño nacido en Alemania, de padres georgianos se mudó a España para entrenar MMA y convertirse en doble campeón de la UFC' date='05/06/2026' />
                 <ArticlePreview img={alexPereiraReligion} url='/articulos/alex-pereira-religion' title='¿De Qué Religión es Alex Pereira?' author={null} text='La religión de Alex Pereira: su viaje espiritual - Cristianismo, Islam, Chamanismo y sus raíces indígenas.' date='04/06/2026' />
                 <ArticlePreview img={iliaTopuriaAM} url='/articulos/ilia-topuria-que-artes-marciales-sabe' title='¿Qué Artes Marciales Sabe Ilia Topuria?' author={null} text='Las artes marciales que domina Ilia Topuria, su grappling y striking, sus inicios en al lucha grecorromana, su cinturón negro en BJJ y su boxeo de élite.' date='03/06/2026' />
                 <ArticlePreview img={chimaevGuerra} url='/articulos/khamzat-chimaev-guerra' title='Khamzat Chimaev y la Guerra: De Refugiado en Suecia a Campeón de UFC' author={null} text='La dura infancia marcada por la guerra en Chechenia que forjó al lobo que hoy es campeón de la UFC.' date='06/05/2026' />
-                <ArticlePreview img={carlosUlbergStripper} url='/articulos/carlos-ulberg-stripper' title='¿Era Carlos Ulberg Stripper?' author={null} text='Carlos Ulberg: De &quot;Ladies Night&quot; a campeón de UFC y el rumor de su pasado como stripper' date='13/04/2026' />
             </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
