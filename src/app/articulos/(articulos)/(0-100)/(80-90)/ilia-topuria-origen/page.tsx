@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: 'Ilia Topuria Origen',
     description: 'Descubre el origen de Ilia Topuria: nacido en Alemania, raíces georgianas y criado en Alicante (España). La historia completa de sus padres, infancia y ascenso como doble campeón invicto de la UFC. ',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Filia_topuria-origen.95f08b2b.webp&w=828&q=65',
         title: 'Ilia Topuria Origen',
         description: 'Descubre el origen de Ilia Topuria: nacido en Alemania, raíces georgianas y criado en Alicante (España). La historia completa de sus padres, infancia y ascenso como doble campeón invicto de la UFC. ',
         url: 'https://fullmma.org/articulos/ilia-topuria-origen'
