@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: 'Alex Pereira Mecánico',
     description: 'Descubre la historia real de Alex Pereira mecánico: de reparar neumáticos y luchar contra el alcohol a los 12 años, a campeón de Glory Kickboxing y doble campeón de UFC. Una inspiradora historia de resiliencia. ',
     openGraph: {
-        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Falex_pereira-mecanico.67499da9.webp&w=828&q=65',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Falex_pereira-mecanico.8b1dc32f.webp&w=828&q=65',
         title: 'Alex Pereira Mecánico',
         description: 'Descubre la historia real de Alex Pereira mecánico: de reparar neumáticos y luchar contra el alcohol a los 12 años, a campeón de Glory Kickboxing y doble campeón de UFC. Una inspiradora historia de resiliencia. ',
         url: 'https://fullmma.org/articulos/alex-pereira-mecanico'
