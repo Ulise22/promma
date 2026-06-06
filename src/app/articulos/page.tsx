@@ -97,19 +97,21 @@ import chimaevGuerra from '@/assets/articulos/0-100/80-90/khamzat_chimaev-guerra
 import iliaTopuriaAM from '@/assets/articulos/0-100/80-90/ilia_topuria-AM.webp'
 import alexPereiraReligion from '@/assets/articulos/0-100/80-90/alex_pereira-religion.webp'
 import iliaTopuriaOrigen from '@/assets/articulos/0-100/80-90/ilia_topuria-origen.webp'
+import alexPereiraMecanico from '@/assets/articulos/0-100/80-90/alex_pereira-mecanico.webp'
 
 export default function Articulos () {
     return(
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
+                <ArticlePreview img={alexPereiraMecanico} url='/articulos/alex-pereira-mecanico' title='Alex Pereira: De Mecánico Alcoholico en Sao Paulo a ¿Triple Campeón de UFC?' author={null} text='La historia de superación de Alex Pereira, quien entrenó para superar su alcoholismo, y abandonó su taller mecánico para ser campeón de Kickboxing y de la UFC. ' date='06/06/2026' />
                 <ArticlePreview img={iliaTopuriaOrigen} url='/articulos/ilia-topuria-origen' title='Los Origenes de Ilia Topuria' author={null} text='Cómo un niño nacido en Alemania, de padres georgianos se mudó a España para entrenar MMA y convertirse en doble campeón de la UFC' date='05/06/2026' />
                 <ArticlePreview img={alexPereiraReligion} url='/articulos/alex-pereira-religion' title='¿De Qué Religión es Alex Pereira?' author={null} text='La religión de Alex Pereira: su viaje espiritual - Cristianismo, Islam, Chamanismo y sus raíces indígenas.' date='04/06/2026' />
                 <ArticlePreview img={iliaTopuriaAM} url='/articulos/ilia-topuria-que-artes-marciales-sabe' title='¿Qué Artes Marciales Sabe Ilia Topuria?' author={null} text='Las artes marciales que domina Ilia Topuria, su grappling y striking, sus inicios en al lucha grecorromana, su cinturón negro en BJJ y su boxeo de élite.' date='03/06/2026' />
-                <ArticlePreview img={chimaevGuerra} url='/articulos/khamzat-chimaev-guerra' title='Khamzat Chimaev y la Guerra: De Refugiado en Suecia a Campeón de UFC' author={null} text='La dura infancia marcada por la guerra en Chechenia que forjó al lobo que hoy es campeón de la UFC.' date='06/05/2026' />
             </section>
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={chimaevGuerra} url='/articulos/khamzat-chimaev-guerra' title='Khamzat Chimaev y la Guerra: De Refugiado en Suecia a Campeón de UFC' author={null} text='La dura infancia marcada por la guerra en Chechenia que forjó al lobo que hoy es campeón de la UFC.' date='06/05/2026' />
                 <ArticlePreview img={hecherSosaPadre} url='/articulos/hecher-sosa-padre' title='La Triste e Insipiradora Historia de Hecher Sosa y su Padre' author={null} text='Como el peleador español Hecher Sosa tuvo que lidiar con la pérdida de su padre y hermana poco antes de pelear en el DWCS.' date='24/02/2026' />
                 <ArticlePreview img={seanStricklandInfancia} url='/articulos/sean-strickland-infancia' title='La Traumática Infancia de Sean Strickland' author={null} text='Como fue la durísima infancia del excampeón de UFC Sean Strickland, marcada por la violencia, el odio y el miedo hacia un padre abusivo.' date='12/02/2026' />
                 <ArticlePreview img={saintDenisMilitar} url='/articulos/benoit-saint-denis-militar' title='El Pasado Militar de Benoit Saint Denis' author={null} text='Cómo Benoit Saint Denis pasó de ser un militar de las fuerzas especiales francesas a uno de los peleadores más emocionantes de la UFC. ' date='27/01/2026' />
