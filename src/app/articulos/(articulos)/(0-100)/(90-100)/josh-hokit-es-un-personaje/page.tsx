@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: '¿Josh Hokit es un personaje?',
     description: '¿Josh Hokit es un personaje o realmente actúa así? Analizamos sus promos al estilo WWE, momentos donde rompe el personaje y por qué su estilo está revolucionando los pesos pesados en la UFC.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjohs_hokit-personaje.7ff8d8b4.webp&w=828&q=65',
         title: '¿Josh Hokit es un personaje?',
         description: '¿Josh Hokit es un personaje o realmente actúa así? Analizamos sus promos al estilo WWE, momentos donde rompe el personaje y por qué su estilo está revolucionando los pesos pesados en la UFC.',
         url: 'https://fullmma.org/articulos/josh-hokit-es-un-personaje',
