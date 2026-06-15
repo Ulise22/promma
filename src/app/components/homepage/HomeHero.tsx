@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/eventos/ufc-casa-blanca'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufcWhiteHouse} alt='' />
                 <h2 className={styles.home__title}>UFC Casa Blanca: ¡Ilia Topuria vs Justin Gaethje! ¡Alex Pereira vs Ciryl Gane!</h2>
-                <span>¡Sean O&apos;Malley vs Aiemann Zahabi! ¡Josh Hokit vs Derrick Lewis!</span>
+                <span>¡Sean O&apos;Malley vs Aiemann Zahabi! ¡Josh Hokit Noquea a Derrick Lewis en el Segundo Asalto!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/ilia-topuria-y-alex-pereira'>
                 <Image className={styles.homehero__article__img} quality={50} src={topuriaPereira} alt='' />
