@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: 'UFC Casa Blanca: ¡Ilia Topuria vs Justin Gaethje! ¡Alex Pereira vs Ciryl Gane!',
     description: "UFC en la Casa Blanca, el mayor evento de la historia de la UFC con Ilia Topuria defendiendo su cinturón ante Justin Gaethje en el UFC Freedom 250. Además Alex Pereira buscará ser el primer peleador en ganar 3 cinturones en la UFC enfrentando a Ciryl Gane. ",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc_casa_blanca.d0339f6f.webp&w=828&q=65',
         title: 'UFC Casa Blanca: ¡Ilia Topuria vs Justin Gaethje! ¡Alex Pereira vs Ciryl Gane!',
         description: "UFC en la Casa Blanca, el mayor evento de la historia de la UFC con Ilia Topuria defendiendo su cinturón ante Justin Gaethje en el UFC Freedom 250. Además Alex Pereira buscará ser el primer peleador en ganar 3 cinturones en la UFC enfrentando a Ciryl Gane. ",
         url: 'https://fullmma.org/eventos/ufc-casa-blanca'
