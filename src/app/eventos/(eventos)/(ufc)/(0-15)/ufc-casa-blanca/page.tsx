@@ -32,6 +32,8 @@ export default function UFCCasaBlanca () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Diego Lopes Noquea a Steve García en el Segundo Asalto</h2>
                     <p>Espectacular manera de iniciar esta histórica cartelera, con el brasileño nacionalizado mexicano <Link href="/peleadores/diego-lopes">Diego Lopes</Link> siendo capaz de dar vuelta una pelea que se le estaba complicando, perdiendo claramente el primer asalto ante el estadounidense <b>Steve García</b>, quien había conectado más golpes, pero logrando remontar de forma épica en el segundo, cuando en un intercambio de golpes caótico, salió ganando al obtener el KO que le daría la victoria, demostrando no sólo tener una mandibula de hierro que hace casi imposible noquearlo, sino también un poder en las manos peligrosísimo. De esta manera, Diego Lopes se lleva la primer victoria de la noche por la vía del nocaut. </p>
+                    <h2>Bo Nickal Noquea a Kyle Daukaus en el Primer Asalto</h2>
+                    <p>Espectacular victoria por la vía del nocuat para un dominante <b>Bo Nickal</b>, que hizo valer su favoritismo conectando golpes como quiso, finalmente consiguiendo el nocaut con una combinación de 2 golpes para llevarse la victoria y obtener la segunda finalización por nocaut de la noche. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
