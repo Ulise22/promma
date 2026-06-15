@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufcWhiteHouse from '@/assets/noticias/0-100/40-50/ufc_casa_blanca.webp'
+import ufcWhiteHouse from '@/assets/eventos/ufc/0-150/0-15/ufc_casa_blanca.webp'
 import topuriaPereira from '@/assets/noticias/0-100/40-50/topuria_and_pereira.webp'
 import alexPereiraTripleCampeon from '@/assets/noticias/0-100/40-50/alex_pereira-triple_campeon.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/noticias/ufc-casa-blanca'>
+            <Link className={styles.homehero__bigArticle} href='/eventos/ufc-casa-blanca'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufcWhiteHouse} alt='' />
-                <h2 className={styles.home__title}>UFC Casa Blanca: Todo lo que Tienes Que Saber Sobre el UFC Freedom 250</h2>
-                <span>Todos los detalles sobre el evento de UFC organizado en la Casa Blanca por el 250 aniversario del Día de la Independencia en Estados Unidos</span>
+                <h2 className={styles.home__title}>UFC Casa Blanca: ¡Ilia Topuria vs Justin Gaethje! ¡Alex Pereira vs Ciryl Gane!</h2>
+                <span>¡Sean O&apos;Malley vs Aiemann Zahabi! ¡Josh Hokit vs Derrick Lewis!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/noticias/ilia-topuria-y-alex-pereira'>
                 <Image className={styles.homehero__article__img} quality={50} src={topuriaPereira} alt='' />

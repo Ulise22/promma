@@ -18,7 +18,7 @@ export default function Home () {
     <main className={styles.home}>
       <HomeHero />
       <section className={styles.home__articlesHero}>
-        <ArticlePreview img={gaethjeFueCampeon} url='/noticias/justin-gaethje-fue-campeon-de-ufc' title='Justin Gaethje fue campeón de UFC' author={null} text='La historia de los títulos interino de Justin Gaethje y su intento por ser campeón indiscutido de la UFC ¿La tercera es la vencida?' date='29/05/2026' />
+        <ArticlePreview img={gaethjeFueCampeon} url='/noticias/justin-gaethje-fue-campeon-de-ufc' title='¿Justin Gaethje fue campeón de UFC?' author={null} text='La historia de los títulos interino de Justin Gaethje y su intento por ser campeón indiscutido de la UFC ¿La tercera es la vencida?' date='29/05/2026' />
         <ArticlePreview img={JoshHokitPersonaje} url='/articulos/josh-hokit-es-un-personaje' title='¿Josh Hokit es un personaje?' author={null} text='Como Josh Hokit usa personajes exagerados para ganar hype y dar atención a los pesos pesados.' date='10/06/2026' />
         <ArticlePreview img={saintDenisMilitar} url='/articulos/benoit-saint-denis-militar' title='El Pasado Militar de Benoit Saint Denis' author={null} text='Cómo Benoit Saint Denis pasó de ser un militar de las fuerzas especiales francesas a uno de los peleadores más emocionantes de la UFC. ' date='27/01/2026' />
         <ArticlePreview img={pimblettOffCamp} url='/articulos/paddy-pimblett-fuera-de-campamento' title='Paddy Pimblett Fuera de Campamento: ¿Por Qué Se Ve Tan Gordo?' author={null} text='Porque Paddy Pimblett engorda tanto cuando no está peleando. El antes y después de Paddy The Baddy en una pelea.' date='19/01/2026' />

@@ -88,7 +88,7 @@ export default function NoticiasPage () {
             </article>
             <article className={styles.noticiasHero__container}>
                 <ArticlePreview img={alexPereiraTripleCampeon} url='/noticias/alex-pereira-triple-campeon' title='¿Será Alex Pereira el Primer Triple Campeón de la UFC?' author={null} text='El histórico hito que podría alcanzar Alex Pereira de ganarle a Ciryl Gane: Convertirse en el primer triple campeón de la UFC.' date='01/06/2026' />
-                <ArticlePreview img={gaethjeFueCampeon} url='/noticias/justin-gaethje-fue-campeon-de-ufc' title='Justin Gaethje fue campeón de UFC' author={null} text='La historia de los títulos interino de Justin Gaethje y su intento por ser campeón indiscutido de la UFC ¿La tercera es la vencida?' date='29/05/2026' />
+                <ArticlePreview img={gaethjeFueCampeon} url='/noticias/justin-gaethje-fue-campeon-de-ufc' title='¿Justin Gaethje fue campeón de UFC?' author={null} text='La historia de los títulos interino de Justin Gaethje y su intento por ser campeón indiscutido de la UFC ¿La tercera es la vencida?' date='29/05/2026' />
                 <ArticlePreview img={gaethjeRetiro} url='/noticias/justin-gaethje-retiro' title='UFC 324: ¿El Retiro de Justin Gaethje?' author={null} text='El entrenador de Gaethje ha dejado claro que en caso de perder se nos retira una leyenda...' date='20/01/2026' />
                 <ArticlePreview img={FOTY2025} url='/noticias/merab-dvalishvili-peleador-del-2025' title='Merab Dvalishvili: ¡El Peleador del Año de FULLMMA 2025!' author={null} text='Este año elegimos desde FULLMMA a Merab Dvalishvili como el Peleador del Año 2025 de la UFC. ' date='23/12/2025' />
             </article>
