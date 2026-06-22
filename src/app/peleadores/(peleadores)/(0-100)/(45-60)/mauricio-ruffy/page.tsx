@@ -23,14 +23,14 @@ export const metadata: Metadata = {
 export default function PauloCosta () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={13} l={2} d={0} categoria='Peso Ligero' nombre='Mauricio Ruffy' apodo={null} time='2026-04-16' />
+            <PeleadoresHero peleadoresImage={fighter} w={14} l={2} d={0} categoria='Peso Ligero' nombre='Mauricio Ruffy' apodo={null} time='2026-04-16' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>¿Quién es Mauricio Ruffy?</h2>
                     <p className={styles.peleador__article__text}>Mauricio Ruffy es un luchador brasileño de MMA que compite en la división de peso ligero de la UFC, es una de las figuras más destacadas de los <Link href='/articulos/fighting-nerds'>Fighting Nerds</Link>, con un estilo de pelea muy vistoso, un striking preciso y muy afinado que hace que cualquiera que lo vea pelear se vuelva un fan inmediatamente. </p>
                     <p className={styles.peleador__article__text}>Siendo aún bastante joven es uno de los mayores prospectos que tienen la división de peso ligero, siendo ya no sólo una promesa a futuro, sino que una realidad en el presente. </p>
                     <h2 className={styles.peleador__article__title}>Mauricio Ruffy Récord</h2>
-                    <p className={styles.peleador__article__text}>Mauricio Ruffy posee un récord profesional en MMA de 13-2. Con 12 de sus victorias viniendo por la vía del nocaut y sólo 1 siendo por decisión. Mientras que de sus 2 derrotas 1 fue por la vía del nocaut y la otra por la vía de la sumisión. </p>
+                    <p className={styles.peleador__article__text}>Mauricio Ruffy posee un récord profesional en MMA de 14-2. Con 13 de sus victorias viniendo por la vía del nocaut y sólo 1 siendo por decisión. Mientras que de sus 2 derrotas 1 fue por la vía del nocaut y la otra por la vía de la sumisión. </p>
                     <h2 className={styles.peleador__article__title}>Mauricio Ruffy Historia</h2>
                     <p className={styles.peleador__article__text}>Maurício de Lima Santos nació el 17 de junio de 1996 en Coruripe, Alagoas, Brasil. Nació en una familia humilde y fue en su entorno donde conoció las artes marciales, principalmente por su tío que era fanático de las peleas, y por su hermano mayor, a quien una vez siendo muy niño lo vió entrenar en un ring improvisado en el patio de su casa, generando una imagen que lo marcaría para siempre, motivándolo a buscar él mismo ser un peleador profesional. </p>
                     <p className={styles.peleador__article__text}>Pasó una adolescencia muy turbulenta, pasando por una etapa rebelde en la que la salía constantemente, peleas callejeras, etc. Para colmo, su hermano mayor, quien era una de sus mayores fuentes de inspiración para él y quien le daría su apodo &quot;Ruffy&quot;, acabó con su propia vida de forma trágica. Ruffy también pasaría por sus propios problemas tiempo después, en los que coqueteó con la idea de hacer lo mismo luego de pasar por una depresión muy fuerte, sin embargo gracias a su Fé en Dios y a la ayuda de su familia pudo salir adelante y abandonar esos pensamientos. </p>
