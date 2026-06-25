@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: 'Cómo Funciona el Nuevo Ranking de UFC',
     description: "Descubre cómo funciona el nuevo ranking de UFC con Meta: un sistema basado en Elo, datos objetivos y machine learning que elimina sesgos humanos. Diferencias, ventajas y críticas del Meta UFC Rankings. ",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnew_rakings.7a58f42d.webp&w=828&q=65',
         title: 'Cómo Funciona el Nuevo Ranking de UFC',
         description: "Descubre cómo funciona el nuevo ranking de UFC con Meta: un sistema basado en Elo, datos objetivos y machine learning que elimina sesgos humanos. Diferencias, ventajas y críticas del Meta UFC Rankings. ",
         url: 'https://fullmma.org/noticias/como-funciona-el-nuevo-ranking-de-ufc',
