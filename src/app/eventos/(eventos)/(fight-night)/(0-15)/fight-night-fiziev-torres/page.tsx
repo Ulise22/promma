@@ -44,9 +44,9 @@ export default function FizievTorres () {
                     <p>Increíble lo que acabamos de presenciar, con el turco <b>Abdul Rakhman Yakhyaev</b> consiguiendo tumbar a su rival americano en apenas el primer golpe que conectó ni bien comenzó la pelea, necesitando sólo de unos golpes más en el suelo para que el árbitro dé por finalizada la pelea, dando como ganador a Yakhyaev por TKO en el primer asalto. </p>
                     <h2>Farman Hasanov Derrota a Eric Nolan por Decisión Unánime</h2>
                     <p>Gran victoria para el luchador local <b>Farman Hasanov</b>, quien dominó con su lucha de principio a fin al estadounidense <b>Eric Nolan</b>, derribándolo una y otra vez, maneteniéndolo en el suelo y apenas recibiendo daño cuando la pelea se mantuvo de pie. De esta manera el luchador de Azerbaiyán debuta en la UFC con victoria por decisión unánime, y extiende su récord invicto a 6-0 en esta última pelea preliminar. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Abus Magomedov Somete a Michal Oleksiejczuk en el Primer Asalto</h2>
+                    <p>Espectacular manera de iniciar esta cartelera estelar, con el alemán <b>Abus Magomedov</b> conectando un codazo brutal en la cabeza de su rival polaco, y finalizando yendo al suelo con Michal para conectar una guillotina letal que acabaría durmiendo a su rival. De esta manera Abus Magomedov se lleva la victoria por sumisión en el primer asalto. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
