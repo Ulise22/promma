@@ -49,6 +49,8 @@ export default function FizievTorres () {
                     <p>Espectacular manera de iniciar esta cartelera estelar, con el alemán <b>Abus Magomedov</b> conectando un codazo brutal en la cabeza de su rival polaco, y finalizando yendo al suelo con Michal para conectar una guillotina letal que acabaría durmiendo a su rival. De esta manera Abus Magomedov se lleva la victoria por sumisión en el primer asalto. </p>
                     <h2>Ikram Aliskerov Derrota a Brunno Ferreira por Decisión Unánime</h2>
                     <p>Muy buena pelea la que acabamos de ver, muy competitiva, con el ruso <b>Ikram Aliskerov</b> siendo el claro ganador del combate, luego de mostrar sólido mientras la pelea se mantuvo de pie, con un buen striking que le permite competir con cualquiera, y siendo capaz de derribar a su rival brasileño <b>Brunno Ferreira</b> en todos los asaltos, manteniéndolo a ras de lona y controlándolo en el suelo la mayor parte del tiempo. De esta forma el ruso Aliskerov se lleva la victoria por decisión unánime luego de ganar todos los asaltos. </p>
+                    <h2>Asu Almabayev Somete a Charles Johnson en el Tercer Asalto</h2>
+                    <p>Impresionante victoria del kazajo <b>Asu Almabayev</b>, que dominó a su rival estadounidense <b>Charles Johnson</b> durante todo el combate, mostrándose siempre superior en todo terreno de la pelea, consiguiendo finalizar en el tercer asalto, cuando le tomó la espalda y pudo tomar la pierna de su rival y estirarla hasta obligar a Johnson a tapear, en lo que es una de las sumisiones más inusuales de ver en la UFC. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
