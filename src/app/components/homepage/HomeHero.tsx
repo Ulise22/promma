@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufcWhiteHouse from '@/assets/eventos/ufc/0-150/0-15/ufc_casa_blanca.webp'
+import ufcBaku from '@/assets/eventos/fight-night/0-150/0-15/fiziev-torres.webp'
 import topuriaPereira from '@/assets/noticias/0-100/40-50/topuria_and_pereira.webp'
 import UFCNewRankings from '@/assets/noticias/0-100/40-50/new_rakings.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/eventos/ufc-casa-blanca'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufcWhiteHouse} alt='' />
-                <h2 className={styles.home__title}>UFC Casa Blanca: ¡La Esquina de Ilia Topuria Abandona el Combate y Justin Gaethje es Nuevo Campeón por TKO! ¡Ciryl Gane Noquea a Alex Pereira en el Segundo Asalto y es Campeón Interino Otra Vez!</h2>
-                <span>¡Sean O&apos;Malley Noquea a Aiemann Zahabi en el Segundo Asalto! ¡Josh Hokit Noquea a Derrick Lewis en el Segundo Asalto!</span>
+            <Link className={styles.homehero__bigArticle} href='/eventos/fight-night-fiziev-torres'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufcBaku} alt='' />
+                <h2 className={styles.home__title}>UFC Baku: ¡Rafael Fiziev vs Manuel Torres! </h2>
+                <span>¡Shara Magomedov vs Michel Pereira! ¡Javier Reyes vs Kaan Ofli!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/ilia-topuria-y-alex-pereira'>
                 <Image className={styles.homehero__article__img} quality={50} src={topuriaPereira} alt='' />
