@@ -40,6 +40,8 @@ export default function FizievTorres () {
                     <p>Tremenda finalización del australiano <b>Kaan Ofli</b>, quien luego de conectar un golpe que tumbaría en el suelo al colombiano <b>Javier Reyes</b>, buscaría de todas las maneras posibles finalizarlo por nocaut, golpeándolo hasta cansarse, hasta que finalmente podría conectar un kata katami para someter al sudamericano, quien se vió obligado a tapear en el primer asalto. </p>
                     <h2>Nursulton Ruziboev Somete a Andrey Pulyaev en el Primer Asalto</h2>
                     <p>Brutal sumisión del uzbeko <b>Nursulton Ruziboev</b> al luchador ruso <b>Andrey Pulyaev</b>, consiguiendo un derribo rápido y metiéndose en su espalda durante todo el combate hasta que finalmente pudo conectarle una sumisión que terminaría desmayando al luchador ruso, debido a que el árbitro no fue capaz de ver bien el rostro del luchador. De esta forma Ruziboev consigue la cuarta finalización y la segunda sumisión de la noche. </p>
+                    <h2>Abdul Rakhman Yakhyaev Noquea de un Sólo Golpe a Julius Walker</h2>
+                    <p>Increíble lo que acabamos de presenciar, con el turco <b>Abdul Rakhman Yakhyaev</b> consiguiendo tumbar a su rival americano en apenas el primer golpe que conectó ni bien comenzó la pelea, necesitando sólo de unos golpes más en el suelo para que el árbitro dé por finalizada la pelea, dando como ganador a Yakhyaev por TKO en el primer asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
