@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function FizievTorres () {
     return(
         <main>
-            <ArticleHero title='UFC Baku: ¡Rafael Fiziev vs Manuel Torres!' subtitle='¡Shara Magomegov vs Michel Pereira!' image={hero} date='2026-06-27' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Baku: ¡Rafael Fiziev vs Manuel Torres!' subtitle='¡Shara Magomegov vs Michel Pereira! ¡Javier Reyes vs Kaan Ofli!' image={hero} date='2026-06-27' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Noche de UFC en horario especial en este evento organizado en Baku, Azerbaiyán, que tendrá como protagonista al peleador local <b>Rafael Fiziev</b>, enfrentando al mexicano <b>Manuel Torres</b> en una pelea que puede perfilar el futuro de la división de peso ligero. </p>
@@ -34,6 +34,8 @@ export default function FizievTorres () {
                     <p>Victoria del luchador local de Azerbaiyán <b>Tahir Abdullayev</b>, quien pese a sufrir los 2 primeros asaltos, siendo derrotado claramente, fue capaz de reponerse en el tercer y último asalto, conectando de manera más efectiva, consiguiendo un derribo para castigar a su rival a golpes, y con la pelea finalmente siendo parada de forma cuestionable por parte del árbitro cuando su rival brasileño <b>Jefferson Nascimento</b> estaba siendo recibiendo golpes. De esta forma el local gana la primer pelea de la noche en su debut por TKO en el tercer asalto. </p>
                     <h2>Jean Matsumoto Derrota a Bekzat Almakhan por Decisión Unánime</h2>
                     <p>Gran victoria para el brasileño <b>Jean Matsumoto</b>, quien a pesar de arrancar el combate de forma complicada, recibiendo bastantes golpes en el primer asalto y perdiéndolo, fue capaz de reponerse en los siguientes asaltos, consiguiendo dominar claramente a su rival con el striking y finalmente llevándose una merecida victoria por decisión unánime. </p>
+                    <h2>Daniil Donchenko Noquea a Theodor Berggren en el Segundo Asalto</h2>
+                    <p>Espectacular victoria para el ucraniano <b>Daniil Donchenko</b>, quien demostró tener un striking sobresaliente, dominando completamente a su rival de principio a fin, conectando una cantidad de golpes al cuerpo impresionantes y unas patadas a la pierna que dejaron muy débil su rival sueco para el segundo asalto, consiguiendo el nocaut finalmente en el segundo round cuando sería capaz de conectar una patada a la cabeza que sentaría a su rival. De esta manera el ucraniano consigue su tercer victoria consecutiva en la UFC por TKO en el segundo asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
