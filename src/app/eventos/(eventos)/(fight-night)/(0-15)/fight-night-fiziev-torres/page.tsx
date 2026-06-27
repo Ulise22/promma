@@ -32,6 +32,8 @@ export default function FizievTorres () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
                     <h2>Tahir Abdullayev Noquea a Jefferson Nascimento en el Primer Asalto</h2>
                     <p>Victoria del luchador local de Azerbaiyán <b>Tahir Abdullayev</b>, quien pese a sufrir los 2 primeros asaltos, siendo derrotado claramente, fue capaz de reponerse en el tercer y último asalto, conectando de manera más efectiva, consiguiendo un derribo para castigar a su rival a golpes, y con la pelea finalmente siendo parada de forma cuestionable por parte del árbitro cuando su rival brasileño <b>Jefferson Nascimento</b> estaba siendo recibiendo golpes. De esta forma el local gana la primer pelea de la noche en su debut por TKO en el tercer asalto. </p>
+                    <h2>Jean Matsumoto Derrota a Bekzat Almakhan por Decisión Unánime</h2>
+                    <p>Gran victoria para el brasileño <b>Jean Matsumoto</b>, quien a pesar de arrancar el combate de forma complicada, recibiendo bastantes golpes en el primer asalto y perdiéndolo, fue capaz de reponerse en los siguientes asaltos, consiguiendo dominar claramente a su rival con el striking y finalmente llevándose una merecida victoria por decisión unánime. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
