@@ -12,11 +12,11 @@ const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles
 
 export const metadata: Metadata = {
     title: 'UFC Baku: ¡Rafael Fiziev vs Manuel Torres!',
-    description: '',
+    description: 'Noche de UFC en Baku, Azerbaiyán, con Rafael Fiziev enfrentando a Manuel Torres en la pelea estelar y Shara Magomedov enfrentando a Michel Pereira en la coestelar. ',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffiziev-torres.e56c09e9.webp&w=828&q=65',
         title: 'UFC Baku: ¡Rafael Fiziev vs Manuel Torres!',
-        description: '',
+        description: 'Noche de UFC en Baku, Azerbaiyán, con Rafael Fiziev enfrentando a Manuel Torres en la pelea estelar y Shara Magomedov enfrentando a Michel Pereira en la coestelar. ',
         url: 'https://fullmma.org/eventos/fight-night-fiziev-torres'
     }
 }
