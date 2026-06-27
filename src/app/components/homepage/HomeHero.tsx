@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/eventos/fight-night-fiziev-torres'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufcBaku} alt='' />
-                <h2 className={styles.home__title}>UFC Baku: ¡Rafael Fiziev vs Manuel Torres! </h2>
+                <h2 className={styles.home__title}>UFC Baku: ¡Rafael Fiziev Noquea a Manuel Torres en el Segundo Asalto!</h2>
                 <span>¡Shara Magomedov Derrota a Michel Pereira por Decisión Unánime! ¡Kaan Ofli Somete a Javier Reyes en el Primer Asalto!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/ilia-topuria-y-alex-pereira'>

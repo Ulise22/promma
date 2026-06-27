@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function FizievTorres () {
     return(
         <main>
-            <ArticleHero title='UFC Baku: ¡Rafael Fiziev vs Manuel Torres!' subtitle='¡Shara Magomedov Derrota a Michel Pereira por Decisión Unánime! ¡Kaan Ofli Somete a Javier Reyes en el Primer Asalto!' image={hero} date='2026-06-27' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Baku: ¡Rafael Fiziev Noquea a Manuel Torres en el Segundo Asalto!' subtitle='¡Shara Magomedov Derrota a Michel Pereira por Decisión Unánime! ¡Kaan Ofli Somete a Javier Reyes en el Primer Asalto!' image={hero} date='2026-06-27' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Noche de UFC en horario especial en este evento organizado en Baku, Azerbaiyán, que tendrá como protagonista al peleador local <b>Rafael Fiziev</b>, enfrentando al mexicano <b>Manuel Torres</b> en una pelea que puede perfilar el futuro de la división de peso ligero. </p>
@@ -55,6 +55,8 @@ export default function FizievTorres () {
                     <p>Brutal nocaut del brasileño <b>Matheus Camilo</b> al luchador local <b>Nazim Sadykhov</b>, a quien fue capaz de noquear de manera contundente con un recto de derecha que tumbó a su rival al suelo, necesitando apenas de un par de golpes más para lograr que el árbitro los separa y le dieran la victoria por TKO en el primer asatlo asalto de la pelea. </p>
                     <h2>Shara Magomedov Derrota a Michel Pereira por Decisión Unánime</h2>
                     <p>Gran victoria del pirata <Link href='/peleadores/shara-magomedov'>Shara Magomedov</Link>, quien pese a ser derribado y golpeado en el primer asalto, fue capaz de reponerse rápidamente en el segundo y en el tercero, mostrando su mejor cara, con ese striking sobresaliente que tiene, y con esa capacidad de contraatacar que lo hace destacar tanto. De esta forma, fue capaz de ganar los últimos asaltos con contundencia para llevarse la victoria por decisión unánime.</p>
+                    <h2>¡Rafael Fiziev Noquea a Manuel Torres en el Segundo Asalto!</h2>
+                    <p>Espectacular manera de cerrar esta cartelera y esta noche de UFC, con el evento estelar no decepcionando. En un combate donde en un inicio parecía que el mexicano se estaba llevando la mejor parte, conectando los mejores golpes durante todo el resultado, dejando muy lastimado el ojo derecho de Fiziev a base de jabs, el inicio del segundo asalto nos tomó por sorpresa cunado el luchador local de Azerbaiyán <b>Rafael Fiziev</b>, fue capaz de conectar una patada giratoria a la cabeza de su rival que lo sentaría en el suelo, y después, cuando este se levantó, lo abrumó con una avalancha de golpes que terminaron por dejar KO definitivamente al mexicano <b>Manuel Torres</b> que nada pudo hacer en el poder del luchador local. De esta manera, Rafael Fiziev se lleva la victoria por KO en el segundo asalto de la pelea. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
