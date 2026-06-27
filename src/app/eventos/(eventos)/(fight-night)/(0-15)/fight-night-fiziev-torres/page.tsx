@@ -42,6 +42,8 @@ export default function FizievTorres () {
                     <p>Brutal sumisión del uzbeko <b>Nursulton Ruziboev</b> al luchador ruso <b>Andrey Pulyaev</b>, consiguiendo un derribo rápido y metiéndose en su espalda durante todo el combate hasta que finalmente pudo conectarle una sumisión que terminaría desmayando al luchador ruso, debido a que el árbitro no fue capaz de ver bien el rostro del luchador. De esta forma Ruziboev consigue la cuarta finalización y la segunda sumisión de la noche. </p>
                     <h2>Abdul Rakhman Yakhyaev Noquea de un Sólo Golpe a Julius Walker</h2>
                     <p>Increíble lo que acabamos de presenciar, con el turco <b>Abdul Rakhman Yakhyaev</b> consiguiendo tumbar a su rival americano en apenas el primer golpe que conectó ni bien comenzó la pelea, necesitando sólo de unos golpes más en el suelo para que el árbitro dé por finalizada la pelea, dando como ganador a Yakhyaev por TKO en el primer asalto. </p>
+                    <h2>Farman Hasanov Derrota a Eric Nolan por Decisión Unánime</h2>
+                    <p>Gran victoria para el luchador local <b>Farman Hasanov</b>, quien dominó con su lucha de principio a fin al estadounidense <b>Eric Nolan</b>, derribándolo una y otra vez, maneteniéndolo en el suelo y apenas recibiendo daño cuando la pelea se mantuvo de pie. De esta manera el luchador de Azerbaiyán debuta en la UFC con victoria por decisión unánime, y extiende su récord invicto a 6-0 en esta última pelea preliminar. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
