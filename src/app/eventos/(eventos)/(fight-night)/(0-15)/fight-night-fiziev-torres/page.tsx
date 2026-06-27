@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function FizievTorres () {
     return(
         <main>
-            <ArticleHero title='UFC Baku: ¡Rafael Fiziev vs Manuel Torres!' subtitle='¡Shara Magomegov vs Michel Pereira! ¡Kaan Ofli Somete a Javier Reyes en el Primer Asalto!' image={hero} date='2026-06-27' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Baku: ¡Rafael Fiziev vs Manuel Torres!' subtitle='¡Shara Magomedov Derrota a Michel Pereira por Decisión Unánime! ¡Kaan Ofli Somete a Javier Reyes en el Primer Asalto!' image={hero} date='2026-06-27' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Noche de UFC en horario especial en este evento organizado en Baku, Azerbaiyán, que tendrá como protagonista al peleador local <b>Rafael Fiziev</b>, enfrentando al mexicano <b>Manuel Torres</b> en una pelea que puede perfilar el futuro de la división de peso ligero. </p>
@@ -53,6 +53,8 @@ export default function FizievTorres () {
                     <p>Impresionante victoria del kazajo <b>Asu Almabayev</b>, que dominó a su rival estadounidense <b>Charles Johnson</b> durante todo el combate, mostrándose siempre superior en todo terreno de la pelea, consiguiendo finalizar en el tercer asalto, cuando le tomó la espalda y pudo tomar la pierna de su rival y estirarla hasta obligar a Johnson a tapear, en lo que es una de las sumisiones más inusuales de ver en la UFC. </p>
                     <h2>Matheus Camilo Noquea a Nazim Sadykhov en el Primer Asalto</h2>
                     <p>Brutal nocaut del brasileño <b>Matheus Camilo</b> al luchador local <b>Nazim Sadykhov</b>, a quien fue capaz de noquear de manera contundente con un recto de derecha que tumbó a su rival al suelo, necesitando apenas de un par de golpes más para lograr que el árbitro los separa y le dieran la victoria por TKO en el primer asatlo asalto de la pelea. </p>
+                    <h2>Shara Magomedov Derrota a Michel Pereira por Decisión Unánime</h2>
+                    <p>Gran victoria del pirata <Link href='/peleadores/shara-magomedov'>Shara Magomedov</Link>, quien pese a ser derribado y golpeado en el primer asalto, fue capaz de reponerse rápidamente en el segundo y en el tercero, mostrando su mejor cara, con ese striking sobresaliente que tiene, y con esa capacidad de contraatacar que lo hace destacar tanto. De esta forma, fue capaz de ganar los últimos asaltos con contundencia para llevarse la victoria por decisión unánime.</p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
