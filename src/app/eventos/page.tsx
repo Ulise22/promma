@@ -23,6 +23,7 @@ import ufc323 from '@/assets/eventos/ufc/0-150/0-15/ufc323.webp'
 import ufc324 from '@/assets/eventos/ufc/0-150/0-15/ufc324.webp'
 import ufc325 from '@/assets/eventos/ufc/0-150/0-15/ufc325.webp'
 import stricklandVShernandez from '@/assets/eventos/fight-night/0-150/0-15/strickland_hernandez.webp'
+import MorenoKavanagh from '@/assets/eventos/fight-night/0-150/0-15/moreno-vs-kavanagh.webp'
 import ufc326 from '@/assets/eventos/ufc/0-150/0-15/ufc326.webp'
 import ufc328 from '@/assets/eventos/ufc/0-150/0-15/ufc328.webp'
 
@@ -38,6 +39,7 @@ export default function Eventos () {
             </section>
             <h2 className={styles.articulos__title}>Últimos Eventos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={MorenoKavanagh} url='/eventos/fight-night-moreno-kavanagh' title='UFC México: ¡Loneer Kavanagh Derrota a Brandon Moreno por Decisión Unánime!' author={null} text='¡Ailín Pérez Derrota a Macy Chiasso por Decisión Unánime! ¡David Martínez Derrota a Marlon Chito Vera por Decisión Unánime! ¡King Green Noquea a Daniel Zellhuber en el Segundo Asalto!' date='28/02/2026' />
                 <ArticlePreview img={stricklandVShernandez} url='/eventos/fight-night-strickland-hernandez' title='¡Sean Strickland Noquea a Anthony Hernandez en el Tercer Asalto!' author={null} text='¡Uros Medic Noquea a Geoff Neal en el Primer Asalto! ¡Melquizael Costa Noquea a Dan Ige en el Primer Asalto!' date='21/02/2026' />
                 <ArticlePreview img={ufc325} url='/eventos/ufc325' title='UFC 325: ¡Alexander Volkanovski Derrota a Diego Lopes por Decisión Unánime y Sigue Siendo Campeón! ¡Benoit Saint Denis Noquea a Dan Hooker en el Segundo Asalto!' author={null} text='¡Mauricio Ruffy Noquea a Rafael Fiziev en el Segundo Asalto! ¡Quillan Salkilld Somete a Jamie Mullarkey en el Primer Asalto!' date='31/01/2026' />
                 <ArticlePreview img={ufc324} url='/eventos/ufc324' title='¡Justin Gaethje Derrota a Paddy Pimblett y es Nuevo Campeón Interino! ¡Sean O&apos;Malley Derrota a Song Yadong Por Decisión Unánime!' author={null} text='¡Waldo Cortes Acosta Noquea a Derrick Lewis en el Segundo Asalto! ¡Jean Silva Derrota a Arnold Allen en La Pelea de la Noche! ¡Umar Nurmagomedov Derrota a Deiveson Figueiredo Por Decisión Unánime!' date='24/01/2026' />
