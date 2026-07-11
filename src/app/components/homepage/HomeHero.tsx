@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufcBaku from '@/assets/eventos/fight-night/0-150/0-15/fiziev-torres.webp'
+import ufc329 from '@/assets/eventos/ufc/0-150/0-15/ufc329.webp'
 import topuriaPereira from '@/assets/noticias/0-100/40-50/topuria_and_pereira.webp'
 import UFCNewRankings from '@/assets/noticias/0-100/40-50/new_rakings.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/eventos/fight-night-fiziev-torres'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufcBaku} alt='' />
-                <h2 className={styles.home__title}>UFC Baku: ¡Rafael Fiziev Noquea a Manuel Torres en el Segundo Asalto!</h2>
-                <span>¡Shara Magomedov Derrota a Michel Pereira por Decisión Unánime! ¡Kaan Ofli Somete a Javier Reyes en el Primer Asalto!</span>
+            <Link className={styles.homehero__bigArticle} href='/eventos/ufc329'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc329} alt='' />
+                <h2 className={styles.home__title}>UFC 329: ¡Conor McGregor vs Max Holloway! ¡Paddy Pimblett vs Benoit Saint Denis!</h2>
+                <span>¡Cory Sandhagen vs Mario Bautista! ¡Brandon Royval vs Loneer Kavanagh!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/ilia-topuria-y-alex-pereira'>
                 <Image className={styles.homehero__article__img} quality={50} src={topuriaPereira} alt='' />
