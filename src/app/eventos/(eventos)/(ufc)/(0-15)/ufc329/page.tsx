@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: 'UFC 329: ¡Conor McGregor vs Max Holloway!',
     description: "Histórico regreso de Conor McGregor tras 5 años para enfrentar a Max Holloway en una revancha épica en el UFC 329. ",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc329.a8e02595.webp&w=828&q=65',
         title: 'UFC 329: ¡Conor McGregor vs Max Holloway!',
         description: "Histórico regreso de Conor McGregor tras 5 años para enfrentar a Max Holloway en una revancha épica en el UFC 329. ",
         url: 'https://fullmma.org/eventos/ufc329'
