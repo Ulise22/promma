@@ -32,6 +32,8 @@ export default function UFC329 () {
                     <h2 className={styles.article__fightsHierarchy}>Primeros Preliminares</h2>
                     <h2>Alessandro Costa Somete a Cody Durden en el Primer Asalto</h2>
                     <p>Espectacular manera de comenzar esta gran cartelera. Pese a que Cody había comenzado haciendo un buen trabajo, constrolando la distancia para golpear y evitar ser golpeado, se notaba que el brasileño <b>Alessandro Costa</b> necesitaba de menos para dañar a su rival, logrando derribarlo en el segundo asalto luego de un mal pateo de Cody que lo hizo tropezar, que el brasileño aprovechó para tomarle la espalda y finalmente conectar un mataleón para acabar con la pelea por sumisión en el segundo asalto. </p>
+                    <h2>Ryan Gandra Noquea a Zachary Reese</h2>
+                    <p>Gran victoria para el brasileño <b>Ryan Gandra</b>, quien consigue el primer nocaut de la noche al conectar un volado con la izquierda que acarició la mandibula de su rival estadounidense para tumbarlo en el suelo. Posterior a esto, el brasileño se avalanzó sobre su rival para rematarlo a golpes y finalmente ganar por TKO en el primer asalto de la pelea. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p> */}
