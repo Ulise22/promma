@@ -40,9 +40,9 @@ export default function UFC329 () {
                     <p>Brutal nocaut del luchador de Aruba <b>Damian Pinas</b>, que con un brutal derechazo tumbó de inmediato al brasileño <b>Cesar Almeida</b>, dejándolo KO y negándose a dar otro golpe para rematar, hasta que el árbitro paró la pelea con el brasileño ya noqueado para declarar como ganador a Damian Pinas.</p>
                     <h2>Wang Cong Derrota a Tracy Cortez por Decisión Unánime</h2>
                     <p>Muy buena victoria para la luchadora china <b>Wang Cong</b>, quien mediante una gran cantidad de patadas a la pierna delantera de <b>Tracy Cortez</b>, fue capaz de hacer mucho daño, mermando la capacidad de respuesta de la estadounidense a lo largo del combate. Y finalmente, aunque a la asiática se le descontó un punto por dar un rodillazo ilegal, fue capaz de llevarse la victoria cómodamente al ganar los 3 asaltos del combate, con la pelea terminando en favor de Cong 29-27. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
+                    <h2>Luke Riley Noquea a Kai Kamaka III</h2>
+                    <p>Gran nocaut del luchador inglés <b>Luke Riley</b> que con un derechazo tiró a su rival al suelo, y aunque este fue capaz de ponerse de pie, recibió una catarata de golpes por parte del europeo que llevó al árbitro a terminar la pelea antes de que el estadounidense siguir recibiendo más daño, ganando de esta forma la pelea por TKO en el primer asalto, extendiendo su récord a 14-0. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
