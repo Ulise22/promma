@@ -52,6 +52,8 @@ export default function UFC329 () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>King Green Noquea a Terrance Mckinney en el Primer Asalto</h2>
                     <p>Espectacular pelea la que acabamos de presenciar, con el veterano estadounidense <b>King Green</b> haciendo algo impresionante, al dar vuelta una pelea que parecía que iba a perder, luego de sufrir demasiado a lo largo del primer asalto, siendo castigado por su joven compatriota. Sin embargo, de alguna manera fue capaz de reponerse de esta paliza, para finalmente en una extensa combinación de golpes noquear a su rival en el primer asalto, iniciando de la mejor forma esta cartelera estelar. </p>
+                    <h2>Brandon Royval Somete a Loneer Kavanagh en el Tercer Asalto</h2>
+                    <p>En lo que fue una intensa pelea, de mucho nivel por parte de ambos, quien termina saliendo victorioso es el estadounidense <b>Brandon Royval</b>, quien aunque sufrió mucho especialmente en el segundo asalto, cuando cerca estuvo de caer noqueado ante el joven inglés <b>Loneer Kavanagh</b>, logró mantenerse en pie y finalmente dar vuelta el resultado del combate en el último asalto, cuando fue capaz de llevar al europeo al suelo, tomarle la espalda, y conectar un mataleón que lo obligaría a tapear. De esta forma, el estadounidense se lleva la victoria por sumisión en el tercer asalto. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
