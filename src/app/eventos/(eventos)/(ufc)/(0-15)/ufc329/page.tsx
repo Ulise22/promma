@@ -49,9 +49,9 @@ export default function UFC329 () {
                     <p>Brutal victoria por KO para el debutante de peso pesado en la UFC <b>Gable Steveson</b>, en un combate donde ambos se dieron con todo, finalmente en una abrumadora combinación de golpes por parte del debutante, donde hubo rodillazos, ganchos, rectos y bombazos de todos los ángulos, Gable Stevenson dejó KO a su rival y compatriota <b>Elisha Ellison</b>, logrando la victoria por KO en el primer asalto y extendiendo su récord invicto a 4-0. </p>
                     <h2>Robert Whittaker Noquea a Nikita Krylov en el Tercer Asalto</h2>
                     <p>Grandiosa victoria del excampeón de peso mediano <Link href='/peleadores/robert-whittaker'>Robert Whittaker</Link>, quien subiendo de peso y debutando en peso semipesado hizo un combate sobresaliente, teniendo en cuenta el grandísimo salto de división que hizo. Manteniendo bien la distancia, cubriéndose del poder de golpeo del ruso, y conectando tantos golpes a la cabeza de su rival que parece haberle lesionado la mandibula, obligando a su rival a rendirse y dando la victoria al australiano Robert Whittaker por TKO en el tercer asalto. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>King Green Noquea a Terrance Mckinney en el Primer Asalto</h2>
+                    <p>Espectacular pelea la que acabamos de presenciar, con el veterano estadounidense <b>King Green</b> haciendo algo impresionante, al dar vuelta una pelea que parecía que iba a perder, luego de sufrir demasiado a lo largo del primer asalto, siendo castigado por su joven compatriota. Sin embargo, de alguna manera fue capaz de reponerse de esta paliza, para finalmente en una extensa combinación de golpes noquear a su rival en el primer asalto, iniciando de la mejor forma esta cartelera estelar. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
