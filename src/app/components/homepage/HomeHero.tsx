@@ -11,8 +11,8 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/eventos/ufc329'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc329} alt='' />
-                <h2 className={styles.home__title}>UFC 329: ¡Conor McGregor vs Max Holloway! ¡Paddy Pimblett vs Benoit Saint Denis!</h2>
-                <span>¡Cory Sandhagen vs Mario Bautista! ¡Brandon Royval vs Loneer Kavanagh!</span>
+                <h2 className={styles.home__title}>UFC 329: ¡Conor McGregor Se Lesiona Nuevamente y Cae Derrota ante Holloway! ¡Paddy Pimblett Somete a Benoit Saint Denis en el Primer Asalto!</h2>
+                <span>¡Mario Bautista Derrota a Cory Sandhagen por Decisión Unánime! ¡Brandon Royval Somete a Loneer Kavanagh en el Tercer Asalto!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/noticias/ilia-topuria-y-alex-pereira'>
                 <Image className={styles.homehero__article__img} quality={50} src={topuriaPereira} alt='' />
