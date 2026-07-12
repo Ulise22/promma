@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Mcgregor () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={conor} w={22} l={6} d={0} nombre='Conor Mcgregor' apodo='THE NOTORIOUS' categoria='Peso Ligero' time='2025-10-29' />
+            <PeleadoresHero peleadoresImage={conor} w={22} l={7} d={0} nombre='Conor Mcgregor' apodo='THE NOTORIOUS' categoria='Peso Ligero' time='2026-07-12' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>McGregor UFC</h2>
@@ -29,7 +29,7 @@ export default function Mcgregor () {
                     <p className={styles.peleador__article__text}>Su estilo de pelea hace uso predominantemente del striking, que acompañado de una buena pegada lo convirtieron en un peleador que finaliza casi la totalidad de sus peleas por nocaut. Esto sumado al carisma sinigual del que goza, con una labia que nadie más tiene, lo convierten en el peleador más reconocible de este deporte, por lejos. </p>
                     <p className={styles.peleador__article__text}>Es seguramente la mayor estrella con la que ha contado la UFC en su historia, habiendo puesto su nombre en lo más alto primero cuando consiguió ser campeón de peso pluma en diciembre de 2015, y después en noviembre de 2016 conseguiría el doble cinturón al campeonar en la división de peso ligero. </p>
                     <h2 className={styles.peleador__article__title}>Conor Mcgregor Récord</h2>
-                    <p className={styles.peleador__article__text}>Conor Mcgregor posee un récord profesional en las MMA de 22-6-0. Siendo 19 de esas 22 victorias por la vía del nocaut, 1 por sumisión y siendo sólo 2 de sus victorias por decisión. Mientras sus 6 derrotas se componen de 4 por sumisión y 2 por la vía del nocaut.</p>
+                    <p className={styles.peleador__article__text}>Conor Mcgregor posee un récord profesional en las MMA de 22-7-0. Siendo 19 de esas 22 victorias por la vía del nocaut, 1 por sumisión y siendo sólo 2 de sus victorias por decisión. Mientras sus 6 derrotas se componen de 4 por sumisión y 3 por la vía del nocaut.</p>
                     <h2 className={styles.peleador__article__title}>Conor Mcgregor Biografía</h2>
                     <p className={styles.peleador__article__text}>Conor Anthony Mcgregor nació el 14 de julio de 1988 en Dublín, Irlanda, donde se crío durante toda su infancia, de la mano de sus padres Tony y Margaret McGregor. De pequeño se interesó por los deportes, especialmente por el fútbol al que se dedicó a jugar hasta los 12 años, cuando comenzó a entrenar boxeo y en su adolescencia conoció al futuro peleador de ufc Tom Egan, con quien comenzó a entrenar artes marciales mixtas.</p>
                     <iframe className={styles.peleador__article__video} loading='lazy' width="560" height="315" src="https://www.youtube.com/embed/3mPPMCa8Nxw?si=EeFRSj20_2-D7MLD" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>

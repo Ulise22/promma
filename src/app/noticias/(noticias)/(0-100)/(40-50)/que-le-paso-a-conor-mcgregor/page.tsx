@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: '¿Qué Le Pasó a Conor McGregor?',
     description: "Descubre que le pasó en la pierna a Conor McGregor en su pelea contra Max Holloway en el UFC329",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmcgregor_que_le_paso.2d5e23b4.webp&w=828&q=65',
         title: '¿Qué Le Pasó a Conor McGregor?',
         description: "Descubre que le pasó en la pierna a Conor McGregor en su pelea contra Max Holloway en el UFC329",
         url: 'https://fullmma.org/noticias/que-le-paso-a-conor-mcgregor',
