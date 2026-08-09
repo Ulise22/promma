@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: 'Ian Garry Esposa Polémica',
     description: 'Descubre toda la verdad sobre la polémica de Ian Garry y su esposa Layla: diferencia de edad, el libro How to Be a WAG, rumores del ex nutricionista vegano, ataques de Sean Strickland y más.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fian_garry-esposa.fcb61ded.webp&w=828&q=65',
         title: 'Ian Garry Esposa Polémica',
         description: 'Descubre toda la verdad sobre la polémica de Ian Garry y su esposa Layla: diferencia de edad, el libro How to Be a WAG, rumores del ex nutricionista vegano, ataques de Sean Strickland y más.',
         url: 'https://fullmma.org/articulos/ian-garry-esposa-polemica',
