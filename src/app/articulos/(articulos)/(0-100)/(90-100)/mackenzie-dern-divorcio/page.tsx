@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: 'Mackenzie Dern Divorcio',
     description: 'Descubre la historia detrás del divorcio de la campeona de UFC Mackenzie Dern, las acusaciones cruzadas de violencia y la manutencion que tiene que pagar Dern.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmackenzie_dern-divorcio.4b1d2d45.webp&w=828&q=65',
         title: 'Mackenzie Dern Divorcio',
         description: 'Descubre la historia detrás del divorcio de la campeona de UFC Mackenzie Dern, las acusaciones cruzadas de violencia y la manutencion que tiene que pagar Dern.',
         url: 'https://fullmma.org/articulos/mackenzie-dern-divorcio',
