@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufcWhiteHouse from '@/assets/eventos/ufc/0-150/0-15/ufc_casa_blanca.webp'
+import ufc329 from '@/assets/eventos/ufc/0-150/0-15/ufc329.webp'
 import emmetVSvallejos from '@/assets/eventos/fight-night/0-150/0-15/emmet_vallejos.webp'
 import ufcBaku from '@/assets/eventos/fight-night/0-150/0-15/fiziev-torres.webp'
 
 export default function PageHero () {
     return(
         <section className={styles.pagehero}>
-            <Link className={styles.pagehero__bigArticle} href='/eventos/ufc-casa-blanca'>
-                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufcWhiteHouse} alt='' />
-                <h2 className={styles.page__title}>UFC Casa Blanca: ¡La Esquina de Ilia Topuria Abandona el Combate y Justin Gaethje es Nuevo Campeón por TKO! ¡Ciryl Gane Noquea a Alex Pereira en el Segundo Asalto y es Campeón Interino Otra Vez!</h2>
-                <p>¡Sean O&apos;Malley Noquea a Aiemann Zahabi en el Segundo Asalto! ¡Josh Hokit Noquea a Derrick Lewis en el Segundo Asalto!</p>
+            <Link className={styles.pagehero__bigArticle} href='/eventos/ufc329'>
+                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc329} alt='' />
+                <h2 className={styles.page__title}>UFC 329: ¡Conor McGregor Se Lesiona Nuevamente y Cae Derrota ante Holloway! ¡Paddy Pimblett Somete a Benoit Saint Denis en el Primer Asalto!</h2>
+                <p>¡Mario Bautista Derrota a Cory Sandhagen por Decisión Unánime! ¡Brandon Royval Somete a Loneer Kavanagh en el Tercer Asalto!</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal2}`} href='/eventos/fight-night-emmet-vallejos'>
                 <Image className={styles.pagehero__article__img} quality={50} src={emmetVSvallejos} alt='' />

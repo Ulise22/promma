@@ -26,6 +26,7 @@ import stricklandVShernandez from '@/assets/eventos/fight-night/0-150/0-15/stric
 import MorenoKavanagh from '@/assets/eventos/fight-night/0-150/0-15/moreno-vs-kavanagh.webp'
 import ufc326 from '@/assets/eventos/ufc/0-150/0-15/ufc326.webp'
 import ufc328 from '@/assets/eventos/ufc/0-150/0-15/ufc328.webp'
+import ufcWhiteHouse from '@/assets/eventos/ufc/0-150/0-15/ufc_casa_blanca.webp'
 
 export default function Eventos () {
     return (
@@ -34,11 +35,12 @@ export default function Eventos () {
             <section className={styles.articles__container}>
                 <ArticlePreview img={queEsDWCS} url='/eventos/dana-white-contender-series-que-es' title='Que es el Dana White Contender Series' author={null} text='¿Qué es y Cómo Funciona el Dana White Contender Series? El programa de televisión donde los peleadores compiten por un contrato con la UFC' date='19/08/2025' />
                 <ArticlePreview img={bestUFC2025} url='/eventos/mejores-eventos-ufc-2025' title='Los Mejores Eventos de UFC en 2025' author={null} text='La lista de los 3 mejores eventos de la UFC en el año 2025: Islam Makhachev, Alex Pereira, Merab Dvalishvili, Alexander Volkanovski.' date='17/12/2025' />
+                <ArticlePreview img={ufcWhiteHouse} url='/eventos/ufc-casa-blanca' title='UFC Casa Blanca: ¡La Esquina de Ilia Topuria Abandona el Combate y Justin Gaethje es Nuevo Campeón por TKO! ¡Ciryl Gane Noquea a Alex Pereira en el Segundo Asalto y es Campeón Interino Otra Vez!' author={null} text='¡Sean O&apos;Malley Noquea a Aiemann Zahabi en el Segundo Asalto! ¡Josh Hokit Noquea a Derrick Lewis en el Segundo Asalto!' date='14/06/2026' />
                 <ArticlePreview img={ufc328} url='/eventos/ufc328' title='UFC 328: ¡Sean Strickland Sorprende al Mundo y Derrota a Khamzat Chimaev y es Nuevo Campeón! ¡Joshua Van Noquea a Tatsuro Taira en el Último Asalto en La Pelea de la Noche!' author={null} text='¡Alexander Volkov Derrota a Waldo Cortes Acosta por Decisión Unánime! ¡Yaroslav Amosov Somete a Joel Álvarez en el Segundo Asalto!' date='09/05/2026' />
-                <ArticlePreview img={ufc326} url='/eventos/ufc326' title='UFC 326: ¡Charles Oliveira Derrota a Max Holloway y es el Nuevo BMF!' author={null} text='¡Caio Borralho Derrota a Reiner De Ridder por Decisión Unánime! ¡Raúl Rosas Jr. Derrota a Rob Font por Decisión Unánime y Se Mete en los Rankings!' date='07/03/2026' />
             </section>
             <h2 className={styles.articulos__title}>Últimos Eventos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={ufc326} url='/eventos/ufc326' title='UFC 326: ¡Charles Oliveira Derrota a Max Holloway y es el Nuevo BMF!' author={null} text='¡Caio Borralho Derrota a Reiner De Ridder por Decisión Unánime! ¡Raúl Rosas Jr. Derrota a Rob Font por Decisión Unánime y Se Mete en los Rankings!' date='07/03/2026' />
                 <ArticlePreview img={MorenoKavanagh} url='/eventos/fight-night-moreno-kavanagh' title='UFC México: ¡Loneer Kavanagh Derrota a Brandon Moreno por Decisión Unánime!' author={null} text='¡Ailín Pérez Derrota a Macy Chiasso por Decisión Unánime! ¡David Martínez Derrota a Marlon Chito Vera por Decisión Unánime! ¡King Green Noquea a Daniel Zellhuber en el Segundo Asalto!' date='28/02/2026' />
                 <ArticlePreview img={stricklandVShernandez} url='/eventos/fight-night-strickland-hernandez' title='¡Sean Strickland Noquea a Anthony Hernandez en el Tercer Asalto!' author={null} text='¡Uros Medic Noquea a Geoff Neal en el Primer Asalto! ¡Melquizael Costa Noquea a Dan Ige en el Primer Asalto!' date='21/02/2026' />
                 <ArticlePreview img={ufc325} url='/eventos/ufc325' title='UFC 325: ¡Alexander Volkanovski Derrota a Diego Lopes por Decisión Unánime y Sigue Siendo Campeón! ¡Benoit Saint Denis Noquea a Dan Hooker en el Segundo Asalto!' author={null} text='¡Mauricio Ruffy Noquea a Rafael Fiziev en el Segundo Asalto! ¡Quillan Salkilld Somete a Jamie Mullarkey en el Primer Asalto!' date='31/01/2026' />
