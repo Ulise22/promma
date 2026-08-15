@@ -39,6 +39,8 @@ export default function UFC330 () {
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2>Tresean Gore Derrota a Vicente Luque Por Decisión Unánime</h2>
                     <p>Primera pelea de la noche que va a la decisión, esta vez con victoria para el estadounidense <b>Tresean Gore</b>, quien dominó claramente el combate ante su rival brasileño <b>Vicente Luque</b>, quien había subido de división y estaba debutando en peso medio, haciendo un papel destacable pero insuficiente, dado que aunque aguantó y mostró gran corazón para pelear, aguantando varios intentos de sumisión que podrían haber acabado la pelea en cualquier momento, no fue capaz de lastimar a su rival de ninguna forma significativa, cayendo derrotado por decisión ante el americano. </p>
+                    <h2>Donte Johnson Noquea a Eric McConico en el Primer Asalto</h2>
+                    <p>Brutal manera de debutar en la UFC por parte del estadounidense invicto <b>Donte Johnson</b>, quien en el primer asalto del combate conectó un bombazo a su rival que lo tumbó al suelo inmediatamente, manteniendo y extendiendo su invicto por KO en el primer asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
