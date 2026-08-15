@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc329 from '@/assets/eventos/ufc/0-150/0-15/ufc329.webp'
+import ufc330 from '@/assets/eventos/ufc/0-150/0-15/ufc330.webp'
 import ianGarryEsposa from '@/assets/articulos/0-100/90-100/ian_garry-esposa.webp'
 import mackenzieDernDivorcio from '@/assets/articulos/0-100/90-100/mackenzie_dern-divorcio.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/eventos/ufc329'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc329} alt='' />
-                <h2 className={styles.home__title}>UFC 329: ¡Conor McGregor Se Lesiona Nuevamente y Cae Derrota ante Holloway! ¡Paddy Pimblett Somete a Benoit Saint Denis en el Primer Asalto!</h2>
-                <span>¡Mario Bautista Derrota a Cory Sandhagen por Decisión Unánime! ¡Brandon Royval Somete a Loneer Kavanagh en el Tercer Asalto!</span>
+            <Link className={styles.homehero__bigArticle} href='/eventos/ufc330'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc330} alt='' />
+                <h2 className={styles.home__title}>UFC 330: ¡Islam Makhachev vs Ian Garry! ¡Mackenzie Dern vs Gillian Robertson!</h2>
+                <span>¡Esteban Ribovics vs Edson Barboza! ¡Joel Álvarez vs Chidi Njokuani!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/ian-garry-esposa-polemica'>
                 <Image className={styles.homehero__article__img} quality={50} src={ianGarryEsposa} alt='' />
