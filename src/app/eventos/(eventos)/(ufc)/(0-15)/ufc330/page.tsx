@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: 'UFC 330: ¡Islam Makhachev vs Ian Garry!',
     description: "Gran evento de UFC con Islam Makhachev defendiendo el título de peso wélter ante Ian Garry. Y con Mackenzie Dern defendendiendo su cinturón de campeón ante Gillian Robertson.",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc330.56eb11c4.webp&w=828&q=65',
         title: 'UFC 330: ¡Islam Makhachev vs Ian Garry!',
         description: "Gran evento de UFC con Islam Makhachev defendiendo el título de peso wélter ante Ian Garry. Y con Mackenzie Dern defendendiendo su cinturón de campeón ante Gillian Robertson.",
         url: 'https://fullmma.org/eventos/ufc330'
@@ -31,7 +31,9 @@ export default function UFC330 () {
                     <p>Por si fuera poco, para el público hispano tendremos 2 peleas a las que vamos a prestarle especial atención. Primero, con el español <Link href="/peleadores/joel-alvarez">Joel Álvarez</Link> cerrando las preliminares en una pelea que aceptó en corto aviso ante el estadounidense <b>Chidi Njokuani</b>. Y luego, abriendo la cartelera estelar tendremos al argentino <Link href="/peleadores/esteban-ribovics">Esteban Ribovics</Link> enfrentando al histórico peleador brasileño <b>Edson Barboza</b>, en la que es candidata a ser una de las peleas de la noche. </p>
                     <h2 className={styles.article__fightsHierarchy}>Primeros Preliminares</h2>
                     <h2>¡Jeremiah Wells Somete a Myktybek Orolbai en el Tercer Asalto!</h2>
-                    <p>Sorpresón el que acaba de dar el oriundo de Philadelphia <b>Jemeiah Wells</b>, quien partía claramente desfavorecido en las casas de apuestas por bastante margen, y que aunque inició perdiendo el combate, siendo derribado y sufriendo la tremenda lucha del luchador de Kirguistán, fue capaz de conectar una llave en el cuello de su rival justo cuando este intento derribarlo, para finalmente mandarlo a dormir con una sumisión que le dió la victoria en el tercer asalto, de la única forma que podría haberlo conseguido. </p>
+                    <p>Sorpresón el que acaba de dar el oriundo de Philadelphia <b>Jemeiah Wells</b>, quien partía claramente desfavorecido en las casas de apuestas por bastante margen, y que aunque inició perdiendo el combate, siendo derribado y sufriendo la tremenda lucha del luchador de Kirguistán, fue capaz de conectar una llave en el cuello de su rival justo cuando este intento derribarlo, para finalmente mandarlo a dormir con una sumisión que le dió la victoria en el tercer asalto, de la única forma que podría haberlo conseguido. Luego de esta gran victoria en su ciudad natal, el luchador americano anunció su retirada por todo lo alto, sometiendo a un rival durísimo y frente a su gente.  </p>
+                    <h2>Neil Magny Noquea a Ramiz Brahimaj en el Segundo Asalto!</h2>
+                    <p>Gran victoria por parte del veterano estadounidense <b>Neil Magny</b>, quien pese a perder el primer asalto de la pelea, siendo derribado y castigado a golpes desde el suelo, en el segundo fue capaz de reponerse y dar vuelta el combate, poniéndose de pie después de ser derribado nuevamente, tomando la espalda de su rival y desde ahí castigándolo a golpes potentísimos que lastimaron a su compatriota hasta que el árbitro los separó, dándolo como ganador por TKO en el segundo asalto. </p>                    
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p> */}
