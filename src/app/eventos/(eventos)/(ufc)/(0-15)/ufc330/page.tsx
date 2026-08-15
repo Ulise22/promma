@@ -36,9 +36,9 @@ export default function UFC330 () {
                     <p>Gran victoria por parte del veterano estadounidense <b>Neil Magny</b>, quien pese a perder el primer asalto de la pelea, siendo derribado y castigado a golpes desde el suelo, en el segundo fue capaz de reponerse y dar vuelta el combate, poniéndose de pie después de ser derribado nuevamente, tomando la espalda de su rival y desde ahí castigándolo a golpes potentísimos que lastimaron a su compatriota hasta que el árbitro los separó, dándolo como ganador por TKO en el segundo asalto. </p>           
                     <h2>Lucas Fernando Noquea a Rafael Tobias en el Tercer Asalto</h2>         
                     <p>Brutal desempeño del debutante brasileño <b>Lucas Fernando</b>, quien en lo que fue una total dominación a su rival y compatriota, fue capaz de finalizar en el tercer asalto, conectando un rodillazo al abdomen que dejó muy dolido a Tobias, llevando al árbitro a parar el combate cuando apenas Fernando había conectado un par de golpes más. De esta forma, Lucas Fernando debuta con victoria por TKO en el tercer asalto en la UFC.</p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
+                    <h2>Tresean Gore Derrota a Vicente Luque Por Decisión Unánime</h2>
+                    <p>Primera pelea de la noche que va a la decisión, esta vez con victoria para el estadounidense <b>Tresean Gore</b>, quien dominó claramente el combate ante su rival brasileño <b>Vicente Luque</b>, quien había subido de división y estaba debutando en peso medio, haciendo un papel destacable pero insuficiente, dado que aunque aguantó y mostró gran corazón para pelear, aguantando varios intentos de sumisión que podrían haber acabado la pelea en cualquier momento, no fue capaz de lastimar a su rival de ninguna forma significativa, cayendo derrotado por decisión ante el americano. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
