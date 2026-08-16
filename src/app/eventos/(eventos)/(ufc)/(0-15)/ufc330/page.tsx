@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function UFC330 () {
     return(
         <main>
-            <ArticleHero title="UFC 330: ¡Islam Makhachev vs Ian Garry! ¡Mackenzie Dern vs Gillian Robertson!" subtitle='¡Esteban Ribovics vs Edson Barboza! ¡Chidi Njokuani Derrota a Joel Álvarez por Decisión Unánime!' image={hero} date='2026-08-15' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 330: ¡Islam Makhachev vs Ian Garry! ¡Mackenzie Dern vs Gillian Robertson!" subtitle='¡Esteban Ribovics Noquea en el Segundo Asalto en el Retiro de Edson Barboza! ¡Chidi Njokuani Derrota a Joel Álvarez por Decisión Unánime!' image={hero} date='2026-08-15' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Gran noche de UFC tenemos el día de hoy en la ciudad de <b>Rocky Balboa</b>, Philadelphia, donde veremos en el evento estelar al campeón de peso wélter <Link href="/peleadores/islam-makhachev">Islam Makhachev</Link> denfender por primera vez su cinturón ante el irlandés <Link href="/peleadores/ian-garry">Ian Garry</Link>, que viene de una gran victoria ante otro luchador como <Link href="/peleadores/belal-muhammad">Belal Muhammad</Link>. Además, en el evento coestelar tendremos otra pelea titular, cuando la recientemente coronada campeona <Link href="/mujeres/mackenzie-dern">Mackenzie Dern</Link> defenderá por primera vez el título ante la #5 de la división, <b>Gillian Robertson</b>. </p>
@@ -45,9 +45,9 @@ export default function UFC330 () {
                     <p>Locura total lo que acaba de hacer <b>Charles Johnson</b>, tal y como nos tiene acostumbrados, en un combate donde daba la sensación de que podía ser finalizado en cualquier momento, recibiendo varios knockdowns durante el combate, y sufriendo un golpe ilegal en el primer asalto (que le valió una quita de punto al brasileño Chapolin) que le hizo bastante daño, aún así en el tercer asalto fue capaz de agarrar de una forma extraña al de Brasil <b>Eduardo Chapolin</b> que obligó a este a tapear. De esta forma, el veterano <b>Charles Johnson</b> se lleva la victoria por sumisión en el tercer asalto.</p>
                     <h2>Chidi Njokuani Derrota a Joel Álvarez por Decisión Unánime</h2>
                     <p>Gran victoria para el estadounidense <b>Chidi Njokuani</b>, quien no inició este combate como el favorito, lejos de ello, y aún así fue capaz de dictar el ritmo del combate, conectando una gran cantidad de patadas a la pierna de <Link href="/peleadores/joel-alvarez">Joel Álvarez</Link> que entre esto y la cantidad de golpes que estaba recibiendo no fue capaz de encontrar una respuesta a los problemas que el estadounidense le planteó. De esta forma, por decisión unánime, <b>Chidi Njokuani</b> se llevó la victoria.</p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>¡Esteban Ribovics Noquea en el Segundo Asalto en el Retiro de Edson Barboza!</h2>
+                    <p>Espectacular victoria y desempeño del luchador argentino de peso ligero <Link href="/peleadores/esteban-ribovics">Esteban Ribovics</Link>, quien dió una exhibición impresionante en el combate, dominando a su rival con ese striking sobresaliente que tiene, finalmente logrando la victoria por TKO en el segundo asalto ante un peleador histórico como lo es <b>Edson Barboza</b>, quien es una leyenda y que luego del combate colgó los guantes y se retiró ovacionado por todo el público y por su rival. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
