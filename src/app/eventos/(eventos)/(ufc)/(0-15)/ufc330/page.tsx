@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function UFC330 () {
     return(
         <main>
-            <ArticleHero title="UFC 330: ¡Islam Makhachev vs Ian Garry! ¡Mackenzie Dern vs Gillian Robertson!" subtitle='¡Esteban Ribovics Noquea en el Segundo Asalto en el Retiro de Edson Barboza! ¡Chidi Njokuani Derrota a Joel Álvarez por Decisión Unánime!' image={hero} date='2026-08-15' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 330: ¡Islam Makhachev vs Ian Garry! ¡Mackenzie Dern Derrota a Gillian Robertson por Decisión Unánime y Retiene el Cinturón!" subtitle='¡Esteban Ribovics Noquea en el Segundo Asalto en el Retiro de Edson Barboza! ¡Chidi Njokuani Derrota a Joel Álvarez por Decisión Unánime!' image={hero} date='2026-08-15' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Gran noche de UFC tenemos el día de hoy en la ciudad de <b>Rocky Balboa</b>, Philadelphia, donde veremos en el evento estelar al campeón de peso wélter <Link href="/peleadores/islam-makhachev">Islam Makhachev</Link> denfender por primera vez su cinturón ante el irlandés <Link href="/peleadores/ian-garry">Ian Garry</Link>, que viene de una gran victoria ante otro luchador como <Link href="/peleadores/belal-muhammad">Belal Muhammad</Link>. Además, en el evento coestelar tendremos otra pelea titular, cuando la recientemente coronada campeona <Link href="/mujeres/mackenzie-dern">Mackenzie Dern</Link> defenderá por primera vez el título ante la #5 de la división, <b>Gillian Robertson</b>. </p>
@@ -52,6 +52,8 @@ export default function UFC330 () {
                     <p>Otra sorpresa la que nos acaba de dar el estadounidense <b>Dustin Stoltzfus</b>, quien aunque no aparecía como favorito en las casas de apuestas, y no por poco, fue capaz de conseguir una victoria que vale la pena destacar, conectando unos golpes en el segundo asalto que derribarían a su rival, aprovechando la ocasión para tomar la espalda de su compatriota y conectar un mataleón que le daría la victoria por sumisión.</p>
                     <h2>Jailin Turner Noquea a Kaue Fernandes en el Primer Asalto</h2>
                     <p>Gran victoria del estadounidense <b>Jailin Turner</b> en la división de peso ligero ante el brasileño <b>Kaue Fernandes</b>, a quien dominó claramente durante el corto periodo que duró el combate, finalizando con un gancho de izquierda al que le siguió una avalancha de golpes para llevarse la victoria por TKO en el primer asalto. </p>
+                    <h2>Mackenzie Dern Derrota a Gillian Robertson por Decisión Unánime</h2>
+                    <p>Gran victoria para la estadounidense <Link href="/mujeres/mackenzie-dern">Mackenzie Dern</Link> de origen brasileño, quien en una pelea donde demostró dominio total, combinando muy bien el boxeo con su jiu-jitsu, demostrando una clara progresión en su juego. Finalmente terminaría ganando los primeros 4 asaltos y sufriría recién en el último, cuando la pelea ya estaba ganada y sólo necesitaba resistir los embates de la canadiense <b>Gillian Robertson</b>, que necesitaba finalizar si o si para ganar. Dern fue capaz de resistir y defenderse muy bien durante ese último asalto, y aunque lo perdió, ganó la pelea por decisión unánime 4-1, concretando la primer defensa exitosa de su cinturón. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
