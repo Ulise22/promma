@@ -48,6 +48,8 @@ export default function UFC330 () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>¡Esteban Ribovics Noquea en el Segundo Asalto en el Retiro de Edson Barboza!</h2>
                     <p>Espectacular victoria y desempeño del luchador argentino de peso ligero <Link href="/peleadores/esteban-ribovics">Esteban Ribovics</Link>, quien dió una exhibición impresionante en el combate, dominando a su rival con ese striking sobresaliente que tiene, finalmente logrando la victoria por TKO en el segundo asalto ante un peleador histórico como lo es <b>Edson Barboza</b>, quien es una leyenda y que luego del combate colgó los guantes y se retiró ovacionado por todo el público y por su rival. </p>
+                    <h2>Dustin Stoltzfus Somete a Mansur Abdul-Malik en el Segundo Asalto</h2>
+                    <p>Otra sorpresa la que nos acaba de dar el estadounidense <b>Dustin Stoltzfus</b>, quien aunque no aparecía como favorito en las casas de apuestas, y no por poco, fue capaz de conseguir una victoria que vale la pena destacar, conectando unos golpes en el segundo asalto que derribarían a su rival, aprovechando la ocasión para tomar la espalda de su compatriota y conectar un mataleón que le daría la victoria por sumisión.</p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
