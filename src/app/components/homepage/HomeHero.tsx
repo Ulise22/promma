@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/eventos/ufc330'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc330} alt='' />
                 <h2 className={styles.home__title}>UFC 330: ¡Islam Makhachev vs Ian Garry! ¡Mackenzie Dern vs Gillian Robertson!</h2>
-                <span>¡Esteban Ribovics vs Edson Barboza! ¡Joel Álvarez vs Chidi Njokuani!</span>
+                <span>¡Esteban Ribovics vs Edson Barboza! ¡Chidi Njokuani Derrota a Joel Álvarez por Decisión Unánime!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/ian-garry-esposa-polemica'>
                 <Image className={styles.homehero__article__img} quality={50} src={ianGarryEsposa} alt='' />
