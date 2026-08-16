@@ -50,6 +50,8 @@ export default function UFC330 () {
                     <p>Espectacular victoria y desempeño del luchador argentino de peso ligero <Link href="/peleadores/esteban-ribovics">Esteban Ribovics</Link>, quien dió una exhibición impresionante en el combate, dominando a su rival con ese striking sobresaliente que tiene, finalmente logrando la victoria por TKO en el segundo asalto ante un peleador histórico como lo es <b>Edson Barboza</b>, quien es una leyenda y que luego del combate colgó los guantes y se retiró ovacionado por todo el público y por su rival. </p>
                     <h2>Dustin Stoltzfus Somete a Mansur Abdul-Malik en el Segundo Asalto</h2>
                     <p>Otra sorpresa la que nos acaba de dar el estadounidense <b>Dustin Stoltzfus</b>, quien aunque no aparecía como favorito en las casas de apuestas, y no por poco, fue capaz de conseguir una victoria que vale la pena destacar, conectando unos golpes en el segundo asalto que derribarían a su rival, aprovechando la ocasión para tomar la espalda de su compatriota y conectar un mataleón que le daría la victoria por sumisión.</p>
+                    <h2>Jailin Turner Noquea a Kaue Fernandes en el Primer Asalto</h2>
+                    <p>Gran victoria del estadounidense <b>Jailin Turner</b> en la división de peso ligero ante el brasileño <b>Kaue Fernandes</b>, a quien dominó claramente durante el corto periodo que duró el combate, finalizando con un gancho de izquierda al que le siguió una avalancha de golpes para llevarse la victoria por TKO en el primer asalto. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
