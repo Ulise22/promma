@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc329 from '@/assets/eventos/ufc/0-150/0-15/ufc329.webp'
+import ufc330 from '@/assets/eventos/ufc/0-150/0-15/ufc330.webp'
 import emmetVSvallejos from '@/assets/eventos/fight-night/0-150/0-15/emmet_vallejos.webp'
 import ufcBaku from '@/assets/eventos/fight-night/0-150/0-15/fiziev-torres.webp'
 
 export default function PageHero () {
     return(
         <section className={styles.pagehero}>
-            <Link className={styles.pagehero__bigArticle} href='/eventos/ufc329'>
-                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc329} alt='' />
-                <h2 className={styles.page__title}>UFC 329: ¡Conor McGregor Se Lesiona Nuevamente y Cae Derrota ante Holloway! ¡Paddy Pimblett Somete a Benoit Saint Denis en el Primer Asalto!</h2>
-                <p>¡Mario Bautista Derrota a Cory Sandhagen por Decisión Unánime! ¡Brandon Royval Somete a Loneer Kavanagh en el Tercer Asalto!</p>
+            <Link className={styles.pagehero__bigArticle} href='/eventos/ufc330'>
+                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc330} alt='' />
+                <h2 className={styles.page__title}>UFC 330: ¡Islam Makhachev Derrota a Ian Garry Por Decisión Unánime y Sigue Siendo Campeón! ¡Mackenzie Dern Derrota a Gillian Robertson por Decisión Unánime y Retiene el Cinturón!</h2>
+                <p>¡Esteban Ribovics Noquea en el Segundo Asalto en el Retiro de Edson Barboza! ¡Chidi Njokuani Derrota a Joel Álvarez por Decisión Unánime!</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal2}`} href='/eventos/fight-night-emmet-vallejos'>
                 <Image className={styles.pagehero__article__img} quality={50} src={emmetVSvallejos} alt='' />
