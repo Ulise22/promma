@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: 'UFC Noche: ¡Jean Silva vs Jose Miguel Delgado!',
     description: 'UFC Noche: Jean Silva se enfrenta a Jose Miguel Delgado en la cartelera estelar. Brandon Moreno pelea contra Joseph Morales y Alexa Grasso se enfrenta a Maonon Fiorot en la cartelera estelar.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc_noche.0a7c1f1b.webp&w=828&q=65',
         title: 'UFC Noche: ¡Jean Silva vs Jose Miguel Delgado!',
         description: 'UFC Noche: Jean Silva se enfrenta a Jose Miguel Delgado en la cartelera estelar. Brandon Moreno pelea contra Joseph Morales y Alexa Grasso se enfrenta a Maonon Fiorot en la cartelera estelar.',
         url: 'https://fullmma.org/eventos/fight-night-silva-delgado'

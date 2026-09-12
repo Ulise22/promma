@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: 'Jean Silva Historia Madre',
     description: 'Descubre toda la verdad sobre la trágica infancia de Jean Silva: el asesinato de un hermano, el abuso y encarcelamiento de su madre.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjean_silva-madre.bb389f80.webp&w=828&q=65',
         title: 'Jean Silva Historia Madre',
         description: 'Descubre toda la verdad sobre la trágica infancia de Jean Silva: el asesinato de un hermano, el abuso y encarcelamiento de su madre.',
         url: 'https://fullmma.org/articulos/jean-silva-historia-madre',
