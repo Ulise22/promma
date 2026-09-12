@@ -51,6 +51,8 @@ export default function SilvaDelgado () {
                     <p>Victoria del estadounidense <b>Curtis Blaydes</b> sobre el dominicano <Link href='/peleadores/waldo-cortes-acosta'>Waldo Cortes Acosta</Link>, en un combate con poca acción por parte de ambos, con el de latinoamérica siendo conservador en sus golpes por miedo a ser derribado, y con el de Estados Unidos manteniendo la distancia y evitando ser golpeado lo más posible, conectando algunos derribos que le sirvieron para puntuar y terminar llevándose la victoria por decisión unánime.</p>
                     <h2>Alexa Grasso Derrota a Maonon Fiorot por decisión unánime</h2>
                     <p>Grandísima victoria de la excampeona local <Link href='/mujeres/alexa-grasso'>Alexa Grasso</Link>, quien con su dominante boxeo, de guardia cerrada yendo siempre para adelante, fue capaz de acorralar a su rival francesa, golpeándola y haciéndole mucho daño para terminar llevándose la victoria por decisión unánime 29-28.</p>
+                    <h2>Tommy McMillen Derrota a Marwan Rahiki por decisión unánime y le quita el invicto</h2>
+                    <p>Tremenda pelea la que acabamos de presenciar, en un choque de invictos, el estadounidense <b>Tommy McMillen</b> fue quien se llevó la victoria y mantuvo el 0 en el récord, dominando con claridad al marroquí <b>Marwan Rahiki</b>, en un combate donde pasó de todo, en el que parecía que cualquier cosa podía pasar, con knocdowns cayendo de ambos lados a lo largo del combate. Finalmente los jueces le dieron la victoria a Tommy McMillen por decisión unánime.</p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
