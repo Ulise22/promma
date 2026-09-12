@@ -47,6 +47,8 @@ export default function SilvaDelgado () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>David Martínez Derrota a Dan Ige por decisión unánime</h2>
                     <p>Gran victoria del mexicano <b>David Martínez</b> frente a su gente ante un rival durísimo e histórico como lo es <b>Dan Ige</b>, dominando y siendo mejor que su rival durante los 3 asaltos del combate para llevarse la victoria sin lugar a dudas por decisión unánime. </p>
+                    <h2>Curtis Blaydes Derrota a Waldo Cortes Acosta por decisión unánime</h2>
+                    <p>Victoria del estadounidense <b>Curtis Blaydes</b> sobre el dominicano <b>Waldo Cortes Acosta</b>, en un combate con poca acción por parte de ambos, con el de latinoamérica siendo conservador en sus golpes por miedo a ser derribado, y con el de Estados Unidos manteniendo la distancia y evitando ser golpeado lo más posible, conectando algunos derribos que le sirvieron para puntuar y terminar llevándose la victoria por decisión unánime.</p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
