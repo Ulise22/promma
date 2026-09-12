@@ -34,6 +34,8 @@ export default function SilvaDelgado () {
                     <p>Gran manera de iniciar la cartelera en México, con una excelente victoria para la mexicana <b>Regina Tarin</b>, quien luego de dominar durante gran parte del combate, especialmente en los últimos 2 asaltos, consigue una victoria por decisión unánime que la mete de lleno en los rankings de la división femenina. </p>
                     <h2>Sean King III Deja KO a Jessie Rosas en el Primer Asalto</h2>
                     <p>BRUTAL nocaut del estadounidense de 22 años <b>Sean King III</b>, quien levantó en el aire a su rival mexicano <b>Jessie Rosas</b> (hermano de <Link href='/peleadores/raul-rosas-jr'>Raul Rosas Jr.</Link>) y lo lanzó al suelo, estrellando la cabeza contra el piso y quedando KO inmediatamente. De esta manera, el debutante y luchador menos experimentado de la cartelera, se lleva la victoria por KO en su debut en la compañía y muy probablemente se haga con el bono a la actuación de la noche. </p>
+                    <h2>Rongzhu Derrota a Rafa García por Decisión Unánime</h2>
+                    <p>Espectacular pelea la que acabamos de presenciar, con ambos luchadores siendo muy agresivos con el otro, ofreciéndonos un espectáculo. El luchador local <b>Rafa García</b> fue capaz de dominar claramente el primer asalto, pero el luchador chino <b>Rongzhu</b> fue capaz de recuperarse en los últimos 2 asaltos, arrebatándole la victoria al local por decisión unánime. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
