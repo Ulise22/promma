@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function SilvaDelgado () {
     return(
         <main>
-            <ArticleHero title='UFC Noche: ¡Jean Silva vs Jose Miguel Delgado!' subtitle='¡Brandon Moreno vs Joseph Morales! ¡Alexa Grasso Derrota a Maonon Fiorot por Decisión Unánime!' image={hero} date='2025-09-12' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Noche: ¡Jean Silva vs Jose Miguel Delgado!' subtitle='¡Brandon Moreno Derrota a Joseph Morales por Decisión Dividida! ¡Alexa Grasso Derrota a Maonon Fiorot por Decisión Unánime!' image={hero} date='2025-09-12' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tremendo evento de UFC tenemos en honor a la independencia de México como todos los años, con el peleador brasileño de los <Link href='/articulos/fighting-nerds'>Fighting Nerds</Link>, <Link href='/peleadores/jean-silva'>Jean Silva</Link> como protagonista enfrentando al mexicano <b>Jose Miguel Delgado</b> en la cartelera estelar. Además, en la pelea coestelar estará peleando la estrella mexicana y excampeón <Link href='/peleadores/brandon-moreno'>Brandon Moreno</Link>, enfrentando al estadounidense <b>Joseph Morales</b>. </p>
@@ -53,6 +53,8 @@ export default function SilvaDelgado () {
                     <p>Grandísima victoria de la excampeona local <Link href='/mujeres/alexa-grasso'>Alexa Grasso</Link>, quien con su dominante boxeo, de guardia cerrada yendo siempre para adelante, fue capaz de acorralar a su rival francesa, golpeándola y haciéndole mucho daño para terminar llevándose la victoria por decisión unánime 29-28.</p>
                     <h2>Tommy McMillen Derrota a Marwan Rahiki por decisión unánime y le quita el invicto</h2>
                     <p>Tremenda pelea la que acabamos de presenciar, en un choque de invictos, el estadounidense <b>Tommy McMillen</b> fue quien se llevó la victoria y mantuvo el 0 en el récord, dominando con claridad al marroquí <b>Marwan Rahiki</b>, en un combate donde pasó de todo, en el que parecía que cualquier cosa podía pasar, con knocdowns cayendo de ambos lados a lo largo del combate. Finalmente los jueces le dieron la victoria a Tommy McMillen por decisión unánime.</p>
+                    <h2>Brandon Moreno Derrota a Joseph Morales por Decisión Dividida</h2>
+                    <p>Grandísima victoria para el excampeón mexicano de peso pluma <Link href='/peleadores/brandon-moreno'>Brandon Moreno</Link>, quien en una pelea algo cerrada fue capaz de puntuar y hacer bastante daño para llevarse la victoria, con el tercer asalto siendo el más claro de todos, dado que además de conectar muchos golpes fue capaz de llevar al piso a su rival en 2 ocasiones. De esta forma la leyenda mexicana es capaz de llevarse la victoria por decisión dividida ante su gente en su primer <b>UFC Noche</b>. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />

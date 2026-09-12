@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/eventos/fight-night-silva-delgado'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={silvaDelgado} alt='' />
                 <h2 className={styles.home__title}>UFC Noche: ¡Jean Silva vs Jose Miguel Delgado!</h2>
-                <span>¡Brandon Moreno vs Joseph Morales! ¡Alexa Grasso Derrota a Maonon Fiorot por Decisión Unánime!</span>
+                <span>¡Brandon Moreno Derrota a Joseph Morales por Decisión Dividida! ¡Alexa Grasso Derrota a Maonon Fiorot por Decisión Unánime!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/jean-silva-historia-madre'>
                 <Image className={styles.homehero__article__img} quality={50} src={jeanSilvaMadre} alt='' />
