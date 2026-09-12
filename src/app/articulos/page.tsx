@@ -102,19 +102,21 @@ import alexPereiraMecanico from '@/assets/articulos/0-100/80-90/alex_pereira-mec
 import JoshHokitPersonaje from '@/assets/articulos/0-100/90-100/johs_hokit-personaje.webp'
 import ianGarryEsposa from '@/assets/articulos/0-100/90-100/ian_garry-esposa.webp'
 import mackenzieDernDivorcio from '@/assets/articulos/0-100/90-100/mackenzie_dern-divorcio.webp'
+import jeanSilvaMadre from '@/assets/articulos/0-100/90-100/jean_silva-madre.webp'
 
 export default function Articulos () {
     return(
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
+                <ArticlePreview img={jeanSilvaMadre} url='/articulos/jean-silva-historia-madre' title='La Trágica Historia de la Madre de Jean Silva' author={null} text='Como el asesinato de un hermano, el abuso y encarcelamiento de su madre forjaron a Jean &quot;Lord&quot; Silva.' date='12/09/2026' />
                 <ArticlePreview img={mackenzieDernDivorcio} url='/articulos/mackenzie-dern-divorcio' title='El Turbulento Divorcio de Mackenzie Dern' author={null} text='Descubre la historia detrás del divorcio de la campeona de UFC Mackenzie Dern, las acusaciones cruzadas de violencia y la manutencion que tiene que pagar Dern.' date='12/06/2026' />
                 <ArticlePreview img={ianGarryEsposa} url='/articulos/ian-garry-esposa-polemica' title='Ian Garry y la Polémica Relación con su Esposa' author={null} text='Conoce toda la polémica que rodea a la esposa de Ian Garry: la diferencia de edad, su libro &quot;How to Be a WAG&quot;, su exesposo y nutriocionista de Garry y las críticas de Sean Strickland' date='09/08/2026' />
                 <ArticlePreview img={JoshHokitPersonaje} url='/articulos/josh-hokit-es-un-personaje' title='¿Josh Hokit es un personaje?' author={null} text='Como Josh Hokit usa personajes exagerados para ganar hype y dar atención a los pesos pesados.' date='10/06/2026' />
-                <ArticlePreview img={alexPereiraMecanico} url='/articulos/alex-pereira-mecanico' title='Alex Pereira: De Mecánico Alcoholico en Sao Paulo a ¿Triple Campeón de UFC?' author={null} text='La historia de superación de Alex Pereira, quien entrenó para superar su alcoholismo, y abandonó su taller mecánico para ser campeón de Kickboxing y de la UFC. ' date='06/06/2026' />
-            </section>
+            </section>    
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={alexPereiraMecanico} url='/articulos/alex-pereira-mecanico' title='Alex Pereira: De Mecánico Alcoholico en Sao Paulo a ¿Triple Campeón de UFC?' author={null} text='La historia de superación de Alex Pereira, quien entrenó para superar su alcoholismo, y abandonó su taller mecánico para ser campeón de Kickboxing y de la UFC. ' date='06/06/2026' />
                 <ArticlePreview img={iliaTopuriaOrigen} url='/articulos/ilia-topuria-origen' title='Los Origenes de Ilia Topuria' author={null} text='Cómo un niño nacido en Alemania, de padres georgianos se mudó a España para entrenar MMA y convertirse en doble campeón de la UFC' date='05/06/2026' />
                 <ArticlePreview img={alexPereiraReligion} url='/articulos/alex-pereira-religion' title='¿De Qué Religión es Alex Pereira?' author={null} text='La religión de Alex Pereira: su viaje espiritual - Cristianismo, Islam, Chamanismo y sus raíces indígenas.' date='04/06/2026' />
                 <ArticlePreview img={iliaTopuriaAM} url='/articulos/ilia-topuria-que-artes-marciales-sabe' title='¿Qué Artes Marciales Sabe Ilia Topuria?' author={null} text='Las artes marciales que domina Ilia Topuria, su grappling y striking, sus inicios en al lucha grecorromana, su cinturón negro en BJJ y su boxeo de élite.' date='03/06/2026' />
