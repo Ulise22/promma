@@ -38,6 +38,8 @@ export default function SilvaDelgado () {
                     <p>Espectacular pelea la que acabamos de presenciar, con ambos luchadores siendo muy agresivos con el otro, ofreciéndonos un espectáculo. El luchador local <b>Rafa García</b> fue capaz de dominar claramente el primer asalto, pero el luchador chino <b>Rongzhu</b> fue capaz de recuperarse en los últimos 2 asaltos, arrebatándole la victoria al local por decisión unánime. </p>
                     <h2>Tommy Gantt Somete a Drakkar Klose en el Tercer Asalto</h2>
                     <p>Gran victoria del estadounidense <b>Tommy Gantt</b>, quien luego de ser superior a su rival durante la mayor parte del combate, aunque sufriendo en ocasiones, fue capaz de conectar con sus piernas una llave que dejaría atrapada la cabeza de su rival, castigándolo con codazos desde esa posición que llevaron a Klose a tapear, otorgándole la victoria a Tommy Gantt por sumisión en el tercer asalto. </p>
+                    <h2>Yousri Belgaroui Noquea a Djorden Santos en el Primer Asalto</h2>
+                    <p>Otra gran finalización, esta vez por nocaut, en esta cartelera, de la mano del holandés <b>Yousri Belgaroui</b>, quien en un primer asalto letal, fue capaz de conectar una larga combinación de golpes hacia el brasileño <b>Djorden Santos</b>, tanto al cuerpo como a la cabeza, que finalmente terminaron por tumbarlo al suelo, con el árbitro frenando la pelea antes de que pudiera hacerle más daño. De esta forma Belgaroui consigue su tercer victoria consecutiva por nocaut en la UFC. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
