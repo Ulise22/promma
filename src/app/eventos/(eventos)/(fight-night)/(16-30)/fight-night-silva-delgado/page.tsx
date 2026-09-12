@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function SilvaDelgado () {
     return(
         <main>
-            <ArticleHero title='UFC Noche: ¡Jean Silva vs Jose Miguel Delgado!' subtitle='¡Brandon Moreno vs Joseph Morales! ¡Alexa Grasso vs Maonon Fiorot!' image={hero} date='2025-09-12' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Noche: ¡Jean Silva vs Jose Miguel Delgado!' subtitle='¡Brandon Moreno vs Joseph Morales! ¡Alexa Grasso Derrota a Maonon Fiorot por Decisión Unánime!' image={hero} date='2025-09-12' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tremendo evento de UFC tenemos en honor a la independencia de México como todos los años, con el peleador brasileño de los <Link href='/articulos/fighting-nerds'>Fighting Nerds</Link>, <Link href='/peleadores/jean-silva'>Jean Silva</Link> como protagonista enfrentando al mexicano <b>Jose Miguel Delgado</b> en la cartelera estelar. Además, en la pelea coestelar estará peleando la estrella mexicana y excampeón <Link href='/peleadores/brandon-moreno'>Brandon Moreno</Link>, enfrentando al estadounidense <b>Joseph Morales</b>. </p>
@@ -48,7 +48,9 @@ export default function SilvaDelgado () {
                     <h2>David Martínez Derrota a Dan Ige por decisión unánime</h2>
                     <p>Gran victoria del mexicano <b>David Martínez</b> frente a su gente ante un rival durísimo e histórico como lo es <b>Dan Ige</b>, dominando y siendo mejor que su rival durante los 3 asaltos del combate para llevarse la victoria sin lugar a dudas por decisión unánime. </p>
                     <h2>Curtis Blaydes Derrota a Waldo Cortes Acosta por decisión unánime</h2>
-                    <p>Victoria del estadounidense <b>Curtis Blaydes</b> sobre el dominicano <b>Waldo Cortes Acosta</b>, en un combate con poca acción por parte de ambos, con el de latinoamérica siendo conservador en sus golpes por miedo a ser derribado, y con el de Estados Unidos manteniendo la distancia y evitando ser golpeado lo más posible, conectando algunos derribos que le sirvieron para puntuar y terminar llevándose la victoria por decisión unánime.</p>
+                    <p>Victoria del estadounidense <b>Curtis Blaydes</b> sobre el dominicano <Link href='/peleadores/waldo-cortes-acosta'>Waldo Cortes Acosta</Link>, en un combate con poca acción por parte de ambos, con el de latinoamérica siendo conservador en sus golpes por miedo a ser derribado, y con el de Estados Unidos manteniendo la distancia y evitando ser golpeado lo más posible, conectando algunos derribos que le sirvieron para puntuar y terminar llevándose la victoria por decisión unánime.</p>
+                    <h2>Alexa Grasso Derrota a Maonon Fiorot por decisión unánime</h2>
+                    <p>Grandísima victoria de la excampeona local <Link href='/mujeres/alexa-grasso'>Alexa Grasso</Link>, quien con su dominante boxeo, de guardia cerrada yendo siempre para adelante, fue capaz de acorralar a su rival francesa, golpeándola y haciéndole mucho daño para terminar llevándose la victoria por decisión unánime 29-28.</p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
