@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function SilvaDelgado () {
     return(
         <main>
-            <ArticleHero title='UFC Noche: ¡Jean Silva vs Jose Miguel Delgado!' subtitle='¡Brandon Moreno Derrota a Joseph Morales por Decisión Dividida! ¡Alexa Grasso Derrota a Maonon Fiorot por Decisión Unánime!' image={hero} date='2025-09-12' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Noche: ¡Jean Silva Somete a Jose Miguel Delgado en el Tercer Asalto!' subtitle='¡Brandon Moreno Derrota a Joseph Morales por Decisión Dividida! ¡Alexa Grasso Derrota a Maonon Fiorot por Decisión Unánime!' image={hero} date='2025-09-12' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tremendo evento de UFC tenemos en honor a la independencia de México como todos los años, con el peleador brasileño de los <Link href='/articulos/fighting-nerds'>Fighting Nerds</Link>, <Link href='/peleadores/jean-silva'>Jean Silva</Link> como protagonista enfrentando al mexicano <b>Jose Miguel Delgado</b> en la cartelera estelar. Además, en la pelea coestelar estará peleando la estrella mexicana y excampeón <Link href='/peleadores/brandon-moreno'>Brandon Moreno</Link>, enfrentando al estadounidense <b>Joseph Morales</b>. </p>
@@ -55,6 +55,9 @@ export default function SilvaDelgado () {
                     <p>Tremenda pelea la que acabamos de presenciar, en un choque de invictos, el estadounidense <b>Tommy McMillen</b> fue quien se llevó la victoria y mantuvo el 0 en el récord, dominando con claridad al marroquí <b>Marwan Rahiki</b>, en un combate donde pasó de todo, en el que parecía que cualquier cosa podía pasar, con knocdowns cayendo de ambos lados a lo largo del combate. Finalmente los jueces le dieron la victoria a Tommy McMillen por decisión unánime.</p>
                     <h2>Brandon Moreno Derrota a Joseph Morales por Decisión Dividida</h2>
                     <p>Grandísima victoria para el excampeón mexicano de peso pluma <Link href='/peleadores/brandon-moreno'>Brandon Moreno</Link>, quien en una pelea algo cerrada fue capaz de puntuar y hacer bastante daño para llevarse la victoria, con el tercer asalto siendo el más claro de todos, dado que además de conectar muchos golpes fue capaz de llevar al piso a su rival en 2 ocasiones. De esta forma la leyenda mexicana es capaz de llevarse la victoria por decisión dividida ante su gente en su primer <b>UFC Noche</b>. </p>
+                    <h2>Jean Silva Somete a Jose Miguel Delgado en el Tercer Asalto</h2>
+                    <p>Brutal manera de terminar esta cartelera espectacular. Con esta pelea estelar que inicio de manera un tanto extraña, con el brasileño <Link href='/peleadores/jean-silva'>Jean Silva</Link> negándose a golpear a su rival durante los primeros 3 asaltos del combate, hasta que recibió un brutal golpe del mexicano que casi lo tumba al suelo, recién ahí reaccionó.</p>
+                    <p>Finalmente en el segundo asalto vimos la versión a la que estamos acostumbrados de Silva, más agresiva, golpeando más e incluso derribando a su rival para castigarlo en el suelo. Hasta que llegó el tercer asalto, donde el luchador perteneciente a los <Link href='/articulos/fighting-nerds'>Fighting Nerds</Link> dió un golpe en el centro del rostro de su rival que lo derribó, y prosiguió a conectar un mataleón con un solo brazo para someter y ganar por esta vía a su rival. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
