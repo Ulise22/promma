@@ -24,6 +24,7 @@ import ufc324 from '@/assets/eventos/ufc/0-150/0-15/ufc324.webp'
 import ufc325 from '@/assets/eventos/ufc/0-150/0-15/ufc325.webp'
 import stricklandVShernandez from '@/assets/eventos/fight-night/0-150/0-15/strickland_hernandez.webp'
 import MorenoKavanagh from '@/assets/eventos/fight-night/0-150/0-15/moreno-vs-kavanagh.webp'
+import emmetVSvallejos from '@/assets/eventos/fight-night/0-150/0-15/emmet_vallejos.webp'
 import ufc326 from '@/assets/eventos/ufc/0-150/0-15/ufc326.webp'
 import ufc328 from '@/assets/eventos/ufc/0-150/0-15/ufc328.webp'
 import ufcWhiteHouse from '@/assets/eventos/ufc/0-150/0-15/ufc_casa_blanca.webp'
@@ -42,6 +43,7 @@ export default function Eventos () {
             <h2 className={styles.articulos__title}>Últimos Eventos</h2>
             <section className={styles.articles__container}>
                 <ArticlePreview img={ufc328} url='/eventos/ufc328' title='UFC 328: ¡Sean Strickland Sorprende al Mundo y Derrota a Khamzat Chimaev y es Nuevo Campeón! ¡Joshua Van Noquea a Tatsuro Taira en el Último Asalto en La Pelea de la Noche!' author={null} text='¡Alexander Volkov Derrota a Waldo Cortes Acosta por Decisión Unánime! ¡Yaroslav Amosov Somete a Joel Álvarez en el Segundo Asalto!' date='09/05/2026' />
+                <ArticlePreview img={emmetVSvallejos} url='/eventos/fight-night-emmet-vallejos' title='UFC Fight Night: ¡Kevin Vallejos Noquea a Josh Emmet en el Primer Asalto!' author={null} text='¡Gillian Robertson Derrota a Amanda Lemos Por Decisión Unánime! ¡El español Hecher Sosa Debuta con Victoria!' date='14/03/2026' />
                 <ArticlePreview img={ufc326} url='/eventos/ufc326' title='UFC 326: ¡Charles Oliveira Derrota a Max Holloway y es el Nuevo BMF!' author={null} text='¡Caio Borralho Derrota a Reiner De Ridder por Decisión Unánime! ¡Raúl Rosas Jr. Derrota a Rob Font por Decisión Unánime y Se Mete en los Rankings!' date='07/03/2026' />
                 <ArticlePreview img={MorenoKavanagh} url='/eventos/fight-night-moreno-kavanagh' title='UFC México: ¡Loneer Kavanagh Derrota a Brandon Moreno por Decisión Unánime!' author={null} text='¡Ailín Pérez Derrota a Macy Chiasso por Decisión Unánime! ¡David Martínez Derrota a Marlon Chito Vera por Decisión Unánime! ¡King Green Noquea a Daniel Zellhuber en el Segundo Asalto!' date='28/02/2026' />
                 <ArticlePreview img={stricklandVShernandez} url='/eventos/fight-night-strickland-hernandez' title='¡Sean Strickland Noquea a Anthony Hernandez en el Tercer Asalto!' author={null} text='¡Uros Medic Noquea a Geoff Neal en el Primer Asalto! ¡Melquizael Costa Noquea a Dan Ige en el Primer Asalto!' date='21/02/2026' />
