@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 export default function JeanSilva () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={17} l={3} d={0} categoria='Peso Pluma' nombre='Jean Silva' apodo={null} time='2026-01-22' />
+            <PeleadoresHero peleadoresImage={fighter} w={18} l={3} d={0} categoria='Peso Pluma' nombre='Jean Silva' apodo={null} time='2026-09-13' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Jean Silva MMA</h2>
