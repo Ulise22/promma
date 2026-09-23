@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: '¿Quién es el padre de Arman Tsarukyan?',
     description: 'La historia detrás de Nairi Tsarkuyan, el padre de Arman Tsarukyan, el empresario armenio que construyo una fortuna desde cero y permitió a su hijo dedicarse de lleno a las artes marciales mixtas.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Farman_tsarukyan-padre.0ba16bcc.webp&w=828&q=65',
         title: '¿Quién es el padre de Arman Tsarukyan?',
         description: 'La historia detrás de Nairi Tsarkuyan, el padre de Arman Tsarukyan, el empresario armenio que construyo una fortuna desde cero y permitió a su hijo dedicarse de lleno a las artes marciales mixtas.',
         url: 'https://fullmma.org/articulos/quien-es-el-padre-de-arman-tsarukyan',
