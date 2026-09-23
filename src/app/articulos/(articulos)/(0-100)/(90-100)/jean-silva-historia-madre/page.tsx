@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 export default function JeanSilvaMadre () {
     return(
         <main>
-        <ArticleHero title='La Trágica Historia de la Madre de Jean Silva' subtitle='Como el asesinato de un hermano, el abuso y encarcelamiento de su madre forjaron a Jean &quot;Lord&quot; Silva.' image={hero} date='2026-09-1w' author={null} updatedDate={null} />
+        <ArticleHero title='La Trágica Historia de la Madre de Jean Silva' subtitle='Como el asesinato de un hermano, el abuso y encarcelamiento de su madre forjaron a Jean &quot;Lord&quot; Silva.' image={hero} date='2026-09-13' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>La infancia de <Link href='/peleadores/jean-silva'>Jean Silva</Link> y la historia con su madre es una de las cosas más impactantes y desgarradoras que uno puedo oir. Aquella pobre madre fue abusada por 3 hombres en su Brasil natal, pero siendo una mujer ruda actuó en defensa propia acabando con la vida de sus 3 agresores, todo en presencia del pequeño Jean quien estuvo observando toda la secuencia. La madre de Silva fue arrestada y encarcelada por este más que justificable accionar. Por si fuera poco, tiempo después ambos tuvieron que lidiar con la muerte de un hermano e hijo, quien fue baleado y falleció luego de recibir 5 disparos. </p>
