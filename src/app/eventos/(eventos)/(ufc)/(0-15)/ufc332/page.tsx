@@ -47,6 +47,8 @@ export default function UFC332 () {
                     <p>Grandísima victoria del veterano estadoundiense <b>Marcus McGhee</b>, quien hizo valer su veteranía y su favoritismo en las casas de apuestas, dominando completamente a su rival y siendo capaz de finalizarlo al final del primer asalto a través de una avalancha de golpes. </p>
                     <h2>Damian Pinas deja KO a Andrey Pulyaev en el Primer Asalto</h2>
                     <p>Tremenda victoria del luchador de Aruba <b>Damian Pinas</b> por sobre el ruso <b>Andrey Pulyaev</b>, a quien con un upper con la mano derecha lo dejó completamente KO, cayendo desmayado y dando como ganador al luchador americano. </p>
+                    <h2>Imanol Rodriguez Noquea a Alden Coria en el Primer Asalto</h2>
+                    <p>Locura manera de ganar por parte del mexicano <b>Imanol Rodriguez</b>, quien con una patada en el estomago donde le clavó todos los dedos del pie, fue capaz de lastimar muchísimo a su rival, que se retorció del dolor y finalmente fue finalizado al no ser capaz de resistir más. De esta forma, el mexicano gana por TKO en el primer asalto y extiende su invicto a 8-0. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
