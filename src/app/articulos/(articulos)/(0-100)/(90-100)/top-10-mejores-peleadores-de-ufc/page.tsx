@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: 'Top 10 Mejores Peleadores de la UFC (Ranking Actualizado)',
     description: 'Descubre a los 10 mejores peleadores de la UFC de toda la historia. Las leyendas de las MMA que marcaron el deporte.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftop10-ufc_fighters.647e43d4.webp&w=828&q=65',
         title: 'Top 10 Mejores Peleadores de la UFC (Ranking Actualizado)',
         description: 'Descubre a los 10 mejores peleadores de la UFC de toda la historia. Las leyendas de las MMA que marcaron el deporte.',
         url: 'https://fullmma.org/articulos/top-10-mejores-peleadores-de-ufc',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 export default function Top10MejoresPeleadoresUFC () {
     return(
         <main>
-        <ArticleHero title='Top 10 Mejores Peleadores de la UFC (Ranking Actualizado)' subtitle='Descubre a los 10 mejores peleadores de la UFC de toda la historia.' image={hero} date='2026-09-23' author={null} updatedDate={null} />
+        <ArticleHero title='Top 10 Mejores Peleadores de la UFC (Ranking Actualizado)' subtitle='Descubre a los 10 mejores peleadores de la UFC de toda la historia.' image={hero} date='2026-10-03' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Cuál es el Top 10 mejores peleadores de la UFC es uno de los debates más apasionantes que se pueden tener. Desde su fundación en 1993 hasta hoy, la UFC ha tenido un montón de campeones, pero pocos han dejado una huella tan grande y han dominado de la forma en que lo hicieron los 10 que elegimos. Por eso, teniendo en cuenta el nivel que mostraron en sus carreras, la cálidad de los rivales que enfrentaron, los logros individuales y los récords que rompieron, les traigo nuestra lista de leyendas de la UFC.</p>
