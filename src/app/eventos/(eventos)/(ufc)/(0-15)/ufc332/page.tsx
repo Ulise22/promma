@@ -40,9 +40,9 @@ export default function UFC332 () {
                     <p>Espectacular victoria por nocaut por parte del estadounidense <b>Jacobe Smith</b>, quien en un derribo se ve que dejó conmocionado a su rival, necesitando apenas de un par de golpes para dejarlo definitivamente noqueado. Logrando de esta forma una victoria por nocaut ante su compatriota en el primer asalto. </p>
                     <h2>Johnny Walker Noquea a Mick Parkin en el Primer Asalto</h2>
                     <p>Brutal KO por parte del brasileño <b>Johnny Walker</b>, quien estaba debutando en la división de peso pesado, luego de años de competir en los semipesados, haciéndolo de la mejor manera con KO en el primer asalto, que llegó luego de lanzar un rodillazo volador a la cabeza de su rival que lo tumbaría al suelo de manera inmediata. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
+                    <h2>Anthony Wint Noquea a Lucas Armand en el Primer Asalto</h2>
+                    <p>Espectacular victoria por nocaut del estadounidense <b>Anthony Wint</b>, quien en unos fugaces 20 segundos arrolló a su rival, tirándolo al suelo y golpeándolo para ganar la pelea por TKO en el primer asalto, defendiendo y extendiendo su invicto a 9-0.</p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
