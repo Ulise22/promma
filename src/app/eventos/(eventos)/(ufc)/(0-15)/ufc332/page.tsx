@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: 'UFC 332: ¡Natalia Silva vs Wang Cong!',
     description: "Noche de UFC por el título de peso mosca femenino entre Natalia Silva vs Wang Cong. Además el argentino Esteban Ribovics enfrenta a King Green.",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc332.8efb1b03.webp&w=828&q=65',
         title: 'UFC 332: ¡Natalia Silva vs Wang Cong!',
         description: "Noche de UFC por el título de peso mosca femenino entre Natalia Silva vs Wang Cong. Además el argentino Esteban Ribovics enfrenta a King Green.",
         url: 'https://fullmma.org/eventos/ufc332'
