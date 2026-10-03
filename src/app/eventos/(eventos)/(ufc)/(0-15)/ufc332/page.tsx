@@ -43,6 +43,8 @@ export default function UFC332 () {
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2>Anthony Wint Noquea a Lucas Armand en el Primer Asalto</h2>
                     <p>Espectacular victoria por nocaut del estadounidense <b>Anthony Wint</b>, quien en unos fugaces 20 segundos arrolló a su rival, tirándolo al suelo y golpeándolo para ganar la pelea por TKO en el primer asalto, defendiendo y extendiendo su invicto a 9-0.</p>
+                    <h2>Marcus McGhee Noquea a Anthony Romero en el Primer Asalto</h2>
+                    <p>Grandísima victoria del veterano estadoundiense <b>Marcus McGhee</b>, quien hizo valer su veteranía y su favoritismo en las casas de apuestas, dominando completamente a su rival y siendo capaz de finalizarlo al final del primer asalto a través de una avalancha de golpes. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
