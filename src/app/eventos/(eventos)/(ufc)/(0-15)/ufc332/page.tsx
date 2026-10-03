@@ -38,6 +38,8 @@ export default function UFC332 () {
                     <p>Espectacular victoria del estadounidense <b>Alexander Hernandez</b>, que luego de dominar completamente en el striking a su rival, lo derribó a golpes en el segundo asalto, golpeándolo hasta que el árbitro los separó y lo dió como ganador por TKO. De esta forma, el veterano brasileño y excampeón de peso ligero <b>Rafael Dos Anjos</b> se retira el día de hoy con esta derrota. </p>
                     <h2>Jacobe Smith Noquea a Bruce Whitehead en el Primer Asalto</h2>
                     <p>Espectacular victoria por nocaut por parte del estadounidense <b>Jacobe Smith</b>, quien en un derribo se ve que dejó conmocionado a su rival, necesitando apenas de un par de golpes para dejarlo definitivamente noqueado. Logrando de esta forma una victoria por nocaut ante su compatriota en el primer asalto. </p>
+                    <h2>Johnny Walker Noquea a Mick Parkin en el Primer Asalto</h2>
+                    <p>Brutal KO por parte del brasileño <b>Johnny Walker</b>, quien estaba debutando en la división de peso pesado, luego de años de competir en los semipesados, haciéndolo de la mejor manera con KO en el primer asalto, que llegó luego de lanzar un rodillazo volador a la cabeza de su rival que lo tumbaría al suelo de manera inmediata. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p> */}
