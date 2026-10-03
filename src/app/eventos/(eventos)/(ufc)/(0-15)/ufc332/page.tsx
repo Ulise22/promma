@@ -36,6 +36,8 @@ export default function UFC332 () {
                     <p>Gran victoria por parte del luchador marroquí <b>Ismail Naurdiev</b>, quien luego de mostrarse superior a lo largo del combate, igualado en intercambio de golpes, pero claramente superior en la lucha, logrando derribar en 3 ocasiones a su rival, se termina llevando una buena victoria por decisión unánime ante el excontendiente del título de peso medio, el italiano <b>Marvin Vettori</b>.</p>
                     <h2>Alexander Hernandez Noquea a Rafael Dos Anjos en el Segundo Asalto</h2>
                     <p>Espectacular victoria del estadounidense <b>Alexander Hernandez</b>, que luego de dominar completamente en el striking a su rival, lo derribó a golpes en el segundo asalto, golpeándolo hasta que el árbitro los separó y lo dió como ganador por TKO. De esta forma, el veterano brasileño y excampeón de peso ligero <b>Rafael Dos Anjos</b> se retira el día de hoy con esta derrota. </p>
+                    <h2>Jacobe Smith Noquea a Bruce Whitehead en el Primer Asalto</h2>
+                    <p>Espectacular victoria por nocaut por parte del estadounidense <b>Jacobe Smith</b>, quien en un derribo se ve que dejó conmocionado a su rival, necesitando apenas de un par de golpes para dejarlo definitivamente noqueado. Logrando de esta forma una victoria por nocaut ante su compatriota en el primer asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p> */}
