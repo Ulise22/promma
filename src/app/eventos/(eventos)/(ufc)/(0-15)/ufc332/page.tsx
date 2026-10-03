@@ -1,0 +1,48 @@
+import styles from '@/app/eventos/components/articleEvents.module.css'
+import ArticleHero from '@/app/articulos/components/ArticleHero'
+import Link from 'next/link'
+import type { Metadata } from 'next'
+import dynamic from 'next/dynamic'
+/* Images */
+import hero from '@/assets/eventos/ufc/0-150/0-15/ufc332.webp'
+
+const AsideChamps = dynamic(() => import('@/app/components/asides/AsideChamps'))
+const EndArticle = dynamic(() => import('@/app/components/EndArticle'))
+const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles/ArticlesFooter'))
+
+export const metadata: Metadata = {
+    title: 'UFC 332: ¡Natalia Silva vs Wang Cong!',
+    description: "Noche de UFC por el título de peso mosca femenino entre Natalia Silva vs Wang Cong. Además el argentino Esteban Ribovics enfrenta a King Green.",
+    openGraph: {
+        images: '',
+        title: 'UFC 332: ¡Natalia Silva vs Wang Cong!',
+        description: "Noche de UFC por el título de peso mosca femenino entre Natalia Silva vs Wang Cong. Además el argentino Esteban Ribovics enfrenta a King Green.",
+        url: 'https://fullmma.org/eventos/ufc332'
+    }
+}
+
+export default function UFC332 () {
+    return(
+        <main>
+            <ArticleHero title="UFC 332: ¡Natalia Silva vs Wang Cong! ¡Deiveson Figeuiredo!" subtitle='¡Esteban Ribovics vs King Green! ¡Ateba Gautier vs Roman Kopylov!' image={hero} date='2026-10-03' author={null} updatedDate={null} />
+            <section className={styles.article__container}>
+                <article className={styles.article}>
+                    <p>Noche de UFC en Salt Lake City en este UFC 332, con la brasileña <b>Natalia Silva</b> y la china <b>Wang Cong</b> peleando por el título vacante de peso mosca femenino, luego de que <b>Valentina Shevchenko</b> lo dejará debido a una lesión que le impidió competir hoy. </p>
+                    <p>Además en la pelea coestelar tendremos tremendo combate entre el excampeón de UFC <b>Deiveson Figueiredo</b> y el joven estadounidense <b>Payton Talbott</b>, en una pelea que puede definir el futuro de la división de peso gallo. Por si fuera, también tendremos un choque de títanes entre el perro de pelea y veterano de la compañía <b>King Green</b>, y el joven argentino <Link href="/peleadores/esteban-ribovics">Esteban Ribovics</Link> en la que será la candidata a la pelea de la noche. </p>
+                    <h2 className={styles.article__fightsHierarchy}>Primeros Preliminares</h2>
+                    <h2>Eric Nolan Noquea a Court McGee en el tercer asalto</h2>
+                    <p>Brutal manera de comenzar esta cartelera con una pelea especular por parte de ambos luchadores, donde hubo un montón de intercambio de golpes en un combate entre 2 strikers 100%. Finalmente, como se veía venir desde el comienzo, los golpes de Nolan eran los más duros y los que hacían más daño a su rival, terminando por noquear en el tercer asalto y ganando el combate.</p>
+                    {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
+                    <h2></h2>
+                    <p></p> */}
+                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2></h2>
+                    <p></p> */}
+                    <EndArticle />
+                </article>
+                <AsideChamps />
+            </section>
+            <ArticlesFooter />
+        </main>
+    )
+}

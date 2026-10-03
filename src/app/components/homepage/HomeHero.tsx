@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import silvaDelgado from '@/assets/eventos/fight-night/0-150/16-30/ufc_noche.webp'
+import ufc332 from '@/assets/eventos/ufc/0-150/0-15/ufc332.webp'
 import jeanSilvaMadre from '@/assets/articulos/0-100/90-100/jean_silva-madre.webp'
 import mackenzieDernDivorcio from '@/assets/articulos/0-100/90-100/mackenzie_dern-divorcio.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/eventos/fight-night-silva-delgado'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={silvaDelgado} alt='' />
-                <h2 className={styles.home__title}>UFC Noche: ¡Jean Silva Somete a Jose Miguel Delgado en el Tercer Asalto!</h2>
-                <span>¡Brandon Moreno Derrota a Joseph Morales por Decisión Dividida! ¡Alexa Grasso Derrota a Maonon Fiorot por Decisión Unánime!</span>
+            <Link className={styles.homehero__bigArticle} href='/eventos/ufc332'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc332} alt='' />
+                <h2 className={styles.home__title}>UFC 332: ¡Natalia Silva vs Wang Cong! ¡Deiveson Figeuiredo!</h2>
+                <span>¡Esteban Ribovics vs King Green! ¡Ateba Gautier vs Roman Kopylov!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/jean-silva-historia-madre'>
                 <Image className={styles.homehero__article__img} quality={50} src={jeanSilvaMadre} alt='' />
