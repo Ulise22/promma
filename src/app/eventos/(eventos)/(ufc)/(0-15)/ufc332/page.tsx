@@ -52,6 +52,8 @@ export default function UFC332 () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Roman Kopylov Noquea a Ateba Gautier en el Primer Asalto</h2>
                     <p>Sorpresón en la primer pelea de esta cartelera estelar, cuando el luchador veterano ruso <b>Roman Kopylov</b> es capaz de derrotar al joven talento africano <b>Ateba Gautier</b>, quien partía como favorito al inicio de la pelea, conectando un recto en la cabeza de su rival que lo lastimó mucho, finalizando con golpes el trabajo y llevándose una victoria tremenda por TKO en el primer asalto. </p>
+                    <h2>Roberto Soldic Derrota a Khaos Williams por Decisión Unánime</h2>
+                    <p>Grandísima pelea por parte del croata <b>Roberto Soldic</b>, quien fue capaz de reponerse luego de un primer asalto turbulento, donde sufrió un knockdown al principio que parecía complicarlo de cara al resto del combate, sin embargo fue capaz de reponerse a partir del segundo asalto, intercalanado golpes entre le cuerpo/torso y la cabeza de su rival, siendo muy dominante y contundente con sus golpes, logrando ganar por decisión unánime ante un rival que demostró ser durísimo. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
