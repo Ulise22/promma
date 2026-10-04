@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function UFC332 () {
     return(
         <main>
-            <ArticleHero title="UFC 332: ¡Natalia Silva Derrota a Wang Cong y es la Nueva Campeona! ¡Payton Talbott Noquea a Deiveson Figueiredo en el Primer Asalto!" subtitle='¡Esteban Ribovics Noquea a King Green en el Primer Asalto! ¡Roman Kopylov Noquea a Ateba Gautier en el Primer Asalto!' image={hero} date='2026-10-03' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 332: ¡Natalia Silva Derrota a Wang Cong y es la Nueva Campeona! ¡Payton Talbott Noquea a Deiveson Figueiredo en el Primer Asalto!" subtitle='¡Esteban Ribovics Noquea a King Green en el Primer Asalto! ¡Roman Kopylov Noquea a Ateba Gautier en el Primer Asalto!' image={hero} date='2026-10-03' author={null} updatedDate='2026-10-04' />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Noche de UFC en Salt Lake City en este UFC 332, con la brasileña <b>Natalia Silva</b> y la china <b>Wang Cong</b> peleando por el título vacante de peso mosca femenino, luego de que <b>Valentina Shevchenko</b> lo dejará debido a una lesión que le impidió competir hoy. </p>
