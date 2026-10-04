@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function UFC332 () {
     return(
         <main>
-            <ArticleHero title="UFC 332: ¡Natalia Silva vs Wang Cong! ¡Deiveson Figeuiredo!" subtitle='¡Esteban Ribovics vs King Green! ¡Ateba Gautier vs Roman Kopylov!' image={hero} date='2026-10-03' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 332: ¡Natalia Silva vs Wang Cong! ¡Deiveson Figeuiredo!" subtitle='¡Esteban Ribovics vs King Green! ¡Roman Kopylov Noquea a Ateba Gautier en el Primer Asalto!' image={hero} date='2026-10-03' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Noche de UFC en Salt Lake City en este UFC 332, con la brasileña <b>Natalia Silva</b> y la china <b>Wang Cong</b> peleando por el título vacante de peso mosca femenino, luego de que <b>Valentina Shevchenko</b> lo dejará debido a una lesión que le impidió competir hoy. </p>
@@ -49,9 +49,9 @@ export default function UFC332 () {
                     <p>Tremenda victoria del luchador de Aruba <b>Damian Pinas</b> por sobre el ruso <b>Andrey Pulyaev</b>, a quien con un upper con la mano derecha lo dejó completamente KO, cayendo desmayado y dando como ganador al luchador americano. </p>
                     <h2>Imanol Rodriguez Noquea a Alden Coria en el Primer Asalto</h2>
                     <p>Locura manera de ganar por parte del mexicano <b>Imanol Rodriguez</b>, quien con una patada en el estomago donde le clavó todos los dedos del pie, fue capaz de lastimar muchísimo a su rival, que se retorció del dolor y finalmente fue finalizado al no ser capaz de resistir más. De esta forma, el mexicano gana por TKO en el primer asalto y extiende su invicto a 8-0. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Roman Kopylov Noquea a Ateba Gautier en el Primer Asalto</h2>
+                    <p>Sorpresón en la primer pelea de esta cartelera estelar, cuando el luchador veterano ruso <b>Roman Kopylov</b> es capaz de derrotar al joven talento africano <b>Ateba Gautier</b>, quien partía como favorito al inicio de la pelea, conectando un recto en la cabeza de su rival que lo lastimó mucho, finalizando con golpes el trabajo y llevándose una victoria tremenda por TKO en el primer asalto. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
