@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function UFC332 () {
     return(
         <main>
-            <ArticleHero title="UFC 332: ¡Natalia Silva vs Wang Cong! ¡Deiveson Figeuiredo!" subtitle='¡Esteban Ribovics vs King Green! ¡Roman Kopylov Noquea a Ateba Gautier en el Primer Asalto!' image={hero} date='2026-10-03' author={null} updatedDate={null} />
+            <ArticleHero title="UFC 332: ¡Natalia Silva vs Wang Cong! ¡Deiveson Figeuiredo!" subtitle='¡Esteban Ribovics Noquea a King Green en el Primer Asalto! ¡Roman Kopylov Noquea a Ateba Gautier en el Primer Asalto!' image={hero} date='2026-10-03' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Noche de UFC en Salt Lake City en este UFC 332, con la brasileña <b>Natalia Silva</b> y la china <b>Wang Cong</b> peleando por el título vacante de peso mosca femenino, luego de que <b>Valentina Shevchenko</b> lo dejará debido a una lesión que le impidió competir hoy. </p>
@@ -54,6 +54,8 @@ export default function UFC332 () {
                     <p>Sorpresón en la primer pelea de esta cartelera estelar, cuando el luchador veterano ruso <b>Roman Kopylov</b> es capaz de derrotar al joven talento africano <b>Ateba Gautier</b>, quien partía como favorito al inicio de la pelea, conectando un recto en la cabeza de su rival que lo lastimó mucho, finalizando con golpes el trabajo y llevándose una victoria tremenda por TKO en el primer asalto. </p>
                     <h2>Roberto Soldic Derrota a Khaos Williams por Decisión Unánime</h2>
                     <p>Grandísima pelea por parte del croata <b>Roberto Soldic</b>, quien fue capaz de reponerse luego de un primer asalto turbulento, donde sufrió un knockdown al principio que parecía complicarlo de cara al resto del combate, sin embargo fue capaz de reponerse a partir del segundo asalto, intercalanado golpes entre le cuerpo/torso y la cabeza de su rival, siendo muy dominante y contundente con sus golpes, logrando ganar por decisión unánime ante un rival que demostró ser durísimo. </p>
+                    <h2>Esteban Ribovics Noquea a King Green en el Primer Asalto</h2>
+                    <p>Espectacular manera de ganar para el argentino <Link href="/peleadores/esteban-ribovics">Esteban Ribovics</Link>, en un combate con los ánimos muy caldeados, donde se había hablado mucha mierda antes de este día, y donde quien salió victorioso en el enfrentamiento fue el argentino, quien luego de conectar un gancho de izquierda en el estomago del estadounidense <b>King Green</b>, fue capaz de conectar un segundo gancho a la cabeza para derribarlo, lanzando una larga conbinación de golpes, hasta que el árbitro, aunque tardó en hacerlo, detuvo el combate para que Esteban se lleve la victoria por nocaut en el primer asalto. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />

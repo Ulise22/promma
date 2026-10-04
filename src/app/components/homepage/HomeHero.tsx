@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/eventos/ufc332'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc332} alt='' />
                 <h2 className={styles.home__title}>UFC 332: ¡Natalia Silva vs Wang Cong! ¡Deiveson Figeuiredo!</h2>
-                <span>¡Esteban Ribovics vs King Green! ¡Ateba Gautier vs Roman Kopylov!</span>
+                <span>¡Esteban Ribovics Noquea a King Green en el Primer Asalto! ¡Roman Kopylov Noquea a Ateba Gautier en el Primer Asalto!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/jean-silva-historia-madre'>
                 <Image className={styles.homehero__article__img} quality={50} src={jeanSilvaMadre} alt='' />
