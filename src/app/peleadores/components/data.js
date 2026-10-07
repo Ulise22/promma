@@ -1,6 +1,11 @@
 export const data = [
     /* 0-15 */
     {
+        name: 'Movsar Evloev',
+        url: '/peleadores/movsar-evloev',
+        fighterClass: 'peleadores__card_movsarevloev'
+    },
+    {
         name: 'Michael Morales',
         url: '/peleadores/michael-morales',
         fighterClass: 'peleadores__card_michaelmorales'
