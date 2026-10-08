@@ -1,6 +1,31 @@
 export const data = [
     /* 0-15 */
     {
+        name: 'Ilia Topuria',
+        url: '/peleadores/ilia-topuria',
+        fighterClass: 'peleadores__card_illia'
+    },
+    {
+        name: 'Islam Makhachev',
+        url: '/peleadores/islam-makhachev',
+        fighterClass: 'peleadores__card_makhachev'
+    },
+    {
+        name: 'Merab Dvalishvili',
+        url: '/peleadores/merab-dvalishvili',
+        fighterClass: 'peleadores__card_merab'
+    },
+    {
+        name: 'Alex Pereira',
+        url: '/peleadores/alex-pereira',
+        fighterClass: 'peleadores__card_pereira'
+    },
+    {
+        name: 'Tom Aspinall',
+        url: '/peleadores/tom-aspinall',
+        fighterClass: 'peleadores__card_aspinall'
+    },
+    {
         name: 'Brendan Allen',
         url: '/peleadores/brendan-allen',
         fighterClass: 'peleadores__card_brendanallen'
