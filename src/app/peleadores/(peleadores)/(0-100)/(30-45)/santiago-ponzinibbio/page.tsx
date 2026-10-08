@@ -1,5 +1,5 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
-import ponzinibbio from '@/assets/peleadores__images/argentinos/santiago-ponzinibbio/ponzinibbio.png'
+import ponzinibbio from '@/assets/peleadores__images/0-100/40-60/santiago-ponzinibbio/ponzinibbio.png'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
 import type { Metadata } from 'next'

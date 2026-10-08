@@ -1,7 +1,7 @@
 import PeleadoresHero from '@/app/peleadores/components/PeleadoresHero'
 import styles from '@/app/peleadores/components/peleador.module.css'
 import Link from 'next/link'
-import fighter from '@/assets/peleadores__images/argentinos/esteban-ribovics/esteban_ribovics.png'
+import fighter from '@/assets/peleadores__images/0-100/30-40/esteban-ribovics/esteban_ribovics.png'
 import type { Metadata } from 'next'
 import dynamic from 'next/dynamic'
 

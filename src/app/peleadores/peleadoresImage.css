@@ -79,12 +79,12 @@
 }
 
 .peleadores__card_ponzinibbio {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/argentinos/santiago-ponzinibbio/ponzinibbio_card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/40-60/santiago-ponzinibbio/ponzinibbio_card.jpg');
     background-position: center;
 }
 
 .peleadores__card_tenaglia {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/argentinos/franco-tenaglia/tenaglia_card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/40-60/franco-tenaglia/tenaglia_card.webp');
     background-position: center;
 }
 
@@ -244,7 +244,7 @@
 }
 
 .peleadores__card_ribovics {
-    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/argentinos/esteban-ribovics/esteban_ribovics-card.jpg');
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/30-40/esteban-ribovics/esteban_ribovics-card.jpg');
     background-position: center;  
 }
 
