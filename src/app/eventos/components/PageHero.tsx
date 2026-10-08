@@ -3,7 +3,7 @@ import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import ufc330 from '@/assets/eventos/ufc/0-150/0-15/ufc330.webp'
-import silvaDelgado from '@/assets/eventos/fight-night/0-150/16-30/ufc_noche.webp'
+import silvaDelgado from '@/assets/eventos/fight-night/0-150/0-15/ufc_noche.webp'
 import ufcBaku from '@/assets/eventos/fight-night/0-150/0-15/fiziev-torres.webp'
 
 export default function PageHero () {
