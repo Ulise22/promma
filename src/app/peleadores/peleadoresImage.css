@@ -1,4 +1,8 @@
 /* Luchadores MMA */
+.peleadores__card_brendanallen {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/40-60/brendan-allen/allen_card.webp');
+}
+
 .peleadores__card_movsarevloev {
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/40-60/movsar-evloev/evloev_card.webp');
 }
