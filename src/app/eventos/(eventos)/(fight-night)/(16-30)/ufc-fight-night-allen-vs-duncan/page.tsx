@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function AllenDuncan () {
     return(
         <main>
-            <ArticleHero title='UFC Fight Night: ¡Brandon Allen vs Christian Leroy Duncan!' subtitle='¡Loopy Godinez vs Ketlen Souza! ¡Francisco Prado vs Ismael Bonfim!' image={hero} date='2026-10-10' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Fight Night: ¡Brandon Allen vs Christian Leroy Duncan!' subtitle='¡Loopy Godinez vs Ketlen Souza! ¡Francisco Prado Noquea a Ismael Bonfim en el Primer Asalto!' image={hero} date='2026-10-10' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Tenemos noche de UFC en el META APEX con un espectacular evento estelar, cuando el #4 de la división de peso medio <Link href='/peleadores/brendan-allen'>Brendan Allen</Link>, se enfrente al #10 del ranking, el inglés <b>Christian Leroy Duncan</b>, en un comabte donde ambos vienen de buenas rachas ganadoras y que hoy buscan acercarse a una pelea por el título de la división. Por otro lado, en la pelea coestelar tendremos el enfrentamiento en peso ligero entre el brasileño <b>Matheus Camilo</b> y el inglés <b>Jai Herbert</b>. </p>
@@ -40,6 +40,8 @@ export default function AllenDuncan () {
                     <p>Locura de sumisión la que consiguió <b>Brendson Ribeiro</b> sobre su compatriota <b>Felipe Franco</b>, luego de que Felipe intentara derribarlo, el veterano Brendson conectó una guillotina que fue capaz de sostener una vez cayó al suelo, obligando al joven prospecto a tapear. De esta forma Brenson Ribeiro gana su combate por sumisión en el primer asalto. </p>
                     <h2>Niko Price Noquea a Leon Shahbazyan en el Primer Asalto y Se Retira</h2>
                     <p>Espectacular nocaut por parte del veterano estadounidense <b>Niko Price</b>, que hizo suya la pelea del retiro, dominando completamente a su rival armenio <b>Leon Shahbazyan</b>, hasta noquearlo a golpes en el suelo en el primer asalto. De esta forma, luego de más de una década subido al octágono de la UFC, Niko Price se retira con una victoria por nocaut en el primer asalto en su récord. </p>
+                    <h2>Francisco Prado Noquea a Ismael Bonfim en el Primer Asalto</h2>
+                    <p>Gran victoria del luchador argentino <b>Francisco Prado</b> en su regreso a la división de peso ligero, donde se desmotró que es donde mejor rinde, dominando de manera aplastante al brasileño <b>Ismael Bonfim</b>, a quien ya había hecho daño con su striking de pie, pero que luego de ser capaz de conectar un derribo, terminó de lastimar al brasileño en base a ground & pound, golpeándolo hasta que el árbitro terminó la pelea, otorgándole la victoria por TKO al joven argentino de 24 años en el primer asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}

@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/eventos/ufc-fight-night-allen-vs-duncan'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={allenDuncan} alt='' />
                 <h2 className={styles.home__title}>UFC Fight Night: ¡Brandon Allen vs Christian Leroy Duncan!</h2>
-                <span>¡Loopy Godinez vs Ketlen Souza! ¡Francisco Prado vs Ismael Bonfim!</span>
+                <span>¡Loopy Godinez vs Ketlen Souza! ¡Francisco Prado Noquea a Ismael Bonfim en el Primer Asalto!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/jean-silva-historia-madre'>
                 <Image className={styles.homehero__article__img} quality={50} src={jeanSilvaMadre} alt='' />
