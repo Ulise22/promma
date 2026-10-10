@@ -38,6 +38,8 @@ export default function AllenDuncan () {
                     <p>Espectacular la victoria que acaba de conseguir <b>Allen Frye Jr.</b>, quien estaba perdiendo por completo el combate y daba la sensación de que iba a caer KO en el cualquier momento, sin embargo, de la nada fue capaz de sacar una combinación de izquierda y derecha, seguido de varios golpes de derecha, para noquear a su rival y terminar ganando él en el primer asalto por la vía del nocaut. </p>
                     <h2>Brendson Ribeiro Somete a Felipe Franco en el Primer Asalto</h2>
                     <p>Locura de sumisión la que consiguió <b>Brendson Ribeiro</b> sobre su compatriota <b>Felipe Franco</b>, luego de que Felipe intentara derribarlo, el veterano Brendson conectó una guillotina que fue capaz de sostener una vez cayó al suelo, obligando al joven prospecto a tapear. De esta forma Brenson Ribeiro gana su combate por sumisión en el primer asalto. </p>
+                    <h2>Niko Price Noquea a Leon Shahbazyan en el Primer Asalto y Se Retira</h2>
+                    <p>Espectacular nocaut por parte del veterano estadounidense <b>Niko Price</b>, que hizo suya la pelea del retiro, dominando completamente a su rival armenio <b>Leon Shahbazyan</b>, hasta noquearlo a golpes en el suelo en el primer asalto. De esta forma, luego de más de una década subido al octágono de la UFC, Niko Price se retira con una victoria por nocaut en el primer asalto en su récord. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
