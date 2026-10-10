@@ -1,6 +1,11 @@
 export const data = [
     /* 0-15 */
     {
+        name: 'Josh Hokit',
+        url: '/peleadores/josh-hokit',
+        fighterClass: 'peleadores__card_joshhokit'
+    },
+    {
         name: 'Aleksandre Topuria',
         url: '/peleadores/aleksandre-topuria',
         fighterClass: 'peleadores__card_aleksandretopuria'

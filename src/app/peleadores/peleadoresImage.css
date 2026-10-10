@@ -1,4 +1,8 @@
 /* Luchadores MMA */
+.peleadores__card_joshhokit {
+    background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/60-80/josh-hokit/hokit_card.webp');
+}
+
 .peleadores__card_aleksandretopuria {
     background-image: linear-gradient(180deg, #75212157 0%, #75212157 100%), url('../../assets/peleadores__images/0-100/60-80/aleksandre-topuria/aleksandre_topuria-card.webp');
 }
