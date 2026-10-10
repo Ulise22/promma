@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc330 from '@/assets/eventos/ufc/0-150/0-15/ufc330.webp'
+import ufc332 from '@/assets/eventos/ufc/0-150/0-15/ufc332.webp'
 import silvaDelgado from '@/assets/eventos/fight-night/0-150/0-15/ufc_noche.webp'
 import ufcBaku from '@/assets/eventos/fight-night/0-150/0-15/fiziev-torres.webp'
 
 export default function PageHero () {
     return(
         <section className={styles.pagehero}>
-            <Link className={styles.pagehero__bigArticle} href='/eventos/ufc330'>
-                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc330} alt='' />
-                <h2 className={styles.page__title}>UFC 330: ¡Islam Makhachev Derrota a Ian Garry Por Decisión Unánime y Sigue Siendo Campeón! ¡Mackenzie Dern Derrota a Gillian Robertson por Decisión Unánime y Retiene el Cinturón!</h2>
-                <p>¡Esteban Ribovics Noquea en el Segundo Asalto en el Retiro de Edson Barboza! ¡Chidi Njokuani Derrota a Joel Álvarez por Decisión Unánime!</p>
+            <Link className={styles.pagehero__bigArticle} href='/eventos/ufc332'>
+                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc332} alt='' />
+                <h2 className={styles.page__title}>UFC 332: ¡Natalia Silva Derrota a Wang Cong y es la Nueva Campeona! ¡Payton Talbott Noquea a Deiveson Figueiredo en el Primer Asalto!</h2>
+                <p>¡Esteban Ribovics Noquea a King Green en el Primer Asalto! ¡Roman Kopylov Noquea a Ateba Gautier en el Primer Asalto!</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/fight-night-silva-delgado'>
                 <Image className={styles.pagehero__article__img} quality={50} src={silvaDelgado} alt='' />
