@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: 'UFC Fight Night: ¡Brandon Allen vs Christian Leroy Duncan!',
     description: '',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fallen-vs-duncan.27f1826b.webp&w=828&q=65',
         title: 'UFC Fight Night: ¡Brandon Allen vs Christian Leroy Duncan!',
         description: '',
         url: 'https://fullmma.org/eventos/ufc-fight-night-allen-vs-duncan',
