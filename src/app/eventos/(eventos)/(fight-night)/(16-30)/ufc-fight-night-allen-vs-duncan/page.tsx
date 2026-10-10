@@ -32,6 +32,8 @@ export default function AllenDuncan () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
                     <h2>Ernesta Karackaité y Melissa Gatto Empatan por Decisión Mayoritoria</h2>
                     <p>Empate en esta primer pelea de la noche, luego de que a la lituana <b>Ernesta Karackaité</b> se le descontará un punto por agarrarse de la reja en el primer asalto, dejando este como empate a pesar de que en realidad lo había ganado. El segundo asalto fue un dominió total de Ernesta, que en el striking mostró un nivel sobresaliente, además de defender de excelente manera los derribos. Y el último fue para la brasileña <b>Melissa Gatto</b>, quien consiguió un derribo temprano y controló en el suelo a su rival durante todo el asalto. De esta forma el primer combate de la noche acaba en empate mayoritario 28-28. </p>
+                    <h2>Alice Pereira le gana a Daria Zhelezniakova por TKO en el primer asalto</h2>
+                    <p>Brutal victoria por parte de la joven brasileña de 20 años <b>Alice Pereira</b>, quien dominó de principio a fin a su contrincante rusa, castigándola con codos en la cara que cortaron a Daria, sangrando tanto que una vez terminado el asalto fue revisado por un médico que determinó que no podía continuar. De esta forma, Alice Pereira gana su combate por TKO en el primer asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
