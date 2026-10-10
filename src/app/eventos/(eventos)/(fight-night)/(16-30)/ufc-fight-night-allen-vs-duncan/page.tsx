@@ -36,6 +36,8 @@ export default function AllenDuncan () {
                     <p>Brutal victoria por parte de la joven brasileña de 20 años <b>Alice Pereira</b>, quien dominó de principio a fin a su contrincante rusa, castigándola con codos en la cara que cortaron a Daria, sangrando tanto que una vez terminado el asalto fue revisado por un médico que determinó que no podía continuar. De esta forma, Alice Pereira gana su combate por TKO en el primer asalto. </p>
                     <h2>Allen Frye Jr. Noquea a Rj Harris en el Primer Asalto</h2>
                     <p>Espectacular la victoria que acaba de conseguir <b>Allen Frye Jr.</b>, quien estaba perdiendo por completo el combate y daba la sensación de que iba a caer KO en el cualquier momento, sin embargo, de la nada fue capaz de sacar una combinación de izquierda y derecha, seguido de varios golpes de derecha, para noquear a su rival y terminar ganando él en el primer asalto por la vía del nocaut. </p>
+                    <h2>Brendson Ribeiro Somete a Felipe Franco en el Primer Asalto</h2>
+                    <p>Locura de sumisión la que consiguió <b>Brendson Ribeiro</b> sobre su compatriota <b>Felipe Franco</b>, luego de que Felipe intentara derribarlo, el veterano Brendson conectó una guillotina que fue capaz de sostener una vez cayó al suelo, obligando al joven prospecto a tapear. De esta forma Brenson Ribeiro gana su combate por sumisión en el primer asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
