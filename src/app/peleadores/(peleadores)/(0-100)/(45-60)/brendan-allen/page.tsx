@@ -24,14 +24,14 @@ export const metadata: Metadata = {
 export default function BrendanAllen () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={27} l={7} d={0} categoria='Peso Medio' nombre='Brendan Allen' apodo='All In' time='2026-10-08' />
+            <PeleadoresHero peleadoresImage={fighter} w={28} l={7} d={0} categoria='Peso Medio' nombre='Brendan Allen' apodo='All In' time='2026-10-13' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>¿Quién es Brendan Allen?</h2>
                     <p className={styles.peleador__article__text}>Brendan Allen es un peleador de MMA nacido en Estados Unidos, que compite en la división de peso medio de la UFC, siendo a pesar de su juventud, uno de los que más peleas ha tenido dentro del top, siendo muy activo y uno de los luchadores más peligrosos que tienen las 185lbs. </p>
                     <p className={styles.peleador__article__text}>Es un luchador muy entretenido de ver, con el jiu-jitsu brasileño siendo su arma principal, llegando a someter en la misma UFC a rivales de la talla de <b>Paul Craig</b> y <b>Kevin Holland</b>, ganando peleas en las que no era favorito hasta llegar al top 5 de la división. </p>
                     <h2 className={styles.peleador__article__title}>Brendan Allen Récord</h2>
-                    <p className={styles.peleador__article__text}>Brendan Allen posee un récord profesional en MMA de 27-7. Con 6 de sus victorias siendo por la vía del nocaut, 14 siendo por la vía de la sumisión y 7 siendo por decisión de los jueces. Mientras que de sus 7 derrotas, 2 fueron por la vía del nocaut, sólo 1 por sumisión y 4 por decisión. </p>
+                    <p className={styles.peleador__article__text}>Brendan Allen posee un récord profesional en MMA de 28-7. Con 6 de sus victorias siendo por la vía del nocaut, 15 siendo por la vía de la sumisión y 7 siendo por decisión de los jueces. Mientras que de sus 7 derrotas, 2 fueron por la vía del nocaut, sólo 1 por sumisión y 4 por decisión. </p>
                     <h2 className={styles.peleador__article__title}>Brendan Allen Historia</h2>
                     <p className={styles.peleador__article__text}>Brendan Cody Allen nació el 28 de septiembre de 1995 en la ciudad de Beafourt, en Carolina del Sur, Estados Unidos. Sus padres son originarios de Lousiana, donde se terminaron asentando. Su padre trabajaba en la construcción, siendo el segundo al mando de una empresa, había sido soldado de infantería y boxeaba de joven, cosas que aprendió de su abuelo, el cual esun veterano de la Segunda Guerra Mundial, siendo una gran influencia para Allen. </p>
                     <p className={styles.peleador__article__text}>Jugaba al futbol americano desde niño, y ya desde entonces era fanático de la UFC, viendo las peleas los fines de semana e idolotrando a las primeras estrellas del deporte como <Link href="/leyendas/randy-couture">Randy Couture</Link> y <Link href="/leyendas/chuck-liddell">Chuck Liddell</Link>. </p>
