@@ -28,6 +28,7 @@ import emmetVSvallejos from '@/assets/eventos/fight-night/0-150/0-15/emmet_valle
 import ufc326 from '@/assets/eventos/ufc/0-150/0-15/ufc326.webp'
 import ufc328 from '@/assets/eventos/ufc/0-150/0-15/ufc328.webp'
 import ufcWhiteHouse from '@/assets/eventos/ufc/0-150/0-15/ufc_casa_blanca.webp'
+import ufcBaku from '@/assets/eventos/fight-night/0-150/0-15/fiziev-torres.webp'
 import ufc329 from '@/assets/eventos/ufc/0-150/0-15/ufc329.webp'
 import ufc330 from '@/assets/eventos/ufc/0-150/0-15/ufc330.webp'
 
@@ -43,6 +44,7 @@ export default function Eventos () {
             </section>
             <h2 className={styles.articulos__title}>Últimos Eventos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={ufcBaku} url='/eventos/fight-night-fiziev-torres' title='UFC Baku: ¡Rafael Fiziev Noquea a Manuel Torres en el Segundo Asalto!' author={null} text='¡Shara Magomedov Derrota a Michel Pereira por Decisión Unánime! ¡Kaan Ofli Somete a Javier Reyes en el Primer Asalto!' date='27/06/2026' />
                 <ArticlePreview img={ufcWhiteHouse} url='/eventos/ufc-casa-blanca' title='UFC Casa Blanca: ¡La Esquina de Ilia Topuria Abandona el Combate y Justin Gaethje es Nuevo Campeón por TKO! ¡Ciryl Gane Noquea a Alex Pereira en el Segundo Asalto y es Campeón Interino Otra Vez!' author={null} text='¡Sean O&apos;Malley Noquea a Aiemann Zahabi en el Segundo Asalto! ¡Josh Hokit Noquea a Derrick Lewis en el Segundo Asalto!' date='14/06/2026' />
                 <ArticlePreview img={ufc328} url='/eventos/ufc328' title='UFC 328: ¡Sean Strickland Sorprende al Mundo y Derrota a Khamzat Chimaev y es Nuevo Campeón! ¡Joshua Van Noquea a Tatsuro Taira en el Último Asalto en La Pelea de la Noche!' author={null} text='¡Alexander Volkov Derrota a Waldo Cortes Acosta por Decisión Unánime! ¡Yaroslav Amosov Somete a Joel Álvarez en el Segundo Asalto!' date='09/05/2026' />
                 <ArticlePreview img={emmetVSvallejos} url='/eventos/fight-night-emmet-vallejos' title='UFC Fight Night: ¡Kevin Vallejos Noquea a Josh Emmet en el Primer Asalto!' author={null} text='¡Gillian Robertson Derrota a Amanda Lemos Por Decisión Unánime! ¡El español Hecher Sosa Debuta con Victoria!' date='14/03/2026' />
