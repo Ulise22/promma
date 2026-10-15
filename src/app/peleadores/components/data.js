@@ -1,6 +1,11 @@
 export const data = [
     /* 0-15 */
     {
+        name: 'Alexander Volkov',
+        url: '/peleadores/alexander-volkov',
+        fighterClass: 'peleadores__card_alexandervolkov'
+    },
+    {
         name: 'Sergei Pavlovich',
         url: '/peleadores/sergei-pavlovich',
         fighterClass: 'peleadores__card_sergeipavlovich'
