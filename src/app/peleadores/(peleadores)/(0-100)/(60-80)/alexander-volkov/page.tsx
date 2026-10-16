@@ -29,7 +29,7 @@ export default function AlexanderVolkov () {
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>¿Quién es Alexander Volkov?</h2>
                     <p className={styles.peleador__article__text}>Alexander Volkov es un peleador de MMA ruso que compite en la división de peso pesado de la UFC. Es un histórico peleador de la división, con un montón de peleas en su récord, y una presencia constante en el top de los pesos pesados. </p>
-                    <p>Es un striker alto de gran alcance, que pese a no ser un finalizador nato, ha tenido varias victorias por la vía del nocaut, y grandes combates en los que dominó con sus jabs, patadas a las piernas y combinaciones a distancia. </p>
+                    <p className={styles.peleador__article__text}>Es un striker alto de gran alcance, que pese a no ser un finalizador nato, ha tenido varias victorias por la vía del nocaut, y grandes combates en los que dominó con sus jabs, patadas a las piernas y combinaciones a distancia. </p>
                     <p className={styles.peleador__article__text}></p>
                     <h2 className={styles.peleador__article__title}>Alexander Volkov Récord</h2>
                     <p className={styles.peleador__article__text}>Alexander Volkov posee un récord profesional en MMA de 40-11. Con 24 de sus victorias siendo por la vía del nocaut, 4 siendo por sumisión y 12 siendo por decisión de los jueces. Mientras que de sus 11 derrotas, 2 fueron por la vía del nocaut, 3 por la vía de la sumisión y 6 por decisión. </p>
