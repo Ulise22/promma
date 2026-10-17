@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import allenDuncan from '@/assets/eventos/fight-night/0-150/16-30/allen-vs-duncan.webp'
+import buckleyVSMallot from '@/assets/eventos/fight-night/0-150/16-30/buckley-vs-malott.webp'
 import jeanSilvaMadre from '@/assets/articulos/0-100/90-100/jean_silva-madre.webp'
 import mackenzieDernDivorcio from '@/assets/articulos/0-100/90-100/mackenzie_dern-divorcio.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/eventos/ufc-fight-night-allen-vs-duncan'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={allenDuncan} alt='' />
-                <h2 className={styles.home__title}>UFC Fight Night: ¡Brendan Allen Somete a Christian Leroy Duncan en el Quinto y Último Asalto!</h2>
-                <span>¡Loopy Godinez Derrota a Ketlen Souza por Decisión Unánime! ¡Francisco Prado Noquea a Ismael Bonfim en el Primer Asalto!</span>
+            <Link className={styles.homehero__bigArticle} href='/eventos/ufc-fight-night-buckley-vs-malott'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={buckleyVSMallot} alt='' />
+                <h2 className={styles.home__title}>UFC Fight Night: ¡Joaquin Buckley vs Mike Malott!</h2>
+                <span>¡Erin Blanchfield vs Jasmine Jasudavicius! ¡Kyle Nelson vs Christian Perez!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/jean-silva-historia-madre'>
                 <Image className={styles.homehero__article__img} quality={50} src={jeanSilvaMadre} alt='' />

@@ -12,11 +12,11 @@ const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles
 
 export const metadata: Metadata = {
     title: 'UFC Fight Night: ¡Joaquin Buckley vs Mike Malott!',
-    description: '',
+    description: 'Noche de UFC en Canadá, con canadiense Mike Malott enfrentando al #8 de la división de peso wélter, el estadounidense Joaquin Buckley. ',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbuckley-vs-malott.4c1a7a24.webp&w=828&q=65',
         title: 'UFC Fight Night: ¡Joaquin Buckley vs Mike Malott!',
-        description: '',
+        description: 'Noche de UFC en Canadá, con canadiense Mike Malott enfrentando al #8 de la división de peso wélter, el estadounidense Joaquin Buckley. ',
         url: 'https://fullmma.org/eventos/ufc-fight-night-buckley-vs-malott',
     }
 }
