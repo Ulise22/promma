@@ -40,6 +40,8 @@ export default function BuckelyMalott () {
                     <p>Gran victoria por parte de la estadounidense <b>Katlyn Cerminara</b>, quien luego de una rafaga de golpes al final del primer asalto, fue capaz de lastimar a su rival hasta que esta cayó al suelo, necesitando de apenas unos golpes extras para que el árbitro frenara la pelea y la diera como ganadora por TKO en el primer asalto del combate. </p>
                     <h2>Joel Faglier Noquea a Javad Mahjoub en el Segundo Asalto</h2>
                     <p>Sorprendente victoria del estadounidense <b>Joel Faglier</b>, teniendo en cuenta lo que vimos durante el combate, con el canadiense <b>Javad Mahjoub</b> siendo el luchador más dominante al inicio del combate, tomando la iniciativa y lanzando una avalancha de golpes a su rival durante el primer asalto que estuvieron muy cerca de acabarlo y dejarlo KO. Sin embargo, Joel fue capaz de resistir la embestida, y para el segundo asalto Javad ya estaba demasiado cansado, aprovechando esto para conectar unos golpes letales que acabarían noqueando al canadiense. De esta forma, Joel Faglier gana el combate por nocaut en el segundo asalto. </p>
+                    <h2>Nick Galanti Somete a Julien Leblanc en el Primer Asalto</h2>
+                    <p>Muy buena victoria por parte de <b>Nick Galanti</b>, quien muy rápido conectó un derribo para lanzar a su rival al suelo, para posteriormente tomarle la espalda y finalmente conectar una llave por encima del mentón de su rival, para terminar sometiéndolo en el primer asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
