@@ -32,6 +32,8 @@ export default function BuckelyMalott () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
                     <h2>Suyong You Somete a Cody Chovancek en el Tercer Asalto</h2>
                     <p>Aplastante victoria del surcoreano <b>Suyong You</b>, quien a lo largo de los 3 asaltos que duró el combate fue capaz de imponerse ante el luchador local <b>Cody Chovancek</b>, derribando una y otra vez a su rival, manteniéndolo a ras de lona y finalmente conectando una sumisión en el tercer asalto. </p>
+                    <h2>Chelsea Chandler Somete a Melissa Croden en el Primer Asalto</h2>
+                    <p>Brutal victoria por sumisión de la estadounidense <b>Chelsea Chandler</b>, quien luego de sufrir un derribo, fue capaz de darle la vuelta a la posición para conectar un kimura a su rival canadiense <b>Melissa Croden</b>, que la obligaría a tapear, ganando un combate donde partía como la underdog, por sumisión en el primer asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
