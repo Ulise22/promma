@@ -36,6 +36,8 @@ export default function BuckelyMalott () {
                     <p>Brutal victoria por sumisión de la estadounidense <b>Chelsea Chandler</b>, quien luego de sufrir un derribo, fue capaz de darle la vuelta a la posición para conectar un kimura a su rival canadiense <b>Melissa Croden</b>, que la obligaría a tapear, ganando un combate donde partía como la underdog, por sumisión en el primer asalto. </p>
                     <h2>Steven Koslow Somete a Chad Anheliger en el Tercer Asalto</h2>
                     <p>Espectacular victoria del luchador estadounidense <b>Steven Koslow</b>, en un combate donde dominó completamente a su rival, castigándolo muy bien con golpes a la cabeza, tanto cuando la pelea estaba de pie, como cuando se llevó a cabo en el suelo. Finalmente, la llave a la victoria la encontró en el tercer asalto, cuando tomó la espalda de <b>Chad Anheliger</b>, y fue capaz de conectar un mataleón para someter a su rival. </p>
+                    <h2>Katlyn Cerminara Noqua a Mackenzie Stiller en el primer asalto</h2>
+                    <p>Gran victoria por parte de la estadounidense <b>Katlyn Cerminara</b>, quien luego de una rafaga de golpes al final del primer asalto, fue capaz de lastimar a su rival hasta que esta cayó al suelo, necesitando de apenas unos golpes extras para que el árbitro frenara la pelea y la diera como ganadora por TKO en el primer asalto del combate. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
