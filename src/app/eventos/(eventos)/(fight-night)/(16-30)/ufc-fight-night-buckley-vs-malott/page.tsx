@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function BuckelyMalott () {
     return(
         <main>
-            <ArticleHero title='UFC Fight Night: ¡Joaquin Buckley vs Mike Malott!' subtitle='¡Erin Blanchfield vs Jasmine Jasudavicius! ¡Kyle Nelson vs Christian Perez!' image={hero} date='2026-10-17' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Fight Night: ¡Joaquin Buckley vs Mike Malott!' subtitle='¡Erin Blanchfield vs Jasmine Jasudavicius! ¡Cristian Perez Noquea a Kyle Nelson en el Primer Asalto!' image={hero} date='2026-10-17' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Noche de UFC en Edmonton, Canadá, con un montón de luchadores canadiense presentes en esta noche, empezando por el #13 de la división de peso wélter, <b>Mike Malott</b>, quien viene con una increíble racha de 4 victorias consecutivas y se enfrentará al #10 de la división, el estadounidense <Link href='/peleadores/joaquin-buckley'>Joaquin Buckley</Link> en el evento estelar. </p>
@@ -51,6 +51,8 @@ export default function BuckelyMalott () {
                     <p>Espectacular victoria por parte del estadounidense <b>Timmy Cuamba</b>, quien fue mejor que su rival tanto en el primer como en el segundo asalto, castigando a su rival con el striking, y lanzando un derribo cuando menos lo espero, para tomarle la espalda y terminar sometiéndolo con una excelente mateleón en el segundo asalto. </p>
                     <h2>Marc-Andre Barriault Noquea a Kyle Daukaus en el Primer Asalto</h2>
                     <p>El canadiense <b>Marc-Andre Barriault</b>, quien pese a no partir como favorito en las casas de apuestas, fue capaz de primero, defender un intento de derribo por parte de su rival, y posteriormente fue capaz de conectar una combinación de golpes que tumbarían a su rival en el suelo, dejándolo en posición fatal mientras Barriault lo castigaba a golpes, a la espera de que el árbitro finalizara la pelea. De esta forma el canadiense Marc-Andre Barriault se lleva la victoria por la vía del nocaut en el primer asalto. </p>
+                    <h2>Cristian Perez Noquea a Kyle Nelson en el Primer Asalto</h2>
+                    <p>Brutal victoria del mexicano <b>Cristian Perez</b>, que inició el combate muy agresivo, intentando un derribo ni bien empezado el asalto, y que terminó atacando a su rival con una combinación de golpes letal que acabaron por dejar tumbado a su rival. De esta forma, otro underdog se lleva la victoria, con Cristian Perez ganando por TKO en el primer asalto. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
