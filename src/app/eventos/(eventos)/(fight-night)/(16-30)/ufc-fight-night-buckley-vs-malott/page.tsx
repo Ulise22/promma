@@ -49,6 +49,8 @@ export default function BuckelyMalott () {
                     <p>Tremenda victoria del canadiense <b>Mandel Nallo</b>, en un combate que no tuvo rival, siendo claramente dominante de principio a fin, causándole un daño a su rival que va a perdurar un tiempo, finalizándolo en el segundo asalto por la vía del nocaut. De esta forma, Nallo se convierte en el segundo luchador canadiense en llevarse una victoria el día de hoy. </p>
                     <h2>Timmy Cumba Somete a Louis Jourdain en el Segundo Asalto</h2>
                     <p>Espectacular victoria por parte del estadounidense <b>Timmy Cuamba</b>, quien fue mejor que su rival tanto en el primer como en el segundo asalto, castigando a su rival con el striking, y lanzando un derribo cuando menos lo espero, para tomarle la espalda y terminar sometiéndolo con una excelente mateleón en el segundo asalto. </p>
+                    <h2>Marc-Andre Barriault Noquea a Kyle Daukaus en el Primer Asalto</h2>
+                    <p>El canadiense <b>Marc-Andre Barriault</b>, quien pese a no partir como favorito en las casas de apuestas, fue capaz de primero, defender un intento de derribo por parte de su rival, y posteriormente fue capaz de conectar una combinación de golpes que tumbarían a su rival en el suelo, dejándolo en posición fatal mientras Barriault lo castigaba a golpes, a la espera de que el árbitro finalizara la pelea. De esta forma el canadiense Marc-Andre Barriault se lleva la victoria por la vía del nocaut en el primer asalto. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
