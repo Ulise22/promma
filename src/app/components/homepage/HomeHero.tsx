@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/eventos/ufc-fight-night-buckley-vs-malott'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={buckleyVSMallot} alt='' />
-                <h2 className={styles.home__title}>UFC Fight Night: ¡Joaquin Buckley vs Mike Malott!</h2>
+                <h2 className={styles.home__title}>UFC Fight Night: ¡Mike Malott Noquea a Joaquin Buckley en el Segundo Asalto!</h2>
                 <span>¡Jasmine Jasudavicius Derrota a Erin Blanchfield Por Decisión Unánime! ¡Cristian Perez Noquea a Kyle Nelson en el Primer Asalto!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal1}`} href='/articulos/jean-silva-historia-madre'>

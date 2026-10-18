@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function BuckelyMalott () {
     return(
         <main>
-            <ArticleHero title='UFC Fight Night: ¡Joaquin Buckley vs Mike Malott!' subtitle='¡Jasmine Jasudavicius Derrota a Erin Blanchfield Por Decisión Unánime! ¡Cristian Perez Noquea a Kyle Nelson en el Primer Asalto!' image={hero} date='2026-10-17' author={null} updatedDate={null} />
+            <ArticleHero title='UFC Fight Night: ¡Mike Malott Noquea a Joaquin Buckley en el Segundo Asalto!' subtitle='¡Jasmine Jasudavicius Derrota a Erin Blanchfield Por Decisión Unánime! ¡Cristian Perez Noquea a Kyle Nelson en el Primer Asalto!' image={hero} date='2026-10-17' author={null} updatedDate={null} />
             <section className={styles.article__container}>
                 <article className={styles.article}>
                     <p>Noche de UFC en Edmonton, Canadá, con un montón de luchadores canadiense presentes en esta noche, empezando por el #13 de la división de peso wélter, <b>Mike Malott</b>, quien viene con una increíble racha de 4 victorias consecutivas y se enfrentará al #10 de la división, el estadounidense <Link href='/peleadores/joaquin-buckley'>Joaquin Buckley</Link> en el evento estelar. </p>
@@ -55,6 +55,9 @@ export default function BuckelyMalott () {
                     <p>Brutal victoria del mexicano <b>Cristian Perez</b>, que inició el combate muy agresivo, intentando un derribo ni bien empezado el asalto, y que terminó atacando a su rival con una combinación de golpes letal que acabaron por dejar tumbado a su rival. De esta forma, otro underdog se lleva la victoria, con Cristian Perez ganando por TKO en el primer asalto. </p>
                     <h2>Jasmine Jasudavicius Derrota a Erin Blanchfield Por Decisión Unánime</h2>
                     <p>Buena victoria para la luchadora local <b>Jasmine Jasudavicius</b>, quien fue capaz de dar vuelta un primer asalto complicado en el que fue derribada y casi es sometida con un mataleón que fue conectado por encima del mentón, lo que evitó que perdiera ahí mismo. A partir del segundo asalto, con la presión de ganar, fue capaz de imponer su estilo, mostrando una gran lucha y grappling con las que pudo dominar a la estadounidense que hasta hoy estaba por encima en los rankings. De esta forma, la canadiense <b>Jasmine Jasudavicius</b> se lleva la victoria por decisión unánime y se mete de lleno en el top 5 de peso mosca femenino. </p>
+                    <h2>Mike Malott Noquea a Joaquin Buckley en el Segundo Asalto</h2>
+                    <p>Brutal victoria para el luchador canadiense <b>Mike Malott</b>, que en un combate que parecía cerrado e igualado, sin un claro dominador que monopolizara el combate, encontró una patada (que acabó convirtiéndose en un rodillazo) que conectó directo al mentón de <Link href='/peleadores/joaquin-buckley'>Joaquin Buckley</Link>, tumbándolo inmediatamente y dejándolo KO. </p>
+                    <p>De esta forma, Mike Malott se lleva la victoria por KO en el segundo asalto frente a su gente en Canadá, se mete de lleno al top 10 de la división, y queda tan sólo a 1 o 2 peleas de pelear por el título de la división que actualmente posee <Link href='/peleadores/islam-makhachev'>Islam Makhachev</Link>, en una de las divisiones más cargadas, durísimas y competitivas que hay actualmente en la UFC. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
