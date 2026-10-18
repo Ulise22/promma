@@ -44,9 +44,9 @@ export default function BuckelyMalott () {
                     <p>Muy buena victoria por parte de <b>Nick Galanti</b>, quien muy rápido conectó un derribo para lanzar a su rival al suelo, para posteriormente tomarle la espalda y finalmente conectar una llave por encima del mentón de su rival, para terminar sometiéndolo en el primer asalto. </p>
                     <h2>Tanner Boser Noquea a Jhonata Diniz en el Tercer Asalto</h2>
                     <p>Gran victoria del canadiense <b>Tanner Boser</b>, que dominó de comienzo a fin a su rival brasileño, castigándolo por abajo como por arriba, ejerciendo un dominio ante el cual <b>Jhonata Diniz</b> no pudo contrarrestar. Finalmente el combate terminó en el último asalto, cuando Boser a base de golpear en el suelo a su rival, terminó llevándose la victoria por TKO. De esta forma, <b>Tanner Boser</b> es el primer canadiense en ganar esta noche, justo cuando acaba la cartelera preliminar. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Mandel Nallo Noquea a Nate Landwehr en el Segundo Asalto</h2>
+                    <p>Tremenda victoria del canadiense <b>Mandel Nallo</b>, en un combate que no tuvo rival, siendo claramente dominante de principio a fin, causándole un daño a su rival que va a perdurar un tiempo, finalizándolo en el segundo asalto por la vía del nocaut. De esta forma, Nallo se convierte en el segundo luchador canadiense en llevarse una victoria el día de hoy. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
