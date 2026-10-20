@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: 'Merab Dvalishvili Nariz',
     description: 'Merab Dvalishvili y su nariz: ¿qué le pasó? Sus 3 fracturas (debut, sparring y RAF 9) y por qué rechazó la cirugía que lo frenaría un año.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmerab_dvalishvili-nariz.4b9fb2cd.webp&w=828&q=65',
         title: 'Merab Dvalishvili Nariz',
         description: 'Merab Dvalishvili y su nariz: ¿qué le pasó? Sus 3 fracturas (debut, sparring y RAF 9) y por qué rechazó la cirugía que lo frenaría un año.',
         url: 'https://fullmma.org/articulos/merab-dvalishvili-nariz',
