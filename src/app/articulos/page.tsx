@@ -105,19 +105,21 @@ import mackenzieDernDivorcio from '@/assets/articulos/0-100/90-100/mackenzie_der
 import jeanSilvaMadre from '@/assets/articulos/0-100/90-100/jean_silva-madre.webp'
 import tsarukyanPadre from '@/assets/articulos/0-100/90-100/arman_tsarukyan-padre.webp'
 import top10UFCFighters from '@/assets/articulos/0-100/90-100/top10-ufc_fighters.webp'
+import dvalishviliNariz from '@/assets/articulos/0-100/90-100/merab_dvalishvili-nariz.webp'
 
 export default function Articulos () {
     return(
         <main className={styles.articulos}>
             <PageHero />
             <section className={styles.articles__container}>
+                <ArticlePreview img={dvalishviliNariz} url='/articulos/merab-dvalishvili-nariz' title='¿Qué le pasó a Merab Dvalishvili en la Nariz?' author={null} text='Un repaso completo a las tres fracturas de nariz de Merab Dvalishvili: cómo ocurrieron, qué le dijo el cirujano y por qué prefiere pelear con la nariz torcida antes que parar un año.' date='20/10/2026' />
                 <ArticlePreview img={top10UFCFighters} url='/articulos/top-10-mejores-peleadores-de-ufc' title='Top 10 Mejores Peleadores de la UFC (Ranking Actualizado)' author={null} text='Descubre a los 10 mejores peleadores de la UFC de toda la historia. Las leyendas de las MMA que marcaron el deporte.' date='03/10/2026' />
                 <ArticlePreview img={tsarukyanPadre} url='/articulos/quien-es-el-padre-de-arman-tsarukyan' title='¿Quién es el padre de Arman Tsarukyan?' author={null} text='Nairi Tsarukyan: El empresario armenio y padre de Arman Tsarukyan que construyo una fortuna desde cero.' date='23/09/2026' />
                 <ArticlePreview img={jeanSilvaMadre} url='/articulos/jean-silva-historia-madre' title='La Trágica Historia de la Madre de Jean Silva' author={null} text='Como el asesinato de un hermano, el abuso y encarcelamiento de su madre forjaron a Jean &quot;Lord&quot; Silva.' date='12/09/2026' />
-                <ArticlePreview img={mackenzieDernDivorcio} url='/articulos/mackenzie-dern-divorcio' title='El Turbulento Divorcio de Mackenzie Dern' author={null} text='Descubre la historia detrás del divorcio de la campeona de UFC Mackenzie Dern, las acusaciones cruzadas de violencia y la manutencion que tiene que pagar Dern.' date='12/06/2026' />
             </section>    
             <h2 className={styles.articulos__title}>Artículos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={mackenzieDernDivorcio} url='/articulos/mackenzie-dern-divorcio' title='El Turbulento Divorcio de Mackenzie Dern' author={null} text='Descubre la historia detrás del divorcio de la campeona de UFC Mackenzie Dern, las acusaciones cruzadas de violencia y la manutencion que tiene que pagar Dern.' date='12/06/2026' />
                 <ArticlePreview img={ianGarryEsposa} url='/articulos/ian-garry-esposa-polemica' title='Ian Garry y la Polémica Relación con su Esposa' author={null} text='Conoce toda la polémica que rodea a la esposa de Ian Garry: la diferencia de edad, su libro &quot;How to Be a WAG&quot;, su exesposo y nutriocionista de Garry y las críticas de Sean Strickland' date='09/08/2026' />
                 <ArticlePreview img={JoshHokitPersonaje} url='/articulos/josh-hokit-es-un-personaje' title='¿Josh Hokit es un personaje?' author={null} text='Como Josh Hokit usa personajes exagerados para ganar hype y dar atención a los pesos pesados.' date='10/06/2026' />
                 <ArticlePreview img={alexPereiraMecanico} url='/articulos/alex-pereira-mecanico' title='Alex Pereira: De Mecánico Alcoholico en Sao Paulo a ¿Triple Campeón de UFC?' author={null} text='La historia de superación de Alex Pereira, quien entrenó para superar su alcoholismo, y abandonó su taller mecánico para ser campeón de Kickboxing y de la UFC. ' date='06/06/2026' />
