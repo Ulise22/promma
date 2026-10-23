@@ -31,6 +31,7 @@ import ufcWhiteHouse from '@/assets/eventos/ufc/0-150/0-15/ufc_casa_blanca.webp'
 import ufcBaku from '@/assets/eventos/fight-night/0-150/0-15/fiziev-torres.webp'
 import ufc329 from '@/assets/eventos/ufc/0-150/0-15/ufc329.webp'
 import ufc330 from '@/assets/eventos/ufc/0-150/0-15/ufc330.webp'
+import silvaDelgado from '@/assets/eventos/fight-night/0-150/0-15/ufc_noche.webp'
 
 export default function Eventos () {
     return (
@@ -39,11 +40,12 @@ export default function Eventos () {
             <section className={styles.articles__container}>
                 <ArticlePreview img={queEsDWCS} url='/eventos/dana-white-contender-series-que-es' title='Que es el Dana White Contender Series' author={null} text='¿Qué es y Cómo Funciona el Dana White Contender Series? El programa de televisión donde los peleadores compiten por un contrato con la UFC' date='19/08/2025' />
                 <ArticlePreview img={bestUFC2025} url='/eventos/mejores-eventos-ufc-2025' title='Los Mejores Eventos de UFC en 2025' author={null} text='La lista de los 3 mejores eventos de la UFC en el año 2025: Islam Makhachev, Alex Pereira, Merab Dvalishvili, Alexander Volkanovski.' date='17/12/2025' />
+                <ArticlePreview img={silvaDelgado} url='/eventos/ufc329' title='UFC Noche: ¡Jean Silva Somete a Jose Miguel Delgado en el Tercer Asalto!' author={null} text='¡Brandon Moreno Derrota a Joseph Morales por Decisión Dividida! ¡Alexa Grasso Derrota a Maonon Fiorot por Decisión Unánime!' date='12/09/2026' />
                 <ArticlePreview img={ufc330} url='/eventos/ufc330' title='UFC 330: ¡Islam Makhachev Derrota a Ian Garry Por Decisión Unánime y Sigue Siendo Campeón! ¡Mackenzie Dern Derrota a Gillian Robertson por Decisión Unánime y Retiene el Cinturón!' author={null} text='¡Esteban Ribovics Noquea en el Segundo Asalto en el Retiro de Edson Barboza! ¡Chidi Njokuani Derrota a Joel Álvarez por Decisión Unánime!' date='15/08/2026' />
-                <ArticlePreview img={ufc329} url='/eventos/ufc329' title='UFC 329: ¡Conor McGregor Se Lesiona Nuevamente y Cae Derrota ante Holloway! ¡Paddy Pimblett Somete a Benoit Saint Denis en el Primer Asalto!' author={null} text='¡Mario Bautista Derrota a Cory Sandhagen por Decisión Unánime! ¡Brandon Royval Somete a Loneer Kavanagh en el Tercer Asalto!' date='11/07/2026' />
             </section>
             <h2 className={styles.articulos__title}>Últimos Eventos</h2>
             <section className={styles.articles__container}>
+                <ArticlePreview img={ufc329} url='/eventos/ufc329' title='UFC 329: ¡Conor McGregor Se Lesiona Nuevamente y Cae Derrota ante Holloway! ¡Paddy Pimblett Somete a Benoit Saint Denis en el Primer Asalto!' author={null} text='¡Mario Bautista Derrota a Cory Sandhagen por Decisión Unánime! ¡Brandon Royval Somete a Loneer Kavanagh en el Tercer Asalto!' date='11/07/2026' />
                 <ArticlePreview img={ufcBaku} url='/eventos/fight-night-fiziev-torres' title='UFC Baku: ¡Rafael Fiziev Noquea a Manuel Torres en el Segundo Asalto!' author={null} text='¡Shara Magomedov Derrota a Michel Pereira por Decisión Unánime! ¡Kaan Ofli Somete a Javier Reyes en el Primer Asalto!' date='27/06/2026' />
                 <ArticlePreview img={ufcWhiteHouse} url='/eventos/ufc-casa-blanca' title='UFC Casa Blanca: ¡La Esquina de Ilia Topuria Abandona el Combate y Justin Gaethje es Nuevo Campeón por TKO! ¡Ciryl Gane Noquea a Alex Pereira en el Segundo Asalto y es Campeón Interino Otra Vez!' author={null} text='¡Sean O&apos;Malley Noquea a Aiemann Zahabi en el Segundo Asalto! ¡Josh Hokit Noquea a Derrick Lewis en el Segundo Asalto!' date='14/06/2026' />
                 <ArticlePreview img={ufc328} url='/eventos/ufc328' title='UFC 328: ¡Sean Strickland Sorprende al Mundo y Derrota a Khamzat Chimaev y es Nuevo Campeón! ¡Joshua Van Noquea a Tatsuro Taira en el Último Asalto en La Pelea de la Noche!' author={null} text='¡Alexander Volkov Derrota a Waldo Cortes Acosta por Decisión Unánime! ¡Yaroslav Amosov Somete a Joel Álvarez en el Segundo Asalto!' date='09/05/2026' />

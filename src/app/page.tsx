@@ -5,7 +5,7 @@ import ArticlePreview from './articulos/components/ArticlePreview'
 import Noticias from './components/homepage/noticias/Noticias'
 import ArticulosContainer from './components/homepage/ArticulosContainer'
 /*Articles PREVIEW */
-import gaethjeFueCampeon from '@/assets/noticias/0-100/40-50/gaethje-fue-campeon.webp'
+import top10UFCFighters from '@/assets/articulos/0-100/90-100/top10-ufc_fighters.webp'
 import pimblettOffCamp from '@/assets/articulos/0-100/80-90/pimblett-fuera-de-campamento.webp'
 import saintDenisMilitar from '@/assets/articulos/0-100/80-90/saint_denis-militar.webp'
 import JoshHokitPersonaje from '@/assets/articulos/0-100/90-100/johs_hokit-personaje.webp'
@@ -18,7 +18,7 @@ export default function Home () {
     <main className={styles.home}>
       <HomeHero />
       <section className={styles.home__articlesHero}>
-        <ArticlePreview img={gaethjeFueCampeon} url='/noticias/justin-gaethje-fue-campeon-de-ufc' title='¿Justin Gaethje fue campeón de UFC?' author={null} text='La historia de los títulos interino de Justin Gaethje y su intento por ser campeón indiscutido de la UFC ¿La tercera es la vencida?' date='29/05/2026' />
+        <ArticlePreview img={top10UFCFighters} url='/articulos/top-10-mejores-peleadores-de-ufc' title='Top 10 Mejores Peleadores de la UFC (Ranking Actualizado)' author={null} text='Descubre a los 10 mejores peleadores de la UFC de toda la historia. Las leyendas de las MMA que marcaron el deporte.' date='03/10/2026' />
         <ArticlePreview img={JoshHokitPersonaje} url='/articulos/josh-hokit-es-un-personaje' title='¿Josh Hokit es un personaje?' author={null} text='Como Josh Hokit usa personajes exagerados para ganar hype y dar atención a los pesos pesados.' date='10/06/2026' />
         <ArticlePreview img={saintDenisMilitar} url='/articulos/benoit-saint-denis-militar' title='El Pasado Militar de Benoit Saint Denis' author={null} text='Cómo Benoit Saint Denis pasó de ser un militar de las fuerzas especiales francesas a uno de los peleadores más emocionantes de la UFC. ' date='27/01/2026' />
         <ArticlePreview img={pimblettOffCamp} url='/articulos/paddy-pimblett-fuera-de-campamento' title='Paddy Pimblett Fuera de Campamento: ¿Por Qué Se Ve Tan Gordo?' author={null} text='Porque Paddy Pimblett engorda tanto cuando no está peleando. El antes y después de Paddy The Baddy en una pelea.' date='19/01/2026' />
