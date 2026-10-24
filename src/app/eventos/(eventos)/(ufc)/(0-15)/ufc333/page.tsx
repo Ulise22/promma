@@ -47,6 +47,8 @@ export default function UFC333 () {
                     <p>Brutal victoria por parte del alemán <b>Abus Magomedov</b>, quien luego de ser derribado por el peleador australiano <b>Cam Rowston</b>, fue capaz de conectar en el momento una guillotina que estuvo bien cerrada, imposible de escapar por más que intentara, consiguiendo de esta manera la primer sumisión de la noche y ganar por sumisión en el primer asalto. </p>
                     <h2>Abdul Rakhman Rakhyaev Noquea a Nikita Krylov en el Primer Asalto</h2>
                     <p>Muy buena victoria por parte del luchador turco <b>Abdul Rakhman Rakhyaev</b>, quien aplastó al ruso <b>Nikita Krylov</b>, a quien cuando lo tenía conectado con una llave de bjj, transicionó para conectarle un rodillazo en la cabeza, rematándolo a golpes para que el árbitro los separé, y otorgándole de esta manera la victoria por TKO en el primer asalto. </p>
+                    <h2>Dominick Reyes Noquea a Azamat Murzakanov en el Primer Asalto</h2>
+                    <p>Impresionante victoria por la vía del nocaut de <b>Dominick Reyes</b>, quien fue capaz de conectar una patada a la cabeza del ruso <b>Azamat Murzakanov</b>, que lo dejó grogui, para proseguir con una combinación de golpes que lo tumbaría al suelo y que eventualmente llevaría al árbitro a parar el combate, consiguiendo una victoria por TKO en el primer asalto del combate. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
