@@ -43,6 +43,8 @@ export default function UFC333 () {
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2>Grant Dawson Derrota a Nurullo Aliev por Decisión Unánime</h2>
                     <p>Impresionante pelea la que acabamos de presenciar. Con un primer asalto que fue clave para definir el resto del combate, siendo el de Yayikistán <b>Nurullo Aliev</b> el mejor, estando a punto de noquear a Dawson: sin embargo, cuando lo tenía tirado en el suelo y sólo necesitaba rematar para llevarse una victoria por nocaut, golpeó a su rival atrás de la cabeza en 3 ocasiones, el árbitro se percató de esto, frenó la pelea y lo castigó con la quita de un punto. En estos momentos <b>Grant Dawson</b> tuvo tiempo suficiente para recuperarse y dar vuelta el combate, siendo muy superior en el segundo y tercer asalto, contando además con un punto de ventaja por sanción, se llevaría cómodamente la victoria por decisión unánime. </p>
+                    <h2>Abus Magomedov Somete a Cam Rowston en el Primer Asalto</h2>
+                    <p>Brutal victoria por parte del alemán <b>Abus Magomedov</b>, quien luego de ser derribado por el peleador australiano <b>Cam Rowston</b>, fue capaz de conectar en el momento una guillotina que estuvo bien cerrada, imposible de escapar por más que intentara, consiguiendo de esta manera la primer sumisión de la noche y ganar por sumisión en el primer asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
