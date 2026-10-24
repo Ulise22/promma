@@ -36,6 +36,8 @@ export default function UFC333 () {
                     <p>Brutal victoria del estadounidense <b>Kody Steele</b>, quien en una pelea que aunque corta fue impresionante, fue capaz de conectar una combinación de golpes letal para dejar noqueado al luchador francés <b>Noah Gugnon</b> en el primer asalto. </p>
                     <h2>Daniel Santos Derrota a Bolaji Oki Por Decisión Unánime</h2>
                     <p>Grandísima pelea la que acabamos de presenciar, entre 2 luchadores que de alto nivel en peso pluma que se goleparon desde todos los ángulos posibles durante los 3 asaltos que duró el combate. Quien se terminaría llevando la victoria sería el brasileño <b>Daniel Santos</b>, quien con codazos giratorios, rodillazos al cuerpo y a la cabeza de su rival, y siendo incluso capaz de conectar un derribo, convencería a los jueces de que la victoria era suya, especialmente después de un segundo y tercer asalto muy buenos por su parte. </p>
+                    <h2>Abubakar Vagaev Derrota a Jacob Malkoun por Decisión Unánime</h2>
+                    <p>Buena pelea la que acabamos de presenciar, siendo la más cerrada hasta el momento, donde el australiano <b>Jacob Malkoun</b> se impondría en el primer asalto, mostrando una gran capacidad para defenderse de los derribos y lucha de su rival, además de una gran capacidad para castigar con el striking a su oponente. Sin embargo, el ruso <b>Abubakar Vagaev</b> fue de menos a más, dominando progresivamente al australiano, robándose los últimos asaltos con derribos y golpes que dañaban a Malkoun para finalmente ganar por decisión unánime. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p> */}
