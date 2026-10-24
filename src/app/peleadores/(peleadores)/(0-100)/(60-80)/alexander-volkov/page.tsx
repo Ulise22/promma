@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function AlexanderVolkov () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={40} l={11} d={0} categoria='Peso Pesado' nombre='Alexander Volkov' apodo='Drago' time='2026-10-15' />
+            <PeleadoresHero peleadoresImage={fighter} w={41} l={11} d={0} categoria='Peso Pesado' nombre='Alexander Volkov' apodo='Drago' time='2026-10-24' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>¿Quién es Alexander Volkov?</h2>
@@ -32,7 +32,7 @@ export default function AlexanderVolkov () {
                     <p className={styles.peleador__article__text}>Es un striker alto de gran alcance, que pese a no ser un finalizador nato, ha tenido varias victorias por la vía del nocaut, y grandes combates en los que dominó con sus jabs, patadas a las piernas y combinaciones a distancia. </p>
                     <p className={styles.peleador__article__text}></p>
                     <h2 className={styles.peleador__article__title}>Alexander Volkov Récord</h2>
-                    <p className={styles.peleador__article__text}>Alexander Volkov posee un récord profesional en MMA de 40-11. Con 24 de sus victorias siendo por la vía del nocaut, 4 siendo por sumisión y 12 siendo por decisión de los jueces. Mientras que de sus 11 derrotas, 2 fueron por la vía del nocaut, 3 por la vía de la sumisión y 6 por decisión. </p>
+                    <p className={styles.peleador__article__text}>Alexander Volkov posee un récord profesional en MMA de 41-11. Con 24 de sus victorias siendo por la vía del nocaut, 4 siendo por sumisión y 13 siendo por decisión de los jueces. Mientras que de sus 11 derrotas, 2 fueron por la vía del nocaut, 3 por la vía de la sumisión y 6 por decisión. </p>
                     <h2 className={styles.peleador__article__title}>Alexander Volkov Historia</h2>
                     <p className={styles.peleador__article__text}>Alexander Yevguenievich Volkov nació el 24 de octubre de 1988 en Moscú, Rusia, en la ya inexistente Unión Soviética. Creció en una familia donde la actividad física siempre estuvo presente, con su padre siendo un practicante de remo académico y tiro con arco amateur, y su madre dedicándose a diferentes deportes de equipo. </p>
                     <p className={styles.peleador__article__text}>De pequeño, pese a ser muy activo, sufría de asma bronquial (padeciendo crisis frecuentes hasta los 18 años), lo que le impidió dedicarse a deportes que le gustaban como el atletismo o el fútbol de manera formal, ya que los médicos no le daban el certificado necesario para practicarlos. Sin embargo, es debido a esto que comenzó a entrenar artes marciales, ya que estas sí le permitían competir de manera formal. </p>

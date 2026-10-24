@@ -3,7 +3,7 @@ import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import ufc333 from '@/assets/eventos/ufc/0-150/0-15/ufc333.webp'
-import jeanSilvaMadre from '@/assets/articulos/0-100/90-100/jean_silva-madre.webp'
+import merabCardio from '@/assets/articulos/0-100/70-80/merab_dvalishvili-cardio.webp'
 import dvalishviliNariz from '@/assets/articulos/0-100/90-100/merab_dvalishvili-nariz.webp'
 
 export default function HomeHero () {
@@ -14,14 +14,14 @@ export default function HomeHero () {
                 <h2 className={styles.home__title}>UFC 333: ¡Alexander Volkanovski Noquea a Movsar Evloev en el Segundo Asalto y Sigue Siendo Campeón de la UFC! ¡Petr Yan Derrota a Merab Dvalishvili en La Pelea de la Noche y Sigue Siendo Campeón!</h2>
                 <span>¡Alexander Volkov Derrota a Rizvan Kuniev por Decisión Unánime! ¡Lone&apos;er Kavanagh Noquea a Ramazan Temirov en el Primer Asalto!</span>
             </Link>
-            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/articulos/jean-silva-historia-madre'>
-                <Image className={styles.homehero__article__img} quality={50} src={jeanSilvaMadre} alt='' />
+            <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/articulos/merab-dvalishvili-cardio'>
+                <Image className={styles.homehero__article__img} quality={50} src={merabCardio} alt='' />
                 <article className={styles.homehero__article__container}>
-                    <h2 className={styles.homehero__title}>La Trágica Historia de la Madre de Jean Silva</h2>
-                    <p>Como el asesinato de un hermano, el abuso y encarcelamiento de su madre forjaron a Jean &quot;Lord&quot; Silva.</p>
+                    <h2 className={styles.homehero__title}>El Cardio de Merab Dvalishvili</h2>
+                    <p>¿Cómo Conseguir el Cardio de Merab Dvalishvili? El Secreto de Merab Para Tener un Cardio Inhumano.</p>
                     <div className={styles.homehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>12/09/2026</p>
+                        <p>18/09/2025</p>
                     </div>
                 </article>
             </Link>

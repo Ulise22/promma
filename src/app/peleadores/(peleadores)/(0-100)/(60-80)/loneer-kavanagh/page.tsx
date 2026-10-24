@@ -24,14 +24,14 @@ export const metadata: Metadata = {
 export default function LoneerKavanagh () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={10} l={2} d={0} categoria='Peso Mosca' nombre='Loneer Kavanagh' apodo={null} time='2026-10-22' />
+            <PeleadoresHero peleadoresImage={fighter} w={11} l={2} d={0} categoria='Peso Mosca' nombre='Loneer Kavanagh' apodo={null} time='2026-10-24' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>¿Quién es Loneer Kavanagh?</h2>
                     <p className={styles.peleador__article__text}>Lone&apos;er Kavanagh es un luchador inglés de MMA que compite en la división de peso mosca de la UFC. Habiendo nacido en el 99, es de los luchadores más prometedores de la división, estando ya entre los 10 mejores del mundo y habiendo vencido a leyendas de la talla de <Link href='/peleadores/brandon-moreno'>Brandon Moreno</Link>. </p>
                     <p className={styles.peleador__article__text}>Es de origen inglés con raíces irlandesas, siendo cinturón negro en kickboxing, disciplina que definió su estilo y en la que fue campeón mundial 5 veces en K-1. A pesar de ser principalmente un striker, también es competente en el suelo, siendo cinturón púrpura en jiu-jitsu brasileño. </p>
                     <h2 className={styles.peleador__article__title}>Loneer Kavanagh Récord</h2>
-                    <p className={styles.peleador__article__text}>Loneer Kavanagh posee un récord profesional de MMA de 10-2. Con 4 de sus victorias proviniendo por la vía del nocaut, 1 siendo por sumisión y 5 siendo por decisión de los jueces. Mientras que de sus 2 derrotas, 1 fue por la vía del nocaut y 1 por la vía de la sumisión. </p>
+                    <p className={styles.peleador__article__text}>Loneer Kavanagh posee un récord profesional de MMA de 11-2. Con 5 de sus victorias proviniendo por la vía del nocaut, 1 siendo por sumisión y 5 siendo por decisión de los jueces. Mientras que de sus 2 derrotas, 1 fue por la vía del nocaut y 1 por la vía de la sumisión. </p>
                     <h2 className={styles.peleador__article__title}>Loneer Kavanagh Historia</h2>
                     <p className={styles.peleador__article__text}>Lone&apos;er Kavanagh nació el 9 de junio de 1999 en Londres, Inglaterra. Siendo hijo de un padre irlandés y de una madre china (de donde proviene su nombre, Lone&apos;er, que significa &quot;Hijo de Dragón&quot; o &quot;Pequeño Dragón&quot;). </p>
                     <p className={styles.peleador__article__text}>Ya desde muy pequeño sufrió un golpe muy duro, cuando a los 6 años, mientras él estaba en clase de gimnasia, fue llamado por su madre para decirle que su padre había sufrido un ataque al corazón, del cual terminó falleciendo en el hospital. Debido a esto, el pequeño Loneer creció sin figura paterna, con su madre teniendo que ser de padre y madre al mismo tiempo, siendo además por su cultura, una señora estricta y asustadora que le inculcó disciplina desde niño. </p>

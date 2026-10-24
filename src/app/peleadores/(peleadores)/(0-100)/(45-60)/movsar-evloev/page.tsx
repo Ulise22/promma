@@ -24,14 +24,14 @@ export const metadata: Metadata = {
 export default function MovsarEvloev () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={20} l={0} d={0} categoria='Peso Pluma' nombre='Movsar Evloev' apodo={null} time='2026-10-06' />
+            <PeleadoresHero peleadoresImage={fighter} w={20} l={1} d={0} categoria='Peso Pluma' nombre='Movsar Evloev' apodo={null} time='2026-10-24' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>¿Quién es Movsar Evloev?</h2>
                     <p className={styles.peleador__article__text}>Movsar Evloev es un peleador ruso invicto de la UFC que compite en la división de peso pluma, donde desde su llegada a la UFC no ha hecho más que ganar hasta convertirse en un serio contendiente al título. </p>
                     <p className={styles.peleador__article__text}>Es un luchador bastante criticado y cuestionado debido a su estilo de pelea, donde va mucho a lo seguro, priorizando controlar a su contrincante sin hacer mucho daño, pero sumando puntos que hacen que gane sus peleas a los ojos de los jueces, al punto en que al menos hasta ahora, en 7 años en la UFC no ha conseguido ninguna finalización. Aún así es efectivo y eso explica las nulas derrotas en su récord, llegando al punto de retar al histórico campeón de la categoría, <Link href='/peleadores/alexander-volkanovski'>Alexander Volkanovski</Link></p>
                     <h2 className={styles.peleador__article__title}>Movsar Evloev Récord</h2>
-                    <p className={styles.peleador__article__text}>Movsar Evloev posee un récord profesional en MMA de 20-0. Con 3 de sus victorias siendo por la vía del nocaut, 4 siendo por la vía de la sumisión y 13 siendo por decisión de los jueces. Además no ha perdido ninguna de sus peleas, siendo un luchador invicto. </p>
+                    <p className={styles.peleador__article__text}>Movsar Evloev posee un récord profesional en MMA de 20-1. Con 3 de sus victorias siendo por la vía del nocaut, 4 siendo por la vía de la sumisión y 13 siendo por decisión de los jueces. Mientras que posee solamente una derrota profesional por la vía del nocaut. </p>
                     <h2 className={styles.peleador__article__title}>Movsar Evloev Historia</h2>
                     <p className={styles.peleador__article__text}>Movsar Magomedovich Evloev nació el 11 de febrero de 1994 en Ordzhonikidzevskaya, hoy Sunzha, en Ingusetia, una república del Cáucaso ruso similar a Daguestán y Chechenia. Seguramente influenciado por el entorno, habiendo nacido en una región con gran tradición de lucha, comenzó a entrenar desde niño artes marciales. </p>
                     <p className={styles.peleador__article__text}>Se dedicó a la lucha grecorromana, hasta obtener el rango de Maestro de Deportes. Estudio programación informática y derecho hasta que finalmente haría su debut profesional en las MMA en peso gallo el 25 de noviembre de 2014, con apenas 20 años, luchado en Beijing, China, ante el rival local <b>Jianwei He</b>, a quien lograría someter en el segundo asalto. </p>
