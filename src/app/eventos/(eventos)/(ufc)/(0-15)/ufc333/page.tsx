@@ -12,11 +12,11 @@ const ArticlesFooter = dynamic(() => import('@/app/components/recomendedArticles
 
 export const metadata: Metadata = {
     title: 'UFC 333: ¡Alexander Volkanovski vs Movsar Evloev! ¡Petr Yan vs Merab Dvalishvili!',
-    description: "",
+    description: "Noche de UFC en Emiratos Árabes, con el campeón de peso pluma Alexander Volkanovski defendiendo su cinturón ante Movsar Evloev, y el campeón de peso gallo Petr Yan enfrentando a Merab Dvalishvili en una revancha.",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc333.1e9faebb.webp&w=828&q=65',
         title: 'UFC 333: ¡Alexander Volkanovski vs Movsar Evloev! ¡Petr Yan vs Merab Dvalishvili!',
-        description: "",
+        description: "Noche de UFC en Emiratos Árabes, con el campeón de peso pluma Alexander Volkanovski defendiendo su cinturón ante Movsar Evloev, y el campeón de peso gallo Petr Yan enfrentando a Merab Dvalishvili en una revancha.",
         url: 'https://fullmma.org/eventos/ufc333'
     }
 }
