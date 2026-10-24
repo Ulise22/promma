@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Volkanovski () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={volkanovski} w={29} l={4} d={0} nombre='Alexander Volkanovski' apodo='THE GREAT' categoria='Peso Pluma' time='2025-10-29' />
+            <PeleadoresHero peleadoresImage={volkanovski} w={29} l={4} d={0} nombre='Alexander Volkanovski' apodo='THE GREAT' categoria='Peso Pluma' time='2026-10-24' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Volkanovski UFC</h2>
