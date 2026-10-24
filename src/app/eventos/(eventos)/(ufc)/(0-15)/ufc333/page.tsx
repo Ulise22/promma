@@ -32,6 +32,8 @@ export default function UFC333 () {
                     <h2 className={styles.article__fightsHierarchy}>Primeros Preliminares</h2>
                     <h2>Iasmin Lucindo Derrota a Nicolle Caliari Por Decisión Unánime</h2>
                     <p>Gran primer combate para iniciar la cartelera, con la brasileña <b>Iasmin Lucindo</b> siendo quien se quedaría con la victoria, después de hacer un excelente primer asalto en el que golpeó a su rival haciendo mucho daño, y conectando un codazo giratorio que le haría un corte en el ojo a su oponente, lo que terminaría influenciando el resto de la pelea, ya que <b>Nicolle Caliari</b> tendría que pelear con un corte y un chorro de sangre corriendo por su rostro. El combate terminaría con Iasmin Lucindo ganando por decisión unánime de los jueces. </p>
+                    <h2>Kody Steele Noquea a Noah Gugnon en el Primer Asalto</h2>
+                    <p>Brutal victoria del estadounidense <b>Kody Steele</b>, quien en una pelea que aunque corta fue impresionante, fue capaz de conectar una combinación de golpes letal para dejar noqueado al luchador francés <b>Noah Gugnon</b> en el primer asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p> */}
