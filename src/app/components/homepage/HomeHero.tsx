@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/eventos/ufc333'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc333} alt='' />
-                <h2 className={styles.home__title}>UFC 333: ¡Alexander Volkanovski vs Movsar Evloev! ¡Petr Yan vs Merab Dvalishvili!</h2>
+                <h2 className={styles.home__title}>UFC 333: ¡Alexander Volkanovski vs Movsar Evloev! ¡Petr Yan Derrota a Merab Dvalishvili en La Pelea de la Noche y Sigue Siendo Campeón!</h2>
                 <span>¡Alexander Volkov Derrota a Rizvan Kuniev por Decisión Unánime! ¡Lone&apos;er Kavanagh Noquea a Ramazan Temirov en el Primer Asalto!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/articulos/jean-silva-historia-madre'>
