@@ -52,6 +52,8 @@ export default function UFC333 () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Aaron Pico Noquea a Losene Keita en el Primer Asalto</h2>
                     <p>Tremenda manera de iniciar esta cartelera estelar, con el luchador estadounidense <b>Aaron Pico</b> obteniendo una gran victoria por la vía del nocaut ante el belga <b>Losene Keita</b>, a quien con un recto de derecha fue capaz de tirarlo al piso. De esta forma, el estadounidense mantiene su lugar en los rankings y consigue su segunda victoria consecutiva en la UFC. </p>
+                    <h2>Alexander Volkov Derrota a Rizvan Kuniev por Decisión Unánime</h2>
+                    <p>Gran pelea por parte del ruso <Link href='/peleadores/alexander-volkov'>Alexander Volkov</Link>, quien en un combate cerrado fue ligeramente mejor que su contricante, utilizando todas sus fortalezas, su gran striking, sus buenas patadas, su altura y alcance para mantener la distancia, siendo capaz de puntuar y cerrar el combate de gran manera, al derribar a su oponente, tomarle la espalda e intentar un mataleón que, aunque no prospero, lo tuvo en una posición dominante durante gran parte del tercer asalto. De esta forma, todo invitaría a pensar que lo que queda por delante para Volkov es una pelea por el título ante el ganador de <Link href='/peleadores/ciryl-gane'>Ciryl Gane</Link> y <Link href='/peleadores/josh-hokit'>Josh Hokit</Link>. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
