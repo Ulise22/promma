@@ -49,9 +49,9 @@ export default function UFC333 () {
                     <p>Muy buena victoria por parte del luchador turco <b>Abdul Rakhman Rakhyaev</b>, quien aplastó al ruso <b>Nikita Krylov</b>, a quien cuando lo tenía conectado con una llave de bjj, transicionó para conectarle un rodillazo en la cabeza, rematándolo a golpes para que el árbitro los separé, y otorgándole de esta manera la victoria por TKO en el primer asalto. </p>
                     <h2>Dominick Reyes Noquea a Azamat Murzakanov en el Primer Asalto</h2>
                     <p>Impresionante victoria por la vía del nocaut de <b>Dominick Reyes</b>, quien fue capaz de conectar una patada a la cabeza del ruso <b>Azamat Murzakanov</b>, que lo dejó grogui, para proseguir con una combinación de golpes que lo tumbaría al suelo y que eventualmente llevaría al árbitro a parar el combate, consiguiendo una victoria por TKO en el primer asalto del combate. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Aaron Pico Noquea a Losene Keita en el Primer Asalto</h2>
+                    <p>Tremenda manera de iniciar esta cartelera estelar, con el luchador estadounidense <b>Aaron Pico</b> obteniendo una gran victoria por la vía del nocaut ante el belga <b>Losene Keita</b>, a quien con un recto de derecha fue capaz de tirarlo al piso. De esta forma, el estadounidense mantiene su lugar en los rankings y consigue su segunda victoria consecutiva en la UFC. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
