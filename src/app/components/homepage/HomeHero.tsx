@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import buckleyVSMallot from '@/assets/eventos/fight-night/0-150/16-30/buckley-vs-malott.webp'
+import ufc333 from '@/assets/eventos/ufc/0-150/0-15/ufc333.webp'
 import jeanSilvaMadre from '@/assets/articulos/0-100/90-100/jean_silva-madre.webp'
 import dvalishviliNariz from '@/assets/articulos/0-100/90-100/merab_dvalishvili-nariz.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/eventos/ufc-fight-night-buckley-vs-malott'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={buckleyVSMallot} alt='' />
-                <h2 className={styles.home__title}>UFC Fight Night: ¡Mike Malott Noquea a Joaquin Buckley en el Segundo Asalto!</h2>
-                <span>¡Jasmine Jasudavicius Derrota a Erin Blanchfield Por Decisión Unánime! ¡Cristian Perez Noquea a Kyle Nelson en el Primer Asalto!</span>
+            <Link className={styles.homehero__bigArticle} href='/eventos/ufc333'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc333} alt='' />
+                <h2 className={styles.home__title}>UFC 333: ¡Alexander Volkanovski vs Movsar Evloev! ¡Petr Yan vs Merab Dvalishvili!</h2>
+                <span>¡Alexander Volkov vs Rizvan Kuniev! ¡Loneer Kavanagh vs Ramazan Temirov!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/articulos/jean-silva-historia-madre'>
                 <Image className={styles.homehero__article__img} quality={50} src={jeanSilvaMadre} alt='' />
