@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc332 from '@/assets/eventos/ufc/0-150/0-15/ufc332.webp'
+import ufc333 from '@/assets/eventos/ufc/0-150/0-15/ufc333.webp'
 import allenDuncan from '@/assets/eventos/fight-night/0-150/16-30/allen-vs-duncan.webp'
 import buckleyVSMallot from '@/assets/eventos/fight-night/0-150/16-30/buckley-vs-malott.webp'
 
 export default function PageHero () {
     return(
         <section className={styles.pagehero}>
-            <Link className={styles.pagehero__bigArticle} href='/eventos/ufc332'>
-                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc332} alt='' />
-                <h2 className={styles.page__title}>UFC 332: ¡Natalia Silva Derrota a Wang Cong y es la Nueva Campeona! ¡Payton Talbott Noquea a Deiveson Figueiredo en el Primer Asalto!</h2>
-                <p>¡Esteban Ribovics Noquea a King Green en el Primer Asalto! ¡Roman Kopylov Noquea a Ateba Gautier en el Primer Asalto!</p>
+            <Link className={styles.pagehero__bigArticle} href='/eventos/ufc333'>
+                <Image className={styles.pagehero__bigArticle__img} priority={true} quality={75} src={ufc333} alt='' />
+                <h2 className={styles.page__title}>UFC 333: ¡Alexander Volkanovski Noquea a Movsar Evloev en el Segundo Asalto y Sigue Siendo Campeón de la UFC! ¡Petr Yan Derrota a Merab Dvalishvili en La Pelea de la Noche y Sigue Siendo Campeón!</h2>
+                <p>¡Alexander Volkov Derrota a Rizvan Kuniev por Decisión Unánime! ¡Lone&apos;er Kavanagh Noquea a Ramazan Temirov en el Primer Asalto!</p>
             </Link>
             <Link className={`${styles.pagehero__article} ${styles.normal2}`} href='/eventos/ufc-fight-night-buckley-vs-malott'>
                 <Image className={styles.pagehero__article__img} quality={50} src={buckleyVSMallot} alt='' />
