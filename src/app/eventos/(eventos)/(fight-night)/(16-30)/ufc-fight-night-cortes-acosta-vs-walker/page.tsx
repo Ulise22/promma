@@ -36,6 +36,10 @@ export default function CortesAcostaVsWalker () {
                     <p>Gran victoria del luchador surcoreano <b>Seokhyeon Ko</b>, quien dominó de principio a fin al brasileño <b>Wellington Turman</b>, consiguiendo una meritoria victoria por decisión unánime 30-27. </p>
                     <h2>Andre Petroski Noquea a Mantas Kondratavicius en el Segundo Asalto</h2>
                     <p>Buena victoria del estadounidense <b>Andre Petroski</b>, quien fue capaz de resistir los golpes de su rival lituano en el primer asalto, que en mi opinión perdió, consiguiendo terminar por arriba en el suelo en el segundo asalto, castigando con ground & pound, hasta que finalmente el árbitro paró la pelea al no ver defensa por parte de Mantas. De esta forma, Andre Petroski se lleva la victoria por TKO en el segundo asalto. </p>
+                    <h2>Austin Bashi Somete a Carlos Calderon en el Primer Asalto</h2>
+                    <p>Espectacular finalización por parte del estadounidense <b>Austin Bashi</b>, quien acabó con el combate de manera precoz, al derribar y tomar la espalda de su rival, conectando un mataleón que obligaría al salvadoreño <b>Carlos Calderon</b> a tapear. De esta forma, el estadoundiense Austin Bashi vuelve a la victoria por la vía de la sumisión. </p>
+                    <h2>Murtazali Magomedov Derrota a Jose Delano por Decisión Unánime y Mantiene el Invicto</h2>
+                    <p>Peleón el que acabamos de presenciar, muy cerrado y muy competitivo, con ambos luchadores haciéndose mucho daño, siendo el luchador de Kirguistán <b>Murtazali Magomedov</b> quien finalmente saldría victorioso, luego de conseguir varios derribos a lo largo del combate, y aunque en el striking fue inferior a su rival brasileño, fue capaz de conectar unos golpes durísimos que casi noquean a su contricante, incluído un golpe letal a falta de 3 segundos que a punto estuvo de acabar con el combate ahí mismo. De esta forma, Magomedov extiende su récord invicto a 12-0. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
