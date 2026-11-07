@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc333 from '@/assets/eventos/ufc/0-150/0-15/ufc333.webp'
+import cortesAcostaVSWalker from '@/assets/eventos/fight-night/0-150/16-30/cortes_acosta-vs-walker.webp'
 import merabCardio from '@/assets/articulos/0-100/70-80/merab_dvalishvili-cardio.webp'
 import dvalishviliNariz from '@/assets/articulos/0-100/90-100/merab_dvalishvili-nariz.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/eventos/ufc333'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc333} alt='' />
-                <h2 className={styles.home__title}>UFC 333: ¡Alexander Volkanovski Noquea a Movsar Evloev en el Segundo Asalto y Sigue Siendo Campeón de la UFC! ¡Petr Yan Derrota a Merab Dvalishvili en La Pelea de la Noche y Sigue Siendo Campeón!</h2>
-                <span>¡Alexander Volkov Derrota a Rizvan Kuniev por Decisión Unánime! ¡Lone&apos;er Kavanagh Noquea a Ramazan Temirov en el Primer Asalto!</span>
+            <Link className={styles.homehero__bigArticle} href='/eventos/ufc-fight-night-cortes-acosta-vs-walker'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={cortesAcostaVSWalker} alt='' />
+                <h2 className={styles.home__title}>UFC Fight Night: ¡Waldo Cortes Acosta vs Johnny Walker!</h2>
+                <span>¡Tatiana Suarez vs Virna Jandiroba!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/articulos/merab-dvalishvili-cardio'>
                 <Image className={styles.homehero__article__img} quality={50} src={merabCardio} alt='' />
