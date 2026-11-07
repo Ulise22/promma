@@ -34,6 +34,8 @@ export default function CortesAcostaVsWalker () {
                     <p>Espectacular manera de iniciar la cartelera de esta noche, con una finalización en el primer asalto, cortesía del brasileño <b>José Souza</b>, quien ya partía como favorito en el combate, haciendo valer esto ante el estadounidense <b>Johnny Parsons</b>. </p>
                     <h2>Seokhyeon Ko Derrota a Wellington Turman Por Decisión Unánime</h2>
                     <p>Gran victoria del luchador surcoreano <b>Seokhyeon Ko</b>, quien dominó de principio a fin al brasileño <b>Wellington Turman</b>, consiguiendo una meritoria victoria por decisión unánime 30-27. </p>
+                    <h2>Andre Petroski Noquea a Mantas Kondratavicius en el Segundo Asalto</h2>
+                    <p>Buena victoria del estadounidense <b>Andre Petroski</b>, quien fue capaz de resistir los golpes de su rival lituano en el primer asalto, que en mi opinión perdió, consiguiendo terminar por arriba en el suelo en el segundo asalto, castigando con ground & pound, hasta que finalmente el árbitro paró la pelea al no ver defensa por parte de Mantas. De esta forma, Andre Petroski se lleva la victoria por TKO en el segundo asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
