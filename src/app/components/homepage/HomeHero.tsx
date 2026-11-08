@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/eventos/ufc-fight-night-cortes-acosta-vs-walker'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={cortesAcostaVSWalker} alt='' />
-                <h2 className={styles.home__title}>UFC Fight Night: ¡Waldo Cortes Acosta vs Johnny Walker!</h2>
+                <h2 className={styles.home__title}>UFC Fight Night: ¡Johnny Walker Noquea a Waldo Cortes Acosta en el Tercer Asalto y da la Sorpresa!</h2>
                 <span>¡Tatiana Suarez Derrota a Virna Jandiroba por Decisión Unánime!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/articulos/merab-dvalishvili-cardio'>
