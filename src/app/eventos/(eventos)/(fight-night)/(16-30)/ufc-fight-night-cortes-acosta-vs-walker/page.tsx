@@ -46,9 +46,9 @@ export default function CortesAcostaVsWalker () {
                     <p>Locura de combate el que acabamos de presenciar, con un <b>Gabriel Lorenco</b> que inició muy agresivo y que estuvo a punto de noquear a Petersen durante todo el primer asalto, fue tanto el dominio que mostró en este asalto, que terminó 40 golpes por encima de su rival, y que probablemente terminó ganando este asalto 10-8. Sin embargo, <b>Thomas Petersen</b> demostró un corazón sin igual, siendo capaz de resistir los 5 minutos, sobreviviendo como pudo, y finalmente dando vuelta la pelea, ganando el segundo asalto, a punto de noquear a su rival, y ganando el tercero, pero consiguiendo quedar por arriba de su rival en el suelo y castigarlo a golpes hasta que el árbitro paró la pelea, a casi 10 segundos de que terminé. De esta manera, el estadounidense <b>Thomas Petersen</b> ganó por TKO en el tercer asalto una pelea que a punto estuvo de acabar en empate. </p>
                     <h2>Ollie Schmid Derrota a Kellchiro Nakamura Por Decisión Unánime</h2>
                     <p>Gran victoria por parte del húngaro <b>Ollie Schmid</b>, quien en un combate muy cerrado, terminó llevándose la victoria por decisión unánime ante el japonés <b>Kellchiro Nakamura</b>, sobreviviendo a la avalancha de golpes que padeció en el último asalto, que apunto estuvieron de noquearlo. De esta forma, Ollie consigue su primer victoria en la UFC por decisión unánime 29-28.</p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Mitch Raposo Derrota a Marcos Degli Por Decisión Unánime</h2>
+                    <p>Buena victoria para el estadounidense <b>Mitch Raposo</b>, que fue mejor en el striking claramente, logrando dominar la totalidad del combate, llevándose de manera merecida la victoria por decisión unánime en este primer combate estelar de la noche. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
