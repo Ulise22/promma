@@ -53,6 +53,8 @@ export default function CortesAcostaVsWalker () {
                     <p>Dominio total por parte de la serbia <b>Nina Milosevic</b>, quien fue capaz de derribar a su rival rápidamente, manetenerla en la posición, y castigarla a golpes, repitiendo lo mismo en el segundo asalto, donde finalmente conseguiría la finalización, ganando el combate por TKO en el segundo asalto, y alcanzando la décima victoria consecutiva en su carrera. </p>
                     <h2>Lucas Fernando Derrota a Billy Elekana por Decisión Unánime</h2>
                     <p>Buena victoria del brasileño <b>Lucas Fernando</b>, quien fue tan dominante durante los primeros 2 asaltos, ganando cómodamente con un striking fino que intercalaba muy bien golpes a la cabeza con golpes al abdomen, que aún perdiendo y siendo dominado durante el tercer y último asalto, se lleva una cómoda victoria por decisión unánime. </p>
+                    <h2>Elijah Smith Noquea a Davey Grant en el Primer Asalto</h2>
+                    <p>Fugaz combate, cuando el jovensísimo estadounidense de 24 años <b>Elijah Smith</b>, quien rápidamente entró al intercambio de golpes donde encontró recompensa, al conectar un gancho de inzquierda y un cruzado de derecha que dormiría de inmediato a su rival, el veterano inglés <b>Davey Grant</b>. De esta forma Elijah Smith gana por KO en el primer asalto y consigue su extender su invicto en la UFC a 4-0. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
