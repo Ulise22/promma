@@ -49,6 +49,8 @@ export default function CortesAcostaVsWalker () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Mitch Raposo Derrota a Marcos Degli Por Decisión Unánime</h2>
                     <p>Buena victoria para el estadounidense <b>Mitch Raposo</b>, que fue mejor en el striking claramente, logrando dominar la totalidad del combate, llevándose de manera merecida la victoria por decisión unánime en este primer combate estelar de la noche. </p>
+                    <h2>Nina Milosevic Noquea a Priscila Cachoeira en el Segundo Asalto</h2>
+                    <p>Dominio total por parte de la serbia <b>Nina Milosevic</b>, quien fue capaz de derribar a su rival rápidamente, manetenerla en la posición, y castigarla a golpes, repitiendo lo mismo en el segundo asalto, donde finalmente conseguiría la finalización, ganando el combate por TKO en el segundo asalto, y alcanzando la décima victoria consecutiva en su carrera. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
