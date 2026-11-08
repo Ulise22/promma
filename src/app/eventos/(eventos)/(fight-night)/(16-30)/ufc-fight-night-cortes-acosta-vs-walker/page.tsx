@@ -51,6 +51,8 @@ export default function CortesAcostaVsWalker () {
                     <p>Buena victoria para el estadounidense <b>Mitch Raposo</b>, que fue mejor en el striking claramente, logrando dominar la totalidad del combate, llevándose de manera merecida la victoria por decisión unánime en este primer combate estelar de la noche. </p>
                     <h2>Nina Milosevic Noquea a Priscila Cachoeira en el Segundo Asalto</h2>
                     <p>Dominio total por parte de la serbia <b>Nina Milosevic</b>, quien fue capaz de derribar a su rival rápidamente, manetenerla en la posición, y castigarla a golpes, repitiendo lo mismo en el segundo asalto, donde finalmente conseguiría la finalización, ganando el combate por TKO en el segundo asalto, y alcanzando la décima victoria consecutiva en su carrera. </p>
+                    <h2>Lucas Fernando Derrota a Billy Elekana por Decisión Unánime</h2>
+                    <p>Buena victoria del brasileño <b>Lucas Fernando</b>, quien fue tan dominante durante los primeros 2 asaltos, ganando cómodamente con un striking fino que intercalaba muy bien golpes a la cabeza con golpes al abdomen, que aún perdiendo y siendo dominado durante el tercer y último asalto, se lleva una cómoda victoria por decisión unánime. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
