@@ -3,7 +3,7 @@ import styles from './PageHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
 import ufc333 from '@/assets/eventos/ufc/0-150/0-15/ufc333.webp'
-import allenDuncan from '@/assets/eventos/fight-night/0-150/16-30/allen-vs-duncan.webp'
+import cortesAcostaVSWalker from '@/assets/eventos/fight-night/0-150/16-30/cortes_acosta-vs-walker.webp'
 import buckleyVSMallot from '@/assets/eventos/fight-night/0-150/16-30/buckley-vs-malott.webp'
 
 export default function PageHero () {
@@ -25,14 +25,14 @@ export default function PageHero () {
                     </div>
                 </article>
             </Link>
-            <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/ufc-fight-night-allen-vs-duncan'>
-                <Image className={styles.pagehero__article__img} quality={50} src={allenDuncan} alt='' />
+            <Link className={`${styles.pagehero__article} ${styles.normal1}`} href='/eventos/ufc-fight-night-cortes-acosta-vs-walker'>
+                <Image className={styles.pagehero__article__img} quality={50} src={cortesAcostaVSWalker} alt='' />
                 <article className={styles.pagehero__article__container}>
-                    <h2 className={styles.pagehero__title}>UFC Fight Night: ¡Brendan Allen Somete a Christian Leroy Duncan en el Quinto y Último Asalto!</h2>
-                    <p>¡Loopy Godinez Derrota a Ketlen Souza por Decisión Unánime! ¡Francisco Prado Noquea a Ismael Bonfim en el Primer Asalto!</p>
+                    <h2 className={styles.pagehero__title}>UFC Fight Night: ¡Johnny Walker Noquea a Waldo Cortes Acosta en el Tercer Asalto y da la Sorpresa!</h2>
+                    <p>¡Tatiana Suarez Derrota a Virna Jandiroba por Decisión Unánime!</p>
                     <div className={styles.pagehero__article__info}>
                         <h4>FULLMMA</h4>
-                        <p>10/10/2026</p>
+                        <p>07/11/2026</p>
                     </div>
                 </article>
             </Link>
