@@ -32,6 +32,8 @@ export default function UFC334 () {
                     <h2 className={styles.article__fightsHierarchy}>Primeros Preliminares</h2>
                     <h2>Evan Elder Derrota a Samuel Sanches Por Decisión Unánime</h2>
                     <p>Espectacular pelea para iniciar esta gran cartelera, con el estadounidense <b>Evan Elder</b> siendo el que sale victorioso ante el brasileño <b>Samuel Sanches</b>, que tuvo un primer asalto con dominio estadounidense total, a punto de noquear a su rival en todo momento, y, aunque perdió un segundo asalto donde se notaba que los golpes de su rival hacían más daño que los suyos, fue capaz de compensar esto con unos derribos que fueron claves en el tercer asalto, aprovechando su ventaja posicional para castigar desde el suelo a golpes a su oponente. De esta manera el estadounidense Evan Elder se lleva la victoria por decisión unánime y alcanza su cuarta victoria consecutiva en peso ligero. </p>
+                    <h2>Juan Diaz Derrota a Alatengheili por Decisión Unánime</h2>
+                    <p>Paliza total del luchador peruano <b>Juan Diaz</b> ante el chino <b>Alatengheili</b>, a quien golpeó y dominó desde todos los lados posibles, consiguiendo una meritoria victoria por decisión unánime en este segundo combate en la UFC, consiguiendo su victoria 17 en su carrera. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p> */}
