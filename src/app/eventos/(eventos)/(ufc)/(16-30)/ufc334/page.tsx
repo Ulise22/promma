@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: 'UFC 334: ¡Ciryl Gane vs Josh Hokit! ¡Kayla Harrison vs Amanda Nunes!',
     description: "UFC 334 en el Madison Square Garden en Nueva York con Ciryl Gane defendiendo su título ante Josh Hokit y Kayla Harrison defendiendo su cinturón ante Amanda Nunes.",
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fufc334.9302751b.webp&w=828&q=65',
         title: 'UFC 334: ¡Ciryl Gane vs Josh Hokit! ¡Kayla Harrison vs Amanda Nunes!',
         description: "UFC 334 en el Madison Square Garden en Nueva York con Ciryl Gane defendiendo su título ante Josh Hokit y Kayla Harrison defendiendo su cinturón ante Amanda Nunes.",
         url: 'https://fullmma.org/eventos/ufc334'
