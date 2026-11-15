@@ -11,7 +11,7 @@ export default function HomeHero () {
         <section className={styles.homehero}>
             <Link className={styles.homehero__bigArticle} href='/eventos/ufc334'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc334} alt='' />
-                <h2 className={styles.home__title}>UFC 334: ¡Ciryl Gane vs Josh Hokit! ¡Kayla Harrison vs Amanda Nunes!</h2>
+                <h2 className={styles.home__title}>UFC 334: ¡Ciryl Gane Derrota a Josh Hokit por Decisión Unánime en La Pelea de la Noche! ¡Kayla Harrison Somete a Amanda Nunes en el Cuarto Asalto y Sigue Siendo Campeona!</h2>
                 <span>¡Caio Borralho Derrota a Yousri Belgaroui por Decisión Unánime! ¡Uros Medic y Kevin Holland Empatan Por Decisión Mayoritaria!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/articulos/merab-dvalishvili-cardio'>
