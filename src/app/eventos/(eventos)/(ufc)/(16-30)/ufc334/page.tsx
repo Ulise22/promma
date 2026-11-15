@@ -38,9 +38,9 @@ export default function UFC334 () {
                     <p>Primera finalización de la noche, con la brasileña <b>Bia Mesquita</b> siendo completamente protagonista, dominando a golpes a su rival, eventualmente logrando llevarla al suelo, y cuando parecía que estaba por noquearla en base a ground & pound, le tomó la espalda y conectó un mataleón que obligaría a su rival a tapear. De esta manera, la brasileña Bia Mesquita se lleva la victoria por sumisión en el primer asalto. </p>
                     <h2>Melquizael Costa Derrota a Jared Gordon por Decisión Unánime</h2>
                     <p>Gran victoria para el brasileño <b>Melquizael Costa</b>, quien luego de entrar al ranking de peso pluma, decidió subir de división y debuta con victoria en peso ligero, luego de dominar completamente al estadounidense <b>Jared Gordon</b>, durante el primer y tercer asalto, cuando fue capaz de lastimar a su oponente con esas patadas al cuerpo y cabeza, con un striking impredecible de muchos golpes que acabó por darle la victoria por decisión unánime. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
+                    <h2>Cesar Almeida Noquea a Donte Johnson en el Primer Asalto</h2>
+                    <p>Brutal nocaut en el primer asalto del brasileño <b>Cesar Almeida</b>, quien en un combate que inició algo cerrado, fue capaz de marcar la diferencia con el poder de sus manos, que con un par de golpes impactó duramente sobre la cabeza del estadounidense <b>Donte Johnson</b>, consiguiendo finalmente luego de un poco de esfuerzo, finalizarlo cuando el árbitro vió que Johnson ya estaba demasiado lastimado como para recuperarse de la paliza. De esta forma, Cesar Almeida se lleva la victoria por TKO en el primer asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
