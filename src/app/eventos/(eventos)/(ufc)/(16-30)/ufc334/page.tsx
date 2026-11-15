@@ -41,6 +41,8 @@ export default function UFC334 () {
                     <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2>Cesar Almeida Noquea a Donte Johnson en el Primer Asalto</h2>
                     <p>Brutal nocaut en el primer asalto del brasileño <b>Cesar Almeida</b>, quien en un combate que inició algo cerrado, fue capaz de marcar la diferencia con el poder de sus manos, que con un par de golpes impactó duramente sobre la cabeza del estadounidense <b>Donte Johnson</b>, consiguiendo finalmente luego de un poco de esfuerzo, finalizarlo cuando el árbitro vió que Johnson ya estaba demasiado lastimado como para recuperarse de la paliza. De esta forma, Cesar Almeida se lleva la victoria por TKO en el primer asalto. </p>
+                    <h2>Terrance McKinney Noquea a Jim Miller en el Primer Asalto</h2>
+                    <p>Tremenda victoria por parte del estadounidense <b>Terrance McKinney</b>, quien enfrentando al veterano <Link href='/articulos/jim-miller-historia'>Jim Miller</Link>, le conectó un golpe que lo tumbaría al suelo, para rematarlo finalmente y ganar el combate por la vía del nocaut en el primer asalto, ante el peleador con más peleas en la historia de la UFC. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
