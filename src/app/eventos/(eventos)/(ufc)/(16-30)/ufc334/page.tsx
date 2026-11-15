@@ -47,9 +47,9 @@ export default function UFC334 () {
                     <p>Gran victoria del escocés <b>Chris Duncan</b> ante un gran rival como lo es el veterano de 38 años <b>Drew Dober</b>, a quien en un combate muy competitivo, que debido a la agresividad y la brutalidad de los golpes que conectaban ambos, podría haber acabado en cualquier momento y a favor de cualquiera de los 2. Sin embargo, quien supo imponerse por encima de su rival fue el luchador europeo, quien se llevó la victoria por decisión unánime. </p>
                     <h2>Stephen Thompson Noquea a Charles Dadtke y Se Retira de las MMA</h2>
                     <p>Espectacular pelea para cerrar su carrera por parte del histórico luchador estadounidense <b>Stephen &quot;Wonderboy&quot; Thompson</b>, quien en una gran pelea, donde supo imponer su estilo, defendiendo todos los intento de derribo de su rival, y manteniendo la distancia con sus típicas patadas de karateca. Finalmente, acabó la pelea fiel a su estilo, con una patada giratoria espectacular, que pese a que estaba bloqueada por la mano de su rival, fue con tanta potencia que lo hizo tambalear hasta caer al suelo, venciendo por nocaut en el tercer asalto del combate, y retirándose como la leyenda que es. </p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Luis Gurule Derrota a Bilal Hasan por Decisión Dividida</h2>
+                    <p>Tremenda sorpresa la que nos llevamos el día de hoy en este combate, que tenía las apuestas más dispares de toda la cartelera, con el joven luchador de Indonesia <b>Bilal Hasan</b> siendo el claro favorito. Sin embargo, el estadounidense <b>Luis Gurule</b> sería protagonista de la gran sorpresa de la noche, dado que pese a perder el primer asalto, fue capaz de sobrevivir y llevar la pelea a la decisión de los jueces, derribando en más de una ocasión a su oponente, y castigándolo desde el suelo, siendo capaz de puntuar de esta manera para robarse el segundo y tercer asalto, al menos para 2 de los 3 jueces, que dieron como ganador a <b>Luis Gurule</b> por decisión dividida. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
