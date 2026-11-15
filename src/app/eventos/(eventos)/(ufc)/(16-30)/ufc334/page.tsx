@@ -36,6 +36,8 @@ export default function UFC334 () {
                     <p>Paliza total del luchador peruano <b>Juan Diaz</b> ante el chino <b>Alatengheili</b>, a quien golpeó y dominó desde todos los lados posibles, consiguiendo una meritoria victoria por decisión unánime en este segundo combate en la UFC, consiguiendo su victoria 17 en su carrera. </p>
                     <h2>Bia Mesquita Somete a Macy Chiasson en el Primer Asalto</h2>
                     <p>Primera finalización de la noche, con la brasileña <b>Bia Mesquita</b> siendo completamente protagonista, dominando a golpes a su rival, eventualmente logrando llevarla al suelo, y cuando parecía que estaba por noquearla en base a ground & pound, le tomó la espalda y conectó un mataleón que obligaría a su rival a tapear. De esta manera, la brasileña Bia Mesquita se lleva la victoria por sumisión en el primer asalto. </p>
+                    <h2>Melquizael Costa Derrota a Jared Gordon por Decisión Unánime</h2>
+                    <p>Gran victoria para el brasileño <b>Melquizael Costa</b>, quien luego de entrar al ranking de peso pluma, decidió subir de división y debuta con victoria en peso ligero, luego de dominar completamente al estadounidense <b>Jared Gordon</b>, durante el primer y tercer asalto, cuando fue capaz de lastimar a su oponente con esas patadas al cuerpo y cabeza, con un striking impredecible de muchos golpes que acabó por darle la victoria por decisión unánime. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Preliminares</h2>
                     <h2></h2>
                     <p></p> */}
