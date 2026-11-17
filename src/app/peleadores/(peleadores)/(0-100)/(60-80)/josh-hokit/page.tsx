@@ -24,14 +24,14 @@ export const metadata: Metadata = {
 export default function JoshHokit () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={10} l={0} d={0} categoria='Peso Pesado' nombre='Josh Hokit' apodo='The Incredible Hok' time='2026-10-09' />
+            <PeleadoresHero peleadoresImage={fighter} w={10} l={1} d={0} categoria='Peso Pesado' nombre='Josh Hokit' apodo='The Incredible Hok' time='2026-11-17' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>¿Quién es Josh Hokit?</h2>
                     <p className={styles.peleador__article__text}>Josh Hokit es un peleador de MMA estadounidense que compite en la división de peso pesado de la UFC. Destacando enormemente y de forma meteórica, hasta llegar a competir por el título de la UFC ante <Link href='/peleadores/ciryl-gane'>Ciryl Gane</Link> en su quinto combate en la compañía. </p>
                     <p className={styles.peleador__article__text}>Josh Hokit es un peleador extraño para la mayoría de aficionados de las MMA, especialmente fuera de camara y en ruedas de prensa, donde se muestra más como un personaje de WWE que el luchador promedio de UFC. Sin embargo, todo su personaje y todo lo hablado frente a cámaras ha sabido respaldarlo con actuaciones sobresalientes dentro del octágono, al punto en que probablemente sea el peleador más entretendio de ver actualmente en la división de peso pesado. </p>
                     <h2 className={styles.peleador__article__title}>Josh Hokit Récord</h2>
-                    <p className={styles.peleador__article__text}>Josh Hokit posee un récord profesional en MMA de 10-0. Con 6 de sus victorias siendo por la vía del nocaut, 3 siendo por la vía de la sumisión y apenas 1 siendo por decisión de los jueces. </p>
+                    <p className={styles.peleador__article__text}>Josh Hokit posee un récord profesional en MMA de 10-1. Con 6 de sus victorias siendo por la vía del nocaut, 3 siendo por la vía de la sumisión y apenas 1 siendo por decisión de los jueces. Mientras que su hasta ahora única derrota fue por decisión de los jueces. </p>
                     <h2 className={styles.peleador__article__title}>Josh Hokit Historia</h2>
                     <p className={styles.peleador__article__text}>Josh Seth Hokit nació el 12 de noviembre de 1997 en Bakersfield, California, Estados Unidos. Creció en un pequeño pueblo llamado Wasco hasta que entró a la secundaria, cuando su familia se mudó a Clovis, debido a que él junto a su hermano mayor comenzarían a entrenar en uno de los mejores programas de wrestling del país. </p>
                     <p className={styles.peleador__article__text}>Tanto Hokit como su hermano Isaiah, entrenaron desde muy pequeños en la lucha libre, por influencia de su padre, quien era un empresario fanático del deporte. </p>
