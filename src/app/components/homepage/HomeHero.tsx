@@ -12,7 +12,7 @@ export default function HomeHero () {
             <Link className={styles.homehero__bigArticle} href='/eventos/ufc-fight-night-prochazka-vs-stirling'>
                 <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={prochazkaStirling} alt='' />
                 <h2 className={styles.home__title}>UFC Qatar: ¡Jiri Prochazka vs Navajo Stirling! ¡Kevin Vallejos vs Aljamain Sterling!</h2>
-                <span>¡Dan Hooker vs Brian Ortega! ¡Aleksandre Topuria vs Santiago Luna!</span>
+                <span>¡Dan Hooker vs Brian Ortega! ¡Santiago Luna Derrota a Aleksandre Topuria por Decisión Dividida!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/articulos/merab-dvalishvili-cardio'>
                 <Image className={styles.homehero__article__img} quality={50} src={merabCardio} alt='' />
