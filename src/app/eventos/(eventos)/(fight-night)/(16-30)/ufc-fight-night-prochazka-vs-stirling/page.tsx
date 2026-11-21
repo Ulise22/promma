@@ -44,9 +44,9 @@ export default function ProchazkaStirling () {
                     <p>Buena victoria para el brasileño <b>Tallison Teixeira</b>, donde aunque no hubo excesiva acción, el de Brasil fue capaz de puntuar y lastimar más a su rival, especialmente con la gran cantidada de patadas al cuerpo que arrojó, que marcaban la distancia, dañabana y alejaban a su rival, evitando que este lo lastime en gran manera. De esta forma, Teixeira se lleva la victoria por decisión unánime.</p>
                     <h2>Santiago Luna Derrota a Aleksandre Topuria por Decisión Dividida</h2>
                     <p>Tremenda pelea para cerrar esta cartelera preliminar, donde el joven mexicano de 22 años <b>Santiago Luna</b> da la sorpresa al derrotar a hispano-georgiano <Link href='/peleadores/aleksandre-topuria'>Aleksandre Topuria</Link>, en un combate cerrado, con un primer asalto donde pese a que el mexicano conectó más golpes significantes, daba la sensación de que los golpes de Topuria hacían muchísimo más daño, al punto de conseguir un knockdown en este asalto. Luego, el segundo asalto fue claramente para el mexicano, quien conectó más golpes y demostró tener una mandibula de acero al permanecer de pie ante los brutales golpes de Alek, y finalmente en el tercer asalto, uno de los más parejos, fue Luna quien consiguió conectar más golpes, logrando convencer a 2 de los 3 jueces que la victoria era suya, obteniendo de esta forma la victoria por decisión dividida.</p>
-                    {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
-                    <h2></h2>
-                    <p></p> */}
+                    <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
+                    <h2>Ikram Aliskerov Derrota a Jared Cannonier por Decisión Unánime</h2>
+                    <p>Gran victoria para el luchador de Daguestán <b>Ikram Aliskerov</b>, quien a lo largo de 3 asaltos fue capaz de imponer su estilo, dominando con lucha al estadounidense <b>Jared Cannonier</b>, con la que amenzaba a someter en varias ocasiones, y con la que castigaba a golpes desde posiciones dominantes. De esta forma, Aliskerov se lleva la victoria por decisión unánime.</p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
