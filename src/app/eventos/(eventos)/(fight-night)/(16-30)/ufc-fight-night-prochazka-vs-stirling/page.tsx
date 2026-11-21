@@ -47,6 +47,8 @@ export default function ProchazkaStirling () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2>Ikram Aliskerov Derrota a Jared Cannonier por Decisión Unánime</h2>
                     <p>Gran victoria para el luchador de Daguestán <b>Ikram Aliskerov</b>, quien a lo largo de 3 asaltos fue capaz de imponer su estilo, dominando con lucha al estadounidense <b>Jared Cannonier</b>, con la que amenzaba a someter en varias ocasiones, y con la que castigaba a golpes desde posiciones dominantes. De esta forma, Aliskerov se lleva la victoria por decisión unánime.</p>
+                    <h2>Kyoji Horiguchi Derrota a Asu Almabayeb por Decisión Unánime</h2>
+                    <p>Gran victoria por parte del luchador japonés <b>Kyoji Horiguchi</b>, quien le puso un freno al ascenso imparable en la división del luchador de Kazajistán <b>Asu Almabayeb</b>, en un combate sin mucha acción. A pesar de que Almabayev conectó muchos derribos y mantuvo a ras de lona a su rival, Horiguchi aprovechó todo el momento en que estuvo de espalda al suelo o de espalda a la reja, para golpear a su rival, puntuando de esta forma, y amenazando a someter con una guillotina que intentó más de una vez, lo que generó que los jueces vieran al japonés como ganador de todos los asaltos. </p>
                     <EndArticle />
                 </article>
                 <AsideChamps />
