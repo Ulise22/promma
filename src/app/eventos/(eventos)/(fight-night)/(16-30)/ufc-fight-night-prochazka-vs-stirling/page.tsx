@@ -36,6 +36,8 @@ export default function ProchazkaStirling () {
                     <p>Brutal manera de finalizar por parte del kazajo <b>Diyar Nurgozhay</b>, quien luego de dominar completamente el primer asalto, inició el segundo con todo, conectando una patada a la cabeza, que solamente con rozar tumbó a su rival al suelo, necesitando de apenas unos pocos golpes para que el árbitro parara la pelea y lo diero como ganador por TKO en el segundo asalto. </p>
                     <h2>Dom Mar Fan Derrota a Nikolas Motta por Decisión Unánime</h2>
                     <p>Peleón el que acabamos de presenciar, con el australiano <b>Dom Mar Fan</b> siendo claramente superior durante el primer asalto, conectando una avalancha de golpes, con un dominio que provocó que su rival no le conectará ni un golpe durante el asalto. A pesar de que el brasileño <b>Nikolas Motta</b> fue capaza de igualar el combate en el segundo asalto, conectando golpes que podrían haber noqueado a su rival, finalmente terminó siendo avasallado por el de Australia, que acabó ganando cómodamente por decisión unánime este tercer combate de la velada. </p>
+                    <h2>Tahir Abdullayev Derrota a Jake Matthews por Decisión Unánime</h2>
+                    <p>Buena victoria para el luchador de Azerbaiyán <b>Tahir Abdullayev</b>, quien gracias a sus derribos, su lucha, y su control en el suelo, fue capaz de puntuar su camino hacia una victoria por decisión unánime de los jueces. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
