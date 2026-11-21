@@ -2,17 +2,17 @@ import Link from 'next/link'
 import styles from './homeHero.module.css'
 import Image from 'next/image'
 /* IMAGES */
-import ufc334 from '@/assets/eventos/ufc/0-150/16-30/ufc334.webp'
+import prochazkaStirling from '@/assets/eventos/fight-night/0-150/16-30/prochazka-vs-stirling.webp'
 import merabCardio from '@/assets/articulos/0-100/70-80/merab_dvalishvili-cardio.webp'
 import dvalishviliNariz from '@/assets/articulos/0-100/90-100/merab_dvalishvili-nariz.webp'
 
 export default function HomeHero () {
     return(
         <section className={styles.homehero}>
-            <Link className={styles.homehero__bigArticle} href='/eventos/ufc334'>
-                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={ufc334} alt='' />
-                <h2 className={styles.home__title}>UFC 334: ¡Ciryl Gane Derrota a Josh Hokit por Decisión Unánime en La Pelea de la Noche! ¡Kayla Harrison Somete a Amanda Nunes en el Cuarto Asalto y Sigue Siendo Campeona!</h2>
-                <span>¡Caio Borralho Derrota a Yousri Belgaroui por Decisión Unánime! ¡Uros Medic y Kevin Holland Empatan Por Decisión Mayoritaria!</span>
+            <Link className={styles.homehero__bigArticle} href='/eventos/ufc-fight-night-prochazka-vs-stirling'>
+                <Image className={styles.homehero__bigArticle__img} loading='eager' quality={75} src={prochazkaStirling} alt='' />
+                <h2 className={styles.home__title}>UFC Qatar: ¡Jiri Prochazka vs Navajo Stirling! ¡Kevin Vallejos vs Aljamain Sterling!</h2>
+                <span>¡Dan Hooker vs Brian Ortega! ¡Aleksandre Topuria vs Santiago Luna!</span>
             </Link>
             <Link className={`${styles.homehero__article} ${styles.normal2}`} href='/articulos/merab-dvalishvili-cardio'>
                 <Image className={styles.homehero__article__img} quality={50} src={merabCardio} alt='' />
