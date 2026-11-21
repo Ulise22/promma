@@ -24,14 +24,14 @@ export const metadata: Metadata = {
 export default function DanHooker () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={24} l={15} d={0} categoria='Peso Ligero' nombre='Dan Hooker' apodo='THE HANGMAN' time='2026-10-16' />
+            <PeleadoresHero peleadoresImage={fighter} w={25} l={15} d={0} categoria='Peso Ligero' nombre='Dan Hooker' apodo='THE HANGMAN' time='2026-11-21' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>¿Quién es Dan Hooker?</h2>
                     <p className={styles.peleador__article__text}>Dan Hooker es un peleador de MMA neozelandés, que compite en la división de peso ligero de la UFC. Es un peleador veterano que hace muchos años compite en la élite de la compañía, siendo de los más entretenidos de ver en el octágono, regalándonos combates memorables. </p>
                     <p className={styles.peleador__article__text}>Aunque suele pasar por rachas irregulares, intercalando victorias con derrotas, es sin dudas de los peleadores que más espectáculo da dentro del octágono, dadno peleas que aún viven en nuestra memoria como la que tuvo con <Link href='/peleadores/dustin-poirier'>Dustin Poirier</Link>. </p>
                     <h2 className={styles.peleador__article__title}>Dan Hooker Récord</h2>
-                    <p className={styles.peleador__article__text}>Dan Hooker posee un récord profesional en MMA de 24-5. Con 11 de sus victorias siendo por la vía del nocaut, 7 siendo por la vía de la sumisión y 6 siendo por decisión de los jueces. Mientras que de sus 15 derrotas, 5 fueron por la vía del nocaut, 4 por la vía de la sumisión y 6 por decisión. </p>
+                    <p className={styles.peleador__article__text}>Dan Hooker posee un récord profesional en MMA de 25-5. Con 11 de sus victorias siendo por la vía del nocaut, 7 siendo por la vía de la sumisión y 7 siendo por decisión de los jueces. Mientras que de sus 15 derrotas, 5 fueron por la vía del nocaut, 4 por la vía de la sumisión y 6 por decisión. </p>
                     <h2 className={styles.peleador__article__title}>Dan Hooker Historia</h2>
                     <p className={styles.peleador__article__text}>Dan Preston Hooker nació el 13 de febrero de 1990 en Auckland, Nueva Zelanda. Creció jugando al rugby, siguiendo el ejemplo de su abuelo, queriendo seguir sus pasos, que había jugado en la rugby league, ya que le encantaba el aspecto físico del juego, los tackles, el contacto y la muestra de hombría que el deporte representaba. </p>
                     <p className={styles.peleador__article__text}>Luego de finalizar la secundaria consideró unirse al ejército, aunque descartó la idea al observar que Nueva Zelanda no estaba en guerra, ni solía participar en conflictos militares, por lo que no le vió el sentido. Finalmente, el punto de inflexión en su vida llegó cuando un amigo lo invitó a verlo pelear en su primer combate de MMA (años más tarde, ese amigo se convertiría en campeón en Nueva Zelanda en peso pesado), aquella pelea terminaría en victoria por nocaut a favor de su amigo en 10-20 segundos, la multitud explotó y Dan sintió una adrenalina que nunca había experimentado en el rugby. </p>

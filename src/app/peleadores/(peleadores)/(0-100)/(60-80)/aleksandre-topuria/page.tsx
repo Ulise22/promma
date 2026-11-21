@@ -24,14 +24,14 @@ export const metadata: Metadata = {
 export default function AleksandreTopuria () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={7} l={1} d={0} categoria='Peso Gallo' nombre='Aleksandre Topuria' apodo='El Conquistador' time='2026-10-08' />
+            <PeleadoresHero peleadoresImage={fighter} w={7} l={2} d={0} categoria='Peso Gallo' nombre='Aleksandre Topuria' apodo='El Conquistador' time='2026-11-21' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>¿Quién es Aleksandre Topuria?</h2>
                     <p className={styles.peleador__article__text}>Aleksandre Topuria es un peleador de MMA hispano-georgiano que compite en la división de peso gallo de la UFC, siendo en estos momentos uno de los mayores prospectos de la división, con un boxeo sólido con el que domina constantemente a sus rivales. </p>
                     <p className={styles.peleador__article__text}>Por ahora es más conocido por ser el hermano mayor de <Link href="/peleadores/ilia-topuria">Ilia Topuria</Link>, excampeón de peso pluma y peso ligero, siendo una pieza clave en el desarrollo de la carrera de su hermano. Pero desde su llegada a la UFC ha demostrado ser un peleador muy prometedor, que está en la compañía por mérito propio y que apunta a hacerse un nombre más allá de su reputación familiar. </p>
                     <h2 className={styles.peleador__article__title}>Aleksandre Topuria Récord</h2>
-                    <p className={styles.peleador__article__text}>Aleksandre Topuria posee un récord profesional en MMA de 7-1. Con 3 de sus victorias siendo por la vía del nocaut, 2 siendo por la vía de la sumisión y 2 siendo por decisión de los jueces. Mientras que su hasta ahora única derrota fue por la vía del nocaut. </p>
+                    <p className={styles.peleador__article__text}>Aleksandre Topuria posee un récord profesional en MMA de 7-2. Con 3 de sus victorias siendo por la vía del nocaut, 2 siendo por la vía de la sumisión y 2 siendo por decisión de los jueces. Mientras que de sus derrotas 1 fue por la vía del nocaut y 1 por decisión de los jueces. </p>
                     <h2 className={styles.peleador__article__title}>Aleksandre Topuria Historia</h2>
                     <p className={styles.peleador__article__text}>Aleksandre Topuria Bendeliani, nació el 28 de enero de 1996 en Halle, Alemania. Sus padres son georgianos que debido a los conflictos étnicos en Abjasia en los años 90, emigraron y encontraron refugio en Alemania, donde nacieron tanto Aleksandre como su hermano menor Ilia. </p>
                     <p className={styles.peleador__article__text}>Cuando Aleksandre cumplió 8 años, la familia Topuria se mudó de vuelta a Georgia, donde vivieron unos años duros, debido a la inestabilidad del país y el inicio de la guerra con Rusia en 2008. Finalmente, el 2012, cuando nuestro protagonista tenía 12 años, emigraron a Alicante, España, en busqueda de un futuro mejor, encontrando un hogar en el país que adoptarían como propio. </p>

@@ -23,14 +23,14 @@ export const metadata: Metadata = {
 export default function KevinVallejos () {
     return(
         <main>
-            <PeleadoresHero peleadoresImage={fighter} w={17} l={1} d={0} categoria='Peso Pluma' nombre='Kevin Vallejos' apodo={null} time='2026-01-22' />
+            <PeleadoresHero peleadoresImage={fighter} w={18} l={1} d={0} categoria='Peso Pluma' nombre='Kevin Vallejos' apodo={null} time='2026-11-21' />
             <section className={styles.peleador__articles__container}>
                 <article className={styles.peleador__article}>
                     <h2 className={styles.peleador__article__title}>Kevin Vallejos MMA</h2>
                     <p className={styles.peleador__article__text}>Kevin Vallejos es un peleador argentino de MMA que compite en la división de peso pluma de la UFC, desde que se ganara su contrato en septiembre de 2024, al participar del <Link href='/eventos/dana-white-contender-series-que-es'>Dana White Contender Series</Link> y lograr un victoria por nocaut que impresionaría a Dana White. </p>
                     <p className={styles.peleador__article__text}>Es un peleador que viene teniendo un ascenso meteórico, siendo aún muy joven pero peleando seguido y dando espectáculo en cada combate, siendo protagonista de peleones y obteniendo varias finalizaciones en sus peleas, a menudo siendo comparado con <Link href='/peleadores/ilia-topuria'>Ilia Topuria</Link>, por la división en la que compite y por su estilo de pelea tan similar, al menos en el striking. </p>
                     <h2 className={styles.peleador__article__title}>Kevin Vallejos Récord</h2>
-                    <p className={styles.peleador__article__text}>Kevin Vallejos posee un récord profesional en MMA de 17-1. Con 12 de sus victorias proviniendo por la vía del nocaut, con 2 siendo por sumisión y 3 por decisión. Mientras que su hasta ahora única derrota vino por en una decisión.</p>
+                    <p className={styles.peleador__article__text}>Kevin Vallejos posee un récord profesional en MMA de 18-1. Con 12 de sus victorias proviniendo por la vía del nocaut, con 2 siendo por sumisión y 4 por decisión. Mientras que su hasta ahora única derrota vino por en una decisión.</p>
                     <h2 className={styles.peleador__article__title}>Kevin Vallejos Historia</h2>
                     <p className={styles.peleador__article__text}>Kevin &quot;El Chino&quot; Vallejos nació el 8 de diciembre de 2001 en Mar del Plata, Argentina. Tuvo una infancia bastante tranquila y normal para lo que es la vida en Argentina, creciendo en una familia humilde y con ambos padres presentes en su vida. El Chino era un estudiante de secundaria cuando a los 16 años le dió por comenzar a entrenar artes marciales como hobby, agarrándole el gusto y dedicándose cada vez más en serio al deporte. </p>
                     <p className={styles.peleador__article__text}>Cada vez sintió un mayor gusto por el deporte y por la pelea en sí, sintiéndose atraído especialmente por el striking (con el boxeo siendo su base). De esta manera, lo que empezó como una curiosidad adolescente, se terminaría convirtiendo en una carrera poco a poco, comenzando a tener peleas amateur, donde pronto destacaría como un joven talentoso, al acumular un récord invicto de 14-0, hasta que daría el salto profesional. </p>
