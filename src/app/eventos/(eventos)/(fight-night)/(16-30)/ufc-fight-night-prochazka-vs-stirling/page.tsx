@@ -40,6 +40,8 @@ export default function ProchazkaStirling () {
                     <p>Buena victoria para el luchador de Azerbaiyán <b>Tahir Abdullayev</b>, quien gracias a sus derribos, su lucha, y su control en el suelo, fue capaz de puntuar su camino hacia una victoria por decisión unánime de los jueces. </p>
                     <h2>Amir Albazi Somete a Alessandro Costa en el Tercer Asalto</h2>
                     <p>Espectacular victoria del irakí <b>Amir Albazi</b>, quien pese a ser superior en el primer asalto, sufrió un montón durante el segundo, estando a punto de ser noqueado y recibiendo una gran cantidad de golpes cortesía de su rival brasileño <b>Alessandro Costa</b>. Aún así, en el tercer y último asalto, fue capaz de tomar la espalda de su contrincante, para conectar un mataleón que obligaría al de Brasil a tapear, ganando de esta manera el combate por sumisión en el tercer asalto. </p>
+                    <h2>Tallison Teixeira Derrota a Shamil Gaziev por Decisión Unánime</h2>
+                    <p>Buena victoria para el brasileño <b>Tallison Teixeira</b>, donde aunque no hubo excesiva acción, el de Brasil fue capaz de puntuar y lastimar más a su rival, especialmente con la gran cantidada de patadas al cuerpo que arrojó, que marcaban la distancia, dañabana y alejaban a su rival, evitando que este lo lastime en gran manera. De esta forma, Teixeira se lleva la victoria por decisión unánime.</p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
