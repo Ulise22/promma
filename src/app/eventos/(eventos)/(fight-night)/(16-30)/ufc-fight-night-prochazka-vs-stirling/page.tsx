@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: 'UFC Qatar: ¡Jiri Prochazka vs Navajo Stirling! ¡Kevin Vallejos vs Aljamain Sterling!',
     description: 'Noche de UFC en Qatar, con Jiri Prochazka enfrentando a Navajo Stirling en la pelea estelar, y Kevin Vallejos enfrentando a Aljamain Sterling en la coestelar.',
     openGraph: {
-        images: '',
+        images: 'https://fullmma.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprochazka-vs-stirling.1f0f1d2a.webp&w=828&q=65',
         title: 'UFC Qatar: ¡Jiri Prochazka vs Navajo Stirling! ¡Kevin Vallejos vs Aljamain Sterling!',
         description: 'Noche de UFC en Qatar, con Jiri Prochazka enfrentando a Navajo Stirling en la pelea estelar, y Kevin Vallejos enfrentando a Aljamain Sterling en la coestelar.',
         url: 'https://fullmma.org/eventos/ufc-fight-night-prochazka-vs-stirling',
