@@ -38,6 +38,8 @@ export default function ProchazkaStirling () {
                     <p>Peleón el que acabamos de presenciar, con el australiano <b>Dom Mar Fan</b> siendo claramente superior durante el primer asalto, conectando una avalancha de golpes, con un dominio que provocó que su rival no le conectará ni un golpe durante el asalto. A pesar de que el brasileño <b>Nikolas Motta</b> fue capaza de igualar el combate en el segundo asalto, conectando golpes que podrían haber noqueado a su rival, finalmente terminó siendo avasallado por el de Australia, que acabó ganando cómodamente por decisión unánime este tercer combate de la velada. </p>
                     <h2>Tahir Abdullayev Derrota a Jake Matthews por Decisión Unánime</h2>
                     <p>Buena victoria para el luchador de Azerbaiyán <b>Tahir Abdullayev</b>, quien gracias a sus derribos, su lucha, y su control en el suelo, fue capaz de puntuar su camino hacia una victoria por decisión unánime de los jueces. </p>
+                    <h2>Amir Albazi Somete a Alessandro Costa en el Tercer Asalto</h2>
+                    <p>Espectacular victoria del irakí <b>Amir Albazi</b>, quien pese a ser superior en el primer asalto, sufrió un montón durante el segundo, estando a punto de ser noqueado y recibiendo una gran cantidad de golpes cortesía de su rival brasileño <b>Alessandro Costa</b>. Aún así, en el tercer y último asalto, fue capaz de tomar la espalda de su contrincante, para conectar un mataleón que obligaría al de Brasil a tapear, ganando de esta manera el combate por sumisión en el tercer asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
