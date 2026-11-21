@@ -32,6 +32,8 @@ export default function ProchazkaStirling () {
                     <h2 className={styles.article__fightsHierarchy}>Cartelera Preliminar</h2>
                     <h2>John Mitchell Noquea a Shoaib Yousaf en el Primer Asalto</h2>
                     <p>Debut de ensueño para el irlandés <b>John Mitchell</b>, quien en su primer pelea en la UFC ya consiguió una victoria espectacular por la vía del nocaut en el primer asalto, luego de conectar un rodillazo en la cabeza de su rival inglés <b>Shoaib Yousaf</b>, para abrir la cartelera de la mejor manera. </p>
+                    <h2>Diyar Nurgozhay Noquea a Alik Lorenz en el Segundo Asalto</h2>
+                    <p>Brutal manera de finalizar por parte del kazajo <b>Diyar Nurgozhay</b>, quien luego de dominar completamente el primer asalto, inició el segundo con todo, conectando una patada a la cabeza, que solamente con rozar tumbó a su rival al suelo, necesitando de apenas unos pocos golpes para que el árbitro parara la pelea y lo diero como ganador por TKO en el segundo asalto. </p>
                     {/* <h2 className={styles.article__fightsHierarchy}>Cartelera Estelar</h2>
                     <h2></h2>
                     <p></p> */}
